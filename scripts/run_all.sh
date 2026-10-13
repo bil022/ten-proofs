@@ -8,7 +8,7 @@
 # For each line "<Module> <root declaration>" of roots.tsv this writes, named
 # after the last component of the root:
 #   modules/<Module>.dot, .decls.tsv   full graph and source positions of the module
-#   en/dot, en/svg, en/pdf             theorem-only dependency graph of the root
+#   en/dot, en/svg, en/pdf, en/png     theorem-only dependency graph of the root
 #   lean/<root>.lean, .log             what the root needs, as its own Lean file,
 #                                      and its compile output
 # scripts/zh_all.sh then adds the Chinese-labelled graphs under zh/.
@@ -21,7 +21,7 @@ GV="$HOME/miniconda3/envs/graphviz/bin"
 [ -d "$GV" ] && PATH="$GV:$PATH"
 only="${1:-}"
 S=scripts
-mkdir -p $S/modules $S/en/dot $S/en/svg $S/en/pdf $S/lean
+mkdir -p $S/modules $S/en/dot $S/en/svg $S/en/pdf $S/en/png $S/lean
 
 roots() { awk -v m="$only" 'NF == 2 && (m == "" || $1 == m)' $S/roots.tsv; }
 [ -n "$(roots)" ] || { echo "no theorem of '$only' in $S/roots.tsv" >&2; exit 1; }
@@ -37,7 +37,8 @@ roots | while read -r mod root; do
 done
 roots | awk '{n = split($2, a, "."); print a[n]}' | xargs -P 8 -I{} sh -c \
   "dot -Tsvg $S/en/dot/{}.dot -o $S/en/svg/{}.svg &&
-   rsvg-convert -f pdf --unlimited -o $S/en/pdf/{}.pdf $S/en/svg/{}.svg"
+   rsvg-convert -f pdf --unlimited -o $S/en/pdf/{}.pdf $S/en/svg/{}.svg &&
+   $S/svg2png.sh $S/en/svg/{}.svg $S/en/png/{}.png"
 
 # 3. Standalone Lean file for each main theorem, compiled as a completeness check.
 roots | xargs -P 6 -L 1 python3 $S/check.py

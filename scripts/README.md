@@ -85,12 +85,16 @@ browser's search to find a theorem by name.
 
 | Folder | Contents |
 |---|---|
-| `en/svg`, `en/pdf` | The graphs, with the original theorem names. |
+| `en/svg`, `en/pdf`, `en/png` | The graphs, with the original theorem names. |
 | `en/dot` | The same graphs in Graphviz DOT format. |
-| `zh/svg`, `zh/pdf`, `zh/dot` | The graphs with a Chinese label above each name. |
+| `zh/svg`, `zh/pdf`, `zh/png`, `zh/dot` | The graphs with a Chinese label above each name. |
 | `zh/names` | The Chinese label of every theorem, one table per graph. |
 | `lean` | For each main theorem, a Lean file with only what it needs, plus the compile log. |
 | `modules` | The full dependency graph and source line numbers of each Lean file. |
+
+The PNGs are at most 8,000 pixels on the longer side. That keeps the text
+legible in the four small graphs; the eight large ones are scaled down so far
+that the PNG only shows the overall shape, and the SVG is the one to read.
 
 `en/svg/MulticolorTriangleRamsey.svg` is the one whole-file graph, with
 definitions (green) as well as theorems (blue).
@@ -139,5 +143,6 @@ A full run takes about an hour, most of it laying out the `GapCVP` graph.
 | `cone.py` | Cuts the full graph down to one theorem's dependencies. |
 | `extract.py` | Writes a Lean file containing only what a theorem needs. |
 | `check.py` | Runs the extraction, compiles the result, retries if a lemma must be added back. |
+| `svg2png.sh` | Renders an SVG to PNG, at most 8,000 pixels on the longer side. |
 | `run_all.sh` | Runs all of the above for every main theorem. |
 | `zh_gloss.py`, `zh_labels.py`, `zh_all.sh` | Build the Chinese-labelled graphs. |

@@ -77,12 +77,15 @@ two_is_pos ─ ─ ─ ▶ myTwo_ne_zero    虚线（经过定义 myTwo）
 
 | 文件夹 | 内容 |
 |---|---|
-| `en/svg`、`en/pdf` | 依赖图，使用原始的定理名。 |
+| `en/svg`、`en/pdf`、`en/png` | 依赖图，使用原始的定理名。 |
 | `en/dot` | 同样的图，Graphviz DOT 格式。 |
-| `zh/svg`、`zh/pdf`、`zh/dot` | 每个名字上方加了中文标签的图。 |
+| `zh/svg`、`zh/pdf`、`zh/png`、`zh/dot` | 每个名字上方加了中文标签的图。 |
 | `zh/names` | 每个定理的中文标签，每张图一个表。 |
 | `lean` | 每个主定理对应一个只包含它所需内容的 Lean 文件，以及编译日志。 |
 | `modules` | 每个 Lean 文件的完整依赖图和源码行号。 |
+
+PNG 的长边最多 8,000 像素。四张小图在这个尺寸下文字清晰可读；八张大图被缩得很小，
+PNG 只能看出整体形状，要看内容请用 SVG。
 
 `en/svg/MulticolorTriangleRamsey.svg` 是唯一一张整文件图，定理（蓝色）和定义
 （绿色）都画了出来。
@@ -128,5 +131,6 @@ conda create -n graphviz --override-channels -c conda-forge graphviz font-ttf-no
 | `cone.py` | 把完整的图裁剪到某一个定理的依赖。 |
 | `extract.py` | 生成只包含某个定理所需内容的 Lean 文件。 |
 | `check.py` | 执行提取并编译结果，如果有引理需要加回就重试。 |
+| `svg2png.sh` | 把 SVG 渲染成 PNG，长边最多 8,000 像素。 |
 | `run_all.sh` | 对每个主定理执行以上全部步骤。 |
 | `zh_gloss.py`、`zh_labels.py`、`zh_all.sh` | 生成带中文标签的图。 |
