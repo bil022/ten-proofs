@@ -1,0 +1,2 @@
+'CompactnessConjecture.quantitativeCompactnessCounterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit 0 after 119s

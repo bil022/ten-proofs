@@ -1,0 +1,1648 @@
+CohnElkies.Admissible.fourier_nonneg	Cohn Elkies · 容许 · 傅里叶 非负
+CohnElkies.admissible_zero_pos	Cohn Elkies · 容许 零 正
+fullQuotient_radialToFull	完整商 径向到完整
+CohnElkies.Admissible.fourier_real	Cohn Elkies · 容许 · 傅里叶 实
+CohnElkies.balancedFunction_fourier_real	Cohn Elkies · 平衡函数 傅里叶 实
+CohnElkies.balancedFunction_fourier_zero	Cohn Elkies · 平衡函数 傅里叶 零
+CohnElkies.Admissible.fourier_zero_pos	Cohn Elkies · 容许 · 傅里叶 零 正
+CohnElkies.Admissible.outside_nonpos	Cohn Elkies · 容许 · 外部 非正
+CohnElkies.balancedFunction_outside_nonpos	Cohn Elkies · 平衡函数 外部 非正
+CohnElkies.Admissible.radial	Cohn Elkies · 容许 · 径向
+CohnElkies.balancedFunction_radial	Cohn Elkies · 平衡函数 径向
+CohnElkies.Admissible.real	Cohn Elkies · 容许 · 实
+CohnElkies.balancedFunction_real	Cohn Elkies · 平衡函数 实
+CohnElkies.AntiFourierWitness.anti_fourier	Cohn Elkies · 反傅里叶见证 · 反 傅里叶
+CohnElkies.antiFourierWitness_normalizedMellinStrip_bottom_norm_le_gamma	Cohn Elkies · 反傅里叶见证 归一化 Mellin 带形 底 范数 ≤ Γ
+CohnElkies.antiFourierWitness_normalizedRadialLogProfile	Cohn Elkies · 反傅里叶见证 归一化径向对数轮廓
+CohnElkies.normalizedCost_ge_of_no_antiFourierWitness	Cohn Elkies · 归一化代价 ≥ 由 无 反傅里叶见证
+CohnElkies.AntiFourierWitness.eventually_nonneg	Cohn Elkies · 反傅里叶见证 · 最终 非负
+CohnElkies.AntiFourierWitness.nonzero	Cohn Elkies · 反傅里叶见证 · 非零
+CohnElkies.antiFourierWitness_normalizedMellinStrip_top_norm_le_one	Cohn Elkies · 反傅里叶见证 归一化 Mellin 带形 ⊤ 范数 ≤ 一
+CohnElkies.AntiFourierWitness.radial	Cohn Elkies · 反傅里叶见证 · 径向
+CohnElkies.antiFourierWitness_normalizedMellinStrip_diffContOnCl	Cohn Elkies · 反傅里叶见证 归一化 Mellin 带形 差连续在…上 Cl
+CohnElkies.antiFourierWitness_normalizedMellinStrip_shifted_fourier_inversion	Cohn Elkies · 反傅里叶见证 归一化 Mellin 带形 平移 傅里叶 反演
+CohnElkies.antiFourierWitness_normalizedMellinStrip_uniform_bound	Cohn Elkies · 反傅里叶见证 归一化 Mellin 带形 一致 界
+CohnElkies.AntiFourierWitness.real	Cohn Elkies · 反傅里叶见证 · 实
+CohnElkies.antiFourierWitness_normalizedMellinStrip_shifted_integrable	Cohn Elkies · 反傅里叶见证 归一化 Mellin 带形 平移 可积
+CohnElkies.AntiFourierWitness.zero_value	Cohn Elkies · 反傅里叶见证 · 零 值
+CohnElkies.IsRadial.dilate	Cohn Elkies · 是径向 · 伸缩
+CohnElkies.saddleSourceAdmissible_function	Cohn Elkies · 鞍点源容许 函数
+CohnElkies.IsRadial.even	Cohn Elkies · 是径向 · 偶
+CohnElkies.fourier_sq_of_radial	Cohn Elkies · 傅里叶 平方 由 径向
+CohnElkies.IsRadial.fourier	Cohn Elkies · 是径向 · 傅里叶
+CohnElkies.IsRealValued.fourier_of_radial	Cohn Elkies · 是实值 · 傅里叶 由 径向
+CohnElkies.fourier_radialAutocorrelation_radial	Cohn Elkies · 傅里叶 径向自相关 径向
+CohnElkies.IsRealValued.dilate	Cohn Elkies · 是实值 · 伸缩
+CohnElkies.fourier_radialFlatBump_real	Cohn Elkies · 傅里叶 径向平坦隆起函数 实
+CohnElkies.OrderedEpsilonUpperConstruction.admissibleWitness	Cohn Elkies · 有序ε上构造 · 容许见证
+CohnElkies.constructivePrimal_of_orderedEpsilon	Cohn Elkies · 构造性原始 由 有序ε
+CohnElkies.OrderedEpsilonUpperConstruction.epsilonBound_pos	Cohn Elkies · 有序ε上构造 · ε界 正
+CohnElkies.OrderedEpsilonUpperConstruction.limitingRadius_tendsto	Cohn Elkies · 有序ε上构造 · 极限半径 趋于
+CohnElkies.OrderedEpsilonUpperConstruction.normalizedRadius_tendsto	Cohn Elkies · 有序ε上构造 · 归一化半径 趋于
+CohnElkies.SharpCohnElkiesManuscriptConclusions.base_two_decimal_certificate	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 基 二 十进制 证书
+SharpFullCohnElkiesManuscriptConclusions.ofRadial	精确完整 Cohn Elkies 手稿结论 · 由径向
+CohnElkies.SharpCohnElkiesManuscriptConclusions.base_two_exponent_positive	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 基 二 指数 正
+CohnElkies.SharpCohnElkiesManuscriptConclusions.base_two_logarithmic_rate	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 基 二 对数 码率
+CohnElkies.SharpCohnElkiesManuscriptConclusions.base_two_vanishing_exponential_error	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 基 二 消失 指数 误差
+CohnElkies.SharpCohnElkiesManuscriptConclusions.linear_program_root	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 线性 程序 根
+CohnElkies.SharpCohnElkiesManuscriptConclusions.natural_logarithmic_rate	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 自然 对数 码率
+CohnElkies.SharpCohnElkiesManuscriptConclusions.natural_vanishing_exponential_error	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 自然 消失 指数 误差
+CohnElkies.SharpCohnElkiesManuscriptConclusions.root_before_infimum	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 根 之前 下确界
+CohnElkies.SharpCohnElkiesManuscriptConclusions.root_before_infimum_vanishing_error	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 根 之前 下确界 消失 误差
+CohnElkies.SharpCohnElkiesManuscriptConclusions.universal_nonnegative_delta	Cohn Elkies · 精确 Cohn Elkies 手稿结论 · 泛 非负 δ
+CohnElkies.abs_exp_sub_one_le_abs_mul_exp_abs	Cohn Elkies · 绝对值 指数函数 − 一 ≤ 绝对值 × 指数函数 绝对值
+CohnElkies.exists_saddleSmallRadiusStar_coordinate_bound	Cohn Elkies · 存在 鞍点小半径星 坐标 界
+CohnElkies.plusSaddleSmallRadiusCoefficient_error_of_phase	Cohn Elkies · 加鞍点小半径系数 误差 由 相位
+CohnElkies.abs_lowerEndpointPhase_le	Cohn Elkies · 绝对值 下端点相位 ≤
+CohnElkies.stripPoissonExponentialMajorant_mul_lowerEndpointPhase_integrable	Cohn Elkies · 带形 Poisson 指数控制函数 × 下端点相位 可积
+CohnElkies.abs_normalizedRadialLogProfile	Cohn Elkies · 绝对值 归一化径向对数轮廓
+CohnElkies.integral_abs_normalizedRadialLogProfile	Cohn Elkies · 积分 绝对值 归一化径向对数轮廓
+CohnElkies.abs_realOscillatoryShellPhase_le	Cohn Elkies · 绝对值 实振荡壳相位 ≤
+CohnElkies.norm_saddleShellExponential_le	Cohn Elkies · 范数 鞍点壳指数 ≤
+CohnElkies.abs_sinc_le_twentyfour_twentyfive	Cohn Elkies · 绝对值 sinc ≤ 二十四 二十五
+CohnElkies.sinc_explicit	Cohn Elkies · sinc 显式
+CohnElkies.abs_sub_eq_two_profileNegativePart	Cohn Elkies · 绝对值 − = 二 轮廓负部分
+CohnElkies.integral_profileNegativePart_eq_half	Cohn Elkies · 积分 轮廓负部分 = 一半
+CohnElkies.admissible_nonempty	Cohn Elkies · 容许 非空
+CohnElkies.linearProgram_root_eq_geometric_mul_normalizedProgram_unconditional	Cohn Elkies · 线性程序 根 = 几何 × 归一化程序 无条件
+CohnElkies.manuscriptQuotientRootInf_eq	Cohn Elkies · 手稿商根下确界 =
+CohnElkies.normalizedProgram_eq_quotientInf_root_unconditional	Cohn Elkies · 归一化程序 = 商下确界 根 无条件
+CohnElkies.quotientInf_nonneg_unconditional	Cohn Elkies · 商下确界 非负 无条件
+CohnElkies.balancingScale_inv_eq_quotient_rpow	Cohn Elkies · 平衡尺度 逆 = 商 实幂
+CohnElkies.balancingScale_pos	Cohn Elkies · 平衡尺度 正
+CohnElkies.balancingScale_pow	Cohn Elkies · 平衡尺度 幂
+CohnElkies.quotient_pos	Cohn Elkies · 商 正
+CohnElkies.analytic_eq_zero_of_imaginary_ray	Cohn Elkies · 解析 = 零 由 虚 射线
+CohnElkies.nonnegative_compact_fourier_fixed_eq_zero	Cohn Elkies · 非负 紧 傅里叶 固定 = 零
+CohnElkies.antiFourierPart_nonneg_of_signs	Cohn Elkies · 反傅里叶部分 非负 由 符号
+CohnElkies.balancedAntiFourierPart_nonneg	Cohn Elkies · 平衡反傅里叶部分 非负
+CohnElkies.antiFourierPart_zero	Cohn Elkies · 反傅里叶部分 零
+CohnElkies.balancedAntiFourierPart_zero	Cohn Elkies · 平衡反傅里叶部分 零
+CohnElkies.antiFourierWitness_cappedWeightedMellinStrip_growth	Cohn Elkies · 反傅里叶见证 封顶加权 Mellin 带形 增长
+CohnElkies.antiFourierWitness_capped_poisson_majorization_of_real_extension	Cohn Elkies · 反傅里叶见证 封顶 poisson 优超 由 实 扩张
+CohnElkies.exists_antiFourierWitness_capped_poisson_majorization	Cohn Elkies · 存在 反傅里叶见证 封顶 poisson 优超
+CohnElkies.antiFourierWitness_interiorMellinL1_le_of_integrable_majorant	Cohn Elkies · 反傅里叶见证 内部 Mellin L 1 ≤ 由 可积 控制函数
+CohnElkies.uniformAntiFourierSignRadius_of_poisson_majorization	Cohn Elkies · 一致反傅里叶符号半径 由 poisson 优超
+CohnElkies.antiFourierWitness_norm_le_poisson_of_eventually_capped_radius	Cohn Elkies · 反傅里叶见证 范数 ≤ poisson 由 最终 封顶 半径
+CohnElkies.uniformAntiFourierSignRadius_of_capped_poisson_majorization	Cohn Elkies · 一致反傅里叶符号半径 由 封顶 poisson 优超
+CohnElkies.exists_antiFourierWitness_eventually_capped_bottom_majorant	Cohn Elkies · 存在 反傅里叶见证 最终 封顶 底 控制函数
+CohnElkies.no_antiFourierWitness_of_shiftedMellinL1_lt_half	Cohn Elkies · 无 反傅里叶见证 由 平移 Mellin L 1 < 一半
+CohnElkies.no_antiFourierWitness_of_fourierInversion_lt_half	Cohn Elkies · 无 反傅里叶见证 由 傅里叶反演 < 一半
+CohnElkies.balancedAntiFourierPart_eq_zero_iff	Cohn Elkies · 平衡反傅里叶部分 = 零 ⇔
+CohnElkies.balancedFunction_support_subset_of_anti_zero	Cohn Elkies · 平衡函数 支撑 子集 由 反 零
+CohnElkies.balancedAntiFourierPart_ne_zero	Cohn Elkies · 平衡反傅里叶部分 ≠ 零
+CohnElkies.balancedAntiFourierPart_radial	Cohn Elkies · 平衡反傅里叶部分 径向
+CohnElkies.balancedAntiFourierPart_real	Cohn Elkies · 平衡反傅里叶部分 实
+CohnElkies.balancedFunction_apply	Cohn Elkies · 平衡函数 作用于
+CohnElkies.balancedFunction_fourier_nonneg	Cohn Elkies · 平衡函数 傅里叶 非负
+CohnElkies.balancedFunction_fourier_radial	Cohn Elkies · 平衡函数 傅里叶 径向
+CohnElkies.balancedFunction_hasCompactSupport_of_anti_zero	Cohn Elkies · 平衡函数 有紧支撑 由 反 零
+CohnElkies.fourier_balancedAntiFourierPart	Cohn Elkies · 傅里叶 平衡反傅里叶部分
+CohnElkies.balancingScale_inv_eq_normalizedCost_mul_sqrt	Cohn Elkies · 平衡尺度 逆 = 归一化代价 × 平方根
+CohnElkies.baseTwo_log_four_div_pi_gt_d36	Cohn Elkies · 基二 对数 四 ÷ π > d 36
+CohnElkies.criticalBinaryExponent_lt_d33	Cohn Elkies · 临界二元指数 < d 33
+CohnElkies.baseTwo_log_four_div_pi_lt_d36	Cohn Elkies · 基二 对数 四 ÷ π < d 36
+CohnElkies.criticalBinaryExponent_gt_d33	Cohn Elkies · 临界二元指数 > d 33
+CohnElkies.baseTwo_log_two_gt_d36	Cohn Elkies · 基二 对数 二 > d 36
+CohnElkies.baseTwo_log_two_lt_d36	Cohn Elkies · 基二 对数 二 < d 36
+CohnElkies.beta_pos	Cohn Elkies · β 正
+CohnElkies.minusPolynomial_imaginary_norm_ge_three_beta	Cohn Elkies · 减多项式 虚 范数 ≥ 三 β
+CohnElkies.plusPolynomial_imaginary_norm_ge_beta	Cohn Elkies · 加多项式 虚 范数 ≥ β
+CohnElkies.plusPolynomial_imaginary_re_pos	Cohn Elkies · 加多项式 虚 实部 正
+CohnElkies.plusSaddlePoleResidue_mul_pow_eq_smallCoefficient	Cohn Elkies · 加鞍点极点留数 × 幂 = 小系数
+CohnElkies.plusSaddleSmallRadiusPolynomial_error	Cohn Elkies · 加鞍点小半径多项式 误差
+CohnElkies.saddleNegativeContour_normalizedMajorant_eq	Cohn Elkies · 鞍点负围道 归一化控制函数 =
+CohnElkies.saddleNegativeRelativeCoefficient_nonneg	Cohn Elkies · 鞍点负相对系数 非负
+CohnElkies.saddleOriginValue_pos	Cohn Elkies · 鞍点原点值 正
+CohnElkies.complexDigamma_continuousOn_positiveHalfPlane	Cohn Elkies · 复 Digamma 连续在…上 正一半平面
+CohnElkies.saddleDigamma_continuousOn_Ioi	Cohn Elkies · 鞍点 Digamma 连续在…上 左开无穷区间
+CohnElkies.complexFrullaniKernel_integrable	Cohn Elkies · 复 Frullani 核 可积
+CohnElkies.complexFrullaniShiftParameter_integrable	Cohn Elkies · 复 Frullani 平移参数 可积
+CohnElkies.integral_upperCenteredLaplaceKernel	Cohn Elkies · 积分 上中心化 Laplace 核
+CohnElkies.integral_upperCosLaplaceKernel	Cohn Elkies · 积分 上余弦 Laplace 核
+CohnElkies.upperCenteredLaplaceKernel_integrable	Cohn Elkies · 上中心化 Laplace 核 可积
+CohnElkies.upperCosLaplaceKernel_integrable	Cohn Elkies · 上余弦 Laplace 核 可积
+CohnElkies.complexFrullaniKernel_norm_le_exp	Cohn Elkies · 复 Frullani 核 范数 ≤ 指数函数
+CohnElkies.complexFrullaniShiftKernel_norm_le_exp	Cohn Elkies · 复 Frullani 平移核 范数 ≤ 指数函数
+CohnElkies.complexFrullaniParameter_integrable	Cohn Elkies · 复 Frullani 参数 可积
+CohnElkies.integral_complexFrullaniKernel	Cohn Elkies · 积分 复 Frullani 核
+CohnElkies.complexFrullaniSegment_hasDerivAt	Cohn Elkies · 复 Frullani 线段 有导数在
+CohnElkies.intervalIntegral_complexFrullaniLogDerivative	Cohn Elkies · 区间积分 复 Frullani 对数导数
+CohnElkies.intervalIntegral_complexLaplaceSegment	Cohn Elkies · 区间积分 复 Laplace 线段
+CohnElkies.complexFrullaniSegment_min_re_le	Cohn Elkies · 复 Frullani 线段 最小 实部 ≤
+CohnElkies.complexFrullaniSegment_re_pos	Cohn Elkies · 复 Frullani 线段 实部 正
+CohnElkies.integral_norm_complexFrullaniSegment	Cohn Elkies · 积分 范数 复 Frullani 线段
+CohnElkies.complexWallisPhaseKernel_integrable	Cohn Elkies · 复 Wallis 相位核 可积
+CohnElkies.integral_complexWallisPhaseKernel	Cohn Elkies · 积分 复 Wallis 相位核
+CohnElkies.complexGamma_differentiableOn_positiveHalfPlane	Cohn Elkies · 复Γ 可微在…上 正一半平面
+CohnElkies.complexGamma_residue_neg_nat	Cohn Elkies · 复Γ 留数 负 自然数
+CohnElkies.saddleGamma_residue_neg_even	Cohn Elkies · 鞍点Γ 留数 负 偶
+CohnElkies.complexGamma_shifted_vertical_polynomial_bound	Cohn Elkies · 复Γ 平移 竖直 多项式 界
+CohnElkies.saddleGamma_shiftedLine_polynomial_bound	Cohn Elkies · 鞍点Γ 平移直线 多项式 界
+CohnElkies.complexGamma_vertical_polynomial_bound	Cohn Elkies · 复Γ 竖直 多项式 界
+CohnElkies.saddleEnvelope_vertical_polynomial_bound	Cohn Elkies · 鞍点包络 竖直 多项式 界
+CohnElkies.complexLaplaceKernel_integrable	Cohn Elkies · 复 Laplace 核 可积
+CohnElkies.complexShellInterval_continuous	Cohn Elkies · 复壳区间 连续
+CohnElkies.mellinShellPhase_continuous	Cohn Elkies · mellin 壳相位 连续
+CohnElkies.complexShellInterval_differentiable	Cohn Elkies · 复壳区间 可微
+CohnElkies.mellinShellPhase_differentiable	Cohn Elkies · mellin 壳相位 可微
+CohnElkies.complexWallisLogPrimitive_hasDerivAt	Cohn Elkies · 复 Wallis 对数本原 有导数在
+CohnElkies.intervalIntegral_complexWallisLog	Cohn Elkies · 区间积分 复 Wallis 对数
+CohnElkies.integral_lowerWallisRegularizedPhaseKernel	Cohn Elkies · 积分 下 Wallis 正则化相位核
+CohnElkies.complexWallisPhaseKernel_re	Cohn Elkies · 复 Wallis 相位核 实部
+CohnElkies.complexWallisTranslatedSegment_hasDerivAt	Cohn Elkies · 复 Wallis 平移线段 有导数在
+CohnElkies.sharpQuotient_of_uniform_lower_and_ordered_upper	Cohn Elkies · 精确商 由 一致 下 且 有序 上
+CohnElkies.continuous_quotientRootMap	Cohn Elkies · 连续 商根映射
+CohnElkies.normalizedProgram_eq_quotientInf_root	Cohn Elkies · 归一化程序 = 商下确界 根
+CohnElkies.cos_le_quartic	Cohn Elkies · 余弦 ≤ 四次
+CohnElkies.sin_le_quintic	Cohn Elkies · 正弦 ≤ 五次
+CohnElkies.upper_one_sub_cos_quadratic_lower	Cohn Elkies · 上 一 − 余弦 二次 下
+CohnElkies.cosh_ratio_lower	Cohn Elkies · 双曲余弦 比 下
+CohnElkies.positiveShellDamping_lower_bound	Cohn Elkies · 正壳阻尼 下 界
+CohnElkies.upperPositiveShellVariance_bounds	Cohn Elkies · 上正壳方差 界
+CohnElkies.cosh_ratio_upper	Cohn Elkies · 双曲余弦 比 上
+CohnElkies.positiveShellRadiusContribution_bounds	Cohn Elkies · 正壳半径贡献 界
+CohnElkies.shortShellHyperbolicRatio_le	Cohn Elkies · 短壳双曲比 ≤
+CohnElkies.upperFirstBranch_shortRatio_le	Cohn Elkies · 上第一分支 短比 ≤
+CohnElkies.upperNegativeContour_shortMeasure_pointwise	Cohn Elkies · 上负围道 短测度 逐点
+CohnElkies.upper_shortShellDensity_damping_le	Cohn Elkies · 上 短壳密度 阻尼 ≤
+CohnElkies.upper_shortShellDensity_variance_le	Cohn Elkies · 上 短壳密度 方差 ≤
+CohnElkies.criticalBinaryExponent_eq_log_div	Cohn Elkies · 临界二元指数 = 对数 ÷
+CohnElkies.criticalBinaryExponent_eq_three_halves_sub_logFourDivPi	Cohn Elkies · 临界二元指数 = 三 两半 − 对数四÷π
+CohnElkies.criticalBinaryExponent_gt_d30	Cohn Elkies · 临界二元指数 > d 30
+CohnElkies.criticalBinaryExponent_mem_Ioo_d30	Cohn Elkies · 临界二元指数 ∈ 开区间 d 30
+CohnElkies.criticalBinaryExponent_lt_d30	Cohn Elkies · 临界二元指数 < d 30
+CohnElkies.sharpCohnElkiesManuscriptConclusions	Cohn Elkies · 精确 Cohn Elkies 手稿结论
+CohnElkies.criticalBinaryExponent_pos	Cohn Elkies · 临界二元指数 正
+CohnElkies.criticalPackingBase_lt_one	Cohn Elkies · 临界填充基 < 一
+CohnElkies.criticalPackingBase_pos	Cohn Elkies · 临界填充基 正
+CohnElkies.manuscriptPackingDeficit_le_criticalPackingBase	Cohn Elkies · 手稿填充亏量 ≤ 临界填充基
+CohnElkies.sharpLog_of_sharpQuotient	Cohn Elkies · 精确对数 由 精确商
+CohnElkies.criticalRadius_pos	Cohn Elkies · 临界半径 正
+CohnElkies.eventually_linearProgram_pos_of_sharpQuotient	Cohn Elkies · 最终 线性程序 正 由 精确商
+CohnElkies.dilate_apply	Cohn Elkies · 伸缩 作用于
+CohnElkies.dilate_zero	Cohn Elkies · 伸缩 零
+CohnElkies.saddleSourceAdmissible_quotient	Cohn Elkies · 鞍点源容许 商
+CohnElkies.dilationEquiv_apply	Cohn Elkies · 伸缩等价 作用于
+CohnElkies.euclideanBorelSpace	Cohn Elkies · 欧氏博雷尔空间
+FullAdmissible.fourier_nonneg	完整容许 · 傅里叶 非负
+FullAdmissible.fourier_real	完整容许 · 傅里叶 实
+FullAdmissible.fourier_zero_pos	完整容许 · 傅里叶 零 正
+FullAdmissible.outside_nonpos	完整容许 · 外部 非正
+FullAdmissible.real	完整容许 · 实
+SharpFullCohnElkiesManuscriptConclusions.base_two_decimal_certificate	精确完整 Cohn Elkies 手稿结论 · 基 二 十进制 证书
+SharpFullCohnElkiesManuscriptConclusions.base_two_exponent_positive	精确完整 Cohn Elkies 手稿结论 · 基 二 指数 正
+SharpFullCohnElkiesManuscriptConclusions.base_two_logarithmic_rate	精确完整 Cohn Elkies 手稿结论 · 基 二 对数 码率
+SharpFullCohnElkiesManuscriptConclusions.base_two_vanishing_exponential_error	精确完整 Cohn Elkies 手稿结论 · 基 二 消失 指数 误差
+SharpFullCohnElkiesManuscriptConclusions.linear_program_root	精确完整 Cohn Elkies 手稿结论 · 线性 程序 根
+SharpFullCohnElkiesManuscriptConclusions.natural_logarithmic_rate	精确完整 Cohn Elkies 手稿结论 · 自然 对数 码率
+SharpFullCohnElkiesManuscriptConclusions.natural_vanishing_exponential_error	精确完整 Cohn Elkies 手稿结论 · 自然 消失 指数 误差
+SharpFullCohnElkiesManuscriptConclusions.root_before_infimum	精确完整 Cohn Elkies 手稿结论 · 根 之前 下确界
+SharpFullCohnElkiesManuscriptConclusions.root_before_infimum_vanishing_error	精确完整 Cohn Elkies 手稿结论 · 根 之前 下确界 消失 误差
+SharpFullCohnElkiesManuscriptConclusions.universal_nonnegative_delta	精确完整 Cohn Elkies 手稿结论 · 泛 非负 δ
+SpherePacking.Alternative.IsAdmissible.eventually_nonpos	球面填充 · 备选 · 是容许 · 最终 非正
+SpherePacking.Alternative.IsAdmissible.fourier_nonneg	球面填充 · 备选 · 是容许 · 傅里叶 非负
+SpherePacking.Alternative.IsAdmissible.fourier_real_valued	球面填充 · 备选 · 是容许 · 傅里叶 实 值
+SpherePacking.Alternative.IsAdmissible.fourier_zero_pos	球面填充 · 备选 · 是容许 · 傅里叶 零 正
+SpherePacking.Alternative.IsAdmissible.radial	球面填充 · 备选 · 是容许 · 径向
+SpherePacking.Alternative.IsAdmissible.real_valued	球面填充 · 备选 · 是容许 · 实 值
+SpherePacking.Alternative.IsRealValued.fourier_conj	球面填充 · 备选 · 是实值 · 傅里叶 共轭
+SpherePacking.Alternative.IsUnrestrictedAdmissible.eventually_nonpos	球面填充 · 备选 · 是无限制容许 · 最终 非正
+SpherePacking.Alternative.IsUnrestrictedAdmissible.fourier_nonneg	球面填充 · 备选 · 是无限制容许 · 傅里叶 非负
+SpherePacking.Alternative.IsUnrestrictedAdmissible.fourier_zero_pos	球面填充 · 备选 · 是无限制容许 · 傅里叶 零 正
+SpherePacking.Alternative.IsUnrestrictedAdmissible.real_valued	球面填充 · 备选 · 是无限制容许 · 实 值
+SpherePacking.Alternative.quotient_eq_of_origin_and_fourier_origin	球面填充 · 备选 · 商 = 由 原点 且 傅里叶 原点
+SpherePacking.Alternative.radialFourier_orthogonalCharacterOrbit_integral	球面填充 · 备选 · 径向傅里叶 正交特征标轨道 积分
+SpherePacking.Alternative.radialFourier_orthogonalCharacterOrbit_integral_norm	球面填充 · 备选 · 径向傅里叶 正交特征标轨道 积分 范数
+SpherePacking.Alternative.radialFourier_orthogonalOrbit_integrable	球面填充 · 备选 · 径向傅里叶 正交轨道 可积
+SpherePacking.Alternative.radialOrthogonalHaarOrbit_measurable	球面填充 · 备选 · 径向正交哈尔轨道 可测
+SpherePacking.Alternative.radialSymmetrizationAverage_fourier_zero	球面填充 · 备选 · 径向对称化平均 傅里叶 零
+CohnElkies.euclideanFiniteDimensional	Cohn Elkies · 欧氏有限维
+SpherePacking.Alternative.orthogonalLinearIsometry_continuousLinearMap_continuous	球面填充 · 备选 · 正交线性等距 连续线性映射 连续
+SpherePacking.Alternative.orthogonalMatrixOfIsometry_action	球面填充 · 备选 · 正交矩阵由等距 作用
+SpherePacking.Alternative.radialIsometrySchwartzOrbit_iteratedFDeriv	球面填充 · 备选 · 径向等距 Schwartz 轨道 迭代 F 导数
+CohnElkies.even_antitone_poisson_convolution_max	Cohn Elkies · 偶 反单调 poisson 卷积 最大
+CohnElkies.lowerGammaScaledCappedClipped_poisson_convolution_max	Cohn Elkies · 下Γ缩放封顶截断 poisson 卷积 最大
+CohnElkies.even_antitone_poisson_lintegral_max	Cohn Elkies · 偶 反单调 poisson 下积分 最大
+CohnElkies.even_antitone_superlevel_interval	Cohn Elkies · 偶 反单调 上水平集 区间
+CohnElkies.stripPoissonWeightedMeasure_superlevel_le	Cohn Elkies · 带形 Poisson 加权测度 上水平集 ≤
+CohnElkies.eventualLowerBound_of_uniform_and_constructive	Cohn Elkies · 最终下界 由 一致 且 构造性
+CohnElkies.sharpQuotient_of_uniform_lower_and_constructive_upper	Cohn Elkies · 精确商 由 一致 下 且 构造性 上
+CohnElkies.eventualUpperBound_of_constructivePrimal	Cohn Elkies · 最终上界 由 构造性原始
+CohnElkies.eventually_lowerPoissonEndpointSharpCoefficient_neg	Cohn Elkies · 最终 下 Poisson 端点精确系数 负
+CohnElkies.exists_lowerStripPoissonMajorant_uniform_negative	Cohn Elkies · 存在 下带形 Poisson 控制函数 一致 负
+CohnElkies.eventually_manuscriptLinearProgram_eq_canonicalBinaryRpow	Cohn Elkies · 最终 手稿线性程序 = 典范二元实幂
+CohnElkies.exists_manuscriptBinaryIsLittleO	Cohn Elkies · 存在 手稿二元是小 O
+CohnElkies.eventually_manuscriptLinearProgram_pos	Cohn Elkies · 最终 手稿线性程序 正
+CohnElkies.eventually_minusSaddleProfile_nonpos_of_sourceRadius	Cohn Elkies · 最终 减鞍点轮廓 非正 由 源半径
+CohnElkies.saddleSourceEventualSigns	Cohn Elkies · 鞍点源最终符号
+CohnElkies.eventually_minusSaddleProfile_re_neg_at_firstBranchSaddles	Cohn Elkies · 最终 减鞍点轮廓 实部 负 在 第一分支鞍点
+CohnElkies.eventually_minusSaddleProfile_re_neg_at_secondBranchSaddles	Cohn Elkies · 最终 减鞍点轮廓 实部 负 在 第二分支鞍点
+CohnElkies.eventually_plusSaddleProfile_nonneg_of_star	Cohn Elkies · 最终 加鞍点轮廓 非负 由 星
+CohnElkies.eventually_plusSaddleProfile_nonneg_on_star	Cohn Elkies · 最终 加鞍点轮廓 非负 在…上 星
+CohnElkies.eventually_plusSaddleProfile_re_pos_at_firstBranchSaddles	Cohn Elkies · 最终 加鞍点轮廓 实部 正 在 第一分支鞍点
+CohnElkies.eventually_plusSaddleProfile_re_pos_at_secondBranchSaddles	Cohn Elkies · 最终 加鞍点轮廓 实部 正 在 第二分支鞍点
+CohnElkies.eventually_plusSaddleProfile_re_pos_on_star	Cohn Elkies · 最终 加鞍点轮廓 实部 正 在…上 星
+CohnElkies.eventually_plusSaddleProfile_re_pos_on_star_fixed	Cohn Elkies · 最终 加鞍点轮廓 实部 正 在…上 星 固定
+CohnElkies.eventually_plusSaddleSmallRadius_relativeFiniteResidue_lt_half	Cohn Elkies · 最终 加鞍点小半径 相对有限留数 < 一半
+CohnElkies.eventually_plusSaddleSmallRadius_relativeFiniteResidue_lt_half_on_star	Cohn Elkies · 最终 加鞍点小半径 相对有限留数 < 一半 在…上 星
+CohnElkies.eventually_plusSaddleTaylorRemainder_relative_lt_half_on_star	Cohn Elkies · 最终 加鞍点 Taylor 余项 相对 < 一半 在…上 星
+CohnElkies.eventually_saddleGaussianOuterPhi_uniform	Cohn Elkies · 最终 鞍点高斯外φ 一致
+CohnElkies.eventually_saddleGaussianOuterPhi_uniform_polynomial	Cohn Elkies · 最终 鞍点高斯外φ 一致 多项式
+CohnElkies.eventually_saddleSource_secondBranch_uniform_tail	Cohn Elkies · 最终 鞍点源 第二分支 一致 尾
+CohnElkies.eventually_saddleLogRadius_covers_Ici	Cohn Elkies · 最终 鞍点对数半径 覆盖 左闭无穷区间
+CohnElkies.eventually_saddleSmallRadiusStar_log_coverage	Cohn Elkies · 最终 鞍点小半径星 对数 覆盖
+CohnElkies.eventually_saddleSourceRadius_log_coverage	Cohn Elkies · 最终 鞍点源半径 对数 覆盖
+CohnElkies.eventually_saddleNegative_relativeGammaTail_lt_half	Cohn Elkies · 最终 鞍点负 相对Γ尾 < 一半
+CohnElkies.eventually_saddleSmallRadiusStarOrdinate_gt_neg_one	Cohn Elkies · 最终 鞍点小半径星纵坐标 > 负 一
+CohnElkies.eventually_saddleSmallResidueTruncation_dominates_window	Cohn Elkies · 最终 鞍点小留数截断 控制 窗口
+CohnElkies.eventually_saddleSmallResidueTruncation_double_le	Cohn Elkies · 最终 鞍点小留数截断 双 ≤
+CohnElkies.eventually_saddleSmallResidueTruncation_succ_double_le	Cohn Elkies · 最终 鞍点小留数截断 后继 双 ≤
+CohnElkies.eventually_saddleSourceContourDamping_secondBranch_local_coercivity	Cohn Elkies · 最终 鞍点源围道阻尼 第二分支 局部 强制性
+CohnElkies.eventually_saddleSource_secondBranch_pointwise_gaussian_plus_outer	Cohn Elkies · 最终 鞍点源 第二分支 逐点 高斯 加 外
+CohnElkies.eventually_saddleSourceContourDamping_secondBranch_min_lower_bound	Cohn Elkies · 最终 鞍点源围道阻尼 第二分支 最小 下 界
+CohnElkies.eventually_saddleSource_secondBranch_weighted_integrable	Cohn Elkies · 最终 鞍点源 第二分支 加权 可积
+CohnElkies.eventually_saddleSourceFirstBranch_centralGaussianErrors	Cohn Elkies · 最终 鞍点源第一分支 中心高斯误差
+CohnElkies.eventually_saddleSourceFirstBranch_fullGaussianErrors	Cohn Elkies · 最终 鞍点源第一分支 完整高斯误差
+CohnElkies.eventually_saddleSourceFirstBranch_central_radius_lt	Cohn Elkies · 最终 鞍点源第一分支 中心 半径 <
+CohnElkies.eventually_saddleSourceFirstBranch_cubic_window	Cohn Elkies · 最终 鞍点源第一分支 三次 窗口
+CohnElkies.eventually_saddleSourceFirstBranch_gaussianL1Tails	Cohn Elkies · 最终 鞍点源第一分支 高斯 L 1 尾
+CohnElkies.eventually_saddleSourceFirstBranch_sourceL1Tails	Cohn Elkies · 最终 鞍点源第一分支 源 L 1 尾
+CohnElkies.eventually_saddleSourceGaussianVariance_firstBranch_pos	Cohn Elkies · 最终 鞍点源高斯方差 第一分支 正
+CohnElkies.eventually_saddleSource_firstBranch_uniform_gaussian_tail	Cohn Elkies · 最终 鞍点源 第一分支 一致 高斯 尾
+CohnElkies.eventually_saddleSource_firstBranch_uniform_tail	Cohn Elkies · 最终 鞍点源 第一分支 一致 尾
+CohnElkies.eventually_saddleSourceGaussianVariance_secondBranch_floor	Cohn Elkies · 最终 鞍点源高斯方差 第二分支 下取整
+CohnElkies.eventually_saddleSourceSecondBranch_central_radius_lt	Cohn Elkies · 最终 鞍点源第二分支 中心 半径 <
+CohnElkies.eventually_saddleSourceSecondBranch_cubic_central_window_le	Cohn Elkies · 最终 鞍点源第二分支 三次 中心 窗口 ≤
+CohnElkies.eventually_saddleSource_secondBranch_uniform_gaussian_tail	Cohn Elkies · 最终 鞍点源 第二分支 一致 高斯 尾
+CohnElkies.eventually_saddleSourceGaussianVariance_secondBranch_pos	Cohn Elkies · 最终 鞍点源高斯方差 第二分支 正
+CohnElkies.eventually_saddleSourceSecondBranch_centralGaussianErrors	Cohn Elkies · 最终 鞍点源第二分支 中心高斯误差
+CohnElkies.eventually_saddleSourceSecondBranch_sourceL1Tails_of_uniform_tail	Cohn Elkies · 最终 鞍点源第二分支 源 L 1 尾 由 一致 尾
+CohnElkies.eventually_saddleSource_secondBranch_weighted_tail_explicit	Cohn Elkies · 最终 鞍点源 第二分支 加权 尾 显式
+CohnElkies.eventually_saddleSourceGaussianVariance_secondBranch_upper	Cohn Elkies · 最终 鞍点源高斯方差 第二分支 上
+CohnElkies.eventually_saddleSource_secondBranch_sqrtVariance_le	Cohn Elkies · 最终 鞍点源 第二分支 平方根方差 ≤
+CohnElkies.eventually_saddleSourceSecondBranch_fullGaussianErrors_of_sourceL1	Cohn Elkies · 最终 鞍点源第二分支 完整高斯误差 由 源 L 1
+CohnElkies.eventually_saddleSourceSecondBranch_cubic_window	Cohn Elkies · 最终 鞍点源第二分支 三次 窗口
+CohnElkies.eventually_saddleSourceSecondBranch_fullGaussianErrors	Cohn Elkies · 最终 鞍点源第二分支 完整高斯误差
+CohnElkies.eventually_saddleSourceSecondBranch_gaussianL1Tails	Cohn Elkies · 最终 鞍点源第二分支 高斯 L 1 尾
+CohnElkies.eventually_saddleSourceSecondBranch_sourceL1Tails	Cohn Elkies · 最终 鞍点源第二分支 源 L 1 尾
+CohnElkies.eventually_saddleSourceShellDerivative_monotone_secondBranch	Cohn Elkies · 最终 鞍点源壳导数 单调 第二分支
+CohnElkies.eventually_tendsto_saddleLogRadius_atTop	Cohn Elkies · 最终 趋于 鞍点对数半径 在⊤
+CohnElkies.eventually_saddleSource_secondBranch_normalized_tail_bound	Cohn Elkies · 最终 鞍点源 第二分支 归一化 尾 界
+CohnElkies.eventually_upperSaddleDamping_gamma_add_shell	Cohn Elkies · 最终 上鞍点阻尼 Γ + 壳
+CohnElkies.eventually_upperSaddleThirdMoment_le_variance	Cohn Elkies · 最终 上鞍点第三矩 ≤ 方差
+CohnElkies.eventually_upperSaddleVariance_bounds	Cohn Elkies · 最终 上鞍点方差 界
+CohnElkies.eventually_upperSaddleVariance_pos	Cohn Elkies · 最终 上鞍点方差 正
+CohnElkies.eventually_upper_netShellThirdMoment_bound	Cohn Elkies · 最终 上 网壳第三矩 界
+CohnElkies.eventually_upper_netShellVariance_bounds	Cohn Elkies · 最终 上 网壳方差 界
+CohnElkies.eventually_upper_shellLocation_gt_shortEndpoint	Cohn Elkies · 最终 上 壳位置 > 短端点
+CohnElkies.eventually_upper_shortShellVariance_domination	Cohn Elkies · 最终 上 短壳方差 控制
+CohnElkies.eventually_upper_shortShell_domination	Cohn Elkies · 最终 上 短壳 控制
+CohnElkies.eventually_upper_shell_parameter_margin	Cohn Elkies · 最终 上 壳 参数 边际
+CohnElkies.eventually_upper_shortCutoff_le_shortEndpoint	Cohn Elkies · 最终 上 短截断 ≤ 短端点
+CohnElkies.sharpAsymptotics_of_saddleSourceEventualSigns	Cohn Elkies · 精确渐近 由 鞍点源最终符号
+CohnElkies.eventually_upper_shortMargin_positive	Cohn Elkies · 最终 上 短边际 正
+CohnElkies.eventually_upper_shortShellThirdMoment_domination	Cohn Elkies · 最终 上 短壳第三矩 控制
+CohnElkies.uniformAntiFourierSignRadius	Cohn Elkies · 一致反傅里叶符号半径
+CohnElkies.exists_eventually_y_star_le_log_eighth_add	Cohn Elkies · 存在 最终 y 星 ≤ 对数 八分之一 +
+CohnElkies.exists_lowerGammaScaledPositivePart_uniform_bound	Cohn Elkies · 存在 下Γ缩放正部分 一致 界
+CohnElkies.exists_lowerStripPoissonMajorant_positive_logarithmic_tail	Cohn Elkies · 存在 下带形 Poisson 控制函数 正 对数 尾
+CohnElkies.exists_lowerStripPoissonMajorant_integrable_majorant	Cohn Elkies · 存在 下带形 Poisson 控制函数 可积 控制函数
+CohnElkies.exists_lowerStripPoissonMajorant_logarithmic_tail	Cohn Elkies · 存在 下带形 Poisson 控制函数 对数 尾
+CohnElkies.exists_manuscriptPackingIsLittleO	Cohn Elkies · 存在 手稿填充是小 O
+CohnElkies.exists_manuscriptQuotientRootIsLittleO	Cohn Elkies · 存在 手稿商根是小 O
+CohnElkies.exists_manuscriptUniversalPackingIsLittleO	Cohn Elkies · 存在 手稿泛填充是小 O
+CohnElkies.exists_minusPolynomial_uniform_central_window	Cohn Elkies · 存在 减多项式 一致 中心 窗口
+CohnElkies.exists_minusPolynomial_uniform_difference_bound	Cohn Elkies · 存在 减多项式 一致 差 界
+CohnElkies.exists_minusPolynomial_uniform_difference_ratio	Cohn Elkies · 存在 减多项式 一致 差 比
+CohnElkies.exists_minusPolynomial_uniform_norm_ratio	Cohn Elkies · 存在 减多项式 一致 范数 比
+CohnElkies.exists_minusPolynomial_uniform_weighted_bound	Cohn Elkies · 存在 减多项式 一致 加权 界
+CohnElkies.exists_saddleSourceCenteredMinusIntegrand_weighted_tail_integral_bound	Cohn Elkies · 存在 鞍点源中心化减被积函数 加权 尾 积分 界
+CohnElkies.exists_plusPolynomial_uniform_central_window	Cohn Elkies · 存在 加多项式 一致 中心 窗口
+CohnElkies.exists_plusPolynomial_uniform_difference_bound	Cohn Elkies · 存在 加多项式 一致 差 界
+CohnElkies.exists_plusPolynomial_uniform_difference_ratio	Cohn Elkies · 存在 加多项式 一致 差 比
+CohnElkies.exists_plusPolynomial_uniform_norm_ratio	Cohn Elkies · 存在 加多项式 一致 范数 比
+CohnElkies.exists_plusPolynomial_uniform_weighted_bound	Cohn Elkies · 存在 加多项式 一致 加权 界
+CohnElkies.exists_saddleSourceCenteredPlusIntegrand_weighted_tail_integral_bound	Cohn Elkies · 存在 鞍点源中心化加被积函数 加权 尾 积分 界
+CohnElkies.exists_plusSaddleSmallRadiusCoefficient_error	Cohn Elkies · 存在 加鞍点小半径系数 误差
+CohnElkies.exists_plusSaddleSmallRadius_weightedCoefficient_error	Cohn Elkies · 存在 加鞍点小半径 加权系数 误差
+CohnElkies.exists_plusSaddleSmallRadiusPhase_error	Cohn Elkies · 存在 加鞍点小半径相位 误差
+CohnElkies.exists_plusSaddleSmallRadius_finiteResidue_error	Cohn Elkies · 存在 加鞍点小半径 有限留数 误差
+CohnElkies.exists_plusSaddleSmallRadius_relativeFiniteResidue_error	Cohn Elkies · 存在 加鞍点小半径 相对有限留数 误差
+CohnElkies.exists_realHyperbolicShellPhase_quadratic_remainder	Cohn Elkies · 存在 实双曲壳相位 二次 余项
+CohnElkies.exists_saddleNegativeContourPhaseError_bound	Cohn Elkies · 存在 鞍点负围道相位误差 界
+CohnElkies.exists_saddleSourceShellDerivative_endpoint_bound	Cohn Elkies · 存在 鞍点源壳导数 端点 界
+CohnElkies.exists_saddleSource_central_error_tolerance	Cohn Elkies · 存在 鞍点源 中心 误差 容差
+CohnElkies.exists_stripPoissonKernel_uniform_abs_moment	Cohn Elkies · 存在 带形 Poisson 核 一致 绝对值 矩
+CohnElkies.lowerGammaBoundaryCapped_poisson_abs_le_linear	Cohn Elkies · 下Γ边界封顶 poisson 绝对值 ≤ 线性
+CohnElkies.exp_integral_upperCenteredLaplaceKernel	Cohn Elkies · 指数函数 积分 上中心化 Laplace 核
+CohnElkies.exp_integral_upperCenteredLaplaceKernel_scale	Cohn Elkies · 指数函数 积分 上中心化 Laplace 核 尺度
+CohnElkies.exp_integral_upperGammaCenteredLaplaceRate	Cohn Elkies · 指数函数 积分 上Γ中心化 Laplace 码率
+CohnElkies.exp_integral_upperGammaCenteredTruncatedKernel_eq_product	Cohn Elkies · 指数函数 积分 上Γ中心化截断核 = 积
+CohnElkies.exp_integral_upperGammaCenteredTruncatedKernel	Cohn Elkies · 指数函数 积分 上Γ中心化截断核
+CohnElkies.exp_upperGammaCenteredPhase	Cohn Elkies · 指数函数 上Γ中心化相位
+CohnElkies.exp_neg_rpow_neg_half_dimension	Cohn Elkies · 指数函数 负 实幂 负 一半 维数
+CohnElkies.minusSaddleCriticalLogProfile_eq_fourierInv	Cohn Elkies · 减鞍点临界对数轮廓 = 傅里叶逆
+CohnElkies.plusSaddleCriticalLogProfile_eq_fourierInv	Cohn Elkies · 加鞍点临界对数轮廓 = 傅里叶逆
+CohnElkies.exp_normalizedVolumeLog_limit	Cohn Elkies · 指数函数 归一化体积对数 极限
+CohnElkies.tendsto_normalizedVolumeRoot	Cohn Elkies · 趋于 归一化体积根
+CohnElkies.exp_saddleSourceCenteredPhase_eq_gaussian_mul	Cohn Elkies · 指数函数 鞍点源中心化相位 = 高斯 ×
+CohnElkies.saddleSourceCenteredEnvelope_stationary_gaussian_error_le	Cohn Elkies · 鞍点源中心化包络 驻点 高斯 误差 ≤
+CohnElkies.exp_saddleSourceShellCenteredPhase	Cohn Elkies · 指数函数 鞍点源壳中心化相位
+CohnElkies.saddleSourceCenteredEnvelope_stationary_eq_exp_phase	Cohn Elkies · 鞍点源中心化包络 驻点 = 指数函数 相位
+CohnElkies.fourierInv_apply_zero	Cohn Elkies · 傅里叶逆 作用于 零
+CohnElkies.fourier_antiFourierPart	Cohn Elkies · 傅里叶 反傅里叶部分
+CohnElkies.fourier_conj_apply_of_real	Cohn Elkies · 傅里叶 共轭 作用于 由 实
+CohnElkies.fourier_dilate_apply	Cohn Elkies · 傅里叶 伸缩 作用于
+CohnElkies.fourier_dilate_zero	Cohn Elkies · 傅里叶 伸缩 零
+CohnElkies.fourier_gaussianMellinWeight	Cohn Elkies · 傅里叶 高斯 Mellin 权
+CohnElkies.fourier_gaussianMellin_pairing	Cohn Elkies · 傅里叶 高斯 Mellin 配对
+CohnElkies.gaussianMellinPairingProfile_fourier	Cohn Elkies · 高斯 Mellin 配对轮廓 傅里叶
+CohnElkies.fourier_radialAutocorrelation_apply	Cohn Elkies · 傅里叶 径向自相关 作用于
+CohnElkies.fourier_radialAutocorrelation_nonneg	Cohn Elkies · 傅里叶 径向自相关 非负
+CohnElkies.fourier_radialAutocorrelation_real	Cohn Elkies · 傅里叶 径向自相关 实
+CohnElkies.fourier_radialAutocorrelation_zero_pos	Cohn Elkies · 傅里叶 径向自相关 零 正
+CohnElkies.radialAutocorrelation_radial	Cohn Elkies · 径向自相关 径向
+CohnElkies.fourier_radialFlatBump_zero	Cohn Elkies · 傅里叶 径向平坦隆起函数 零
+CohnElkies.fourier_riesz_pairing	Cohn Elkies · 傅里叶 riesz 配对
+CohnElkies.fourier_riesz_pairing_strip	Cohn Elkies · 傅里叶 riesz 配对 带形
+CohnElkies.radial_fourier_mellin_strip	Cohn Elkies · 径向 傅里叶 mellin 带形
+CohnElkies.fourier_sq_apply	Cohn Elkies · 傅里叶 平方 作用于
+CohnElkies.frullaniKernel_integrable	Cohn Elkies · frullani 核 可积
+CohnElkies.integral_wallisPairKernel	Cohn Elkies · 积分 wallis 对核
+CohnElkies.wallisPairKernel_integrable	Cohn Elkies · wallis 对核 可积
+CohnElkies.gamma_add_nat_eq_product	Cohn Elkies · Γ + 自然数 = 积
+CohnElkies.half_integer_gamma_product	Cohn Elkies · 一半 整数 Γ 积
+CohnElkies.integer_gamma_product	Cohn Elkies · 整数 Γ 积
+CohnElkies.gamma_add_nat_eq_product_of_lt	Cohn Elkies · Γ + 自然数 = 积 由 <
+CohnElkies.saddleGamma_eq_nthPoleNumerator_div	Cohn Elkies · 鞍点Γ = 第n个极点分子 ÷
+CohnElkies.gamma_half_factorial_lower	Cohn Elkies · Γ 一半 阶乘 下
+CohnElkies.saddleNegative_relativeGammaTail_le_majorant	Cohn Elkies · 鞍点负 相对Γ尾 ≤ 控制函数
+CohnElkies.gamma_imaginary_ne_zero	Cohn Elkies · Γ 虚 ≠ 零
+CohnElkies.lowerGammaBoundaryLog_halfInteger_factorized	Cohn Elkies · 下Γ边界对数 一半整数 已分解
+CohnElkies.lowerGammaBoundaryLog_integer	Cohn Elkies · 下Γ边界对数 整数
+CohnElkies.gamma_log_coth_ratio	Cohn Elkies · Γ 对数 双曲余切 比
+CohnElkies.lowerGammaBoundaryLog_halfInteger	Cohn Elkies · 下Γ边界对数 一半整数
+CohnElkies.gamma_one_add_imaginary_mul_gamma_one_sub	Cohn Elkies · Γ 一 + 虚 × Γ 一 −
+CohnElkies.poissonLogistic_characteristic_of_ne_zero	Cohn Elkies · poisson 逻辑斯蒂 特征 由 ≠ 零
+CohnElkies.gaussianMellinMixture_fubini	Cohn Elkies · 高斯 Mellin 混合 fubini
+CohnElkies.mellin_gaussianMellinPairingProfile	Cohn Elkies · mellin 高斯 Mellin 配对轮廓
+CohnElkies.gaussianMellinMixture_integrable	Cohn Elkies · 高斯 Mellin 混合 可积
+CohnElkies.gaussianMellinMixture_parameter_integral	Cohn Elkies · 高斯 Mellin 混合 参数 积分
+CohnElkies.mellin_gaussianMellinPairingProfile_fourier	Cohn Elkies · mellin 高斯 Mellin 配对轮廓 傅里叶
+CohnElkies.gaussianMellinParameter_integrable	Cohn Elkies · 高斯 Mellin 参数 可积
+CohnElkies.gaussianMellinParameter_norm_integral	Cohn Elkies · 高斯 Mellin 参数 范数 积分
+CohnElkies.gaussianMellinWeight_integrable	Cohn Elkies · 高斯 Mellin 权 可积
+CohnElkies.gaussianMellin_div_cpow	Cohn Elkies · 高斯 Mellin ÷ 复幂
+CohnElkies.gaussianMellin_fourier_radial	Cohn Elkies · 高斯 Mellin 傅里叶 径向
+CohnElkies.gaussianMellin_inv_sq_cpow	Cohn Elkies · 高斯 Mellin 逆 平方 复幂
+CohnElkies.gaussianMellin_inv_sq_rpow	Cohn Elkies · 高斯 Mellin 逆 平方 实幂
+CohnElkies.gaussianMellin_pi_coefficient	Cohn Elkies · 高斯 Mellin π 系数
+CohnElkies.geometricFactor_pos	Cohn Elkies · 几何因子 正
+CohnElkies.linearProgram_le_geometric_mul_quotient	Cohn Elkies · 线性程序 ≤ 几何 × 商
+CohnElkies.linearProgram_nonneg	Cohn Elkies · 线性程序 非负
+CohnElkies.linearProgram_root_eq_geometric_mul_normalizedProgram	Cohn Elkies · 线性程序 根 = 几何 × 归一化程序
+CohnElkies.geometricLimit_mul_criticalRadius	Cohn Elkies · 几何极限 × 临界半径
+CohnElkies.sharpPackingRoot_of_sharpQuotient	Cohn Elkies · 精确填充根 由 精确商
+CohnElkies.halfIntegerGammaFactor_ne_zero	Cohn Elkies · 一半整数Γ因子 ≠ 零
+CohnElkies.harmonic_abs_log_coth_div_le_linear	Cohn Elkies · 调和 绝对值 对数 双曲余切 ÷ ≤ 线性
+CohnElkies.harmonic_halfIntegerGammaBoundary_abs_le_linear	Cohn Elkies · 调和 一半整数Γ边界 绝对值 ≤ 线性
+CohnElkies.harmonic_abs_log_half_le_half	Cohn Elkies · 调和 绝对值 对数 一半 ≤ 一半
+CohnElkies.harmonic_abs_log_sqrtFactor_le_linear	Cohn Elkies · 调和 绝对值 对数 平方根因子 ≤ 线性
+CohnElkies.harmonic_integerGammaBoundary_abs_le_linear	Cohn Elkies · 调和 整数Γ边界 绝对值 ≤ 线性
+CohnElkies.harmonic_bottom_far_joint_tendsto_zero	Cohn Elkies · 调和 底 远 联合 趋于 零
+CohnElkies.harmonic_bottom_joint_tendsto_zero_of_zero	Cohn Elkies · 调和 底 联合 趋于 零 由 零
+CohnElkies.lowerGammaBoundaryCapped_bottom_poisson_joint_tendsto	Cohn Elkies · 下Γ边界封顶 底 poisson 联合 趋于
+CohnElkies.harmonic_bottom_normalized_height_tendsto	Cohn Elkies · 调和 底 归一化 高度 趋于
+CohnElkies.harmonic_bottom_real_tendsto	Cohn Elkies · 调和 底 实 趋于
+CohnElkies.harmonic_dimensionGammaBoundary_abs_le_linear	Cohn Elkies · 调和 维数Γ边界 绝对值 ≤ 线性
+CohnElkies.lowerGammaBoundaryCapped_dimension_abs_le_linear	Cohn Elkies · 下Γ边界封顶 维数 绝对值 ≤ 线性
+CohnElkies.harmonic_dimensionGammaBoundary_eq_abs	Cohn Elkies · 调和 维数Γ边界 = 绝对值
+CohnElkies.harmonic_stripPoissonExponentialMajorant_abs_integrable	Cohn Elkies · 调和 带形 Poisson 指数控制函数 绝对值 可积
+CohnElkies.harmonic_stripPoissonKernel_zero_abs_integrable	Cohn Elkies · 调和 带形 Poisson 核 零 绝对值 可积
+CohnElkies.harmonic_upper_joint_tendsto_zero	Cohn Elkies · 调和 上 联合 趋于 零
+CohnElkies.harmonic_stripPoissonKernel_abs_integrable	Cohn Elkies · 调和 带形 Poisson 核 绝对值 可积
+CohnElkies.harmonic_top_normalized_height_tendsto	Cohn Elkies · 调和 ⊤ 归一化 高度 趋于
+CohnElkies.lowerStripCappedGammaOuter_top_re_joint_tendsto	Cohn Elkies · 下带形封顶Γ外 ⊤ 实部 联合 趋于
+CohnElkies.horizontalStripRealTraceExtension_continuousOn	Cohn Elkies · 水平带形实迹扩张 连续在…上
+CohnElkies.lowerStripCappedGammaHarmonic_continuousOn	Cohn Elkies · 下带形封顶Γ调和 连续在…上
+CohnElkies.horizontalStrip_closed_eq_open_union_edges	Cohn Elkies · 水平带形 闭 = 开 并 边
+CohnElkies.horizontalStrip_norm_extension_majorization	Cohn Elkies · 水平带形 范数 扩张 优超
+CohnElkies.integerGammaFactor_ne_zero	Cohn Elkies · 整数Γ因子 ≠ 零
+CohnElkies.integrableExpSet_nonnegativeSchwartzMeasure_eq_univ	Cohn Elkies · 可积指数函数集合 非负 Schwartz 测度 = 全集
+CohnElkies.nonnegativeSchwartz_complexMGF_analytic	Cohn Elkies · 非负 Schwartz 复矩母函数 解析
+CohnElkies.integrable_abs_pow_mul_exp_neg_mul_abs	Cohn Elkies · 可积 绝对值 幂 × 指数函数 负 × 绝对值
+CohnElkies.poissonLogisticDensity_abs_moment_integrable	Cohn Elkies · poisson 逻辑斯蒂密度 绝对值 矩 可积
+CohnElkies.saddleGaussianTailWeight_mul_exp_abs_integrable	Cohn Elkies · 鞍点高斯尾权 × 指数函数 绝对值 可积
+CohnElkies.saddleNegativeFrequencyMajorant_integrable	Cohn Elkies · 鞍点负频率控制函数 可积
+CohnElkies.stripPoissonExponentialMajorant_abs_moment_integrable	Cohn Elkies · 带形 Poisson 指数控制函数 绝对值 矩 可积
+CohnElkies.integrable_exp_neg_mul_abs	Cohn Elkies · 可积 指数函数 负 × 绝对值
+CohnElkies.stripPoissonExponentialMajorant_integrable	Cohn Elkies · 带形 Poisson 指数控制函数 可积
+CohnElkies.integrable_fourier_of_integrable_two_derivatives	Cohn Elkies · 可积 傅里叶 由 可积 二 导数
+CohnElkies.schwartzExponentialTilt_fourier_integrable	Cohn Elkies · schwartz 指数倾斜 傅里叶 可积
+CohnElkies.integrable_of_continuous_polynomial_decay	Cohn Elkies · 可积 由 连续 多项式 衰减
+CohnElkies.minusSaddleMellinData_shiftedLine_moment_integrable	Cohn Elkies · 减鞍点 Mellin 数据 平移直线 矩 可积
+CohnElkies.minusSaddleSpectrum_moment_integrable	Cohn Elkies · 减鞍点谱 矩 可积
+CohnElkies.plusSaddleMellinData_shiftedLine_moment_integrable	Cohn Elkies · 加鞍点 Mellin 数据 平移直线 矩 可积
+CohnElkies.plusSaddleSpectrum_moment_integrable	Cohn Elkies · 加鞍点谱 矩 可积
+CohnElkies.integrable_scaled_exp_change_Ioi	Cohn Elkies · 可积 缩放 指数函数 改变 左开无穷区间
+CohnElkies.normalizedRadialLogProfile_integrable	Cohn Elkies · 归一化径向对数轮廓 可积
+CohnElkies.normalizedRadialLogProfile_weighted_integrable	Cohn Elkies · 归一化径向对数轮廓 加权 可积
+CohnElkies.schwartzExponentialTilt_integrable	Cohn Elkies · schwartz 指数倾斜 可积
+CohnElkies.integrable_scaled_norm_moment	Cohn Elkies · 可积 缩放 范数 矩
+CohnElkies.minusSaddleFourierData_norm_moment_integrable	Cohn Elkies · 减鞍点傅里叶数据 范数 矩 可积
+CohnElkies.plusSaddleFourierData_norm_moment_integrable	Cohn Elkies · 加鞍点傅里叶数据 范数 矩 可积
+CohnElkies.integral_complexLaplaceKernel	Cohn Elkies · 积分 复 Laplace 核
+CohnElkies.integral_frullaniKernel	Cohn Elkies · 积分 frullani 核
+CohnElkies.integral_laplaceKernel	Cohn Elkies · 积分 laplace 核
+CohnElkies.laplaceParameter_integrable	Cohn Elkies · laplace 参数 可积
+CohnElkies.upperGammaVariance_bounds	Cohn Elkies · 上Γ方差 界
+CohnElkies.integral_lowerRiemannLog	Cohn Elkies · 积分 下 Riemann 对数
+CohnElkies.lowerGammaBoundaryLog_halfInteger_riemann_le	Cohn Elkies · 下Γ边界对数 一半整数 riemann ≤
+CohnElkies.lowerGammaBoundaryLog_integer_riemann_le	Cohn Elkies · 下Γ边界对数 整数 riemann ≤
+CohnElkies.integral_lowerWallisPhaseKernel	Cohn Elkies · 积分 下 Wallis 相位核
+CohnElkies.integral_poissonLogistic_one_add_lowerEndpointPhase	Cohn Elkies · 积分 poisson 逻辑斯蒂 一 + 下端点相位
+CohnElkies.poissonLogistic_lowerEndpointPhase_integrable	Cohn Elkies · poisson 逻辑斯蒂 下端点相位 可积
+CohnElkies.integral_normalizedRadialLogProfile	Cohn Elkies · 积分 归一化径向对数轮廓
+CohnElkies.integral_normalizedRadialLogProfile_eq_zero_of_antiFourier	Cohn Elkies · 积分 归一化径向对数轮廓 = 零 由 反傅里叶
+CohnElkies.integral_poissonLogisticDensity	Cohn Elkies · 积分 poisson 逻辑斯蒂密度
+CohnElkies.poissonLogistic_characteristic	Cohn Elkies · poisson 逻辑斯蒂 特征
+CohnElkies.integral_poissonLogistic_change_Ioo	Cohn Elkies · 积分 poisson 逻辑斯蒂 改变 开区间
+CohnElkies.poissonLogistic_betaIntegral	Cohn Elkies · poisson 逻辑斯蒂 β积分
+CohnElkies.integral_poissonLogistic_lowerEndpointPhase	Cohn Elkies · 积分 poisson 逻辑斯蒂 下端点相位
+CohnElkies.limitingPoissonEndpointExpectation_eq_log_pi_div_two_sub_one	Cohn Elkies · 极限 Poisson 端点期望 = 对数 π ÷ 二 − 一
+CohnElkies.integral_poissonLogistic_mul_lowerWallisPhaseKernel	Cohn Elkies · 积分 poisson 逻辑斯蒂 × 下 Wallis 相位核
+CohnElkies.normalizedProfile_negativeHalfline_mass_ge_half	Cohn Elkies · 归一化轮廓 负半直线 质量 ≥ 一半
+CohnElkies.integral_radialFlatBumpReal_pos	Cohn Elkies · 积分 径向平坦隆起函数实 正
+CohnElkies.integral_radialProfile_cpow	Cohn Elkies · 积分 径向轮廓 复幂
+CohnElkies.normalizedRadialMellinStrip_top_norm_le_one	Cohn Elkies · 归一化径向 Mellin 带形 ⊤ 范数 ≤ 一
+CohnElkies.integral_radialProfile_mul	Cohn Elkies · 积分 径向轮廓 ×
+CohnElkies.integral_radialProfile_re	Cohn Elkies · 积分 径向轮廓 实部
+CohnElkies.integral_re_eq_zero_of_antiFourier	Cohn Elkies · 积分 实部 = 零 由 反傅里叶
+CohnElkies.integral_scaled_exp_change_Ioi	Cohn Elkies · 积分 缩放 指数函数 改变 左开无穷区间
+CohnElkies.integral_stripPoissonKernel	Cohn Elkies · 积分 带形 Poisson 核
+CohnElkies.lowerGammaScaledCappedClipped_integral_eq	Cohn Elkies · 下Γ缩放封顶截断 积分 =
+CohnElkies.lowerStripPoissonMajorant_dimension_central_bound	Cohn Elkies · 下带形 Poisson 控制函数 维数 中心 界
+CohnElkies.integral_stripPoissonKernel_mul_lowerEndpointPhase	Cohn Elkies · 积分 带形 Poisson 核 × 下端点相位
+CohnElkies.integral_upperGammaTruncatedDampingIntegrand	Cohn Elkies · 积分 上Γ截断阻尼被积函数
+CohnElkies.integral_upperGammaCenteredTruncatedKernel_eq_shell_sum	Cohn Elkies · 积分 上Γ中心化截断核 = 壳 和
+CohnElkies.integral_upperGammaQuadraticKernel	Cohn Elkies · 积分 上Γ二次核
+CohnElkies.upperGammaCenteredPhase_add_quadratic_eq_integral	Cohn Elkies · 上Γ中心化相位 + 二次 = 积分
+CohnElkies.upperGammaPositiveShifted_log_norm_eq_neg_damping	Cohn Elkies · 上Γ正平移 对数 范数 = 负 阻尼
+CohnElkies.integral_wallisLaplaceKernel	Cohn Elkies · 积分 wallis Laplace 核
+CohnElkies.integral_wallisRadiusIntegrand	Cohn Elkies · 积分 wallis 半径被积函数
+CohnElkies.integral_wallisPartialKernel	Cohn Elkies · 积分 wallis 偏核
+CohnElkies.tendsto_limitingSaddleRadius	Cohn Elkies · 趋于 极限鞍点半径
+CohnElkies.intervalIntegral_complexFrullaniShift	Cohn Elkies · 区间积分 复 Frullani 平移
+CohnElkies.intervalIntegral_laplaceKernel	Cohn Elkies · 区间积分 laplace 核
+CohnElkies.intervalIntegral_stripPoissonKernel	Cohn Elkies · 区间积分 带形 Poisson 核
+CohnElkies.stripPoissonPrimitive_centered_neg	Cohn Elkies · 带形 Poisson 本原 中心化 负
+CohnElkies.inv_cosh_le_two_exp_neg_abs	Cohn Elkies · 逆 双曲余弦 ≤ 二 指数函数 负 绝对值
+CohnElkies.stripNormalizedPoissonExtension_le_majorant	Cohn Elkies · 带形归一化 Poisson 扩张 ≤ 控制函数
+CohnElkies.inverseQuadraticAbs_integrable	Cohn Elkies · 逆二次绝对值 可积
+CohnElkies.isOpen_saddlePoleStrip	Cohn Elkies · 是开 鞍点极点带形
+CohnElkies.minusSaddleNthPoleRegularPart_differentiableOn	Cohn Elkies · 减鞍点第n个极点正则部分 可微在…上
+CohnElkies.plusSaddleNthPoleRegularPart_differentiableOn	Cohn Elkies · 加鞍点第n个极点正则部分 可微在…上
+CohnElkies.saddleNthGammaPoleNumerator_at_pole	Cohn Elkies · 鞍点第n个Γ极点分子 在 极点
+CohnElkies.laplaceKernel_integrable	Cohn Elkies · laplace 核 可积
+CohnElkies.lowerWallisPhaseTail_integrable	Cohn Elkies · 下 Wallis 相位尾 可积
+CohnElkies.wallisLaplaceKernel_integrable	Cohn Elkies · wallis Laplace 核 可积
+CohnElkies.lowerPoissonEndpointSharpCoefficient_eq	Cohn Elkies · 下 Poisson 端点精确系数 =
+CohnElkies.limitingStripPoissonDensity_integrable	Cohn Elkies · 极限带形 Poisson 密度 可积
+CohnElkies.poissonLogisticDensity_integrable	Cohn Elkies · poisson 逻辑斯蒂密度 可积
+CohnElkies.manuscriptUniversalQuotientBound	Cohn Elkies · 手稿泛商界
+CohnElkies.manuscriptLinearProgram_eq_packing_error_pow	Cohn Elkies · 手稿线性程序 = 填充 误差 幂
+CohnElkies.log_criticalPackingBase	Cohn Elkies · 对数 临界填充基
+CohnElkies.logb_criticalPackingBase	Cohn Elkies · 底对数 临界填充基
+CohnElkies.log_normalizedVolumeRoot	Cohn Elkies · 对数 归一化体积根
+CohnElkies.sharpBinaryLog_of_sharpQuotient	Cohn Elkies · 精确二元对数 由 精确商
+CohnElkies.lowerCoth_antitoneOn	Cohn Elkies · 下双曲余切 反单调在…上
+CohnElkies.lowerCoth_log_antitoneOn	Cohn Elkies · 下双曲余切 对数 反单调在…上
+CohnElkies.lowerGammaBoundaryLog_halfInteger_antitoneOn	Cohn Elkies · 下Γ边界对数 一半整数 反单调在…上
+CohnElkies.lowerCoth_hasDerivAt	Cohn Elkies · 下双曲余切 有导数在
+CohnElkies.lowerCoth_log_abs_integrable	Cohn Elkies · 下双曲余切 对数 绝对值 可积
+CohnElkies.lowerGammaScaledPositivePart_integrable	Cohn Elkies · 下Γ缩放正部分 可积
+CohnElkies.stripPoissonKernel_mul_coth_log_integrable	Cohn Elkies · 带形 Poisson 核 × 双曲余切 对数 可积
+CohnElkies.lowerGammaBoundaryLog_dimension_scaled_log_tail_uniform	Cohn Elkies · 下Γ边界对数 维数 缩放 对数 尾 一致
+CohnElkies.lowerCoth_log_half_le_of_one_le_abs	Cohn Elkies · 下双曲余切 对数 一半 ≤ 由 一 ≤ 绝对值
+CohnElkies.lowerGammaBoundaryLog_dimension_scaled_log_tail_simple	Cohn Elkies · 下Γ边界对数 维数 缩放 对数 尾 单
+CohnElkies.lowerCoth_log_le_four_exp_neg_two	Cohn Elkies · 下双曲余切 对数 ≤ 四 指数函数 负 二
+CohnElkies.lowerGammaBoundaryLog_dimension_scaled_le_neg_of_large	Cohn Elkies · 下Γ边界对数 维数 缩放 ≤ 负 由 大
+CohnElkies.lowerGammaBoundaryLog_dimension_scaled_nonpos_of_large	Cohn Elkies · 下Γ边界对数 维数 缩放 非正 由 大
+CohnElkies.lowerCoth_log_nonneg	Cohn Elkies · 下双曲余切 对数 非负
+CohnElkies.lowerGammaBoundaryLog_dimension_log_tail	Cohn Elkies · 下Γ边界对数 维数 对数 尾
+CohnElkies.lowerCoth_log_small_abs_bound	Cohn Elkies · 下双曲余切 对数 小 绝对值 界
+CohnElkies.lowerCoth_one_le	Cohn Elkies · 下双曲余切 一 ≤
+CohnElkies.lowerCoth_pos	Cohn Elkies · 下双曲余切 正
+CohnElkies.lowerGammaBoundaryLog_halfInteger_log_tail	Cohn Elkies · 下Γ边界对数 一半整数 对数 尾
+CohnElkies.lowerGammaBoundaryLog_halfInteger_scaled	Cohn Elkies · 下Γ边界对数 一半整数 缩放
+CohnElkies.lowerCoth_sub_one_eq	Cohn Elkies · 下双曲余切 − 一 =
+CohnElkies.lowerEndpointPhase_continuous	Cohn Elkies · 下端点相位 连续
+CohnElkies.lowerStripCappedGammaOuter_bottom_re_joint_tendsto	Cohn Elkies · 下带形封顶Γ外 底 实部 联合 趋于
+CohnElkies.lowerGammaBoundaryCapped_central_poisson_shift_integrable	Cohn Elkies · 下Γ边界封顶 中心 poisson 平移 可积
+CohnElkies.lowerGammaBoundaryCapped_continuous	Cohn Elkies · 下Γ边界封顶 连续
+CohnElkies.lowerGammaBoundaryCapped_exp_integrable_of_exp_integrable	Cohn Elkies · 下Γ边界封顶 指数函数 可积 由 指数函数 可积
+CohnElkies.lowerGammaScaledCappedClipped_continuous	Cohn Elkies · 下Γ缩放封顶截断 连续
+CohnElkies.lowerGammaBoundaryCapped_dimension_antitoneOn	Cohn Elkies · 下Γ边界封顶 维数 反单调在…上
+CohnElkies.lowerGammaScaledCappedClipped_antitoneOn	Cohn Elkies · 下Γ缩放封顶截断 反单调在…上
+CohnElkies.lowerGammaBoundaryCapped_dimension_neg	Cohn Elkies · 下Γ边界封顶 维数 负
+CohnElkies.lowerGammaScaledCappedClipped_neg	Cohn Elkies · 下Γ缩放封顶截断 负
+CohnElkies.lowerGammaBoundaryCapped_exp_integrable_dimension	Cohn Elkies · 下Γ边界封顶 指数函数 可积 维数
+CohnElkies.lowerStripCappedGammaOuter_differentiableOn_dimension	Cohn Elkies · 下带形封顶Γ外 可微在…上 维数
+CohnElkies.lowerStripCappedGammaOuter_integrable_dimension	Cohn Elkies · 下带形封顶Γ外 可积 维数
+CohnElkies.lowerStripCappedGammaOuter_abs_re_le_linear	Cohn Elkies · 下带形封顶Γ外 绝对值 实部 ≤ 线性
+CohnElkies.lowerGammaBoundaryLog_continuousOn	Cohn Elkies · 下Γ边界对数 连续在…上
+CohnElkies.lowerGammaBoundaryLog_measurable	Cohn Elkies · 下Γ边界对数 可测
+CohnElkies.lowerStripGammaOuter_integrable_of_exp_integrable	Cohn Elkies · 下带形Γ外 可积 由 指数函数 可积
+CohnElkies.lowerGammaBoundaryLog_dimension_antitoneOn	Cohn Elkies · 下Γ边界对数 维数 反单调在…上
+CohnElkies.lowerGammaBoundaryLog_dimension_exp_integrable	Cohn Elkies · 下Γ边界对数 维数 指数函数 可积
+CohnElkies.lowerStripGammaOuter_integrable_dimension	Cohn Elkies · 下带形Γ外 可积 维数
+CohnElkies.lowerGammaBoundaryLog_dimension_scaled_log_tail	Cohn Elkies · 下Γ边界对数 维数 缩放 对数 尾
+CohnElkies.lowerGammaBoundaryLog_dimension_neg	Cohn Elkies · 下Γ边界对数 维数 负
+CohnElkies.lowerStripPoissonMajorant_dimension_neg	Cohn Elkies · 下带形 Poisson 控制函数 维数 负
+CohnElkies.lowerGammaBoundaryLog_dimension_riemann_le	Cohn Elkies · 下Γ边界对数 维数 riemann ≤
+CohnElkies.lowerGammaBoundaryLog_dimension_scaled_riemann_le	Cohn Elkies · 下Γ边界对数 维数 缩放 riemann ≤
+CohnElkies.lowerGammaScaledCappedClipped_support	Cohn Elkies · 下Γ缩放封顶截断 支撑
+CohnElkies.lowerStripPoissonMajorant_core_tail_split	Cohn Elkies · 下带形 Poisson 控制函数 核心 尾 分裂
+CohnElkies.lowerGammaScaledPositivePart_le	Cohn Elkies · 下Γ缩放正部分 ≤
+CohnElkies.lowerGammaScaledPositivePart_support	Cohn Elkies · 下Γ缩放正部分 支撑
+CohnElkies.lowerGammaBoundaryLog_halfInteger_exp_integrable	Cohn Elkies · 下Γ边界对数 一半整数 指数函数 可积
+CohnElkies.lowerGammaBoundaryLog_halfInteger_neg	Cohn Elkies · 下Γ边界对数 一半整数 负
+CohnElkies.lowerGammaBoundaryLog_integer_antitoneOn	Cohn Elkies · 下Γ边界对数 整数 反单调在…上
+CohnElkies.lowerGammaBoundaryLog_integer_exp_integrable	Cohn Elkies · 下Γ边界对数 整数 指数函数 可积
+CohnElkies.lowerGammaBoundaryLog_integer_log_tail	Cohn Elkies · 下Γ边界对数 整数 对数 尾
+CohnElkies.lowerGammaBoundaryLog_integer_neg	Cohn Elkies · 下Γ边界对数 整数 负
+CohnElkies.lowerGammaBoundaryLog_integer_scaled	Cohn Elkies · 下Γ边界对数 整数 缩放
+CohnElkies.stripPoissonKernel_mul_lowerRiemannLog_zero_integrable	Cohn Elkies · 带形 Poisson 核 × 下 Riemann 对数 零 可积
+CohnElkies.lowerGammaBoundaryLog_pole_decomposition	Cohn Elkies · 下Γ边界对数 极点 分解
+CohnElkies.lowerGammaBoundaryLog_tendsto_atTop_zero	Cohn Elkies · 下Γ边界对数 趋于 在⊤ 零
+CohnElkies.lowerGammaScaledCappedClipped_integrable	Cohn Elkies · 下Γ缩放封顶截断 可积
+CohnElkies.lowerGammaScaledCappedClipped_eq_lowerClip_add	Cohn Elkies · 下Γ缩放封顶截断 = 下截断 +
+CohnElkies.lowerGammaScaledCappedLowerClip_poisson_convolution_max	Cohn Elkies · 下Γ缩放封顶下截断 poisson 卷积 最大
+CohnElkies.lowerGammaScaledCapped_poisson_convolution_max	Cohn Elkies · 下Γ缩放封顶 poisson 卷积 最大
+CohnElkies.lowerGammaScaledCappedLowerClip_poisson_integrable	Cohn Elkies · 下Γ缩放封顶下截断 poisson 可积
+CohnElkies.lowerGammaScaledCappedLowerClip_poisson_tendsto	Cohn Elkies · 下Γ缩放封顶下截断 poisson 趋于
+CohnElkies.lowerGammaScaled_poisson_convolution_max	Cohn Elkies · 下Γ缩放 poisson 卷积 最大
+CohnElkies.lowerGammaScaledCapped_poisson_product_integrable	Cohn Elkies · 下Γ缩放封顶 poisson 积 可积
+CohnElkies.lowerGammaScaledCapped_poisson_tendsto	Cohn Elkies · 下Γ缩放封顶 poisson 趋于
+CohnElkies.lowerStripCappedPoisson_tendsto	Cohn Elkies · 下带形封顶 Poisson 趋于
+CohnElkies.lowerGammaScaledPositivePart_integral_le	Cohn Elkies · 下Γ缩放正部分 积分 ≤
+CohnElkies.lowerGammaScaledPositivePart_poisson_exponential_tail	Cohn Elkies · 下Γ缩放正部分 poisson 指数 尾
+CohnElkies.lowerStripPoissonMajorant_dimension_centered_max	Cohn Elkies · 下带形 Poisson 控制函数 维数 中心化 最大
+CohnElkies.lowerGammaScaled_poisson_product_integrable	Cohn Elkies · 下Γ缩放 poisson 积 可积
+CohnElkies.lowerPoissonEndpointSharpCoefficient_neg	Cohn Elkies · 下 Poisson 端点精确系数 负
+CohnElkies.tendsto_lowerPoissonEndpointSharpCoefficient	Cohn Elkies · 趋于 下 Poisson 端点精确系数
+CohnElkies.lowerRiemannErrorMajorant_poisson_integrable	Cohn Elkies · 下 Riemann 误差控制函数 poisson 可积
+CohnElkies.lowerRiemannLogPrimitive_hasDerivAt	Cohn Elkies · 下 Riemann 对数本原 有导数在
+CohnElkies.lowerRiemannLog_continuous	Cohn Elkies · 下 Riemann 对数 连续
+CohnElkies.lowerRiemannLog_halfInteger_tail_integral_le	Cohn Elkies · 下 Riemann 对数 一半整数 尾 积分 ≤
+CohnElkies.lowerRiemannLog_monotoneOn	Cohn Elkies · 下 Riemann 对数 单调在…上
+CohnElkies.lower_halfInteger_midpointRiemann_error	Cohn Elkies · 下 一半整数 中点 Riemann 误差
+CohnElkies.lower_integer_leftRiemann_error	Cohn Elkies · 下 整数 左 Riemann 误差
+CohnElkies.lowerRiemannLog_one_continuous	Cohn Elkies · 下 Riemann 对数 一 连续
+CohnElkies.stripPoissonKernel_mul_abs_lowerRiemannLog_one_integrable	Cohn Elkies · 带形 Poisson 核 × 绝对值 下 Riemann 对数 一 可积
+CohnElkies.lowerRiemannLog_one_nonneg_le	Cohn Elkies · 下 Riemann 对数 一 非负 ≤
+CohnElkies.lowerRiemannLog_scaled_factor	Cohn Elkies · 下 Riemann 对数 缩放 因子
+CohnElkies.lowerRiemannLog_zero	Cohn Elkies · 下 Riemann 对数 零
+CohnElkies.lowerStripCappedGammaOuter_re_dimension	Cohn Elkies · 下带形封顶Γ外 实部 维数
+CohnElkies.lowerStripCappedPoisson_tendsto_radius	Cohn Elkies · 下带形封顶 Poisson 趋于 半径
+CohnElkies.lowerStripPoissonMajorant_scaled_convolution	Cohn Elkies · 下带形 Poisson 控制函数 缩放 卷积
+CohnElkies.lowerWallisComplexLogPhase_ofReal	Cohn Elkies · 下 Wallis 复对数相位 由实
+CohnElkies.tendsto_lowerWallisComplexLogPhase_regularized	Cohn Elkies · 趋于 下 Wallis 复对数相位 正则化
+CohnElkies.lowerWallisPhaseKernel_abs_le_moment	Cohn Elkies · 下 Wallis 相位核 绝对值 ≤ 矩
+CohnElkies.lowerWallisRegularizedPhaseKernel_abs_le_moment	Cohn Elkies · 下 Wallis 正则化相位核 绝对值 ≤ 矩
+CohnElkies.poissonLogistic_lowerWallisPhase_product_integrable	Cohn Elkies · poisson 逻辑斯蒂 下 Wallis 相位 积 可积
+CohnElkies.lowerWallisPhaseKernel_abs_le_tail	Cohn Elkies · 下 Wallis 相位核 绝对值 ≤ 尾
+CohnElkies.lowerWallisRegularizedPhaseMajorant_integrable	Cohn Elkies · 下 Wallis 正则化相位控制函数 可积
+CohnElkies.tendsto_integral_lowerWallisRegularizedPhaseKernel	Cohn Elkies · 趋于 积分 下 Wallis 正则化相位核
+CohnElkies.lowerWallisRegularizedPhaseKernel_abs_le_tail	Cohn Elkies · 下 Wallis 正则化相位核 绝对值 ≤ 尾
+CohnElkies.lowerWallisRegularizedPhaseKernel_eq_add	Cohn Elkies · 下 Wallis 正则化相位核 = +
+CohnElkies.lowerWallis_abs_mul_arctan_abs	Cohn Elkies · 下 Wallis 绝对值 × 反正切 绝对值
+CohnElkies.lowerWallis_complexEndpointPhase_re	Cohn Elkies · 下 Wallis 复端点相位 实部
+CohnElkies.lowerWallis_arg_one_sub_I_mul	Cohn Elkies · 下 Wallis 辐角 一 − I ×
+CohnElkies.lowerWallis_shifted_log_mul_re	Cohn Elkies · 下 Wallis 平移 对数 × 实部
+CohnElkies.lowerWallis_imaginary_log_mul_re	Cohn Elkies · 下 Wallis 虚 对数 × 实部
+CohnElkies.lowerWallis_norm_one_sub_I_mul	Cohn Elkies · 下 Wallis 范数 一 − I ×
+CohnElkies.lower_abs_log_cosh_le	Cohn Elkies · 下 绝对值 对数 双曲余弦 ≤
+CohnElkies.lower_abs_log_coth_div_le	Cohn Elkies · 下 绝对值 对数 双曲余切 ÷ ≤
+CohnElkies.lower_exp_log_coth_div_integrableOn_Ioi	Cohn Elkies · 下 指数函数 对数 双曲余切 ÷ 可积在…上 左开无穷区间
+CohnElkies.lower_abs_log_sinh_le	Cohn Elkies · 下 绝对值 对数 双曲正弦 ≤
+CohnElkies.lower_abs_log_sqrtFactor_le	Cohn Elkies · 下 绝对值 对数 平方根因子 ≤
+CohnElkies.lower_exp_log_sqrtFactor_integrableOn_Ioi	Cohn Elkies · 下 指数函数 对数 平方根因子 可积在…上 左开无穷区间
+CohnElkies.lower_cosh_le_exp	Cohn Elkies · 下 双曲余弦 ≤ 指数函数
+CohnElkies.lower_exp_abs_log_div_two_integrableOn_Ioi	Cohn Elkies · 下 指数函数 绝对值 对数 ÷ 二 可积在…上 左开无穷区间
+CohnElkies.lower_exp_log_coth_div_integrable	Cohn Elkies · 下 指数函数 对数 双曲余切 ÷ 可积
+CohnElkies.lower_exp_log_sqrtFactor_integrable	Cohn Elkies · 下 指数函数 对数 平方根因子 可积
+CohnElkies.lower_positiveLogRatio_integrable	Cohn Elkies · 下 正对数比 可积
+CohnElkies.lower_sinh_ge_exp_quarter	Cohn Elkies · 下 双曲正弦 ≥ 指数函数 四分之一
+CohnElkies.lower_sinh_le_exp	Cohn Elkies · 下 双曲正弦 ≤ 指数函数
+CohnElkies.lower_sqrtFactor_ge_abs_half	Cohn Elkies · 下 平方根因子 ≥ 绝对值 一半
+CohnElkies.manuscriptBinaryExponentError_isLittleO	Cohn Elkies · 手稿二元指数误差 是小 O
+CohnElkies.manuscriptBinaryExponentError_tendsto	Cohn Elkies · 手稿二元指数误差 趋于
+CohnElkies.manuscriptLinearProgram_eq_binary_error_rpow	Cohn Elkies · 手稿线性程序 = 二元 误差 实幂
+CohnElkies.manuscriptLinearProgram_eq_canonicalBinaryRpow	Cohn Elkies · 手稿线性程序 = 典范二元实幂
+CohnElkies.manuscriptLinearProgram_eq_canonicalPackingPow	Cohn Elkies · 手稿线性程序 = 典范填充幂
+CohnElkies.manuscriptNormalizedQuotientInfRoot_eq	Cohn Elkies · 手稿归一化商下确界根 =
+CohnElkies.manuscriptQuotientRootInf_div_sqrt_eq	Cohn Elkies · 手稿商根下确界 ÷ 平方根 =
+CohnElkies.manuscriptPackingDeficit_isLittleO	Cohn Elkies · 手稿填充亏量 是小 O
+CohnElkies.manuscriptPackingRoot_sub_deficit_pow_le	Cohn Elkies · 手稿填充根 − 亏量 幂 ≤
+CohnElkies.manuscriptPackingDeficit_nonneg	Cohn Elkies · 手稿填充亏量 非负
+CohnElkies.manuscriptPackingRootError_isLittleO	Cohn Elkies · 手稿填充根误差 是小 O
+CohnElkies.manuscriptPackingRootError_tendsto	Cohn Elkies · 手稿填充根误差 趋于
+CohnElkies.manuscriptPackingRoot_sub_deficit_le	Cohn Elkies · 手稿填充根 − 亏量 ≤
+CohnElkies.manuscriptQuotientRootError_isLittleO	Cohn Elkies · 手稿商根误差 是小 O
+CohnElkies.manuscriptQuotientRootInf_div_sqrt_tendsto	Cohn Elkies · 手稿商根下确界 ÷ 平方根 趋于
+CohnElkies.manuscriptQuotientRootInf_eq_critical_add_error	Cohn Elkies · 手稿商根下确界 = 临界 + 误差
+CohnElkies.manuscriptQuotientRootSet_eq_image	Cohn Elkies · 手稿商根集合 = 像
+CohnElkies.manuscriptQuotientRootSet_eq_literal	Cohn Elkies · 手稿商根集合 = 文字
+CohnElkies.manuscript_pi_gt_d40	Cohn Elkies · 手稿 π > d 40
+CohnElkies.manuscript_pi_lt_d40	Cohn Elkies · 手稿 π < d 40
+CohnElkies.mellinDenominator_re_pos	Cohn Elkies · mellin 分母 实部 正
+CohnElkies.mellinMultiplier_denominator_ne_zero	Cohn Elkies · mellin 乘子 分母 ≠ 零
+CohnElkies.mellinFrequency_eq_fourier	Cohn Elkies · mellin 频率 = 傅里叶
+CohnElkies.radialMellinFrequency_eq_fourier	Cohn Elkies · 径向 Mellin 频率 = 傅里叶
+CohnElkies.mellinInv_real_of_hermitian	Cohn Elkies · mellin 逆 实 由 厄米
+CohnElkies.minusSaddleProfile_real	Cohn Elkies · 减鞍点轮廓 实
+CohnElkies.plusSaddleProfile_real	Cohn Elkies · 加鞍点轮廓 实
+CohnElkies.mellinInversePower_conj	Cohn Elkies · mellin 逆幂 共轭
+CohnElkies.mellinMultiplier_mul_saddleEnvelope_neg	Cohn Elkies · mellin 乘子 × 鞍点包络 负
+CohnElkies.mellinMultiplier_mul_minusSaddleSpectrum_neg	Cohn Elkies · mellin 乘子 × 减鞍点谱 负
+CohnElkies.saddleSource_fourier_minus_eq_plus	Cohn Elkies · 鞍点源 傅里叶 减 = 加
+CohnElkies.mellinShellPhase_analyticOnNhd	Cohn Elkies · mellin 壳相位 解析在…上邻域
+CohnElkies.realHyperbolicShellPhase_contDiff	Cohn Elkies · 实双曲壳相位 连续差
+CohnElkies.saddleRegularMellinFactor_continuous	Cohn Elkies · 鞍点正则 Mellin 因子 连续
+CohnElkies.saddleRegularMellinFactor_differentiable	Cohn Elkies · 鞍点正则 Mellin 因子 可微
+CohnElkies.mellinShellPhase_imaginary	Cohn Elkies · mellin 壳相位 虚
+CohnElkies.mellinShellPhase_neg_I	Cohn Elkies · mellin 壳相位 负 I
+CohnElkies.saddleRegularMellinFactor_neg_even	Cohn Elkies · 鞍点正则 Mellin 因子 负 偶
+CohnElkies.saddleSourceShellQuadraticRemainder_eq	Cohn Elkies · 鞍点源壳二次余项 =
+CohnElkies.mellinShellPhase_neg	Cohn Elkies · mellin 壳相位 负
+CohnElkies.saddleEnvelope_conj	Cohn Elkies · 鞍点包络 共轭
+CohnElkies.saddleRegularMellinFactor_zero	Cohn Elkies · 鞍点正则 Mellin 因子 零
+CohnElkies.mellinShellPhase_ofReal	Cohn Elkies · mellin 壳相位 由实
+CohnElkies.mellinShellPhase_real_conj	Cohn Elkies · mellin 壳相位 实 共轭
+CohnElkies.saddleShellPhase_continuous	Cohn Elkies · 鞍点壳相位 连续
+CohnElkies.mellinShellPhase_shifted_re	Cohn Elkies · mellin 壳相位 平移 实部
+CohnElkies.saddleShellPhase_damping_identity	Cohn Elkies · 鞍点壳相位 阻尼 恒等式
+CohnElkies.minusPolynomial_add_sub	Cohn Elkies · 减多项式 + −
+CohnElkies.minusPolynomial_translation_norm_le	Cohn Elkies · 减多项式 平移 范数 ≤
+CohnElkies.minusPolynomial_conj	Cohn Elkies · 减多项式 共轭
+CohnElkies.minusSaddleSpectrum_conj	Cohn Elkies · 减鞍点谱 共轭
+CohnElkies.minusPolynomial_imaginary	Cohn Elkies · 减多项式 虚
+CohnElkies.minusPolynomial_imaginary_re_neg	Cohn Elkies · 减多项式 虚 实部 负
+CohnElkies.minusPolynomial_neg_I	Cohn Elkies · 减多项式 负 I
+CohnElkies.minusPolynomial_imaginary_cubic_growth_le	Cohn Elkies · 减多项式 虚 三次 增长 ≤
+CohnElkies.saddleSourceGaussianMinusIntegrand_neg_integral_re_eq_norm	Cohn Elkies · 鞍点源高斯减被积函数 负 积分 实部 = 范数
+CohnElkies.minusPolynomial_neg	Cohn Elkies · 减多项式 负
+CohnElkies.plusSaddleSpectrum_conj	Cohn Elkies · 加鞍点谱 共轭
+CohnElkies.two_mul_minusSaddleRegularMellinFactor_zero	Cohn Elkies · 二 × 减鞍点正则 Mellin 因子 零
+CohnElkies.minusSaddleFourierData_fourier_integrable_of_source	Cohn Elkies · 减鞍点傅里叶数据 傅里叶 可积 由 源
+CohnElkies.minusSaddleFinitePoleRegularPart_analyticOnNhd	Cohn Elkies · 减鞍点有限极点正则部分 解析在…上邻域
+CohnElkies.minusSaddleFinitePoleRegularPart_differentiableOn	Cohn Elkies · 减鞍点有限极点正则部分 可微在…上
+CohnElkies.minusSaddleFinitePoleRegularPart_eq_subtraction_of_not_pole	Cohn Elkies · 减鞍点有限极点正则部分 = 减法 由 非 极点
+CohnElkies.minusSaddleFiniteRapidPoleRegularPart_differentiableOn	Cohn Elkies · 减鞍点有限速降极点正则部分 可微在…上
+CohnElkies.minusSaddleFinitePoleRegularPart_eq_on_punctured	Cohn Elkies · 减鞍点有限极点正则部分 = 在…上 穿孔
+CohnElkies.minusSaddleFiniteRapidPoleRegularPart_eq_subtraction_of_not_pole	Cohn Elkies · 减鞍点有限速降极点正则部分 = 减法 由 非 极点
+CohnElkies.minusSaddleFinitePoleRegularPart_meromorphicNFOn	Cohn Elkies · 减鞍点有限极点正则部分 亚纯 NF 在…上
+CohnElkies.minusSaddleFinitePoleRemaining_differentiableAt_pole	Cohn Elkies · 减鞍点有限极点剩余 可微在 极点
+CohnElkies.minusSaddleFinitePoleSubtraction_tendsto_at_pole	Cohn Elkies · 减鞍点有限极点减法 趋于 在 极点
+CohnElkies.minusSaddleFinitePoleSubtraction_differentiableAt_of_not_pole	Cohn Elkies · 减鞍点有限极点减法 可微在 由 非 极点
+CohnElkies.minusSaddleFinitePoleSubtraction_tendsto_of_mem	Cohn Elkies · 减鞍点有限极点减法 趋于 由 ∈
+CohnElkies.minusSaddleFinitePoleSubtraction_eventually_eq_poleRegular	Cohn Elkies · 减鞍点有限极点减法 最终 = 极点正则
+CohnElkies.minusSaddleFinitePoleSubtraction_meromorphic	Cohn Elkies · 减鞍点有限极点减法 亚纯
+CohnElkies.minusSaddleFiniteRapidContourIntegrand_boundary_rectangle	Cohn Elkies · 减鞍点有限速降围道被积函数 边界 矩形
+CohnElkies.minusSaddleFiniteRapidContourIntegrand_vertical_integral_eq	Cohn Elkies · 减鞍点有限速降围道被积函数 竖直 积分 =
+CohnElkies.minusSaddleFiniteRapidContourIntegrand_differentiableOn	Cohn Elkies · 减鞍点有限速降围道被积函数 可微在…上
+CohnElkies.minusSaddleFiniteRapidContourIntegrand_horizontalIntegral_tendsto_zero	Cohn Elkies · 减鞍点有限速降围道被积函数 水平积分 趋于 零
+CohnElkies.minusSaddleFiniteRapidContourIntegrand_horizontalStrip_bound	Cohn Elkies · 减鞍点有限速降围道被积函数 水平带形 界
+CohnElkies.minusSaddleFiniteRapidContourIntegrand_shiftedLine_integrable	Cohn Elkies · 减鞍点有限速降围道被积函数 平移直线 可积
+CohnElkies.minusSaddleFiniteRapidContourIntegrand_shiftedLine_integral_eq	Cohn Elkies · 减鞍点有限速降围道被积函数 平移直线 积分 =
+CohnElkies.minusSaddleMellinData_vertical_integral_residue_expansion	Cohn Elkies · 减鞍点 Mellin 数据 竖直 积分 留数 展开
+CohnElkies.minusSaddleFourierData_continuous	Cohn Elkies · 减鞍点傅里叶数据 连续
+CohnElkies.minusSaddleFourierData_integrable	Cohn Elkies · 减鞍点傅里叶数据 可积
+CohnElkies.minusSaddleFourierData_fourier_contDiff	Cohn Elkies · 减鞍点傅里叶数据 傅里叶 连续差
+CohnElkies.minusSaddleProfile_contDiffOn	Cohn Elkies · 减鞍点轮廓 连续差在…上
+CohnElkies.minusSaddle_radialMellinFrequency_of_source	Cohn Elkies · 减鞍点 径向 Mellin 频率 由 源
+CohnElkies.minusSaddleFunction_contDiff	Cohn Elkies · 减鞍点函数 连续差
+CohnElkies.saddleSourceSchwartzRealization	Cohn Elkies · 鞍点源 Schwartz 实现
+CohnElkies.minusSaddleFunction_contDiffOn	Cohn Elkies · 减鞍点函数 连续差在…上
+CohnElkies.minusSaddleFunction_contDiff_nat	Cohn Elkies · 减鞍点函数 连续差 自然数
+CohnElkies.minusSaddleFunction_radial	Cohn Elkies · 减鞍点函数 径向
+CohnElkies.minusSaddle_radial_of_source	Cohn Elkies · 减鞍点 径向 由 源
+CohnElkies.minusSaddleFunction_real	Cohn Elkies · 减鞍点函数 实
+CohnElkies.minusSaddle_real_of_source	Cohn Elkies · 减鞍点 实 由 源
+CohnElkies.minusSaddleFunction_zero	Cohn Elkies · 减鞍点函数 零
+CohnElkies.saddleFunction_zero_pos	Cohn Elkies · 鞍点函数 零 正
+CohnElkies.saddleSource_zero_eq	Cohn Elkies · 鞍点源 零 =
+CohnElkies.minusSaddleLinearCoefficient_norm_le	Cohn Elkies · 减鞍点线性系数 范数 ≤
+CohnElkies.minusSaddleMellinData_conj_vertical	Cohn Elkies · 减鞍点 Mellin 数据 共轭 竖直
+CohnElkies.minusSaddleMellinData_differentiableAt_of_not_pole	Cohn Elkies · 减鞍点 Mellin 数据 可微在 由 非 极点
+CohnElkies.minusSaddleMellinData_shiftedLine_continuous	Cohn Elkies · 减鞍点 Mellin 数据 平移直线 连续
+CohnElkies.minusSaddleMellinData_differentiableOn_rightHalfPlane	Cohn Elkies · 减鞍点 Mellin 数据 可微在…上 右一半平面
+CohnElkies.minusSaddleMellinData_positive_vertical_integral_eq	Cohn Elkies · 减鞍点 Mellin 数据 正 竖直 积分 =
+CohnElkies.minusSaddleMellinData_eq_gamma_mul_regular	Cohn Elkies · 减鞍点 Mellin 数据 = Γ × 正则
+CohnElkies.minusSaddleMellinData_eq_nthPoleNumerator_div	Cohn Elkies · 减鞍点 Mellin 数据 = 第n个极点分子 ÷
+CohnElkies.minusSaddleMellinData_meromorphic	Cohn Elkies · 减鞍点 Mellin 数据 亚纯
+CohnElkies.minusSaddleMellinData_nthPole_decomposition	Cohn Elkies · 减鞍点 Mellin 数据 第n个极点 分解
+CohnElkies.minusSaddleMellinData_fourier_vertical	Cohn Elkies · 减鞍点 Mellin 数据 傅里叶 竖直
+CohnElkies.minusSaddleProfile_eq_fourier	Cohn Elkies · 减鞍点轮廓 = 傅里叶
+CohnElkies.minusSaddleMellinData_horizontalStrip_polynomial_bound	Cohn Elkies · 减鞍点 Mellin 数据 水平带形 多项式 界
+CohnElkies.minusSaddleMellinData_weighted_horizontalStrip_polynomial_bound	Cohn Elkies · 减鞍点 Mellin 数据 加权 水平带形 多项式 界
+CohnElkies.minusSaddleProfile_eq_positive_contour	Cohn Elkies · 减鞍点轮廓 = 正 围道
+CohnElkies.minusSaddleMellinData_shiftedLine_weighted_moment_integrable	Cohn Elkies · 减鞍点 Mellin 数据 平移直线 加权 矩 可积
+CohnElkies.minusSaddlePositiveSquaredContour_contDiffOn	Cohn Elkies · 减鞍点正平方围道 连续差在…上
+CohnElkies.minusSaddleSquaredRemainder_contDiffOn	Cohn Elkies · 减鞍点平方余项 连续差在…上
+CohnElkies.minusSaddleMellinData_shiftedLine_polynomial_bound	Cohn Elkies · 减鞍点 Mellin 数据 平移直线 多项式 界
+CohnElkies.minusSaddleMellinData_shiftedLine_weighted_integrable	Cohn Elkies · 减鞍点 Mellin 数据 平移直线 加权 可积
+CohnElkies.saddleSourceCenteredMinusIntegrand_integrable	Cohn Elkies · 鞍点源中心化减被积函数 可积
+CohnElkies.minusSaddleMellinData_vertical	Cohn Elkies · 减鞍点 Mellin 数据 竖直
+CohnElkies.minusSaddleProfile_eq_residue_sum_add_remainder	Cohn Elkies · 减鞍点轮廓 = 留数 和 + 余项
+CohnElkies.minusSaddleMellinData_weighted_horizontalIntegral_tendsto_zero	Cohn Elkies · 减鞍点 Mellin 数据 加权 水平积分 趋于 零
+CohnElkies.minusSaddleNthPoleNumerator_at_pole	Cohn Elkies · 减鞍点第n个极点分子 在 极点
+CohnElkies.minusSaddleNthPoleNumerator_poleResidue	Cohn Elkies · 减鞍点第n个极点分子 极点留数
+CohnElkies.minusSaddleNthPoleNumerator_differentiableOn	Cohn Elkies · 减鞍点第n个极点分子 可微在…上
+CohnElkies.minusSaddleOuterDifference_hasCompactSupport	Cohn Elkies · 减鞍点外差 有紧支撑
+CohnElkies.minusSaddleOuterSchwartz_apply	Cohn Elkies · 减鞍点外 Schwartz 作用于
+CohnElkies.minusSaddleOuterSquaredProfile_contDiff	Cohn Elkies · 减鞍点外平方轮廓 连续差
+CohnElkies.minusSaddleOuterSquaredProfile_schwartz_decay	Cohn Elkies · 减鞍点外平方轮廓 schwartz 衰减
+CohnElkies.minusSaddleOuterSquaredProfile_eq_positiveContour	Cohn Elkies · 减鞍点外平方轮廓 = 正围道
+CohnElkies.minusSaddleOuterSquaredProfile_eq_zero	Cohn Elkies · 减鞍点外平方轮廓 = 零
+CohnElkies.minusSaddlePoleResidue_zero	Cohn Elkies · 减鞍点极点留数 零
+CohnElkies.minusSaddleProfile_eq_squaredTaylor	Cohn Elkies · 减鞍点轮廓 = 平方 Taylor
+CohnElkies.minusSaddlePositiveSquaredContour_eq_of_pos	Cohn Elkies · 减鞍点正平方围道 = 由 正
+CohnElkies.minusSaddleProfile_eq_normalized_vertical_integral	Cohn Elkies · 减鞍点轮廓 = 归一化 竖直 积分
+CohnElkies.minusSaddleProfile_eq_positive_squaredContour	Cohn Elkies · 减鞍点轮廓 = 正 平方围道
+CohnElkies.minusSaddleProfile_eq_sourceContourIntegral	Cohn Elkies · 减鞍点轮廓 = 源围道积分
+CohnElkies.minusSaddleProfile_exp_eq_centeredIntegral	Cohn Elkies · 减鞍点轮廓 指数函数 = 中心化积分
+CohnElkies.minusSaddleProfile_exp_re_neg_of_gaussian_error	Cohn Elkies · 减鞍点轮廓 指数函数 实部 负 由 高斯 误差
+CohnElkies.minusSaddleProfile_re_neg_at_sourceSaddle_of_gaussian_error	Cohn Elkies · 减鞍点轮廓 实部 负 在 源鞍点 由 高斯 误差
+CohnElkies.minusSaddleQuadraticCoefficient_norm_le	Cohn Elkies · 减鞍点二次系数 范数 ≤
+CohnElkies.minusSaddleRegularMellinFactor_analyticOnNhd	Cohn Elkies · 减鞍点正则 Mellin 因子 解析在…上邻域
+CohnElkies.minusSaddleRegularMellinFactor_differentiable	Cohn Elkies · 减鞍点正则 Mellin 因子 可微
+CohnElkies.minusSaddleSpectrum_continuous	Cohn Elkies · 减鞍点谱 连续
+CohnElkies.minusSaddleSpectrum_norm_moment_integrable	Cohn Elkies · 减鞍点谱 范数 矩 可积
+CohnElkies.minusSaddleSpectrum_vertical_polynomial_bound	Cohn Elkies · 减鞍点谱 竖直 多项式 界
+CohnElkies.minusSaddleSquaredRemainder_zero	Cohn Elkies · 减鞍点平方余项 零
+CohnElkies.minusSaddleTaylorRemainder_eq_squared	Cohn Elkies · 减鞍点 Taylor 余项 = 平方
+CohnElkies.monotoneOn_quotientRootMap	Cohn Elkies · 单调在…上 商根映射
+CohnElkies.monotone_leftRiemann_error	Cohn Elkies · 单调 左 Riemann 误差
+CohnElkies.monotone_midpointIntegral_error	Cohn Elkies · 单调 中点积分 误差
+CohnElkies.negativeHalfline_le_of_fourierInversion	Cohn Elkies · 负半直线 ≤ 由 傅里叶反演
+CohnElkies.no_normalizedProfile_of_fourierInversion_lt_half	Cohn Elkies · 无 归一化轮廓 由 傅里叶反演 < 一半
+CohnElkies.no_antiFourierWitness_of_interiorMellinL1_lt_half	Cohn Elkies · 无 反傅里叶见证 由 内部 Mellin L 1 < 一半
+CohnElkies.nonnegativeSchwartzDensity_continuous	Cohn Elkies · 非负 Schwartz 密度 连续
+CohnElkies.nonnegativeSchwartz_complexMGF_mul_I	Cohn Elkies · 非负 Schwartz 复矩母函数 × I
+CohnElkies.norm_complexCos_le_cosh_im	Cohn Elkies · 范数 复余弦 ≤ 双曲余弦 虚部
+CohnElkies.norm_mellinShellPhase_le_horizontalVariation	Cohn Elkies · 范数 mellin 壳相位 ≤ 水平变差
+CohnElkies.norm_complexGamma_le_realGamma	Cohn Elkies · 范数 复Γ ≤ 实Γ
+CohnElkies.norm_complexLaplaceKernel	Cohn Elkies · 范数 复 Laplace 核
+CohnElkies.norm_extension_le_of_frontier	Cohn Elkies · 范数 扩张 ≤ 由 前沿
+CohnElkies.norm_fourierInv_le_integral_norm	Cohn Elkies · 范数 傅里叶逆 ≤ 积分 范数
+CohnElkies.norm_scaled_fourierInv_le_integral_norm	Cohn Elkies · 范数 缩放 傅里叶逆 ≤ 积分 范数
+CohnElkies.norm_gamma_half_add_imaginary_sq	Cohn Elkies · 范数 Γ 一半 + 虚 平方
+CohnElkies.upperNegativeHalfGamma_reflection_norm	Cohn Elkies · 上负一半Γ 反射 范数
+CohnElkies.upperPositiveHalfGamma_scaled_sq_le	Cohn Elkies · 上正一半Γ 缩放 平方 ≤
+CohnElkies.norm_gamma_imaginary_sq	Cohn Elkies · 范数 Γ 虚 平方
+CohnElkies.norm_gamma_neg_imaginary	Cohn Elkies · 范数 Γ 负 虚
+CohnElkies.norm_halfIntegerGammaFactor	Cohn Elkies · 范数 一半整数Γ因子
+CohnElkies.norm_integerGammaFactor	Cohn Elkies · 范数 整数Γ因子
+CohnElkies.norm_saddleShellExponential_horizontal_le	Cohn Elkies · 范数 鞍点壳指数 水平 ≤
+CohnElkies.norm_minusPolynomial_le	Cohn Elkies · 范数 减多项式 ≤
+CohnElkies.norm_minusPolynomial_scaled_le	Cohn Elkies · 范数 减多项式 缩放 ≤
+CohnElkies.norm_minusPolynomial_shiftedLine_le	Cohn Elkies · 范数 减多项式 平移直线 ≤
+CohnElkies.norm_nonnegative_imaginary_cpow_le_one	Cohn Elkies · 范数 非负 虚 复幂 ≤ 一
+CohnElkies.norm_schwartz_imaginaryRiesz_integral_le_L1	Cohn Elkies · 范数 schwartz 虚 Riesz 积分 ≤ L 1
+CohnElkies.norm_plusPolynomial_le	Cohn Elkies · 范数 加多项式 ≤
+CohnElkies.norm_plusPolynomial_negativeContour_le	Cohn Elkies · 范数 加多项式 负围道 ≤
+CohnElkies.norm_plusPolynomial_scaled_le	Cohn Elkies · 范数 加多项式 缩放 ≤
+CohnElkies.norm_plusPolynomial_shiftedLine_le	Cohn Elkies · 范数 加多项式 平移直线 ≤
+CohnElkies.plusSaddleMellinData_negativeContour_norm_le	Cohn Elkies · 加鞍点 Mellin 数据 负围道 范数 ≤
+CohnElkies.plusSaddleSpectrum_vertical_polynomial_bound	Cohn Elkies · 加鞍点谱 竖直 多项式 界
+CohnElkies.plusSaddleMellinData_shiftedLine_polynomial_bound	Cohn Elkies · 加鞍点 Mellin 数据 平移直线 多项式 界
+CohnElkies.norm_radialProfile_eq_abs_re	Cohn Elkies · 范数 径向轮廓 = 绝对值 实部
+CohnElkies.norm_radialUnitDirection	Cohn Elkies · 范数 径向单位方向
+CohnElkies.normalizedRadialLogProfile_nonneg_of_exterior	Cohn Elkies · 归一化径向对数轮廓 非负 由 外
+CohnElkies.radialProfile_eq_minusSaddleProfile_of_source	Cohn Elkies · 径向轮廓 = 减鞍点轮廓 由 源
+CohnElkies.radialProfile_eq_plusSaddleProfile_of_source	Cohn Elkies · 径向轮廓 = 加鞍点轮廓 由 源
+CohnElkies.radialProfile_neg	Cohn Elkies · 径向轮廓 负
+CohnElkies.radialProfile_norm	Cohn Elkies · 径向轮廓 范数
+CohnElkies.radialProfile_smooth	Cohn Elkies · 径向轮廓 光滑
+CohnElkies.radialSchwartzProfile_apply	Cohn Elkies · 径向 Schwartz 轮廓 作用于
+CohnElkies.norm_saddleShellExponential_eq_exp_neg_damping	Cohn Elkies · 范数 鞍点壳指数 = 指数函数 负 阻尼
+CohnElkies.saddleSourceContour_shellExponential_norm	Cohn Elkies · 鞍点源围道 壳指数 范数
+CohnElkies.upperNegativeContour_gamma_mul_shellExponential_le	Cohn Elkies · 上负围道 Γ × 壳指数 ≤
+CohnElkies.norm_saddleShellExponential_shiftedLine_le	Cohn Elkies · 范数 鞍点壳指数 平移直线 ≤
+CohnElkies.norm_stripRegularizedHolomorphicPoissonKernelDeriv_neg	Cohn Elkies · 范数 带形正则化全纯 Poisson 核导数 负
+CohnElkies.stripRegularizedHolomorphicPoissonKernelDeriv_local_bound	Cohn Elkies · 带形正则化全纯 Poisson 核导数 局部 界
+CohnElkies.norm_stripRegularizedHolomorphicPoissonKernelDeriv_pos	Cohn Elkies · 范数 带形正则化全纯 Poisson 核导数 正
+CohnElkies.norm_stripRegularizedHolomorphicPoissonKernel_of_neg	Cohn Elkies · 范数 带形正则化全纯 Poisson 核 由 负
+CohnElkies.stripRegularizedOuter_integrable_of_exp_integrable	Cohn Elkies · 带形正则化外 可积 由 指数函数 可积
+CohnElkies.norm_stripRegularizedHolomorphicPoissonKernel_of_nonneg	Cohn Elkies · 范数 带形正则化全纯 Poisson 核 由 非负
+CohnElkies.norm_stripSchwarzExponential	Cohn Elkies · 范数 带形 Schwarz 指数
+CohnElkies.normalizedCostRange_eq_quotientRootImage	Cohn Elkies · 归一化代价值域 = 商根像
+CohnElkies.normalizedCostSet_bddBelow	Cohn Elkies · 归一化代价集合 有界下方
+CohnElkies.normalizedProgram_le_normalizedCost	Cohn Elkies · 归一化程序 ≤ 归一化代价
+CohnElkies.uniformAdmissibleLowerBound_of_signRadius	Cohn Elkies · 一致容许下界 由 符号半径
+CohnElkies.normalizedCost_nonneg	Cohn Elkies · 归一化代价 非负
+CohnElkies.normalizedProfile_negativeHalfline_le_of_exp_majorant	Cohn Elkies · 归一化轮廓 负半直线 ≤ 由 指数函数 控制函数
+CohnElkies.normalizedRadialLogProfile_eq	Cohn Elkies · 归一化径向对数轮廓 =
+CohnElkies.normalizedRadialLogProfile_ofReal	Cohn Elkies · 归一化径向对数轮廓 由实
+CohnElkies.normalizedRadialLogProfile_weighted_ofReal	Cohn Elkies · 归一化径向对数轮廓 加权 由实
+CohnElkies.normalizedRadialLogProfile_weighted_fourier_integrable	Cohn Elkies · 归一化径向对数轮廓 加权 傅里叶 可积
+CohnElkies.normalizedRadialMellinStrip_shifted_fourier_inversion	Cohn Elkies · 归一化径向 Mellin 带形 平移 傅里叶 反演
+CohnElkies.normalizedRadialMellinStrip_shifted_integrable	Cohn Elkies · 归一化径向 Mellin 带形 平移 可积
+CohnElkies.normalizedRadialMellinStrip_shifted_eq_fourier	Cohn Elkies · 归一化径向 Mellin 带形 平移 = 傅里叶
+CohnElkies.normalizedRadialMellinStrip_bottom_norm_eq	Cohn Elkies · 归一化径向 Mellin 带形 底 范数 =
+CohnElkies.normalizedRadialMellinStrip_bottom_norm_le_gamma	Cohn Elkies · 归一化径向 Mellin 带形 底 范数 ≤ Γ
+CohnElkies.normalizedRadialMellinStrip_diffContOnCl	Cohn Elkies · 归一化径向 Mellin 带形 差连续在…上 Cl
+CohnElkies.normalizedRadialMellinStrip_top_norm_eq	Cohn Elkies · 归一化径向 Mellin 带形 ⊤ 范数 =
+CohnElkies.normalizedRadialMellinStrip_uniform_bound	Cohn Elkies · 归一化径向 Mellin 带形 一致 界
+CohnElkies.normalizedVolumeLog_odd_eq	Cohn Elkies · 归一化体积对数 奇 =
+CohnElkies.tendsto_normalizedVolumeLog_odd	Cohn Elkies · 趋于 归一化体积对数 奇
+CohnElkies.normalizedVolumeRoot_pos	Cohn Elkies · 归一化体积根 正
+CohnElkies.numeralTwoAtLeast	Cohn Elkies · 数字二在最小
+SpherePacking.Alternative.IsRadial.fourier_realValued	球面填充 · 备选 · 是径向 · 傅里叶 实值
+SpherePacking.Alternative.orthogonalAction_continuous	球面填充 · 备选 · 正交作用 连续
+SpherePacking.Alternative.orthogonalAction_joint_continuous	球面填充 · 备选 · 正交作用 联合 连续
+SpherePacking.Alternative.orthogonalAction_mul	球面填充 · 备选 · 正交作用 ×
+SpherePacking.Alternative.orthogonalAction_one	球面填充 · 备选 · 正交作用 一
+SpherePacking.Alternative.orthogonalAction_zero	球面填充 · 备选 · 正交作用 零
+SpherePacking.Alternative.orthogonalLinearIsometry_apply	球面填充 · 备选 · 正交线性等距 作用于
+SpherePacking.Alternative.radialFourierCharacter_continuous	球面填充 · 备选 · 径向傅里叶特征标 连续
+SpherePacking.Alternative.radialFourierCharacter_norm	球面填充 · 备选 · 径向傅里叶特征标 范数
+SpherePacking.Alternative.radialSymmetrizationAverage_eq_orthogonalScalarAverage	球面填充 · 备选 · 径向对称化平均 = 正交标量平均
+CohnElkies.oddDoubleFactorial_mul_two_pow_factorial	Cohn Elkies · 奇双阶乘 × 二 幂 阶乘
+CohnElkies.unitBallVolume_odd_factorial	Cohn Elkies · 单位球体积 奇 阶乘
+CohnElkies.one_le_saddleNegativeContourOrdinate	Cohn Elkies · 一 ≤ 鞍点负围道纵坐标
+CohnElkies.upperNegativeContour_gamma_mul_exp_short_le	Cohn Elkies · 上负围道 Γ × 指数函数 短 ≤
+CohnElkies.packingGeometricRoot_eq_normalizedVolumeRoot_div_two	Cohn Elkies · 填充几何根 = 归一化体积根 ÷ 二
+CohnElkies.tendsto_packingGeometricRoot	Cohn Elkies · 趋于 填充几何根
+CohnElkies.plusPolynomial_add_sub	Cohn Elkies · 加多项式 + −
+CohnElkies.plusPolynomial_translation_norm_le	Cohn Elkies · 加多项式 平移 范数 ≤
+CohnElkies.plusPolynomial_conj	Cohn Elkies · 加多项式 共轭
+CohnElkies.plusPolynomial_imaginary	Cohn Elkies · 加多项式 虚
+CohnElkies.plusPolynomial_neg_I	Cohn Elkies · 加多项式 负 I
+CohnElkies.plusPolynomial_negative_imaginary_residue	Cohn Elkies · 加多项式 负 虚 留数
+CohnElkies.plusPolynomial_imaginary_cubic_growth_le	Cohn Elkies · 加多项式 虚 三次 增长 ≤
+CohnElkies.saddleSourceGaussianPlusIntegrand_integral_re_eq_norm	Cohn Elkies · 鞍点源高斯加被积函数 积分 实部 = 范数
+CohnElkies.two_mul_plusSaddleRegularMellinFactor_zero	Cohn Elkies · 二 × 加鞍点正则 Mellin 因子 零
+CohnElkies.plusSaddlePoleResidue_explicit_real	Cohn Elkies · 加鞍点极点留数 显式 实
+CohnElkies.plusSaddleFourierData_fourier_integrable_of_source	Cohn Elkies · 加鞍点傅里叶数据 傅里叶 可积 由 源
+CohnElkies.plusSaddleFinitePoleRegularPart_analyticOnNhd	Cohn Elkies · 加鞍点有限极点正则部分 解析在…上邻域
+CohnElkies.plusSaddleFinitePoleRegularPart_differentiableOn	Cohn Elkies · 加鞍点有限极点正则部分 可微在…上
+CohnElkies.plusSaddleFinitePoleRegularPart_eq_subtraction_of_not_pole	Cohn Elkies · 加鞍点有限极点正则部分 = 减法 由 非 极点
+CohnElkies.plusSaddleFiniteRapidPoleRegularPart_differentiableOn	Cohn Elkies · 加鞍点有限速降极点正则部分 可微在…上
+CohnElkies.plusSaddleFinitePoleRegularPart_eq_on_punctured	Cohn Elkies · 加鞍点有限极点正则部分 = 在…上 穿孔
+CohnElkies.plusSaddleFiniteRapidPoleRegularPart_eq_subtraction_of_not_pole	Cohn Elkies · 加鞍点有限速降极点正则部分 = 减法 由 非 极点
+CohnElkies.plusSaddleFinitePoleRegularPart_meromorphicNFOn	Cohn Elkies · 加鞍点有限极点正则部分 亚纯 NF 在…上
+CohnElkies.plusSaddleFinitePoleRemaining_differentiableAt_pole	Cohn Elkies · 加鞍点有限极点剩余 可微在 极点
+CohnElkies.plusSaddleFinitePoleSubtraction_tendsto_at_pole	Cohn Elkies · 加鞍点有限极点减法 趋于 在 极点
+CohnElkies.plusSaddleFinitePoleSubtraction_differentiableAt_of_not_pole	Cohn Elkies · 加鞍点有限极点减法 可微在 由 非 极点
+CohnElkies.plusSaddleFinitePoleSubtraction_tendsto_of_mem	Cohn Elkies · 加鞍点有限极点减法 趋于 由 ∈
+CohnElkies.plusSaddleFinitePoleSubtraction_eventually_eq_poleRegular	Cohn Elkies · 加鞍点有限极点减法 最终 = 极点正则
+CohnElkies.plusSaddleFinitePoleSubtraction_meromorphic	Cohn Elkies · 加鞍点有限极点减法 亚纯
+CohnElkies.plusSaddleFiniteRapidContourIntegrand_boundary_rectangle	Cohn Elkies · 加鞍点有限速降围道被积函数 边界 矩形
+CohnElkies.plusSaddleFiniteRapidContourIntegrand_vertical_integral_eq	Cohn Elkies · 加鞍点有限速降围道被积函数 竖直 积分 =
+CohnElkies.plusSaddleFiniteRapidContourIntegrand_differentiableOn	Cohn Elkies · 加鞍点有限速降围道被积函数 可微在…上
+CohnElkies.plusSaddleFiniteRapidContourIntegrand_horizontalIntegral_tendsto_zero	Cohn Elkies · 加鞍点有限速降围道被积函数 水平积分 趋于 零
+CohnElkies.plusSaddleFiniteRapidContourIntegrand_horizontalStrip_bound	Cohn Elkies · 加鞍点有限速降围道被积函数 水平带形 界
+CohnElkies.plusSaddleFiniteRapidContourIntegrand_shiftedLine_integrable	Cohn Elkies · 加鞍点有限速降围道被积函数 平移直线 可积
+CohnElkies.plusSaddleFiniteRapidContourIntegrand_shiftedLine_integral_eq	Cohn Elkies · 加鞍点有限速降围道被积函数 平移直线 积分 =
+CohnElkies.plusSaddleMellinData_vertical_integral_residue_expansion	Cohn Elkies · 加鞍点 Mellin 数据 竖直 积分 留数 展开
+CohnElkies.plusSaddleFourierData_continuous	Cohn Elkies · 加鞍点傅里叶数据 连续
+CohnElkies.plusSaddleFourierData_integrable	Cohn Elkies · 加鞍点傅里叶数据 可积
+CohnElkies.plusSaddleFourierData_fourier_contDiff	Cohn Elkies · 加鞍点傅里叶数据 傅里叶 连续差
+CohnElkies.plusSaddleProfile_contDiffOn	Cohn Elkies · 加鞍点轮廓 连续差在…上
+CohnElkies.plusSaddle_radialMellinFrequency_of_source	Cohn Elkies · 加鞍点 径向 Mellin 频率 由 源
+CohnElkies.plusSaddleFunction_contDiff	Cohn Elkies · 加鞍点函数 连续差
+CohnElkies.plusSaddleFunction_contDiffOn	Cohn Elkies · 加鞍点函数 连续差在…上
+CohnElkies.plusSaddleFunction_contDiff_nat	Cohn Elkies · 加鞍点函数 连续差 自然数
+CohnElkies.plusSaddleFunction_radial	Cohn Elkies · 加鞍点函数 径向
+CohnElkies.plusSaddle_radial_of_source	Cohn Elkies · 加鞍点 径向 由 源
+CohnElkies.plusSaddleFunction_real	Cohn Elkies · 加鞍点函数 实
+CohnElkies.plusSaddle_real_of_source	Cohn Elkies · 加鞍点 实 由 源
+CohnElkies.plusSaddleFunction_zero	Cohn Elkies · 加鞍点函数 零
+CohnElkies.plusSaddleLinearCoefficient_norm_le	Cohn Elkies · 加鞍点线性系数 范数 ≤
+CohnElkies.plusSaddleMellinData_conj_vertical	Cohn Elkies · 加鞍点 Mellin 数据 共轭 竖直
+CohnElkies.plusSaddleMellinData_differentiableAt_of_not_pole	Cohn Elkies · 加鞍点 Mellin 数据 可微在 由 非 极点
+CohnElkies.plusSaddleMellinData_shiftedLine_continuous	Cohn Elkies · 加鞍点 Mellin 数据 平移直线 连续
+CohnElkies.plusSaddleMellinData_differentiableOn_rightHalfPlane	Cohn Elkies · 加鞍点 Mellin 数据 可微在…上 右一半平面
+CohnElkies.plusSaddleMellinData_positive_vertical_integral_eq	Cohn Elkies · 加鞍点 Mellin 数据 正 竖直 积分 =
+CohnElkies.plusSaddleMellinData_eq_gamma_mul_regular	Cohn Elkies · 加鞍点 Mellin 数据 = Γ × 正则
+CohnElkies.plusSaddleMellinData_eq_nthPoleNumerator_div	Cohn Elkies · 加鞍点 Mellin 数据 = 第n个极点分子 ÷
+CohnElkies.plusSaddleMellinData_meromorphic	Cohn Elkies · 加鞍点 Mellin 数据 亚纯
+CohnElkies.plusSaddleMellinData_nthPole_decomposition	Cohn Elkies · 加鞍点 Mellin 数据 第n个极点 分解
+CohnElkies.plusSaddleMellinData_fourier_vertical	Cohn Elkies · 加鞍点 Mellin 数据 傅里叶 竖直
+CohnElkies.plusSaddleProfile_eq_fourier	Cohn Elkies · 加鞍点轮廓 = 傅里叶
+CohnElkies.plusSaddleMellinData_horizontalStrip_polynomial_bound	Cohn Elkies · 加鞍点 Mellin 数据 水平带形 多项式 界
+CohnElkies.plusSaddleMellinData_weighted_horizontalStrip_polynomial_bound	Cohn Elkies · 加鞍点 Mellin 数据 加权 水平带形 多项式 界
+CohnElkies.plusSaddleMellinData_negativeContour_integral_norm_le	Cohn Elkies · 加鞍点 Mellin 数据 负围道 积分 范数 ≤
+CohnElkies.plusSaddleTaylorRemainder_negativeContour_bound	Cohn Elkies · 加鞍点 Taylor 余项 负围道 界
+CohnElkies.plusSaddleProfile_eq_positive_contour	Cohn Elkies · 加鞍点轮廓 = 正 围道
+CohnElkies.plusSaddleMellinData_shiftedLine_weighted_moment_integrable	Cohn Elkies · 加鞍点 Mellin 数据 平移直线 加权 矩 可积
+CohnElkies.plusSaddlePositiveSquaredContour_contDiffOn	Cohn Elkies · 加鞍点正平方围道 连续差在…上
+CohnElkies.plusSaddleSquaredRemainder_contDiffOn	Cohn Elkies · 加鞍点平方余项 连续差在…上
+CohnElkies.plusSaddleMellinData_shiftedLine_weighted_integrable	Cohn Elkies · 加鞍点 Mellin 数据 平移直线 加权 可积
+CohnElkies.saddleSourceCenteredPlusIntegrand_integrable	Cohn Elkies · 鞍点源中心化加被积函数 可积
+CohnElkies.plusSaddleMellinData_vertical	Cohn Elkies · 加鞍点 Mellin 数据 竖直
+CohnElkies.plusSaddleProfile_eq_residue_sum_add_remainder	Cohn Elkies · 加鞍点轮廓 = 留数 和 + 余项
+CohnElkies.plusSaddleMellinData_weighted_horizontalIntegral_tendsto_zero	Cohn Elkies · 加鞍点 Mellin 数据 加权 水平积分 趋于 零
+CohnElkies.plusSaddleNthPoleNumerator_at_pole	Cohn Elkies · 加鞍点第n个极点分子 在 极点
+CohnElkies.plusSaddleNthPoleNumerator_poleResidue	Cohn Elkies · 加鞍点第n个极点分子 极点留数
+CohnElkies.plusSaddleNthPoleNumerator_differentiableOn	Cohn Elkies · 加鞍点第n个极点分子 可微在…上
+CohnElkies.plusSaddleOuterDifference_hasCompactSupport	Cohn Elkies · 加鞍点外差 有紧支撑
+CohnElkies.plusSaddleOuterSchwartz_apply	Cohn Elkies · 加鞍点外 Schwartz 作用于
+CohnElkies.plusSaddleOuterSquaredProfile_contDiff	Cohn Elkies · 加鞍点外平方轮廓 连续差
+CohnElkies.plusSaddleOuterSquaredProfile_schwartz_decay	Cohn Elkies · 加鞍点外平方轮廓 schwartz 衰减
+CohnElkies.plusSaddleOuterSquaredProfile_eq_positiveContour	Cohn Elkies · 加鞍点外平方轮廓 = 正围道
+CohnElkies.plusSaddleOuterSquaredProfile_eq_zero	Cohn Elkies · 加鞍点外平方轮廓 = 零
+SpherePacking.Alternative.radialSymmetrization_apply	球面填充 · 备选 · 径向对称化 作用于
+CohnElkies.plusSaddleProfile_eq_small_radius_residue_series	Cohn Elkies · 加鞍点轮廓 = 小 半径 留数 级数
+CohnElkies.plusSaddlePoleResidue_zero	Cohn Elkies · 加鞍点极点留数 零
+CohnElkies.plusSaddleProfile_eq_squaredTaylor	Cohn Elkies · 加鞍点轮廓 = 平方 Taylor
+CohnElkies.plusSaddlePositiveSquaredContour_eq_of_pos	Cohn Elkies · 加鞍点正平方围道 = 由 正
+CohnElkies.plusSaddleProfile_div_origin_eq_small_radius_residue_series	Cohn Elkies · 加鞍点轮廓 ÷ 原点 = 小 半径 留数 级数
+CohnElkies.plusSaddleProfile_re_pos_of_relative_residue_bounds	Cohn Elkies · 加鞍点轮廓 实部 正 由 相对 留数 界
+CohnElkies.plusSaddleProfile_eq_normalized_vertical_integral	Cohn Elkies · 加鞍点轮廓 = 归一化 竖直 积分
+CohnElkies.plusSaddleProfile_eq_positive_squaredContour	Cohn Elkies · 加鞍点轮廓 = 正 平方围道
+CohnElkies.plusSaddleProfile_eq_sourceContourIntegral	Cohn Elkies · 加鞍点轮廓 = 源围道积分
+CohnElkies.plusSaddleProfile_exp_eq_centeredIntegral	Cohn Elkies · 加鞍点轮廓 指数函数 = 中心化积分
+CohnElkies.plusSaddleProfile_exp_re_pos_of_gaussian_error	Cohn Elkies · 加鞍点轮廓 指数函数 实部 正 由 高斯 误差
+CohnElkies.plusSaddleProfile_re_pos_at_sourceSaddle_of_gaussian_error	Cohn Elkies · 加鞍点轮廓 实部 正 在 源鞍点 由 高斯 误差
+CohnElkies.plusSaddleQuadraticCoefficient_norm_le	Cohn Elkies · 加鞍点二次系数 范数 ≤
+CohnElkies.plusSaddleRegularMellinFactor_analyticOnNhd	Cohn Elkies · 加鞍点正则 Mellin 因子 解析在…上邻域
+CohnElkies.plusSaddleRegularMellinFactor_differentiable	Cohn Elkies · 加鞍点正则 Mellin 因子 可微
+CohnElkies.plusSaddleRegularMellinFactor_neg_even	Cohn Elkies · 加鞍点正则 Mellin 因子 负 偶
+CohnElkies.plusSaddleSpectrum_continuous	Cohn Elkies · 加鞍点谱 连续
+CohnElkies.plusSaddleSpectrum_norm_moment_integrable	Cohn Elkies · 加鞍点谱 范数 矩 可积
+CohnElkies.plusSaddleSquaredRemainder_zero	Cohn Elkies · 加鞍点平方余项 零
+CohnElkies.plusSaddleTaylorRemainder_eq_squared	Cohn Elkies · 加鞍点 Taylor 余项 = 平方
+CohnElkies.plusSaddleTaylorRemainder_negativeContour_relative_bound	Cohn Elkies · 加鞍点 Taylor 余项 负围道 相对 界
+CohnElkies.poissonLogisticDensity_eq_limitingStripPoissonDensity	Cohn Elkies · poisson 逻辑斯蒂密度 = 极限带形 Poisson 密度
+CohnElkies.poissonLogisticDensity_le_pi_exp	Cohn Elkies · poisson 逻辑斯蒂密度 ≤ π 指数函数
+CohnElkies.poissonLogistic_characteristic_integrable	Cohn Elkies · poisson 逻辑斯蒂 特征 可积
+CohnElkies.poissonLogistic_cosine_integrable	Cohn Elkies · poisson 逻辑斯蒂 余弦 可积
+CohnElkies.poissonLogistic_cosine_transform	Cohn Elkies · poisson 逻辑斯蒂 余弦 变换
+CohnElkies.poissonLogistic_cpow_ratio	Cohn Elkies · poisson 逻辑斯蒂 复幂 比
+CohnElkies.poissonLogistic_hasDerivAt	Cohn Elkies · poisson 逻辑斯蒂 有导数在
+CohnElkies.poissonLogistic_image_univ	Cohn Elkies · poisson 逻辑斯蒂 像 全集
+CohnElkies.poissonLogistic_mem_Ioo	Cohn Elkies · poisson 逻辑斯蒂 ∈ 开区间
+CohnElkies.poissonLogistic_injective	Cohn Elkies · poisson 逻辑斯蒂 单射
+CohnElkies.poissonLogistic_odds	Cohn Elkies · poisson 逻辑斯蒂 赔率
+CohnElkies.positiveShellDamping_nonneg	Cohn Elkies · 正壳阻尼 非负
+CohnElkies.upperFirstBranchSaddleDamping_lower_bound	Cohn Elkies · 上第一分支鞍点阻尼 下 界
+CohnElkies.positiveShellDensity_continuous	Cohn Elkies · 正壳密度 连续
+CohnElkies.positiveShellOscillatoryIntegral_continuous	Cohn Elkies · 正壳振荡积分 连续
+CohnElkies.realHyperbolicShellPhase_hasDerivAt	Cohn Elkies · 实双曲壳相位 有导数在
+CohnElkies.saddleHorizontalShellVariation_mono	Cohn Elkies · 鞍点水平壳变差 单调
+CohnElkies.saddleSourcePositiveShellQuadraticRemainder_norm_le	Cohn Elkies · 鞍点源正壳二次余项 范数 ≤
+CohnElkies.saddleSourceShellDerivative_hasDerivAt	Cohn Elkies · 鞍点源壳导数 有导数在
+CohnElkies.upperPositiveShellDamping_local_variance_lower	Cohn Elkies · 上正壳阻尼 局部 方差 下
+CohnElkies.upperPositiveShellThirdMoment_firstBranch_le	Cohn Elkies · 上正壳第三矩 第一分支 ≤
+CohnElkies.upperPositiveShellThirdMoment_le	Cohn Elkies · 上正壳第三矩 ≤
+CohnElkies.upperPositiveShellVariance_firstBranch_le	Cohn Elkies · 上正壳方差 第一分支 ≤
+CohnElkies.realOscillatoryShellPhase_continuous	Cohn Elkies · 实振荡壳相位 连续
+CohnElkies.tendsto_positiveShellRadiusContribution	Cohn Elkies · 趋于 正壳半径贡献
+CohnElkies.profileNegativePart_integrable	Cohn Elkies · 轮廓负部分 可积
+CohnElkies.profileNegativePart_setIntegral_Iic_eq_integral	Cohn Elkies · 轮廓负部分 集合积分 右闭无穷区间 = 积分
+CohnElkies.quotientInf_nonneg	Cohn Elkies · 商下确界 非负
+CohnElkies.quotientSet_bddBelow	Cohn Elkies · 商集合 有界下方
+CohnElkies.radialAutocorrelation_outside_eq_zero	Cohn Elkies · 径向自相关 外部 = 零
+CohnElkies.radialAutocorrelation_real	Cohn Elkies · 径向自相关 实
+CohnElkies.radialCriticalLogProfile_continuous	Cohn Elkies · 径向临界对数轮廓 连续
+CohnElkies.radialMellinFrequency_injective	Cohn Elkies · 径向 Mellin 频率 单射
+CohnElkies.radialCriticalLogProfile_eq_reflected_tilt	Cohn Elkies · 径向临界对数轮廓 = 反射 倾斜
+CohnElkies.radialCriticalLogProfile_fourier_integrable	Cohn Elkies · 径向临界对数轮廓 傅里叶 可积
+CohnElkies.radialCriticalLogProfile_integrable	Cohn Elkies · 径向临界对数轮廓 可积
+CohnElkies.radialFlatBumpFun_contDiff	Cohn Elkies · 径向平坦隆起函数函数 连续差
+CohnElkies.radialFlatBump_apply	Cohn Elkies · 径向平坦隆起函数 作用于
+CohnElkies.support_radialFlatBump	Cohn Elkies · 支撑 径向平坦隆起函数
+CohnElkies.radialFlatBumpFun_hasCompactSupport	Cohn Elkies · 径向平坦隆起函数函数 有紧支撑
+CohnElkies.radialFlatBumpReal_nonneg	Cohn Elkies · 径向平坦隆起函数实 非负
+CohnElkies.radialFlatBumpReal_zero_pos	Cohn Elkies · 径向平坦隆起函数实 零 正
+CohnElkies.radialFlatBump_radial	Cohn Elkies · 径向平坦隆起函数 径向
+CohnElkies.radialFlatBump_real	Cohn Elkies · 径向平坦隆起函数 实
+CohnElkies.radialGammaBoundaryExponent_exp	Cohn Elkies · 径向Γ边界指数 指数函数
+CohnElkies.radialL1Mass_eq	Cohn Elkies · 径向 L 1 质量 =
+CohnElkies.radialL1Mass_pos	Cohn Elkies · 径向 L 1 质量 正
+CohnElkies.radialLogRadius_pow	Cohn Elkies · 径向对数半径 幂
+CohnElkies.radialMellinFrequency_eq_criticalLogFourier	Cohn Elkies · 径向 Mellin 频率 = 临界对数傅里叶
+CohnElkies.radialMellinMultiplier	Cohn Elkies · 径向 Mellin 乘子
+CohnElkies.radialMellinStrip_diffContOnCl	Cohn Elkies · 径向 Mellin 带形 差连续在…上 Cl
+CohnElkies.radialMellinStrip_differentiableAt	Cohn Elkies · 径向 Mellin 带形 可微在
+CohnElkies.radialProfile_continuous	Cohn Elkies · 径向轮廓 连续
+CohnElkies.radialProfile_locallyIntegrableOn	Cohn Elkies · 径向轮廓 局部可积在…上
+CohnElkies.radialProfile_deriv_zero	Cohn Elkies · 径向轮廓 导数 零
+CohnElkies.radialProfile_quadratic_bound	Cohn Elkies · 径向轮廓 二次 界
+CohnElkies.radialProfile_isBigO_rpow_atTop	Cohn Elkies · 径向轮廓 是大 O 实幂 在⊤
+CohnElkies.radialProfile_mellinConvergent	Cohn Elkies · 径向轮廓 mellin 收敛
+CohnElkies.radialProfile_mellin_differentiableAt	Cohn Elkies · 径向轮廓 mellin 可微在
+CohnElkies.radialProfile_isBigO_rpow_two_zero	Cohn Elkies · 径向轮廓 是大 O 实幂 二 零
+CohnElkies.radialProfile_mellin_uniform_strip_bound	Cohn Elkies · 径向轮廓 mellin 一致 带形 界
+CohnElkies.radial_fourier_mellin_regularized_closed	Cohn Elkies · 径向 傅里叶 mellin 正则化 闭
+CohnElkies.radialProfile_re_weight_integrable	Cohn Elkies · 径向轮廓 实部 权 可积
+CohnElkies.radialProfile_real	Cohn Elkies · 径向轮廓 实
+CohnElkies.radialProfile_zero	Cohn Elkies · 径向轮廓 零
+CohnElkies.radialSurfaceArea_pos	Cohn Elkies · 径向曲面面积 正
+CohnElkies.radial_fourier_mellin_antifourier_boundary	Cohn Elkies · 径向 傅里叶 mellin 反傅里叶 边界
+CohnElkies.radial_fourier_mellin_antifourier_boundary_norm	Cohn Elkies · 径向 傅里叶 mellin 反傅里叶 边界 范数
+CohnElkies.realHyperbolicShellInterval_hasDerivAt	Cohn Elkies · 实双曲壳区间 有导数在
+CohnElkies.saddleSourceShellDerivative_contDiff_one	Cohn Elkies · 鞍点源壳导数 连续差 一
+CohnElkies.realHyperbolicShellPhase_hasDerivAt_one	Cohn Elkies · 实双曲壳相位 有导数在 一
+CohnElkies.saddleSourceShellDerivative_eq_deriv	Cohn Elkies · 鞍点源壳导数 = 导数
+CohnElkies.realHyperbolicShellPhase_neg	Cohn Elkies · 实双曲壳相位 负
+CohnElkies.rpow_two_pow_inv_dimension	Cohn Elkies · 实幂 二 幂 逆 维数
+CohnElkies.saddleCauchyPolePrimitive_hasDerivAt	Cohn Elkies · 鞍点 Cauchy 极点本原 有导数在
+CohnElkies.saddleCauchyPole_symmetric_intervalIntegral	Cohn Elkies · 鞍点 Cauchy 极点 对称 区间积分
+CohnElkies.saddleCauchyPole_symmetric_intervalIntegral_tendsto_neg	Cohn Elkies · 鞍点 Cauchy 极点 对称 区间积分 趋于 负
+CohnElkies.saddleCauchyPole_symmetric_intervalIntegral_tendsto_pos	Cohn Elkies · 鞍点 Cauchy 极点 对称 区间积分 趋于 正
+CohnElkies.saddleShiftedCauchyPole_symmetric_intervalIntegral_tendsto_neg	Cohn Elkies · 鞍点平移 Cauchy 极点 对称 区间积分 趋于 负
+CohnElkies.saddleShiftedCauchyPole_symmetric_intervalIntegral_tendsto_pos	Cohn Elkies · 鞍点平移 Cauchy 极点 对称 区间积分 趋于 正
+CohnElkies.saddleContourExponentPolynomial_eval	Cohn Elkies · 鞍点围道指数多项式 求值
+CohnElkies.saddleContourFallingPolynomial_eval_succ	Cohn Elkies · 鞍点围道下降多项式 求值 后继
+CohnElkies.saddleContourExponent_re	Cohn Elkies · 鞍点围道指数 实部
+CohnElkies.saddleContourExponent_sub_nat_re	Cohn Elkies · 鞍点围道指数 − 自然数 实部
+CohnElkies.saddlePositiveContourMoment_hasDerivAt_of_positiveContour	Cohn Elkies · 鞍点正围道矩 有导数在 由 正围道
+CohnElkies.saddlePositiveContourMoment_norm_le	Cohn Elkies · 鞍点正围道矩 范数 ≤
+CohnElkies.saddlePositiveContourMoment_zero	Cohn Elkies · 鞍点正围道矩 零
+CohnElkies.saddlePositiveContourPower_frequency_continuous	Cohn Elkies · 鞍点正围道幂 频率 连续
+CohnElkies.saddlePositiveContourMoment_hasDerivAt	Cohn Elkies · 鞍点正围道矩 有导数在
+CohnElkies.saddleCriticalGammaArgument_pos	Cohn Elkies · 鞍点临界Γ参数 正
+CohnElkies.saddleSourceRadius_div_sqrt_eq	Cohn Elkies · 鞍点源半径 ÷ 平方根 =
+CohnElkies.saddleDigamma_add_nat	Cohn Elkies · 鞍点 Digamma + 自然数
+CohnElkies.tendsto_saddleEulerHarmonicCorrection	Cohn Elkies · 趋于 鞍点欧拉调和修正
+CohnElkies.saddleDigamma_add_one	Cohn Elkies · 鞍点 Digamma + 一
+CohnElkies.saddleDigamma_bounds	Cohn Elkies · 鞍点 Digamma 界
+CohnElkies.tendsto_saddleDigamma_sub_log	Cohn Elkies · 趋于 鞍点 Digamma − 对数
+CohnElkies.saddleLogRadius_continuousOn_Ici	Cohn Elkies · 鞍点对数半径 连续在…上 左闭无穷区间
+CohnElkies.saddleDigamma_eq_complexDigamma_re	Cohn Elkies · 鞍点 Digamma = 复 Digamma 实部
+CohnElkies.saddleEnvelope_continuous	Cohn Elkies · 鞍点包络 连续
+CohnElkies.saddleExpSeries_alternating_tail_bound	Cohn Elkies · 鞍点指数函数级数 交错 尾 界
+CohnElkies.saddleExpSeries_firstMoment_hasSum	Cohn Elkies · 鞍点指数函数级数 第一矩 有和
+CohnElkies.saddleExpSeries_polynomialMoment_hasSum	Cohn Elkies · 鞍点指数函数级数 多项式矩 有和
+CohnElkies.saddleExpSeries_hasSum	Cohn Elkies · 鞍点指数函数级数 有和
+CohnElkies.saddleExpSeries_secondFallingMoment_hasSum	Cohn Elkies · 鞍点指数函数级数 第二下降矩 有和
+CohnElkies.saddleExpSeries_term_le_exp_mul_half_pow	Cohn Elkies · 鞍点指数函数级数 项 ≤ 指数函数 × 一半 幂
+CohnElkies.saddleExpSeries_polynomialMoment_sum_range_le	Cohn Elkies · 鞍点指数函数级数 多项式矩 和 值域 ≤
+CohnElkies.saddleExpSeries_tail_term_le_geometric	Cohn Elkies · 鞍点指数函数级数 尾 项 ≤ 几何
+CohnElkies.saddleNegative_factorialTail_le_majorant	Cohn Elkies · 鞍点负 阶乘尾 ≤ 控制函数
+CohnElkies.saddleSmallResidue_tail_le_majorant	Cohn Elkies · 鞍点小留数 尾 ≤ 控制函数
+CohnElkies.saddleExponential_cubic_tail_integral_le	Cohn Elkies · 鞍点指数 三次 尾 积分 ≤
+CohnElkies.saddleSource_firstBranch_weighted_tail_le	Cohn Elkies · 鞍点源 第一分支 加权 尾 ≤
+CohnElkies.saddleExponential_weighted_integral_le_rescaled	Cohn Elkies · 鞍点指数 加权 积分 ≤ 重缩放
+CohnElkies.saddleFiniteGaussianPoleWeighted_horizontalStrip_bound	Cohn Elkies · 鞍点有限高斯极点加权 水平带形 界
+CohnElkies.saddleFiniteGaussianPoleWeighted_shiftedLine_integrable	Cohn Elkies · 鞍点有限高斯极点加权 平移直线 可积
+CohnElkies.saddleFiniteGaussianPoleWeighted_shiftedLine_integral	Cohn Elkies · 鞍点有限高斯极点加权 平移直线 积分
+CohnElkies.saddleFiniteGaussianPoleWeighted_vertical_integral_jump	Cohn Elkies · 鞍点有限高斯极点加权 竖直 积分 跳跃
+CohnElkies.saddleFinitePoleHalfPlane_reProdIm_subset	Cohn Elkies · 鞍点有限极点一半平面 实部积虚部 子集
+CohnElkies.saddleFirstBranch_normalizedGaussian_exponent_le	Cohn Elkies · 鞍点第一分支 归一化高斯 指数 ≤
+CohnElkies.saddleSource_firstBranch_normalized_tail_bound	Cohn Elkies · 鞍点源 第一分支 归一化 尾 界
+CohnElkies.saddleFirstBranch_normalizedGaussian_prefactor_le	Cohn Elkies · 鞍点第一分支 归一化高斯 前因子 ≤
+CohnElkies.saddleFirstBranch_normalizedLinear_prefactor_le	Cohn Elkies · 鞍点第一分支 归一化线性 前因子 ≤
+CohnElkies.saddleFixedStripMajorant_continuousOn	Cohn Elkies · 鞍点固定带形控制函数 连续在…上
+CohnElkies.saddleSource_zero_pos	Cohn Elkies · 鞍点源 零 正
+CohnElkies.saddleGaussianOuterPhi_le_endpointBarrier	Cohn Elkies · 鞍点高斯外φ ≤ 端点障碍
+CohnElkies.saddleGaussianPoleRepresentative_eq_inv_add_slope	Cohn Elkies · 鞍点高斯极点代表元 = 逆 + 斜率
+CohnElkies.saddleGaussianPoleShiftedSlope_horizontalIntegral_tendsto_zero	Cohn Elkies · 鞍点高斯极点平移斜率 水平积分 趋于 零
+CohnElkies.saddleGaussianPoleShiftedSlope_symmetric_intervalIntegral	Cohn Elkies · 鞍点高斯极点平移斜率 对称 区间积分
+CohnElkies.saddleGaussianPoleRepresentative_shiftedLine_bound	Cohn Elkies · 鞍点高斯极点代表元 平移直线 界
+CohnElkies.saddleGaussianPoleRepresentative_shiftedLine_integrable	Cohn Elkies · 鞍点高斯极点代表元 平移直线 可积
+CohnElkies.saddleGaussianPoleRepresentative_shiftedLine_continuous	Cohn Elkies · 鞍点高斯极点代表元 平移直线 连续
+CohnElkies.saddleGaussianPoleRepresentative_shiftedLine_weighted_integrable	Cohn Elkies · 鞍点高斯极点代表元 平移直线 加权 可积
+CohnElkies.saddleGaussianPoleShiftedSlope_symmetric_intervalIntegral_tendsto_neg	Cohn Elkies · 鞍点高斯极点平移斜率 对称 区间积分 趋于 负
+CohnElkies.saddleGaussianPoleShiftedSlope_symmetric_intervalIntegral_tendsto_pos	Cohn Elkies · 鞍点高斯极点平移斜率 对称 区间积分 趋于 正
+CohnElkies.saddleGaussianPoleRepresentative_shiftedLine_norm	Cohn Elkies · 鞍点高斯极点代表元 平移直线 范数
+CohnElkies.saddleGaussianPoleRepresentative_weighted_horizontalStrip_bound	Cohn Elkies · 鞍点高斯极点代表元 加权 水平带形 界
+CohnElkies.saddleGaussianPoleWeightedCorrection_shiftedLine_integrable	Cohn Elkies · 鞍点高斯极点加权修正 平移直线 可积
+CohnElkies.saddleGaussianPoleRepresentative_vertical_integral_jump	Cohn Elkies · 鞍点高斯极点代表元 竖直 积分 跳跃
+CohnElkies.saddleGaussianPoleWeightedRepresentative_vertical_integral_jump	Cohn Elkies · 鞍点高斯极点加权代表元 竖直 积分 跳跃
+CohnElkies.saddleGaussianPoleWeightedCorrection_horizontalStrip_bound	Cohn Elkies · 鞍点高斯极点加权修正 水平带形 界
+CohnElkies.saddleGaussianPoleShiftedSlope_boundary_rectangle	Cohn Elkies · 鞍点高斯极点平移斜率 边界 矩形
+CohnElkies.saddleGaussianPoleShiftedSlope_differentiable	Cohn Elkies · 鞍点高斯极点平移斜率 可微
+CohnElkies.saddleGaussianPoleSlope_differentiable	Cohn Elkies · 鞍点高斯极点斜率 可微
+CohnElkies.saddleGaussianPoleSlope_eq_of_ne	Cohn Elkies · 鞍点高斯极点斜率 = 由 ≠
+CohnElkies.saddleGaussianPoleSlope_mul	Cohn Elkies · 鞍点高斯极点斜率 ×
+CohnElkies.saddleGaussianPoleWeightedCorrection_boundary_rectangle	Cohn Elkies · 鞍点高斯极点加权修正 边界 矩形
+CohnElkies.saddleGaussianPoleWeightedCorrection_vertical_integral_eq	Cohn Elkies · 鞍点高斯极点加权修正 竖直 积分 =
+CohnElkies.saddleGaussianPoleWeightedCorrection_differentiable	Cohn Elkies · 鞍点高斯极点加权修正 可微
+CohnElkies.saddleGaussianPoleWeightedCorrection_eq_sub	Cohn Elkies · 鞍点高斯极点加权修正 = −
+CohnElkies.saddleGaussianPoleWeightedCorrection_horizontalIntegral_tendsto_zero	Cohn Elkies · 鞍点高斯极点加权修正 水平积分 趋于 零
+CohnElkies.saddleGaussianPoleWeightedRepresentative_shiftedLine_integral_eq	Cohn Elkies · 鞍点高斯极点加权代表元 平移直线 积分 =
+CohnElkies.saddleGaussianPoleWeightedRepresentative_eq_pole_add_correction	Cohn Elkies · 鞍点高斯极点加权代表元 = 极点 + 修正
+CohnElkies.saddleGaussianPole_shiftedLine_ne_zero	Cohn Elkies · 鞍点高斯极点 平移直线 ≠ 零
+CohnElkies.saddleGaussianTailSet_measurable	Cohn Elkies · 鞍点高斯尾集合 可测
+CohnElkies.saddleGaussian_cubic_tail_integral_le	Cohn Elkies · 鞍点高斯 三次 尾 积分 ≤
+CohnElkies.saddleSource_weighted_tail_integral_le	Cohn Elkies · 鞍点源 加权 尾 积分 ≤
+CohnElkies.saddleGaussianTailWeight_le_two_exp_three_abs	Cohn Elkies · 鞍点高斯尾权 ≤ 二 指数函数 三 绝对值
+CohnElkies.saddleGaussianTailWeight_le_two_exp_three_sq	Cohn Elkies · 鞍点高斯尾权 ≤ 二 指数函数 三 平方
+CohnElkies.saddleGaussian_weighted_integral_le_rescaled	Cohn Elkies · 鞍点高斯 加权 积分 ≤ 重缩放
+CohnElkies.saddleSource_firstBranch_weighted_integrable	Cohn Elkies · 鞍点源 第一分支 加权 可积
+CohnElkies.saddleGaussianTailWeight_mul_gaussian_integrable	Cohn Elkies · 鞍点高斯尾权 × 高斯 可积
+CohnElkies.saddleGaussianTailWeight_nonneg	Cohn Elkies · 鞍点高斯尾权 非负
+CohnElkies.saddleGaussian_central_compl_subset_tail	Cohn Elkies · 鞍点高斯 中心 补集 子集 尾
+CohnElkies.saddleGaussian_fullLine_error_le_central_add_tails	Cohn Elkies · 鞍点高斯 完整直线 误差 ≤ 中心 + 尾
+CohnElkies.saddleSourceGaussianKernel_normalized_tail_le	Cohn Elkies · 鞍点源高斯核 归一化 尾 ≤
+CohnElkies.saddleGaussian_fullLine_error_lt_of_central_and_normalized_tails	Cohn Elkies · 鞍点高斯 完整直线 误差 < 由 中心 且 归一化 尾
+CohnElkies.saddleHorizontalIntegral_tendsto_zero	Cohn Elkies · 鞍点水平积分 趋于 零
+CohnElkies.saddleShiftedLineMajorant_le_fixedStrip	Cohn Elkies · 鞍点平移直线控制函数 ≤ 固定带形
+CohnElkies.saddleHorizontalStripHeight_bound	Cohn Elkies · 鞍点水平带形高度 界
+CohnElkies.saddleInfiniteRectangle_vertical_integral_eq	Cohn Elkies · 鞍点无限矩形 竖直 积分 =
+CohnElkies.saddleInfiniteRectangle_vertical_limit_eq	Cohn Elkies · 鞍点无限矩形 竖直 极限 =
+CohnElkies.saddleLogGamma_add_one	Cohn Elkies · 鞍点对数Γ + 一
+CohnElkies.saddleLogGamma_differentiableAt	Cohn Elkies · 鞍点对数Γ 可微在
+CohnElkies.saddleLogRadius_covers_Ici	Cohn Elkies · 鞍点对数半径 覆盖 左闭无穷区间
+CohnElkies.saddleLogRadius_critical_eq	Cohn Elkies · 鞍点对数半径 临界 =
+CohnElkies.saddleLogRadius_eq_digamma_add_shellDerivative	Cohn Elkies · 鞍点对数半径 = digamma + 壳导数
+CohnElkies.saddleSmallRadiusVariable_star_eq	Cohn Elkies · 鞍点小半径变量 星 =
+CohnElkies.saddleSourceStationaryLogRadius_eq_saddleLogRadius	Cohn Elkies · 鞍点源驻点对数半径 = 鞍点对数半径
+CohnElkies.tendsto_saddleLogRadius_atTop_of_shell_monotone	Cohn Elkies · 趋于 鞍点对数半径 在⊤ 由 壳 单调
+CohnElkies.saddleMellinEnvelope_vertical	Cohn Elkies · 鞍点 Mellin 包络 竖直
+CohnElkies.saddleMellinGamma_differentiableAt_of_not_pole	Cohn Elkies · 鞍点 Mellin Γ 可微在 由 非 极点
+CohnElkies.saddleMellinGamma_differentiableAt_of_re_pos	Cohn Elkies · 鞍点 Mellin Γ 可微在 由 实部 正
+CohnElkies.saddleMellinGamma_differentiableOn_rightHalfPlane	Cohn Elkies · 鞍点 Mellin Γ 可微在…上 右一半平面
+CohnElkies.saddleSourceNormalizedEnvelope_continuous	Cohn Elkies · 鞍点源归一化包络 连续
+CohnElkies.saddleMellinGamma_meromorphic	Cohn Elkies · 鞍点 Mellin Γ 亚纯
+CohnElkies.saddleMellinInversePowerPoleSlope_differentiable	Cohn Elkies · 鞍点 Mellin 逆幂极点斜率 可微
+CohnElkies.saddleMellinInversePower_differentiable	Cohn Elkies · 鞍点 Mellin 逆幂 可微
+CohnElkies.saddleMellinInversePower_shiftedLine_continuous	Cohn Elkies · 鞍点 Mellin 逆幂 平移直线 连续
+CohnElkies.saddleMellinInversePower_eq_squaredPositiveCpow	Cohn Elkies · 鞍点 Mellin 逆幂 = 平方正复幂
+CohnElkies.saddleMellinInversePower_horizontalStrip_bounded	Cohn Elkies · 鞍点 Mellin 逆幂 水平带形 有界
+CohnElkies.saddleMellinInversePower_negativeEvenPole	Cohn Elkies · 鞍点 Mellin 逆幂 负偶极点
+CohnElkies.saddleMellinInversePower_shiftedLine_integral_norm	Cohn Elkies · 鞍点 Mellin 逆幂 平移直线 积分 范数
+CohnElkies.saddleMellinInversePower_shiftedLine_norm	Cohn Elkies · 鞍点 Mellin 逆幂 平移直线 范数
+CohnElkies.saddleMellinPiFactor_shiftedLine_norm	Cohn Elkies · 鞍点 Mellin π因子 平移直线 范数
+CohnElkies.saddleMellinShellArgument_neg_even	Cohn Elkies · 鞍点 Mellin 壳参数 负 偶
+CohnElkies.saddleMellinShellArgument_shiftedLine	Cohn Elkies · 鞍点 Mellin 壳参数 平移直线
+CohnElkies.saddleMellinShellArgument_shiftedLine_norm_le	Cohn Elkies · 鞍点 Mellin 壳参数 平移直线 范数 ≤
+CohnElkies.saddleMellinShellArgument_shiftedLine_linear_le	Cohn Elkies · 鞍点 Mellin 壳参数 平移直线 线性 ≤
+CohnElkies.saddleMellinShellArgument_zero	Cohn Elkies · 鞍点 Mellin 壳参数 零
+CohnElkies.saddleNegativeContourOrdinate_add_rate_le_three	Cohn Elkies · 鞍点负围道纵坐标 + 码率 ≤ 三
+CohnElkies.saddleNegativeContourOrdinate_le_two	Cohn Elkies · 鞍点负围道纵坐标 ≤ 二
+CohnElkies.saddleNegativeContour_piExponential_norm	Cohn Elkies · 鞍点负围道 π指数 范数
+CohnElkies.saddleNegativeContour_sourceNormalizationFactor	Cohn Elkies · 鞍点负围道 源归一化因子
+CohnElkies.saddleNegativeFrequencyMass_nonneg	Cohn Elkies · 鞍点负频率质量 非负
+CohnElkies.saddleNegativeGammaRate_pos	Cohn Elkies · 鞍点负Γ码率 正
+CohnElkies.upperNegativeContour_reflectedGamma_damping_exp_le_cosh	Cohn Elkies · 上负围道 反射Γ 阻尼 指数函数 ≤ 双曲余弦
+CohnElkies.upperNegativeHalfGamma_norm_eq_reflected_damping	Cohn Elkies · 上负一半Γ 范数 = 反射 阻尼
+CohnElkies.saddleNegativeTruncation_half_pow_le	Cohn Elkies · 鞍点负截断 一半 幂 ≤
+CohnElkies.saddleNegative_sqrt_le_one_add	Cohn Elkies · 鞍点负 平方根 ≤ 一 +
+CohnElkies.saddleNonzeroFrequency_ne_pole	Cohn Elkies · 鞍点非零频率 ≠ 极点
+CohnElkies.saddleNthGammaPoleNumerator_differentiableOn	Cohn Elkies · 鞍点第n个Γ极点分子 可微在…上
+CohnElkies.saddleOuterCutoff_contDiff	Cohn Elkies · 鞍点外截断 连续差
+CohnElkies.saddleOuterSquaredProfile_schwartz_decay	Cohn Elkies · 鞍点外平方轮廓 schwartz 衰减
+CohnElkies.saddlePoleCoordinate_ne_zero_at_other	Cohn Elkies · 鞍点极点坐标 ≠ 零 在 其他
+CohnElkies.saddlePoleLowerProduct_differentiable	Cohn Elkies · 鞍点极点下积 可微
+CohnElkies.saddlePoleLowerProduct_ne_zero	Cohn Elkies · 鞍点极点下积 ≠ 零
+CohnElkies.saddlePole_mem_finiteHalfPlane_iff	Cohn Elkies · 鞍点极点 ∈ 有限一半平面 ⇔
+CohnElkies.saddlePole_mem_strip	Cohn Elkies · 鞍点极点 ∈ 带形
+CohnElkies.saddlePolynomialWeightedData_integrable	Cohn Elkies · 鞍点多项式加权数据 可积
+CohnElkies.saddlePositiveContourMoment_contDiffOn	Cohn Elkies · 鞍点正围道矩 连续差在…上
+CohnElkies.saddlePositiveContourMoment_contDiffOn_infty_of_positiveContour	Cohn Elkies · 鞍点正围道矩 连续差在…上 无穷 由 正围道
+CohnElkies.saddlePositiveContourMoment_contDiffOn_of_positiveContour	Cohn Elkies · 鞍点正围道矩 连续差在…上 由 正围道
+CohnElkies.saddlePositiveContourMoment_iteratedDeriv_of_positiveContour	Cohn Elkies · 鞍点正围道矩 迭代导数 由 正围道
+CohnElkies.saddlePositiveContourPower_frequency_continuous_of_pos	Cohn Elkies · 鞍点正围道幂 频率 连续 由 正
+CohnElkies.saddlePositiveContour_ne_pole	Cohn Elkies · 鞍点正围道 ≠ 极点
+CohnElkies.saddlePositiveCpow_continuous	Cohn Elkies · 鞍点正复幂 连续
+CohnElkies.saddlePositiveCpow_hasDerivAt_zero	Cohn Elkies · 鞍点正复幂 有导数在 零
+CohnElkies.saddlePositiveCpow_hasDerivAt	Cohn Elkies · 鞍点正复幂 有导数在
+CohnElkies.saddlePositiveCpow_hasDerivAt_of_pos	Cohn Elkies · 鞍点正复幂 有导数在 由 正
+CohnElkies.saddlePositiveCpow_norm_le_one	Cohn Elkies · 鞍点正复幂 范数 ≤ 一
+CohnElkies.saddlePositiveCpow_norm_le_one_of_nonpos	Cohn Elkies · 鞍点正复幂 范数 ≤ 一 由 非正
+CohnElkies.saddleRadius_wallis_constant	Cohn Elkies · 鞍点半径 wallis 常数
+CohnElkies.saddleRealCpow_hasDerivAt	Cohn Elkies · 鞍点实复幂 有导数在
+CohnElkies.saddleRealCpow_hasDerivAt_zero	Cohn Elkies · 鞍点实复幂 有导数在 零
+CohnElkies.saddleRightHalfPlane_boundary_rectangle	Cohn Elkies · 鞍点右一半平面 边界 矩形
+CohnElkies.saddleSecondBranch_gammaWeightedCoefficient_le	Cohn Elkies · 鞍点第二分支 Γ加权系数 ≤
+CohnElkies.saddleSourceSecondBranch_outerMoment_le	Cohn Elkies · 鞍点源第二分支 外矩 ≤
+CohnElkies.saddleSecondBranch_linearWeightedCoefficient_le	Cohn Elkies · 鞍点第二分支 线性加权系数 ≤
+CohnElkies.saddleShiftedGamma_continuousOn	Cohn Elkies · 鞍点平移Γ 连续在…上
+CohnElkies.saddleShiftedLineMajorant_nonneg	Cohn Elkies · 鞍点平移直线控制函数 非负
+CohnElkies.saddleShiftedLine_ne_pole	Cohn Elkies · 鞍点平移直线 ≠ 极点
+CohnElkies.saddleSinhShellInterval_hasDerivAt	Cohn Elkies · 鞍点双曲正弦壳区间 有导数在
+CohnElkies.saddleSmallRadiusPhase_pole_factorization	Cohn Elkies · 鞍点小半径相位 极点 分解
+CohnElkies.saddleSmallRadiusStarOrdinate_sourceScale	Cohn Elkies · 鞍点小半径星纵坐标 源尺度
+CohnElkies.saddleSmallRadiusStar_gammaArgument	Cohn Elkies · 鞍点小半径星 Γ参数
+CohnElkies.saddleSmallRadiusStar_pos	Cohn Elkies · 鞍点小半径星 正
+CohnElkies.saddleSmallRadiusVariable_halfIntegerFactor	Cohn Elkies · 鞍点小半径变量 一半整数因子
+CohnElkies.saddleSmallRadiusVariable_neg_pow	Cohn Elkies · 鞍点小半径变量 负 幂
+CohnElkies.saddleSmallRadiusVariable_nonneg	Cohn Elkies · 鞍点小半径变量 非负
+CohnElkies.saddleSmallRadiusVariable_sqrt_eq_source	Cohn Elkies · 鞍点小半径变量 平方根 = 源
+CohnElkies.saddleSmallResidueTruncation_half_pow_le	Cohn Elkies · 鞍点小留数截断 一半 幂 ≤
+CohnElkies.saddleSmallResidueTruncation_lower	Cohn Elkies · 鞍点小留数截断 下
+CohnElkies.saddleSmallResidueTruncation_upper	Cohn Elkies · 鞍点小留数截断 上
+CohnElkies.tendsto_saddleSmallResidueTruncation_div	Cohn Elkies · 趋于 鞍点小留数截断 ÷
+CohnElkies.tendsto_saddleSmallResidueTruncation_sq_div	Cohn Elkies · 趋于 鞍点小留数截断 平方 ÷
+CohnElkies.saddleSmallResidue_coefficient_le_majorant	Cohn Elkies · 鞍点小留数 系数 ≤ 控制函数
+CohnElkies.saddleSmallResidue_half_log_le	Cohn Elkies · 鞍点小留数 一半 对数 ≤
+CohnElkies.saddleSourceAdmissible_normalizedCost	Cohn Elkies · 鞍点源容许 归一化代价
+CohnElkies.saddleSourceCenteredEnvelope_eq_gamma_shell	Cohn Elkies · 鞍点源中心化包络 = Γ 壳
+CohnElkies.saddleSourceCenteredEnvelope_norm	Cohn Elkies · 鞍点源中心化包络 范数
+CohnElkies.saddleSourceCenteredMinusIntegrand_norm	Cohn Elkies · 鞍点源中心化减被积函数 范数
+CohnElkies.saddleSourceCenteredPlusIntegrand_norm	Cohn Elkies · 鞍点源中心化加被积函数 范数
+CohnElkies.saddleSourceCenteredPolynomial_centralGaussianError_le	Cohn Elkies · 鞍点源中心化多项式 中心高斯误差 ≤
+CohnElkies.saddleSourceCenteredMinusIntegrand_centralGaussianError_le	Cohn Elkies · 鞍点源中心化减被积函数 中心高斯误差 ≤
+CohnElkies.saddleSourceCenteredMinusIntegrand_sourcePointwise	Cohn Elkies · 鞍点源中心化减被积函数 源逐点
+CohnElkies.saddleSourceCenteredPhase_cubic_remainder_norm_le	Cohn Elkies · 鞍点源中心化相位 三次 余项 范数 ≤
+CohnElkies.saddleSourceCenteredPlusIntegrand_centralGaussianError_le	Cohn Elkies · 鞍点源中心化加被积函数 中心高斯误差 ≤
+CohnElkies.saddleSourceCenteredPlusIntegrand_sourcePointwise	Cohn Elkies · 鞍点源中心化加被积函数 源逐点
+CohnElkies.saddleSourceCenteredPrefactor_pos	Cohn Elkies · 鞍点源中心化前因子 正
+CohnElkies.saddleSourceContourDamping_eq_firstBranch	Cohn Elkies · 鞍点源围道阻尼 = 第一分支
+CohnElkies.saddleSourceContourDamping_firstBranch_min_lower_bound	Cohn Elkies · 鞍点源围道阻尼 第一分支 最小 下 界
+CohnElkies.saddleSourceContourDamping_eq_secondBranch	Cohn Elkies · 鞍点源围道阻尼 = 第二分支
+CohnElkies.saddleSourceContourEnvelopeScale_pos	Cohn Elkies · 鞍点源围道包络尺度 正
+CohnElkies.saddleSourceContour_envelope_eq_scale_mul_normalized	Cohn Elkies · 鞍点源围道 包络 = 尺度 × 归一化
+CohnElkies.saddleSourceNormalizedEnvelope_norm	Cohn Elkies · 鞍点源归一化包络 范数
+CohnElkies.saddleSourceContour_gamma_norm	Cohn Elkies · 鞍点源围道 Γ 范数
+CohnElkies.saddleSourceContour_mellinEnvelope_norm	Cohn Elkies · 鞍点源围道 mellin 包络 范数
+CohnElkies.saddleSourceContour_inversePower_exp	Cohn Elkies · 鞍点源围道 逆幂 指数函数
+CohnElkies.saddleSourceContour_piExponential_eq	Cohn Elkies · 鞍点源围道 π指数 =
+CohnElkies.saddleSourceContour_piExponential_norm	Cohn Elkies · 鞍点源围道 π指数 范数
+CohnElkies.saddleSourceContour_shellExponential_eq	Cohn Elkies · 鞍点源围道 壳指数 =
+CohnElkies.saddleSourceCosineQuadraticRemainder_eq	Cohn Elkies · 鞍点源余弦二次余项 =
+CohnElkies.saddleSourceCosineQuadraticRemainder_norm_le	Cohn Elkies · 鞍点源余弦二次余项 范数 ≤
+CohnElkies.saddleSourceWeightedCosineQuadraticRemainder_norm_le	Cohn Elkies · 鞍点源加权余弦二次余项 范数 ≤
+CohnElkies.saddleSourceDampingExponential_continuous	Cohn Elkies · 鞍点源阻尼指数 连续
+CohnElkies.saddleSourceTailIntegrand_continuous	Cohn Elkies · 鞍点源尾被积函数 连续
+CohnElkies.sharpAsymptotics	Cohn Elkies · 精确渐近
+CohnElkies.saddleSourceFirstBranchThirdMomentCoefficient_pos	Cohn Elkies · 鞍点源第一分支第三矩系数 正
+CohnElkies.saddleSourceFirstBranch_cubic_central_window_le	Cohn Elkies · 鞍点源第一分支 三次 中心 窗口 ≤
+CohnElkies.saddleSourceFirstBranchVarianceCoefficient_pos	Cohn Elkies · 鞍点源第一分支方差系数 正
+CohnElkies.saddleSourceFirstBranch_central_radius_le	Cohn Elkies · 鞍点源第一分支 中心 半径 ≤
+CohnElkies.saddleSourceGaussianKernel_integrable	Cohn Elkies · 鞍点源高斯核 可积
+CohnElkies.saddleSourceGaussianMinusIntegrand_integrable	Cohn Elkies · 鞍点源高斯减被积函数 可积
+CohnElkies.saddleSourceGaussianPlusIntegrand_integrable	Cohn Elkies · 鞍点源高斯加被积函数 可积
+CohnElkies.saddleSourceGaussianKernel_integral	Cohn Elkies · 鞍点源高斯核 积分
+CohnElkies.saddleSourceGaussianKernel_integral_pos	Cohn Elkies · 鞍点源高斯核 积分 正
+CohnElkies.saddleSourceGaussianKernel_scaled_integral	Cohn Elkies · 鞍点源高斯核 缩放 积分
+CohnElkies.saddleSourceGaussianMinusIntegrand_integral	Cohn Elkies · 鞍点源高斯减被积函数 积分
+CohnElkies.saddleSourceGaussianPlusIntegrand_integral	Cohn Elkies · 鞍点源高斯加被积函数 积分
+CohnElkies.saddleSource_scaled_tail_lt_relative_gaussian	Cohn Elkies · 鞍点源 缩放 尾 < 相对 高斯
+CohnElkies.saddleSourceGaussianMinusIntegrand_tail_norm_eq	Cohn Elkies · 鞍点源高斯减被积函数 尾 范数 =
+CohnElkies.saddleSourceGaussianPlusIntegrand_tail_norm_eq	Cohn Elkies · 鞍点源高斯加被积函数 尾 范数 =
+CohnElkies.saddleSourceMellinContour_gammaArgument	Cohn Elkies · 鞍点源 Mellin 围道 Γ参数
+CohnElkies.saddleSourceMellinContour_integral_change	Cohn Elkies · 鞍点源 Mellin 围道 积分 改变
+CohnElkies.saddleSourceMellinContour_shellArgument	Cohn Elkies · 鞍点源 Mellin 围道 壳参数
+CohnElkies.saddleSourceShellCenteredPhase_cubic_remainder_norm_le	Cohn Elkies · 鞍点源壳中心化相位 三次 余项 范数 ≤
+CohnElkies.saddleSourcePositiveShellThirdMoment_nonneg	Cohn Elkies · 鞍点源正壳第三矩 非负
+CohnElkies.upperFirstBranch_saddleSourceThirdMoment_scaled_le	Cohn Elkies · 上第一分支 鞍点源第三矩 缩放 ≤
+CohnElkies.saddleSourcePositiveShellVariance_nonneg	Cohn Elkies · 鞍点源正壳方差 非负
+CohnElkies.upperFirstBranch_saddleSourceGaussianVariance_lower_bound	Cohn Elkies · 上第一分支 鞍点源高斯方差 下 界
+CohnElkies.upperFirstBranch_saddleSourceGaussianVariance_upper_bound	Cohn Elkies · 上第一分支 鞍点源高斯方差 上 界
+CohnElkies.tendsto_saddleSourceRadius_normalized	Cohn Elkies · 趋于 鞍点源半径 归一化
+CohnElkies.saddleSourceRadius_pos	Cohn Elkies · 鞍点源半径 正
+CohnElkies.saddleSourceSecondBranchMomentCoefficient_pos	Cohn Elkies · 鞍点源第二分支矩系数 正
+CohnElkies.saddleSourceSecondBranchVarianceCoefficient_pos	Cohn Elkies · 鞍点源第二分支方差系数 正
+CohnElkies.saddleSourceSecondBranchVarianceFloor_pos	Cohn Elkies · 鞍点源第二分支方差下取整 正
+CohnElkies.saddleSourceSecondBranch_central_radius_le	Cohn Elkies · 鞍点源第二分支 中心 半径 ≤
+CohnElkies.saddleSourceSecondBranch_normalizedGaussian_exponent	Cohn Elkies · 鞍点源第二分支 归一化高斯 指数
+CohnElkies.saddleSourceSecondBranch_normalizedGaussian_prefactor	Cohn Elkies · 鞍点源第二分支 归一化高斯 前因子
+CohnElkies.saddleSourceShellDerivative_neg	Cohn Elkies · 鞍点源壳导数 负
+CohnElkies.saddleSourceShellDerivative_neg_one	Cohn Elkies · 鞍点源壳导数 负 一
+CohnElkies.saddleSourceShellDerivative_one	Cohn Elkies · 鞍点源壳导数 一
+CohnElkies.saddleSourceShiftedCosine_eq_imaginaryExponentials	Cohn Elkies · 鞍点源平移余弦 = 虚指数
+CohnElkies.saddleSourceShortShellQuadraticRemainder_norm_le	Cohn Elkies · 鞍点源短壳二次余项 范数 ≤
+CohnElkies.saddleSourceStationaryFrequencyPhase_eq	Cohn Elkies · 鞍点源驻点频率相位 =
+CohnElkies.saddleSourceWeightedCosineQuadraticRemainder_integral_eq	Cohn Elkies · 鞍点源加权余弦二次余项 积分 =
+CohnElkies.saddleSource_central_rpow_cube_div_sqrt	Cohn Elkies · 鞍点源 中心 实幂 立方 ÷ 平方根
+CohnElkies.saddleSource_central_rpow_div_sqrt	Cohn Elkies · 鞍点源 中心 实幂 ÷ 平方根
+CohnElkies.saddleSource_cubic_window_le	Cohn Elkies · 鞍点源 三次 窗口 ≤
+CohnElkies.saddleSource_cubic_window_le_of_variance_floor	Cohn Elkies · 鞍点源 三次 窗口 ≤ 由 方差 下取整
+CohnElkies.saddleSource_positiveOrdinate_sourceScale	Cohn Elkies · 鞍点源 正纵坐标 源尺度
+CohnElkies.saddleSource_scaled_central_radius_le	Cohn Elkies · 鞍点源 缩放 中心 半径 ≤
+CohnElkies.saddleSource_scaled_cubic_window_le	Cohn Elkies · 鞍点源 缩放 三次 窗口 ≤
+CohnElkies.saddleSquaredResiduePolynomial_contDiff	Cohn Elkies · 鞍点平方留数多项式 连续差
+CohnElkies.saddleSquaredResiduePolynomial_zero	Cohn Elkies · 鞍点平方留数多项式 零
+CohnElkies.saddleTaylorContour_crosses_poles	Cohn Elkies · 鞍点 Taylor 围道 穿过 极点
+CohnElkies.saddleTaylorContour_gammaArgument	Cohn Elkies · 鞍点 Taylor 围道 Γ参数
+CohnElkies.saddleTaylorContour_le_positive	Cohn Elkies · 鞍点 Taylor 围道 ≤ 正
+CohnElkies.saddleTaylorContour_mem_halfPlane	Cohn Elkies · 鞍点 Taylor 围道 ∈ 一半平面
+CohnElkies.saddleTaylorContour_ne_pole	Cohn Elkies · 鞍点 Taylor 围道 ≠ 极点
+CohnElkies.saddleTaylorContour_negativeHalf_pos	Cohn Elkies · 鞍点 Taylor 围道 负一半 正
+CohnElkies.saddleTaylorContour_rpow	Cohn Elkies · 鞍点 Taylor 围道 实幂
+CohnElkies.saddleTaylorContour_shellArgument	Cohn Elkies · 鞍点 Taylor 围道 壳参数
+CohnElkies.saddleTaylorContour_smoothShift	Cohn Elkies · 鞍点 Taylor 围道 光滑平移
+CohnElkies.saddleVerticalGamma_continuous	Cohn Elkies · 鞍点竖直Γ 连续
+CohnElkies.saddle_abs_le_exp_sq	Cohn Elkies · 鞍点 绝对值 ≤ 指数函数 平方
+CohnElkies.saddle_abs_sq_le_add_cube	Cohn Elkies · 鞍点 绝对值 平方 ≤ + 立方
+CohnElkies.saddle_cubic_translation_norm_le	Cohn Elkies · 鞍点 三次 平移 范数 ≤
+CohnElkies.saddle_complexShellInterval_re	Cohn Elkies · 鞍点 复壳区间 实部
+CohnElkies.saddle_complex_frequency_norm_le	Cohn Elkies · 鞍点 复 频率 范数 ≤
+CohnElkies.saddle_exp_half_log_eq_sqrt	Cohn Elkies · 鞍点 指数函数 一半 对数 = 平方根
+CohnElkies.saddle_exp_neg_mul_min_le_add	Cohn Elkies · 鞍点 指数函数 负 × 最小 ≤ +
+CohnElkies.saddle_integral_exp_neg_mul_abs	Cohn Elkies · 鞍点 积分 指数函数 负 × 绝对值
+CohnElkies.saddle_inverse_sqrt_cube_le	Cohn Elkies · 鞍点 逆 平方根 立方 ≤
+CohnElkies.saddle_log_sq_le_four_mul	Cohn Elkies · 鞍点 对数 平方 ≤ 四 ×
+CohnElkies.saddle_one_add_abs_cube_le	Cohn Elkies · 鞍点 一 + 绝对值 立方 ≤
+CohnElkies.saddle_shellInterval_hyperbolic_sub_oscillatory	Cohn Elkies · 鞍点 壳区间 双曲 − 振荡
+CohnElkies.saddle_shifted_complexCos_re	Cohn Elkies · 鞍点 平移 复余弦 实部
+CohnElkies.saddle_sqrt_le_one_add	Cohn Elkies · 鞍点 平方根 ≤ 一 +
+CohnElkies.schwartzExponentialTilt_deriv	Cohn Elkies · schwartz 指数倾斜 导数
+CohnElkies.schwartzExponentialTilt_deriv_deriv	Cohn Elkies · schwartz 指数倾斜 导数 导数
+CohnElkies.schwartzExponentialTilt_deriv_differentiable	Cohn Elkies · schwartz 指数倾斜 导数 可微
+CohnElkies.schwartzExponentialTilt_deriv_integrable	Cohn Elkies · schwartz 指数倾斜 导数 可积
+CohnElkies.schwartzExponentialTilt_deriv_deriv_integrable	Cohn Elkies · schwartz 指数倾斜 导数 导数 可积
+CohnElkies.schwartzExponentialTilt_differentiable	Cohn Elkies · schwartz 指数倾斜 可微
+CohnElkies.schwartzRealLine_mellinConvergent_of_re_pos	Cohn Elkies · schwartz 实直线 mellin 收敛 由 实部 正
+CohnElkies.schwartz_imaginaryRiesz_integrable	Cohn Elkies · schwartz 虚 Riesz 可积
+CohnElkies.schwartz_mul_norm_cpow_integrable	Cohn Elkies · schwartz × 范数 复幂 可积
+CohnElkies.sharpBinaryLogAsymptotic	Cohn Elkies · 精确二元对数渐近
+CohnElkies.sharpLogAsymptotic	Cohn Elkies · 精确对数渐近
+CohnElkies.sharpPackingRootAsymptotic	Cohn Elkies · 精确填充根渐近
+CohnElkies.sharpQuotientAsymptotic	Cohn Elkies · 精确商渐近
+CohnElkies.sharpAsymptotics_of_signRadius_and_ordered_upper	Cohn Elkies · 精确渐近 由 符号半径 且 有序 上
+CohnElkies.sharpAsymptotics_of_uniform_lower_and_ordered_upper	Cohn Elkies · 精确渐近 由 一致 下 且 有序 上
+CohnElkies.tendsto_manuscriptQuotientRootError	Cohn Elkies · 趋于 手稿商根误差
+CohnElkies.sharpQuotient_of_eventual_bounds	Cohn Elkies · 精确商 由 最终 界
+CohnElkies.shellOscillation_eq_sinc	Cohn Elkies · 壳振荡 = sinc
+CohnElkies.shellOscillation_lower_bound	Cohn Elkies · 壳振荡 下 界
+CohnElkies.shellRadiusMajorant_inv	Cohn Elkies · 壳半径控制函数 逆
+CohnElkies.tendsto_shellRadiusMajorant	Cohn Elkies · 趋于 壳半径控制函数
+CohnElkies.shellWeight_pos	Cohn Elkies · 壳权 正
+CohnElkies.upper_shell_parameter_margin_propagate	Cohn Elkies · 上 壳 参数 边际 传播
+CohnElkies.shortMargin_abs_le_exp	Cohn Elkies · 短边际 绝对值 ≤ 指数函数
+CohnElkies.shortShellRadiusIntegrand_abs_le	Cohn Elkies · 短壳半径被积函数 绝对值 ≤
+CohnElkies.shortShellDensity_continuousOn_support	Cohn Elkies · 短壳密度 连续在…上 支撑
+CohnElkies.shortShellDensity_intervalIntegrable	Cohn Elkies · 短壳密度 区间可积
+CohnElkies.upperFirstBranch_shortDamping_le_gamma	Cohn Elkies · 上第一分支 短阻尼 ≤ Γ
+CohnElkies.upperFirstBranch_shortVariance_le_gamma	Cohn Elkies · 上第一分支 短方差 ≤ Γ
+CohnElkies.upperNegativeContour_shortDamping_le_gamma	Cohn Elkies · 上负围道 短阻尼 ≤ Γ
+CohnElkies.shortShellOscillatoryIntegral_continuous	Cohn Elkies · 短壳振荡积分 连续
+CohnElkies.shortShellRadiusContribution_eq_supported	Cohn Elkies · 短壳半径贡献 = 支撑
+CohnElkies.tendsto_shortShellRadiusContribution	Cohn Elkies · 趋于 短壳半径贡献
+CohnElkies.tendsto_supportedShortShellRadiusIntegral	Cohn Elkies · 趋于 支撑短壳半径积分
+CohnElkies.shortShellRadiusIntegrand_eq_ratio	Cohn Elkies · 短壳半径被积函数 = 比
+CohnElkies.shortShellRadiusIntegrand_measurable	Cohn Elkies · 短壳半径被积函数 可测
+CohnElkies.supportedShortShellRadiusIntegrand_measurable	Cohn Elkies · 支撑短壳半径被积函数 可测
+CohnElkies.shortShellRadiusMajorant_integrable	Cohn Elkies · 短壳半径控制函数 可积
+CohnElkies.sin_le_linear_sub_cubic	Cohn Elkies · 正弦 ≤ 线性 − 三次
+CohnElkies.sinc_quadratic_gap_nonneg	Cohn Elkies · sinc 二次 间隙 非负
+CohnElkies.sinc_abs	Cohn Elkies · sinc 绝对值
+CohnElkies.sinh_le_mul_cosh	Cohn Elkies · 双曲正弦 ≤ × 双曲余弦
+CohnElkies.sqrt_pi_pow_eq_rpow	Cohn Elkies · 平方根 π 幂 = 实幂
+CohnElkies.volume_unitBall	Cohn Elkies · 体积 单位球
+CohnElkies.stripAngle_eq_pi_sub	Cohn Elkies · 带形角 = π −
+CohnElkies.stripNormalizedPoissonKernel_eq_extension	Cohn Elkies · 带形归一化 Poisson 核 = 扩张
+CohnElkies.stripAngle_mem_Ioo	Cohn Elkies · 带形角 ∈ 开区间
+CohnElkies.stripComplexPoissonKernel_re	Cohn Elkies · 带形复 Poisson 核 实部
+CohnElkies.stripPoissonKernel_antitone_abs	Cohn Elkies · 带形 Poisson 核 反单调 绝对值
+CohnElkies.stripPoissonKernel_le_center_of_lower	Cohn Elkies · 带形 Poisson 核 ≤ 中心 由 下
+CohnElkies.stripPoissonKernel_le_center_of_lower_of_abs_ge	Cohn Elkies · 带形 Poisson 核 ≤ 中心 由 下 由 绝对值 ≥
+CohnElkies.stripPoissonKernel_pos	Cohn Elkies · 带形 Poisson 核 正
+CohnElkies.stripPoissonPrimitive_hasDerivAt	Cohn Elkies · 带形 Poisson 本原 有导数在
+CohnElkies.stripPoissonPrimitive_tendsto_atTop	Cohn Elkies · 带形 Poisson 本原 趋于 在⊤
+CohnElkies.stripPoissonPrimitive_zero	Cohn Elkies · 带形 Poisson 本原 零
+CohnElkies.stripBottomMass_lt_one	Cohn Elkies · 带形底质量 < 一
+CohnElkies.stripPoissonKernel_le_exponentialMajorant_of_nonneg	Cohn Elkies · 带形 Poisson 核 ≤ 指数控制函数 由 非负
+CohnElkies.stripBottomMass_pos	Cohn Elkies · 带形底质量 正
+CohnElkies.stripPoissonKernel_le_mass_mul_exponential	Cohn Elkies · 带形 Poisson 核 ≤ 质量 × 指数
+CohnElkies.stripHolomorphicPoissonKernel_re	Cohn Elkies · 带形全纯 Poisson 核 实部
+CohnElkies.stripHolomorphicPoissonKernel_denominator_ne_zero	Cohn Elkies · 带形全纯 Poisson 核 分母 ≠ 零
+CohnElkies.stripRegularizedHolomorphicPoissonKernelDeriv_continuous	Cohn Elkies · 带形正则化全纯 Poisson 核导数 连续
+CohnElkies.stripRegularizedHolomorphicPoissonKernel_hasDerivAt	Cohn Elkies · 带形正则化全纯 Poisson 核 有导数在
+CohnElkies.stripRegularizedHolomorphicPoissonKernel_of_neg	Cohn Elkies · 带形正则化全纯 Poisson 核 由 负
+CohnElkies.stripRegularizedHolomorphicPoissonKernel_of_nonneg	Cohn Elkies · 带形正则化全纯 Poisson 核 由 非负
+CohnElkies.stripHolomorphicPoissonKernel_eq_scaled	Cohn Elkies · 带形全纯 Poisson 核 = 缩放
+CohnElkies.stripRegularizedHolomorphicPoissonKernel_re	Cohn Elkies · 带形正则化全纯 Poisson 核 实部
+CohnElkies.stripNormalizedPoissonExtension_continuousAt_one	Cohn Elkies · 带形归一化 Poisson 扩张 连续在 一
+CohnElkies.tendsto_stripNormalizedPoissonKernel	Cohn Elkies · 趋于 带形归一化 Poisson 核
+CohnElkies.tendsto_integral_stripNormalizedPoissonKernel_mul	Cohn Elkies · 趋于 积分 带形归一化 Poisson 核 ×
+CohnElkies.stripNormalizedPoissonExtension_one	Cohn Elkies · 带形归一化 Poisson 扩张 一
+CohnElkies.stripNormalizedPoissonKernel_integrable	Cohn Elkies · 带形归一化 Poisson 核 可积
+CohnElkies.stripPoissonCoreMass_pos	Cohn Elkies · 带形 Poisson 核心质量 正
+CohnElkies.stripPoissonKernel_abs_moment_integrable	Cohn Elkies · 带形 Poisson 核 绝对值 矩 可积
+CohnElkies.stripPoissonKernel_mul_lowerEndpointPhase_integrable	Cohn Elkies · 带形 Poisson 核 × 下端点相位 可积
+CohnElkies.tendsto_lowerPoissonEndpointExpectation	Cohn Elkies · 趋于 下 Poisson 端点期望
+CohnElkies.stripPoissonKernel_abs	Cohn Elkies · 带形 Poisson 核 绝对值
+CohnElkies.stripPoissonKernel_weighted_product_integrable	Cohn Elkies · 带形 Poisson 核 加权 积 可积
+CohnElkies.stripPoissonPrimitive_centered_antitoneOn	Cohn Elkies · 带形 Poisson 本原 中心化 反单调在…上
+CohnElkies.stripPoissonKernel_centered_interval_max	Cohn Elkies · 带形 Poisson 核 中心化 区间 最大
+CohnElkies.stripPoissonKernel_shifted_centered_interval_max	Cohn Elkies · 带形 Poisson 核 平移 中心化 区间 最大
+CohnElkies.stripPoissonKernel_integrable	Cohn Elkies · 带形 Poisson 核 可积
+CohnElkies.stripPoissonWeightedMeasure_apply_Icc	Cohn Elkies · 带形 Poisson 加权测度 作用于 闭区间
+CohnElkies.stripPoissonKernel_integrableOn_Ioi	Cohn Elkies · 带形 Poisson 核 可积在…上 左开无穷区间
+CohnElkies.stripPoissonKernel_integral_Ioi	Cohn Elkies · 带形 Poisson 核 积分 左开无穷区间
+CohnElkies.stripPoissonKernel_lower_product_integrable	Cohn Elkies · 带形 Poisson 核 下 积 可积
+CohnElkies.stripPoissonKernel_mul_abs_lowerRiemannLog_zero_integrable	Cohn Elkies · 带形 Poisson 核 × 绝对值 下 Riemann 对数 零 可积
+CohnElkies.stripPoissonKernel_neg	Cohn Elkies · 带形 Poisson 核 负
+CohnElkies.stripPoissonWeightedMeasure_integral	Cohn Elkies · 带形 Poisson 加权测度 积分
+CohnElkies.stripPoissonWeightedMeasure_centered_interval_max	Cohn Elkies · 带形 Poisson 加权测度 中心化 区间 最大
+CohnElkies.stripPoissonKernel_tendsto_zero_bottom_of_ne	Cohn Elkies · 带形 Poisson 核 趋于 零 底 由 ≠
+CohnElkies.stripPoissonKernel_tendsto_zero_top	Cohn Elkies · 带形 Poisson 核 趋于 零 ⊤
+CohnElkies.stripPoissonWeightedMeasure_integrable	Cohn Elkies · 带形 Poisson 加权测度 可积
+CohnElkies.stripPoissonPrimitive_centered_le	Cohn Elkies · 带形 Poisson 本原 中心化 ≤
+CohnElkies.stripPoissonPrimitive_centered_hasDerivAt	Cohn Elkies · 带形 Poisson 本原 中心化 有导数在
+CohnElkies.stripPoisson_integral_changeVariables	Cohn Elkies · 带形 Poisson 积分 改变变量
+CohnElkies.stripRegularizedOuter_re	Cohn Elkies · 带形正则化外 实部
+CohnElkies.stripRegularizedOuter_differentiableAt_of_exp_integrable	Cohn Elkies · 带形正则化外 可微在 由 指数函数 可积
+CohnElkies.stripRegularizedHolomorphicPoissonKernel_continuousOn_Iio	Cohn Elkies · 带形正则化全纯 Poisson 核 连续在…上 右开无穷区间
+CohnElkies.stripRegularizedHolomorphicPoissonKernel_continuousOn_Ioi	Cohn Elkies · 带形正则化全纯 Poisson 核 连续在…上 左开无穷区间
+CohnElkies.stripRegularizedHolomorphicPoissonKernel_hasDerivAt_deriv	Cohn Elkies · 带形正则化全纯 Poisson 核 有导数在 导数
+CohnElkies.stripSchwarzAngle_mem_Ioo	Cohn Elkies · 带形 Schwarz 角 ∈ 开区间
+CohnElkies.stripSchwarzExponential_sub_one_norm_ge_exp_mul_sin	Cohn Elkies · 带形 Schwarz 指数 − 一 范数 ≥ 指数函数 × 正弦
+CohnElkies.stripSchwarzExponential_sub_one_norm_ge_sin	Cohn Elkies · 带形 Schwarz 指数 − 一 范数 ≥ 正弦
+CohnElkies.stripSchwarzExponential_continuous	Cohn Elkies · 带形 Schwarz 指数 连续
+CohnElkies.stripSchwarzExponential_hasDerivAt	Cohn Elkies · 带形 Schwarz 指数 有导数在
+CohnElkies.stripSchwarzExponential_im	Cohn Elkies · 带形 Schwarz 指数 虚部
+CohnElkies.stripSchwarzExponential_re	Cohn Elkies · 带形 Schwarz 指数 实部
+CohnElkies.strip_abs_log_le_add_rpow	Cohn Elkies · 带形 绝对值 对数 ≤ + 实幂
+CohnElkies.strip_exp_abs_log_integrableOn_Ioi	Cohn Elkies · 带形 指数函数 绝对值 对数 可积在…上 左开无穷区间
+CohnElkies.strip_exp_abs_integrable	Cohn Elkies · 带形 指数函数 绝对值 可积
+CohnElkies.strip_exp_abs_log_abs_integrable	Cohn Elkies · 带形 指数函数 绝对值 对数 绝对值 可积
+CohnElkies.strip_exp_abs_log_integrableOn_Iio	Cohn Elkies · 带形 指数函数 绝对值 对数 可积在…上 右开无穷区间
+CohnElkies.support_radialAutocorrelation_subset	Cohn Elkies · 支撑 径向自相关 子集
+CohnElkies.support_radialFlatBumpFun	Cohn Elkies · 支撑 径向平坦隆起函数函数
+CohnElkies.support_radialFlatBumpReal	Cohn Elkies · 支撑 径向平坦隆起函数实
+CohnElkies.tendsto_cubic_gaussian_atTop	Cohn Elkies · 趋于 三次 高斯 在⊤
+CohnElkies.tendsto_upper_log_cubic_gaussian_atTop	Cohn Elkies · 趋于 上 对数 三次 高斯 在⊤
+CohnElkies.tendsto_factorialStirlingSequence	Cohn Elkies · 趋于 阶乘 Stirling 序列
+CohnElkies.tendsto_log_factorialStirlingSequence	Cohn Elkies · 趋于 对数 阶乘 Stirling 序列
+CohnElkies.tendsto_integral_upperGammaCenteredTruncatedKernel	Cohn Elkies · 趋于 积分 上Γ中心化截断核
+CohnElkies.tendsto_integral_upperGammaTruncatedDampingIntegrand	Cohn Elkies · 趋于 积分 上Γ截断阻尼被积函数
+CohnElkies.tendsto_integral_wallisPartialKernel	Cohn Elkies · 趋于 积分 wallis 偏核
+CohnElkies.tendsto_limitingSaddleRadius_wallisIntegral	Cohn Elkies · 趋于 极限鞍点半径 wallis 积分
+CohnElkies.tendsto_logLinear_div_atTop	Cohn Elkies · 趋于 对数线性 ÷ 在⊤
+CohnElkies.tendsto_logLinear_sq_div_atTop	Cohn Elkies · 趋于 对数线性 平方 ÷ 在⊤
+CohnElkies.tendsto_log_factorialStirlingSequence_div_nat	Cohn Elkies · 趋于 对数 阶乘 Stirling 序列 ÷ 自然数
+CohnElkies.tendsto_log_factorial_div_nat_sub_log_nat	Cohn Elkies · 趋于 对数 阶乘 ÷ 自然数 − 对数 自然数
+CohnElkies.tendsto_log_oddFactorial_div_oddDimension_sub_log	Cohn Elkies · 趋于 对数 奇阶乘 ÷ 奇维数 − 对数
+CohnElkies.tendsto_normalizedVolumeLog_even	Cohn Elkies · 趋于 归一化体积对数 偶
+CohnElkies.tendsto_log_nat_div_nat	Cohn Elkies · 趋于 对数 自然数 ÷ 自然数
+CohnElkies.tendsto_log_nat_div_oddDimension	Cohn Elkies · 趋于 对数 自然数 ÷ 奇维数
+CohnElkies.tendsto_log_two_mul_nat_div_nat	Cohn Elkies · 趋于 对数 二 × 自然数 ÷ 自然数
+CohnElkies.tendsto_odd_halfDimension_log_correction	Cohn Elkies · 趋于 奇 一半维数 对数 修正
+CohnElkies.tendsto_log_nat_sub_log_oddDimension	Cohn Elkies · 趋于 对数 自然数 − 对数 奇维数
+CohnElkies.tendsto_log_wallisProduct	Cohn Elkies · 趋于 对数 wallis 积
+CohnElkies.tendsto_manuscriptBinaryExponentError	Cohn Elkies · 趋于 手稿二元指数误差
+CohnElkies.tendsto_manuscriptPackingDeficit	Cohn Elkies · 趋于 手稿填充亏量
+CohnElkies.tendsto_manuscriptPackingRootError	Cohn Elkies · 趋于 手稿填充根误差
+CohnElkies.tendsto_normalizedVolumeLog	Cohn Elkies · 趋于 归一化体积对数
+CohnElkies.tendsto_oddDimension_atTop	Cohn Elkies · 趋于 奇维数 在⊤
+CohnElkies.tendsto_of_even_and_odd	Cohn Elkies · 趋于 由 偶 且 奇
+CohnElkies.tendsto_saddleCriticalGammaArgument_atTop	Cohn Elkies · 趋于 鞍点临界Γ参数 在⊤
+CohnElkies.tendsto_saddleDigamma_atTop	Cohn Elkies · 趋于 鞍点 Digamma 在⊤
+CohnElkies.tendsto_saddleFirstBranchTailLogMajorant	Cohn Elkies · 趋于 鞍点第一分支尾对数控制函数
+CohnElkies.tendsto_saddleGammaArgument_atTop	Cohn Elkies · 趋于 鞍点Γ参数 在⊤
+CohnElkies.tendsto_saddleLogWindowPolynomial_exp_neg	Cohn Elkies · 趋于 鞍点对数窗口多项式 指数函数 负
+CohnElkies.tendsto_saddleSmallResidueCoefficientMajorant	Cohn Elkies · 趋于 鞍点小留数系数控制函数
+CohnElkies.tendsto_saddleNegativeLogWindowTailMajorant	Cohn Elkies · 趋于 鞍点负对数窗口尾控制函数
+CohnElkies.tendsto_saddleNegativeRelativeGammaTailMajorant	Cohn Elkies · 趋于 鞍点负相对Γ尾控制函数
+CohnElkies.tendsto_saddleNegativeTruncation_odd_sq_div	Cohn Elkies · 趋于 鞍点负截断 奇 平方 ÷
+CohnElkies.tendsto_saddleResidue_dimension_half	Cohn Elkies · 趋于 鞍点留数 维数 一半
+CohnElkies.tendsto_saddleSmallResidueRelativeErrorMajorant	Cohn Elkies · 趋于 鞍点小留数相对误差控制函数
+CohnElkies.tendsto_saddleSmallResidueTailMajorant	Cohn Elkies · 趋于 鞍点小留数尾控制函数
+CohnElkies.tendsto_saddleSourceGaussianNormalizedTailMajorant	Cohn Elkies · 趋于 鞍点源高斯归一化尾控制函数
+CohnElkies.tendsto_saddleSourceSecondBranchLocalTailMajorant	Cohn Elkies · 趋于 鞍点源第二分支局部尾控制函数
+CohnElkies.tendsto_shortCutoff	Cohn Elkies · 趋于 短截断
+CohnElkies.tendsto_supportedShortShellRadiusIntegrand	Cohn Elkies · 趋于 支撑短壳半径被积函数
+CohnElkies.tendsto_shortEndpoint	Cohn Elkies · 趋于 短端点
+CohnElkies.tendsto_shortShellRadiusIntegrand	Cohn Elkies · 趋于 短壳半径被积函数
+CohnElkies.tendsto_upperGammaEuler_log_norm_ratio	Cohn Elkies · 趋于 上Γ欧拉 对数 范数 比
+CohnElkies.tendsto_upperShellMarginRatio	Cohn Elkies · 趋于 上壳边际比
+CohnElkies.tendsto_upper_one_add_shortEndpoint_scaled	Cohn Elkies · 趋于 上 一 + 短端点 缩放
+CohnElkies.tendsto_upper_shell_log_correction_atTop	Cohn Elkies · 趋于 上 壳 对数 修正 在⊤
+CohnElkies.tendsto_upper_shortEndpoint_scaled	Cohn Elkies · 趋于 上 短端点 缩放
+CohnElkies.tendsto_wallisPartialKernel	Cohn Elkies · 趋于 wallis 偏核
+CohnElkies.tendsto_wallisProduct	Cohn Elkies · 趋于 wallis 积
+CohnElkies.unitBallVolume_even	Cohn Elkies · 单位球体积 偶
+CohnElkies.unitBallVolume_odd	Cohn Elkies · 单位球体积 奇
+CohnElkies.unitBallVolume_pos	Cohn Elkies · 单位球体积 正
+CohnElkies.volume_real_unitBall	Cohn Elkies · 体积 实 单位球
+CohnElkies.upperCenteredLaplaceKernel_eq_frullani_sub_laplace	Cohn Elkies · 上中心化 Laplace 核 = frullani − laplace
+CohnElkies.upperComplex_norm_ratio_scale	Cohn Elkies · 上复 范数 比 尺度
+CohnElkies.upperGammaLaplaceRate_log_ratio	Cohn Elkies · 上Γ Laplace 码率 对数 比
+CohnElkies.upperCosLaplaceKernel_eq_frullani_re	Cohn Elkies · 上余弦 Laplace 核 = frullani 实部
+CohnElkies.upperFirstBranch_saddleSourceGaussianVariance_scaled_lower_bound	Cohn Elkies · 上第一分支 鞍点源高斯方差 缩放 下 界
+CohnElkies.upperFirstBranch_shortMeasure_pointwise	Cohn Elkies · 上第一分支 短测度 逐点
+CohnElkies.upperGammaCenteredGeometricLimit_eq_kernel	Cohn Elkies · 上Γ中心化几何极限 = 核
+CohnElkies.upperGammaCenteredKernel_integrable	Cohn Elkies · 上Γ中心化核 可积
+CohnElkies.upperGammaCenteredPhase_cubic_remainder_norm_le	Cohn Elkies · 上Γ中心化相位 三次 余项 范数 ≤
+CohnElkies.upperGammaCenteredTruncatedKernel_eq_sum	Cohn Elkies · 上Γ中心化截断核 = 和
+CohnElkies.upperGammaCubicRemainderKernel_norm_le	Cohn Elkies · 上Γ三次余项核 范数 ≤
+CohnElkies.upperGammaDampingIntegrand_integrable	Cohn Elkies · 上Γ阻尼被积函数 可积
+CohnElkies.upperGammaDamping_local_variance_lower	Cohn Elkies · 上Γ阻尼 局部 方差 下
+CohnElkies.upperGammaDamping_lower_bound	Cohn Elkies · 上Γ阻尼 下 界
+CohnElkies.upperGammaDampingIntegrand_lower_on_window	Cohn Elkies · 上Γ阻尼被积函数 下 在…上 窗口
+CohnElkies.upperGammaDamping_nonneg	Cohn Elkies · 上Γ阻尼 非负
+CohnElkies.upperGammaEuler_centered_cpow_ratio	Cohn Elkies · 上Γ欧拉 中心化 复幂 比
+CohnElkies.upperGammaEuler_centered_ratio	Cohn Elkies · 上Γ欧拉 中心化 比
+CohnElkies.upperGammaEuler_complex_factor_pos	Cohn Elkies · 上Γ欧拉 复 因子 正
+CohnElkies.upperGammaEuler_log_norm_ratio	Cohn Elkies · 上Γ欧拉 对数 范数 比
+CohnElkies.upperGammaEuler_real_factor_norm	Cohn Elkies · 上Γ欧拉 实 因子 范数
+CohnElkies.upperGammaGeometricLimit_eq_integrand	Cohn Elkies · 上Γ几何极限 = 被积函数
+CohnElkies.upperGammaLaplaceRate_pos	Cohn Elkies · 上Γ Laplace 码率 正
+CohnElkies.upperGammaMeasureDensity_pos	Cohn Elkies · 上Γ测度密度 正
+CohnElkies.upperGammaShifted_log_norm_eq_neg_damping	Cohn Elkies · 上Γ平移 对数 范数 = 负 阻尼
+CohnElkies.upperGammaQuadraticKernel_integrable	Cohn Elkies · 上Γ二次核 可积
+CohnElkies.upperGammaShifted_modulus_eq_exp_neg_damping	Cohn Elkies · 上Γ平移 模 = 指数函数 负 阻尼
+CohnElkies.upperGammaThirdMomentDensity_integrable	Cohn Elkies · 上Γ第三矩密度 可积
+CohnElkies.upperGammaThirdMoment_bounds	Cohn Elkies · 上Γ第三矩 界
+CohnElkies.upperGammaThirdMomentDensity_pointwise_bounds	Cohn Elkies · 上Γ第三矩密度 逐点 界
+CohnElkies.upperGammaThirdMoment_firstBranch_scaled_le	Cohn Elkies · 上Γ第三矩 第一分支 缩放 ≤
+CohnElkies.upperGammaThirdMoment_le_two_mul_variance	Cohn Elkies · 上Γ第三矩 ≤ 二 × 方差
+CohnElkies.upperGammaTruncatedDampingIntegrand_eq_sum	Cohn Elkies · 上Γ截断阻尼被积函数 = 和
+CohnElkies.upperGammaVarianceDensity_integrable	Cohn Elkies · 上Γ方差密度 可积
+CohnElkies.upperGammaVarianceDensity_laplace_linear_lower	Cohn Elkies · 上Γ方差密度 laplace 线性 下
+CohnElkies.upperGammaVarianceDensity_pointwise_bounds	Cohn Elkies · 上Γ方差密度 逐点 界
+CohnElkies.upperGammaVariance_firstBranch_scaled_le	Cohn Elkies · 上Γ方差 第一分支 缩放 ≤
+CohnElkies.upperImaginaryExp_centered_norm_le	Cohn Elkies · 上虚指数函数 中心化 范数 ≤
+CohnElkies.upperImaginaryExp_contDiff	Cohn Elkies · 上虚指数函数 连续差
+CohnElkies.upperImaginaryExp_iteratedDerivWithin_Icc	Cohn Elkies · 上虚指数函数 迭代导数之内 闭区间
+CohnElkies.upperImaginaryExp_cubicIntegral_norm_le	Cohn Elkies · 上虚指数函数 三次积分 范数 ≤
+CohnElkies.upperImaginaryExp_quadratic_remainder_norm_le_of_nonneg	Cohn Elkies · 上虚指数函数 二次 余项 范数 ≤ 由 非负
+CohnElkies.upperImaginaryExp_hasDerivAt	Cohn Elkies · 上虚指数函数 有导数在
+CohnElkies.upperImaginaryExp_iteratedDeriv	Cohn Elkies · 上虚指数函数 迭代导数
+CohnElkies.upperImaginaryExp_iteratedDeriv_norm	Cohn Elkies · 上虚指数函数 迭代导数 范数
+CohnElkies.upperImaginaryExp_taylorWithinEval_two	Cohn Elkies · 上虚指数函数 taylor 之内求值 二
+CohnElkies.upperImaginaryExp_neg	Cohn Elkies · 上虚指数函数 负
+CohnElkies.upperImaginaryExp_quadratic_remainder_norm_le	Cohn Elkies · 上虚指数函数 二次 余项 范数 ≤
+CohnElkies.upperImaginaryExp_norm	Cohn Elkies · 上虚指数函数 范数
+CohnElkies.upperNegativeHalfGammaArgument_ne_zero	Cohn Elkies · 上负一半Γ参数 ≠ 零
+CohnElkies.upperNegativeHalfGammaArgument_succ_add_one	Cohn Elkies · 上负一半Γ参数 后继 + 一
+CohnElkies.upperPositiveShellVariance_pos	Cohn Elkies · 上正壳方差 正
+CohnElkies.upperShellMarginRatio_inv	Cohn Elkies · 上壳边际比 逆
+CohnElkies.upperShortMargin_mul_exp_antitone	Cohn Elkies · 上短边际 × 指数函数 反单调
+CohnElkies.upperShortMargin_mul_exp_le_zero_value	Cohn Elkies · 上短边际 × 指数函数 ≤ 零 值
+CohnElkies.upperShortShellDamping_global_bound	Cohn Elkies · 上短壳阻尼 整体 界
+CohnElkies.upperShortShellDamping_neg_frequency	Cohn Elkies · 上短壳阻尼 负 频率
+CohnElkies.upperShortShellThirdMoment_le	Cohn Elkies · 上短壳第三矩 ≤
+CohnElkies.upperShortShellVariance_global_bound	Cohn Elkies · 上短壳方差 整体 界
+CohnElkies.upperShortShellVariance_nonneg	Cohn Elkies · 上短壳方差 非负
+CohnElkies.upper_intervalIntegral_one_add_inv_sq	Cohn Elkies · 上 区间积分 一 + 逆 平方
+CohnElkies.upper_inv_one_sub_exp_neg_bounds	Cohn Elkies · 上 逆 一 − 指数函数 负 界
+CohnElkies.upper_laplace_monomial_integrable	Cohn Elkies · 上 laplace 单项式 可积
+CohnElkies.upper_laplace_monomial_integral	Cohn Elkies · 上 laplace 单项式 积分
+CohnElkies.upper_log_cosh_ge_abs_sub_log_two	Cohn Elkies · 上 对数 双曲余弦 ≥ 绝对值 − 对数 二
+CohnElkies.upper_min_frequency_inverse_sq_le	Cohn Elkies · 上 最小 频率 逆 平方 ≤
+CohnElkies.upper_one_sub_cos_le_min	Cohn Elkies · 上 一 − 余弦 ≤ 最小
+CohnElkies.upper_shortShell_oscillation_div_sq_le	Cohn Elkies · 上 短壳 振荡 ÷ 平方 ≤
+CohnElkies.upper_shellLocation_one_le	Cohn Elkies · 上 壳位置 一 ≤
+CohnElkies.wallisLaplaceKernel_abs_le	Cohn Elkies · wallis Laplace 核 绝对值 ≤
+CohnElkies.wallisLaplaceKernel_nonneg	Cohn Elkies · wallis Laplace 核 非负
+CohnElkies.wallisPartialKernel_abs_le	Cohn Elkies · wallis 偏核 绝对值 ≤
+CohnElkies.wallisPairFactor_pos	Cohn Elkies · wallis 对因子 正
+CohnElkies.wallisPairKernel_eq	Cohn Elkies · wallis 对核 =
+CohnElkies.wallisPartialKernel_eq	Cohn Elkies · wallis 偏核 =
+CohnElkies.wallisPartialKernel_integrable	Cohn Elkies · wallis 偏核 可积
+CohnElkies.wallisProduct_pos	Cohn Elkies · wallis 积 正
+CohnElkies.wallisProduct_succ	Cohn Elkies · wallis 积 后继
+CohnElkies.wallisRadiusIntegrand_eq_laplace	Cohn Elkies · wallis 半径被积函数 = laplace
+FullAdmissible.toAlternative	完整容许 · 到备选
+FullAdmissible.quotient_radialization	完整容许 · 商 径向化
+exists_radial_admissible_of_full	存在 径向 容许 由 完整
+SharpFullCohnElkiesManuscriptConclusions.components	精确完整 Cohn Elkies 手稿结论 · 分量
+sharpFullCohnElkiesManuscriptConclusions	精确完整 Cohn Elkies 手稿结论
+fullQuotientSet_eq_radial	完整商集合 = 径向
+fullLinearProgram_eq_radial	完整线性程序 = 径向
+fullQuotientRootSet_eq_radial	完整商根集合 = 径向
+fullQuotientSet_eq_radial_iff	完整商集合 = 径向 ⇔
+SpherePacking.Alternative.IsUnrestrictedAdmissible.radialAdmissible_of_average_data	球面填充 · 备选 · 是无限制容许 · 径向容许 由 平均 数据
+SpherePacking.Alternative.IsRadial.neg_apply	球面填充 · 备选 · 是径向 · 负 作用于
+SpherePacking.Alternative.IsUnrestrictedAdmissible.radialAdmissible_of_radialSymmetrizationAverage	球面填充 · 备选 · 是无限制容许 · 径向容许 由 径向对称化平均
+SpherePacking.Alternative.IsUnrestrictedAdmissible.quotient_radialSymmetrization	球面填充 · 备选 · 是无限制容许 · 商 径向对称化
+SpherePacking.Alternative.IsUnrestrictedAdmissible.radialSymmetrization_admissible	球面填充 · 备选 · 是无限制容许 · 径向对称化 容许
+SpherePacking.Alternative.continuous_orthogonalAction_apply	球面填充 · 备选 · 连续 正交作用 作用于
+SpherePacking.Alternative.radialSymmetrizationAverage_integrable	球面填充 · 备选 · 径向对称化平均 可积
+SpherePacking.Alternative.fourier_radialSymmetrizationAverage	球面填充 · 备选 · 傅里叶 径向对称化平均
+SpherePacking.Alternative.radialSymmetrization_fourier_average_apply_for_admissibility	球面填充 · 备选 · 径向对称化 傅里叶 平均 作用于 对于 容许性
+SpherePacking.Alternative.orthogonalSchwartzIteratedFDeriv_continuous	球面填充 · 备选 · 正交 Schwartz 迭代 F 导数 连续
+SpherePacking.Alternative.radialSymmetrizationAverage_comp_orthogonal	球面填充 · 备选 · 径向对称化平均 复合 正交
+SpherePacking.Alternative.radialSymmetrizationAverage_zero	球面填充 · 备选 · 径向对称化平均 零
+SpherePacking.Alternative.orthogonalGroupBorelSpace	球面填充 · 备选 · 正交群博雷尔空间
+SpherePacking.Alternative.orthogonalSchwartzInverseIteratedFDeriv_aestronglyMeasurable	球面填充 · 备选 · 正交 Schwartz 逆迭代 F 导数 几乎处处强可测
+SpherePacking.Alternative.radialOrthogonalHaar_isHaar	球面填充 · 备选 · 径向正交哈尔 是哈尔
+SpherePacking.Alternative.radialOrthogonalHaar_leftInvariant	球面填充 · 备选 · 径向正交哈尔 左不变量
+SpherePacking.Alternative.radialOrthogonalHaar_radialFourierOrbitAverage_eq	球面填充 · 备选 · 径向正交哈尔 径向傅里叶轨道平均 =
+SpherePacking.Alternative.radialOrthogonalHaar_univ	球面填充 · 备选 · 径向正交哈尔 全集
+SpherePacking.Alternative.orthogonalGroupCompactSpace	球面填充 · 备选 · 正交群紧空间
+SpherePacking.Alternative.orthogonal_transitive	球面填充 · 备选 · 正交 传递
+SpherePacking.Alternative.orthogonalScalarAverage_im_eq_zero	球面填充 · 备选 · 正交标量平均 虚部 = 零
+SpherePacking.Alternative.radialSymmetrizationAverage_im_eq_zero	球面填充 · 备选 · 径向对称化平均 虚部 = 零
+SpherePacking.Alternative.orthogonalScalarAverage_nonneg_of_nonneg	球面填充 · 备选 · 正交标量平均 非负 由 非负
+SpherePacking.Alternative.radialSymmetrizationAverage_nonneg_of_nonneg	球面填充 · 备选 · 径向对称化平均 非负 由 非负
+SpherePacking.Alternative.orthogonalScalarAverage_nonpos_of_norm_ge	球面填充 · 备选 · 正交标量平均 非正 由 范数 ≥
+SpherePacking.Alternative.radialSymmetrizationAverage_nonpos_of_norm_ge	球面填充 · 备选 · 径向对称化平均 非正 由 范数 ≥
+SpherePacking.Alternative.orthogonalScalarAverage_re	球面填充 · 备选 · 正交标量平均 实部
+SpherePacking.Alternative.orthogonalSchwartzInverseIteratedFDeriv_continuous	球面填充 · 备选 · 正交 Schwartz 逆迭代 F 导数 连续
+SpherePacking.Alternative.orthogonal_entry_abs_le_one	球面填充 · 备选 · 正交 元素 绝对值 ≤ 一
+SpherePacking.Alternative.orthogonal_isCompact	球面填充 · 备选 · 正交 是紧
+SpherePacking.Alternative.radialSymmetrizationAverage_eq_of_norm_eq	球面填充 · 备选 · 径向对称化平均 = 由 范数 =
+SpherePacking.Alternative.quotient_eq_of_radialSymmetrizationAverage	球面填充 · 备选 · 商 = 由 径向对称化平均
+SpherePacking.Alternative.radialFourier_orthogonalCharacterOrbit_integrable	球面填充 · 备选 · 径向傅里叶 正交特征标轨道 可积
+SpherePacking.Alternative.radialFourierOrbitAverage_fourier	球面填充 · 备选 · 径向傅里叶轨道平均 傅里叶
+SpherePacking.Alternative.radialOrthogonalHaar_fourier_average	球面填充 · 备选 · 径向正交哈尔 傅里叶 平均
+SpherePacking.Alternative.radialFourierOrbitKernel_integrable	球面填充 · 备选 · 径向傅里叶轨道核 可积
+SpherePacking.Alternative.radialIsometrySchwartzOrbit_apply	球面填充 · 备选 · 径向等距 Schwartz 轨道 作用于
+SpherePacking.Alternative.radialIsometrySchwartzOrbit_symm_apply	球面填充 · 备选 · 径向等距 Schwartz 轨道 对称 作用于
+SpherePacking.Alternative.radialIsometrySchwartzOrbit_iteratedFDeriv_norm	球面填充 · 备选 · 径向等距 Schwartz 轨道 迭代 F 导数 范数
+SpherePacking.Alternative.radialIsometrySchwartzOrbit_weighted_iteratedFDeriv_le	球面填充 · 备选 · 径向等距 Schwartz 轨道 加权 迭代 F 导数 ≤
+SpherePacking.Alternative.radialIsometrySchwartzOrbit_seminorm_eq	球面填充 · 备选 · 径向等距 Schwartz 轨道 半范数 =
+SpherePacking.Alternative.radialIsometrySchwartzOrbit_seminorm_le	球面填充 · 备选 · 径向等距 Schwartz 轨道 半范数 ≤
+SpherePacking.Alternative.radialOrthogonalHaar_finite	球面填充 · 备选 · 径向正交哈尔 有限
+SpherePacking.Alternative.radialOrthogonalHaar_probability	球面填充 · 备选 · 径向正交哈尔 概率
+SpherePacking.Alternative.radialSchwartzParametricDerivativeIntegrable	球面填充 · 备选 · 径向 Schwartz 参数化导数可积
+SpherePacking.Alternative.radialSchwartzParametric_hasFDerivAt_iteratedIntegral	球面填充 · 备选 · 径向 Schwartz 参数化 有 F 导数在 迭代积分
+SpherePacking.Alternative.radialSchwartzParametric_iteratedFDeriv_integral	球面填充 · 备选 · 径向 Schwartz 参数化 迭代 F 导数 积分
+SpherePacking.Alternative.radial_of_radialSymmetrizationAverage	球面填充 · 备选 · 径向 由 径向对称化平均
+SpherePacking.Alternative.radialSymmetrizationAverage_nonpos_of_one_le_norm	球面填充 · 备选 · 径向对称化平均 非正 由 一 ≤ 范数
+SpherePacking.Alternative.radialSymmetrizationAverage_schwartz_zero	球面填充 · 备选 · 径向对称化平均 schwartz 零
+SpherePacking.Alternative.scalarProbabilityAverage_weighted_iteratedFDeriv_le	球面填充 · 备选 · 标量概率平均 加权 迭代 F 导数 ≤

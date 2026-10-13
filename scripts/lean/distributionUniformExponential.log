@@ -1,0 +1,2 @@
+'QuantumParallelRepetition.distributionUniformExponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit 0 after 960s

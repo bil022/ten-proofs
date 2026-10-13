@@ -1,0 +1,1710 @@
+CarryBidualInternal.dividedSquareDiscrete	进位二次对偶内部 · 被除平方离散
+CarryBidualInternal.quadraticCoord_spec	进位二次对偶内部 · 二次坐标 规范
+CarryBidualInternal.evaluation_surjective	进位二次对偶内部 · 求值 满射
+carryBidualEvaluation_surjective	进位二次对偶求值 满射
+CarryBidualInternal.linearCoord_spec	进位二次对偶内部 · 线性坐标 规范
+CarryBidualInternal.residual_iota	进位二次对偶内部 · 剩余 iota
+CarryBidualInternal.residualOnB_sigma	进位二次对偶内部 · 剩余在…上 B σ
+CarryBidualInternal.residual_ker	进位二次对偶内部 · 剩余 核
+CarryBidualInternal.sigmaMultiplicative_surjective	进位二次对偶内部 · σ乘性 满射
+CarryBidualInternal.vectorDiscrete	进位二次对偶内部 · 向量离散
+CarryGroup.add_linear	进位群 · + 线性
+CarryGroup.two_nsmul_linear	进位群 · 二 自然数倍 线性
+CarryGroup.add_quadratic	进位群 · + 二次
+CarryGroup.two_nsmul_quadratic	进位群 · 二 自然数倍 二次
+CarryGroup.evalFour_apply	进位群 · 求值四 作用于
+carry_evalFour_ne_zero_of_quadratic_ne_zero	进位 求值四 ≠ 零 由 二次 ≠ 零
+continuous_evalFour	连续 求值四
+CarryGroup.ext	进位群 · 外延
+continuous_kCarryAddAut	连续 k 进位+自同构
+continuous_paperSplitAddAut_symm	连续 论文分裂+自同构 对称
+kCarryAddAut_symm_eq	k 进位+自同构 对称 =
+paperCarryPerm_add	论文进位置换 +
+CarryGroup.four_nsmul_eq_zero	进位群 · 四 自然数倍 = 零
+E_four_nsmul	E 四 自然数倍
+two_nsmul_eta	二 自然数倍 η
+CornulierNormalizedMarkedAction.complete	Cornulier 归一化带标记作用 · 完备
+CornulierNormalizedMarkedAction.left_fixed	Cornulier 归一化带标记作用 · 左 固定
+CornulierNormalizedMarkedAction.normalized	Cornulier 归一化带标记作用 · 归一化
+CornulierNormalizedMarkedAction.right_fixed	Cornulier 归一化带标记作用 · 右 固定
+cornulierNormalizedMarkedActionComplete	cornulier 归一化带标记作用完备
+exists_cornulierNormalizedExtremalAction_with_infimum	存在 cornulier 归一化极值作用 带 下确界
+CornulierUltralimit.AffineUniformGeneratorDisplacement.no_global_fixed	Cornulier 超极限 · 仿射一致生成元位移 · 无 整体 固定
+cornulier_normalized_minimizing_action_false	cornulier 归一化 最小化 作用 假
+CornulierUltralimit.EquivariantMarkedHilbertKernelRealization.equivariant	Cornulier 超极限 · 等变带标记 Hilbert 核实现 · 等变
+CornulierUltralimit.markedPairCocycle_mul	Cornulier 超极限 · 带标记对上闭链 ×
+CornulierUltralimit.HilbertKernelRealization.complete	Cornulier 超极限 · Hilbert 核实现 · 完备
+CornulierUltralimit.hilbertKernelRealizationCompleteSpace	Cornulier 超极限 · hilbert 核实现完备空间
+CornulierUltralimit.HilbertKernelRealization.gram	Cornulier 超极限 · Hilbert 核实现 · gram
+CornulierUltralimit.hilbertKernelRealization_pair_vector_add	Cornulier 超极限 · hilbert 核实现 对 向量 +
+CornulierUltralimit.realization_vector_eq_of_kernel_rows	Cornulier 超极限 · 实现 向量 = 由 核 行
+CornulierUltralimit.actionKernelTranslationMap_coe	Cornulier 超极限 · 作用核平移映射 强制转换
+CornulierUltralimit.actionKernelTranslationMap_mul_apply	Cornulier 超极限 · 作用核平移映射 × 作用于
+CornulierUltralimit.actionKernelTranslationMap_one_apply	Cornulier 超极限 · 作用核平移映射 一 作用于
+CornulierUltralimit.actionKernelTranslationMap_isometry	Cornulier 超极限 · 作用核平移映射 等距
+CornulierUltralimit.actionKernelUnitaryRepresentation_kerFun_one	Cornulier 超极限 · 作用核酉表示 核函数 一
+CornulierUltralimit.exists_equivariantMarkedHilbertKernelRealization_dense	Cornulier 超极限 · 存在 等变带标记 Hilbert 核实现 稠密
+hasAffineGaussianRealization	有仿射高斯实现
+CornulierUltralimit.actionPreKernelTranslation_inner	Cornulier 超极限 · 作用预核平移 内积
+CornulierUltralimit.actionPreKernelTranslation_mul_apply	Cornulier 超极限 · 作用预核平移 × 作用于
+CornulierUltralimit.actionPreKernelTranslation_one_apply	Cornulier 超极限 · 作用预核平移 一 作用于
+CornulierUltralimit.affineUniformGeneratorDisplacement_marked_limit	Cornulier 超极限 · 仿射一致生成元位移 带标记 极限
+CornulierUltralimit.exists_marked_affine_ultralimit_normalized	Cornulier 超极限 · 存在 带标记 仿射 超极限 归一化
+CornulierUltralimit.affineUniformGeneratorDisplacement_marked_limit_of_local	Cornulier 超极限 · 仿射一致生成元位移 带标记 极限 由 局部
+CornulierUltralimit.exists_affineUniformGeneratorDisplacement_of_local_sequence	Cornulier 超极限 · 存在 仿射一致生成元位移 由 局部 序列
+CornulierUltralimit.affineUniformGeneratorDisplacement_of_dense	Cornulier 超极限 · 仿射一致生成元位移 由 稠密
+CornulierUltralimit.constantOneKernel_posSemidef	Cornulier 超极限 · 常数一核 正半定
+CornulierUltralimit.entrywisePow_posSemidef	Cornulier 超极限 · 逐元素幂 正半定
+CornulierUltralimit.continuous_generatorMaxDisplacement	Cornulier 超极限 · 连续 生成元最大位移
+CornulierUltralimit.exists_affineUniformGeneratorDisplacement_of_no_fixed	Cornulier 超极限 · 存在 仿射一致生成元位移 由 无 固定
+CornulierUltralimit.entrywiseExpPartial_posSemidef	Cornulier 超极限 · 逐元素指数函数偏 正半定
+CornulierUltralimit.entrywiseExp_posSemidef	Cornulier 超极限 · 逐元素指数函数 正半定
+gaussianKernel_posSemidef	高斯核 正半定
+cornulier_theorem7	cornulier 定理 7
+CornulierUltralimit.exists_marked_affine_ultralimit	Cornulier 超极限 · 存在 带标记 仿射 超极限
+CornulierUltralimit.exists_generator_eq_max	Cornulier 超极限 · 存在 生成元 = 最大
+CornulierUltralimit.gromov_rescaled_generator_displacement_ge_one_on_ball	Cornulier 超极限 · gromov 重缩放 生成元 位移 ≥ 一 在…上 球
+CornulierUltralimit.exists_hyperfilter_action_diagonal_positive_pair_kernel	Cornulier 超极限 · 存在 超滤子 作用 对角 正 对 核
+CornulierUltralimit.exists_marked_affine_pair_kernel	Cornulier 超极限 · 存在 带标记 仿射 对 核
+CornulierUltralimit.exists_hyperfilter_gram_limit_of_pointwise_bound	Cornulier 超极限 · 存在 超滤子 gram 极限 由 逐点 界
+CornulierUltralimit.exists_hyperfilter_positive_gram_kernel_of_pointwise_bound	Cornulier 超极限 · 存在 超滤子 正 gram 核 由 逐点 界
+CornulierUltralimit.exists_local_half_minimizer	Cornulier 超极限 · 存在 局部 一半 最小化子
+CornulierUltralimit.finsupp_sum_markedDisplacementCoefficients	Cornulier 超极限 · 有限支撑 和 带标记位移系数
+CornulierUltralimit.markedAffinePairDisplacement_finsupp_action	Cornulier 超极限 · 带标记仿射对位移 有限支撑 作用
+CornulierUltralimit.markedPairAffineAction_finsupp_action	Cornulier 超极限 · 带标记对仿射作用 有限支撑 作用
+CornulierUltralimit.generatorMaxDisplacement_pos_of_no_fixed	Cornulier 超极限 · 生成元最大位移 正 由 无 固定
+CornulierUltralimit.generator_displacement_le_max	Cornulier 超极限 · 生成元 位移 ≤ 最大
+CornulierUltralimit.gromov_rescaled_generator_displacement_at_zero_le_two	Cornulier 超极限 · gromov 重缩放 生成元 位移 在 零 ≤ 二
+CornulierUltralimit.gram_posSemidef_infinite	Cornulier 超极限 · gram 正半定 无限
+gaussianSymmetricGram_posSemidef	高斯对称 Gram 正半定
+gaussianWeightGram_posSemidef	高斯权 Gram 正半定
+CornulierUltralimit.markedPairPoint_sub	Cornulier 超极限 · 带标记对点 −
+CornulierUltralimit.inner_finsupp_sum_self	Cornulier 超极限 · 内积 有限支撑 和 自身
+CornulierUltralimit.tendsto_norm_sq_finsupp_sum_of_gram	Cornulier 超极限 · 趋于 范数 平方 有限支撑 和 由 gram
+CornulierUltralimit.markedAffineOrbitPoint_action	Cornulier 超极限 · 带标记仿射轨道点 作用
+CornulierUltralimit.markedAffinePairDisplacement_action	Cornulier 超极限 · 带标记仿射对位移 作用
+CornulierUltralimit.markedAffinePairDisplacement_inner_action	Cornulier 超极限 · 带标记仿射对位移 内积 作用
+CornulierUltralimit.markedAffinePairDisplacement_add	Cornulier 超极限 · 带标记仿射对位移 +
+CornulierUltralimit.markedPairAffineAction_point	Cornulier 超极限 · 带标记对仿射作用 点
+CornulierUltralimit.nonnegReal_smul_posSemidef	Cornulier 超极限 · 非负实 数乘 正半定
+CornulierUltralimit.weightedSum_posSemidef	Cornulier 超极限 · 加权和 正半定
+CornulierUltralimit.norm_eq_of_gram_and_tendsto_norm	Cornulier 超极限 · 范数 = 由 gram 且 趋于 范数
+CornulierUltralimit.ofKernel_kerFun_one_eq_coe_single	Cornulier 超极限 · 由核 核函数 一 = 强制转换 单个
+CornulierUltralimit.posSemidef_of_tendsto_entries	Cornulier 超极限 · 正半定 由 趋于 元素
+CornulierUltralimit.preKernel_inner_single	Cornulier 超极限 · 预核 内积 单个
+CornulierUltralimit.scalarKernel_canonical_dense	Cornulier 超极限 · 标量核 典范 稠密
+CornulierUltralimit.scalarOperatorKernel_posSemidef	Cornulier 超极限 · 标量算子核 正半定
+CornulierUltralimit.schurProduct_posSemidef	Cornulier 超极限 · schur 积 正半定
+CornulierUltralimit.tendsto_entrywiseExpPartial	Cornulier 超极限 · 趋于 逐元素指数函数偏
+CornulierUltralimit.tendsto_norm_finsupp_sum_of_gram	Cornulier 超极限 · 趋于 范数 有限支撑 和 由 gram
+CornulierUltralimit.tendsto_norm_sq_of_gram	Cornulier 超极限 · 趋于 范数 平方 由 gram
+CornulierUltralimit.ultrafilter_eventually_exists_finset	Cornulier 超极限 · 超滤子 最终 存在 有限集
+CornulierUltralimit.unitaryCocycleAffineAction_linearIsometryEquiv	Cornulier 超极限 · 酉上闭链仿射作用 线性等距等价
+affineOrthogonalAction_no_linear_invariants	仿射正交作用 无 线性 不变量
+CountableDiscreteGroup.countable	可数离散群 · 可数
+actingGroup_eq_integralGroup_subgroup	作用群 = 积分群 子群
+hasKazhdanPropertyT_of_affine_fixed_points	有 Kazhdan 性质 T 由 仿射 固定 点
+hasKazhdanPropertyT_subgroup_of_finiteIndex	有 Kazhdan 性质 T 子群 由 有限指标
+semidirect_isICC	半直积 是闭区间
+D_add_self	D + 自身
+dualCharacter_square	对偶特征标 平方
+lambdaCharacter_sq	λ特征标 平方
+paperLambda_hasNoOrderFour	论文λ 有无阶四
+DetectionGap.cube_card_eq_eight_mul_scale	检测间隙 · 立方 基数 = 八 × 尺度
+character_truncated_detection_primitive_seventh	特征标 截断 检测 本原 七分之一
+DetectionGap.nonprimitive_card	检测间隙 · 非本原 基数
+DetectionGap.primitive_detecting_card	检测间隙 · 本原 检测 基数
+DetectionGap.primitive_detecting_seventh	检测间隙 · 本原 检测 七分之一
+DvrResidueElementaryLift.exists_elementaryThree_lift_of_surjective	Dvr 留数初等提升 · 存在 初等三 提升 由 满射
+DvrResidueElementaryLift.exists_elementaryThree_polynomial_lift_of_surjective	Dvr 留数初等提升 · 存在 初等三 多项式 提升 由 满射
+DvrResidueElementaryLift.exists_elementaryThree_polynomial_uniformizer_normal_form	Dvr 留数初等提升 · 存在 初等三 多项式 素元 正规 形式
+DvrResidueElementaryLift.exists_elementaryThree_polynomial_uniformizer_reduction	Dvr 留数初等提升 · 存在 初等三 多项式 素元 归约
+dvr_elementaryThree_first_coordinate_one_add_uniformizer	dvr 初等三 第一 坐标 一 + 素元
+DvrResidueElementaryLift.map_elementaryThreeSubgroup_eq_of_surjective	Dvr 留数初等提升 · 映射 初等三子群 = 由 满射
+DvrResidueElementaryLift.specialLinearThree_baseChange_smul_apply	Dvr 留数初等提升 · 特殊线性三 基改变 数乘 作用于
+DvrResidueElementaryLift.specialLinearThree_polynomial_baseChange_smul_apply	Dvr 留数初等提升 · 特殊线性三 多项式 基改变 数乘 作用于
+DvrResidueElementaryLift.specialLinearThree_map_transvection	Dvr 留数初等提升 · 特殊线性三 映射 平延
+DvrResidueElementaryLift.unimodularRow_polynomial_uniformizer_map	Dvr 留数初等提升 · 幺模行 多项式 素元 映射
+DvrResidueElementaryLift.unimodularRow_ringHom_map	Dvr 留数初等提升 · 幺模行 环同态 映射
+epsilon_addOrderOf	ε +阶由
+gammaCharacter_pow_four	Γ特征标 幂 四
+paperFiniteOrbit_card	论文有限轨道 基数
+ElementaryGenerationProof.binaryPolynomial_eq_one_of_isUnit	初等生成证明 · 二元多项式 = 一 由 是单位
+ElementaryGenerationProof.first_column_reduce	初等生成证明 · 第一 列 约化
+ElementaryGenerationProof.upperTriangular_diag_one	初等生成证明 · 上三角 对角 一
+ElementaryGenerationProof.coordinateSwap_fix_of_pair_zero	初等生成证明 · 坐标交换 固定 由 对 零
+ElementaryGenerationProof.euclideanStep_fix_of_pair_zero	初等生成证明 · 欧氏步 固定 由 对 零
+ElementaryGenerationProof.coordinateSwap_mem	初等生成证明 · 坐标交换 ∈
+ElementaryGenerationProof.euclideanStep_mem	初等生成证明 · 欧氏步 ∈
+ElementaryGenerationProof.coordinateSwap_smul_left	初等生成证明 · 坐标交换 数乘 左
+ElementaryGenerationProof.euclideanStep_smul_left	初等生成证明 · 欧氏步 数乘 左
+ElementaryGenerationProof.coordinateSwap_smul_other	初等生成证明 · 坐标交换 数乘 其他
+ElementaryGenerationProof.euclideanStep_smul_other	初等生成证明 · 欧氏步 数乘 其他
+ElementaryGenerationProof.coordinateSwap_smul_right	初等生成证明 · 坐标交换 数乘 右
+ElementaryGenerationProof.euclideanStep_smul_right	初等生成证明 · 欧氏步 数乘 右
+ElementaryGenerationProof.elementarySubgroup_eq_top	初等生成证明 · 初等子群 = ⊤
+elementaryGeneration	初等生成
+ElementaryGenerationProof.pair_reduce_strong	初等生成证明 · 对 约化 强
+ElementaryGenerationProof.pair_reduce	初等生成证明 · 对 约化
+ElementaryGenerationProof.fin_four_upperTriangular_of_six	初等生成证明 · 有限 四 上三角 由 六
+ElementaryGenerationProof.upper_triangularize	初等生成证明 · 上 三角化
+ElementaryGenerationProof.matrix_mul_apply_as_smul	初等生成证明 · 矩阵 × 作用于 作为 数乘
+ElementaryGenerationProof.second_column_reduce	初等生成证明 · 第二 列 约化
+ElementaryGenerationProof.third_column_reduce	初等生成证明 · 第三 列 约化
+ElementaryGenerationProof.transvection_fix_of_source_zero	初等生成证明 · 平延 固定 由 源 零
+ElementaryGenerationProof.transvection_mem	初等生成证明 · 平延 ∈
+ElementaryGenerationProof.upperUnitriangular_mem	初等生成证明 · 上单位三角 ∈
+ElementaryGenerationProof.transvection_smul_other	初等生成证明 · 平延 数乘 其他
+ElementaryGenerationProof.transvection_smul_same	初等生成证明 · 平延 数乘 相同
+ElementaryGenerationProof.upperUnitriangular_factorization	初等生成证明 · 上单位三角 分解
+EquivariantHaarEquiv.equivariant	等变哈尔等价 · 等变
+crossedBaseHaarEquiv_action	交叉基哈尔等价 作用
+crossedBaseHaarEquiv_const_one	交叉基哈尔等价 常数 一
+crossedBaseHaarEquiv_multiplier_apply	交叉基哈尔等价 乘子 作用于
+crossedCoefficient_pullback_symm_apply	交叉系数 拉回 对称 作用于
+EquivariantHaarEquiv.measure_preserving	等变哈尔等价 · 测度 保持
+ExactIndexEmbedding.index_eq	精确指标嵌入 · 指标 =
+ExactIndexEmbedding.range_finiteIndex	精确指标嵌入 · 值域 有限指标
+ExactIndexEmbedding.injective	精确指标嵌入 · 单射
+abstractlyCommensurable_of_common_embedding	抽象地可公度 由 公共 嵌入
+ExponentFourExtension.doubledSubgroup_eq_iota_shift_range	指数四扩张 · 加倍子群 = iota 平移 值域
+ExponentFourExtension.iota_mem_doubledWithinTwoTorsion_iff	指数四扩张 · iota ∈ 加倍之内二挠 ⇔
+ExponentFourExtension.doubledWithin_le_sigmaIntoRetractionKer_ker	指数四扩张 · 加倍之内 ≤ σ进入收缩核 核
+ExponentFourExtension.quotientSigmaToB_ker_eq	指数四扩张 · 商σ到 B 核 =
+ExponentFourExtension.quotientSigmaToB_smul	指数四扩张 · 商σ到 B 数乘
+ExponentFourExtension.quotientSigma_mk	指数四扩张 · 商σ 构造
+ExponentFourExtension.shift_range_le_quotientIotaBase_ker	指数四扩张 · 平移 值域 ≤ 商 Iota 基 核
+ExponentFourExtension.doubling	指数四扩张 · 加倍
+ExponentFourExtension.exponent_four	指数四扩张 · 指数 四
+ExponentFourExtension.mem_twoTorsion_iff	指数四扩张 · ∈ 二挠 ⇔
+ExponentFourExtension.finiteOrbitSubgroup_card_toB	指数四扩张 · 有限轨道子群 基数 到 B
+ExponentFourExtension.iota_injective	指数四扩张 · iota 单射
+ExponentFourExtension.quotientIota_injective	指数四扩张 · 商 Iota 单射
+ExponentFourExtension.quotientIota_mk	指数四扩张 · 商 Iota 构造
+ExponentFourExtension.quotientSigma_ker_eq_quotientIota_range	指数四扩张 · 商σ 核 = 商 Iota 值域
+ExponentFourExtension.retraction_surjective	指数四扩张 · 收缩 满射
+ExponentFourExtension.shift_injective	指数四扩张 · 平移 单射
+ExponentFourExtension.sigma_iota	指数四扩张 · σ iota
+ExponentFourExtension.sigma_ker	指数四扩张 · σ 核
+ExponentFourExtension.sigma_surjective	指数四扩张 · σ 满射
+FeedbackBooleanPolynomial.eq_one_of_ne_zero_zmod_two	反馈布尔多项式 · = 一 由 ≠ 零 zmod 二
+binary_quadratic_support_quarter_direct	二元 二次 支撑 四分之一 直
+FieldPolynomialElementaryThree.euclideanThree_pair_reduce	域多项式初等三 · 欧氏三 对 约化
+FieldPolynomialElementaryThree.euclideanThree_reduce_last_preserving_first	域多项式初等三 · 欧氏三 约化 最后 保持 第一
+euclideanElementaryThree_unimodular_reduce	欧氏初等三 幺模 约化
+FiniteCarry.Carry.ext	有限进位 · 进位 · 外延
+FiniteCarry.liftBit_one	有限进位 · 提升位 一
+epsilon_two_nsmul_ne_zero	ε 二 自然数倍 ≠ 零
+FiniteCarry.liftBit_zero	有限进位 · 提升位 零
+quadraticRestriction_epsilon	二次限制 ε
+FiniteIndex.correction_coe	有限指标 · 修正 强制转换
+FiniteIndex.correction_conjugate_at_baseCoset	有限指标 · 修正 共轭 在 基陪集
+FiniteIndex.inducedInvariant_baseCoset_isInvariant	有限指标 · 诱导不变量 基陪集 是不变量
+FiniteIndex.correction_mul	有限指标 · 修正 ×
+FiniteIndex.inducedInvariant_baseCoset_ne_zero	有限指标 · 诱导不变量 基陪集 ≠ 零
+FiniteIndex.inducedRepresentation_hasAlmostInvariantUnitVectors	有限指标 · 诱导表示 有几乎不变量单位向量
+FiniteIndex.correction_one	有限指标 · 修正 一
+FiniteIndex.inducedSpace_norm_le_sum_norm_apply	有限指标 · 诱导空间 范数 ≤ 和 范数 作用于
+FiniteIndex.inducedUnitary_apply	有限指标 · 诱导酉 作用于
+FiniteIndex.quotientOut_baseCoset_mem	有限指标 · 商出 基陪集 ∈
+FiniteIndex.subgroup_smul_baseCoset	有限指标 · 子群 数乘 基陪集
+FullUnitDecomposition.clip_eq_self_of_norm_le	完整单位分解 · 截断 = 自身 由 范数 ≤
+FullUnitDecomposition.norm_clip_le	完整单位分解 · 范数 截断 ≤
+FullUnitDecomposition.normalizedCoefficient_ae	完整单位分解 · 归一化系数 几乎处处
+FullUnitDecomposition.complex_four_unit_decomposition	完整单位分解 · 复 四 单位 分解
+FullUnitDecomposition.lp_infty_four_unit_decomposition	完整单位分解 · lp 无穷 四 单位 分解
+FullUnitDecomposition.continuous_clip	完整单位分解 · 连续 截断
+FullUnitDecomposition.measurable_normalizedCoefficient	完整单位分解 · 可测 归一化系数
+FullUnitDecomposition.continuous_realUnit	完整单位分解 · 连续 实单位
+FullUnitDecomposition.measurable_unitIm	完整单位分解 · 可测 单位虚部
+FullUnitDecomposition.measurable_unitRe	完整单位分解 · 可测 单位实部
+FullUnitDecomposition.lp_infty_ae_norm_le	完整单位分解 · lp 无穷 几乎处处 范数 ≤
+lp_infty_eq_four_unitCoefficients	lp 无穷 = 四 单位系数
+FullUnitDecomposition.measurable_unitImConj	完整单位分解 · 可测 单位虚部共轭
+FullUnitDecomposition.measurable_unitReConj	完整单位分解 · 可测 单位实部共轭
+FullUnitDecomposition.norm_normalizedCoefficient_le	完整单位分解 · 范数 归一化系数 ≤
+FullUnitDecomposition.norm_unitIm	完整单位分解 · 范数 单位虚部
+FullUnitDecomposition.norm_unitRe	完整单位分解 · 范数 单位实部
+FullUnitDecomposition.norm_realUnit	完整单位分解 · 范数 实单位
+FullUnitDecomposition.norm_unitImConj	完整单位分解 · 范数 单位虚部共轭
+FullUnitDecomposition.norm_unitReConj	完整单位分解 · 范数 单位实部共轭
+FullUnitDecomposition.realUnit_add_conj	完整单位分解 · 实单位 + 共轭
+GroupCardinalInvariant.value_mulEquiv	群基数不变量 · 值 ×等价
+PaperFamilyInput.parameter_eq_of_mulEquiv	论文族输入 · 参数 = 由 ×等价
+HaarProbabilityAction.action_preserves_measure	哈尔概率作用 · 作用 保持 测度
+carryFourier_kEAction	进位傅里叶 k E 作用
+commute_crossedFiberwiseOperator_of_blocks	交换 交叉逐纤维算子 由 块
+crossedOperatorBlock_commute_of_commute_fiberwise	交叉算子块 交换 由 交换 逐纤维
+crossed_character_vonNeumannClosure_eq_full_of_multipliers	交叉 特征标 von Neumann 闭包 = 完整 由 乘子
+groupFactorUnitary_apply	群因子酉 作用于
+groupFactorUnitary_conj_inl	群因子酉 共轭 左注入
+groupFactorUnitary_conj_inr	群因子酉 共轭 右注入
+lambdaGroupFactorUnitary_vacuum	λ群因子酉 真空
+splitCharacterL2_kDLinear	分裂特征标 L 2 k D 线性
+HaarProbabilityAction.probability	哈尔概率作用 · 概率
+HasUniformRelativeKazhdanDisplacement.map	有一致相对 Kazhdan 位移 · 映射
+cornulierK₁_hasUniformRelativeKazhdanDisplacement	cornulier K ₁ 有一致相对 Kazhdan 位移
+cornulierK₂_hasUniformRelativeKazhdanDisplacement	cornulier K ₂ 有一致相对 Kazhdan 位移
+HasUniformRelativeKazhdanDisplacement.sup_of_elementwise_commute	有一致相对 Kazhdan 位移 · 上确界 由 逐元素 交换
+HorrocksValuationInduction.lastColumn_block_decomposition	Horrocks 赋值归纳 · 最后列 块 分解
+HorrocksValuationInduction.specialLinearThree_mem_of_lastColumnTransitivity_and_stabilizedTwo	Horrocks 赋值归纳 · 特殊线性三 ∈ 由 最后列传递性 且 稳定化二
+HorrocksValuationInduction.lastRowClear_mem	Horrocks 赋值归纳 · 最后行清除 ∈
+HorrocksValuationInduction.lastRowClear_mul_apply	Horrocks 赋值归纳 · 最后行清除 × 作用于
+suslin_stabilizedThreeElementaryGeneration_of_lastColumnTransitivity_and_stabilizedTwo	suslin 稳定化三初等生成 由 最后列传递性 且 稳定化二
+HorrocksValuationInduction.upperLeft_det_eq_one	Horrocks 赋值归纳 · 上左 行列式 = 一
+InfinitePropertyTFiber.factors_isomorphic	无限性质 T 纤维 · 因子 同构
+exists_infinite_pairwise_nonisomorphic_propertyT_icc_groups_with_isomorphic_factors	存在 无限 两两 不同构 性质 T 闭区间 群 带 同构 因子
+InfinitePropertyTFiber.gamma_fg	无限性质 T 纤维 · Γ fg
+InfinitePropertyTFiber.gamma_icc	无限性质 T 纤维 · Γ 闭区间
+InfinitePropertyTFiber.gamma_pairwise_nonisomorphic	无限性质 T 纤维 · Γ 两两 不同构
+InfinitePropertyTFiber.gamma_propertyT	无限性质 T 纤维 · Γ 性质 T
+InfinitePropertyTFiber.lambda_fg	无限性质 T 纤维 · λ fg
+InfinitePropertyTFiber.lambda_icc	无限性质 T 纤维 · λ 闭区间
+InfinitePropertyTFiber.lambda_not_isomorphic	无限性质 T 纤维 · λ 非 同构
+InfinitePropertyTFiber.lambda_propertyT	无限性质 T 纤维 · λ 性质 T
+IntegerElementaryProof.coordinateRotation_mem	整数初等证明 · 坐标旋转 ∈
+IntegerElementaryProof.euclideanStep_mem	整数初等证明 · 欧氏步 ∈
+IntegerElementaryProof.signFlip_mem	整数初等证明 · 符号翻转 ∈
+IntegerElementaryProof.coordinateRotation_smul_left	整数初等证明 · 坐标旋转 数乘 左
+IntegerElementaryProof.euclideanStep_smul_left	整数初等证明 · 欧氏步 数乘 左
+IntegerElementaryProof.signFlip_smul_same_left	整数初等证明 · 符号翻转 数乘 相同 左
+IntegerElementaryProof.signFlip_smul_same_right	整数初等证明 · 符号翻转 数乘 相同 右
+IntegerElementaryProof.coordinateRotation_smul_other	整数初等证明 · 坐标旋转 数乘 其他
+IntegerElementaryProof.euclideanStep_smul_other	整数初等证明 · 欧氏步 数乘 其他
+IntegerElementaryProof.signFlip_smul_other	整数初等证明 · 符号翻转 数乘 其他
+IntegerElementaryProof.coordinateRotation_smul_right	整数初等证明 · 坐标旋转 数乘 右
+IntegerElementaryProof.euclideanStep_smul_right	整数初等证明 · 欧氏步 数乘 右
+IntegerElementaryProof.elementary_eq_top	整数初等证明 · 初等 = ⊤
+integerElementaryGeneration	整数初等生成
+IntegerElementaryProof.pair_reduce	整数初等证明 · 对 约化
+IntegerElementaryProof.fin_four_upperTriangular_of_six	整数初等证明 · 有限 四 上三角 由 六
+IntegerElementaryProof.upper_triangularize	整数初等证明 · 上 三角化
+IntegerElementaryProof.first_column_reduce	整数初等证明 · 第一 列 约化
+IntegerElementaryProof.normalizeSigns_diag_one	整数初等证明 · 归一化符号 对角 一
+IntegerElementaryProof.normalizeSigns_mem	整数初等证明 · 归一化符号 ∈
+IntegerElementaryProof.normalizeSigns_preserves_upper	整数初等证明 · 归一化符号 保持 上
+IntegerElementaryProof.second_column_reduce	整数初等证明 · 第二 列 约化
+IntegerElementaryProof.third_column_reduce	整数初等证明 · 第三 列 约化
+IntegerElementaryProof.signFlip_mul_apply	整数初等证明 · 符号翻转 × 作用于
+IntegerElementaryProof.signFlip_preserves_upper	整数初等证明 · 符号翻转 保持 上
+IntegerElementaryProof.transvection_mem	整数初等证明 · 平延 ∈
+IntegerElementaryProof.upperUnitriangular_mem	整数初等证明 · 上单位三角 ∈
+IntegerElementaryProof.transvection_smul_other	整数初等证明 · 平延 数乘 其他
+IntegerElementaryProof.transvection_smul_same	整数初等证明 · 平延 数乘 相同
+IntegerElementaryProof.upperTriangular_diag_unit	整数初等证明 · 上三角 对角 单位
+IntegerElementaryProof.upperUnitriangular_factorization	整数初等证明 · 上单位三角 分解
+IsAffineFixed.midpoint	是仿射固定 · 中点
+IsMinimizingAffinePair.sub_eq_of_norm_eq	是最小化仿射对 · − = 由 范数 =
+IsAffineFixed.normalizer_action	是仿射固定 · 正规化子 作用
+IsMinimizingAffinePair.sub_eq_normalizer_sub	是最小化仿射对 · − = 正规化子 −
+IsMinimizingAffinePair.fixed_left	是最小化仿射对 · 固定 左
+IsMinimizingAffinePair.fixed_right	是最小化仿射对 · 固定 右
+IsMinimizingAffinePair.minimal	是最小化仿射对 · 极小
+IsMinimizingAffinePair.normalizer_fixed_of_no_linear_invariants	是最小化仿射对 · 正规化子 固定 由 无 线性 不变量
+K_eq_one_of_pow_eq_one_of_levelThree_torsionFree	K = 一 由 幂 = 一 由 水平三 挠自由
+K_no_nontrivial_torsion_of_levelThree_torsionFree	K 无 非平凡 挠 由 水平三 挠自由
+K_no_nontrivial_torsion	K 无 非平凡 挠
+actingGroup_conjugacyClass_infinite	作用群 共轭类 无限
+paperInvariant_card	论文不变量 基数
+LocalElementaryProof.coordinateRotation_mem	局部初等证明 · 坐标旋转 ∈
+suslin_stableRangeThree_elementary_row_transitive	suslin 稳定值域三 初等 行 传递
+LocalElementaryProof.coordinateRotation_smul_left	局部初等证明 · 坐标旋转 数乘 左
+LocalElementaryProof.transvection_mem	局部初等证明 · 平延 ∈
+LocalElementaryProof.unitPairNormalizer_mem	局部初等证明 · 单位对正规化子 ∈
+LocalElementaryProof.transvection_smul_other	局部初等证明 · 平延 数乘 其他
+LocalElementaryProof.unitPairNormalizer_smul_auxiliary	局部初等证明 · 单位对正规化子 数乘 辅助
+LocalElementaryProof.unitPairNormalizer_smul_other	局部初等证明 · 单位对正规化子 数乘 其他
+LocalElementaryProof.unitPairNormalizer_smul_pivot	局部初等证明 · 单位对正规化子 数乘 主元
+LocalElementaryProof.transvection_smul_same	局部初等证明 · 平延 数乘 相同
+LocalElementaryProof.unit_first_elementary_reduce	局部初等证明 · 单位 第一 初等 约化
+MennickeFactorSplit.constant_factor_det	Mennicke 因子分裂 · 常数 因子 行列式
+MennickeFactorSplit.mennicke_block_mem_of_constant_monomial_primitive	Mennicke 因子分裂 · mennicke 块 ∈ 由 常数 单项式 本原
+MennickeFactorSplit.elementaryThree_mennicke_block_mem_of_three_factors	Mennicke 因子分裂 · 初等三 mennicke 块 ∈ 由 三 因子
+valuation_mennicke_outer_induction	赋值 mennicke 外 归纳
+MennickeFactorSplit.monomial_factor_det	Mennicke 因子分裂 · 单项式 因子 行列式
+MennickeFactorSplit.primitive_factor_det	Mennicke 因子分裂 · 本原 因子 行列式
+MennickeIdentity.elementaryThree_contains_roots	Mennicke 恒等式 · 初等三 包含 根
+MennickeIdentity.mennickeBlock_columnFirst_sub_mem_iff	Mennicke 恒等式 · mennicke 块 列第一 − ∈ ⇔
+MennickeIdentity.mennickeBlock_rowSecond_sub_mem_iff	Mennicke 恒等式 · mennicke 块 行第二 − ∈ ⇔
+MennickeIdentity.mennickeBlock_mem_of_primitive_ascent	Mennicke 恒等式 · mennicke 块 ∈ 由 本原 上升
+MennickeIdentity.mennickeBlock_columnFirst_sub_mul	Mennicke 恒等式 · mennicke 块 列第一 − ×
+valuationPrimitiveAscentStep_mennicke_transport_of_powers	赋值本原上升步 mennicke 输运 由 幂
+MennickeIdentity.mennickeBlock_rotation_conjugate	Mennicke 恒等式 · mennicke 块 旋转 共轭
+MennickeIdentity.mennicke_swapped_block_mem_of_factors	Mennicke 恒等式 · mennicke 交换 块 ∈ 由 因子
+mennickeBlock_mem_of_isUnit_bottomRight	mennicke 块 ∈ 由 是单位 底右
+MennickeIdentity.mennickeBlock_rowSecond_sub_mul	Mennicke 恒等式 · mennicke 块 行第二 − ×
+MennickeIdentity.mennickeRotation_mem	Mennicke 恒等式 · mennicke 旋转 ∈
+mennickeBlock_mem_of_isUnit_topRight	mennicke 块 ∈ 由 是单位 ⊤右
+MennickeIdentity.mennickeWord_mem	Mennicke 恒等式 · mennicke 字 ∈
+MennickeIdentity.mennicke_block_mem_of_factors	Mennicke 恒等式 · mennicke 块 ∈ 由 因子
+MennickeIdentity.mennicke_ascent_good_det	Mennicke 恒等式 · mennicke 上升 好 行列式
+MennickeIdentity.mennicke_ascent_monic_det	Mennicke 恒等式 · mennicke 上升 首一 行列式
+MennickeIdentity.mennicke_ascent_row_det	Mennicke 恒等式 · mennicke 上升 行 行列式
+ValuationPowerCase.mennickeBlock_mem_of_unit_mul_uniformizer_pow	赋值幂情形 · mennicke 块 ∈ 由 单位 × 素元 幂
+MennickeIdentity.mennicke_columnFirst_sub_det	Mennicke 恒等式 · mennicke 列第一 − 行列式
+MennickeIdentity.mennicke_left_factor_det	Mennicke 恒等式 · mennicke 左 因子 行列式
+MennickeIdentity.parkWoodburn_mennicke_identity	Mennicke 恒等式 · park Woodburn mennicke 恒等式
+MennickeIdentity.mennicke_right_factor_det	Mennicke 恒等式 · mennicke 右 因子 行列式
+MennickeIdentity.mennicke_rowSecond_sub_det	Mennicke 恒等式 · mennicke 行第二 − 行列式
+mennickeBlock_mem_of_bottomRight_X_pow	mennicke 块 ∈ 由 底右 X 幂
+MennickeIdentity.mennicke_swapped_left_factor_det	Mennicke 恒等式 · mennicke 交换 左 因子 行列式
+MennickeIdentity.mennicke_swapped_right_factor_det	Mennicke 恒等式 · mennicke 交换 右 因子 行列式
+MennickeIdentity.mennicke_swapped_target_det	Mennicke 恒等式 · mennicke 交换 目标 行列式
+MonicMatrixElimination.firstColumn_block_decomposition	首一矩阵消元 · 第一列 块 分解
+MonicMatrixElimination.firstColumn_mem_elementary_iff_block	首一矩阵消元 · 第一列 ∈ 初等 ⇔ 块
+MonicMatrixElimination.specialLinear_mem_elementary_of_column_reduction	首一矩阵消元 · 特殊线性 ∈ 初等 由 列 归约
+MonicMatrixElimination.firstRowClear_mem	首一矩阵消元 · 第一行清除 ∈
+MonicMatrixElimination.firstRowClear_mul_apply	首一矩阵消元 · 第一行清除 × 作用于
+MonicMatrixElimination.lowerBlockMatrix_det	首一矩阵消元 · 下块矩阵 行列式
+StabilizedBlockReduction.lowerBlockSpecialLinear_mul	稳定化块归约 · 下块特殊线性 ×
+StabilizedBlockReduction.lowerBlockSpecialLinear_one	稳定化块归约 · 下块特殊线性 一
+MonicMatrixElimination.lowerRight_det_eq_one	首一矩阵消元 · 下右 行列式 = 一
+StabilizedBlockReduction.elementary_eq_top_iff_columnTransitivity_and_stabilizedThree	稳定化块归约 · 初等 = ⊤ ⇔ 列传递性 且 稳定化三
+PaperAnalyticInput.suslinRelative	论文解析输入 · suslin 相对
+PaperAnalyticInput.universalLattice	论文解析输入 · 泛格
+PaperFactorUnitaryWitness.maps_group_factor	论文因子酉见证 · 映射 群 因子
+PaperFactorUnitaryWitness.trace_preserving	论文因子酉见证 · 迹 保持
+PaperFactorUnitaryWitness.maps_vacuum	论文因子酉见证 · 映射 真空
+paper_factors_isomorphic	论文 因子 同构
+PaperFamilyInput.factors_isomorphic	论文族输入 · 因子 同构
+PaperFamilyInput.gamma_commensurable	论文族输入 · Γ 可公度
+PaperFamilyInput.gamma_fg	论文族输入 · Γ fg
+PaperFamilyInput.gamma_icc	论文族输入 · Γ 闭区间
+PaperFamilyInput.gamma_not_isomorphic	论文族输入 · Γ 非 同构
+PaperFamilyInput.gamma_not_isomorphic_lambda	论文族输入 · Γ 非 同构 λ
+PaperFamilyInput.lambda_not_isomorphic_gamma	论文族输入 · λ 非 同构 Γ
+PaperFamilyInput.gamma_order_four	论文族输入 · Γ 阶 四
+PaperFamilyInput.gamma_propertyT	论文族输入 · Γ 性质 T
+PaperFamilyInput.invariant_card	论文族输入 · 不变量 基数
+PaperFamilyInput.lambda_fg	论文族输入 · λ fg
+PaperFamilyInput.lambda_icc	论文族输入 · λ 闭区间
+PaperFamilyInput.lambda_no_order_four	论文族输入 · λ 无 阶 四
+PaperFamilyInput.lambda_propertyT	论文族输入 · λ 性质 T
+PositiveSpectralFunctional.covariance	正谱泛函 · 协方差
+PositiveSpectralFunctional.probabilityMeasure_invariant	正谱泛函 · 概率测度 不变量
+abs_jointScalarMeasure_map_measureReal_sub_le	绝对值 联合标量测度 映射 测度实 − ≤
+PositiveSpectralFunctional.energy	正谱泛函 · 能量
+PositiveSpectralFunctional.finiteAverage_functional_eq_kernel_orbit_norm_sq	正谱泛函 · 有限平均 泛函 = 核 轨道 范数 平方
+PositiveSpectralFunctional.measure_energy	正谱泛函 · 测度 能量
+PositiveSpectralFunctional.trivial_atom_le_kernel_orbit_norm_sq	正谱泛函 · 平凡 原子 ≤ 核 轨道 范数 平方
+PositiveSpectralFunctional.integral_measure	正谱泛函 · 积分 测度
+PositiveSpectralFunctional.measure_univ_real	正谱泛函 · 测度 全集 实
+PositiveSpectralFunctional.trivial_atom_le_functional_of_nonneg	正谱泛函 · 平凡 原子 ≤ 泛函 由 非负
+abs_jointScalarMeasure_measureReal_sub_le	绝对值 联合标量测度 测度实 − ≤
+PositiveSpectralFunctional.probabilityMeasure_energy	正谱泛函 · 概率测度 能量
+integerShalomRelativeKazhdanPair_of_fourierAtomGap	整数 Shalom 相对 Kazhdan 对 由 傅里叶原子间隙
+integralElementaryJointSpectralProbability_energy	积分初等联合谱概率 能量
+PositiveSpectralFunctional.measure_isFiniteMeasure	正谱泛函 · 测度 是有限测度
+PositiveSpectralFunctional.measure_isProbabilityMeasure	正谱泛函 · 测度 是概率测度
+PositiveSpectralFunctional.trivialCharacterProjection_ne_zero_of_atom_pos_of_orbitApproximation	正谱泛函 · 平凡特征标投影 ≠ 零 由 原子 正 由 轨道逼近
+integralElementaryJointSpectralProbability_shear_map_variation	积分初等联合谱概率 剪切 映射 变差
+trivialCharacterProjection_ne_zero_of_joint_atom_pos	平凡特征标投影 ≠ 零 由 联合 原子 正
+PositiveSpectralFunctional.measure_regular	正谱泛函 · 测度 正则
+PositiveSpectralFunctional.normalization	正谱泛函 · 归一化
+PositiveSpectralFunctional.positive_atom_invariant_of_orbitApproximation	正谱泛函 · 正 原子 不变量 由 轨道逼近
+spectral_criterion_of_positive_functional_and_orbitApproximation	谱 判别法 由 正 泛函 且 轨道逼近
+PositiveSpectralFunctional.trivial_atom_le_finiteAverage_functional	正谱泛函 · 平凡 原子 ≤ 有限平均 泛函
+QuotientFixedUnitVector.norm_one	商固定单位向量 · 范数 一
+QuotientFixedUnitVector.quotient_fixed	商固定单位向量 · 商 固定
+ScratchSuslinDividingOuterIH.mennickeBlock_mem_of_dividing_outerIH	草稿 Suslin 除外 IH · mennicke 块 ∈ 由 除 外 IH
+mennickeBlock_mem_of_valuation_primitive_outerIH	mennicke 块 ∈ 由 赋值 本原 外 IH
+ScratchSuslinDividingOuterIH.mennickeBlock_secondColumnSub_mem_iff	草稿 Suslin 除外 IH · mennicke 块 第二列子 ∈ ⇔
+ScratchSuslinDividingOuterIH.secondColumnSub_det	草稿 Suslin 除外 IH · 第二列子 行列式
+ScratchSuslinDividingOuterIH.shiftedLeadingCancellationQuotient_coeff_zero	草稿 Suslin 除外 IH · 平移首项消去商 系数 零
+ScratchSuslinDividingOuterIH.shiftedLeadingCancellation_remainder_coeff_zero	草稿 Suslin 除外 IH · 平移首项消去 余项 系数 零
+SpatialGroupFactorPresentation.maps_group_factor	空间群因子表现 · 映射 群 因子
+SpatialGroupFactorPresentation.maps_vacuum	空间群因子表现 · 映射 真空
+SpatialVonNeumannTransport.maps_algebra	空间 Von Neumann 输运 · 映射 代数
+SpatialVonNeumannTransport.maps_vacuum	空间 Von Neumann 输运 · 映射 真空
+SpectralMeasureInterface.energy_eq	谱测度接口 · 能量 =
+exists_positive_spectral_atom	存在 正 谱 原子
+SpectralMeasureInterface.measure_invariant	谱测度接口 · 测度 不变量
+SpectralMeasureInterface.positive_atom_invariant	谱测度接口 · 正 原子 不变量
+spectral_criterion_representation	谱 判别法 表示
+SpectralMeasureInterface.quotient_fixed_approximation	谱测度接口 · 商 固定 逼近
+SplitAbelianExtension.conjugation	分裂交换扩张 · 共轭
+quotientOperatorConjugation_kernel	商算子共轭 核
+quotient_preserves_kernelFixedSubmodule	商 保持 核固定子模
+SplitAbelianExtension.exact	分裂交换扩张 · 精确
+SplitAbelianExtension.exists_kernel_mul_splitting	分裂交换扩张 · 存在 核 × 分裂
+integralElementaryRankTwoTranslationSubgroup_normal	积分初等秩二平移子群 正规
+shalom_normalizedConstantFixedVector_of_integerPair	shalom 归一化常数固定向量 由 整数对
+invariant_of_kernel_and_quotient	不变量 由 核 且 商
+SplitAbelianExtension.quotient_splitting	分裂交换扩张 · 商 分裂
+SplitAbelianExtension.quotient_splitting_apply	分裂交换扩张 · 商 分裂 作用于
+StabilizedBlockReduction.elementaryThreeCoordinateRotation_mem	稳定化块归约 · 初等三坐标旋转 ∈
+StabilizedBlockReduction.elementaryThree_reduce_last_of_reduce_zero	稳定化块归约 · 初等三 约化 最后 由 约化 零
+StabilizedBlockReduction.elementaryThreeCoordinateRotation_smul_left	稳定化块归约 · 初等三坐标旋转 数乘 左
+StabilizedBlockReduction.elementaryThreeCoordinateRotation_two_zero_smul_single_zero	稳定化块归约 · 初等三坐标旋转 二 零 数乘 单个 零
+StabilizedBlockReduction.elementaryThreeCoordinateRotation_smul_other	稳定化块归约 · 初等三坐标旋转 数乘 其他
+StabilizedBlockReduction.elementaryThreeCoordinateRotation_smul_right	稳定化块归约 · 初等三坐标旋转 数乘 右
+StabilizedBlockReduction.elementaryThree_coprime_pair_reduce	稳定化块归约 · 初等三 互素 对 约化
+elementaryThree_reduce_of_coprime_second_add_third	初等三 约化 由 互素 第二 + 第三
+suslin_valuation_unimodular_three_elementary_reduce	suslin 赋值 幺模 三 初等 约化
+StabilizedBlockReduction.elementaryThree_transvection_mem	稳定化块归约 · 初等三 平延 ∈
+elementaryThree_second_add_third	初等三 第二 + 第三
+StabilizedBlockReduction.elementaryThree_transvection_smul_other	稳定化块归约 · 初等三 平延 数乘 其他
+StabilizedBlockReduction.elementaryThree_transvection_smul_same	稳定化块归约 · 初等三 平延 数乘 相同
+suslin_elementary_eq_top_of_stableRangeThree_of_stabilizedThree	suslin 初等 = ⊤ 由 稳定值域三 由 稳定化三
+StabilizedBlockReduction.finTwoPlusOne_symm_two	稳定化块归约 · 有限二加一 对称 二
+StabilizedBlockReduction.stabilizedTwoMatrix_castSucc_last	稳定化块归约 · 稳定化二矩阵 类型转换后继 最后
+StabilizedBlockReduction.stabilizedTwoMatrix_last_castSucc	稳定化块归约 · 稳定化二矩阵 最后 类型转换后继
+StabilizedBlockReduction.stabilizedTwoMatrix_last_last	稳定化块归约 · 稳定化二矩阵 最后 最后
+StabilizedBlockReduction.finTwo_castSucc_ne_two	稳定化块归约 · 有限二 类型转换后继 ≠ 二
+StabilizedBlockReduction.stabilizedTwoSpecialLinear_one	稳定化块归约 · 稳定化二特殊线性 一
+StabilizedBlockReduction.lowerBlockHom_transvection	稳定化块归约 · 下块同态 平延
+StabilizedBlockReduction.map_elementaryThreeSubgroup_le	稳定化块归约 · 映射 初等三子群 ≤
+StabilizedBlockReduction.lowerBlock_mem_of_elementaryThree	稳定化块归约 · 下块 ∈ 由 初等三
+suslin_stabilizedThreeElementaryGeneration_of_elementaryThreeGeneration	suslin 稳定化三初等生成 由 初等三生成
+StabilizedBlockReduction.stabilizedTwoHom_castSucc_castSucc	稳定化块归约 · 稳定化二同态 类型转换后继 类型转换后继
+StabilizedBlockReduction.stabilizedTwoHom_transvection	稳定化块归约 · 稳定化二同态 平延
+stabilizedTwoHom_eq_mennickeBlock	稳定化二同态 = mennicke 块
+StabilizedBlockReduction.stabilizedTwoHom_castSucc_two	稳定化块归约 · 稳定化二同态 类型转换后继 二
+StabilizedBlockReduction.stabilizedTwoHom_transvection_mem	稳定化块归约 · 稳定化二同态 平延 ∈
+suslin_stabilized_signedSwap_mem	suslin 稳定化 带符号交换 ∈
+StabilizedBlockReduction.stabilizedTwoHom_two_castSucc	稳定化块归约 · 稳定化二同态 二 类型转换后继
+StabilizedBlockReduction.stabilizedTwoHom_two_two	稳定化块归约 · 稳定化二同态 二 二
+StabilizedBlockReduction.stabilizedTwoMatrix_castSucc_castSucc	稳定化块归约 · 稳定化二矩阵 类型转换后继 类型转换后继
+StabilizedBlockReduction.stabilizedTwoSpecialLinear_castSucc_castSucc	稳定化块归约 · 稳定化二特殊线性 类型转换后继 类型转换后继
+StabilizedBlockReduction.stabilizedTwoSpecialLinear_castSucc_last	稳定化块归约 · 稳定化二特殊线性 类型转换后继 最后
+StabilizedBlockReduction.stabilizedTwoMatrix_det	稳定化块归约 · 稳定化二矩阵 行列式
+StabilizedBlockReduction.stabilizedTwoSpecialLinear_last_castSucc	稳定化块归约 · 稳定化二特殊线性 最后 类型转换后继
+StabilizedBlockReduction.stabilizedTwoSpecialLinear_last_last	稳定化块归约 · 稳定化二特殊线性 最后 最后
+StabilizedBlockReduction.stabilizedTwoSpecialLinear_mul	稳定化块归约 · 稳定化二特殊线性 ×
+StabilizedBlockReduction.stabilizedTwoSpecialLinear_castSucc_two	稳定化块归约 · 稳定化二特殊线性 类型转换后继 二
+StabilizedBlockReduction.stabilizedTwoSpecialLinear_two_castSucc	稳定化块归约 · 稳定化二特殊线性 二 类型转换后继
+StabilizedBlockReduction.stabilizedTwoSpecialLinear_two_two	稳定化块归约 · 稳定化二特殊线性 二 二
+TracialGroupFactorEquiv.normal	迹群因子等价 · 正规
+groupFactorsIsomorphic_symm	群因子同构 对称
+groupFactorsIsomorphic_trans	群因子同构 传递
+TracialGroupFactorEquiv.trace_preserving	迹群因子等价 · 迹 保持
+UnitaryRepresentation.hasAlmostInvariantUnitVectors_comp	酉表示 · 有几乎不变量单位向量 复合
+hasKazhdanPropertyT_of_surjective	有 Kazhdan 性质 T 由 满射
+ValuationPowerCase.elementaryThree_containsElementaryRoots	赋值幂情形 · 初等三 包含初等根
+ValuationPowerCase.mennickeBlock_constant_mem	赋值幂情形 · mennicke 块 常数 ∈
+ValuationPowerCase.mennickeBlock_constant_mem_of_uniformizer_case	赋值幂情形 · mennicke 块 常数 ∈ 由 素元 情形
+ValuationPowerCase.mennickeBlock_zero_constant_mem	赋值幂情形 · mennicke 块 零 常数 ∈
+ValuationPowerCase.nonzero_eq_unit_mul_uniformizer_pow	赋值幂情形 · 非零 = 单位 × 素元 幂
+abs_conditionedProbability_measureReal_sub_le	绝对值 条件化概率 测度实 − ≤
+shalom_conditioned_variation_lt_one_fourth	shalom 条件化 变差 < 一 第四
+abs_measureReal_inter_sub_inter_le	绝对值 测度实 交 − 交 ≤
+abs_regular_measureReal_sub_le_of_testFunctions	绝对值 正则 测度实 − ≤ 由 检验函数
+actingGroup_isICC	作用群 是闭区间
+actingGroup_hasKazhdanPropertyT	作用群 有 Kazhdan 性质 T
+gamma_hasKazhdanPropertyT_unconditional	Γ 有 Kazhdan 性质 T 无条件
+lambda_hasKazhdanPropertyT_unconditional	λ 有 Kazhdan 性质 T 无条件
+actingGroup_infinite	作用群 无限
+gamma_isICC_of_infinite_orbits	Γ 是闭区间 由 无限 轨道
+lambda_isICC_of_module_orbits	λ 是闭区间 由 模 轨道
+add_self_eq_zero	+ 自身 = 零
+character_sq	特征标 平方
+additiveLeftRegularUnitary_single	加性左正则酉 单个
+fourier_conjugates_regular_of_character_basis	傅里叶 共轭 正则 由 特征标 基
+affineAction_apply_eq_linear_add_zero	仿射作用 作用于 = 线性 + 零
+affineInvariantLinearProjection_action	仿射不变量线性投影 作用
+affineDiagonal_nonzero_invariant_of_fixed	仿射对角 非零 不变量 由 固定
+affineDiagonal_subgroup_nonzero_invariant_of_fixed	仿射对角 子群 非零 不变量 由 固定
+affineGeneratorWordLength_spec	仿射生成元字长度 规范
+affine_oppositeWord_displacement_left	仿射 相反字 位移 左
+affine_oppositeWord_displacement_right	仿射 相反字 位移 右
+affineHilbert_displacement_inv	仿射 Hilbert 位移 逆
+affine_displacement_le_of_generatorWord	仿射 位移 ≤ 由 生成元字
+affineInvariantOrthogonalProjection_equivariant	仿射不变量正交投影 等变
+affineInvariantOrthogonalProjection_coe	仿射不变量正交投影 强制转换
+affineOrthogonalAction_isMinimizingAffinePair	仿射正交作用 是最小化仿射对
+affineInvariantOrthogonalProjection_nonexpansive	仿射不变量正交投影 非扩张
+affineInvariantProjection_zero_of_no_real_characters	仿射不变量投影 零 由 无 实 特征标
+affineTranslation_mem_orthogonal_of_no_real_characters	仿射平移 ∈ 正交 由 无 实 特征标
+affineIsometryEquiv_hilbertCircumcenter_fixed	仿射等距等价 hilbert 外心 固定
+affine_subgroup_fixedPoint_of_bounded_orbit	仿射 子群 固定点 由 有界 轨道
+affineLinearRepresentation_sub_fixed	仿射线性表示 − 固定
+affineLinear_invariant_of_sup_eq_top	仿射线性 不变量 由 上确界 = ⊤
+affineOrthogonalAction_apply_coe	仿射正交作用 作用于 强制转换
+affineOrthogonalAction_normalized	仿射正交作用 归一化
+cornulier_normalizedMarkedAction_false	cornulier 归一化带标记作用 假
+affineOrthogonalComplement_completeSpace	仿射正交补 完备空间
+affineOrthogonalTranslation_mul	仿射正交平移 ×
+affineSubgroupOrbit_bounded	仿射子群轨道 有界
+affineSubgroupOrbit_image	仿射子群轨道 像
+affineSubgroupOrbit_nonempty	仿射子群轨道 非空
+affine_oppositeGenerator_displacement_left	仿射 相反生成元 位移 左
+affine_oppositeGenerator_displacement_right	仿射 相反生成元 位移 右
+markedAffineOrbitPoint_le_wordBound	带标记仿射轨道点 ≤ 字界
+gaussian_relativeAffineFixedPoint_of_uniform	高斯 相对仿射固定点 由 一致
+bassStableRangeThree_of_noetherian_domain_dimension_two	bass 稳定值域三 由 诺特 定义域 维数 二
+integralPolynomial_stableRangeThree	积分多项式 稳定值域三
+suslin_dvr_polynomial_stableRangeThree	suslin dvr 多项式 稳定值域三
+binaryPolynomial_unit_eq_one	二元多项式 单位 = 一
+primitiveVector_specialLinear_completion_of_coordinateIdeal	本原向量 特殊线性 完备化 由 坐标理想
+binaryTransvection_smul_injective	二元平延 数乘 单射
+k_vector_orbit_infinite	k 向量 轨道 无限
+divided_square_truncated_support_quarter_direct	被除 平方 截断 支撑 四分之一 直
+blockCoefficients_map_mulLeft	块系数 映射 ×左
+firstTensorPowerAction_injective	第一张量幂作用 单射
+blockCoefficients_tmul	块系数 张量积
+boundedStandardVector_mem_primitiveTruncationFinset	有界标准向量 ∈ 本原截断有限集
+invariantDual_boxDetection_bound	不变量对偶 盒检测 界
+bounded_natDegree_lt	有界 自然数次数 <
+product_mem_degreeLT	积 ∈ 次数<
+vectorGCD_natDegree_lt	向量 GCD 自然数次数 <
+bounded_vector_state_lipschitz	有界 向量 状态 lipschitz
+boxDetectionSet_measurable	盒检测集合 可测
+card_binaryPolynomialVector	基数 二元多项式向量
+card_nonzeroPolynomialVector	基数 非零多项式向量
+card_boundedPolynomial	基数 有界多项式
+card_monicPolynomial	基数 首一多项式
+card_eq_sum_card_fibers	基数 = 和 基数 纤维
+card_eq_sum_card_products	基数 = 和 基数 积
+primitive_gcd_convolution	本原 gcd 卷积
+card_primitivePolynomialVector	基数 本原多项式向量
+primitiveTruncationFinset_card	本原截断有限集 基数
+carryBaseMultiplier_commute_of_commute_characters	进位基乘子 交换 由 交换 特征标
+carryMultiplier_mem_character_vonNeumannClosure	进位乘子 ∈ 特征标 von Neumann 闭包
+carryBidualEvaluation_injective	进位二次对偶求值 单射
+carryBidualHomeomorph_apply	进位二次对偶同胚 作用于
+gamma_probability_detection_gap	Γ 概率 检测 间隙
+carryCharacterCoefficient_apply_ae	进位特征标系数 作用于 几乎处处
+carryCharacterCoefficient_eq_continuousToLp	进位特征标系数 = 连续到 Lp
+carryCharacterMultiplier_character	进位特征标乘子 特征标
+carryCharacterCoefficient_eq_crossedContinuousCharacterCoefficient	进位特征标系数 = 交叉连续特征标系数
+carryCharacterL2_kEAction	进位特征标 L 2 k E 作用
+carryFourier_kEAction_comp	进位傅里叶 k E 作用 复合
+carryCharacterL2_orthonormal	进位特征标 L 2 标准正交
+carryFourierTransform_single	进位傅里叶变换 单个
+carryCharacterL2_span_closure_eq_top	进位特征标 L 2 张成 闭包 = ⊤
+carryCharacterL2_zero	进位特征标 L 2 零
+carryFourierEquiv_zero_single	进位傅里叶等价 零 单个
+carryFourier_conjugates_normal_generator	进位傅里叶 共轭 正规 生成元
+carryCharacterSubalgebra_toSubmodule	进位特征标子代数 到子模
+carryComplexCharacter_span_closure_eq_top	进位复特征标 张成 闭包 = ⊤
+carryComplexCharacter_add	进位复特征标 +
+carryComplexCharacter_kEAction	进位复特征标 k E 作用
+carryComplexCharacter_star	进位复特征标 星
+characterVectorFunctionalLinear_nonneg	特征标向量泛函线性 非负
+jointFunctionalCalculusOperator_positive_contraction	联合泛函演算算子 正 收缩
+jointFunctionalCalculus_characterEvaluation	联合泛函演算 特征标求值
+jointFunctionalCalculus_quotient_covariance	联合泛函演算 商 协方差
+splitCharacterSubalgebra_toSubmodule	分裂特征标子代数 到子模
+carryComplexCharacter_zero	进位复特征标 零
+carryCoordinates_measurePreserving	进位坐标 测度保持
+carryFourierEquiv_single	进位傅里叶等价 单个
+carryFourier_conjugates_regular_of_character_basis	进位傅里叶 共轭 正则 由 特征标 基
+gammaGroupFactorUnitary_vacuum	Γ群因子酉 真空
+gammaGroupFactorUnitary_conj_inl	Γ群因子酉 共轭 左注入
+carryTaggedFourierCovariance	进位带标签傅里叶协方差
+carryHaar_eq_normalizedAddHaar	进位哈尔 = 归一化+哈尔
+carryHaar_isAddHaarMeasure	进位哈尔 是+哈尔测度
+carryHaar_preserving_addEquiv	进位哈尔 保持 +等价
+carryHaar_isAddLeftInvariant	进位哈尔 是+左不变量
+carryHaar_isProbabilityMeasure	进位哈尔 是概率测度
+paperCarryAddAut_preserves_measure	论文进位+自同构 保持 测度
+carry_character_vonNeumannClosure_eq_full	进位 特征标 von Neumann 闭包 = 完整
+carryPullback_carryPullbackSection	进位拉回 进位拉回截面
+dualCarryPullback_range_eq_shiftKernelRestriction_ker	对偶进位拉回 值域 = 平移核限制 核
+dualCarrySection_dualCarryPullback	对偶进位截面 对偶进位拉回
+carryPullback_kCarryAddAut	进位拉回 k 进位+自同构
+dualCarryPullback_equivariant	对偶进位拉回 等变
+gammaGroupFactorUnitary_conj_inr	Γ群因子酉 共轭 右注入
+carryTranslation_measurePreserving	进位平移 测度保持
+carry_add_left	进位 + 左
+shiftedCarry_add_left	平移进位 + 左
+carry_add_right	进位 + 右
+shiftedCarry_add_right	平移进位 + 右
+carry_apply_diagonal	进位 作用于 对角
+carry_self_eq_evaluate_d	进位 自身 = 求值 d
+carry_comm	进位 交换律
+shiftedCarry_comm	平移进位 交换律
+gammaDetectedSet_preimage_subset	Γ检测到集合 原像 子集
+carry_pontryagin_characters_separate	进位 pontryagin 特征标 分离
+shiftedCarry_self_eq_evaluate_d	平移进位 自身 = 求值 d
+carry_zero_left	进位 零 左
+shiftedCarry_zero_left	平移进位 零 左
+carry_zero_right	进位 零 右
+continuous_shiftKernelInclusion	连续 平移核包含
+kernelProjection_shiftKernelInclusion	核投影 平移核包含
+shiftedCarry_zero_right	平移进位 零 右
+characterBit_add	特征标位 +
+dualToPair_pairToDual	对偶到对 对到对偶
+pairToDual_dualToPair	对到对偶 对偶到对
+characterBit_spec	特征标位 规范
+characterBit_zero	特征标位 零
+characterEnergy_complexification	特征标能量 复化
+characterVectorFunctional_spectralEnergy	特征标向量泛函 谱能量
+characterLinear_circle	特征标线性 圆
+continuous_characterLinear	连续 特征标线性
+characterRealComplexification_add	特征标实复化 +
+characterRealComplexification_apply	特征标实复化 作用于
+characterRealComplexification_eq_star_mul_sqrt	特征标实复化 = 星 × 平方根
+characterRealComplexification_smul	特征标实复化 数乘
+characterVectorFunctional_energy_of_operator	特征标向量泛函 能量 由 算子
+characterVectorFunctional_one	特征标向量泛函 一
+jointCharacterFunctional_pullback_of_operatorCovariance	联合特征标泛函 拉回 由 算子协方差
+characterVectorFunctional_spectralUnit	特征标向量泛函 谱单位
+jointCharacterFunctional_energy	联合特征标泛函 能量
+jointCharacterFunctional_normalization	联合特征标泛函 归一化
+character_sub_norm	特征标 − 范数
+character_sub_norm_sq	特征标 − 范数 平方
+spectralFiniteAverageTest_eq_sub_energy	谱有限平均检验 = − 能量
+character_truncated_detection_quarter_direct	特征标 截断 检测 四分之一 直
+circleBit_spec	圆位 规范
+circle_arg_div_of_no_wrap	圆 辐角 ÷ 由 无 回绕
+circle_arg_div_of_re_pos	圆 辐角 ÷ 由 实部 正
+spectralArg_sub_of_window	谱辐角 − 由 窗口
+circle_arg_inv_of_lt_pi	圆 辐角 逆 由 < π
+circle_arg_mul_of_no_wrap	圆 辐角 × 由 无 回绕
+circle_arg_mul_of_re_pos	圆 辐角 × 由 实部 正
+circle_arg_mul_of_no_wrap_le	圆 辐角 × 由 无 回绕 ≤
+spectralArg_add_of_window	谱辐角 + 由 窗口
+circle_four_square_liftBit	圆 四 平方 提升位
+circle_four_twice_liftBit	圆 四 两倍 提升位
+circle_nonpositive_real_energy	圆 非正 实 能量
+spectralNonpositiveRealSet_measureReal_mul_two_le_energy	谱非正实集合 测度实 × 二 ≤ 能量
+circle_re_pos_iff_arg_mem_Ioo	圆 实部 正 ⇔ 辐角 ∈ 开区间
+clipContinuousMap_norm_le	截断连续映射 范数 ≤
+exists_continuous_norm_le_one_approx	存在 连续 范数 ≤ 一 近似
+clipContinuousMap_toLp_sub_unit_le	截断连续映射 到 Lp − 单位 ≤
+commute_continuousMultiplier_of_commute_characters	交换 连续乘子 由 交换 特征标
+commute_unitMultiplier_of_commute_characters	交换 单位乘子 由 交换 特征标
+commute_crossedBaseMultiplier_of_commute_characters	交换 交叉基乘子 由 交换 特征标
+splitBaseMultiplier_commute_of_commute_characters	分裂基乘子 交换 由 交换 特征标
+commute_crossedMultiplier_iff_blocks	交换 交叉乘子 ⇔ 块
+crossedMultiplier_mem_vonNeumannClosure_of_base_commutation	交叉乘子 ∈ von Neumann 闭包 由 基 对易
+commute_matrixUnit_of_commute_nonzero_transvection	交换 矩阵单位 由 交换 非零 平延
+transvection_conjugates_injective_of_not_commute_matrixUnit	平延 共轭 单射 由 非 交换 矩阵单位
+commute_multiplier_of_commute_units	交换 乘子 由 交换 单位
+complexUnitBallClip_eq_self_of_norm_le	复单位球截断 = 自身 由 范数 ≤
+complexUnitBallClip_norm_le	复单位球截断 范数 ≤
+complexUnitBallClip_sub_norm_le_two	复单位球截断 − 范数 ≤ 二
+conditionedProbability_measureReal	条件化概率 测度实
+conditionedProbability_punctured_window_measureReal_one	条件化概率 穿孔 窗口 测度实 一
+shalomSpectral_zeroFiber_positive_of_variation	shalom 谱 零纤维 正 由 变差
+conj_image_centralizer	共轭 像 中心化子
+conj_mem_vonNeumannClosure_image_iff	共轭 ∈ von Neumann 闭包 像 ⇔
+conj_mem_centralizer_image_iff	共轭 ∈ 中心化子 像 ⇔
+conjugate_Z_generator	共轭 Z 生成元
+relativeZ_conjugate_by_root	相对 Z 共轭 按 根
+conjugate_Z_generator_of_not_same_inner	共轭 Z 生成元 由 非 相同 内积
+conjugate_mul_relative_root_mem_Z	共轭 × 相对 根 ∈ Z
+hard_commutator_mem_relativeZ	难 换位子 ∈ 相对 Z
+conjugate_relative_F_mem_Z	共轭 相对 F ∈ Z
+conjugate_relative_root_mem_F_of_not_opposite	共轭 相对 根 ∈ F 由 非 相反
+conjugate_relative_root_mem_Z	共轭 相对 根 ∈ Z
+conjugates_eq_iff_quotient_commutes	共轭 = ⇔ 商 交换
+transvection_conjugates_eq_iff_commutes	平延 共轭 = ⇔ 交换
+constantTerm_mem_levelThreeIntegerSubgroup	常数项 ∈ 水平三整数子群
+continuousMultiplier_coeFn	连续乘子 强制转换函数
+continuous_sub_unit_multiplier_norm_le_two	连续 − 单位 乘子 范数 ≤ 二
+continuous_sub_unit_multiplier_on_continuous_norm_le	连续 − 单位 乘子 在…上 连续 范数 ≤
+continuous_CarryGroup_iff	连续 进位群 ⇔
+continuous_linearSection	连续 线性截面
+evalEta_kernel	求值η 核
+instCarryGroupContinuousAdd	实例进位群连续+
+instCarryGroupContinuousNeg	实例进位群连续负
+iota_range_le_ker_quadraticRestriction	iota 值域 ≤ 核 二次限制
+sigma_characterization	σ 刻画
+sigma_eq_zero_iff	σ = 零 ⇔
+continuous_X_eval	连续 X 求值
+continuous_X_precomp	连续 X 前复合
+continuous_linear_eval	连续 线性 求值
+continuous_splitBinaryEvaluation	连续 分裂二元求值
+dualDetectionSet_measurable	对偶检测集合 可测
+instXTopologicalAddGroup	实例 X 拓扑+群
+pairToDual_continuous	对到对偶 连续
+continuous_X_iff	连续 X ⇔
+continuous_dualPointAction	连续 对偶点作用
+continuous_kXLinear	连续 k X 线性
+continuous_shift	连续 平移
+continuous_shiftSection	连续 平移截面
+continuous_Y_eval	连续 Y 求值
+continuous_Y_precomp	连续 Y 前复合
+continuous_quadratic_eval	连续 二次 求值
+instYTopologicalAddGroup	实例 Y 拓扑+群
+continuous_Y_iff	连续 Y ⇔
+continuous_kYLinear	连续 k Y 线性
+continuous_binaryDual_eq_evaluation	连续 二元对偶 = 求值
+pointwisePontryaginDualEquiv_apply_character	逐点 Pontryagin 对偶等价 作用于 特征标
+sigma_surjective	σ 满射
+continuous_carryBidualEvaluation	连续 进位二次对偶求值
+continuous_carryCoordinates	连续 进位坐标
+continuous_linear	连续 线性
+continuous_quadratic	连续 二次
+continuous_carryPullback	连续 进位拉回
+continuous_carryPullbackSection	连续 进位拉回截面
+continuous_character_evaluation	连续 特征标 求值
+continuous_polynomialCharacterCoefficient	连续 多项式特征标系数
+measurable_spectralArgCoordinates	可测 谱辐角坐标
+spectralDetection_integrable	谱检测 可积
+spectralFiniteAverageTest_nonneg	谱有限平均检验 非负
+spectralFiniteAverageTest_one	谱有限平均检验 一
+spectralNonpositiveRealSet_measurable	谱非正实集合 可测
+continuous_complexUnitBallClip	连续 复单位球截断
+gammaDualCharacterAction_continuous	Γ对偶特征标作用 连续
+invariantDual_detection_measure	不变量对偶 检测 测度
+spectralDualCharacterAction_continuous	谱对偶特征标作用 连续
+epsilon_apply	ε 作用于
+gammaTwoMulDetectedUnionMass_le_energy	Γ二×检测到并质量 ≤ 能量
+continuous_kCarryAction	连续 k 进位作用
+gammaOrderFourElement_orderOf	Γ阶四元素 阶由
+instGammaCountable	实例Γ可数
+kEAction_apply	k E 作用 作用于
+kEAction_iota	k E 作用 iota
+continuous_kCarryAddAut_symm	连续 k 进位+自同构 对称
+continuous_paperSplitAddAut	连续 论文分裂+自同构
+continuous_kernelProjection	连续 核投影
+shiftKernelRestriction_extend	平移核限制 延拓
+evalEta_eq_kernelCharacter_linear	求值η = 核特征标 线性
+cornulierBoundedFactorization_of_stableRange	cornulier 有界分解 由 稳定值域
+crossedBaseMultiplier_apply_ae	交叉基乘子 作用于 几乎处处
+d_diagonal	d 对角
+dvrPolynomialQuotientFractionSurjection_of_algebraMap	dvr 多项式商分数满射 由 代数映射
+dvrPolynomialQuotientFractionSurjection_root	dvr 多项式商分数满射 根
+evalEta_add	求值η +
+evalEta_zero	求值η 零
+exists_kernel_fixed_norm_minimizer	存在 核 固定 范数 最小化子
+gammaBidual_zero	Γ二次对偶 零
+gammaDetectionDualBorel	Γ检测对偶博雷尔
+gammaDualBorel	Γ对偶博雷尔
+integerDual_eq_one_iff_coordinate_values	整数对偶 = 一 ⇔ 坐标 值
+iota_apply	iota 作用于
+iota_injective	iota 单射
+kernelProjection_carryPullbackSection	核投影 进位拉回截面
+lambda_isICC_of_infinite_module_orbits	λ 是闭区间 由 无限 模 轨道
+linearSection_add	线性截面 +
+measurable_carryCharacterFunction	可测 进位特征标函数
+minkowski_prime_order_matrix	minkowski 素 阶 矩阵
+norm_carryCharacterFunction	范数 进位特征标函数
+polynomialCharacterSectorA_eq_preimage	多项式特征标扇形 A = 原像
+polynomialCharacterSectorB_eq_preimage	多项式特征标扇形 B = 原像
+polynomialCharacterSectorC_eq_preimage	多项式特征标扇形 C = 原像
+semidirectFubini_apply	半直积 Fubini 作用于
+semidirectFubini_leftRegular_apply	半直积 Fubini 左正则 作用于
+shalomSneg_sector_inclusion	shalom 严格负 扇形 包含
+shalomSpos_sector_inclusion	shalom 严格正 扇形 包含
+shalomTneg_sector_inclusion	shalom 负 扇形 包含
+shalomTpos_sector_inclusion	shalom 正 扇形 包含
+spectralCharacter_continuous	谱特征标 连续
+spectralCharacter_quotientConjugation	谱特征标 商共轭
+splitCharacterCoefficient_apply_ae	分裂特征标系数 作用于 几乎处处
+splitCharacterL2_orthonormal	分裂特征标 L 2 标准正交
+splitCharacterL2_zero	分裂特征标 L 2 零
+splitComplexCharacter_kDLinear	分裂复特征标 k D 线性
+stabilizedTwoByTwo_mem_elementaryThree_of_topLeft_isUnit	稳定化二按二 ∈ 初等三 由 ⊤左 是单位
+unitMultiplier_coeFn	单位乘子 强制转换函数
+measurable_polynomialCharacterCoefficient	可测 多项式特征标系数
+measurable_splitCharacterFunction	可测 分裂特征标函数
+norm_splitCharacterFunction	范数 分裂特征标函数
+splitComplexCharacter_add	分裂复特征标 +
+splitComplexCharacter_star	分裂复特征标 星
+splitComplexCharacter_zero	分裂复特征标 零
+splitPontryaginCharacter_injective	分裂 Pontryagin 特征标 单射
+splitPontryaginCharacter_separates	分裂 Pontryagin 特征标 分离
+continuous_sub_unit_multiplier_norm_le	连续 − 单位 乘子 范数 ≤
+exists_continuous_multiplier_approx_pair	存在 连续 乘子 近似 对
+coordinateIdeal_eq_span_vectorGCD	坐标理想 = 张成 向量 GCD
+isPrimitiveVector_iff_coordinateIdeal_eq_top	是本原向量 ⇔ 坐标理想 = ⊤
+cornulierBoundedFactorization	cornulier 有界分解
+cornulier_proposition4_of_shalom_gaussian	cornulier 命题 4 由 shalom 高斯
+cornulierColumnPlane01_le_K₁	cornulier 列平面 01 ≤ K ₁
+cornulierColumnPlanes_commute	cornulier 列平面 交换
+cornulierColumnPlanes_sup_eq_K₁	cornulier 列平面 上确界 = K ₁
+cornulierColumnPlane01_root_one	cornulier 列平面 01 根 一
+cornulierColumnPlane01_root_zero	cornulier 列平面 01 根 零
+cornulierColumnPlane12_le_K₁	cornulier 列平面 12 ≤ K ₁
+cornulierColumnPlane12_root_two	cornulier 列平面 12 根 二
+cornulierColumnRootProduct_apply	cornulier 列根积 作用于
+cornulier_conjugate_K₁_root_mem	cornulier 共轭 K ₁ 根 ∈
+cornulierColumnRootProduct_mem	cornulier 列根积 ∈
+cornulierColumnRoot_commute	cornulier 列根 交换
+cornulierK₁_isMulCommutative	cornulier K ₁ 是×交换
+cornulierColumnShear_mem	cornulier 列剪切 ∈
+cornulierH_le_normalizer_K₁	cornulier H ≤ 正规化子 K ₁
+integralElementaryGroup_propertyT_of_shalomPair	积分初等群 性质 T 由 shalom 对
+cornulierH_le_normalizer_K₂	cornulier H ≤ 正规化子 K ₂
+cornulierHilbertLength_le_of_fixed	cornulier Hilbert 长度 ≤ 由 固定
+cornulier_proposition4_corelativeFH	cornulier 命题 4 余相对 FH
+cornulierHilbertLength_mul_le	cornulier Hilbert 长度 × ≤
+cornulier_relativeAffineFixedPoints_of_shalom_gaussian	cornulier 相对仿射固定点 由 shalom 高斯
+cornulierK₁_sup_cornulierK₂_eq_top	cornulier K ₁ 上确界 cornulier K ₂ = ⊤
+cornulier_oppositeRoots_generate	cornulier 相反根 生成
+cornulierK₂_isMulCommutative	cornulier K ₂ 是×交换
+cornulierRowPlanes_commute	cornulier 行平面 交换
+cornulierNormalizedDistanceInfimum_le	cornulier 归一化距离下确界 ≤
+cornulierNormalizedDistanceInfimum_le_of_fixed	cornulier 归一化距离下确界 ≤ 由 固定
+isMinimizingAffinePair_of_normalized_infimum	是最小化仿射对 由 归一化 下确界
+cornulierNormalizedDistanceSpectrum_bddBelow	cornulier 归一化距离谱 有界下方
+exists_cornulierNormalizedMinimizingSequence	存在 cornulier 归一化最小化序列
+cornulierNormalizedMarkedAction_nonempty_of_fixed	cornulier 归一化带标记作用 非空 由 固定
+cornulier_theorem7_of_normalization	cornulier 定理 7 由 归一化
+cornulierNormalizedMinimizingSequence_bounded	cornulier 归一化最小化序列 有界
+cornulierRelativeAffineFixed_of_uniform	cornulier 相对仿射固定 由 一致
+cornulierRoot_mem_K₁	cornulier 根 ∈ K ₁
+cornulierRoot_mem_K₁_sup_K₂	cornulier 根 ∈ K ₁ 上确界 K ₂
+cornulier_finiteOppositeRoots_subset	cornulier 有限相反根 子集
+cornulierRoot_mem_K₂	cornulier 根 ∈ K ₂
+cornulierRowPlane01_le_K₂	cornulier 行平面 01 ≤ K ₂
+cornulierRowPlane12_le_K₂	cornulier 行平面 12 ≤ K ₂
+cornulierRowRootProduct_mem	cornulier 行根积 ∈
+cornulierRowShear_mem	cornulier 行剪切 ∈
+cornulierRoot_mem_finiteOppositeRoots_closure	cornulier 根 ∈ 有限相反根 闭包
+cornulier_finiteOppositeRoots_closure_eq_top	cornulier 有限相反根 闭包 = ⊤
+cornulierRoot_zero	cornulier 根 零
+cornulierRowPlane01_root_one	cornulier 行平面 01 根 一
+cornulierRowPlane01_root_zero	cornulier 行平面 01 根 零
+cornulierRowPlane12_root_two	cornulier 行平面 12 根 二
+cornulierRowPlanes_sup_eq_K₂	cornulier 行平面 上确界 = K ₂
+cornulierRowRootProduct_apply	cornulier 行根积 作用于
+cornulier_conjugate_K₂_root_mem	cornulier 共轭 K ₂ 根 ∈
+cornulierRowRoot_commute	cornulier 行根 交换
+cornulier_conjugate_K₁_mem	cornulier 共轭 K ₁ ∈
+cornulier_conjugate_K₂_mem	cornulier 共轭 K ₂ ∈
+cornulier_conjugate_root_apply	cornulier 共轭 根 作用于
+cornulier_conjugate_single_apply	cornulier 共轭 单个 作用于
+cornulier_corelative_iff_affineOrbitBound	cornulier 余相对 ⇔ 仿射轨道界
+cornulier_elementary_isPerfect	cornulier 初等 是完美
+cornulier_hom_commGroup_eq_one	cornulier 同态 交换律群 = 一
+cornulier_fullLatticePropertyT_of_relativeSuslin	cornulier 完整格性质 T 由 相对 Suslin
+universalLatticePropertyT_of_suslinRelative	泛格性质 T 由 suslin 相对
+cornulier_realCharacter_eq_zero	cornulier 实特征标 = 零
+cornulier_lastColumnRoot_mem_finiteOppositeRoots	cornulier 最后列根 ∈ 有限相反根
+cornulier_lastRowRoot_mem_finiteOppositeRoots	cornulier 最后行根 ∈ 有限相反根
+crossedHaarHilbertEquiv_group_apply	交叉哈尔 Hilbert 等价 群 作用于
+crossedHaarHilbertEquiv_vacuum	交叉哈尔 Hilbert 等价 真空
+crossedHaarHilbertEquiv_multiplier_conj	交叉哈尔 Hilbert 等价 乘子 共轭
+splitCharacterMultiplier_character	分裂特征标乘子 特征标
+crossedGeneratorSet_image	交叉生成元集合 像
+crossedFiberwiseOperator_single	交叉逐纤维算子 单个
+crossedHaarHilbertEquiv_mem_algebra_iff	交叉哈尔 Hilbert 等价 ∈ 代数 ⇔
+crossedHaarHilbertEquiv_group_conj	交叉哈尔 Hilbert 等价 群 共轭
+splitMultiplier_mem_character_vonNeumannClosure	分裂乘子 ∈ 特征标 von Neumann 闭包
+split_character_vonNeumannClosure_eq_full	分裂 特征标 von Neumann 闭包 = 完整
+d_surjective	d 满射
+degree_sub_shiftedLeadingCancellationQuotient_mul_lt	次数 − 平移首项消去商 × <
+natDegree_sub_shiftedLeadingCancellationQuotient_mul_lt	自然数次数 − 平移首项消去商 × <
+diagonalAffineAction_apply	对角仿射作用 作用于
+diagonalDisplacement_memℓp_of_summable	对角位移 ∈ ℓp 由 可和
+diagonal_add	对角 +
+gammaEmbedding_injective	Γ嵌入 单射
+gammaEmbedding_range_index	Γ嵌入 值域 指标
+dualCarryPullback_injective	对偶进位拉回 单射
+dualCarryPullback_range_index_eq_kernelDual_card	对偶进位拉回 值域 指标 = 核对偶 基数
+dualCarryPullback_range_index	对偶进位拉回 值域 指标
+dualCharacterAction_continuous	对偶特征标作用 连续
+dualCharacterAction_measurable	对偶特征标作用 可测
+rieszMeasure_dualCharacterAction	riesz 测度 对偶特征标作用
+dualCharacterAction_image_measureReal_eq_map_inv	对偶特征标作用 像 测度实 = 映射 逆
+dualCharacterAction_image_variation_eq_map_inv	对偶特征标作用 像 变差 = 映射 逆
+polynomialTrivialAtom_pos_of_constantFixed_smallShears_of_covariance	多项式平凡原子 正 由 常数固定 小剪切 由 协方差
+dualCharacterAction_map_measureReal	对偶特征标作用 映射 测度实
+dualCharacterAction_mul	对偶特征标作用 ×
+dualCharacterAction_preimage_eq_image_inv	对偶特征标作用 原像 = 像 逆
+dualCharacterAction_one	对偶特征标作用 一
+dualDetectionSet_action_preimage	对偶检测集合 作用 原像
+dualDetects_action	对偶检测 作用
+dualPair_eq_zero_of_no_detection	对偶对 = 零 由 无 检测
+iUnion_boxDetectionSet	i 并 盒检测集合
+dualProbability_detection_gap	对偶概率 检测 间隙
+gammaProbability_detection_gap_of_bidual	Γ概率 检测 间隙 由 二次对偶
+spectral_probability_detection_gap	谱 概率 检测 间隙
+dualProductBorel	对偶积博雷尔
+pairDualHomeomorph_equivariant	对对偶同胚 等变
+pairDualHomeomorph_zero	对对偶同胚 零
+spectralDetectedSet_preimage	谱检测到集合 原像
+dvrPolynomialQuotientFractionSurjection_surjective	dvr 多项式商分数满射 满射
+dvr_mod_uniformizer_one_quotient_maximalIdeals_finite	dvr 模 素元 一 商 极大理想 有限
+dvr_fraction_polynomial_one_add_uniformizer_mul_ne_zero	dvr 分数 多项式 一 + 素元 × ≠ 零
+dvr_maximalIdeals_finite_of_surjective_field_polynomial_quotient	dvr 极大理想 有限 由 满射 域 多项式 商
+dvr_one_add_uniformizer_mul_ne_zero	dvr 一 + 素元 × ≠ 零
+dvr_polynomial_eq_one_add_uniformizer_mul_of_residue_one	dvr 多项式 = 一 + 素元 × 由 留数 一
+dvr_polynomial_field_quotient_isArtinian_of_ne_zero	dvr 多项式 域 商 是阿廷 由 ≠ 零
+dvr_polynomial_map_uniformizer_zero_iff	dvr 多项式 映射 素元 零 ⇔
+dvr_polynomial_map_uniformizer_zero_iff_C_dvd	dvr 多项式 映射 素元 零 ⇔ C 整除
+dvr_uniformizer_factor_with_classification	dvr 素元 因子 带 分类
+dvr_uniformizer_quotient_eq_zero_iff_dvd	dvr 素元 商 = 零 ⇔ 整除
+dvr_uniformizer_span_isMaximal	dvr 素元 张成 是极大
+e_isPrimitiveVector	e 是本原向量
+e_ne_zero	e ≠ 零
+lambda_detectors_ne	λ 检测器 ≠
+eight_mul_countingScale	八 × 计数尺度
+primitiveCount_subtraction	本原计数 减法
+elementaryClosure_le_pi₂_range	初等闭包 ≤ π ₂ 值域
+pi₂_surjective_of_elementaryGeneration	π ₂ 满射 由 初等生成
+pi₂_surjective	π ₂ 满射
+elementaryRankTwoAction_toAdd	初等秩二作用 到+
+integerElementaryRankTwoSplitAbelianExtension_range	整数初等秩二分裂交换扩张 值域
+integerLowerShear_action_one	整数下剪切 作用 一
+integerLowerShear_action_zero	整数下剪切 作用 零
+integerLowerShear_inv_action_one	整数下剪切 逆 作用 一
+integerLowerShear_inv_action_zero	整数下剪切 逆 作用 零
+integerUpperShear_action_one	整数上剪切 作用 一
+integerUpperShear_action_zero	整数上剪切 作用 零
+integerUpperShear_inv_action_one	整数上剪切 逆 作用 一
+integerUpperShear_inv_action_zero	整数上剪切 逆 作用 零
+integralElementaryRankTwoSplitAbelianExtension_range	积分初等秩二分裂交换扩张 值域
+polynomialCharacterCoefficient_dual_root_source	多项式特征标系数 对偶 根 源
+polynomialCharacterCoefficient_dual_root_target	多项式特征标系数 对偶 根 目标
+rankTwoParabolicSpecialLinear_inl	秩二抛物特殊线性 左注入
+rankTwoParabolicSpecialLinear_inr_root	秩二抛物特殊线性 右注入 根
+elementaryRankTwoMatrix_countable	初等秩二矩阵 可数
+elementaryRankTwo_countable	初等秩二 可数
+elementaryRankTwoMultiplicative_countable	初等秩二乘性 可数
+elementaryRankTwoSemidirect_countable	初等秩二半直积 可数
+elementaryRankTwoRoot_inv	初等秩二根 逆
+elementaryRankTwoRoot_inv_smul_single_source	初等秩二根 逆 数乘 单个 源
+elementaryRankTwoRoot_inv_smul_single_target	初等秩二根 逆 数乘 单个 目标
+elementaryRankTwoRoot_smul_single_source	初等秩二根 数乘 单个 源
+elementaryRankTwoRoot_smul_single_target	初等秩二根 数乘 单个 目标
+integerShalomShears_in_generators	整数 Shalom 剪切 在…中 生成元
+integerShalomTranslations_in_generators	整数 Shalom 平移 在…中 生成元
+integralRankTwoColumnEmbedding_inl	积分秩二列嵌入 左注入
+shalomConstantEmbedding_inl	shalom 常数嵌入 左注入
+shalomConstantEmbedding_inr	shalom 常数嵌入 右注入
+shalomPolynomialLowerShear_X_mem	shalom 多项式下剪切 X ∈
+shalomPolynomialLowerShear_inv	shalom 多项式下剪切 逆
+shalomPolynomialLowerShear_one_inv	shalom 多项式下剪切 一 逆
+shalomPolynomialLowerShear_one_mem	shalom 多项式下剪切 一 ∈
+shalomPolynomialUpperShear_X_mem	shalom 多项式上剪切 X ∈
+shalomPolynomialUpperShear_inv	shalom 多项式上剪切 逆
+shalomPolynomialUpperShear_one_inv	shalom 多项式上剪切 一 逆
+integerShalomShears_inv_mem	整数 Shalom 剪切 逆 ∈
+elementaryThree_reduce_of_semilocal_first_quotient	初等三 约化 由 半局部 第一 商
+elementaryTransvections_subset_pi₂_range	初等平延 子集 π ₂ 值域
+elementary_le_normalizer_relativeZ	初等 ≤ 正规化子 相对 Z
+relativeZ_normalized_by_elementary	相对 Z 归一化 按 初等
+gamma_detectors_ne	Γ 检测器 ≠
+eq_of_norm_eq_and_midpoint_norm_ge	= 由 范数 = 且 中点 范数 ≥
+fieldPolynomialElementaryThree_unimodular_reduce	域多项式初等三 幺模 约化
+evalEta_linearSection_add	求值η 线性截面 +
+sigma_ker	σ 核
+exists_add_mem_avoiding_finite_prime_antichain	存在 + ∈ 避开 有限 素 反链
+exists_add_mul_isUnit_of_finite_maximalIdeals	存在 + × 是单位 由 有限 极大理想
+exists_second_coordinate_avoiding_minimalPrimes	存在 第二 坐标 避开 极小素数
+exists_add_mul_isUnit_of_artinian	存在 + × 是单位 由 阿廷
+exists_third_coordinate_unit_mod_span_pair	存在 第三 坐标 单位 模 张成 对
+suslin_semilocalTriple_exists_coprime	suslin 半局部三元组 存在 互素
+exists_affineGeneratorWord_of_mem_closure	存在 仿射生成元字 由 ∈ 闭包
+exists_almostInvariantUnitSequence	存在 几乎不变量单位序列
+exists_almostInvariantUnitSequence_summable	存在 几乎不变量单位序列 可和
+exists_blockCoefficient_ne_zero	存在 块系数 ≠ 零
+exists_tensor_blockCoefficient_ne_zero	存在 张量 块系数 ≠ 零
+exists_boundedPolynomialVector	存在 有界多项式向量
+exists_finset_affineCombination_approx_of_mem_closedConvexHull	存在 有限集 仿射组合 近似 由 ∈ 闭凸包
+exists_finset_affineCombination_norm_lt_of_zero_mem_closedConvexHull	存在 有限集 仿射组合 范数 < 由 零 ∈ 闭凸包
+kernelOrbit_exists_finset_affineCombination_norm_lt	核轨道 存在 有限集 仿射组合 范数 <
+exists_hilbert_circumcenter	存在 hilbert 外心
+hilbertCircumcenter_encloses	hilbert 外心 包围
+exists_hilbert_near_circumcenter	存在 hilbert 附近 外心
+exists_kernel_fixed_mem_closedConvexHull	存在 核 固定 ∈ 闭凸包
+zero_mem_kernelOrbitClosedConvexHull_of_projection_eq_zero	零 ∈ 核轨道闭凸包 由 投影 = 零
+exists_kernel_fixed_of_joint_atom_pos	存在 核 固定 由 联合 原子 正
+polynomialKernelFixed_of_constantFixed_smallShears_of_covariance	多项式核固定 由 常数固定 小剪切 由 协方差
+exists_localization_dilated_polynomial_lift	存在 局部化 伸缩 多项式 提升
+suslin_polynomial_conjugate_opposite_mem_eventual	suslin 多项式 共轭 相反 ∈ 最终
+exists_localization_dilated_relative_elementary_word_lift	存在 局部化 伸缩 相对 初等 字 提升
+suslin_uniform_symbolic_differencePath_elementary	suslin 一致 符号 差路径 初等
+exists_localization_polynomial_common_denominator	存在 局部化 多项式 公共 分母
+suslin_polynomial_conjugate_opposite_integral_mem_eventual	suslin 多项式 共轭 相反 积分 ∈ 最终
+exists_markedAffinePairDisplacement_uniform_bound	存在 带标记仿射对位移 一致 界
+exists_mennickeBlock_shifted_remainder	存在 mennicke 块 平移 余项
+exists_nonzero_elementary_first_coordinate	存在 非零 初等 第一 坐标
+exists_pi₂_eq_transvection	存在 π ₂ = 平延
+exists_powered_partition_of_unity	存在 幂 划分 由 单位
+suslin_augmentation_mem_elementary_of_finite_away_powered_increments	suslin 增广 ∈ 初等 由 有限 远离 幂 增量
+exists_suslin_opposite_conjugate_elementary_lift	存在 suslin 相反 共轭 初等 提升
+k_tensor_orbit_infinite	k 张量 轨道 无限
+fg_of_finiteIndex_subgroup	fg 由 有限指标 子群
+finiteGeneratedCoset_infinite_of_not_fg	有限生成陪集 无限 由 非 fg
+fiberToProduct_productToFiber	纤维到积 积到纤维
+finTwoPlusTwo_symm_one	有限二加二 对称 一
+finTwoPlusTwo_symm_three	有限二加二 对称 三
+finTwoPlusTwo_symm_two	有限二加二 对称 二
+finTwoPlusTwo_symm_zero	有限二加二 对称 零
+finiteGeneratedCosetBasis_norm	有限生成陪集基 范数
+finiteGeneratedCosetRepresentation_hasAlmostInvariantUnitVectors	有限生成陪集表示 有几乎不变量单位向量
+finiteGeneratedCosetEquiv_basepoint	有限生成陪集等价 基点
+finiteGeneratedCosetRepresentation_fixes_basis	有限生成陪集表示 固定 基
+finiteGeneratedCosetInvariant_constant	有限生成陪集不变量 常数
+finiteGeneratedCosetInvariant_eq_zero	有限生成陪集不变量 = 零
+hasKazhdanPropertyT_finitelyGenerated	有 Kazhdan 性质 T 有限生成
+finiteGeneratedCoset_component_summable	有限生成陪集 分量 可和
+finiteGeneratedCoset_l2Reindex_single	有限生成陪集 l 2 重标指标 单个
+finiteOrbitSubgroup_card_eq_two_pow_four_mul	有限轨道子群 基数 = 二 幂 四 ×
+finiteOrbit_iff_equivariantHom_eq_zero	有限轨道 ⇔ 等变同态 = 零
+finitePontryaginDual_card	有限 Pontryagin 对偶 基数
+shiftKernelPontryaginDual_card_eq_shiftKernel_card	平移核 Pontryagin 对偶 基数 = 平移核 基数
+finite_ker_of_shiftedQuotient_equiv	有限 核 由 平移商 等价
+fourierUnitary_single_smul	傅里叶酉 单个 数乘
+splitFourier_conjugates_regular_of_character_basis	分裂傅里叶 共轭 正则 由 特征标 基
+fourthRootCharacter_comp_sq_ne_one_of_apply	第四根特征标 复合 平方 ≠ 一 由 作用于
+fourthRootCharacter_injective	第四根特征标 单射
+gammaBidual_equivariant	Γ二次对偶 等变
+gammaPairHomeomorph_equivariant	Γ对同胚 等变
+gammaPairHomeomorph_trivial	Γ对同胚 平凡
+gammaCharacterEnergy_indicator_le	Γ特征标能量 示性函数 ≤
+gammaTwoMulDetectedMass_le_energy	Γ二×检测到质量 ≤ 能量
+gammaCharacterEnergy_integrable	Γ特征标能量 可积
+gammaCircleBorel	Γ圆博雷尔
+gammaDetectionSet_measurable	Γ检测集合 可测
+gammaPairProbability_invariant	Γ对概率 不变量
+gammaDetectionPairBorel	Γ检测对博雷尔
+gammaFourthRootEnergy_lower_bound	Γ第四根能量 下 界
+gamma_has_order_four	Γ 有 阶 四
+gamma_hasFiniteSpectralDetection_of_measureGap	Γ 有有限谱检测 由 测度间隙
+gamma_hasFiniteSpectralDetection	Γ 有有限谱检测
+gamma_isICC	Γ 是闭区间
+gamma_isICC_of_additive_infinite_orbits	Γ 是闭区间 由 加性 无限 轨道
+gamma_isICC_of_exact	Γ 是闭区间 由 精确
+gamma_isICC_of_characterized_exact	Γ 是闭区间 由 被刻画 精确
+gaussianKernel_diag	高斯核 对角
+gaussianKernel_factor	高斯核 因子
+gaussianSymmetricGram_apply	高斯对称 Gram 作用于
+gaussian_affine_displacement_le	高斯 仿射 位移 ≤
+gaussian_defect_le_parameter	高斯 亏量 ≤ 参数
+gaussian_parameter_lt_one_of_displacement	高斯 参数 < 一 由 位移
+gromovCenteredCocycle_mul	gromov 中心化上闭链 ×
+gromovRescaledAffineAction_apply	gromov 重缩放仿射作用 作用于
+gromovRescaledAffineAction_displacement_norm	gromov 重缩放仿射作用 位移 范数
+groupFactorUnitary_vacuum	群因子酉 真空
+lambdaGroupFactorUnitary_conj_inl	λ群因子酉 共轭 左注入
+lambdaGroupFactorUnitary_conj_inr	λ群因子酉 共轭 右注入
+hasFiniteIntrinsicOrbit_iff	有有限内蕴轨道 ⇔
+paperInvariant_semidirect_value_eq	论文不变量 半直积 值 =
+hasFiniteIntrinsicOrbit_iff_finiteOrbit	有有限内蕴轨道 ⇔ 有限轨道
+hasKazhdanPropertyT_iff_of_mulEquiv	有 Kazhdan 性质 T ⇔ 由 ×等价
+integralElementaryGroup_propertyT_iff_integralGroup	积分初等群 性质 T ⇔ 积分群
+hasNoOrderFour_of_quotient_without_nontrivial_torsion	有无阶四 由 商 不带 非平凡 挠
+hasNoOrderFour_of_quotient_without_nontrivial_torsion_of_kernel_le_range	有无阶四 由 商 不带 非平凡 挠 由 核 ≤ 值域
+semidirect_hasNoOrderFour_of_no_nontrivial_torsion_of_exponentTwo	半直积 有无阶四 由 无 非平凡 挠 由 指数二
+hilbertCircumradiusSq_le	hilbert 外接半径平方 ≤
+hilbert_near_circumcenter_dist_sq_le	hilbert 附近 外心 距离 平方 ≤
+hilbertSquaredEnclosingRadii_bddBelow	hilbert 平方包围半径 有界下方
+hilbertSquaredEnclosingRadii_midpoint	hilbert 平方包围半径 中点
+hilbertSquaredEnclosingRadii_nonempty	hilbert 平方包围半径 非空
+hilbert_circumcenter_unique	hilbert 外心 唯一
+hilbert_midpoint_sq_parallelogram	hilbert 中点 平方 平行四边形
+hilbert_near_circumcenter_cauchy	hilbert 附近 外心 cauchy
+homeomorphPushProbability_invariant	同胚压入概率 不变量
+spectralPairProbability_invariant	谱对概率 不变量
+homeomorphPushProbability_measureReal	同胚压入概率 测度实
+homeomorphPushProbability_measureReal_singleton	同胚压入概率 测度实 单点集
+instCarryGroupBorelSpace	实例进位群博雷尔空间
+instCarryGroupCompactSpace	实例进位群紧空间
+instCarryGroupTopologicalAddGroup	实例进位群拓扑+群
+instCarryGroupSecondCountableTopology	实例进位群第二可数拓扑
+instECountable	实例 E 可数
+instCarryGroupT2Space	实例进位群 T 2 空间
+instCountableBinaryPolynomial	实例可数二元多项式
+instCountableSubtypeTMemSubmoduleFB	实例可数子类型 T ∈子模 FB
+instCountableD	实例可数 D
+instCountableMultiplicativeD	实例可数乘性 D
+instCountableIntegralPolynomial	实例可数积分多项式
+instCountableIntegralSpecialLinearGroup	实例可数积分特殊线性群
+instCountableSubtypeIntegralSpecialLinearGroupMemSubgroupK	实例可数子类型积分特殊线性群∈子群 K
+integralElementaryGroup_isPerfect	积分初等群 是完美
+integralElementaryReindexHom_root	积分初等重标指标同态 根
+integralElementaryTransposeInverseHom_root	积分初等转置逆同态 根
+instCountableLambda	实例可数λ
+lambda_spectral_detection_gap	λ 谱 检测 间隙
+instMultiplicativeECountable	实例乘性 E 可数
+instFiniteIndexIntegralSpecialLinearGroupKSubgroup	实例有限指标积分特殊线性群 K 子群
+instShiftKernelDiscreteTopology	实例平移核离散拓扑
+instShiftKernelFinite	实例平移核有限
+instXBorelSpace	实例 X 博雷尔空间
+productHaar_isAddLeftInvariant	积哈尔 是+左不变量
+productHaar_isProbabilityMeasure	积哈尔 是概率测度
+instXCompactSpace	实例 X 紧空间
+instXSecondCountableTopology	实例 X 第二可数拓扑
+productHaar_eq_normalizedAddHaar	积哈尔 = 归一化+哈尔
+instXT2Space	实例 XT 2 空间
+splitComplexCharacter_span_closure_eq_top	分裂复特征标 张成 闭包 = ⊤
+instYBorelSpace	实例 Y 博雷尔空间
+instYCompactSpace	实例 Y 紧空间
+instYSecondCountableTopology	实例 Y 第二可数拓扑
+instYT2Space	实例 YT 2 空间
+integerAtomDualBorel	整数原子对偶博雷尔
+integerShalomFourierAtomGap	整数 Shalom 傅里叶原子间隙
+integerDualBorelSpace	整数对偶博雷尔空间
+integerDual_spectralArgCoordinates_eq_zero_iff	整数对偶 谱辐角坐标 = 零 ⇔
+integerDual_spectralArgCoordinates_origin_preimage	整数对偶 谱辐角坐标 原点 原像
+integerShalom_spectralArgCoordinates_zero_preimage	整数 Shalom 谱辐角坐标 零 原像
+suslinElementaryGeneration_iff_relative	suslin 初等生成 ⇔ 相对
+integerShalomRelativeKazhdanPair	整数 Shalom 相对 Kazhdan 对
+integerShalomKazhdanConstant_le_one_tenth	整数 Shalom Kazhdan 常数 ≤ 一 十分之一
+shalom_normalizedConstantFixedVector	shalom 归一化常数固定向量
+integer_ringKrullDim	整数 环 Krull 维数
+integralPolynomial_ringKrullDim	积分多项式 环 Krull 维数
+integralElementaryGroup_propertyT	积分初等群 性质 T
+universalLatticePropertyT_of_elementary	泛格性质 T 由 初等
+integralElementaryJointSpectralProbability_ae_character_eq_one	积分初等联合谱概率 几乎处处 特征标 = 一
+integralElementaryJointSpectralProbability_ae_polynomialCharacterNoFree	积分初等联合谱概率 几乎处处 多项式特征标无自由
+integralElementaryJointSpectralProbability_polynomialCharacterNoFree	积分初等联合谱概率 多项式特征标无自由
+shalom_uniformPolynomialTranslationDisplacement	shalom 一致多项式平移位移
+integralRankTwoColumnEmbedding12_inl	积分秩二列嵌入 12 左注入
+integralElementarySubgroup_isPerfect	积分初等子群 是完美
+integralRankTwoRowEmbedding01_inl	积分秩二行嵌入 01 左注入
+integralRankTwoRowEmbedding12_inl	积分秩二行嵌入 12 左注入
+integralOrbitTransvection_mem_K	积分轨道平延 ∈ K
+pi₂_actingTransvection	π ₂ 作用平延
+integralPolynomialPairDiscreteTopology	积分多项式对离散拓扑
+polynomialCharacterSectorSupport_measureReal_eq_one	多项式特征标扇形支撑 测度实 = 一
+integralPolynomialPairDualBorel	积分多项式对对偶博雷尔
+integralPolynomial_subring_eq_top_of_X_mem	积分多项式 子环 = ⊤ 由 X ∈
+integral_transvection_mem_of_one_and_X	积分 平延 ∈ 由 一 且 X
+integralSpecialLinear_eq_one_of_pow_eq_one_of_constantTerm_eq_one	积分特殊线性 = 一 由 幂 = 一 由 常数项 = 一
+integralSpecialLinear_lastColumn_stableRange_shorten	积分特殊线性 最后列 稳定值域 缩短
+integralTransvection_mem_KSubgroup	积分平延 ∈ K 子群
+liftedIntegralTransvection_injective	提升积分平延 单射
+pi₂_liftedIntegralTransvection	π ₂ 提升积分平延
+integral_transvection_mem_elementary_commutator	积分 平延 ∈ 初等 换位子
+intrinsicDenominator_conj_map	内蕴分母 共轭 映射
+intrinsicSubquotientEquiv_conjugation	内蕴子商等价 共轭
+intrinsic_conjugation_orbit_image_additive	内蕴 共轭 轨道 像 加性
+semidirectIntrinsicSubquotientEquiv_conjugation	半直积内蕴子商等价 共轭
+intrinsicDenominator_normal	内蕴分母 正规
+semidirectIntrinsicSubquotientEquiv_mk_inclusion	半直积内蕴子商等价 构造 包含
+intrinsicRestrictedEquiv_map_denominator	内蕴限制等价 映射 分母
+intrinsic_conjugation_orbit_image	内蕴 共轭 轨道 像
+inverseGelfand_naturality	逆 Gelfand 自然性
+involutionGenerated_characteristic	对合生成 特征
+involutionGenerated_normal	对合生成 正规
+involutionGenerated_semidirect_eq	对合生成 半直积 =
+kEAddAction_iota_orbit_infinite	k E +作用 iota 轨道 无限
+isICC_of_split_quotient	是闭区间 由 分裂 商
+isMinimizingAffinePair_of_normalized_nonexpansive_image	是最小化仿射对 由 归一化 非扩张 像
+primitiveVector_specialLinear_completion	本原向量 特殊线性 完备化
+isUnit_quotient_span_singleton_iff_isCoprime	是单位 商 张成 单点集 ⇔ 是互素
+isUnit_sub_mul_of_isLocalRing	是单位 − × 由 是局部环
+polynomial_valuation_coefficient_ascent	多项式 赋值 系数 上升
+spectral_criterion_unconditional	谱 判别法 无条件
+jointCharacterFunctional_riesz_covariance_of_operatorCovariance	联合特征标泛函 riesz 协方差 由 算子协方差
+jointFunctionalCalculusOperator_characterEvaluation	联合泛函演算算子 特征标求值
+kDividedSquareLinear_diagonal	k 被除平方线性 对角
+kYLinear_carry	k Y 线性 进位
+kDividedSquareLinear_val	k 被除平方线性 值
+k_dividedSquare_orbit_infinite	k 被除平方 轨道 无限
+kEAddAction_quadratic_value	k E +作用 二次 值
+kEAddAction_iota	k E +作用 iota
+kEAddAction_orbit_infinite_of_exact	k E +作用 轨道 无限 由 精确
+sigma_equivariant_of_characterization	σ 等变 由 刻画
+kLinear_shiftVector	k 线性 平移向量
+kXLinear_shift	k X 线性 平移
+kTensorLinear_actingTransvection	k 张量线性 作用平延
+kTensorLinear_map_B	k 张量线性 映射 B
+kYLinear_apply	k Y 线性 作用于
+lambda_conjugation	λ 共轭
+splitL2Reindex_single	分裂 L 2 重标指标 单个
+kTensorLinear_square	k 张量线性 平方
+kXLinear_apply	k X 线性 作用于
+kYLinear_shiftedCarry	k Y 线性 平移进位
+k_D_orbit_infinite	k D 轨道 无限
+lambda_isICC	λ 是闭区间
+paperDividedSquare_orbit_infinite	论文被除平方 轨道 无限
+kernelFixedSubmodule_completeSpace	核固定子模 完备空间
+trivialCharacterProjection_kernel_commutes	平凡特征标投影 核 交换
+trivialCharacterProjection_kernel_fixed	平凡特征标投影 核 固定
+trivialCharacterProjection_quotient_commutes	平凡特征标投影 商 交换
+kernelFixedSubmodule_isClosed	核固定子模 是闭
+kernelOrbitAffineApproximation	核轨道仿射逼近
+spectral_criterion_of_positive_functional_unconditional	谱 判别法 由 正 泛函 无条件
+kernelOrbit_closedConvexHull_projection_eq_zero	核轨道 闭凸包 投影 = 零
+kernel_fixed_inner_eq_zero_of_mem_closedConvexHull	核 固定 内积 = 零 由 ∈ 闭凸包
+kernelUnitary_preserves_closedConvexHull	核酉 保持 闭凸包
+kernel_fixed_eq_zero_of_mem_closedConvexHull	核 固定 = 零 由 ∈ 闭凸包
+kernel_map_kernelFixedSubmodule	核 映射 核固定子模
+kernel_orbit_sub_norm	核 轨道 − 范数
+kernel_orbit_sub_norm_sq	核 轨道 − 范数 平方
+krullDimLE_zero_quotient_span_pair_of_avoids_minimalPrimes	krull 维数≤ 零 商 张成 对 由 避开 极小素数
+l2Reindex_apply	l 2 重标指标 作用于
+lambdaCharacterEnergy_eq_indicator	λ特征标能量 = 示性函数
+lambdaSpectralEnergy_eq_four_mul_measure	λ谱能量 = 四 × 测度
+lambdaCircleBorel	λ圆博雷尔
+lambdaDetectionSet_measurable	λ检测集合 可测
+lambdaDiscrete	λ离散
+lambdaDualBorel	λ对偶博雷尔
+lambdaFourMulDetectedMass_le_energy	λ四×检测到质量 ≤ 能量
+lambda_hasFiniteSpectralDetection	λ 有有限谱检测
+leftRegularUnitary_apply	左正则酉 作用于
+semidirectFubini_leftRegular_inl_apply	半直积 Fubini 左正则 左注入 作用于
+semidirectFubini_leftRegular_inr_apply	半直积 Fubini 左正则 右注入 作用于
+levelThreeIntegerReduction_constantTerm	水平三整数归约 常数项
+levelThreeInteger_torsionFree	水平三整数 挠自由
+linearMap_ext_on_diagonal	线性映射 外延 在…上 对角
+localGlobal_transvection_mem	局部整体 平延 ∈
+map_localGlobalElementarySubgroup_le	映射 局部整体初等子群 ≤
+suslinDilation_elementary_mem	suslin 伸缩 初等 ∈
+localization_comp_commonDenom_mul_X_mem_lifts	局部化 复合 公共分母 × X ∈ 提升
+suslinBivariateConstant_mem_elementary	suslin 二元常数 ∈ 初等
+suslinBivariateShift_mem_elementary	suslin 二元平移 ∈ 初等
+suslinDifferenceDilation_mem_elementary	suslin 差伸缩 ∈ 初等
+suslinSymbolicPoweredIncrement_of_elementary_dilation	suslin 符号幂增量 由 初等 伸缩
+suslin_exists_away_elementary_word_lift_atPrime	suslin 存在 远离 初等 字 提升 在素
+markedAffinePairDisplacement_le_wordBound	带标记仿射对位移 ≤ 字界
+measurableSet_polynomialCharacterSectorA	可测集合 多项式特征标扇形 A
+polynomialCharacterSector_action_gap	多项式特征标扇形 作用 间隙
+measurableSet_polynomialCharacterSectorB	可测集合 多项式特征标扇形 B
+measurableSet_polynomialCharacterSectorC	可测集合 多项式特征标扇形 C
+measurableSet_polynomialCharacterSectorSupport	可测集合 多项式特征标扇形支撑
+measurableSet_polynomialFirstNontrivial_lt	可测集合 多项式第一非平凡 <
+measurableSet_polynomialRawSectorA	可测集合 多项式原始扇形 A
+measurableSet_polynomialRawSectorC	可测集合 多项式原始扇形 C
+measurableSet_polynomialNoFree	可测集合 多项式无自由
+measurableSet_polynomialSectorSupport	可测集合 多项式扇形支撑
+measurableSet_polynomialPunctured	可测集合 多项式穿孔
+measurableSet_polynomialRawSectorB	可测集合 多项式原始扇形 B
+measurableSet_polynomialSectorA	可测集合 多项式扇形 A
+measurableSet_polynomialSectorB	可测集合 多项式扇形 B
+measurableSet_polynomialSectorC	可测集合 多项式扇形 C
+measurable_polynomialCharacterCoefficients	可测 多项式特征标系数
+polynomialCharacterNoFree_measurable	多项式特征标无自由 可测
+measurable_polynomialCharacterCoefficientPair	可测 多项式特征标系数对
+shalomSpectralPuncturedWindow_measurable	shalom 谱穿孔窗口 可测
+shalomSpectralSectorA_measurable	shalom 谱扇形 A 可测
+shalomSpectralSectorB_measurable	shalom 谱扇形 B 可测
+shalomSpectralSectorC_measurable	shalom 谱扇形 C 可测
+shalomSpectralSectorD_measurable	shalom 谱扇形 D 可测
+measureReal_detection_gap_of_uniform_primitive_counts	测度实 检测 间隙 由 一致 本原 计数
+measureReal_iUnion_le_of_monotone	测度实 i 并 ≤ 由 单调
+probability_detection_gap_of_exhaustion	概率 检测 间隙 由 穷竭
+measureReal_singleton_le_integral_of_nonneg	测度实 单点集 ≤ 积分 由 非负
+measure_detection_gap_of_uniform_primitive_counts	测度 检测 间隙 由 一致 本原 计数
+mem_countableExhaustion	∈ 可数穷竭
+mem_degreeLT_of_natDegree_lt	∈ 次数< 由 自然数次数 <
+quotient_mem_degreeLT	商 ∈ 次数<
+mem_doubledSubgroup	∈ 加倍子群
+torsionSquareGenerated_semidirect_eq	挠平方生成 半直积 =
+mem_doubledWithinTwoTorsion	∈ 加倍之内二挠
+semidirectTwoTorsionInclusionEquiv_map_doubled	半直积二挠包含等价 映射 加倍
+smul_mem_doubledWithinTwoTorsion	数乘 ∈ 加倍之内二挠
+twoTorsionEquiv_map_doubled	二挠等价 映射 加倍
+mem_ker_of_pow_four_eq_one_of_no_nontrivial_torsion	∈ 核 由 幂 四 = 一 由 无 非平凡 挠
+mem_kernelFixedSubmodule	∈ 核固定子模
+mem_kernelOrbitClosedConvexHull	∈ 核轨道闭凸包
+mem_normalFixedSubmodule	∈ 正规固定子模
+normalFixedSubmodule_isClosed	正规固定子模 是闭
+mem_primitiveTruncationFinset	∈ 本原截断有限集
+mem_quotientFixedSubmodule	∈ 商固定子模
+quotientFixedOrthogonal_mem	商固定正交 ∈
+quotientFixedProjection_fixed	商固定投影 固定
+mem_shiftedSubmodule_iff	∈ 平移子模 ⇔
+shiftVector_range	平移向量 值域
+mem_sup_of_elementwise_commute	∈ 上确界 由 逐元素 交换
+unitary_displacement_sup_lt_of_elementwise_commute	酉 位移 上确界 < 由 逐元素 交换
+mem_twoTorsion	∈ 二挠
+mennickeBlock_X_constant_shear_det	mennicke 块 X 常数 剪切 行列式
+mennickeBlock_X_constant_shear_mul	mennicke 块 X 常数 剪切 ×
+mennickeBlock_X_mem	mennicke 块 X ∈
+mennickeBlock_X_topRight_constant_isUnit	mennicke 块 X ⊤右 常数 是单位
+mennickeBlock_columnSubtract_det	mennicke 块 列减 行列式
+mennickeBlock_mul_columnSubtract	mennicke 块 × 列减
+mennickeBlock_columnSubtract_mem_iff	mennicke 块 列减 ∈ ⇔
+mennickeBlock_shifted_mem_iff	mennicke 块 平移 ∈ ⇔
+mennickeBlock_mem_of_topLeft_X_pow	mennicke 块 ∈ 由 ⊤左 X 幂
+mennickeBlock_mem_of_isUnit_topLeft	mennicke 块 ∈ 由 是单位 ⊤左
+suslin_uniformizer_mennickeBlock_mem_elementary	suslin 素元 mennicke 块 ∈ 初等
+suslin_dvr_stabilized_two_mem_of_primitive	suslin dvr 稳定化 二 ∈ 由 本原
+suslin_dvr_stabilized_two_mem	suslin dvr 稳定化 二 ∈
+mennickeBlock_shifted_det	mennicke 块 平移 行列式
+mennicke_transport_of_valuationPrimitiveAscentChain	mennicke 输运 由 赋值本原上升链
+specialLinear_eq_one_of_modThree_eq_one_of_isOfFinOrder	特殊线性 = 一 由 模三 = 一 由 是由有限阶
+modTwoPolynomial_surjective	模二多项式 满射
+monotone_boxDetectionSet	单调 盒检测集合
+mulEquiv_map_involutionGenerated	×等价 映射 对合生成
+mulEquiv_map_torsionSquareGenerated	×等价 映射 挠平方生成
+torsionSquareGenerated_characteristic	挠平方生成 特征
+multiplicativeHilbertHom_eq_zero_of_no_real_characters	乘性 Hilbert 同态 = 零 由 无 实 特征标
+multiplicativeTwoTorsionQuotientEquiv_mk	乘性二挠商等价 构造
+ne_zero_of_distance_lt_one_of_unit	≠ 零 由 距离 < 一 由 单位
+quotientFixedUnitVector_uniform	商固定单位向量 一致
+nonzeroVector_coe_ne_zero	非零向量 强制转换 ≠ 零
+quotient_isPrimitive	商 是本原
+normalFixedOrthogonalRepresentation_no_fixed	正规固定正交表示 无 固定
+shalom_projectionResidual_norm_lt_of_relativePair	shalom 投影剩余 范数 < 由 相对对
+uniformRelativeKazhdanDisplacement_of_pair	一致相对 Kazhdan 位移 由 对
+normalFixedSubmodule_completeSpace	正规固定子模 完备空间
+normalFixed_starProjection_commute	正规固定 星投影 交换
+normalFixed_orthogonalResidual_displacement_le	正规固定 正交剩余 位移 ≤
+normalizedAddHaar_isAddHaarMeasure	归一化+哈尔 是+哈尔测度
+normalizedAddHaar_preserving_addEquiv	归一化+哈尔 保持 +等价
+normalizedAddHaar_isProbabilityMeasure	归一化+哈尔 是概率测度
+productHaar_preserving_addEquiv	积哈尔 保持 +等价
+normalizedAddHaar_unique	归一化+哈尔 唯一
+normalizedVector_fixed	归一化向量 固定
+normalizedVector_norm	归一化向量 范数
+normalizedVector_sub_self_norm_le	归一化向量 − 自身 范数 ≤
+normalizedVector_rescale	归一化向量 重缩放
+normalizedVector_sub_unit_norm_le	归一化向量 − 单位 范数 ≤
+normalizedVector_unitary_displacement_le	归一化向量 酉 位移 ≤
+not_groupsIsomorphic_of_orderFour	非 群同构 由 阶四
+orbit_image_eq_of_equivariantHom	轨道 像 = 由 等变同态
+orderOf_eq_four_iff	阶由 = 四 ⇔
+paperLambda_orderOf_ne_four	论文λ 阶由 ≠ 四
+spectralPairAction_equivariance	谱对作用 等变性
+spectralZeroAtom_preimage	谱零原子 原像
+pairToDual_linear_eq_one_iff	对到对偶 线性 = 一 ⇔
+pairToDual_linear_ne_one_iff	对到对偶 线性 ≠ 一 ⇔
+pairToDual_quadratic_eq_one_iff	对到对偶 二次 = 一 ⇔
+pairToDual_quadratic_ne_one_iff	对到对偶 二次 ≠ 一 ⇔
+paperAnalyticInput	论文解析输入
+paperInvariantCard_injective	论文不变量基数 单射
+primitiveVector_actingGroup_completion	本原向量 作用群 完备化
+polarization_add_left_direct	极化 + 左 直
+polynomialCharacterCoefficientPair_eq_one_iff	多项式特征标系数对 = 一 ⇔
+polynomialCharacterCoefficientPair_mem_punctured	多项式特征标系数对 ∈ 穿孔
+polynomialCharacterCoefficientPair_injective	多项式特征标系数对 单射
+polynomialCharacterCoefficientPair_preimage_sectorSupport	多项式特征标系数对 原像 扇形支撑
+polynomialCharacterCoefficientPair_one	多项式特征标系数对 一
+polynomialCharacterCoefficientPair_polynomialDualShearN	多项式特征标系数对 多项式对偶剪切 N
+shalomIntegralPolynomialRelativePair	shalom 积分多项式相对对
+polynomialCharacterCoefficientPair_polynomialDualShearS	多项式特征标系数对 多项式对偶剪切 S
+polynomialCharacterCoefficientPair_polynomialDualShearT	多项式特征标系数对 多项式对偶剪切 T
+polynomialCharacterSector_cover	多项式特征标扇形 覆盖
+polynomialCharacterSector_shearN_supported	多项式特征标扇形 剪切 N 支撑
+polynomialCharacterSector_shearS_supported	多项式特征标扇形 剪切 S 支撑
+polynomialCharacterSector_shearT_supported	多项式特征标扇形 剪切 T 支撑
+polynomialCharacterCoefficient_one	多项式特征标系数 一
+polynomialCharacterNoFree_eq_preimage	多项式特征标无自由 = 原像
+polynomialCharacterSector_disjoint_AB	多项式特征标扇形 不相交 交换
+polynomialCharacterSector_disjoint_AC	多项式特征标扇形 不相交 AC
+polynomialCharacterSector_disjoint_BC	多项式特征标扇形 不相交 BC
+polynomialCharacter_atom_pos_of_actual_sector_variation	多项式特征标 原子 正 由 实际 扇形 变差
+polynomialCharacter_ext	多项式特征标 外延
+polynomialCharacter_monomial	多项式特征标 单项式
+polynomialCircleBorel	多项式圆博雷尔
+polynomialElementaryRankTwoRoot_inv	多项式初等秩二根 逆
+polynomialFirstNontrivial_eq_coe_iff	多项式第一非平凡 = 强制转换 ⇔
+polynomialFirstNontrivial_mul_eq_left_of_lt	多项式第一非平凡 × = 左 由 <
+polynomialFirstNontrivial_tail_succ	多项式第一非平凡 尾 后继
+polynomialFirstNontrivial_eq_top_iff	多项式第一非平凡 = ⊤ ⇔
+polynomialFirstNontrivial_eq_top_iff_eq_one	多项式第一非平凡 = ⊤ ⇔ = 一
+polynomialFirstNontrivial_tail_lt_of_head	多项式第一非平凡 尾 < 由 头
+polynomialFirstNontrivial_le_coe_iff	多项式第一非平凡 ≤ 强制转换 ⇔
+polynomialFirstNontrivial_mul_eq_right_of_gt	多项式第一非平凡 × = 右 由 >
+polynomialShearN_mem_rawSectorB	多项式剪切 N ∈ 原始扇形 B
+polynomialShearS_mem_rawSectorA	多项式剪切 S ∈ 原始扇形 A
+polynomialShearT_mem_rawSectorC	多项式剪切 T ∈ 原始扇形 C
+polynomialSector_cover	多项式扇形 覆盖
+polynomialSector_disjoint_AB	多项式扇形 不相交 交换
+polynomialSector_disjoint_AC	多项式扇形 不相交 AC
+polynomialSector_disjoint_BC	多项式扇形 不相交 BC
+polynomialSequenceMul_apply	多项式序列× 作用于
+polynomialShearNActing_inv_mem_kazhdanGenerators	多项式剪切 N 作用 逆 ∈ kazhdan 生成元
+polynomialShearN_image_sector_inter_support	多项式剪切 N 像 扇形 交 支撑
+polynomialShearSActing_inv_mem_kazhdanGenerators	多项式剪切 S 作用 逆 ∈ kazhdan 生成元
+polynomialShearS_image_sector_inter_support	多项式剪切 S 像 扇形 交 支撑
+polynomialShearTActing_inv_mem_kazhdanGenerators	多项式剪切 T 作用 逆 ∈ kazhdan 生成元
+polynomialShearT_image_sector_inter_support	多项式剪切 T 像 扇形 交 支撑
+polynomialVectorVal_boundedStandardVector	多项式向量值 有界标准向量
+polynomialVectorVal_eq_zero_iff	多项式向量值 = 零 ⇔
+polynomial_matrix_eq_one_of_pow_eq_one_of_eval_zero_eq_one	多项式 矩阵 = 一 由 幂 = 一 由 求值 零 = 一
+polynomial_unit_coefficient_ascent_measure_lt	多项式 单位 系数 上升 测度 <
+valuation_primitive_ascent_terminates	赋值 本原 上升 终止
+pontryaginDual_countable	pontryagin 对偶 可数
+pontryaginDual_mul_apply	pontryagin 对偶 × 作用于
+pontryaginDual_pow_apply	pontryagin 对偶 幂 作用于
+positiveVectorState_one	正向量状态 一
+positiveVectorState_star_mul_self	正向量状态 星 × 自身
+positiveVectorState_unitary_pullback	正向量状态 酉 拉回
+primitiveCount_eq	本原计数 =
+primitive_card_of_convolution	本原 基数 由 卷积
+primitiveVector_actingGroup_completion_of_surjective	本原向量 作用群 完备化 由 满射
+primitive_convolution_shift	本原 卷积 平移
+primitive_gcd_convolution_range	本原 gcd 卷积 值域
+productHaar_isAddHaarMeasure	积哈尔 是+哈尔测度
+productToFiber_fiberToProduct	积到纤维 纤维到积
+productToNonzero_gcdDegree	积到非零 gcd 次数
+productVector_gcd	积向量 gcd
+productVector_ne_zero	积向量 ≠ 零
+quadraticPairing_range_le_quadraticRestriction_range	二次配对 值域 ≤ 二次限制 值域
+quotientFixedApproximation	商固定逼近
+quotientFixedApproximation_of_uniform	商固定逼近 由 一致
+quotientFixedOrthogonal_no_nonzero_invariant	商固定正交 无 非零 不变量
+quotientFixedOrthogonal_spectralGap	商固定正交 谱间隙
+quotientFixed_spectralGap	商固定 谱间隙
+quotientFixedProjection_mem	商固定投影 ∈
+quotientFixedSubmodule_completeSpace	商固定子模 完备空间
+quotientFixedSubmodule_isClosed	商固定子模 是闭
+quotientFractionLift_algebraMap	商分数提升 代数映射
+quotientOperatorConjugation_apply	商算子共轭 作用于
+quotientOperatorConjugation_generators_image	商算子共轭 生成元 像
+quotientOperatorConjugation_mem	商算子共轭 ∈
+quotientOperatorConjugation_inv	商算子共轭 逆
+quotientSpectralOperatorConjugation_kernel	商谱算子共轭 核
+quotientProjection_error_lt_of_spectralGap	商投影 误差 < 由 谱间隙
+quotient_map_kernelFixedSubmodule	商 映射 核固定子模
+quotient_nonzero_coefficient_isUnit	商 非零 系数 是单位
+quotient_uniformizer_isUnit_of_relation	商 素元 是单位 由 关系
+rankTwoColumnBlock_add	秩二列块 +
+rankTwoColumnBlock_mul	秩二列块 ×
+rankTwoColumnBlock_zero	秩二列块 零
+rankTwoParabolicMatrix_det	秩二抛物矩阵 行列式
+rankTwoParabolicSpecialLinear_mem_integral	秩二抛物特殊线性 ∈ 积分
+rankTwoParabolicSpecialLinear_inr_mem_integral	秩二抛物特殊线性 右注入 ∈ 积分
+rankTwo_transvection_smul_single	秩二 平延 数乘 单个
+regular_measureReal_le_add_of_testFunctions	正则 测度实 ≤ + 由 检验函数
+relativeRoot_mem_F	相对根 ∈ F
+relativeRoot_mem_Z	相对根 ∈ Z
+relativeZ_mem	相对 Z ∈
+suslin_relative_elementary_mem_eventual	suslin 相对 初等 ∈ 最终
+rieszMeasure_map_homeomorph	riesz 测度 映射 同胚
+scaled_transvection_conjugates_injective	缩放 平延 共轭 单射
+specialLinear_subgroup_conjugacy_infinite	特殊线性 子群 共轭 无限
+semidirectMap_range_index	半直积映射 值域 指标
+semidirectTwoTorsionInl_injective	半直积二挠左注入 单射
+semidirectTwoTorsionInl_range	半直积二挠左注入 值域
+semidirect_vonNeumannClosure_eq_inl_inr	半直积 von Neumann 闭包 = 左注入 右注入
+shalomConstantActing_root	shalom 常数作用 根
+shalomConstantEmbedding_lowerShear	shalom 常数嵌入 下剪切
+shalomConstantEmbedding_upperShear	shalom 常数嵌入 上剪切
+shalomConstantAction_natural	shalom 常数作用 自然
+shalomConstantEmbedding_generators_image_subset	shalom 常数嵌入 生成元 像 子集
+shalomConstantEmbedding_mem_polynomialGenerators	shalom 常数嵌入 ∈ 多项式生成元
+shalomConstantEmbedding_translation	shalom 常数嵌入 平移
+shalom_constantCoordinate_fixed_of_constantTranslation_fixed	shalom 常数坐标 固定 由 常数平移 固定
+shalomConstantEmbedding_integerLowerShear	shalom 常数嵌入 整数下剪切
+shalomConstantEmbedding_shearGenerators_image_subset	shalom 常数嵌入 剪切生成元 像 子集
+shalomConstantEmbedding_integerTranslation	shalom 常数嵌入 整数平移
+shalomConstantEmbedding_translationGenerators_image	shalom 常数嵌入 平移生成元 像
+shalomConstantEmbedding_integerUpperShear	shalom 常数嵌入 整数上剪切
+shalomConstantSpecialLinear_map_elementary_le	shalom 常数特殊线性 映射 初等 ≤
+shalomConstantVector_action	shalom 常数向量 作用
+shalomConstantSpecialLinear_transvection	shalom 常数特殊线性 平延
+shalomConstantVector_single	shalom 常数向量 单个
+shalomIntegralPolynomialRelativePair_of_constantFixed	shalom 积分多项式相对对 由 常数固定
+shalomPolynomialKazhdanConstant_one	shalom 多项式 Kazhdan 常数 一
+shalomPolynomialKazhdanConstant_pos	shalom 多项式 Kazhdan 常数 正
+shalomPolynomialKazhdanConstant_zero	shalom 多项式 Kazhdan 常数 零
+shalomPolynomial_X_mul_X_pow	shalom 多项式 X × X 幂
+shalomPunctured_cover	shalom 穿孔 覆盖
+shalomSpectralSector_cover	shalom 谱扇形 覆盖
+shalomSectorA_measurable	shalom 扇形 A 可测
+shalomSectorB_measurable	shalom 扇形 B 可测
+shalomSectorC_measurable	shalom 扇形 C 可测
+shalomSectorD_measurable	shalom 扇形 D 可测
+shalomSpectralSector_sneg_inclusion	shalom 谱扇形 严格负 包含
+shalomSpectral_four_sector_action_gap	shalom 谱 四 扇形 作用 间隙
+shalomSpectralSectorA_B_disjoint	shalom 谱扇形 A B 不相交
+shalomSpectralSectorA_C_disjoint	shalom 谱扇形 A C 不相交
+shalomSpectralSectorA_D_disjoint	shalom 谱扇形 A D 不相交
+shalomSpectralSectorB_C_disjoint	shalom 谱扇形 B C 不相交
+shalomSpectralSectorB_D_disjoint	shalom 谱扇形 B D 不相交
+shalomSpectralSectorC_D_disjoint	shalom 谱扇形 C D 不相交
+shalomSpectralSector_spos_inclusion	shalom 谱扇形 严格正 包含
+shalomSpectralSector_tneg_inclusion	shalom 谱扇形 负 包含
+shalomSpectralSector_tpos_inclusion	shalom 谱扇形 正 包含
+shalom_conditioned_image_variation_lt_one_fourth	shalom 条件化 像 变差 < 一 第四
+shalom_conditioned_image_variation_of_map_lt_one_fourth	shalom 条件化 像 变差 由 映射 < 一 第四
+spectralTorusWindow_conditioned_image_variation_lt_one_fourth	谱环面窗口 条件化 像 变差 < 一 第四
+shalom_four_sector_mass_gap	shalom 四 扇形 质量 间隙
+shalom_four_sector_supported_probability_gap	shalom 四 扇形 支撑 概率 间隙
+shalom_four_sector_supported_action_gap	shalom 四 扇形 支撑 作用 间隙
+shalom_measureReal_inter_support_eq	shalom 测度实 交 支撑 =
+shalom_three_sector_supported_probability_gap	shalom 三 扇形 支撑 概率 间隙
+shalom_normalizedFixedVector_of_relativePair	shalom 归一化固定向量 由 相对对
+shalom_normalized_restriction_variation_bound	shalom 归一化 限制 变差 界
+shalom_normalized_restriction_variation_lt_one_fourth	shalom 归一化 限制 变差 < 一 第四
+shalom_punctured_support_measureReal_eq_one	shalom 穿孔 支撑 测度实 = 一
+shalom_three_sector_mass_gap	shalom 三 扇形 质量 间隙
+shalom_three_sector_supported_action_gap	shalom 三 扇形 支撑 作用 间隙
+shiftKernelDual_card	平移核对偶 基数
+shiftKernelPontryaginDual_card	平移核 Pontryagin 对偶 基数
+shiftKernelRestriction_surjective	平移核限制 满射
+shiftKernel_card	平移核 基数
+shiftKernel_eq_dualAnnihilator	平移核 = 对偶零化子
+tensorCoords_tmul	张量坐标 张量积
+shiftVectorLeftInverse_shiftVector	平移向量左逆 平移向量
+shift_shiftSection	平移 平移截面
+shiftVector_injective	平移向量 单射
+shift_add	平移 +
+shift_zero	平移 零
+shift_zero_apply	平移 零 作用于
+shiftedLeadingCancellationQuotient_leadingCoeff	平移首项消去商 首项系数
+shiftedLeadingCancellationQuotient_mul_natDegree	平移首项消去商 × 自然数次数
+shiftedLeadingCancellationQuotient_natDegree	平移首项消去商 自然数次数
+shiftedLeadingCancellationQuotient_ne_zero	平移首项消去商 ≠ 零
+shiftedQuotient_card	平移商 基数
+sigma_equivariant	σ 等变
+sigma_equivariant_raw	σ 等变 原始
+skew_add_translation_measurePreserving	斜 + 平移 测度保持
+twoTorsionQuotient_smul_mk	二挠商 数乘 构造
+sourceDiscrete	源离散
+specialLinearReindexHom_mem_integral	特殊线性重标指标同态 ∈ 积分
+specialLinearReindexHom_transvection	特殊线性重标指标同态 平延
+specialLinearTransposeInverseHom_mem_integral	特殊线性转置逆同态 ∈ 积分
+specialLinearTransposeInverseHom_transvection	特殊线性转置逆同态 平延
+specialLinear_column_unimodular	特殊线性 列 幺模
+specialLinear_map_transvection	特殊线性 映射 平延
+specialLinear_map_transvection_baseChange	特殊线性 映射 平延 基改变
+suslinConstantSection_map_elementary_le	suslin 常数截面 映射 初等 ≤
+suslinEvaluation_map_elementary	suslin 求值 映射 初等
+suslinPolynomialConstantRetraction_transvection	suslin 多项式常数收缩 平延
+specialLinear_scalar_pow_card_eq_one	特殊线性 标量 幂 基数 = 一
+specialLinear_transvection_commutator	特殊线性 平延 换位子
+suslin_transvection_conj_adjacent	suslin 平延 共轭 相邻
+suslin_transvection_conj_reverse_adjacent	suslin 平延 共轭 反转 相邻
+transvection_mul_mem_of_two_step	平延 × ∈ 由 二 步
+specialLinear_transvection_injective	特殊线性 平延 单射
+spectralArgCoordinates_dualCharacterAction	谱辐角坐标 对偶特征标作用
+spectralArgCoordinates_dualCharacterAction_sneg	谱辐角坐标 对偶特征标作用 严格负
+spectralArgCoordinates_dualCharacterAction_spos	谱辐角坐标 对偶特征标作用 严格正
+spectralArgCoordinates_dualCharacterAction_tneg	谱辐角坐标 对偶特征标作用 负
+spectralArgCoordinates_dualCharacterAction_tpos	谱辐角坐标 对偶特征标作用 正
+spectralArgCoordinates_sneg	谱辐角坐标 严格负
+spectralArgCoordinates_spos	谱辐角坐标 严格正
+spectralArgCoordinates_tneg	谱辐角坐标 负
+spectralArgCoordinates_tpos	谱辐角坐标 正
+spectralCharacter_generator_mem_circle	谱特征标 生成元 ∈ 圆
+spectralLargeDisplacement_measureReal_mul_sq_le_energy	谱大位移 测度实 × 平方 ≤ 能量
+spectralGapDiscrete	谱间隙离散
+spectralGapDualBorel	谱间隙对偶博雷尔
+spectralGapPairBorel	谱间隙对博雷尔
+spectralKernelOperator_add	谱核算子 +
+spectralKernelOperator_unitary	谱核算子 酉
+spectralKernelOperator_zero	谱核算子 零
+spectralTorusWindow_measurable	谱环面窗口 可测
+spectralTorusWindow_compl_measureReal_mul_two_le_energy_sum	谱环面窗口 补集 测度实 × 二 ≤ 能量 和
+spectralOperatorAdjoin_isMulCommutative	谱算子添加 是×交换
+spectralOperatorGenerators_commute	谱算子生成元 交换
+spectralTorusWindow_compl_measureReal_le_sq	谱环面窗口 补集 测度实 ≤ 平方
+spectralTorusWindow_measureReal_ge_one_sub_sq	谱环面窗口 测度实 ≥ 一 − 平方
+spectralTorusWindow_measureReal_pos	谱环面窗口 测度实 正
+spectralTorusWindow_mem_iff_re_pos	谱环面窗口 ∈ ⇔ 实部 正
+spectral_criterion	谱 判别法
+splitCharacterCoefficient_eq_continuousToLp	分裂特征标系数 = 连续到 Lp
+splitCharacterCoefficient_eq_crossedContinuousCharacterCoefficient	分裂特征标系数 = 交叉连续特征标系数
+splitFourierEquiv_kDLinear	分裂傅里叶等价 k D 线性
+splitFourierEquiv_single	分裂傅里叶等价 单个
+split_normalFourierCoordinates_eq	分裂 正规傅里叶坐标 =
+splitCharacterL2_span_closure_eq_top	分裂特征标 L 2 张成 闭包 = ⊤
+splitFourierEquiv_zero_single	分裂傅里叶等价 零 单个
+splitFourier_conjugates_normal_generator	分裂傅里叶 共轭 正规 生成元
+splitTaggedFourierCovariance	分裂带标签傅里叶协方差
+splitFourierEquiv_single_smul	分裂傅里叶等价 单个 数乘
+square_add	平方 +
+symmetric_tmul_mem	对称 张量积 ∈
+square_mem	平方 ∈
+star_mem_spectralOperatorGenerators	星 ∈ 谱算子生成元
+subgroup_mem_of_powered_partition_patches	子群 ∈ 由 幂 划分 片
+suslin_augmentation_mem_elementary_of_powered_patches	suslin 增广 ∈ 初等 由 幂 片
+suslinAwayMapOfDvd_algebraMap	suslin 远离映射由整除 代数映射
+suslinAwayMapOfDvd_comp_product	suslin 远离映射由整除 复合 积
+suslin_exists_away_finite_eq_of_localization_eq	suslin 存在 远离 有限 = 由 局部化 =
+suslinAwayToAtPrime_algebraMap	suslin 远离到在素 代数映射
+suslinAwayToAtPrime_comp_productLeft	suslin 远离到在素 复合 积左
+suslinAwayToAtPrime_comp_productRight	suslin 远离到在素 复合 积右
+suslin_exists_away_polynomial_lift_atPrime	suslin 存在 远离 多项式 提升 在素
+suslinAwayToLocalization_algebraMap	suslin 远离到局部化 代数映射
+suslin_exists_away_eq_of_localization_eq	suslin 存在 远离 = 由 局部化 =
+suslinAwayToProductLeft_algebraMap	suslin 远离到积左 代数映射
+suslinAwayToProductRight_algebraMap	suslin 远离到积右 代数映射
+suslinAwayToProduct_algebraMap	suslin 远离到积 代数映射
+suslinBivariateConstantRingHom_baseChange	suslin 二元常数环同态 基改变
+suslinDifferencePath_baseChange	suslin 差路径 基改变
+suslinDifferencePath_mem_elementary	suslin 差路径 ∈ 初等
+suslinBivariateShiftRingHom_baseChange	suslin 二元平移环同态 基改变
+suslinBivariateShift_eval_mul_X	suslin 二元平移 求值 × X
+suslinDifferencePath_eval_mul_X	suslin 差路径 求值 × X
+suslinBivariateShift_eval_zero	suslin 二元平移 求值 零
+suslinDifferencePath_eval_zero	suslin 差路径 求值 零
+suslinElementaryGeneration_iff_base_and_relative	suslin 初等生成 ⇔ 基 且 相对
+suslinDifferenceDilationRingHom_baseChange	suslin 差伸缩环同态 基改变
+suslinDifferenceDilation_baseChange	suslin 差伸缩 基改变
+suslinDifferencePath_relative_elementary_of_baseChange	suslin 差路径 相对 初等 由 基改变
+suslinSymbolicDifference_eval	suslin 符号差 求值
+suslinEventuallyElementaryLift_mul	suslin 最终初等提升 ×
+suslinDilation_mul	suslin 伸缩 ×
+suslinElementary_deviation_mem_of_normalized	suslin 初等 偏差 ∈ 由 归一化
+suslinRelativePolynomialKernel_le_of_normalized	suslin 相对多项式核 ≤ 由 归一化
+suslinEvaluation_constantSection	suslin 求值 常数截面
+suslinEvaluation_surjective	suslin 求值 满射
+suslin_constant_mul_augmentation	suslin 常数 × 增广
+suslinEventuallyElementaryLift_inv	suslin 最终初等提升 逆
+suslin_eventual_of_dilation	suslin 最终 由 伸缩
+suslinEventuallyElementaryLift_one	suslin 最终初等提升 一
+suslinPolynomialBaseChange_dilation	suslin 多项式基改变 伸缩
+suslinPolynomialRoot_deviation	suslin 多项式根 偏差
+suslinPolynomialDilate_one	suslin 多项式伸缩 一
+suslinPolynomialDilate_zero	suslin 多项式伸缩 零
+suslinPolynomialDilate_zero_of_mem_augmentation	suslin 多项式伸缩 零 由 ∈ 增广
+suslinPolynomialSpecialLinearMap_comp	suslin 多项式特殊线性映射 复合
+suslinPolynomial_sub_C_eval_coeff_zero	suslin 多项式 − C 求值 系数 零
+suslinPoweredPrefix_succ	suslin 幂前缀 后继
+suslinPoweredPrefix_zero	suslin 幂前缀 零
+suslinRelativeElementaryGeneration	suslin 相对初等生成
+suslinRelativeElementaryGeneration_of_maximal_away_powered_increments	suslin 相对初等生成 由 极大 远离 幂 增量
+suslinRelativeElementaryGeneration_of_maximal_local_powered_increments	suslin 相对初等生成 由 极大 局部 幂 增量
+suslinRelativeElementaryGeneration_of_maximal_local_elementary	suslin 相对初等生成 由 极大 局部 初等
+suslinSignedSwap_one_one	suslin 带符号交换 一 一
+suslin_mul_signedSwap_zero_one	suslin × 带符号交换 零 一
+suslinSignedSwap_one_zero	suslin 带符号交换 一 零
+suslin_mul_signedSwap_one_zero	suslin × 带符号交换 一 零
+suslinSignedSwap_zero_one	suslin 带符号交换 零 一
+suslinSignedSwap_zero_zero	suslin 带符号交换 零 零
+suslinSymbolicDifferenceDilation_integer	suslin 符号差伸缩 整数
+suslinSymbolicLift_eval	suslin 符号提升 求值
+suslin_away_elementary_implies_powered_local_increment	suslin 远离 初等 蕴含 幂 局部 增量
+suslinSymbolic_outer_dilation_eval_mul_X	suslin 符号 外 伸缩 求值 × X
+suslin_atPrime_polynomial_elementary	suslin 在素 多项式 初等
+suslin_bak_vavilov_opposite_conjugate_factor	suslin bak vavilov 相反 共轭 因子
+suslin_dvr_polynomial_constant_add_uniformizer_mul	suslin dvr 多项式 常数 + 素元 ×
+suslin_dvr_uniformizer_polynomial_unit_decomposition_of_determinant	suslin dvr 素元 多项式 单位 分解 由 行列式
+suslin_dvr_polynomial_elementary	suslin dvr 多项式 初等
+suslin_dvr_polynomial_ringKrullDim	suslin dvr 多项式 环 Krull 维数
+suslin_dvr_stabilizedThreeElementaryGeneration_of_stabilizedTwo	suslin dvr 稳定化三初等生成 由 稳定化二
+suslin_specialLinear_elementary_of_stableRangeThree_of_stabilizedThree	suslin 特殊线性 初等 由 稳定值域三 由 稳定化三
+suslin_exists_away_elementary_of_atPrime	suslin 存在 远离 初等 由 在素
+suslin_exists_away_specialLinear_eq_of_localization_eq	suslin 存在 远离 特殊线性 = 由 局部化 =
+suslin_exists_finset_denominators_of_maximal	suslin 存在 有限集 分母 由 极大
+suslin_exists_finset_denominators_of_primeCompl	suslin 存在 有限集 分母 由 素补集
+suslin_horrocks_truncated_remainder_aux	suslin horrocks 截断 余项 辅助
+suslin_integer_atPrime_isDiscreteValuationRing	suslin 整数 在素 是离散赋值环
+suslin_local_polynomial_specialLinear_constant_unit_dichotomy	suslin 局部 多项式 特殊线性 常数 单位 二分
+suslin_local_stabilizedTwo_unit_offdiag_normalization	suslin 局部 稳定化二 单位 非对角 归一化
+suslin_polynomial_relative_z_mem_eventual	suslin 多项式 相对 z ∈ 最终
+suslin_residue_constantCoeff_isUnit_of_determinant	suslin 留数 常数系数 是单位 由 行列式
+suslin_residue_polynomial_eq_C_of_determinant	suslin 留数 多项式 = C 由 行列式
+suslin_residue_polynomial_isUnit_of_determinant	suslin 留数 多项式 是单位 由 行列式
+suslin_reverse_telescope	suslin 反转 裂项
+suslin_unimodularTriple_exists_coprime	suslin 幺模三元组 存在 互素
+suslin_span_denominators_eq_top_of_maximal	suslin 张成 分母 = ⊤ 由 极大
+suslin_specialLinear_map_transvection	suslin 特殊线性 映射 平延
+suslin_symbolic_double_denominator	suslin 符号 双 分母
+suslin_transvection_conj_opposite_factor	suslin 平延 共轭 相反 因子
+suslin_transvection_conj_noncomposable	suslin 平延 共轭 不可复合
+suslin_transvection_mem	suslin 平延 ∈
+tensorCoords_transvection	张量坐标 平延
+tensorFunctional_add_left	张量泛函 + 左
+tensorFunctional_add_right	张量泛函 + 右
+torsionSquareGenerated_normal	挠平方生成 正规
+transvection_linear_apply_coordinate	平延 线性 作用于 坐标
+transvection_smul_apply	平延 数乘 作用于
+trivialCharacterProjection_kernel_orbit	平凡特征标投影 核 轨道
+truncatePolynomial_surjective	截断多项式 满射
+truncateVector_surjective	截断向量 满射
+truncatedVector_card	截断向量 基数
+two_mul_previous_box	二 × 前一个 盒
+unimodularRow_iff_avoids_maximalIdeals	幺模行 ⇔ 避开 极大理想
+unimodularRow_smul_specialLinear_three	幺模行 数乘 特殊线性 三
+unimodularRow_three_of_isUnit_quotient	幺模行 三 由 是单位 商
+unimodularRow_iff_span_range_eq_top	幺模行 ⇔ 张成 值域 = ⊤
+unimodularThree_isCoprime_of_last_zero	幺模三 是互素 由 最后 零
+unitCoefficient_coeFn	单位系数 强制转换函数
+unitFunctionL2_coeFn	单位函数 L 2 强制转换函数
+unitary_displacement_le_of_distance	酉 位移 ≤ 由 距离
+unitary_displacement_mul_le	酉 位移 × ≤
+unitary_mem_normalFixedSubmodule	酉 ∈ 正规固定子模
+unitary_mem_normalFixedSubmodule_orthogonal	酉 ∈ 正规固定子模 正交
+valuation_dvd_total	赋值 整除 总
+valuation_leadingCoeff_dvd_total	赋值 首项系数 整除 总
+valuation_finset_exists_dvd_all	赋值 有限集 存在 整除 所有
+valuation_polynomial_exists_primitive_factor	赋值 多项式 存在 本原 因子
+vectorGCD_div_eq_one	向量 GCD ÷ = 一
+vectorGCD_dvd	向量 GCD 整除
+vectorGCD_eq_zero_iff	向量 GCD = 零 ⇔
+vectorGCD_ne_zero	向量 GCD ≠ 零
+vectorGCD_monic	向量 GCD 首一
+vectorGCD_mul	向量 GCD ×
+vonNeumannClosure_eq_of_factor_generators	von Neumann 闭包 = 由 因子 生成元
+weighted_norm_sq_eq_sub_pairwise_dist_sq	加权 范数 平方 = − 两两 距离 平方
+weighted_norm_sq_eq_sub_pairwise_dist_sq_of_constant_norm	加权 范数 平方 = − 两两 距离 平方 由 常数 范数
+xClosedEmbedding	x 闭嵌入
+x_pow_mul_injective	x 幂 × 单射
+yClosedEmbedding	y 闭嵌入

@@ -1,0 +1,4 @@
+'PermanentFormulaLowerBound.permanent_rational_formula_logarithmic_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+exit 0 after 140s

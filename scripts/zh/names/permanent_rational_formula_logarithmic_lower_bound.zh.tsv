@@ -1,0 +1,247 @@
+MatchingCrossData.assemble_cols	匹配交叉数据 · 组装 列
+MatchingCrossData.assemble_ofPermutation	匹配交叉数据 · 组装 由置换
+MatchingCrossData.assemble_symm_inl	匹配交叉数据 · 组装 对称 左注入
+MatchingCrossData.assemble_injective	匹配交叉数据 · 组装 单射
+sum_matchingCrossPermutation	和 匹配交叉置换
+MatchingCrossData.assemble_inl	匹配交叉数据 · 组装 左注入
+matchingCrossCols_toPermutation	匹配交叉列 到置换
+matchingCrossRows_toPermutation	匹配交叉行 到置换
+MatchingCrossData.assemble_remainder	匹配交叉数据 · 组装 余项
+MatchingCrossData.ofPermutation_remainder_spec	匹配交叉数据 · 由置换 余项 规范
+RationalFormula.ContractedRationalSkeleton.core_mem	有理公式 · 收缩有理骨架 · 核心 ∈
+RationalFormula.ContractedRationalSkeleton.splitEval_mem_extended	有理公式 · 收缩有理骨架 · 分裂求值 ∈ 扩展
+RationalFormula.ContractedRationalSkeleton.denominator_ne	有理公式 · 收缩有理骨架 · 分母 ≠
+RationalFormula.ContractedRationalSkeleton.exists_pivot	有理公式 · 收缩有理骨架 · 存在 主元
+RationalFormula.ContractedRationalSkeleton.extendedGenerators_card_le	有理公式 · 收缩有理骨架 · 扩展生成元 基数 ≤
+RationalFormula.ContractedRationalSkeleton.pivot_ne	有理公式 · 收缩有理骨架 · 主元 ≠
+RationalFormula.exists_contractedRationalSkeleton	有理公式 · 存在 收缩有理骨架
+RationalFormula.ContractedRationalSkeleton.generator_card	有理公式 · 收缩有理骨架 · 生成元 基数
+RationalFormula.ContractedRationalSkeleton.split_eq	有理公式 · 收缩有理骨架 · 分裂 =
+RationalFormula.blockLeaves_pos_of_eval_eq_permanent	有理公式 · 块叶 正 由 求值 = 积和式
+RationalFormula.matching_block_six_leaves_of_coefficientTranscendenceDegree	有理公式 · 匹配 块 六 叶 由 系数超越次数
+RationalFormula.coefficient_adjoin_mem_rationalSkeletonField	有理公式 · 系数 添加 ∈ 有理骨架域
+RationalFormula.coefficient_parameter_mem_rationalSkeletonField	有理公式 · 系数 参数 ∈ 有理骨架域
+RationalFormula.cyclicMatchingBlock_fourth_power_bound	有理公式 · 循环匹配块 第四 幂 界
+RationalFormula.cyclicMatchingBlock_fourth_power_bound_of_coefficientTranscendenceDegree	有理公式 · 循环匹配块 第四 幂 界 由 系数超越次数
+permanent_rational_formula_fourth_power_lower_bound	积和式 有理 公式 第四 幂 下 界
+RationalFormula.cyclicMatchingBlock_intermediate_bound	有理公式 · 循环匹配块 中间 界
+RationalFormula.cyclicMatchingBlock_square_sum_le_variableLeaves	有理公式 · 循环匹配块 平方 和 ≤ 变量叶
+RationalFormula.eval_rename	有理公式 · 求值 重命名
+RationalFormula.eval_rename_eq_matchingMarkedPermanent	有理公式 · 求值 重命名 = 匹配带标记积和式
+RationalFormula.valid_rename	有理公式 · 合法 重命名
+RationalFormula.rational_skeleton	有理公式 · 有理 骨架
+RationalFormula.exists_splitEval_eq_algebraMap_of_yLeafCount_eq_zero	有理公式 · 存在 分裂求值 = 代数映射 由 y 叶计数 = 零
+RationalFormula.exists_splitEval_eq_coefficient_of_yLeafCount_eq_zero	有理公式 · 存在 分裂求值 = 系数 由 y 叶计数 = 零
+RationalFormula.yLeafCount_pos_of_eval_eq_matchingMarkedPermanent	有理公式 · y 叶计数 正 由 求值 = 匹配带标记积和式
+RationalFormula.fractionalApply_rationalAddPathMatrix	有理公式 · 分数作用于 有理+路径矩阵
+RationalFormula.fractionalApply_rationalDivPathMatrix	有理公式 · 分数作用于 有理÷路径矩阵
+RationalFormula.fractionalApply_rationalMulPathMatrix	有理公式 · 分数作用于 有理×路径矩阵
+RationalFormula.fractionalApply_rationalReverseDivPathMatrix	有理公式 · 分数作用于 有理反转÷路径矩阵
+RationalFormula.fractionalApply_rationalReverseSubPathMatrix	有理公式 · 分数作用于 有理反转子路径矩阵
+RationalFormula.fractionalApply_rationalSubPathMatrix	有理公式 · 分数作用于 有理子路径矩阵
+RationalFormula.fractionalDenominator_rationalAddPathMatrix	有理公式 · 分数分母 有理+路径矩阵
+RationalFormula.fractionalDenominator_rationalDivPathMatrix	有理公式 · 分数分母 有理÷路径矩阵
+RationalFormula.fractionalDenominator_rationalMulPathMatrix	有理公式 · 分数分母 有理×路径矩阵
+RationalFormula.fractionalDenominator_rationalReverseDivPathMatrix	有理公式 · 分数分母 有理反转÷路径矩阵
+RationalFormula.fractionalDenominator_rationalReverseSubPathMatrix	有理公式 · 分数分母 有理反转子路径矩阵
+RationalFormula.fractionalDenominator_rationalSubPathMatrix	有理公式 · 分数分母 有理子路径矩阵
+RationalFormula.leafCount_eq_internalGateCount_add_one	有理公式 · 叶计数 = 内部门计数 + 一
+RationalFormula.permanent_size_bounds_of_fourth_power	有理公式 · 积和式 大小 界 由 第四 幂
+RationalFormula.leafCount_le_vertexCount	有理公式 · 叶计数 ≤ 顶点计数
+RationalFormula.marked_variable_mem_rationalSkeletonField	有理公式 · 带标记 变量 ∈ 有理骨架域
+permanent_rational_formula_lower_bound	积和式 有理 公式 下 界
+RationalFormula.rationalSkeletonField_mono	有理公式 · 有理骨架域 单调
+RationalFormula.rational_skeleton_trdeg	有理公式 · 有理 骨架 超越次数
+RationalFormula.renameFractionEquiv_algebraMap	有理公式 · 重命名分数等价 代数映射
+RationalFormula.splitCoefficientHom_eq_algebraMap	有理公式 · 分裂系数同态 = 代数映射
+RationalFormula.splitEval_add	有理公式 · 分裂求值 +
+RationalFormula.splitEval_const	有理公式 · 分裂求值 常数
+RationalFormula.splitEval_div	有理公式 · 分裂求值 ÷
+RationalFormula.splitEval_mul	有理公式 · 分裂求值 ×
+RationalFormula.splitEval_ne_zero_of_eval_ne_zero	有理公式 · 分裂求值 ≠ 零 由 求值 ≠ 零
+RationalFormula.splitEval_sub	有理公式 · 分裂求值 −
+RationalFormula.splitEval_var_inl	有理公式 · 分裂求值 变量 左注入
+RationalFormula.splitEval_var_inr	有理公式 · 分裂求值 变量 右注入
+RationalFormula.splitFractionHom_algebraMap	有理公式 · 分裂分数同态 代数映射
+RationalFormula.splitFractionHom_injective	有理公式 · 分裂分数同态 单射
+RationalFormula.splitPolynomialHom_injective	有理公式 · 分裂多项式同态 单射
+RationalFormula.sum_blockLeaves_le_variableLeaves_of_disjoint	有理公式 · 和 块叶 ≤ 变量叶 由 不相交
+RationalFormula.variableLeaves_le_leafCount	有理公式 · 变量叶 ≤ 叶计数
+RationalFormula.vertexCount_eq_leafCount_add_internalGateCount	有理公式 · 顶点计数 = 叶计数 + 内部门计数
+RationalFormula.yLeafCount_rename_matchingVariableEquiv	有理公式 · y 叶计数 重命名 匹配变量等价
+TranscendenceBounds.trdeg_intermediateField_adjoin_le_card	超越界 · 超越次数 中间域 添加 ≤ 基数
+TranscendenceBounds.trdeg_intermediateField_le_adjoin_card	超越界 · 超越次数 中间域 ≤ 添加 基数
+TranscendenceBounds.trdeg_intermediateField_le_of_adjoin_card_le	超越界 · 超越次数 中间域 ≤ 由 添加 基数 ≤
+aeval_pderiv_eq_zero_of_jacobianMinor_det_ne_zero	代数求值 偏导数 = 零 由 雅可比子式 行列式 ≠ 零
+algebraicIndependent_of_jacobianMinor_det_ne_zero	代数独立 由 雅可比子式 行列式 ≠ 零
+algebraicIndependent_of_evaluatedJacobianMinor_det_ne_zero	代数独立 由 已求值雅可比子式 行列式 ≠ 零
+matchingMarkedPermanent_bit_coefficients_algebraicIndependent	匹配带标记积和式 位 系数 代数独立
+card_cyclicMatchingBlock	基数 循环匹配块
+matchingCyclicDiagonalEmbedding_fst_injective	匹配循环对角嵌入 第一分量 单射
+matchingCyclicDiagonalEmbedding_snd_injective	匹配循环对角嵌入 第二分量 单射
+matchingMarkedFinset_matchingCyclicDiagonalEmbedding	匹配带标记有限集 匹配循环对角嵌入
+card_projectiveMatrixGenerators_le_three	基数 射影矩阵生成元 ≤ 三
+clog_two_cast_le_two_mul_logb	clog 二 类型转换 ≤ 二 × 底对数
+fourth_power_logarithmic_lower_bound	第四 幂 对数 下 界
+coefficientFractionEmbedding_algebraMap	系数分数嵌入 代数映射
+coefficientRationalField_le_fractionRange	系数有理域 ≤ 分数值域
+coefficientPolynomialEmbedding_injective	系数多项式嵌入 单射
+coefficientPolynomial_rename_outside	系数多项式 重命名 外部
+matchingMarkedPermanent_algebraicIndependent_of_prodCongr	匹配带标记积和式 代数独立 由 积合同
+exists_polynomial_of_mem_coefficientRationalField	存在 多项式 由 ∈ 系数有理域
+coefficientTranscendenceDegree_ge_of_algebraicIndependent	系数超越次数 ≥ 由 代数独立
+coefficientTranscendenceDegree_ge_square_of_algebraicIndependent	系数超越次数 ≥ 平方 由 代数独立
+matchingMarkedPermanent_square_of_matching_of_algebraicIndependent	匹配带标记积和式 平方 由 匹配 由 代数独立
+coefficient_mem_coefficientField	系数 ∈ 系数域
+cyclicMatchingBlock_count_bound	循环匹配块 计数 界
+cyclicMatchingBlock_disjoint	循环匹配块 不相交
+cyclicMatchingBlock_fst_injective	循环匹配块 第一分量 单射
+cyclicMatchingBlock_snd_injective	循环匹配块 第二分量 单射
+eq_C_of_forall_pderiv_eq_zero	= C 由 任意 偏导数 = 零
+eval_one_permanentPolynomial_pderiv	求值 一 积和式多项式 偏导数
+permanentPolynomial_pderiv_ne_zero	积和式多项式 偏导数 ≠ 零
+exists_matchingDiagonal_prodCongr	存在 匹配对角 积合同
+five_le_clog_two	五 ≤ clog 二
+four_mul_clog_two_lt_self	四 × clog 二 < 自身
+matching_block_size_le_half	匹配 块 大小 ≤ 一半
+matching_external_size_ge_block_add_one	匹配 外部 大小 ≥ 块 + 一
+two_le_leaves_of_fourth_power_bound	二 ≤ 叶 由 第四 幂 界
+four_mul_le_two_pow_pred	四 × ≤ 二 幂 前驱
+rational_internal_logarithmic_lower_bound	有理 内部 对数 下 界
+rational_logarithmic_lower_bound	有理 对数 下 界
+fractionalApply_mul	分数作用于 ×
+fractionalApply_normalizedFractionalMatrix	分数作用于 归一化分数矩阵
+fractionalApply_smul	分数作用于 数乘
+fractionalDenominator_mul	分数分母 ×
+fractionalDenominator_mul_factor	分数分母 × 因子
+fractionalDenominator_mul_ne_zero	分数分母 × ≠ 零
+fractionalDenominator_smul	分数分母 数乘
+fractionalNumerator_mul	分数分子 ×
+fractionalNumerator_mul_factor	分数分子 × 因子
+fractionalNumerator_smul	分数分子 数乘
+jacobianMinor_det_ne_zero_of_evaluated	雅可比子式 行列式 ≠ 零 由 已求值
+matchingAvoidingInjectionSum_empty	匹配避开单射和 空
+matchingPolynomial_eval	匹配多项式 求值
+matchingBinaryDegree_bitSubset	匹配二元次数 位子集
+matchingWeightedBivariateBitEvaluationMatrix_det_ne_zero	匹配加权二元位求值矩阵 行列式 ≠ 零
+matchingBinaryDegree_empty	匹配二元次数 空
+matchingPolynomial_coeff_binaryDegree	匹配多项式 系数 二元次数
+matchingPolynomial_natDegree_le	匹配多项式 自然数次数 ≤
+matchingBinaryDegree_erase_add	匹配二元次数 擦除 +
+matchingBinaryDegree_pos	匹配二元次数 正
+matchingBitCoefficientSet_mem_inl	匹配位系数集合 ∈ 左注入
+matchingBitCrossSelected_factor_one_off_support	匹配位交叉选中 因子 一 非 支撑
+matchingBitCrossSelected_reduced_eq_iff	匹配位交叉选中 约化 = ⇔
+matchingBitUnreduceCrossEquiv_internal	匹配位反约化交叉等价 内部
+matchingBitUnreduceCrossEquiv_toCross	匹配位反约化交叉等价 到交叉
+matchingBitCoefficientSet_mem_inr	匹配位系数集合 ∈ 右注入
+matchingBitCrossSelectedPermutation_external_ne	匹配位交叉选中置换 外部 ≠
+matchingBitCrossSelectedToCross_toSelected	匹配位交叉选中到交叉 到选中
+matchingBitCrossSelectedPermutation_weight	匹配位交叉选中置换 权
+matchingPermanentJacobian_eq_weighted	匹配积和式雅可比 = 加权
+matchingBitCrossSelectedSupportEmbedding_factor	匹配位交叉选中支撑嵌入 因子
+matchingBitCrossSelected_full_cols_spec	匹配位交叉选中 完整 列 规范
+matchingBitCrossSelected_full_rows_spec	匹配位交叉选中 完整 行 规范
+matchingBitCrossToSelected_toCross	匹配位交叉到选中 到交叉
+matchingBitSelectedPermutation_external	匹配位选中置换 外部
+matchingBitSelectedPermutation_fixed	匹配位选中置换 固定
+matchingBitSubset_map_val	匹配位子集 映射 值
+matchingBivariateEvaluationMatrix_det_ne_zero	匹配二元求值矩阵 行列式 ≠ 零
+matchingWeightedBivariateEvaluationMatrix_det_ne_zero	匹配加权二元求值矩阵 行列式 ≠ 零
+matchingBivariateEvaluationMatrix_eq_kronecker	匹配二元求值矩阵 = kronecker
+matchingBlockRow_injective	匹配块行 单射
+matchingBlock_floor_bound	匹配块 下取整 界
+matchingCanonicalComplexPoints_injective	匹配典范复点 单射
+matchingMarkedPermanent_bitCoefficient_algebraicIndependent	匹配带标记积和式 位系数 代数独立
+matchingCrossCols_exists	匹配交叉列 存在
+matchingCrossCols_spec	匹配交叉列 规范
+matchingCrossResidual_exists	匹配交叉剩余 存在
+sum_matchingCrossPermutation_rows_cols	和 匹配交叉置换 行 列
+matchingCrossPermutation_external_card	匹配交叉置换 外部 基数
+matchingCrossResidualValue_spec	匹配交叉剩余值 规范
+matchingCrossRows_spec	匹配交叉行 规范
+matchingCrossWeight_sum	匹配交叉权 和
+matchingWeightedCrossBitPermutation_sum	匹配加权交叉位置换 和
+matchingCyclicBlock_coefficientTranscendenceDegree_ge_square	匹配循环块 系数超越次数 ≥ 平方
+matchingDeletedRemainingEquiv_inl	匹配已删除剩余等价 左注入
+matchingExtendReducedEquiv_deleted	匹配延拓约化等价 已删除
+matchingDeletedRemainingEquiv_inr	匹配已删除剩余等价 右注入
+matchingExtendReducedEquiv_remaining	匹配延拓约化等价 剩余
+matchingEmbeddingPermutation_apply	匹配嵌入置换 作用于
+matchingEmbedding_prod_split	匹配嵌入 积 分裂
+matchingHitFiber_sum	匹配命中纤维 和
+matchingExtendReducedEquiv_external	匹配延拓约化等价 外部
+matchingExtendReducedEquiv_fixed	匹配延拓约化等价 固定
+matchingExtendReducedEquiv_reduced	匹配延拓约化等价 约化
+matchingReducedEquiv_extend	匹配约化等价 延拓
+matchingInjectionSum_partition	匹配单射和 划分
+matchingHitIndex_spec	匹配命中指标 规范
+matchingJacobianWeight_pos	匹配雅可比权 正
+matchingMarkedPermanent_coefficientTranscendenceDegree_ge_square_of_matching	匹配带标记积和式 系数超越次数 ≥ 平方 由 匹配
+matchingMarkedPermanent_coefficient_eq_sum	匹配带标记积和式 系数 = 和
+matchingMarkedPermanent_coefficient_pderiv_eq_sum	匹配带标记积和式 系数 偏导数 = 和
+matchingMarkedPermanent_evaluated_coefficient_pderiv_eq_sum	匹配带标记积和式 已求值 系数 偏导数 = 和
+matchingMarkedPermanent_evaluated_coefficient_pderiv_eq_row_sum	匹配带标记积和式 已求值 系数 偏导数 = 行 和
+matchingPermanentJacobian_apply	匹配积和式雅可比 作用于
+matchingMarkedPermanent_pderiv_ne_zero	匹配带标记积和式 偏导数 ≠ 零
+matchingMarkedPermanent_rename_prodCongr	匹配带标记积和式 重命名 积合同
+matchingMarkedPermanent_split_eq_sum	匹配带标记积和式 分裂 = 和
+matchingOutsideRelabelEquiv_apply_val	匹配外部重新标号等价 作用于 值
+matchingVariableEquiv_relabel_commutes	匹配变量等价 重新标号 交换
+matchingPermanentJacobian_eq_cross_selected_sum	匹配积和式雅可比 = 交叉 选中 和
+matchingPermanentJacobian_det_ne_zero	匹配积和式雅可比 行列式 ≠ 零
+matchingPermutationExponent_apply	匹配置换指数 作用于
+matchingPermutationExponent_eq_squarefree_iff	匹配置换指数 = 无平方因子 ⇔
+matchingPermutationOutsideFactor_eval_of_not_mem_range	匹配置换外部因子 求值 由 非 ∈ 值域
+matchingPermutationOutsideFactor_external_external_eval	匹配置换外部因子 外部 外部 求值
+matchingPermutationOutsideFactor_external_left_eval	匹配置换外部因子 外部 左 求值
+matchingPermutationOutsideFactor_external_right_eval	匹配置换外部因子 外部 右 求值
+matchingPermutationOutsideFactor_left_external_eval	匹配置换外部因子 左 外部 求值
+matchingPermutationOutsideFactor_right_external_eval	匹配置换外部因子 右 外部 求值
+matchingPermutationOutsideFactor_fixed_diagonal_eval	匹配置换外部因子 固定 对角 求值
+matchingPermutationOutsideFactor_internal_offDiagonal_eval	匹配置换外部因子 内部 非对角 求值
+matchingPermutationOutsideFactor_internal_product_zero	匹配置换外部因子 内部 积 零
+matchingPermutationOutsideProduct_pderiv	匹配置换外部积 偏导数
+matchingPermutation_split_monomial	匹配置换 分裂 单项式
+matchingPolynomial.eq_def	匹配多项式 · = 定义
+matchingPolynomial_empty	匹配多项式 空
+matchingPolynomial_of_nonempty	匹配多项式 由 非空
+matchingWeightedBivariateEvaluationMatrix_eq_diagonal_mul	匹配加权二元求值矩阵 = 对角 ×
+matchingPolynomialEvaluationMatrix_det_ne_zero	匹配多项式求值矩阵 行列式 ≠ 零
+matchingPolynomial_coeff_binaryDegree_ne_zero	匹配多项式 系数 二元次数 ≠ 零
+matchingPolynomial_natDegree	匹配多项式 自然数次数
+matchingReducedEquiv_eq_iff	匹配约化等价 = ⇔
+matchingRemainingIndexEmbedding_range	匹配剩余指标嵌入 值域
+matchingSquarefreeMonomial_apply	匹配无平方因子单项式 作用于
+matchingVariableEquiv_inl	匹配变量等价 左注入
+matchingVariableEquiv_symm_marked	匹配变量等价 对称 带标记
+matchingVariableEquiv_inr	匹配变量等价 右注入
+matching_card_compl_range	匹配 基数 补集 值域
+matching_card_residual_equiv	匹配 基数 剩余 等价
+matching_card_omitted_external	匹配 基数 省略 外部
+matching_exists_hit	匹配 存在 命中
+matching_external_external_not_mem_diagonal	匹配 外部 外部 非 ∈ 对角
+matching_external_internal_not_mem_diagonal	匹配 外部 内部 非 ∈ 对角
+matching_external_size_le_two_pow	匹配 外部 大小 ≤ 二 幂
+matching_internal_external_not_mem_diagonal	匹配 内部 外部 非 ∈ 对角
+matching_leftWeightedAvoidingInjectionSum	匹配 左加权避开单射和
+matching_rightWeightedAvoidingInjectionSum	匹配 右加权避开单射和
+matrix_ne_zero_of_fractionalDenominator_ne_zero	矩阵 ≠ 零 由 分数分母 ≠ 零
+mem_matchingMarkedFinset	∈ 匹配带标记有限集
+normalizedFractionalMatrix_entry_mem_adjoin	归一化分数矩阵 元素 ∈ 添加
+normalizedFractionalMatrix_pivot	归一化分数矩阵 主元
+pderiv_aeval_chain_rule	偏导数 代数求值 链 规则
+relation_vecMul_jacobianMinor	关系 向量× 雅可比子式
+pderiv_bind₁_chain_rule	偏导数 绑定 ₁ 链 规则
+permanentPermutationMonomial_pderiv	积和式置换单项式 偏导数
+permanentPolynomial_pderiv_eq_sum	积和式多项式 偏导数 = 和
+permanentPolynomial_eq_sum	积和式多项式 = 和
+permanentPolynomial_rename_prodCongr	积和式多项式 重命名 积合同
+permanent_rational_formula_logarithmic_lower_bound	积和式 有理 公式 对数 下 界
+polynomialCoefficientProjection_map	多项式系数投影 映射
+polynomial_intersection_of_mul	多项式 交 由 ×
+polynomialCoefficientProjection_map_mul	多项式系数投影 映射 ×
+sum_sumEmbedding_left_weight	和 和嵌入 左 权
+sum_sumEmbedding_right_weight	和 和嵌入 右 权
+totalDegree_pderiv_lt_of_ne_zero	总次数 偏导数 < 由 ≠ 零
+totalDegree_succ_le_of_mem_pderiv_support	总次数 后继 ≤ 由 ∈ 偏导数 支撑

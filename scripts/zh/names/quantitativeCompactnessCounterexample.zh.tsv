@@ -1,0 +1,355 @@
+FamilyFree.member	族自由 · 成员
+proposedFamilyFree_four_cycle	提议族自由 四 圈
+proposedFamilyFree_six_cycle	提议族自由 六 圈
+SeparationCertificate.family_littleO	分离证书 · 族 小 O
+not_compact_of_separation	非 紧 由 分离
+SeparationCertificate.lowerConstant_pos	分离证书 · 下常数 正
+SeparationCertificate.member_lower	分离证书 · 成员 下
+badFourPathTripleToBadIndependentTriple_injective	坏四路径三元组到坏独立三元组 单射
+gammaBad_four_path_triple_mass_le_bad_fiber_mass	Γ坏 四 路径 三元组 质量 ≤ 坏 纤维 质量
+badFourPathTripleWitness_card	坏四路径三元组见证 基数
+badIndependentThetaTriple_other_center_unique	坏独立θ三元组 其他 中心 唯一
+badIndependentTripleWitness_card	坏独立三元组见证 基数
+bipartite_coloring_eq_of_common_neighbor	二部 染色 = 由 公共 邻居
+common_neighbors_triangle_eq_of_cycle_free	公共 邻居 三角形 = 由 圈 自由
+gammaCopy_vertex_color_false_iff	Γ副本 顶点 颜色 假 ⇔
+subdivisionPairVertex_ne_base	细分对顶点 ≠ 基
+subdivisionPairVertex_ne_center	细分对顶点 ≠ 中心
+thetaCopy_base_center_color_eq	θ副本 基 中心 颜色 =
+booleanCut_adj	布尔割 相邻
+booleanCut_deleteIncidence_flip	布尔割 删除关联 翻转
+booleanCut_flip_neighborFinset	布尔割 翻转 邻居有限集
+maximum_booleanCut_degree	最大值 布尔割 次数
+booleanCut_flip_degree_add	布尔割 翻转 次数 +
+booleanCut_isBipartite	布尔割 是二部
+exists_bipartite_half_edges	存在 二部 一半 边
+booleanCut_le	布尔割 ≤
+card_nonbacktrackingFourPath_lower	基数 无回溯四路径 下
+four_path_endpoint_witness_count_lower	四 路径 端点 见证 计数 下
+card_nonbacktrackingNeighbor	基数 无回溯邻居
+card_nonbacktrackingThreePath_lower	基数 无回溯三路径 下
+girthEight_degree_mul_pred_sq_le_card	围长八 次数 × 前驱 平方 ≤ 基数
+checkedManuscriptCounterexample	已检验手稿反例
+quantitativeCompactnessCounterexample	定量紧性反例
+choose_three_cubic_lower	组合数 三 三次 下
+four_path_common_second_neighbor_triple_mass_lower	四 路径 公共 第二 邻居 三元组 质量 下
+choose_three_factorial_identity	组合数 三 阶乘 恒等式
+colorRespectingQuotient_isBipartite	颜色保持商 是二部
+encodedJQuotient_isBipartite	已编码 J 商 是二部
+encodedKQuotient_isBipartite	已编码 K 商 是二部
+commonCenterFinset_eq_tripleCommonCenters	公共中心有限集 = 三元组公共中心
+gammaGood_of_independentThetaTriple_fiber	Γ好 由 独立θ三元组 纤维
+independentThetaTripleOrderedWitness_injective	独立θ三元组有序见证 单射
+commonNeighborIndependent_card_mul_degree_le	公共邻居独立 基数 × 次数 ≤
+thetaBaseExtensions_card_mul_degree_le	θ基扩张 基数 × 次数 ≤
+commonNeighborIndependent_neighborhood_injective	公共邻居独立 邻域 单射
+commonNeighborIndependent_sum_degree_le_card	公共邻居独立 和 次数 ≤ 基数
+commonNeighborRelated_symm	公共邻居相关 对称
+common_second_neighbor_pairwise_unrelated	公共 第二 邻居 两两 无关
+gammaGood_of_three_common_centers	Γ好 由 三 公共 中心
+mem_thetaBaseExtensions_of_girthEightCenters	∈ θ基扩张 由 围长八中心
+commonSecondNeighborFinset_card	公共第二邻居有限集 基数
+common_neighbor_unique_of_four_cycle_free	公共 邻居 唯一 由 四 圈 自由
+nonbacktrackingFourPathPair_injective	无回溯四路径对 单射
+nonbacktrackingFourPath_endpoint_ne	无回溯四路径 端点 ≠
+common_second_neighbors_pairwise_unrelated	公共 第二 邻居 两两 无关
+nonbacktrackingFourPath_endpoint_unrelated	无回溯四路径 端点 无关
+nonbacktrackingThreePathEndpoint_injective	无回溯三路径端点 单射
+fourPathTripleToIndependentThetaTriple_center_mem	四路径三元组到独立θ三元组 中心 ∈
+fourPathTripleToIndependentThetaTriple_endpoint_mem	四路径三元组到独立θ三元组 端点 ∈
+compactnessSharpHostPowerConstant_pos	紧性精确宿主幂常数 正
+coordinateCenterLine_direction_det_ne_zero_of_ne	坐标中心直线 方向 行列式 ≠ 零 由 ≠
+symplecticCanonical_line_no_three_common_centers	辛典范 直线 无 三 公共 中心
+symplecticLine_char_two_canonical_zero_diagonal	辛直线 特征 二 典范 零 对角
+coordinateCenterLinearMap_injective	坐标中心线性映射 单射
+symmetricGraphLine_coordinateCenter_intersection_iff	对称图直线 坐标中心 交 ⇔
+symplecticVertical_mem_coordinateCenter_of_orthogonal	辛竖直 ∈ 坐标中心 由 正交
+cycleGraph_no_isolated	圈图 无 孤立
+four_cycle_uniform_manuscript_lower	四 圈 一致 手稿 下
+proposedFamily_member_no_isolated	提议族 成员 无 孤立
+six_cycle_uniform_manuscript_lower	六 圈 一致 手稿 下
+degree_eq_natCard_neighborSet	次数 = 自然数基数 邻居集合
+maximum_sharp_pruning_subgraph_degree	最大值 精确 剪枝 子图 次数
+edgeFinset_card_eq_natCard	边有限集 基数 = 自然数基数
+familyExtremal_real_le_of_forall_free	族极值 实 ≤ 由 任意 自由
+maximum_sharp_pruning_subgraph_edge_positive	最大值 精确 剪枝 子图 边 正
+edgeFinset_card_le_sum_degree_of_vertex_cover	边有限集 基数 ≤ 和 次数 由 顶点 覆盖
+proposedFamilyFree_edge_card_le_gammaBad_degree_sum	提议族自由 边 基数 ≤ Γ坏 次数 和
+encodeFiniteGraph_connected	编码有限图 连通
+encodedJQuotient_connected	已编码 J 商 连通
+encodedKQuotient_connected	已编码 K 商 连通
+encodeFiniteGraph_isBipartite	编码有限图 是二部
+encodeFiniteGraph_no_isolated	编码有限图 无 孤立
+encodedJQuotient_no_isolated	已编码 J 商 无 孤立
+encodedKQuotient_no_isolated	已编码 K 商 无 孤立
+encodeFiniteGraph_not_acyclic	编码有限图 非 无环
+jQuotient_not_acyclic	j 商 非 无环
+kQuotient_not_acyclic	k 商 非 无环
+proposedFamily_member_connected	提议族 成员 连通
+proposedFamily_member_isBipartite	提议族 成员 是二部
+eventually_constant_le_positive_nat_rpow	最终 常数 ≤ 正 自然数 实幂
+familyLittleO_of_sixteenth_power_host_bound	族小 O 由 十六分之一 幂 宿主 界
+exists_bipartite_min_degree_supported_subgraph	存在 二部 最小 次数 支撑 子图
+exists_bipartite_min_degree_subgraph	存在 二部 最小 次数 子图
+proposedFamilyFree_sixteenth_power_host_bound	提议族自由 十六分之一 幂 宿主 界
+exists_maximum_booleanCut	存在 最大值 布尔割
+exists_maximum_sharp_pruning_subgraph	存在 最大值 精确 剪枝 子图
+extremalNumber_monotone_of_no_isolated	极值数 单调 由 无 孤立
+quadrangle_extremal_lower_padded_of_free	四边形 极值 下 填充 由 自由
+extremalScale_nonneg	极值尺度 非负
+familyLittleO_of_eventual_host_bounds	族小 O 由 最终 宿主 界
+extremalScale_pos	极值尺度 正
+extremalScale_sixteenth_power	极值尺度 十六分之一 幂
+familyFree_of_embedded_subgraph	族自由 由 嵌入 子图
+proposedFamily_familyLittleO	提议族 族小 O
+fiberRepresentative_spec	纤维代表元 规范
+kernelNormalForm_spec	核正规形式 规范
+finiteCycle_connected	有限圈 连通
+finiteNatSup_sixteenth_power_le	有限自然数上确界 十六分之一 幂 ≤
+proposedFamily_familyExtremal_sixteenth_power_le	提议族 族极值 十六分之一 幂 ≤
+finite_bad_fiber_card_le_two	有限 坏 纤维 基数 ≤ 二
+finite_bad_fiber_mass_le_two	有限 坏 纤维 质量 ≤ 二
+gamma_bad_triple_fiber_mass_le_two_orderedTheta	Γ 坏 三元组 纤维 质量 ≤ 二 有序θ
+finite_heavy_fiber_mass_half	有限 重 纤维 质量 一半
+four_path_heavy_common_second_neighbor_mass_lower	四 路径 重 公共 第二 邻居 质量 下
+fintype_card_sigma_lower	有限类型 基数 σ 下
+flipBooleanColor_self	翻转布尔颜色 自身
+fourPathEndpointWitness_card_eq_sum	四路径端点见证 基数 = 和
+four_path_common_second_neighbor_sum_lower	四 路径 公共 第二 邻居 和 下
+fourPathHeavyThreshold_low_degree_fourth_le	四路径重阈值 低 次数 第四 ≤
+proposedFamilyFree_minDegree_ambient_sixteenth_power_le	提议族自由 最小次数 环绕 十六分之一 幂 ≤
+four_cycle_eventual_manuscript_lower	四 圈 最终 手稿 下
+uniformMemberLower_of_characteristic_avoidance	一致成员下 由 特征 避开
+four_cycle_mem_proposedFamily	四 圈 ∈ 提议族
+proposedFamily_nonempty	提议族 非空
+four_cycle_not_acyclic	四 圈 非 无环
+proposedFamily_isCyclic	提议族 是循环
+proposedFamilyFree_four_path_triple_mass_lower	提议族自由 四 路径 三元组 质量 下
+free_map_of_no_isolated	自由 映射 由 无 孤立
+gammaBad_card_mul_fourpath_power_le	Γ坏 基数 × 四路 幂 ≤
+quantitative_bad_vertex_heavy_triple_bound	定量 坏 顶点 重 三元组 界
+gammaBad_card_mul_heavyTripleLower_le_two_orderedTheta	Γ坏 基数 × 重三元组下 ≤ 二 有序θ
+gammaBad_four_path_triple_mass_le_two_orderedTheta	Γ坏 四 路径 三元组 质量 ≤ 二 有序θ
+gluedKVertex_color_false_iff	粘合 K 顶点 颜色 假 ⇔
+gamma_base_pair_adj	Γ 基 对 相邻
+gamma_center_pair_adj	Γ 中心 对 相邻
+proposedFamilyFree_edge_mul_pred_sq_le_bad_card_mul	提议族自由 边 × 前驱 平方 ≤ 坏 基数 ×
+gluedJBase_color_eq	粘合 J 基 颜色 =
+gluedJVertex_color_false_iff	粘合 J 顶点 颜色 假 ⇔
+gluedJBase_injective	粘合 J 基 单射
+thetaBaseExtensions_commonNeighborIndependent	θ基扩张 公共邻居独立
+gluedJBase_jBase	粘合 J 基 j 基
+gluedJVertex_jThetaVertex	粘合 J 顶点 j θ顶点
+gluedJVertex_map_relation	粘合 J 顶点 映射 关系
+gluedJHom_color_respecting	粘合 J 同态 颜色 保持
+gluedJHom_injOn_marked_copy	粘合 J 同态 单射在…上 带标记 副本
+gluedKHom_color_respecting	粘合 K 同态 颜色 保持
+proposedFamilyFree_not_adj_gammaGood	提议族自由 非 相邻 Γ好
+gluedKHom_injOn_marked_copy	粘合 K 同态 单射在…上 带标记 副本
+gluedKVertex_map_relation	粘合 K 顶点 映射 关系
+gluedThetaBase_color_eq	粘合θ基 颜色 =
+inJCopy_iff_exists_jThetaVertex	在…中 J 副本 ⇔ 存在 j θ顶点
+independentThetaTripleBase_injective	独立θ三元组基 单射
+independentThetaTripleBase_unrelated	独立θ三元组基 无关
+independentThetaTripleBase_mem	独立θ三元组基 ∈
+independentThetaTripleBase_surjective	独立θ三元组基 满射
+independentThetaTriple_card_le_orderedThetaTripleCount	独立θ三元组 基数 ≤ 有序θ三元组计数
+jQuotient_free_of_template_avoidance	j 商 自由 由 模板 避开
+symplecticQuadrangle_no_encoded_jQuotient_of_template_avoidance	辛四边形 无 已编码 j 商 由 模板 避开
+jQuotient_mem_proposedFamily	j 商 ∈ 提议族
+proposedFamilyFree_no_jTemplate	提议族自由 无 j 模板
+jQuotients_mem_iff	j 商 ∈ ⇔
+proposedFamily_mem_iff	提议族 ∈ ⇔
+jTemplate_adj_color_ne	j 模板 相邻 颜色 ≠
+jTemplate_connected	j 模板 连通
+jTemplate_no_isolated	j 模板 无 孤立
+jThetaVertex_mem	j θ顶点 ∈
+jTheta_quotient_injective	j θ 商 单射
+symplecticQuadrangle_no_point_jTemplate	辛四边形 无 点 j 模板
+kGamma_quotient_injective	k Γ 商 单射
+kQuotient_mem_proposedFamily	k 商 ∈ 提议族
+proposedFamilyFree_no_kTemplate	提议族自由 无 k 模板
+kQuotients_mem_iff	k 商 ∈ ⇔
+kTemplate_adj_color_ne	k 模板 相邻 颜色 ≠
+symplecticQuadrangle_no_kQuotient_of_odd	辛四边形 无 k 商 由 奇
+kTemplate_connected	k 模板 连通
+kTemplate_no_isolated	k 模板 无 孤立
+kernelNormalForm_eq_iff	核正规形式 = ⇔
+kernelNormalForm_idempotent	核正规形式 幂等
+kernelNormalForm_jAdmissible	核正规形式 j 容许
+kernelNormalForm_kAdmissible	核正规形式 k 容许
+kernelNormalForm_fixed	核正规形式 固定
+manuscriptLowerConstant_pos	手稿下常数 正
+proposedFamily_not_compact_of_bounds	提议族 非 紧 由 界
+map_equiv_no_isolated	映射 等价 无 孤立
+mem_commonCenterFinset	∈ 公共中心有限集
+mem_commonSecondNeighborFinset	∈ 公共第二邻居有限集
+mem_gammaBadVertices	∈ Γ坏顶点
+proposedFamilyFree_edge_has_gammaBad	提议族自由 边 有 Γ坏
+mem_thetaBaseExtensions	∈ θ基扩张
+mem_thetaBaseExtensions_of_two_common_centers	∈ θ基扩张 由 二 公共 中心
+mem_tripleCommonCenters	∈ 三元组公共中心
+member_eventual_lower_of_prime_power_avoidance	成员 最终 下 由 素 幂 避开
+natCard_support_deleteIncidence_add_one_le	自然数基数 支撑 删除关联 + 一 ≤
+natCard_support_le_card	自然数基数 支撑 ≤ 基数
+nat_le_pow_of_two_le	自然数 ≤ 幂 由 二 ≤
+quadrangle_prime_power_bracketing	四边形 素 幂 夹逼
+nonbacktrackingFourPathWitness_injective	无回溯四路径见证 单射
+not_acyclic_of_eight_cycle_copy	非 无环 由 八 圈 副本
+not_compactnessConjecture_of_bounds	非 紧性猜想 由 界
+not_erdos_180	非 erdos 180
+orderedThetaTripleCount_mul_degree_le	有序θ三元组计数 × 次数 ≤
+orderedThetaWitness_card	有序θ见证 基数
+projectiveDirection_nonzero_left	射影方向 非零 左
+symmetricGraphLine_char_two_diagonal_zero_of_actual_centers	对称图直线 特征 二 对角 零 由 实际 中心
+symmetricGraphLine_odd_no_three_actual_centers	对称图直线 奇 无 三 实际 中心
+projectiveDirection_nonzero_right	射影方向 非零 右
+quantitative_bad_vertex_edge_bound	定量 坏 顶点 边 界
+proposedFamilyFree_minDegree_polynomial_le	提议族自由 最小次数 多项式 ≤
+proposedFamilyFree_minDegree_sixteenth_power_le	提议族自由 最小次数 十六分之一 幂 ≤
+proposedFamily_even_characteristic_avoidance	提议族 偶 特征 避开
+proposedFamily_uniformMemberLower	提议族 一致成员下
+proposedFamily_not_compact	提议族 非 紧
+proposedFamily_induction	提议族 归纳
+six_cycle_mem_proposedFamily	六 圈 ∈ 提议族
+proposedFamily_odd_characteristic_avoidance	提议族 奇 特征 避开
+quadrangleVertexCount_mul_le	四边形顶点计数 × ≤
+quadrangleVertexCount_parameter_lt	四边形顶点计数 参数 <
+quadrangle_density_certificate	四边形 密度 证书
+quadrangle_rpow_density	四边形 实幂 密度
+quadrangle_extremal_lower_of_free	四边形 极值 下 由 自由
+quadrangle_uniform_lower_of_prime_power_avoidance	四边形 一致 下 由 素 幂 避开
+quadrangle_manuscript_scaled_density_of_gap	四边形 手稿 缩放 密度 由 间隙
+quantitative_minimum_degree_edge_bound	定量 最小值 次数 边 界
+quotientGraph_connected_of_colorRespecting	商图 连通 由 颜色保持
+quotientGraph_no_isolated	商图 无 孤立
+quotient_map_finrank	商 映射 有限秩
+symplecticAutomorphismLineEquiv_apply	辛自同构直线等价 作用于
+symplecticAutomorphism_disjoint_iff	辛自同构 不相交 ⇔
+symplecticAutomorphism_incidence_iff	辛自同构 关联 ⇔
+symplecticLineCoordinateEquiv_apply_add	辛直线坐标等价 作用于 +
+symplecticLineDualCoordinates_apply	辛直线对偶坐标 作用于
+symplecticLineGraphMap_coordinate_expansion	辛直线图映射 坐标 展开
+symplecticLineGraphMap_horizontal	辛直线图映射 水平
+symplecticLinesOnPoint_card	辛直线在…上点 基数
+six_cycle_eventual_manuscript_lower	六 圈 最终 手稿 下
+six_cycle_not_acyclic	六 圈 非 无环
+square_surjective_char_two	平方 满射 特征 二
+symmetricQuadratic_char_two_diagonal_zero_of_two_independent_roots	对称二次 特征 二 对角 零 由 二 独立 根
+standardSymplecticBilin_isAlt	标准辛双线性 是交错
+symplecticPoint_mem_span_of_two_centers	辛点 ∈ 张成 由 二 中心
+standardSymplecticBilin_nondegenerate	标准辛双线性 非退化
+symplecticLine_orthogonal_eq	辛直线 正交 =
+symplecticPointOrthogonal_finrank	辛点正交 有限秩
+symplecticPointSpan_orthogonal_finrank	辛点张成 正交 有限秩
+symplectic_isotropic_finrank_le_two	辛 迷向 有限秩 ≤ 二
+standardSymplecticForm_add_left	标准辛形式 + 左
+symplecticAutomorphism_form	辛自同构 形式
+symplecticLine_le_pointOrthogonal	辛直线 ≤ 点正交
+symplecticPointRadical_le_lineInPointOrthogonal	辛点根式 ≤ 直线在…中点正交
+symplecticPoint_le_orthogonal	辛点 ≤ 正交
+symplectic_two_plane_isotropic	辛 二 平面 迷向
+standardSymplecticForm_add_right	标准辛形式 + 右
+standardSymplecticForm_nondegenerate_left	标准辛形式 非退化 左
+standardSymplecticForm_nondegenerate_right	标准辛形式 非退化 右
+standardSymplecticForm_self	标准辛形式 自身
+standardSymplecticForm_smul_left	标准辛形式 数乘 左
+standardSymplecticForm_smul_right	标准辛形式 数乘 右
+standardSymplecticForm_swap	标准辛形式 交换
+subdivisionGraph_base_pair_adj	细分图 基 对 相邻
+subdivisionLine_base_of_line_center	细分直线 基 由 直线 中心
+subdivisionLine_center_of_line_base	细分直线 中心 由 直线 基
+subdivisionLine_pair_incidence	细分直线 对 关联
+subdivisionPoint_center_of_point_base	细分点 中心 由 点 基
+subdivisionPoint_pair_incidence	细分点 对 关联
+subdivisionGraph_center_pair_adj	细分图 中心 对 相邻
+subdivisionLine_base_of_line_base	细分直线 基 由 直线 基
+symplecticQuadrangle_no_jTemplate_of_char_two_line_avoidance	辛四边形 无 j 模板 由 特征 二 直线 避开
+symplecticQuadrangle_no_line_gamma_of_odd	辛四边形 无 直线 Γ 由 奇
+subdivisionLine_bases_disjoint	细分直线 基 不相交
+subdivisionLine_centers_injective	细分直线 中心 单射
+subdivisionPairVertex_injective	细分对顶点 单射
+subdivisionVertexImage_injective	细分顶点像 单射
+subdivisionPoint_base_center_related	细分点 基 中心 相关
+subdivisionPoint_bases_unrelated	细分点 基 无关
+subdivisionPoint_base_of_point_base	细分点 基 由 点 基
+symplecticQuadrangle_no_point_jTemplate_of_first_base	辛四边形 无 点 j 模板 由 第一 基
+symplecticQuadrangle_no_point_jTemplate_of_bases	辛四边形 无 点 j 模板 由 基
+subdivisionRelation_adj	细分关系 相邻
+subdivisionVertexImage_map_relation	细分顶点像 映射 关系
+symmetricDet_zero_diagonal_sub	对称行列式 零 对角 −
+symmetricDet_zero_diagonal_sub_ne_zero	对称行列式 零 对角 − ≠ 零
+symmetricGraphLine_zero_diagonal_disjoint	对称图直线 零 对角 不相交
+symmetricGraphLine_coordinateCenter_common_point_iff	对称图直线 坐标中心 公共 点 ⇔
+symmetricGraphLine_det_ne_zero_of_disjoint_horizontal	对称图直线 行列式 ≠ 零 由 不相交 水平
+symplecticLine_eq_invertible_symmetricGraphLine	辛直线 = 可逆 对称图直线
+symplecticLine_char_two_disjoint_of_two_common_center_pairs	辛直线 特征 二 不相交 由 二 公共 中心 对
+symmetricGraphLinearMap_injective	对称图线性映射 单射
+symmetricGraphLines_disjoint_of_difference_det	对称图直线 不相交 由 差 行列式
+symplecticCanonicalLines_disjoint	辛典范直线 不相交
+symplecticLineNormalizer_map_left	辛直线正规化子 映射 左
+symplecticLine_eq_symmetricGraphLine_of_disjoint_vertical	辛直线 = 对称图直线 由 不相交 竖直
+symmetricGraphVector_mem_center_span_iff	对称图向量 ∈ 中心 张成 ⇔
+symmetricGraphVector_orthogonal	对称图向量 正交
+symmetricQuadraticEvaluationMatrix_det	对称二次求值矩阵 行列式
+symmetricQuadratic_no_three_independent_roots	对称二次 无 三 独立 根
+symmetricQuadratic_char_two	对称二次 特征 二
+symmetricQuadratic_char_two_eq_square	对称二次 特征 二 = 平方
+symmetricQuadratic_eq_bilinear	对称二次 = 双线性
+symmetricQuadratic_no_three_roots_of_det_ne_zero	对称二次 无 三 根 由 行列式 ≠ 零
+symplecticLine_no_three_common_centers	辛直线 无 三 公共 中心
+symplecticAutomorphism_commonPoint	辛自同构 公共点
+symplecticAutomorphism_isotropic_iff	辛自同构 迷向 ⇔
+symplecticLineNormalizer_map_right	辛直线正规化子 映射 右
+symplecticLine_eq_coordinateCenterLine_of_common_points	辛直线 = 坐标中心直线 由 公共 点
+symplecticHorizontalProjection_ker	辛水平投影 核
+symplecticLineHorizontalProjection_injective	辛直线水平投影 单射
+symplecticIncidenceToEdge_injective	辛关联到边 单射
+symplecticQuadrangle_edge_card	辛四边形 边 基数
+symplecticIncidenceToEdge_surjective	辛关联到边 满射
+symplecticIncidence_card	辛关联 基数
+symplecticIncidence_card_by_lines	辛关联 基数 按 直线
+symplecticLine_card	辛直线 基数
+symplecticIncidence_card_by_points	辛关联 基数 按 点
+symplecticLineCoordinateEquiv_form	辛直线坐标等价 形式
+symplecticLineNormalizer_apply_left	辛直线正规化子 作用于 左
+symplecticLineNormalizer_apply_right	辛直线正规化子 作用于 右
+symplecticLinePairing_coordinate_expansion	辛直线配对 坐标 展开
+symplecticLineGraphMap_graphVector	辛直线图映射 图向量
+symplecticLineGraphMap_symmetric	辛直线图映射 对称
+symplecticLineInPointOrthogonal_finrank	辛直线在…中点正交 有限秩
+symplecticLinePairing_finrank	辛直线配对 有限秩
+symplecticLinePairing_injective	辛直线配对 单射
+symplecticQuadrangle_vertex_card	辛四边形 顶点 基数
+symplecticLine_char_two_pair_avoidance	辛直线 特征 二 对 避开
+symplecticQuadrangle_no_jTemplate_of_char_two	辛四边形 无 j 模板 由 特征 二
+symplecticLine_eq_of_points	辛直线 = 由 点
+symplecticQuadrangle_common_neighbor_unique	辛四边形 公共 邻居 唯一
+symplectic_triangle_lines_eq	辛 三角形 直线 =
+symplecticLine_isCompl_of_disjoint	辛直线 是补集 由 不相交
+symplecticPointQuotient_finrank	辛点商 有限秩
+symplecticPointRadical_finrank	辛点根式 有限秩
+symplecticPointRelated_iff_orthogonal	辛点相关 ⇔ 正交
+symplecticPoint_point_class_avoidance	辛点 点 类 避开
+symplecticPointRelated_of_quadrangle_common_neighbor	辛点相关 由 四边形 公共 邻居
+symplecticPointRelated_symm	辛点相关 对称
+symplecticPoint_centers_span_orthogonal	辛点 中心 张成 正交
+symplecticPoint_card	辛点 基数
+symplecticPoint_sup_finrank	辛点 上确界 有限秩
+symplectic_triangle_points_collinear	辛 三角形 点 共线
+symplecticPointsOnLine_card	辛点在…上直线 基数
+symplecticQuadrangle_adjacent_to_line	辛四边形 相邻 到 直线
+symplecticQuadrangle_six_cycle_free	辛四边形 六 圈 自由
+symplecticQuadrangle_adjacent_to_point	辛四边形 相邻 到 点
+symplecticQuadrangle_kTemplate_has_line_gamma	辛四边形 k 模板 有 直线 Γ
+symplecticQuadrangle_four_cycle_free	辛四边形 四 圈 自由
+symplecticQuadrangle_encodeFiniteGraph_free_iff	辛四边形 编码有限图 自由 ⇔
+symplecticQuadrangle_no_encoded_kQuotient_of_odd	辛四边形 无 已编码 k 商 由 奇
+symplecticQuadrangle_incidence_adj	辛四边形 关联 相邻
+symplecticQuadrangle_jTemplate_first_base_is_line	辛四边形 j 模板 第一 基 是 直线
+symplecticQuadrangle_no_encoded_jQuotient_of_char_two	辛四边形 无 已编码 j 商 由 特征 二
+symplecticVerticalLinearMap_injective	辛竖直线性映射 单射
+thetaCopy_base_color_eq	θ副本 基 颜色 =
+theta_base_pair_adj	θ 基 对 相邻
+theta_center_pair_adj	θ 中心 对 相邻
+unrelated_four_path_endpoint_card_le	无关 四 路径 端点 基数 ≤

@@ -1,0 +1,1816 @@
+ClassicalInformation.distributionFloorNumerator_cast_le	经典信息 · 分布下取整分子 类型转换 ≤
+ClassicalInformation.distributionFloorNumerator_sum_le	经典信息 · 分布下取整分子 和 ≤
+ClassicalInformation.distributionFloorProbability_le	经典信息 · 分布下取整概率 ≤
+ClassicalInformation.distributionFloorResidual_probability_eq_sum	经典信息 · 分布下取整剩余 概率 = 和
+ClassicalInformation.distributionRoundedNumerator_sum	经典信息 · 分布舍入分子 和
+ClassicalInformation.distributionFloorProbability_error_lt	经典信息 · 分布下取整概率 误差 <
+ClassicalInformation.distributionRoundedProbability_totalVariation_le	经典信息 · 分布舍入概率 总变差 ≤
+existsCommonSupportPreservingRationalApproximations	存在公共支撑保持有理逼近
+ClassicalInformation.distributionRoundedProbability_eq_floor_add	经典信息 · 分布舍入概率 = 下取整 +
+ClassicalInformation.finite_log_sum_inequality	经典信息 · 有限 对数 和 不等式
+ClassicalInformation.finite_relative_entropy_data_processing	经典信息 · 有限 相对 熵 数据 处理
+conditionedEventDistribution_projection_relativeEntropy_le	条件化事件分布 投影 相对熵 ≤
+exactPrefixNext_relativeEntropy_eq	精确前缀下一个 相对熵 =
+finiteProductMarginal_projection_relativeEntropy_le	有限积边缘 投影 相对熵 ≤
+ClassicalInformation.finite_relative_entropy_joint_chain_rule	经典信息 · 有限 相对 熵 联合 链 规则
+exactPrefixEntropyIncrement_eq_conditional	精确前缀熵增量 = 条件
+exact_source_equation_twenty_four_alice	精确 源 方程 二十 四 alice
+exact_source_equation_twenty_four_bob	精确 源 方程 二十 四 bob
+finiteConditionalHistoryRelativeEntropy_eq	有限条件历史相对熵 =
+uniformFlagRelativeEntropy_le	一致旗相对熵 ≤
+ClassicalInformation.jointConditional_sum	经典信息 · 联合条件 和
+ClassicalInformation.jointFirstMarginal_absolute_continuity	经典信息 · 联合第一边缘 绝对 连续性
+exactAliceSupportedQuestion_marginal_pos	精确 Alice 支撑问题 边缘 正
+exactBobSupportedQuestion_marginal_pos	精确 Bob 支撑问题 边缘 正
+finiteSupportedConditionalHistoryReferenceFirstMarginal_eq	有限支撑条件历史参考第一边缘 =
+ClassicalInformation.jointFirstMarginal_nonneg	经典信息 · 联合第一边缘 非负
+ClassicalInformation.jointFirstMarginal_sum	经典信息 · 联合第一边缘 和
+ClassicalInformation.rationalMarked_inter	经典信息 · 有理带标记 交
+ClassicalInformation.rationalMarked_inter_card	经典信息 · 有理带标记 交 基数
+ClassicalInformation.rationalMarked_markedTotalVariation_eq	经典信息 · 有理带标记 带标记总变差 =
+ClassicalInformation.rationalPermutationOutput_disagreement_le_two_mul_finiteTotalVariation	经典信息 · 有理置换输出 不一致 ≤ 二 × 有限总变差
+exactLocallySampleablePermutationMismatch_le_two_tv	精确局部可采样置换失配 ≤ 二 全变差
+exact_exists_support_preserving_local_shared_permutation	精确 存在 支撑 保持 局部 共享 置换
+ClassicalInformation.rationalPermutationOutput_disagreement_le_two_mul_tv	经典信息 · 有理置换输出 不一致 ≤ 二 × 全变差
+ClassicalInformation.rationalPermutationOutput_probability	经典信息 · 有理置换输出 概率
+exactPermutationOutputUniformPushforward	精确置换输出一致前推
+ClassicalInformation.uniformPermutationProbability_mono	经典信息 · 一致置换概率 单调
+ClassicalSampling.firstFiber_card_eq	经典采样 · 第一纤维 基数 =
+ClassicalSampling.markedFirst_event_card_mul	经典采样 · 带标记第一 事件 基数 ×
+ClassicalSampling.markedFirst_eq_iff_union_first_mem_inter	经典采样 · 带标记第一 = ⇔ 并 第一 ∈ 交
+ClassicalSampling.markedFirst_ne_iff_union_first_mem_symmDiff	经典采样 · 带标记第一 ≠ ⇔ 并 第一 ∈ 对称差
+ClassicalSampling.markedFirst_eq_of_mem_of_rank_le	经典采样 · 带标记第一 = 由 ∈ 由 秩 ≤
+ClassicalSampling.markedFirst_subset_eq_of_mem	经典采样 · 带标记第一 子集 = 由 ∈
+ClassicalSampling.markedFirst_swap_trans	经典采样 · 带标记第一 交换 传递
+ClassicalSampling.markedFirst_event_probability	经典采样 · 带标记第一 事件 概率
+ClassicalSampling.sharedPermutation_disagreement_card_mul	经典采样 · 共享置换 不一致 基数 ×
+ClassicalSampling.rationalMarked_letter_probability	经典采样 · 有理带标记 字母 概率
+ClassicalSampling.markedFirst_mem	经典采样 · 带标记第一 ∈
+ClassicalSampling.markedFirst_rank	经典采样 · 带标记第一 秩
+ClassicalSampling.markedFirst_rank_le	经典采样 · 带标记第一 秩 ≤
+ClassicalSampling.rationalMarked_card	经典采样 · 有理带标记 基数
+ClassicalSampling.rationalMarked_nonempty	经典采样 · 有理带标记 非空
+ClassicalSampling.rationalMarked_fiber_card	经典采样 · 有理带标记 纤维 基数
+ClassicalSampling.rationalNumerator_le_denominator	经典采样 · 有理分子 ≤ 分母
+ClassicalSampling.sharedPermutation_disagreement_probability	经典采样 · 共享置换 不一致 概率
+ClassicalSampling.sharedPermutation_disagreement_probability_le	经典采样 · 共享置换 不一致 概率 ≤
+ClassicalSampling.sharedPermutation_disagreement_probability_le_two_mul_tv	经典采样 · 共享置换 不一致 概率 ≤ 二 × 全变差
+ClassicalSampling.swap_mem_iff_of_mem	经典采样 · 交换 ∈ ⇔ 由 ∈
+DensityMatrix.positive	密度矩阵 · 正
+Strategy.outcomeProbability_nonneg	策略 · 结果概率 非负
+bornTracePairing_le_one_one	born 迹配对 ≤ 一 一
+bornTracePairing_one_le_one	born 迹配对 一 ≤ 一
+exactAliceRefinedPOVM_compression	精确 Alice 加细 POVM 压缩
+exactBobRefinedPOVM_compression	精确 Bob 加细 POVM 压缩
+exactFairAliceScalarBornMass_nonneg	精确公平 Alice 标量 Born 质量 非负
+exactFairBobScalarBornMass_nonneg	精确公平 Bob 标量 Born 质量 非负
+exactGammaPsi_BornWeighted_normalized_distance	精确Γψ Born 加权 归一化 距离
+exactGlobalHistoryFinGamma_sub_Psi_norm	精确整体历史有限Γ − ψ 范数
+exactGlobalHistoryFinPsi_sub_Phi_norm	精确整体历史有限ψ − φ 范数
+exactPsiPhi_BornWeighted_normalized_distance	精确ψφ Born 加权 归一化 距离
+exactPsi_eq_padded_normalizedPureVector_of_ne_zero	精确ψ = 填充 归一化纯向量 由 ≠ 零
+exactSourceGlobalAlicePOVM_effect	精确源整体 Alice POVM 效应
+exactSourceGlobalBobPOVM_effect	精确源整体 Bob POVM 效应
+exactSourceGlobalCatalystAlicePOVM_effect_global	精确源整体催化剂 Alice POVM 效应 整体
+exactSourceGlobalCatalystBobPOVM_effect	精确源整体催化剂 Bob POVM 效应
+exactSourceTupleGamma_norm	精确源元组Γ 范数
+exactSourceTuplePsi_norm	精确源元组ψ 范数
+finiteLocalPurificationVector_sub_left	有限局部纯化向量 − 左
+finiteLocalPurificationVector_sub_right	有限局部纯化向量 − 右
+fullCoordinateAliceEntropyIncrement_nonneg	完整坐标 Alice 熵增量 非负
+fullHistoryAtomBornMass_nonneg	完整历史原子 Born 质量 非负
+leftSpectralBornWeight_nonneg	左谱 Born 权 非负
+matrixLogEntropy_born_nonpos_left	矩阵对数熵 born 非正 左
+matrixLogEntropy_born_nonpos_right	矩阵对数熵 born 非正 右
+mixtureBlockMatrix_posSemidef	混合块矩阵 正半定
+rightSpectralBornWeight_nonneg	右谱 Born 权 非负
+strategyPurificationVector_quadratic	策略纯化向量 二次
+unconditionalActualFairSourceAliceFlagPOVM_succ_nested	无条件实际公平源 Alice 旗 POVM 后继 嵌套
+unconditionalActualFairSourceBobFlagPOVM_succ_nested	无条件实际公平源 Bob 旗 POVM 后继 嵌套
+unconditionalActualFairSourcePhysicalStopBorn_eq_raw	无条件实际公平源物理停止 Born = 原始
+unconditionalActualFairSourceSelectedBorn_of_base	无条件实际公平源选中 Born 由 基
+unconditionalActualFairSourceVerifier_complement_isPositive	无条件实际公平源验证者 补 是正
+unconditionalActualFairSourceVerifier_isPositive	无条件实际公平源验证者 是正
+unconditionalActualFairSourceVerifier_norm_le_one	无条件实际公平源验证者 范数 ≤ 一
+unconditionalActualFairSourceWinningEffect_reindex	无条件实际公平源必胜效应 重标指标
+unconditionalConjugateSourceGlobalCatalystWinningEffect_eq_transpose	无条件共轭源整体催化剂必胜效应 = 转置
+unconditionalFairMatchedFlag_aliceTarget_eq_aliceSample	无条件公平已匹配旗 alice 目标 = alice 样本
+unconditionalFairMatchedFlag_bobTarget_eq_aliceSample	无条件公平已匹配旗 bob 目标 = alice 样本
+DensityMatrix.trace_one	密度矩阵 · 迹 一
+Strategy.outcomeProbability_normalized	策略 · 结果概率 归一化
+binaryBornProbability_normalized	二元 Born 概率 归一化
+bornTracePairing_one_one	born 迹配对 一 一
+mixtureBlockMatrix_trace	混合块矩阵 迹
+ExactHistoryFlag.ext	精确历史旗 · 外延
+exactLocallySampleableCode_fixedSeed_fiber_iff	精确局部可采样码 固定种子 纤维 ⇔
+ExactReverseSideContext.otherSide_eq_complement	精确反转侧上下文 · 其他侧 = 补
+exactReverseAliceAcceptedScalarEntropy_le	精确反转 Alice 被接受标量熵 ≤
+exactReverseAliceFilterHighOperatorPotential_nonpos	精确反转 Alice 滤子高算子势 非正
+exactReverseAliceFilterOperatorMarkerEntropy_eq_sub	精确反转 Alice 滤子算子标记熵 = −
+exactReverseAliceHighOperatorPotential_eq_question	精确反转 Alice 高算子势 = 问题
+exactReverseAliceLowOperatorPotential_eq_question	精确反转 Alice 低算子势 = 问题
+exactReverseAliceLowOperatorPotential_neg_le_scalarEntropy	精确反转 Alice 低算子势 负 ≤ 标量熵
+exactReverseAliceMarkerDecode_coordinate	精确反转 Alice 标记解码 坐标
+exactReverseAliceMarkerDecode_ignoredBit	精确反转 Alice 标记解码 忽略位
+exactReverseAliceMarkerDecode_otherCut	精确反转 Alice 标记解码 其他割
+exactReverseAliceMarkerDecode_otherRank	精确反转 Alice 标记解码 其他秩
+exactReverseAliceMarkerDecode_side	精确反转 Alice 标记解码 侧
+exactReverseAliceMarkerDecode_sideRank	精确反转 Alice 标记解码 侧秩
+exactReverseAliceMaskedQuestionRegister_stable	精确反转 Alice 掩码问题寄存器 稳定
+exactReverseBobAcceptedScalarEntropy_le	精确反转 Bob 被接受标量熵 ≤
+exactReverseBobFilterHighOperatorPotential_nonpos	精确反转 Bob 滤子高算子势 非正
+exactReverseBobFilterLowOperatorPotential_neg_le_scalarEntropy	精确反转 Bob 滤子低算子势 负 ≤ 标量熵
+exactReverseBobFilterOperatorMarkerEntropy_eq_sub	精确反转 Bob 滤子算子标记熵 = −
+exactReverseBobHighOperatorPotential_eq_question	精确反转 Bob 高算子势 = 问题
+exactReverseBobLowOperatorPotential_eq_question	精确反转 Bob 低算子势 = 问题
+exactReverseBobMarkerDecode_coordinate	精确反转 Bob 标记解码 坐标
+exactReverseBobMarkerDecode_ignoredBit	精确反转 Bob 标记解码 忽略位
+exactReverseBobMarkerDecode_otherCut	精确反转 Bob 标记解码 其他割
+exactReverseBobMarkerDecode_otherRank	精确反转 Bob 标记解码 其他秩
+exactReverseBobMarkerDecode_side	精确反转 Bob 标记解码 侧
+exactReverseBobMarkerDecode_sideRank	精确反转 Bob 标记解码 侧秩
+exactReverseBobMaskedQuestionRegister_stable	精确反转 Bob 掩码问题寄存器 稳定
+FiniteEventLaw.allWinMass_le_partial	有限事件律 · 所有获胜质量 ≤ 偏
+FiniteEventLaw.exists_conditioned_win_set	有限事件律 · 存在 条件化 获胜 集合
+allWinMass_le_postselectionMass	所有获胜质量 ≤ 后选择质量
+FiniteEventLaw.eventMass_mono	有限事件律 · 事件质量 单调
+postselectionMass_le_one	后选择质量 ≤ 一
+FiniteEventLaw.eventMass_univ	有限事件律 · 事件质量 全集
+repeatedStrategy_exists_greedy_conditioning	重复策略 存在 贪心 条件化
+FiniteEventLaw.exists_greedy_stopping	有限事件律 · 存在 贪心 停止
+FiniteEventLaw.weight_nonneg	有限事件律 · 权 非负
+conditionedEventDistribution_nonneg	条件化事件分布 非负
+conditionedEventDistribution_relativeEntropy	条件化事件分布 相对熵
+exactReverseAliceSideWeightedPrefix_sum	精确反转 Alice 侧加权前缀 和
+exactReverseBobActualMarkedEntropyScore_eq_context	精确反转 Bob 实际带标记熵得分 = 上下文
+exactReverseBobSideWeightedPrefix_sum	精确反转 Bob 侧加权前缀 和
+reweightedSeedFlaggedProjectionLaw_firstMarginal	重加权种子带标记投影律 第一边缘
+reweightedSeedPrefixJoint_as_actual_flagged_pushforward	重加权种子前缀联合 作为 实际 带标记 前推
+reweightedSeedPrefixPrior_as_flagged_pushforward	重加权种子前缀先验 作为 带标记 前推
+reweightedSeedPrefixPrior_nonneg	重加权种子前缀先验 非负
+reweightedSeedPrefixPrior_sum	重加权种子前缀先验 和
+reweightedSeedWinEventMass	重加权种子获胜事件质量
+strategyAliceQuestionPrior_marginal	策略 Alice 问题先验 边缘
+strategyBobQuestionPrior_marginal	策略 Bob 问题先验 边缘
+FiniteEventLaw.weight_sum	有限事件律 · 权 和
+FiniteEventLaw.winEvent_antitone	有限事件律 · 获胜事件 反单调
+FiniteEventLaw.winEvent_empty	有限事件律 · 获胜事件 空
+FullCoordinateRevealHistory.ext	完整坐标揭示历史 · 外延
+fullCoordinateAnswerExtension_sum	完整坐标答案扩张 和
+fullCoordinateBobFilter_conditional_mean	完整坐标 Bob 滤子 条件 均值
+fullCoordinateInsertedHistory_sum	完整坐标已插入历史 和
+fullCoordinateNewHistory_sum	完整坐标新历史 和
+fullCoordinateOldHistory_sum	完整坐标旧历史 和
+FullSubsetHistory.ext	完整子集历史 · 外延
+fullHistoryWeight_sum	完整历史权 和
+fullSubsetHistory_mass_eq_postselection	完整子集历史 质量 = 后选择
+Game.conditionalXGivenY_nonneg	博弈 · 条件 X 给定 Y 非负
+conditionalAlice_matrixLogEntropy_gap_posSemidef	条件 Alice 矩阵对数熵 间隙 正半定
+exactAliceMeanFilter_complement_posSemidef	精确 Alice 均值滤子 补 正半定
+exactAliceMeanFilter_posSemidef	精确 Alice 均值滤子 正半定
+exactFairAliceHistoryHighOperatorPotential_nonpos	精确公平 Alice 历史高算子势 非正
+fullHistoryHiddenAliceWeight_nonneg	完整历史隐藏 Alice 权 非负
+fullHistoryHiddenAliceWeight_sum_le_one	完整历史隐藏 Alice 权 和 ≤ 一
+Game.conditionalXGivenY_sum	博弈 · 条件 X 给定 Y 和
+Game.conditionalXGivenY_sum_le_one	博弈 · 条件 X 给定 Y 和 ≤ 一
+exactBobSourceConditionalInformation_eq_question	精确 Bob 源条件信息 = 问题
+exactFairAlice_conditional_variation_le	精确公平 Alice 条件 变差 ≤
+Game.conditionalYGivenX_nonneg	博弈 · 条件 Y 给定 X 非负
+exactBobMeanFilter_complement_posSemidef	精确 Bob 均值滤子 补 正半定
+exactBobMeanFilter_posSemidef	精确 Bob 均值滤子 正半定
+exactFairBobHistoryHighOperatorPotential_nonpos	精确公平 Bob 历史高算子势 非正
+fullHistoryHiddenBobWeight_nonneg	完整历史隐藏 Bob 权 非负
+fullHistoryHiddenBobWeight_sum_le_one	完整历史隐藏 Bob 权 和 ≤ 一
+Game.conditionalYGivenX_sum	博弈 · 条件 Y 给定 X 和
+Game.conditionalYGivenX_sum_le_one	博弈 · 条件 Y 给定 X 和 ≤ 一
+exactAliceSourceConditionalInformation_eq_question	精确 Alice 源条件信息 = 问题
+exactFairBob_conditional_variation_le	精确公平 Bob 条件 变差 ≤
+Game.marginalX_mul_conditionalYGivenX	博弈 · 边缘 X × 条件 Y 给定 X
+alice_mixed_history_pairing	alice 混合 历史 配对
+exactAliceInformationReference_supported_factor	精确 Alice 信息参考 支撑 因子
+exactFairBobHistoryHighOperatorPotential_eq_joint	精确公平 Bob 历史高算子势 = 联合
+exactFairBobHistoryVariation_le_entropy	精确公平 Bob 历史变差 ≤ 熵
+exactFairBobMeanBornMass_eq_fullOutcome_sum	精确公平 Bob 均值 Born 质量 = 完整结果 和
+exactFixedBobQuestionMass_insert	精确固定 Bob 问题质量 插入
+exactStrategyStableBobQuestionCode_joint_factor	精确策略稳定 Bob 问题码 联合 因子
+fullHistoryWeight_mul_hidden	完整历史权 × 隐藏
+Game.marginalX_nonneg	博弈 · 边缘 X 非负
+exactFairBobScalarCountingWeight_nonneg	精确公平 Bob 标量计数权 非负
+exactFairBobScalarCountingWeight_sum_le	精确公平 Bob 标量计数权 和 ≤
+fullCoordinateBaseWeight_nonneg	完整坐标基权 非负
+fullHistoryWeight_nonneg	完整历史权 非负
+repeatedAliceCoordinateInformation_sum_le	重复 Alice 坐标信息 和 ≤
+Game.marginalX_normalized	博弈 · 边缘 X 归一化
+Game.marginalY_mul_conditionalXGivenY	博弈 · 边缘 Y × 条件 X 给定 Y
+bob_mixed_history_pairing	bob 混合 历史 配对
+exactBobInformationReference_supported_factor	精确 Bob 信息参考 支撑 因子
+exactFairAliceHistoryHighOperatorPotential_eq_joint	精确公平 Alice 历史高算子势 = 联合
+exactFairAliceHistoryVariation_le_entropy	精确公平 Alice 历史变差 ≤ 熵
+exactFairAliceMeanBornMass_eq_fullOutcome_sum	精确公平 Alice 均值 Born 质量 = 完整结果 和
+exactFixedAliceQuestionMass_insert	精确固定 Alice 问题质量 插入
+exactStrategyStableAliceQuestionCode_joint_factor	精确策略稳定 Alice 问题码 联合 因子
+Game.marginalY_nonneg	博弈 · 边缘 Y 非负
+exactFairAliceScalarCountingWeight_nonneg	精确公平 Alice 标量计数权 非负
+exactFairAliceScalarCountingWeight_sum_le	精确公平 Alice 标量计数权 和 ≤
+repeatedBobCoordinateInformation_sum_le	重复 Bob 坐标信息 和 ≤
+Game.marginalY_normalized	博弈 · 边缘 Y 归一化
+Game.questionWeight_le_marginalX	博弈 · 问题权 ≤ 边缘 X
+Game.questionWeight_le_marginalY	博弈 · 问题权 ≤ 边缘 Y
+Game.repeat_predicate_eq_true	博弈 · 重复 谓词 = 真
+pdfRepeatedEntangledValue_eq_zero_of_entangledValue_eq_zero	密度函数重复纠缠值 = 零 由 纠缠值 = 零
+repeated_allWinEvent_eq	重复 所有获胜事件 =
+Game.repeat_questionWeight	博弈 · 重复 问题权
+exactLocallySampleableLaw_eq_zero_of_question_zero	精确局部可采样律 = 零 由 问题 零
+exactPriorQuestion_coordinate_weight_ne_zero	精确先验问题 坐标 权 ≠ 零
+exactRepeatedQuestionWeight_splitAt_alice	精确重复问题权 分裂在 alice
+exactRepeatedQuestionWeight_splitAt_bob	精确重复问题权 分裂在 bob
+exactRepeatedQuestionWeight_splitAt_joint	精确重复问题权 分裂在 联合
+Game.weight_nonneg	博弈 · 权 非负
+Strategy.winProbability_le_one	策略 · 获胜概率 ≤ 一
+Strategy.winProbability_nonneg	策略 · 获胜概率 非负
+UnconditionalActualFairCachedSourceVerifierLedger.contraction	无条件实际公平缓存源验证者账本 · 收缩
+UnconditionalActualFairCachedSourceVerifierLedger.history_born_bounded	无条件实际公平缓存源验证者账本 · 历史 born 有界
+UnconditionalActualFairCachedSourceVerifierLedger.history_born_nonnegative	无条件实际公平缓存源验证者账本 · 历史 born 非负
+UnconditionalActualFairCachedSourceVerifierLedger.supported_born	无条件实际公平缓存源验证者账本 · 支撑 born
+UnconditionalActualFairSourceSamplerData.denominator_positive	无条件实际公平源采样器数据 · 分母 正
+UnconditionalActualFairSourceSamplerData.nonempty	无条件实际公平源采样器数据 · 非空
+UnconditionalActualFairSourceSamplerData.rational_normalized	无条件实际公平源采样器数据 · 有理 归一化
+UnconditionalActualFairSourceSamplerData.support_preserving	无条件实际公平源采样器数据 · 支撑 保持
+actualStoppingQuestionLocalWinningProbability_ge_matched	实际停止问题局部必胜概率 ≥ 已匹配
+conditionedAliceCoordinateEffect_posSemidef	条件化 Alice 坐标效应 正半定
+conditionedAliceCoordinateEffect_sum	条件化 Alice 坐标效应 和
+conditionedAliceEffect_complement_positive	条件化 Alice 效应 补 正
+conditionedAliceEffect_insert_eq_coordinate	条件化 Alice 效应 插入 = 坐标
+conditionedAliceEffect_positive	条件化 Alice 效应 正
+conditionedBobCoordinateEffect_posSemidef	条件化 Bob 坐标效应 正半定
+conditionedBobCoordinateEffect_sum	条件化 Bob 坐标效应 和
+conditionedBobEffect_complement_positive	条件化 Bob 效应 补 正
+conditionedBobEffect_insert_eq_coordinate	条件化 Bob 效应 插入 = 坐标
+conditionedBobEffect_positive	条件化 Bob 效应 正
+conditionedCoordinateEffects_born_expansion	条件化坐标效应 born 展开
+conditionedEffects_born_expansion	条件化效应 born 展开
+exactAliceInformationPosterior_eq_jointPushforward	精确 Alice 信息后验 = 联合前推
+exactAliceInformationPosterior_firstMarginal_eq_localMass	精确 Alice 信息后验 第一边缘 = 局部质量
+exactAliceInformationPosterior_firstMarginal_pushforward	精确 Alice 信息后验 第一边缘 前推
+exactAliceInformationReference_firstMarginal	精确 Alice 信息参考 第一边缘
+exactAliceQuestionConditionalWeight_sum	精确 Alice 问题条件权 和
+exactAliceQuestionMass_eq_jointPrefixQuestionMass	精确 Alice 问题质量 = 联合前缀问题质量
+exactBobInformationPosterior_eq_jointPushforward	精确 Bob 信息后验 = 联合前推
+exactBobInformationPosterior_firstMarginal_eq_localMass	精确 Bob 信息后验 第一边缘 = 局部质量
+exactBobInformationPosterior_firstMarginal_pushforward	精确 Bob 信息后验 第一边缘 前推
+exactBobInformationReference_firstMarginal	精确 Bob 信息参考 第一边缘
+exactBobQuestionConditionalWeight_sum	精确 Bob 问题条件权 和
+exactBobQuestionMass_eq_jointPrefixQuestionMass	精确 Bob 问题质量 = 联合前缀问题质量
+exactConditionedAnswerFlag_eq_of_history	精确条件化答案旗 = 由 历史
+exactFairAliceHistoryEntropy_eq_operatorPotential_sub	精确公平 Alice 历史熵 = 算子势 −
+exactFairAliceHistoryLowOperatorPotential_eq_joint	精确公平 Alice 历史低算子势 = 联合
+exactFairAliceMeanBorn_eq_conditional	精确公平 Alice 均值 Born = 条件
+exactFairAliceOperatorEntropy_reverse_marked_average	精确公平 Alice 算子熵 反转 带标记 平均
+exactFairAliceSeedScalarEntropy_eq_weighted	精确公平 Alice 种子标量熵 = 加权
+exactFairBobHistoryEntropy_eq_operatorPotential_sub	精确公平 Bob 历史熵 = 算子势 −
+exactFairBobHistoryLowOperatorPotential_eq_joint	精确公平 Bob 历史低算子势 = 联合
+exactFairBobMeanBorn_eq_conditional	精确公平 Bob 均值 Born = 条件
+exactFairBobOperatorEntropy_reverse_marked_average	精确公平 Bob 算子熵 反转 带标记 平均
+exactFairBobSeedScalarEntropy_eq_weighted	精确公平 Bob 种子标量熵 = 加权
+exactFiberQuestionMass_eq_jointQuestionMass	精确纤维问题质量 = 联合问题质量
+exactFiberQuestionWeight_nonneg	精确纤维问题权 非负
+exactFiberQuestionWeight_sum_aliceQuestion	精确纤维问题权 和 alice 问题
+exactFiberQuestionWeight_sum_bobQuestion	精确纤维问题权 和 bob 问题
+exactFixedAliceQuestionMass_eq_product	精确固定 Alice 问题质量 = 积
+exactFixedBobQuestionMass_eq_product	精确固定 Bob 问题质量 = 积
+exactFixedSeedGroupedBornMass_eq	精确固定种子分组 Born 质量 =
+exactJointPrefixAliceOperatorMass_eq_sum_bobMass	精确联合前缀 Alice 算子质量 = 和 bob 质量
+exactJointPrefixAliceOperatorMass_sum_insert	精确联合前缀 Alice 算子质量 和 插入
+exactJointPrefixBobOperatorMass_eq_sum_aliceMass	精确联合前缀 Bob 算子质量 = 和 alice 质量
+exactJointPrefixBobOperatorMass_sum_insert	精确联合前缀 Bob 算子质量 和 插入
+exactJointPrefixQuestionAtom_zero_of_mass_zero	精确联合前缀问题原子 零 由 质量 零
+exactJointPrefixQuestionMass_eq_sum_alice	精确联合前缀问题质量 = 和 alice
+exactJointPrefixQuestionMass_eq_sum_bob	精确联合前缀问题质量 = 和 bob
+exactJointPrefixQuestionMass_pos_of_question	精确联合前缀问题质量 正 由 问题
+exactJointQuestionMass_eq_groupedMass	精确联合问题质量 = 分组质量
+exactJointQuestionMass_sum	精确联合问题质量 和
+exactLocallySampleableJA_sum	精确局部可采样 JA 和
+exactLocallySampleableJA_weightedConditional	精确局部可采样 JA 加权条件
+exactLocallySampleableJB_sum	精确局部可采样 JB 和
+exactLocallySampleableJB_weightedConditional	精确局部可采样 JB 加权条件
+exactLocallySampleableLaw_coordinate_eq_of_ne_zero	精确局部可采样律 坐标 = 由 ≠ 零
+exactLocallySampleableLaw_zero_of_coordinate_mismatch	精确局部可采样律 零 由 坐标 失配
+exactLocallySampleableLaw_zero_of_not_accepted	精确局部可采样律 零 由 非 被接受
+exactPostselectedJointLaw_nonneg	精确后选择联合律 非负
+exactPostselectedJointLaw_sum	精确后选择联合律 和
+exactPriorQuestionWeight_nonneg	精确先验问题权 非负
+exactPriorQuestionWeight_sum	精确先验问题权 和
+exactQuestionWeight_aliceMixed_rectangle	精确问题权 alice 混合 矩形
+exactQuestionWeight_bobMixed_rectangle	精确问题权 bob 混合 矩形
+exactQuestionWeight_rectangle	精确问题权 矩形
+exactRepeatedConditionedCoordinateWin	精确重复条件化坐标获胜
+exactReverseAliceAlignedCfcPrefixPotential_telescope	精确反转 Alice 对齐 Cfc 前缀势 裂项
+exactReverseAliceMaskedOutcomeContext_actual	精确反转 Alice 掩码结果上下文 实际
+exactReverseAliceMaskedOutcomeContext_extract	精确反转 Alice 掩码结果上下文 提取
+exactReverseAlice_history_of_marked_context	精确反转 Alice 历史 由 带标记 上下文
+exactReverseBobAlignedCfcPrefixPotential_telescope	精确反转 Bob 对齐 Cfc 前缀势 裂项
+exactReverseBobMaskedOutcomeContext_actual	精确反转 Bob 掩码结果上下文 实际
+exactReverseBobMaskedOutcomeContext_extract	精确反转 Bob 掩码结果上下文 提取
+exactReverseBob_history_of_marked_context	精确反转 Bob 历史 由 带标记 上下文
+exactSourceAcceptedCoordinateMass_sum	精确源被接受坐标质量 和
+exactSourceAnswerTypes_nonempty_of_remaining	精确源答案类型 非空 由 剩余
+exactSource_failure_sum_lt_of_uniform	精确源 失败 和 < 由 一致
+exactStrategyQuestionCodeGroupedMass	精确策略问题码分组质量
+exists_repeatedStrategy_of_lt_entangledValue	存在 重复策略 由 < 纠缠值
+flaggedQuestionWeight_nonneg	带标记问题权 非负
+fullCoordinateAliceFilter_conditional_mean	完整坐标 Alice 滤子 条件 均值
+fullHistoryFilters_born_expansion	完整历史滤子 born 展开
+localQuestionWeight_nonneg	局部问题权 非负
+pdfPostselectionLogCost_lt_of_exponential	密度函数后选择对数代价 < 由 指数
+pdfQuestionWeight_le_constantStrategy	密度函数问题权 ≤ 常数策略
+postselectionLogCost_nonneg	后选择对数代价 非负
+repeatedAlicePostselectedCoordinateMarginal	重复 Alice 后选择坐标边缘
+repeatedAlicePostselectedQuestionLaw_nonneg	重复 Alice 后选择问题律 非负
+repeatedBobPostselectedCoordinateMarginal	重复 Bob 后选择坐标边缘
+repeatedBobPostselectedQuestionLaw_nonneg	重复 Bob 后选择问题律 非负
+repeatedConditionedOutcomeLaw_pos_of_ne_zero	重复条件化结果律 正 由 ≠ 零
+repeatedConditionedOutcomeLaw_relativeEntropy	重复条件化结果律 相对熵
+repeated_partialWinMass_expansion	重复 偏获胜质量 展开
+strategyEventLaw_winEvent	策略事件律 获胜事件
+Game.weight_normalized	博弈 · 权 归一化
+flaggedQuestionWeight_sum	带标记问题权 和
+gameQuestionX_nonempty	博弈问题 X 非空
+gameQuestionY_nonempty	博弈问题 Y 非空
+localQuestionWeight_sum	局部问题权 和
+POVM.complete	POVM · 完备
+Strategy.jointEffect_complete	策略 · 联合效应 完备
+actualStoppingGlobalWinningEffect_cross_eq_zero	实际停止整体必胜效应 交叉 = 零
+dSVDensityRationalCompleteProjectiveThresholdEffect_false	d SV 密度有理完备射影阈值效应 假
+dSVUniformDensityBinarySpectral_false_eq_complement	d SV 一致密度二元谱 假 = 补
+dependentBlockPOVM_effect_same	依赖块 POVM 效应 相同
+directDSVActualReindexedRetainedPOVMWinningEffect	直 DSV 实际重标指标保留 POVM 必胜效应
+directDSVActualReindexedRetainedPOVM_effect	直 DSV 实际重标指标保留 POVM 效应
+exactSourceJointEffect_quadratic	精确源联合效应 二次
+mixtureJointEffect_compress	混合联合效应 压缩
+reindexedCatalystPOVM_effect	重标指标催化剂 POVM 效应
+transposePOVM_projective	转置 POVM 射影
+twoBlockPOVM_effect_inl	二块 POVM 效应 左注入
+twoBlockPOVM_effect_inr	二块 POVM 效应 右注入
+unconditionalActualLocalPOVMWinningEffect_add_losingEffect	无条件实际局部 POVM 必胜效应 + 必败效应
+unconditionalConjugatePOVM_jointEffect	无条件共轭 POVM 联合效应
+unitaryConjugatePOVM_jointEffect	酉共轭 POVM 联合效应
+POVM.positive	POVM · 正
+Strategy.jointEffect_positive	策略 · 联合效应 正
+actualStoppingBranchWinningEffect_posSemidef	实际停止分支必胜效应 正半定
+coherentBinaryJointOutcome_norm_sq	相干二元联合结果 范数 平方
+dSVDensityRationalCompleteProjectiveThresholdProjector_complement_pos	d SV 密度有理完备射影阈值投影算子 补 正
+dSVDensityRationalCompleteProjectiveThresholdProjector_pos	d SV 密度有理完备射影阈值投影算子 正
+dSVDensityRationalPhysicalProjector_pos	d SV 密度有理物理投影算子 正
+unconditionalActualLocalPOVMLosingEffect_posSemidef	无条件实际局部 POVM 必败效应 正半定
+unconditionalActualLocalPOVMWinningEffect_posSemidef	无条件实际局部 POVM 必胜效应 正半定
+Pinsker.centered_log_lower_of_one_le	Pinsker · 中心化 对数 下 由 一 ≤
+Pinsker.centered_log_upper_of_le_one	Pinsker · 中心化 对数 上 由 ≤ 一
+Pinsker.pinskerScalarGap_derivative_nonneg	Pinsker · pinsker 标量间隙 导数 非负
+Pinsker.pinskerScalarGap_derivative_nonpos	Pinsker · pinsker 标量间隙 导数 非正
+Pinsker.finiteRelativeEntropy_eq_log_sum	Pinsker · 有限相对熵 = 对数 和
+finiteRelativeEntropy_uniform_le_log_card	有限相对熵 一致 ≤ 对数 基数
+Pinsker.finiteRelativeEntropy_eq_log_sum_of_absolute_continuity	Pinsker · 有限相对熵 = 对数 和 由 绝对 连续性
+finiteProductMarginal_relativeEntropy_le	有限积边缘 相对熵 ≤
+Pinsker.finite_pinsker	Pinsker · 有限 pinsker
+Pinsker.finite_pinsker_of_absolute_continuity	Pinsker · 有限 pinsker 由 绝对 连续性
+Pinsker.finite_pinsker_sqrt_of_absolute_continuity	Pinsker · 有限 pinsker 平方根 由 绝对 连续性
+exactLocallySampleableJA_pinsker	精确局部可采样 JA pinsker
+exactLocallySampleableJB_pinsker	精确局部可采样 JB pinsker
+Pinsker.hasDerivAt_pinskerScalarGap	Pinsker · 有导数在 pinsker 标量间隙
+Pinsker.pinskerScalarGap_nonneg	Pinsker · pinsker 标量间隙 非负
+Pinsker.quadratic_le_klFun	Pinsker · 二次 ≤ kl 函数
+Pinsker.pinsker_rational_coefficient_le	Pinsker · pinsker 有理 系数 ≤
+Pinsker.quadratic_density_le_weighted_kl	Pinsker · 二次 密度 ≤ 加权 kl
+Pinsker.sum_over_positive_reference_support	Pinsker · 和 之上 正 参考 支撑
+UnconditionalActualFairSourceRoundingContext.dimension_pos	无条件实际公平源舍入上下文 · 维数 正
+UnconditionalActualFairSourceRoundingContext.failure	无条件实际公平源舍入上下文 · 失败
+UnconditionalActualFairSourceRoundingContext.positive	无条件实际公平源舍入上下文 · 正
+UnconditionalActualFairSourceRoundingContext.remaining	无条件实际公平源舍入上下文 · 剩余
+UnconditionalActualFairSourceStoppingHazardData.asynchronous	无条件实际公平源停止风险数据 · 异步
+UnconditionalActualFairSourceStoppingHazardData.fine	无条件实际公平源停止风险数据 · 精细
+UnconditionalActualFairSourceStoppingHazardData.grid	无条件实际公平源停止风险数据 · 网格
+UnconditionalActualFairSourceStoppingHazardData.harmonic	无条件实际公平源停止风险数据 · 调和
+UnconditionalActualFairSourceStoppingHazardData.hazard	无条件实际公平源停止风险数据 · 风险
+UnconditionalActualFairSourceStoppingHazardData.phases	无条件实际公平源停止风险数据 · 相位
+UnconditionalActualFairSourceStoppingHazardData.scalar	无条件实际公平源停止风险数据 · 标量
+UnconditionalActualFairSourceStoppingHazardData.terminal	无条件实际公平源停止风险数据 · 终结
+UnconditionalActualFairSourceStoppingHazardData.width_large	无条件实际公平源停止风险数据 · 宽度 大
+exactFairFullOutcomeBornMass_eq_conditioned	精确公平完整结果 Born 质量 = 条件化
+exactFairWinningOutcomeBornMass_eq_refined	精确公平必胜结果 Born 质量 = 加细
+exactReverseAliceMarkedPosteriorConditional_eq_sourceFiber	精确反转 Alice 带标记后验条件 = 源纤维
+exactReverseBobMarkedPosteriorConditional_eq_sourceFiber	精确反转 Bob 带标记后验条件 = 源纤维
+Strategy.winProbability_eq_winningEffect_born	策略 · 获胜概率 = 必胜效应 born
+pureVectorWinningProbability_eq	纯向量必胜概率 =
+entangledValue_le_one	纠缠值 ≤ 一
+winProbabilities_bddAbove	获胜概率 有界上方
+entangledValue_nonneg	纠缠值 非负
+unconditionalSourcePhysicalRounding_exists_large	无条件源物理舍入 存在 大
+Strategy.winningEffect_born	策略 · 必胜效应 born
+unconditionalActualFairCachedLedgerStoppingTransfer	无条件实际公平缓存账本停止转移
+UnconditionalActualFairCachedStoppedAnalyticLedger.actual_mass	无条件实际公平缓存停止解析账本 · 实际 质量
+UnconditionalActualFairCachedStoppedAnalyticLedger.actual_success	无条件实际公平缓存停止解析账本 · 实际 成功
+UnconditionalActualFairCachedStoppedAnalyticLedger.canonical_mass	无条件实际公平缓存停止解析账本 · 典范 质量
+UnconditionalActualFairCachedStoppedAnalyticLedger.canonical_row_mass	无条件实际公平缓存停止解析账本 · 典范 行 质量
+UnconditionalActualFairCachedStoppedAnalyticLedger.clean_deviation	无条件实际公平缓存停止解析账本 · 干净 偏差
+UnconditionalActualFairCachedStoppedAnalyticLedger.clip_deviation	无条件实际公平缓存停止解析账本 · 截断 偏差
+UnconditionalActualFairCachedStoppedAnalyticLedger.same_work_mass	无条件实际公平缓存停止解析账本 · 相同 工作 质量
+UnconditionalActualFairSourceRoundingContext.answerNonempty	无条件实际公平源舍入上下文 · 答案非空
+unconditionalActualFairSourceRoundingContext_physicalBranch	无条件实际公平源舍入上下文 物理分支
+unconditionalActualFairSourceRoundingContext_verifierLedger	无条件实际公平源舍入上下文 验证者账本
+UnconditionalActualFairSourceRoundingContext.prepared_normalized	无条件实际公平源舍入上下文 · 已制备 归一化
+unconditionalActualFairSourceRoundingContext_actualRow	无条件实际公平源舍入上下文 实际行
+unconditionalActualFairSourceRoundingContext_analyticLedger	无条件实际公平源舍入上下文 解析账本
+unconditionalActualFairSourceRoundingContext_cleanBound	无条件实际公平源舍入上下文 干净界
+unconditionalActualFairSourceRoundingContext_clippingBound	无条件实际公平源舍入上下文 截断界
+unconditionalActualFairSourceRoundingContext_stoppedVerifier	无条件实际公平源舍入上下文 停止验证者
+UnconditionalActualFairSourceRoundingContext.fine_all	无条件实际公平源舍入上下文 · 精细 所有
+UnconditionalActualFairSourceRoundingContext.width_all	无条件实际公平源舍入上下文 · 宽度 所有
+UnconditionalActualFairSourceRoundingContext.width_positive	无条件实际公平源舍入上下文 · 宽度 正
+UnconditionalActualFairSourceSamplerData.mismatch	无条件实际公平源采样器数据 · 失配
+UnconditionalActualFairSourceSamplerData.total_variation	无条件实际公平源采样器数据 · 总 变差
+actualStoppingBranchBorn_nonneg	实际停止分支 Born 非负
+actualStoppingGlobalBorn_eq_sum	实际停止整体 Born = 和
+actualStoppingQuestionLocalWinningProbability_eq_sum	实际停止问题局部必胜概率 = 和
+actualStoppingGlobalWinningEffect_same	实际停止整体必胜效应 相同
+actualStoppingQuestionLocalFlaggedWinningProbability_ge_matched	实际停止问题局部带标记必胜概率 ≥ 已匹配
+unconditionalFairPhysicalFlaggedStoppingTransfer	无条件公平物理带标记停止转移
+actualStoppingQuestionLocalWinningEffect_quadratic	实际停止问题局部必胜效应 二次
+aliceMartingaleEntropyBudget	alice 鞅熵预算
+martingaleRate_nonneg	鞅码率 非负
+alice_reveal_increment	alice 揭示 增量
+fullCoordinateAliceEntropyIncrement_eq	完整坐标 Alice 熵增量 =
+repeated_winProbability_le_postselectionMass	重复 获胜概率 ≤ 后选择质量
+answerCount_pos_of_postselection	答案计数 正 由 后选择
+answerLogCost_nonneg_of_postselection	答案对数代价 非负 由 后选择
+conditionedAnswerFlag_card_pos	条件化答案旗 基数 正
+martingale_log_cost_eq	鞅 对数 代价 =
+exactFairSourceScalarCost_nonneg	精确公平源标量代价 非负
+exactSourceClassicalInformationRate_le_three_martingaleRate	精确源经典信息码率 ≤ 三 鞅码率
+binaryStoppingPartition	二元停止划分
+dSVDensityRationalActualMixed_mass_partition	d SV 密度有理实际混合 质量 划分
+bochner_integral_posSemidef	bochner 积分 正半定
+integrated_weighted_spectralPurificationFilter_jensen	已积分 加权 谱纯化滤子 jensen
+bornTracePairing_contractions_le_one	born 迹配对 收缩 ≤ 一
+exactFairAliceScalarBornMass_le_one	精确公平 Alice 标量 Born 质量 ≤ 一
+exactFairBobScalarBornMass_le_one	精确公平 Bob 标量 Born 质量 ≤ 一
+fullHistoryAtomBornMass_le_one	完整历史原子 Born 质量 ≤ 一
+matrixLogEntropy_born_lower_bound_right	矩阵对数熵 born 下 界 右
+matrixLogEntropy_born_lower_bound_left	矩阵对数熵 born 下 界 左
+bornWeighted_normalized_distance	born 加权 归一化 距离
+dSVActualGlobalMixedBornSuccess_eq	d SV 实际整体混合 Born 成功 =
+dSVDensityRationalActualMixedOutcome_norm_sq_eq_born	d SV 密度有理实际混合结果 范数 平方 = born
+coherentSharedRandomControlledUnitary_inv	相干共享随机受控酉 逆
+dSVUniformDensityPhysicalSpectralAliceCopy_inv	d SV 一致密度物理谱 Alice 副本 逆
+commonFinitePurification_weighted_left_variation_le	公共有限纯化 加权 左 变差 ≤
+commonFinitePurification_weighted_right_variation_le	公共有限纯化 加权 右 变差 ≤
+commonPurificationSubspace_finiteDimensional	公共纯化子空间 有限维
+exactSourceEquationTwentyOne_of_fifteen	精确源方程二十一 由 十五
+finitePurificationMatrix_difference_gram_apply	有限纯化矩阵 差 gram 作用于
+finitePurificationMatrix_gram_apply	有限纯化矩阵 gram 作用于
+finitePurificationMatrix_pair_difference_gram_apply	有限纯化矩阵 对 差 gram 作用于
+common_finite_purification_pair_jensen	公共 有限 纯化 对 jensen
+complexInner_norm_sq_le	复内积 范数 平方 ≤
+twoSidedSchmidtSpectralEnergy_le	二侧 Schmidt 谱能量 ≤
+exactAliceCoordinateFilter_posSemidef	精确 Alice 坐标滤子 正半定
+exactAliceCoordinateFilter_sum	精确 Alice 坐标滤子 和
+exactAliceQuestionFilter_complement_posSemidef	精确 Alice 问题滤子 补 正半定
+fullHistoryAliceFilter_complement_posSemidef	完整历史 Alice 滤子 补 正半定
+fullCoordinateInsertedHistory_aliceFilter	完整坐标已插入历史 alice 滤子
+exactAliceQuestionFilter_posSemidef	精确 Alice 问题滤子 正半定
+fullHistoryAliceFilter_posSemidef	完整历史 Alice 滤子 正半定
+conditionedAnswerFlag_card	条件化答案旗 基数
+conditionedAnswerFlag_log_card	条件化答案旗 对数 基数
+reweightedSeedPrefix_absolute_continuity	重加权种子前缀 绝对 连续性
+reweightedSeed_source_equation_twenty_five	重加权种子 源 方程 二十 五
+conditionedAnswerMatches_iff	条件化答案匹配 ⇔
+conditionedEffects_postselection_sum	条件化效应 后选择 和
+exactBobCoordinateFilter_posSemidef	精确 Bob 坐标滤子 正半定
+exactBobCoordinateFilter_sum	精确 Bob 坐标滤子 和
+exactBobQuestionFilter_complement_posSemidef	精确 Bob 问题滤子 补 正半定
+fullHistoryBobFilter_complement_posSemidef	完整历史 Bob 滤子 补 正半定
+fullCoordinateInsertedHistory_bobFilter	完整坐标已插入历史 bob 滤子
+exactBobQuestionFilter_posSemidef	精确 Bob 问题滤子 正半定
+fullHistoryBobFilter_posSemidef	完整历史 Bob 滤子 正半定
+exactFineCoordinateWinningBorn_collapse	精确精细坐标必胜 Born 坍缩
+fullQuestionConditionedBornMass_eq	完整问题条件化 Born 质量 =
+conditionedEventDistribution_absolute_continuity	条件化事件分布 绝对 连续性
+reweightedSeedPrefixJoint_nonneg	重加权种子前缀联合 非负
+reweightedSeedProjection_relativeEntropy_le	重加权种子投影 相对熵 ≤
+conditionedEventDistribution_sum	条件化事件分布 和
+reweightedSeedPrefixJoint_sum	重加权种子前缀联合 和
+conjugateUnitaryBasisOverlap_norm_sq	共轭酉基重叠 范数 平方
+targetCanonicalSpectralEnergy_le_of_canonicalSchmidt	目标典范谱能量 ≤ 由 典范 Schmidt
+conjugateUnitary_apply	共轭酉 作用于
+exists_proofSchmidtDecomposition	存在 证明 Schmidt 分解
+exists_proofTargetCanonicalSpectralSchmidtDecomposition	存在 证明目标典范谱 Schmidt 分解
+unconditionalConjugateBobBasisOverlap_sum	无条件共轭 Bob 基重叠 和
+controlledFiniteTensorLocalUnitary_apply	受控有限张量局部酉 作用于
+dSVDensityRationalHeterogeneousActualSpectralStopping_apply	d SV 密度有理异质实际谱停止 作用于
+dSVUniformDensityFirstAcceptControlledTensor_inv_apply	d SV 一致密度第一接受受控张量 逆 作用于
+convexMixtureStrategy_outcomeProbability	凸混合策略 结果概率
+convexMixtureStrategy_winProbability	凸混合策略 获胜概率
+pureFlaggedStrategy_winProbability	纯带标记策略 获胜概率
+dSVUniformDensityThresholdShared_mixedBorn_eq	d SV 一致密度阈值共享 混合 Born =
+dSVAdaptiveSoft_sqrt_sub_sq_le_abs	d SV 自适应软 平方根 − 平方 ≤ 绝对值
+dSVDensityRationalCanonicalAcceptedCoefficient_error_sq_le	d SV 密度有理典范被接受系数 误差 平方 ≤
+dSVBobTargetLocalHarmonicCleanup_stable	d SV Bob 目标局部调和清理 稳定
+dSVBobTargetLocalUniformHarmonicWorkCleanup	d SV Bob 目标局部一致调和工作清理
+dSVDensityRationalPublicBucketLocalHarmonicCleanup_sq	d SV 密度有理公开桶局部调和清理 平方
+dSVCanonicalFailurePrefix_card	d SV 典范失败前缀 基数
+dSVCanonicalFailurePrefix_inner	d SV 典范失败前缀 内积
+dSVCanonicalFailurePrefix_norm_sq	d SV 典范失败前缀 范数 平方
+dSVCanonicalFailurePrefix_eq_zero_of_rank_zero	d SV 典范失败前缀 = 零 由 秩 零
+dSVDensityRationalMixedCanonicalPrefixPhysicalRawHarmonicTensor_eq	d SV 密度有理混合典范前缀物理原始调和张量 =
+dSVCanonicalFailurePrefix_sub_norm_sq	d SV 典范失败前缀 − 范数 平方
+dSVCanonicalFailurePrefix_norm_eq_sqrt	d SV 典范失败前缀 范数 = 平方根
+dSVDensityRationalCanonicalUnitPrefix_relative_distance_sq	d SV 密度有理典范单位前缀 相对 距离 平方
+dSVDensityRationalPhysicalMixedAcceptedPrefixWork_norm_sq	d SV 密度有理物理混合被接受前缀工作 范数 平方
+dSVDensityRationalMixedCanonicalPrefixPureHarmonicTensor_prefix_sub_norm_sq	d SV 密度有理混合典范前缀纯调和张量 前缀 − 范数 平方
+dSVDensityRationalActualMixedAsynchronousMass_eq_born	d SV 密度有理实际混合异步质量 = born
+dSVDensityRationalActualMixedAsynchronousMass_eq_crossHazard	d SV 密度有理实际混合异步质量 = 交叉风险
+dSVDensityRationalActualMixed_escape_ge_diagonal	d SV 密度有理实际混合 逃逸 ≥ 对角
+dSVDensityRationalHeterogeneousPhysicalStageAsynchronous_eq_hazard	d SV 密度有理异质物理阶段异步 = 风险
+dSVDensityRationalActualMixedContinueMass_eq_born	d SV 密度有理实际混合继续质量 = born
+dSVDensityRationalActualMixedSuccessMass_eq	d SV 密度有理实际混合成功质量 =
+dSVDensityRationalHeterogeneousPhysicalStage_escape_ge_diagonal	d SV 密度有理异质物理阶段 逃逸 ≥ 对角
+dSVDensityRationalHeterogeneousPhysicalStage_partition	d SV 密度有理异质物理阶段 划分
+dSVDensityRationalCanonicalAcceptedTarget_distance_sq_le	d SV 密度有理典范被接受目标 距离 平方 ≤
+dSVDensityRationalCanonicalAcceptedCoefficient_nonneg	d SV 密度有理典范被接受系数 非负
+unconditionalCanonicalAcceptedCoefficient_sourceScale	无条件典范被接受系数 源尺度
+dSVDensityRationalCanonicalAcceptedCoefficient_sq	d SV 密度有理典范被接受系数 平方
+dSVDensityRationalCanonicalAcceptedTarget_norm_sq	d SV 密度有理典范被接受目标 范数 平方
+dSVDensityRationalPhysicalAcceptedRank_targetCoefficient_sq	d SV 密度有理物理被接受秩 目标系数 平方
+dSVDensityRationalCanonicalAcceptedTarget_distance_le	d SV 密度有理典范被接受目标 距离 ≤
+dSVDensityRationalCanonicalNormalizedTarget_distance_le	d SV 密度有理典范归一化目标 距离 ≤
+dSVDensityRationalCanonicalAcceptedTarget_distance_sq_eq	d SV 密度有理典范被接受目标 距离 平方 =
+unconditionalExactSourceScalarClipping	无条件精确源标量截断
+dSVDensityRationalCanonicalAcceptedTarget_ne_zero	d SV 密度有理典范被接受目标 ≠ 零
+dSVDensityRationalCanonicalNormalizedTarget_norm	d SV 密度有理典范归一化目标 范数
+unconditionalCanonicalAcceptedScale_sq_eq_diagonalBorn	无条件典范被接受尺度 平方 = 对角 Born
+unconditionalSelectedCopyIdealStage_norm_sq	无条件选中副本理想阶段 范数 平方
+dSVDensityRationalCanonicalAcceptedUnitTarget_distance_le	d SV 密度有理典范被接受单位目标 距离 ≤
+unconditionalClippedConjugateUnitTarget_distance_sq_le	无条件截断共轭单位目标 距离 平方 ≤
+dSVDensityRationalCanonicalAliceBasis_target	d SV 密度有理典范 Alice 基 目标
+unconditionalActualFairCanonicalVector_norm_sq	无条件实际公平典范向量 范数 平方
+unconditionalCanonicalRaw_eq_norm_smul_unit	无条件典范原始 = 范数 数乘 单位
+dSVDensityRationalCanonicalPrefixMask_eq_diagonal	d SV 密度有理典范前缀掩码 = 对角
+dSVDensityRationalMixedCanonicalRawSource_apply	d SV 密度有理混合典范原始源 作用于
+dSVDensityRationalCanonicalPrefixMask_transpose	d SV 密度有理典范前缀掩码 转置
+dSVDensityRationalMixedCanonicalProjectorMatrix_eq	d SV 密度有理混合典范投影算子矩阵 =
+dSVDensityRationalPublicBucketCanonicalPrefixCleanup_sq	d SV 密度有理公开桶典范前缀清理 平方
+dSVDensityRationalCompleteProjectiveBinaryPOVM_effect	d SV 密度有理完备射影二元 POVM 效应
+dSVDensityRationalCompleteProjectiveOutcome_eq_block_action	d SV 密度有理完备射影结果 = 块 作用
+dSVDensityRationalFirstAcceptPhysicalEffect_eq_spectralMask	d SV 密度有理第一接受物理效应 = 谱掩码
+dSVDensityRationalCompleteProjectiveBinaryPOVM_projective	d SV 密度有理完备射影二元 POVM 射影
+dSVDensityRationalCompleteProjectiveOutcome_eq_blockVector	d SV 密度有理完备射影结果 = 块向量
+dSVDensityRationalMixedCanonicalSpectralOutcome_eq	d SV 密度有理混合典范谱结果 =
+dSVDensityRationalCompleteProjectiveOutcome_norm_sq_eq	d SV 密度有理完备射影结果 范数 平方 =
+dSVDensityRationalCompleteStoppedOptionalOutcome_some_some	d SV 密度有理完备停止可选结果 某个 某个
+dSVDensityRationalMixedAcceptedPrefix_norm_sq	d SV 密度有理混合被接受前缀 范数 平方
+dSVDensityRationalCompleteProjectiveThresholdEffect_projective	d SV 密度有理完备射影阈值效应 射影
+dSVDensityRationalCompleteStoppedOptionalOutcome_none_none	d SV 密度有理完备停止可选结果 无 无
+dSVDensityRationalFirstAcceptActualOptionalOutcome_apply	d SV 密度有理第一接受实际可选结果 作用于
+dSVDensityRationalHeterogeneousActualPhysicalFlagBornCopyConditionMask	d SV 密度有理异质实际物理旗 Born 副本条件掩码
+dSVDensityRationalHeterogeneousPhysicalStageOutcome_nonneg	d SV 密度有理异质物理阶段结果 非负
+dSVDensityRationalHeterogeneousStoppedCommonPrefixFailureVector_norm_sq	d SV 密度有理异质停止公共前缀失败向量 范数 平方
+exactPaddedVector_norm	精确填充向量 范数
+taggedTensorVector_norm	带标签张量向量 范数
+unconditionalActualCanonicalRawSelectedPhysicalStage_eq	无条件实际典范原始选中物理阶段 =
+unconditionalActualFairSourceOuterBorn_of_base	无条件实际公平源外 Born 由 基
+unconditionalActualFairSourceVector_norm_sq	无条件实际公平源向量 范数 平方
+unconditionalMixedConjugateSelectedBranchCovariance	无条件混合共轭选中分支协方差
+unconditionalSmallSourcePhysicalLoss	无条件小源物理损失
+dSVDensityRationalCompleteStoppedOptionalLocalSchedule_after	d SV 密度有理完备停止可选局部调度 之后
+dSVDensityRationalHeterogeneousActualCommonStopScheduledOutcome_after	d SV 密度有理异质实际公共停止调度结果 之后
+dSVDensityRationalHeterogeneousActualPhysicalMatchedCopyBorn	d SV 密度有理异质实际物理已匹配副本 Born
+dSVDensityRationalCompleteStoppedOptionalLocalSchedule_before	d SV 密度有理完备停止可选局部调度 之前
+dSVDensityRationalHeterogeneousActualCommonStopScheduledOutcome_before	d SV 密度有理异质实际公共停止调度结果 之前
+dSVDensityRationalCompleteStoppedOptionalLocalSchedule_hit	d SV 密度有理完备停止可选局部调度 命中
+dSVDensityRationalHeterogeneousActualCommonStopScheduledOutcome_hit	d SV 密度有理异质实际公共停止调度结果 命中
+dSVDensityRationalCompleteStoppedOptionalLocalSchedule_zero	d SV 密度有理完备停止可选局部调度 零
+dSVDensityRationalHeterogeneousActualPhysicalNoHitCopyBorn	d SV 密度有理异质实际物理无命中副本 Born
+dSVDensityRationalHeterogeneousActualPhysicalFlagBornState_allFlags	d SV 密度有理异质实际物理旗 Born 状态 所有标记
+dSVDensityRationalFirstAcceptActualPredicateMask_eq_spectralMask	d SV 密度有理第一接受实际谓词掩码 = 谱掩码
+dSVDensityRationalFirstAcceptLocalSpectralMask_transpose	d SV 密度有理第一接受局部谱掩码 转置
+dSVDensityRationalFirstAcceptPhysicalBobEffect_eq_spectralMask	d SV 密度有理第一接受物理 Bob 效应 = 谱掩码
+dSVDensityRationalHeterogeneousActualPhysicalFlagBornBobCopy_eq_optionalEffect	d SV 密度有理异质实际物理旗 Born Bob 副本 = 可选效应
+dSVDensityRationalHeterogeneousActualPhysicalFlagBornAliceCopy_eq_optionalEffect	d SV 密度有理异质实际物理旗 Born Alice 副本 = 可选效应
+dSVDensityRationalGridPrefix_nonneg	d SV 密度有理网格前缀 非负
+dSVDensityRationalGrid_density_defect_le	d SV 密度有理网格 密度 亏量 ≤
+dSVDensityRationalGrid_rescaled_le_density	d SV 密度有理网格 重缩放 ≤ 密度
+dSVDensityRationalHeterogeneousActualAsynchronousFlagMass_eq_stoppedAsynchronousMass	d SV 密度有理异质实际异步旗质量 = 停止异步质量
+exists_proofDSVDensityRationalHeterogeneousStoppedCommonPrefixHazardBound	存在 证明 DSV 密度有理异质停止公共前缀风险界
+dSVDensityRationalHeterogeneousActualAsynchronousFlagMass_nonneg	d SV 密度有理异质实际异步旗质量 非负
+exists_proofUnconditionalStoppedCommonPrefixBalancedHazard	存在 证明无条件停止公共前缀平衡风险
+dSVDensityRationalHeterogeneousActualCommonStopPhysicalState_eq_outcomeProduct	d SV 密度有理异质实际公共停止物理状态 = 结果积
+directDSVActualStoppingSelectedHistory_sourceProduct	直 DSV 实际停止选中历史 源积
+dSVDensityRationalHeterogeneousStoppedCommonPrefixFailureCopy_eq_actual	d SV 密度有理异质停止公共前缀失败副本 = 实际
+dSVDensityRationalHeterogeneousActualFirstAcceptUnitary_mulVec	d SV 密度有理异质实际第一接受酉 ×向量
+dSVDensityRationalHeterogeneousActualFirstAcceptUnitary_zeroFlag	d SV 密度有理异质实际第一接受酉 零旗
+dSVDensityRationalHeterogeneousActualFirstAccepted_allFlags_iff	d SV 密度有理异质实际第一被接受 所有标记 ⇔
+dSVDensityRationalHeterogeneousActualFirstAccepted_sourceProduct	d SV 密度有理异质实际第一被接受 源积
+dSVDensityRationalHeterogeneousActualFirstAccepted_prefix_iff	d SV 密度有理异质实际第一被接受 前缀 ⇔
+dSVDensityRationalHeterogeneousActualPhysicalLocalUnitary_sourceProduct	d SV 密度有理异质实际物理局部酉 源积
+dSVDensityRationalHeterogeneousActualFirstAccepted_zero_iff	d SV 密度有理异质实际第一被接受 零 ⇔
+dSVDensityRationalHeterogeneousActualPhysicalBaseFlagBorn_eq_flagMass	d SV 密度有理异质实际物理基旗 Born = 旗质量
+dSVDensityRationalHeterogeneousActualPhysicalFlagBorn_mass_partition	d SV 密度有理异质实际物理旗 Born 质量 划分
+dSVDensityRationalHeterogeneousActualPhysicalFlagBornAlice_sourceProduct	d SV 密度有理异质实际物理旗 Born Alice 源积
+dSVDensityRationalHeterogeneousActualPhysicalFlagBornBob_sourceProduct	d SV 密度有理异质实际物理旗 Born Bob 源积
+dSVDensityRationalHeterogeneousActualPhysicalFlagBornCopyMatrix_eq_spectralMask	d SV 密度有理异质实际物理旗 Born 副本矩阵 = 谱掩码
+dSVDensityRationalHeterogeneousActualPhysicalFlagMass_eq_optionalProduct	d SV 密度有理异质实际物理旗质量 = 可选积
+dSVDensityRationalHeterogeneousActualPhysicalFlagMass_succ_succ_eq_stage	d SV 密度有理异质实际物理旗质量 后继 后继 = 阶段
+dSVDensityRationalHeterogeneousActualPhysicalFlagMass_zero_zero_eq_terminal	d SV 密度有理异质实际物理旗质量 零 零 = 终结
+dSVDensityRationalHeterogeneousActualPhysicalMatchedFlagMass_eq_stoppedSuccess	d SV 密度有理异质实际物理已匹配旗质量 = 停止成功
+dSVDensityRationalHeterogeneousActualPhysicalLocalUnitary_apply	d SV 密度有理异质实际物理局部酉 作用于
+dSVDensityRationalHeterogeneousActualPhysicalState_apply	d SV 密度有理异质实际物理状态 作用于
+dSVDensityRationalHeterogeneousActualPhysicalState_apply_zeroFlag	d SV 密度有理异质实际物理状态 作用于 零旗
+dSVDensityRationalHeterogeneousTargetFirstSpectralPhysicalSource_apply	d SV 密度有理异质目标第一谱物理源 作用于
+dSVDensityRationalHeterogeneousActualPhysicalState_norm	d SV 密度有理异质实际物理状态 范数
+dSVDensityRationalHeterogeneousActualPhysical_firstHitProduct	d SV 密度有理异质实际物理 第一命中积
+dSVDensityRationalHeterogeneousCommonStopSpectralAliceMass_eq_diagonalBorn	d SV 密度有理异质公共停止谱 Alice 质量 = 对角 Born
+exists_proofDSVDensityRationalHeterogeneousCommonStopSpectralGaugeContinuity_sq	存在 证明 DSV 密度有理异质公共停止谱规范连续性 平方
+dSVDensityRationalHeterogeneousCommonStopSpectralAtomWeight_nonneg	d SV 密度有理异质公共停止谱原子权 非负
+dSVDensityRationalHeterogeneousCommonStopSpectralRankGap_eq_hazard	d SV 密度有理异质公共停止谱秩间隙 = 风险
+dSVDensityRationalHeterogeneousOriginalSameStopSigmaSource_apply	d SV 密度有理异质原始相同停止σ源 作用于
+dSVDensityRationalHeterogeneousOriginalSameStopSigmaSource_eq_stopped	d SV 密度有理异质原始相同停止σ源 = 停止
+dSVDensityRationalHeterogeneousOriginalStoppedState_apply	d SV 密度有理异质原始停止状态 作用于
+unconditionalSourcePhysicalStoppingTargetFirst_branch_apply	无条件源物理停止目标第一 分支 作用于
+dSVDensityRationalHeterogeneousPhysicalDiagonalSurvival_budget	d SV 密度有理异质物理对角存活 预算
+exists_proofDSVDensityRationalHeterogeneousStoppedCommonStopGaugeErrorBound	存在 证明 DSV 密度有理异质停止公共停止规范误差界
+unconditionalActualC485NormalizedDiagonalWork_mass_sum_le_one	无条件实际 C 485 归一化对角工作 质量 和 ≤ 一
+dSVDensityRationalHeterogeneousPhysicalStageAsynchronous_eq_escape_mul_ratio	d SV 密度有理异质物理阶段异步 = 逃逸 × 比
+dSVDensityRationalHeterogeneousPhysicalStoppedAsynchronousMass_eq_ratioLedger	d SV 密度有理异质物理停止异步质量 = 比账本
+dSVDensityRationalHeterogeneousPhysicalStageAsynchronous_relative_diagonal_le	d SV 密度有理异质物理阶段异步 相对 对角 ≤
+dSVDensityRationalHeterogeneousPhysicalStoppedAsynchronousMass_eq_hazard	d SV 密度有理异质物理停止异步质量 = 风险
+dSVDensityRationalHeterogeneousPhysicalStageHazardRatio_le_targetDistance	d SV 密度有理异质物理阶段风险比 ≤ 目标距离
+dSVDensityRationalHeterogeneousPhysicalStageContinue_le_uniform	d SV 密度有理异质物理阶段继续 ≤ 一致
+dSVDensityRationalHeterogeneousPhysicalTerminalMass_le_pow	d SV 密度有理异质物理终结质量 ≤ 幂
+dSVDensityRationalHeterogeneousPhysicalStageDiagonalSuccess_ge_uniform	d SV 密度有理异质物理阶段对角成功 ≥ 一致
+dSVDensityRationalHeterogeneousPhysicalStageDiagonalSuccess_lower	d SV 密度有理异质物理阶段对角成功 下
+dSVDensityRationalHeterogeneousPhysicalStageHazardRatio_le_relative_diagonal	d SV 密度有理异质物理阶段风险比 ≤ 相对 对角
+dSVDensityRationalHeterogeneousPhysicalStoppedAsynchronousMass_le_targetDistance	d SV 密度有理异质物理停止异步质量 ≤ 目标距离
+dSVDensityRationalHeterogeneousPhysicalStoppedEscape_budget	d SV 密度有理异质物理停止逃逸 预算
+dSVDensityRationalHeterogeneousPhysicalSurvival_nonneg	d SV 密度有理异质物理存活 非负
+dSVDensityRationalHeterogeneousPhysicalStopped_mass_partition	d SV 密度有理异质物理停止 质量 划分
+unconditionalSourcePhysicalSameGridWeightedStoppingLedger	无条件源物理相同网格加权停止账本
+dSVDensityRationalHeterogeneousPhysicalStoppedAsynchronousMass_nonneg	d SV 密度有理异质物理停止异步质量 非负
+unconditionalActualFairCleanedRow_le_one	无条件实际公平已清理行 ≤ 一
+unconditionalActualFairWeightedStoppedSuccess	无条件实际公平加权停止成功
+dSVDensityRationalHeterogeneousPhysicalTerminalMass_nonneg	d SV 密度有理异质物理终结质量 非负
+dSVDensityRationalHeterogeneousPhysicalTerminalMass_le_horizon	d SV 密度有理异质物理终结质量 ≤ 视界
+dSVDensityRationalHeterogeneousPhysicalUniformEscapeRate_le_half	d SV 密度有理异质物理一致逃逸码率 ≤ 一半
+dSVDensityRationalHeterogeneousPhysical_exists_positive_horizon	d SV 密度有理异质物理 存在 正 视界
+dSVDensityRationalHeterogeneousPhysicalUniformEscapeRate_pos	d SV 密度有理异质物理一致逃逸码率 正
+dSVDensityRationalHeterogeneousStoppedCommonPrefixFailureVector_apply	d SV 密度有理异质停止公共前缀失败向量 作用于
+directDSVSelectedCopyLocalHistoryEquiv_before	直 DSV 选中副本局部历史等价 之前
+unconditionalSourcePhysicalCleanedSelectedHistoryEquiv_hit	无条件源物理已清理选中历史等价 命中
+dSVDensityRationalHeterogeneousStoppedCommonPrefixHazard_eq_gaugeError	d SV 密度有理异质停止公共前缀风险 = 规范误差
+unconditionalSelectedCopyRetainedWork_norm_sq	无条件选中副本保留工作 范数 平方
+dSVDensityRationalLargeWidthDiagonalMass_half	d SV 密度有理大宽度对角质量 一半
+dSVDensityRationalLargeWidthDiagonalMass_pos	d SV 密度有理大宽度对角质量 正
+dSVDensityRationalLargeWidthPhysicalDiagonalBornSuccess_pos	d SV 密度有理大宽度物理对角 Born 成功 正
+dSVDensityRationalLargeWidthPhysicalRelativeHazard_eq	d SV 密度有理大宽度物理相对风险 =
+dSVDensityRationalLargeWidthRelativeMismatch_le_discrepancy	d SV 密度有理大宽度相对失配 ≤ 偏差
+dSVDensityRationalLargeWidthPhysicalRelativeHazard_le	d SV 密度有理大宽度物理相对风险 ≤
+dSVDensityRationalLargeWidthRelativeMismatch_le_targetDistance	d SV 密度有理大宽度相对失配 ≤ 目标距离
+dSVDensityRationalLargeWidth_exists_sourceUniformParameters	d SV 密度有理大宽度 存在 源一致参数
+dSVDensityRationalLargeWidth_exists_fine_grid	d SV 密度有理大宽度 存在 精细 网格
+dSVDensityRationalLeftProjectiveDiagonalMass_lower	d SV 密度有理左射影对角质量 下
+dSVDensityRationalLeftProjectiveThresholdAtomMismatch_le_discrepancy	d SV 密度有理左射影阈值原子失配 ≤ 偏差
+dSVDensityRationalLocalSpectralPairBasisOverlap_norm_sq	d SV 密度有理局部谱对基重叠 范数 平方
+dSVDensityRationalLocalSpectralPairHistory_apply_norm_sq	d SV 密度有理局部谱对历史 作用于 范数 平方
+dSVDensityRationalMixedCanonicalPrefixPhysicalAcceptedSigmaState_norm_sq	d SV 密度有理混合典范前缀物理被接受σ状态 范数 平方
+dSVDensityRationalPublicBucketPhysicalCoherentMixedReset_distance_sq	d SV 密度有理公开桶物理相干混合重置 距离 平方
+dSVDensityRationalMixedCanonicalCrossGauge_eq	d SV 密度有理混合典范交叉规范 =
+dSVDensityRationalMixedCanonicalPrefixPhysicalAcceptedSigmaState_apply	d SV 密度有理混合典范前缀物理被接受σ状态 作用于
+unconditionalPhysicalAcceptedCoherentStage_apply	无条件物理被接受相干阶段 作用于
+unconditionalSelectedCopyCleanedStage_norm_sq	无条件选中副本已清理阶段 范数 平方
+dSVDensityRationalMixedCanonicalPrefixPhysicalLocalAction_real_smul	d SV 密度有理混合典范前缀物理局部作用 实 数乘
+dSVDensityRationalMixedCanonicalPrefixPhysicalRankWeightedAtomError_eq	d SV 密度有理混合典范前缀物理秩加权原子误差 =
+exists_proofDSVDensityRationalPublicBucketPhysicalRawRankCleanup_sq	存在 证明 DSV 密度有理公开桶物理原始秩清理 平方
+dSVDensityRationalMixedCanonicalPrefixPhysicalSigmaWeighted_norm_sq	d SV 密度有理混合典范前缀物理σ加权 范数 平方
+unconditionalSelectedCopy_coherentPhaseSigma_norm_sq	无条件选中副本 相干相位σ 范数 平方
+dSVDensityRationalMixedCanonicalPrefixPureHarmonicTensor_norm_sq	d SV 密度有理混合典范前缀纯调和张量 范数 平方
+exists_proofDSVDensityRationalPublicBucketPhysicalMixedPrefixCleanup_sq	存在 证明 DSV 密度有理公开桶物理混合前缀清理 平方
+dSVDensityRationalMixedCanonicalPrefixPureHarmonicTensor_real_smul	d SV 密度有理混合典范前缀纯调和张量 实 数乘
+dSVDensityRationalMixedCanonicalPrefixPureHarmonicTensor_sub	d SV 密度有理混合典范前缀纯调和张量 −
+dSVDensityRationalMixedCanonicalPrefixPureHarmonicTensor_unit	d SV 密度有理混合典范前缀纯调和张量 单位
+dSVDensityRationalMixedSpectralAtomBlock_eq_projectorProduct	d SV 密度有理混合谱原子块 = 投影算子积
+dSVDensityRationalMixedSpectralAtomBlock_trace_eq	d SV 密度有理混合谱原子块 迹 =
+dSVDensityRationalPhysicalAcceptedProjector_eq_spectralMask	d SV 密度有理物理被接受投影算子 = 谱掩码
+dSVDensityRationalPhysicalAcceptedRankMismatch_eq_thresholdMismatch	d SV 密度有理物理被接受秩失配 = 阈值失配
+dSVDensityRationalPrefixRankMismatch_eq_atomMismatch	d SV 密度有理前缀秩失配 = 原子失配
+dSVDensityRationalPhysicalAcceptedRank_eq_floor	d SV 密度有理物理被接受秩 = 下取整
+dSVDensityRationalProjectiveThresholdBin_eq_true_iff_prefix	d SV 密度有理射影阈值箱 = 真 ⇔ 前缀
+dSVDensityRationalPhysicalAcceptedRank_gridPrefix	d SV 密度有理物理被接受秩 网格前缀
+dSVDensityRationalPhysicalDiagonalBornSuccess_eq	d SV 密度有理物理对角 Born 成功 =
+dSVDensityRationalPhysicalMixedAcceptedThreshold_count	d SV 密度有理物理混合被接受阈值 计数
+dSVDensityRationalPhysicalMixedAcceptedThreshold_iff	d SV 密度有理物理混合被接受阈值 ⇔
+dSVDensityRationalPhysicalMixedBornSuccess_eq	d SV 密度有理物理混合 Born 成功 =
+dSVDensityRationalPhysicalMixedBornSuccess_loss_le	d SV 密度有理物理混合 Born 成功 损失 ≤
+dSVDensityRationalPhysicalProjectorCrossHazard_eq	d SV 密度有理物理投影算子交叉风险 =
+dSVDensityRationalPrefixRankMismatch_physicalHazard	d SV 密度有理前缀秩失配 物理风险
+dSVDensityRationalPhysicalProjectorSquare_eq_atomMismatch	d SV 密度有理物理投影算子平方 = 原子失配
+dSVDensityRationalPhysicalProjectorSquare_grid_eq	d SV 密度有理物理投影算子平方 网格 =
+dSVDensityRationalPhysicalProjector_complement_pos	d SV 密度有理物理投影算子 补 正
+dSVDensityRationalPhysicalProjector_projective	d SV 密度有理物理投影算子 射影
+dSVDensityRationalPhysicalProjector_weighted_rank_eq	d SV 密度有理物理投影算子 加权 秩 =
+dSVDensityRationalPrefixHarmonicSpectralOverlap_nonneg	d SV 密度有理前缀调和谱重叠 非负
+dSVDensityRationalProjectiveThresholdPOVM_projective	d SV 密度有理射影阈值 POVM 射影
+dSVDensityRationalPublicBucketCoherentPhaseHistory_apply	d SV 密度有理公开桶相干相位历史 作用于
+dSVDensityRationalPublicBucketCoherentPhaseHistory_apply_norm_sq	d SV 密度有理公开桶相干相位历史 作用于 范数 平方
+dSVDensityRationalPublicBucketCoherentPhaseSigmaReset_distance_sq	d SV 密度有理公开桶相干相位σ重置 距离 平方
+dSVDensityRationalPublicBucketPhysicalCommonRank_eq	d SV 密度有理公开桶物理公共秩 =
+dSVDensityRationalPublicLogBilateralPureTensor_norm_sq	d SV 密度有理公开对数双边纯张量 范数 平方
+dSVDensityRationalPublicLogPhasePureSource_norm	d SV 密度有理公开对数相位纯源 范数
+dSVDensityRationalPublicLogPhaseActualTargetFirstLocalLift_apply	d SV 密度有理公开对数相位实际目标第一局部提升 作用于
+dSVDensityRationalPublicLogPhasePhysicalAlignedLocalAction_apply	d SV 密度有理公开对数相位物理对齐局部作用 作用于
+dSVDensityRationalPublicLogPhaseHarmonicPureSource_apply	d SV 密度有理公开对数相位调和纯源 作用于
+dSVDensityRationalPublicLogPhaseTargetFirstPreparedSource_apply	d SV 密度有理公开对数相位目标第一已制备源 作用于
+dSVDensityRationalPublicLogPhaseHarmonicPureSource_norm	d SV 密度有理公开对数相位调和纯源 范数
+dSVDensityRationalPublicLogPhaseTargetFirstPreparedSource_norm	d SV 密度有理公开对数相位目标第一已制备源 范数
+dSVDensityRationalPublicLogPhasePhysicalHistoryUnitary_apply	d SV 密度有理公开对数相位物理历史酉 作用于
+dSVDensityRationalPublicLogPhasePureSource_apply	d SV 密度有理公开对数相位纯源 作用于
+dSVDensityRationalPublicMultiscalePhaseTargetFirstPreparedSource_norm	d SV 密度有理公开多尺度相位目标第一已制备源 范数
+dSVDensityRationalPublicLogRankBucketFiber_mem	d SV 密度有理公开对数秩桶纤维 ∈
+dSVDensityRationalPublicLogRankBucketRepresentative_le	d SV 密度有理公开对数秩桶代表元 ≤
+dSVDensityRationalPublicLogRankBucketRepresentative_same	d SV 密度有理公开对数秩桶代表元 相同
+dSVDensityRationalPublicLogRankBucketRepresentative_actual_log_sub_lt	d SV 密度有理公开对数秩桶代表元 实际 对数 − <
+dSVDensityRationalPublicLogRankBucketRepresentative_rank_ratio_lt	d SV 密度有理公开对数秩桶代表元 秩 比 <
+dSVDensityRationalPublicLogRankBucketRepresentative_relative_abs_lt	d SV 密度有理公开对数秩桶代表元 相对 绝对值 <
+dSVDensityRationalPublicLogRankBucketRepresentative_log_sub_lt	d SV 密度有理公开对数秩桶代表元 对数 − <
+dSVDensityRationalPublicLogRankBucketRepresentative_mem	d SV 密度有理公开对数秩桶代表元 ∈
+dSVDensityRationalPublicLogRankBucketRepresentative_relative_sub_lt	d SV 密度有理公开对数秩桶代表元 相对 − <
+exists_proofDSVDensityRationalPublicBucketPhysicalQuantitativeMixedPrefixCleanup_sq	存在 证明 DSV 密度有理公开桶物理定量混合前缀清理 平方
+dSVDensityRationalPublicLogRankBucketRepresentative_val_pos	d SV 密度有理公开对数秩桶代表元 值 正
+dSVDensityRationalPublicLogRankBucket_fineLabel_sub_lt	d SV 密度有理公开对数秩桶 精细标号 − <
+dSVDensityRationalPublicLogRankBucket_log_sub_lt	d SV 密度有理公开对数秩桶 对数 − <
+dSVDensityRationalPublicLogRankFineLabel_abs_sub_le	d SV 密度有理公开对数秩精细标号 绝对值 − ≤
+dSVDensityRationalPublicLogRankPhaseWeightedCrossing_min_le	d SV 密度有理公开对数秩相位加权交叉 最小 ≤
+dSVDensityRationalPublicLogRankFineLabel_bounds	d SV 密度有理公开对数秩精细标号 界
+dSVDensityRationalPublicLogRankPhaseWeight_sum	d SV 密度有理公开对数秩相位权 和
+dSVDensityRationalPublicLogRankPhaseWeightedCrossing_le_one	d SV 密度有理公开对数秩相位加权交叉 ≤ 一
+dSVDensityRationalPublicLogRankPhaseWeightedCrossing_alice_le	d SV 密度有理公开对数秩相位加权交叉 alice ≤
+dSVDensityRationalPublicLogRankPhaseWeightedCrossing_le_fineLabel	d SV 密度有理公开对数秩相位加权交叉 ≤ 精细标号
+dSVDensityRationalPublicLogRankPhaseWeightedCrossing_nonneg	d SV 密度有理公开对数秩相位加权交叉 非负
+dSVDensityRationalPublicLogRank_logCoordinate_nonneg	d SV 密度有理公开对数秩 对数坐标 非负
+dSVDensityRationalPublicLogRank_real_log_bound	d SV 密度有理公开对数秩 实 对数 界
+dSVDensityRationalPublicLogRank_zeroSafe_nat_bound	d SV 密度有理公开对数秩 零安全 自然数 界
+dSVDensityRationalPublicLogRank_zeroSafe_fin_bound	d SV 密度有理公开对数秩 零安全 有限 界
+dSVDensityRationalPublicMultiscaleFirstHitPhysicalFlagMismatchMass_nonneg	d SV 密度有理公开多尺度第一命中物理旗失配质量 非负
+unconditionalSourcePhysicalCleanedStoppingFixedSource_norm	无条件源物理已清理停止固定源 范数
+dSVDensityRationalPublicMultiscalePhase_card	d SV 密度有理公开多尺度相位 基数
+dSVDensityRationalPublicMultiscalePhase_card_pos	d SV 密度有理公开多尺度相位 基数 正
+dSVDensityRationalPublicShiftedBucketMismatch_average_le	d SV 密度有理公开平移桶失配 平均 ≤
+dSVDensityRationalPublicShiftedBucketMismatch_sum_le	d SV 密度有理公开平移桶失配 和 ≤
+dSVDensityRationalPublicShiftedQuotient_real_sum	d SV 密度有理公开平移商 实 和
+dSVDensityRationalPublicShiftedQuotient_sum	d SV 密度有理公开平移商 和
+dSVDensityRationalPublicShiftedResidue_sum	d SV 密度有理公开平移留数 和
+dSVDensityRationalPureFlagBorn_normalized_partition_zero_succ	d SV 密度有理纯旗 Born 归一化 划分 零 后继
+dSVDensityRationalPureFlagBorn_partition	d SV 密度有理纯旗 Born 划分
+dSVDensityRationalPureFlagBorn_partition_zero_succ	d SV 密度有理纯旗 Born 划分 零 后继
+dSVDensityRationalPureMatchedFlagBorn_sum_eq	d SV 密度有理纯已匹配旗 Born 和 =
+dSVDensityRationalPureMatchedFlagBorn_zero_succ	d SV 密度有理纯已匹配旗 Born 零 后继
+dSVDensityRationalPureMatchedFlagIndicator_sum	d SV 密度有理纯已匹配旗示性函数 和
+dSVDensityRationalSoftPass_density_defect_le	d SV 密度有理软遍 密度 亏量 ≤
+dSVDensityRationalSoftPass_rescaled_le_density	d SV 密度有理软遍 重缩放 ≤ 密度
+dSVGlobalProjectorBinaryPOVM_projective	d SV 整体投影算子二元 POVM 射影
+dSVHeterogeneousRealPrefix_nonneg	d SV 异质实前缀 非负
+dSVHeterogeneousRealStopping_escape_budget	d SV 异质实停止 逃逸 预算
+dSVHeterogeneousRealPrefix_succ	d SV 异质实前缀 后继
+dSVHeterogeneousRealStopping_escape_identity	d SV 异质实停止 逃逸 恒等式
+dSVMixedProjectorSuccessLoss_le_square	d SV 混合投影算子成功损失 ≤ 平方
+dSVWeightedMixedProjectorSuccessLoss_le_square	d SV 加权混合投影算子成功损失 ≤ 平方
+dSVProjectorComplement_posSemidef	d SV 投影算子补 正半定
+dSVProjectorSquaredDifference_trace	d SV 投影算子平方差 迹
+dSVRationalSoftPass_ge_density_div_width_add_one	d SV 有理软遍 ≥ 密度 ÷ 宽度 + 一
+dSVRationalSoftPass_lipschitz	d SV 有理软遍 lipschitz
+dSVRationalSoftPass_mem_unit	d SV 有理软遍 ∈ 单位
+dSVRationalSoftPass_sub	d SV 有理软遍 −
+dSVSoftBobLeftReducedDensity_eigenvalue_le_one	d SV 软 Bob 左约化密度 特征值 ≤ 一
+dSVSoftBobLeftReducedDensity_posSemidef	d SV 软 Bob 左约化密度 正半定
+dSVUniformDensityPhysicalSpectralAliceCopy_transpose	d SV 一致密度物理谱 Alice 副本 转置
+dSVUniformLeftDensitySpectralAtomDiscrepancy_eq_swap	d SV 一致左密度谱原子偏差 = 交换
+exists_proofDSVUniformDensityPolarLeftCanonicalSchmidt	存在 证明 DSV 一致密度极左典范 Schmidt
+unconditionalPhysicalAcceptedCoherentStage_eq_phaseSigma	无条件物理被接受相干阶段 = 相位σ
+unconditionalPublicBucketPhysicalCoherentTarget_apply	无条件公开桶物理相干目标 作用于
+unconditionalRationalMixedConjugateBobSpectral_sum	无条件有理混合共轭 Bob 谱 和
+unconditionalSourcePhysicalCleanedStoppingFixedSource_physicalAction	无条件源物理已清理停止固定源 物理作用
+dSVSoftBobLeftReducedDensity_trace	d SV 软 Bob 左约化密度 迹
+dSVUniformDensityCompletePureHistory_raw_norm	d SV 一致密度完备纯历史 原始 范数
+dSVUniformDensityCompletePureHistory_zeroFlag_apply	d SV 一致密度完备纯历史 零旗 作用于
+dSVUniformDensityCorrectedMatchedSigmaControlledReset_distance_sq	d SV 一致密度已修正已匹配σ受控重置 距离 平方
+dSVUniformDensityCorrectedMatchedSigmaWeightedResidual_controlled	d SV 一致密度已修正已匹配σ加权剩余 受控
+dSVUniformDensityCorrectedMatchedSigmaWeightedResidual_distance_sq	d SV 一致密度已修正已匹配σ加权剩余 距离 平方
+dSVUniformDensityFirstAcceptFinitePrefix	d SV 一致密度第一接受有限前缀
+dSVUniformDensityGridPrefix_density_sub_le	d SV 一致密度网格前缀 密度 − ≤
+dSVUniformDensityGridPrefix_density_sub_lt	d SV 一致密度网格前缀 密度 − <
+dSVUniformDensityGridPrefix_eq_count	d SV 一致密度网格前缀 = 计数
+dSVUniformDensityGridPrefix_le_density	d SV 一致密度网格前缀 ≤ 密度
+dSVUniformDensityGridPrefix_mono	d SV 一致密度网格前缀 单调
+dSVUniformDensityThresholdMismatch_eq_abs_gridPrefix	d SV 一致密度阈值失配 = 绝对值 网格前缀
+dSVUniformDensityIndependentSharedState_apply	d SV 一致密度独立共享状态 作用于
+dSVUniformDensityIndependentSharedState_norm	d SV 一致密度独立共享状态 范数
+integratorActualCanonicalRetainedPhaseTail_norm	积分子实际典范保留相位尾 范数
+dSVUniformDensityMixedProtocolLocalAction_norm	d SV 一致密度混合协议局部作用 范数
+dSVUniformDensityPhysicalAsyncSigmaContinuation_norm	d SV 一致密度物理异步σ延拓 范数
+unconditionalSelectedCopy_mixedConjugateLocalAction_norm	无条件选中副本 混合共轭局部作用 范数
+dSVUniformDensityPhysicalAsync_doubleProductSum	d SV 一致密度物理异步 双积和
+dSVUniformDensityPhysicalMatched_doubleTensorSourceFactor	d SV 一致密度物理已匹配 双张量源因子
+dSVUniformDensityPhysicalSpectralAliceCopy_inv_transpose	d SV 一致密度物理谱 Alice 副本 逆 转置
+dSVUniformDensityPolarConjugateSwap_coefficient	d SV 一致密度极共轭交换 系数
+dSVUniformDensityPolarConjugateSwap_reducedDensity	d SV 一致密度极共轭交换 约化密度
+dSVUniformDensityPolarConjugateSwap_norm	d SV 一致密度极共轭交换 范数
+dSVUniformDensitySchmidtSumMass_le_four	d SV 一致密度 Schmidt 和质量 ≤ 四
+dSVUniformDensitySpectralAtomDiscrepancy_le	d SV 一致密度谱原子偏差 ≤
+dSVUniformDensitySchmidtVector_sub	d SV 一致密度 Schmidt 向量 −
+dSVUniformLeftDensitySpectralAtomDiscrepancy_le	d SV 一致左密度谱原子偏差 ≤
+dSVUniformDensityThresholdGrid_apply	d SV 一致密度阈值网格 作用于
+dSVUniformDensityThresholdGrid_count_eq_floor	d SV 一致密度阈值网格 计数 = 下取整
+dSVUniformDensityThresholdMismatch_eq_sub_of_le	d SV 一致密度阈值失配 = − 由 ≤
+dSVUniformDensityThresholdMismatch_indicator_le_crossing	d SV 一致密度阈值失配 示性函数 ≤ 交叉
+dSVUniformDensityThresholdMismatch_le	d SV 一致密度阈值失配 ≤
+dSVUniformDensityThresholdRaw_norm_sq	d SV 一致密度阈值原始 范数 平方
+dSVUniformDensityThresholdSharedState_mismatchedFlag	d SV 一致密度阈值共享状态 失配旗
+dSVUniformDensityThresholdSharedState_mismatchedWork	d SV 一致密度阈值共享状态 失配工作
+dSVUniformDensityThresholdSharedState_norm	d SV 一致密度阈值共享状态 范数
+dSVUniformDensityThresholdShared_diagonalBorn_eq	d SV 一致密度阈值共享 对角 Born =
+dSVUniformDensityThresholdWeight_nonneg	d SV 一致密度阈值权 非负
+dSVUniformDensityThresholdWholeHistorySharedState_norm	d SV 一致密度阈值整体历史共享状态 范数
+dSVUniformDensity_normalize_sub_self_norm	d SV 一致密度 归一化 − 自身 范数
+dSVUniformLeftDensityConjugateSwapVector_distance	d SV 一致左密度共轭交换向量 距离
+dSVUniformLeftDensityConjugateSwap_distance	d SV 一致左密度共轭交换 距离
+dSVUniformLeftDensityConjugateSwapVector_norm	d SV 一致左密度共轭交换向量 范数
+dSVUniformLeftDensityConjugateSwap_coefficient	d SV 一致左密度共轭交换 系数
+dSVUniformLeftDensityConjugateSwap_density	d SV 一致左密度共轭交换 密度
+descendingHarmonicSchmidtAmplitude_le_harmonic	降序调和 Schmidt 振幅 ≤ 调和
+universalCatalystOverlapTerm_lower	泛催化剂重叠项 下
+descendingHarmonicSchmidtAmplitude_rank_sq_le_one	降序调和 Schmidt 振幅 秩 平方 ≤ 一
+descendingHarmonicSchmidtAmplitude_sq_sum	降序调和 Schmidt 振幅 平方 和
+universalDiagonalCatalystOverlap_lower	泛对角催化剂重叠 下
+descendingHarmonicSchmidtPermutation_antitone	降序调和 Schmidt 置换 反单调
+diagonalEntropyKernel_integrable	对角熵核 可积
+integral_diagonalEntropyKernel	积分 对角熵核
+diagonalInner_real_eq_sum	对角内积 实 = 和
+universalCatalystOverlap_eq_sum	泛催化剂重叠 = 和
+diagonalPurificationGram_integrable	对角纯化 Gram 可积
+integral_diagonalPurificationGram	积分 对角纯化 Gram
+spectralPurificationGram_integrable	谱纯化 Gram 可积
+diagonalSchmidtState_eq_vec	对角 Schmidt 状态 = 向量
+schmidtVector_eq_vec	schmidt 向量 = 向量
+diagonalSchmidtState_norm_sq	对角 Schmidt 状态 范数 平方
+diagonalSchmidtTensorTarget_diagonal	对角 Schmidt 张量目标 对角
+harmonicTargetLift_diagonal_action_apply	调和目标提升 对角 作用 作用于
+schmidtVector_norm_sq	schmidt 向量 范数 平方
+directDSVActualReindexedRetainedPOVMWinningEffect_tensor_quadratic	直 DSV 实际重标指标保留 POVM 必胜效应 张量 二次
+unconditionalActualC485GenericRetainedWinningBorn	无条件实际 C 485 一般保留必胜 Born
+unconditionalPhysicalOneScaleActualGlobalFiberPOVM_nested	无条件物理一尺度实际整体纤维 POVM 嵌套
+unconditionalSelectedGaugeRetainedPOVMNaturality_effect	无条件选中规范保留 POVM 自然性 效应
+directDSVActualReindexedWinningEffect_quadratic	直 DSV 实际重标指标必胜效应 二次
+unconditionalActualC485RetainedPureWorkReindexBorn	无条件实际 C 485 保留纯工作重标指标 Born
+unconditionalActualFairSourceEOneReindexedGlobalWinningBorn	无条件实际公平源 E 一重标指标整体必胜 Born
+unconditionalActualCanonicalFullSource_eq_rawSelectedStage	无条件实际典范完整源 = 原始选中阶段
+directDSVRemainingCopyProductSplit	直 DSV 剩余副本积分裂
+directDSVSelectedCopyLocalHistoryEquiv_after	直 DSV 选中副本局部历史等价 之后
+unconditionalActualCanonicalCleanedHistorySymm_eq_direct	无条件实际典范已清理历史对称 = 直
+directDSVSelectedCopyLocalHistoryEquiv_hit	直 DSV 选中副本局部历史等价 命中
+distributionUniformExponential	分布一致指数
+doublyStochasticSchmidtEnergy_eq	双重随机 Schmidt 能量 =
+doublyStochasticSchmidtMass_le_one	双重随机 Schmidt 质量 ≤ 一
+ePRState_norm	e PR 状态 范数
+unconditionalActualFairSourcePhaseHarmonicWork_norm	无条件实际公平源相位调和工作 范数
+embezzlementState_apply	纠缠挪用状态 作用于
+harmonicSchmidtPermutationAction_diagonal	调和 Schmidt 置换作用 对角
+harmonicSchmidtPermutationAction_off_diagonal	调和 Schmidt 置换作用 非 对角
+embezzlementState_norm	纠缠挪用状态 范数
+exactSourceGlobalCatalystWinningEffect_tensor_quadratic	精确源整体催化剂必胜效应 张量 二次
+tensorEmbezzlementTarget_norm	张量纠缠挪用目标 范数
+tensorEmbezzlementTarget_sub_norm	张量纠缠挪用目标 − 范数
+unconditionalSelectedCopy_conjugateAcceptedTarget_norm_sq	无条件选中副本 共轭被接受目标 范数 平方
+unconditionalStoppedPhaseHarmonic_distance_sq	无条件停止相位调和 距离 平方
+ensemblePurificationSubspaceEntry_inner_eq_integral	系综纯化子空间元素 内积 = 积分
+finitePurificationMatrix_gram_eq_integral	有限纯化矩阵 gram = 积分
+ensemblePurificationSubspaceEntry_pair_difference_inner_eq_integral	系综纯化子空间元素 对 差 内积 = 积分
+finitePurificationMatrix_pair_difference_gram_eq_integral	有限纯化矩阵 对 差 gram = 积分
+ensemble_scalarPurificationLp_mem_common	系综 标量纯化 Lp ∈ 公共
+ensemble_spectralPurificationFilterEntryLp_mem_common	系综 谱纯化滤子元素 Lp ∈ 公共
+purificationSubspaceEntry_difference_inner_eq_integral	纯化子空间元素 差 内积 = 积分
+entangledValue_eq_zero_of_strategyWinProbability_eq_zero	纠缠值 = 零 由 策略获胜概率 = 零
+pdfGap_le_one	密度函数间隙 ≤ 一
+exactAcceptedFairAliceVariation_le_entropy	精确被接受公平 Alice 变差 ≤ 熵
+exactSourceStateDistanceBound_of_fair_operator_entropy	精确源状态距离界 由 公平 算子 熵
+exactAcceptedFairBobVariation_le_entropy	精确被接受公平 Bob 变差 ≤ 熵
+exactAliceConditionalMatrix_eq_joint	精确 Alice 条件矩阵 = 联合
+exactAliceCoordinateFilter_eq_joint	精确 Alice 坐标滤子 = 联合
+exactAliceQuestionFilter_eq_joint	精确 Alice 问题滤子 = 联合
+exactSourceWinningEffect_quadratic_eq_conditional	精确源必胜效应 二次 = 条件
+unconditionalActualFairSourceHistoryStopBorn_eq_selected	无条件实际公平源历史停止 Born = 选中
+exactAliceFiberNormalizedRow	精确 Alice 纤维归一化行
+exactAliceSourceConditionalInformation_eq_joint_atom_sum	精确 Alice 源条件信息 = 联合 原子 和
+exactAliceSourceContextNextPosterior_eq_groupedMass	精确 Alice 源上下文下一个后验 = 分组质量
+exactAliceInformationPosterior_firstMarginal	精确 Alice 信息后验 第一边缘
+exactAliceSourceMarginalInformation_eq	精确 Alice 源边缘信息 =
+exactAliceInformationPosterior_historyMarginal	精确 Alice 信息后验 历史边缘
+exactAliceLocalConditional_nonneg	精确 Alice 局部条件 非负
+exactLocalConditionalFamily_nonneg	精确局部条件族 非负
+exactLocallySampleableJA_nonneg	精确局部可采样 JA 非负
+exactLocallySampleableLaw_absolute_continuous_roundedJA	精确局部可采样律 绝对 连续 舍入 JA
+exactAliceLocalConditional_sum	精确 Alice 局部条件 和
+exactLocalConditionalFamily_sum	精确局部条件族 和
+exactAliceLocalConditional_zero_apply	精确 Alice 局部条件 零 作用于
+exactLocallySampleableLaw_absolute_continuous_JA	精确局部可采样律 绝对 连续 JA
+exactAliceLocalMass_nonneg	精确 Alice 局部质量 非负
+exactAliceLocalMass_zero_apply	精确 Alice 局部质量 零 作用于
+exactFairAliceMean_spectral_entropy_le	精确公平 Alice 均值 谱 熵 ≤
+exactAlicePurificationFamily_posSemidef	精确 Alice 纯化族 正半定
+exactAlicePurificationMatrix_gram	精确 Alice 纯化矩阵 gram
+exactGlobalHistoryLocalIndex_card_pos	精确整体历史局部指标 基数 正
+exactPaddedDefault_norm	精确填充默认 范数
+exactPaddedVector_sub	精确填充向量 −
+exactSourceGlobalJointBasis_injective	精确源整体联合基 单射
+exactSourceGlobalJointBasis_support	精确源整体联合基 支撑
+exactSourceGlobalJointBasis_vector	精确源整体联合基 向量
+taggedTensorVector_sub	带标签张量向量 −
+exactAliceQuestionPurificationMatrix_gram	精确 Alice 问题纯化矩阵 gram
+exactUnnormalizedPsi_norm_sq	精确未归一化ψ 范数 平方
+exactFairBobMean_spectral_entropy_le	精确公平 Bob 均值 谱 熵 ≤
+exactAliceQuestionFilter_eq_fullJointPrefixOperatorFilter	精确 Alice 问题滤子 = 完整联合前缀算子滤子
+exactReverseAliceHighQuestionPotential_eq_alignedPrefix	精确反转 Alice 高问题势 = 对齐前缀
+exactReverseBobHighQuestionPotential_eq_alignedPrefix	精确反转 Bob 高问题势 = 对齐前缀
+exactSourceEquationTen	精确源方程十
+exactAliceQuestionFilter_eq_jointPrefixOperatorFilter	精确 Alice 问题滤子 = 联合前缀算子滤子
+exactFairAliceMeanFilter_eq_jointPrefixOperatorFilter	精确公平 Alice 均值滤子 = 联合前缀算子滤子
+exactReverseBobLowQuestionPotential_eq_alignedPrefix	精确反转 Bob 低问题势 = 对齐前缀
+exactAliceQuestionMass_eq_sum_fiberMass	精确 Alice 问题质量 = 和 纤维质量
+exactAliceQuestionMass_nonneg	精确 Alice 问题质量 非负
+exactRefinedPOVM_quadratic	精确加细 POVM 二次
+exactAliceSourceConditionalInformation_eq_atom_sum	精确 Alice 源条件信息 = 原子 和
+exactAliceSourceConditionalInformation_eq_seedBornAverage	精确 Alice 源条件信息 = 种子 Born 平均
+exactReverseAliceConditionalHistoryIdentification_proved	精确反转 Alice 条件历史等同 已证
+exactAliceSourcePosteriorConditional_eq_fixedSeedFiber	精确 Alice 源后验条件 = 固定种子纤维
+exactAliceSourceMarginalInformation_le	精确 Alice 源边缘信息 ≤
+exact_source_equation_twenty_three_of_conditioned_reverse_prefix	精确 源 方程 二十 三 由 条件化 反转 前缀
+exactReverseAliceMarkedPosteriorConditional_eq_sourcePosterior	精确反转 Alice 带标记后验条件 = 源后验
+exactBobConditionalMatrix_eq_joint	精确 Bob 条件矩阵 = 联合
+exactBobCoordinateFilter_eq_joint	精确 Bob 坐标滤子 = 联合
+exactBobQuestionFilter_eq_joint	精确 Bob 问题滤子 = 联合
+exactBobFiberNormalizedColumn	精确 Bob 纤维归一化列
+exactBobSourceConditionalInformation_eq_joint_atom_sum	精确 Bob 源条件信息 = 联合 原子 和
+exactBobSourceContextNextPosterior_eq_groupedMass	精确 Bob 源上下文下一个后验 = 分组质量
+exactBobInformationPosterior_firstMarginal	精确 Bob 信息后验 第一边缘
+exactBobSourceMarginalInformation_eq	精确 Bob 源边缘信息 =
+exactBobInformationPosterior_historyMarginal	精确 Bob 信息后验 历史边缘
+exactBobLocalConditional_nonneg	精确 Bob 局部条件 非负
+exactLocallySampleableJB_nonneg	精确局部可采样 JB 非负
+exactBobLocalConditional_sum	精确 Bob 局部条件 和
+exactBobLocalConditional_zero_apply	精确 Bob 局部条件 零 作用于
+exactLocallySampleableLaw_absolute_continuous_JB	精确局部可采样律 绝对 连续 JB
+exactBobLocalMass_nonneg	精确 Bob 局部质量 非负
+exactBobLocalMass_zero_apply	精确 Bob 局部质量 零 作用于
+exactBobPurificationFamily_posSemidef	精确 Bob 纯化族 正半定
+exactBobPurificationMatrix_gram	精确 Bob 纯化矩阵 gram
+exactBobQuestionPurificationMatrix_gram	精确 Bob 问题纯化矩阵 gram
+exactBobQuestionFilter_eq_fullJointPrefixOperatorFilter	精确 Bob 问题滤子 = 完整联合前缀算子滤子
+exactBobQuestionFilter_eq_jointPrefixOperatorFilter	精确 Bob 问题滤子 = 联合前缀算子滤子
+exactFairBobMeanFilter_eq_jointPrefixOperatorFilter	精确公平 Bob 均值滤子 = 联合前缀算子滤子
+exactReverseAliceLowQuestionPotential_eq_alignedPrefix	精确反转 Alice 低问题势 = 对齐前缀
+exactBobQuestionMass_eq_sum_fiberMass	精确 Bob 问题质量 = 和 纤维质量
+exactBobQuestionMass_nonneg	精确 Bob 问题质量 非负
+exactBobSourceConditionalInformation_eq_atom_sum	精确 Bob 源条件信息 = 原子 和
+exactReverseBobConditionalHistoryIdentification_proved	精确反转 Bob 条件历史等同 已证
+exactBobSourcePosteriorConditional_eq_fixedSeedFiber	精确 Bob 源后验条件 = 固定种子纤维
+exactBobSourceMarginalInformation_le	精确 Bob 源边缘信息 ≤
+exactReverseBobMarkedPosteriorConditional_eq_sourcePosterior	精确反转 Bob 带标记后验条件 = 源后验
+exactCompatible_aliceMixed_coordinate_eq_or	精确相容 alice 混合 坐标 = 或
+exactCompatible_bobMixed_coordinate_eq_or	精确相容 bob 混合 坐标 = 或
+exactCompatible_coordinate_eq_or	精确相容 坐标 = 或
+exactReverseAliceMarkedHistoryContext_eq_of_history	精确反转 Alice 带标记历史上下文 = 由 历史
+exactReverseBobMarkedHistoryContext_eq_of_history	精确反转 Bob 带标记历史上下文 = 由 历史
+exactConditionedReverseAliceNextJoint_marked_mixture	精确条件化反转 Alice 下一个联合 带标记 混合
+exactReverseAliceSideMarkedPosteriorConditional_eq_fixedSeedFiber	精确反转 Alice 侧带标记后验条件 = 固定种子纤维
+exactConditionedReverseAliceNextPrior_flagged_mixture	精确条件化反转 Alice 下一个先验 带标记 混合
+exactConditionedReverseAliceNextPrior_marked_joint_factor	精确条件化反转 Alice 下一个先验 带标记 联合 因子
+exactConditionedReverseAliceNextPrior_marked_conditional	精确条件化反转 Alice 下一个先验 带标记 条件
+exactReverseAliceMarkedPriorConditional_eq_game	精确反转 Alice 带标记先验条件 = 博弈
+exactConditionedReverseBobNextJoint_marked_conditional_eq_fixedOutcome	精确条件化反转 Bob 下一个联合 带标记 条件 = 固定结果
+exactConditionedReverseBobNextJoint_marked_conditional_eq_sourcePosterior	精确条件化反转 Bob 下一个联合 带标记 条件 = 源后验
+exactReverseBobActualMarkedEntropy_eq_source	精确反转 Bob 实际带标记熵 = 源
+exactConditionedReverseBobNextJoint_marked_mixture	精确条件化反转 Bob 下一个联合 带标记 混合
+exactConditionedReverseBobNextPrior_flagged_mixture	精确条件化反转 Bob 下一个先验 带标记 混合
+exactConditionedReverseBobNextPrior_marked_joint_factor	精确条件化反转 Bob 下一个先验 带标记 联合 因子
+exactConditionedReverseBobNextPrior_marked_conditional	精确条件化反转 Bob 下一个先验 带标记 条件
+exactReverseBobMarkedPriorConditional_eq_game	精确反转 Bob 带标记先验条件 = 博弈
+exactConditionedReverseBobPrefixEntropyIncrement_eq_markedOutcomeScore	精确条件化反转 Bob 前缀熵增量 = 带标记结果得分
+exactConditionedReverseBobPrefixInformation_eq_sourceMarkerAverage	精确条件化反转 Bob 前缀信息 = 源标记平均
+exactConditionedReverseBobPrefixInformation_eq_sourceMarkedOutcomeScore	精确条件化反转 Bob 前缀信息 = 源带标记结果得分
+exactFairAcceptedAliceEntropy_le_sourceRate	精确公平被接受 Alice 熵 ≤ 源码率
+exactFairOperatorEntropyBound_of_positive	精确公平算子熵界 由 正
+exactFairAcceptedBobEntropy_le_sourceRate	精确公平被接受 Bob 熵 ≤ 源码率
+exactFairAcceptedJointStatistic_reindex	精确公平被接受联合统计量 重标指标
+exactFairAliceHistoryLowOperatorPotential_neg_le_entropy	精确公平 Alice 历史低算子势 负 ≤ 熵
+exactFairAliceMeanAcceptedBornMass_sum	精确公平 Alice 均值被接受 Born 质量 和
+exactFairAliceScalarBornMass_sum	精确公平 Alice 标量 Born 质量 和
+exactFairAliceQuestionMask_coordinate_not_mem	精确公平 Alice 问题掩码 坐标 非 ∈
+exactRevealCode_update_distinguished_alice	精确揭示码 更新 特异 alice
+exactFairAliceSeedScalarEntropy_le	精确公平 Alice 种子标量熵 ≤
+exactFairBobHistoryLowOperatorPotential_neg_le_entropy	精确公平 Bob 历史低算子势 负 ≤ 熵
+exactFairBobMeanAcceptedBornMass_sum	精确公平 Bob 均值被接受 Born 质量 和
+exactFairBobScalarBornMass_sum	精确公平 Bob 标量 Born 质量 和
+exactFairBobQuestionMask_coordinate_not_mem	精确公平 Bob 问题掩码 坐标 非 ∈
+exactRevealCode_update_distinguished_bob	精确揭示码 更新 特异 bob
+exactFairBobSeedScalarEntropy_le	精确公平 Bob 种子标量熵 ≤
+exactFairConditionedAnswerBornMass_eq_fiber_norm	精确公平条件化答案 Born 质量 = 纤维 范数
+exactFairConditionedAnswerBornMass_eq_reveal_question_norm	精确公平条件化答案 Born 质量 = 揭示 问题 范数
+exactFairFullOutcomeBornMass_eq_reveal_question_norm	精确公平完整结果 Born 质量 = 揭示 问题 范数
+exactFairFullOutcomeBornMass_accepted_sum	精确公平完整结果 Born 质量 被接受 和
+exactFairFullOutcomeBornMass_eq_reveal_question_born	精确公平完整结果 Born 质量 = 揭示 问题 born
+exactLocallySampleableLaw_eq_fair_born	精确局部可采样律 = 公平 born
+exactFairGammaPsiDistance_mul_postselection_le	精确公平Γψ距离 × 后选择 ≤
+exactFairHistoryPriorWeight_nonneg	精确公平历史先验权 非负
+exactFairPsiPhiDistance_mul_postselection_le	精确公平ψφ距离 × 后选择 ≤
+exactFairJointQuestionExpectation_reindex	精确公平联合问题期望 重标指标
+exactSourceStateDistanceBound_of_positive	精确源状态距离界 由 正
+exactFairPosteriorExpectation_reindex	精确公平后验期望 重标指标
+exactFairQuestionTailWeight_independent	精确公平问题尾权 独立
+exactJointQuestionMass_eq_reveal_mul_question	精确联合问题质量 = 揭示 × 问题
+exactFairWinningOutcomeBornMass_eq_fiber_conditional	精确公平必胜结果 Born 质量 = 纤维 条件
+exactSourceConditionalWinningProbability_eq_normalized_verifier	精确源条件必胜概率 = 归一化 验证者
+exactFiberAliceMarginal_mul_cross_mass	精确纤维 Alice 边缘 × 交叉 质量
+exactFiberBobMarginal_mul_cross_mass	精确纤维 Bob 边缘 × 交叉 质量
+exactFiberQuestionMass_nonneg	精确纤维问题质量 非负
+exactFiberQuestionWeight_aliceMixed_rectangle	精确纤维问题权 alice 混合 矩形
+exactFiberQuestionWeight_bobMixed_rectangle	精确纤维问题权 bob 混合 矩形
+exactFiberQuestionWeight_eq_zero_of_mass_zero	精确纤维问题权 = 零 由 质量 零
+exactFiberQuestionWeight_mul_mass	精确纤维问题权 × 质量
+exactFiber_born_of_rank_one	精确纤维 born 由 秩 一
+exactFiberQuestionWeight_rectangle	精确纤维问题权 矩形
+exactJointCoordinateFilter_born	精确联合坐标滤子 born
+exactJointQuestionFilter_born	精确联合问题滤子 born
+exactFiniteFiberLift_absolute_groupedMass	精确有限纤维提升 绝对 分组质量
+exactFiniteFiberLift_totalVariation	精确有限纤维提升 总变差
+exactFiniteFiberLift_expectation	精确有限纤维提升 期望
+exactSourceAliceFlagCoupling_expectation	精确源 Alice 旗耦合 期望
+exactFiniteFiberLift_groupedMass	精确有限纤维提升 分组质量
+exactSourceAliceFlagCoupling_totalVariation	精确源 Alice 旗耦合 总变差
+exactFiniteIndicator_sum	精确有限示性函数 和
+exactReverseAlicePartitionFiber_sum	精确反转 Alice 划分纤维 和
+exactReverseBobPartitionFiber_sum	精确反转 Bob 划分纤维 和
+exactFiniteRelativeEntropy_equiv	精确有限相对熵 等价
+reweightedSeed_source_equation_twenty_six	重加权种子 源 方程 二十 六
+exactFintypeCard_eq	精确有限类型基数 =
+exactSeedCoordinateFiber_sum	精确种子坐标纤维 和
+exactSeedWeight_sum	精确种子权 和
+exactJointPrefixBobOperatorMass_insert_alice	精确联合前缀 Bob 算子质量 插入 alice
+exactJointPrefixQuestionMass_insert_alice	精确联合前缀问题质量 插入 alice
+exactJointPrefixAliceOperatorMass_insert_bob	精确联合前缀 Alice 算子质量 插入 bob
+exactJointPrefixQuestionMass_insert_bob	精确联合前缀问题质量 插入 bob
+exactFixedQuestionPrefix_insert_iff	精确固定问题前缀 插入 ⇔
+exactFixedSeedOutcomeCode_accepted_iff	精确固定种子结果码 被接受 ⇔
+exactFixedSeedOutcomeCode_fiber_iff	精确固定种子结果码 纤维 ⇔
+exactForwardSeed_sum	精确向前种子 和
+exactReverseAliceSide_marginal	精确反转 Alice 侧 边缘
+exactReverseBobSide_marginal	精确反转 Bob 侧 边缘
+exactSeedWeight_coordinate_sum	精确种子权 坐标 和
+unconditionalSourcePhysicalRounding_exists_fairStoppingHazard	无条件源物理舍入 存在 公平停止风险
+exactGlobalHistoryVector_norm	精确整体历史向量 范数
+exactGlobalHistoryVector_sub	精确整体历史向量 −
+exactGroupedMass_decidableEq_irrel	精确分组质量 可判定= 无关
+finiteCoordinateMarginal_groupedMass	有限坐标边缘 分组质量
+repeatedAliceQuestionPrior_product	重复 Alice 问题先验 积
+repeatedBobQuestionPrior_product	重复 Bob 问题先验 积
+exactGroupedMass_equiv	精确分组质量 等价
+exactHistoryCode_accepted_iff	精确历史码 被接受 ⇔
+exactHistoryFlag_sum	精确历史旗 和
+exactIndependentCoordinateQuestion_marginal	精确独立坐标问题 边缘
+exactInsertedPrefixBefore_marker_eq	精确已插入前缀之前 标记 =
+exactReverseLeftPrefixBeforeMarked_eq	精确反转左前缀之前带标记 =
+exactReverseRightPrefixBeforeMarked_eq	精确反转右前缀之前带标记 =
+exactInsertedPrefixBefore_mem_iff	精确已插入前缀之前 ∈ ⇔
+exactReverseAliceContext_prefix_before_marked	精确反转 Alice 上下文 前缀 之前 带标记
+exactReverseBobContext_prefix_before_marked	精确反转 Bob 上下文 前缀 之前 带标记
+exactInsertedRank_deleteMarked	精确已插入秩 删除带标记
+exactInsertedRank_marker	精确已插入秩 标记
+exactReverseLeftRank_coordinate	精确反转左秩 坐标
+exactReverseRightRank_coordinate	精确反转右秩 坐标
+exactInsertedRank_old	精确已插入秩 旧
+exactReverseLeftRank_old	精确反转左秩 旧
+exactReverseRightRank_old	精确反转右秩 旧
+exactJointConditionalWinningMass_born	精确联合条件必胜质量 born
+exactJointPrefixAliceOperatorFilter_insert_bob	精确联合前缀 Alice 算子滤子 插入 bob
+exactJointPrefixAliceOperatorFilter_martingale	精确联合前缀 Alice 算子滤子 鞅
+exactJointPrefixAliceOperatorMass_zero_of_mass_zero	精确联合前缀 Alice 算子质量 零 由 质量 零
+exactJointPrefixBobOperatorFilter_insert_alice	精确联合前缀 Bob 算子滤子 插入 alice
+exactJointPrefixBobOperatorFilter_martingale	精确联合前缀 Bob 算子滤子 鞅
+exactJointPrefixBobOperatorMass_zero_of_mass_zero	精确联合前缀 Bob 算子质量 零 由 质量 零
+exactJointQuestionMass_eq_question_mul_tail	精确联合问题质量 = 问题 × 尾
+exactLeftPrefix_subset	精确左前缀 子集
+exactRevealCode_splitAt_independent	精确揭示码 分裂在 独立
+exactLeft_coordinate_not_mem	精确左 坐标 非 ∈
+exactReverseAliceCanonicalPartition_card	精确反转 Alice 典范划分 基数
+exactReverseLeftSide_card	精确反转左侧 基数
+exactLocallySampleableJARounded_weightedConditional	精确局部可采样 JA 舍入 加权条件
+exactLocallySampleableJA_rounded_totalVariation_le	精确局部可采样 JA 舍入 总变差 ≤
+exactLocallySampleableRounded_pair_totalVariation	精确局部可采样舍入 对 总变差
+exact_source_alice_pinsker_of_classical_information	精确 源 alice pinsker 由 经典 信息
+exact_source_equation_twenty_seven_support_preserving	精确 源 方程 二十 七 支撑 保持
+exactLocallySampleableJBRounded_weightedConditional	精确局部可采样 JB 舍入 加权条件
+exactLocallySampleableJB_rounded_totalVariation_le	精确局部可采样 JB 舍入 总变差 ≤
+exact_source_bob_pinsker_of_classical_information	精确 源 bob pinsker 由 经典 信息
+exactSourceAliceFlagCoupling_supported	精确源 Alice 旗耦合 支撑
+exactLocallySampleableLaw_accepted_of_ne_zero	精确局部可采样律 被接受 由 ≠ 零
+exactLocallySampleableLaw_fiber_ne_zero_of_ne_zero	精确局部可采样律 纤维 ≠ 零 由 ≠ 零
+exactLocallySampleableLaw_psi_ne_zero_of_ne_zero	精确局部可采样律 ψ ≠ 零 由 ≠ 零
+exactSourceConditionalWinningProbability_eq_fine_born_ratio	精确源条件必胜概率 = 精细 born 比
+exactSourceGlobalCatalystWinningEffect_law_supported_verifier	精确源整体催化剂必胜效应 律 支撑 验证者
+exactLocallySampleableLaw_nonneg	精确局部可采样律 非负
+exactSourceConditionalWinningProbability_bounds	精确源条件必胜概率 界
+unconditionalExactFairStoppedPhaseHarmonicClippedUnit_le	无条件精确公平停止相位调和截断单位 ≤
+exactLocallySampleableLaw_sum	精确局部可采样律 和
+exactSourceAliceFlagCoupling_sum	精确源 Alice 旗耦合 和
+exactSourceHistoryFlag_nonempty_of_positive	精确源历史旗 非空 由 正
+exactSourceAcceptedCoordinateMass_eq_seeded_fair_born	精确源被接受坐标质量 = 带种子 公平 born
+exactMixedRowMarginal_mul_total	精确混合行边缘 × 总
+exactOrderedSidePrefix_mem_iff	精确有序侧前缀 ∈ ⇔
+exactPermutationOfSideRank_rank	精确置换由侧秩 秩
+exactPermutationOutputUniformExpectation	精确置换输出一致期望
+exactSourceAliceSampleTuple_expectation	精确源 Alice 样本元组 期望
+exactPermutationUniform_sum_mul	精确置换一致 和 ×
+exactSourceAcceptedCoordinateMass_le_law	精确源被接受坐标质量 ≤ 律
+exactSourceAcceptedCoordinateMass_nonneg	精确源被接受坐标质量 非负
+exactSourcePushforward_nonneg	精确源前推 非负
+exactSourcePushforward_sum	精确源前推 和
+reweightedSeedPrefixEntropyIncrement_eq_conditional	重加权种子前缀熵增量 = 条件
+exactPrefixNextCode_comp	精确前缀下一个码 复合
+exactPrefixNextDecode_comp	精确前缀下一个解码 复合
+exactPrefixNext_firstMarginal	精确前缀下一个 第一边缘
+reweightedSeedPrefixPriorMarginal_ne_zero_of_positive_atom	重加权种子前缀先验边缘 ≠ 零 由 正 原子
+exactPrefixUniform_sum_mul	精确前缀一致 和 ×
+exactRevealMass_nonneg	精确揭示质量 非负
+exactRevealMass_sum	精确揭示质量 和
+exactRemainingCoordinate_card_pos	精确剩余坐标 基数 正
+exactReverseAliceActualConditionalSeedWeight_pos	精确反转 Alice 实际条件种子权 正
+exactReverseAlicePrefixIncrement_eq_contextMarkerInformation	精确反转 Alice 前缀增量 = 上下文标记信息
+exactReverseBobMarkedPriorMarginal_ne_zero_of_outcome	精确反转 Bob 带标记先验边缘 ≠ 零 由 结果
+exactSourceSharedFlagWeight_sum	精确源共享旗权 和
+exactRemainingReverse_relativeEntropy_budget	精确剩余反转 相对熵 预算
+reweightedSeed_reverse_source_prefix_information_budget	重加权种子 反转 源 前缀 信息 预算
+exactRemainingSeedWeight_sum	精确剩余种子权 和
+exactSourceAcceptedCoordinateMass_sum_eq_remaining_average	精确源被接受坐标质量 和 = 剩余 平均
+exactRepeatedQuestionTail_splitAt_alice	精确重复问题尾 分裂在 alice
+exactRepeatedQuestionTail_splitAt_bob	精确重复问题尾 分裂在 bob
+exactRevealCode_compatible_iff	精确揭示码 相容 ⇔
+exactRevealCode_eq_iff_fair_question_masks	精确揭示码 = ⇔ 公平 问题 掩码
+exactReverseAliceMarkedPriorMarginal_ne_zero_of_outcome	精确反转 Alice 带标记先验边缘 ≠ 零 由 结果
+exactReverseAliceAlignedCfcPrefixPotential_last_nonpos	精确反转 Alice 对齐 Cfc 前缀势 最后 非正
+exactReverseAliceFilterOperatorMarkerEntropy_sum_le_scalarEntropy	精确反转 Alice 滤子算子标记熵 和 ≤ 标量熵
+exactReverseAliceFilterOperatorMarkerEntropy_sum_telescope	精确反转 Alice 滤子算子标记熵 和 裂项
+exactReverseAliceCanonicalPartition_otherSide	精确反转 Alice 典范划分 其他侧
+exactReverseAliceCanonicalPartition_side	精确反转 Alice 典范划分 侧
+exactReverseAlicePartitionFiber_card	精确反转 Alice 划分纤维 基数
+exactReverseAliceCanonicalPartition_unique	精确反转 Alice 典范划分 唯一
+exact_source_equation_twenty_three_unconditional	精确 源 方程 二十 三 无条件
+exactReverseAliceConditionalSeedLaw_weight	精确反转 Alice 条件种子律 权
+exactReverseAliceConditionalSeedLaw_weight_cancel	精确反转 Alice 条件种子律 权 消去
+exactReverseAliceConditionalSeedWeight_cancel	精确反转 Alice 条件种子权 消去
+exactReverseAliceOriginalSeedWeight_factor	精确反转 Alice 原始种子权 因子
+exactReverseAliceConditionalSeedWeight_eq_context_div_card	精确反转 Alice 条件种子权 = 上下文 ÷ 基数
+exactReverseAliceConditionalSeedWeight_nonneg	精确反转 Alice 条件种子权 非负
+exact_source_equation_twenty_three_of_actual_conditioned_reindex	精确 源 方程 二十 三 由 实际 条件化 重标指标
+exactReverseAliceConditionalSeedWeight_sum	精确反转 Alice 条件种子权 和
+exactReverseAliceContextAt_actual	精确反转 Alice 上下文在 实际
+exactReverseAliceMaskedProjection_eq_of_history	精确反转 Alice 掩码投影 = 由 历史
+exactReverseAlicePrefixInformation_eq_markedSeedAverage	精确反转 Alice 前缀信息 = 带标记种子平均
+exactReverseAliceContext_marked_rank	精确反转 Alice 上下文 带标记 秩
+exactReverseAliceMarkerCode_injective	精确反转 Alice 标记码 单射
+exactReverseAliceContext_otherPrefix	精确反转 Alice 上下文 其他前缀
+exactReverseBobFixedXMask_eq_insert_fair	精确反转 Bob 固定 X 掩码 = 插入 公平
+exactReverseBobPrefixYMask_eq_fair	精确反转 Bob 前缀 Y 掩码 = 公平
+exactReverseAliceFilterOperatorMarkerEntropy_eq_aligned_step	精确反转 Alice 滤子算子标记熵 = 对齐 步
+exactReverseAliceFilterOperatorMarkerEntropy_eq_question_sub	精确反转 Alice 滤子算子标记熵 = 问题 −
+exactReverseAliceFixedYMask_eq_insert_fair	精确反转 Alice 固定 Y 掩码 = 插入 公平
+exactReverseAliceMarkedContextInformation_eq_source	精确反转 Alice 带标记上下文信息 = 源
+exactReverseAliceMarkedHistoryContext_fiber_iff	精确反转 Alice 带标记历史上下文 纤维 ⇔
+exactReverseAliceSideMarkedPosteriorConditional_eq_sourcePosterior	精确反转 Alice 侧带标记后验条件 = 源后验
+exactReverseAliceMarkerCode_coordinate	精确反转 Alice 标记码 坐标
+exactReverseAliceMarkerCode_coordinate_injective	精确反转 Alice 标记码 坐标 单射
+exactReverseAliceMarkerCode_partition_injective	精确反转 Alice 标记码 划分 单射
+exactReverseAliceUniformMarkedSeed_sum	精确反转 Alice 一致带标记种子 和
+exactReverseAliceMarkerDecode_rightInverse	精确反转 Alice 标记解码 右逆
+exactReverseAliceMarker_induction	精确反转 Alice 标记 归纳
+exactReverseAliceMaskedQuestionRegister_determines	精确反转 Alice 掩码问题寄存器 确定
+exactReverseAlicePartition_orderCut_fiber_sum	精确反转 Alice 划分 阶割 纤维 和
+exactReverseAlicePrefixInformation_eq_seedMarkerAverage	精确反转 Alice 前缀信息 = 种子标记平均
+exactReverseAlicePrefixXMask_eq_fair	精确反转 Alice 前缀 X 掩码 = 公平
+exactReverseAlicePrefixXMask_succ	精确反转 Alice 前缀 X 掩码 后继
+exactReverseAliceSeedInverseCard_le	精确反转 Alice 种子逆基数 ≤
+exactReverseBobFilterOperatorMarkerEntropy_sum_telescope	精确反转 Bob 滤子算子标记熵 和 裂项
+exactReverseBobAlignedCfcPrefixPotential_terminal_nonpos	精确反转 Bob 对齐 Cfc 前缀势 终结 非正
+exactReverseBobFilterOperatorMarkerEntropy_sum_le_scalarEntropy	精确反转 Bob 滤子算子标记熵 和 ≤ 标量熵
+exactReverseBobCanonicalPartition_card	精确反转 Bob 典范划分 基数
+exactReverseBobCanonicalPartition_otherSide	精确反转 Bob 典范划分 其他侧
+exactReverseBobCanonicalPartition_side	精确反转 Bob 典范划分 侧
+exactReverseBobPartitionFiber_card	精确反转 Bob 划分纤维 基数
+exactReverseBobCanonicalPartition_unique	精确反转 Bob 典范划分 唯一
+exactReverseBobConditionalSeedLaw_actual_pos	精确反转 Bob 条件种子律 实际 正
+exactReverseBobConditionalSeedLaw_weight	精确反转 Bob 条件种子律 权
+exactReverseBobConditionalSeedLaw_weight_cancel	精确反转 Bob 条件种子律 权 消去
+exactReverseBobConditionalSeedWeight_cancel	精确反转 Bob 条件种子权 消去
+exactReverseBobOriginalSeedWeight_factor	精确反转 Bob 原始种子权 因子
+exactReverseBobConditionalSeedWeight_eq_context_div_card	精确反转 Bob 条件种子权 = 上下文 ÷ 基数
+exactReverseBobConditionalSeedWeight_nonneg	精确反转 Bob 条件种子权 非负
+exactReverseBobConditionalSeedWeight_sum	精确反转 Bob 条件种子权 和
+exactReverseBobContextAt_actual	精确反转 Bob 上下文在 实际
+exactReverseBobMaskedProjection_eq_of_history	精确反转 Bob 掩码投影 = 由 历史
+exactReverseBobContext_marked_rank	精确反转 Bob 上下文 带标记 秩
+exactReverseBobMarkerCode_injective	精确反转 Bob 标记码 单射
+exactReverseBobContext_otherPrefix	精确反转 Bob 上下文 其他前缀
+exactReverseBobFilterOperatorMarkerEntropy_eq_aligned_step	精确反转 Bob 滤子算子标记熵 = 对齐 步
+exactReverseBobFilterOperatorMarkerEntropy_eq_question_sub	精确反转 Bob 滤子算子标记熵 = 问题 −
+exactReverseBobMarkedHistoryContext_fiber_iff	精确反转 Bob 带标记历史上下文 纤维 ⇔
+exactReverseBobMarkerCode_coordinate	精确反转 Bob 标记码 坐标
+exactReverseBobMarkerCode_coordinate_injective	精确反转 Bob 标记码 坐标 单射
+exactReverseBobMarkerCode_partition_injective	精确反转 Bob 标记码 划分 单射
+exactReverseBobUniformMarkedSeed_sum	精确反转 Bob 一致带标记种子 和
+exactReverseBobMarkerDecode_rightInverse	精确反转 Bob 标记解码 右逆
+exactReverseBobMarker_induction	精确反转 Bob 标记 归纳
+exactReverseBobMaskedQuestionRegister_determines	精确反转 Bob 掩码问题寄存器 确定
+exactReverseBobPartition_orderCut_fiber_sum	精确反转 Bob 划分 阶割 纤维 和
+exactReverseBobPrefixYMask_succ	精确反转 Bob 前缀 Y 掩码 后继
+exactReverseBobSeedInverseCard_le	精确反转 Bob 种子逆基数 ≤
+exactReverseContextQuestionPrefix_eq_image	精确反转上下文问题前缀 = 像
+exactReverseContextQuestionPrefix_succ	精确反转上下文问题前缀 后继
+exactReverseLeftPermutation_card	精确反转左置换 基数
+exactReverseLeftSeedWeight_eq_forward	精确反转左种子权 = 向前
+exactReverseLeftSide_complement	精确反转左侧 补
+exactReverseLeftSide_coordinate_mem	精确反转左侧 坐标 ∈
+exactReverseLeftSide_markedWeight	精确反转左侧 带标记权
+exactReversePartitionInverseCard_le	精确反转划分逆基数 ≤
+exactReversePartition_orderCut_sum	精确反转划分 阶割 和
+exactReverseRightPermutation_card	精确反转右置换 基数
+exactReverseRightSeedWeight_eq_forward	精确反转右种子权 = 向前
+exactReverseRightSide_card	精确反转右侧 基数
+exactReverseRightSide_complement	精确反转右侧 补
+exactReverseRightSide_coordinate_mem	精确反转右侧 坐标 ∈
+exactReverseRightSide_markedWeight	精确反转右侧 带标记权
+exactRightPrefix_subset	精确右前缀 子集
+exactRight_coordinate_not_mem	精确右 坐标 非 ∈
+exactSeedEquiv_symm_apply	精确种子等价 对称 作用于
+exactSeedWeight_coordinate_marginal	精确种子权 坐标 边缘
+exactSeedWeight_nonneg	精确种子权 非负
+exactSeedWeight_pos_of_seed	精确种子权 正 由 种子
+exactSigmaFinCutTransport	精确σ有限割输运
+exactSigmaSideRankTransport	精确σ侧秩输运
+exactSourceConditionalWinningProbability_mul_law	精确源条件必胜概率 × 律
+exactSourceConditionalWinningProbability_expectation	精确源条件必胜概率 期望
+exactSourceConditionalWinningProbability_eq_accepted_average	精确源条件必胜概率 = 被接受 平均
+unconditionalActualSourceSamplerBounds	无条件实际源采样器界
+exactSourceAliceSampleTuple_groupedMass	精确源 Alice 样本元组 分组质量
+pdfPinskerRate_le_sqrt_martingaleRate	密度函数 Pinsker 码率 ≤ 平方根 鞅码率
+exactSourceConditionalWinningProbability_gt_of_uniform_failure	精确源条件必胜概率 > 由 一致 失败
+unconditionalSourcePhysicalRounding_fairTargetEnergy	无条件源物理舍入 公平目标能量
+exactSourceGlobalWinningEffect_compression	精确源整体必胜效应 压缩
+exactSourceGlobalCatalystWinningEffect_compression	精确源整体催化剂必胜效应 压缩
+unconditionalConjugateSourceGlobalCatalystWinningEffect_law_supported	无条件共轭源整体催化剂必胜效应 律 支撑
+exactSourceGlobalWinningEffect_quadratic	精确源整体必胜效应 二次
+unconditionalSourcePhysicalRounding_exists_sourceSampler	无条件源物理舍入 存在 源采样器
+exactSourceWinningEffect_quadratic	精确源必胜效应 二次
+exactSourceNormalizedWinningEffect_eq_conditional	精确源归一化必胜效应 = 条件
+exactSourceSharedFlagWeight_nonneg	精确源共享旗权 非负
+exactSourceSharedFlag_mismatch_eq	精确源共享旗 失配 =
+exactSourceSharedFlag_mismatch_le	精确源共享旗 失配 ≤
+unconditionalActualC485FairSourceDiagonalWork_row	无条件实际 C 485 公平源对角工作 行
+unconditionalExactFairGammaUnit_eq_global	无条件精确公平Γ单位 = 整体
+unconditionalActualFairSourceSupportedBorn	无条件实际公平源支撑 Born
+mixedStableAliceQuestionCode_joint_factor	混合稳定 Alice 问题码 联合 因子
+mixedStableBobQuestionCode_joint_factor	混合稳定 Bob 问题码 联合 因子
+exactUniformFiniteMarkedAverage_sum	精确一致有限带标记平均 和
+exactUniformPermutationProbability_eq_indicator_sum	精确一致置换概率 = 示性函数 和
+exactUniform_sum	精确一致 和
+exactUniform_sum_mul	精确一致 和 ×
+exact_matrix_log_entropy_filter_jensen	精确 矩阵 对数 熵 滤子 jensen
+finite_purification_log_entropy_jensen	有限 纯化 对数 熵 jensen
+exact_source_equation_twenty_seven_support_preserving_of_information	精确 源 方程 二十 七 支撑 保持 由 信息
+exact_source_equation_twenty_seven_support_preserving_unconditional	精确 源 方程 二十 七 支撑 保持 无条件
+exact_source_equation_twenty_three	精确 源 方程 二十 三
+unconditionalActualFairCleanedVector_norm_sq	无条件实际公平已清理向量 范数 平方
+unconditionalActualFairSourceMatchedHistoryCleanedVector	无条件实际公平源已匹配历史已清理向量
+unconditionalActualOneScaleDecodedMatchedCleanedVector	无条件实际一尺度已解码已匹配已清理向量
+unconditionalConjugateCanonicalAcceptedTarget_apply	无条件共轭典范被接受目标 作用于
+exists_proofHarmonicNumber_gt	存在 证明调和数 >
+exists_proofHarmonicNumber_ratio_ge	存在 证明调和数 比 ≥
+exists_proofUniversalHarmonicCatalyst	存在 证明泛调和催化剂
+exists_proofUnitSchmidtDecomposition	存在 证明单位 Schmidt 分解
+targetCanonicalSpectralEnergy_le	目标典范谱能量 ≤
+exists_proofUnconditionalPublicBucketBalance	存在 证明无条件公开桶平衡
+pdfExistsRepeatedStrategyAboveExponential	密度函数存在重复策略上方指数
+expectation_le_add_totalVariation	期望 ≤ + 总变差
+winning_expectation_transfer	必胜 期望 转移
+fairPartitionWeight_nonneg	公平划分权 非负
+reversePartitionWeight_nonneg	反转划分权 非负
+reversePartition_relativeEntropy_budget	反转划分 相对熵 预算
+fairPartitionWeight_pos	公平划分权 正
+reversePartitionWeight_pos_iff	反转划分权 正 ⇔
+fairPartitionWeight_sum	公平划分权 和
+fin_sum_successive_sub	有限 和 相继 −
+sourcePermutationAliceEntropyIncrement_sum	源置换 Alice 熵增量 和
+finiteSupportedConditionalHistoryRelativeEntropy_eq_of_factor	有限支撑条件历史相对熵 = 由 因子
+finiteCoordinateMarginal_absolute_continuity	有限坐标边缘 绝对 连续性
+finiteCoordinateMarginal_nonneg	有限坐标边缘 非负
+finiteCoordinateMarginal_sum	有限坐标边缘 和
+finiteCoordinateMarginal_sum_mul	有限坐标边缘 和 ×
+finiteGroupedExpectation_eq_atom_sum	有限分组期望 = 原子 和
+finiteNestedNextInformation_eq_atom_sum	有限嵌套下一个信息 = 原子 和
+finiteNextInformation_eq_atom_sum	有限下一个信息 = 原子 和
+finiteIndependentProductWeight_nonneg	有限独立积权 非负
+finiteIndependentProductWeight_sum	有限独立积权 和
+finiteJoint_absolute_continuous_product_marginals	有限联合 绝对 连续 积 边缘
+finiteJoint_le_coordinateMarginal	有限联合 ≤ 坐标边缘
+finiteLocalPurificationJointMatrix_compression	有限局部纯化联合矩阵 压缩
+finiteLocalPurificationVector_quadratic	有限局部纯化向量 二次
+finiteLocalPurificationJointMatrix_gram	有限局部纯化联合矩阵 gram
+finiteLocalPurificationVector_norm_sq	有限局部纯化向量 范数 平方
+finiteLocalPurificationVector_sub_left_norm_sq	有限局部纯化向量 − 左 范数 平方
+finiteLocalPurificationVector_sub_right_norm_sq	有限局部纯化向量 − 右 范数 平方
+reweightedSeedPrefixEntropyIncrement_eq_actual_atom_sum	重加权种子前缀熵增量 = 实际 原子 和
+finitePrefixMask_comp	有限前缀掩码 复合
+finitePrefixMask_last	有限前缀掩码 最后
+finitePrefixRelativeEntropy_telescope	有限前缀相对熵 裂项
+finitePrefixRelativeEntropy_budget	有限前缀相对熵 预算
+finiteProbability_le_one	有限概率 ≤ 一
+finitePurificationMatrix_difference_gram_eq_integral	有限纯化矩阵 差 gram = 积分
+weighted_finitePurificationMatrix_difference_gram	加权 有限纯化矩阵 差 gram
+finitePurificationMatrix_gram	有限纯化矩阵 gram
+finiteRelativeEntropy_nonneg	有限相对熵 非负
+finiteRelativeEntropy_self	有限相对熵 自身
+finiteSum_injective_support	有限和 单射 支撑
+matrixQuadraticExpectation_injective	矩阵二次期望 单射
+finiteSupportedConditionalHistoryReferenceConditional_eq	有限支撑条件历史参考条件 =
+finiteTensorLocalUnitaryMatrix_gram	有限张量局部酉矩阵 gram
+unconditionalActualOneScaleFixedSourcePhysicalQuestionAction	无条件实际一尺度固定源物理问题作用
+finiteTensorVector_norm	有限张量向量 范数
+finiteTensorVector_norm_sq	有限张量向量 范数 平方
+finiteTotalVariation_comm	有限总变差 交换律
+finiteTotalVariation_equiv	有限总变差 等价
+finiteTotalVariation_triangle	有限总变差 三角形
+finiteUniformCoordinate_relativeEntropy	有限一致坐标 相对熵
+finiteUniformGrid_interval_card_le	有限一致网格 区间 基数 ≤
+finiteUniformThresholdCrossing_le	有限一致阈值交叉 ≤
+finiteUniformWeight_pos	有限一致权 正
+uniformFlagReference_absolute_continuity	一致旗参考 绝对 连续性
+uniformFlagReference_nonneg	一致旗参考 非负
+finiteUniformWeight_sum	有限一致权 和
+uniformFlagReference_firstMarginal	一致旗参考 第一边缘
+uniformFlagReference_sum	一致旗参考 和
+matrixLogEntropy_weighted_jensen_posSemidef	矩阵对数熵 加权 jensen 正半定
+finite_sum_four_swap	有限 和 四 交换
+fullCoordinateWeightedInsertedSum	完整坐标加权已插入和
+finite_weighted_entropy_le	有限 加权 熵 ≤
+finite_weighted_entropy_le_of_weight_bound	有限 加权 熵 ≤ 由 权 界
+fullHistoryAtomEntropy_le	完整历史原子熵 ≤
+finsetSubtype_prod_insert	有限集子类型 积 插入
+fullCoordinateHiddenBobWeight_split	完整坐标隐藏 Bob 权 分裂
+fullCoordinateInsertedHistory_weight	完整坐标已插入历史 权
+fullCoordinateNewHistory_weight	完整坐标新历史 权
+fullCoordinateAcceptedPostselectedMass_eq	完整坐标被接受后选择质量 =
+sourceHistoryAcceptedMass_eq_uniform	源历史被接受质量 = 一致
+fullHistoryAliceEntropyPotential_increment	完整历史 Alice 熵势 增量
+fullCoordinateAliceTotalEntropyIncrement_nonneg	完整坐标 Alice 总熵增量 非负
+fullCoordinateAliceQuestion_eq	完整坐标 Alice 问题 =
+sourcePermutationAliceEntropyIncrement_nonneg	源置换 Alice 熵增量 非负
+fullCoordinateBaseWinIndicator_nonneg	完整坐标基获胜示性函数 非负
+fullCoordinateBobQuestion_eq	完整坐标 Bob 问题 =
+fullCoordinateHiddenAliceWeight_split	完整坐标隐藏 Alice 权 分裂
+fullCoordinateInsertedAliceQuestion_eq	完整坐标已插入 Alice 问题 =
+fullCoordinateInsertedBobQuestion_eq	完整坐标已插入 Bob 问题 =
+fullCoordinateInsertedHiddenAliceWeight_eq	完整坐标已插入隐藏 Alice 权 =
+fullCoordinateInsertedHiddenBobWeight_eq	完整坐标已插入隐藏 Bob 权 =
+fullCoordinateInsertedHistory_winIndicator_eq	完整坐标已插入历史 获胜示性函数 =
+fullCoordinateWeightedNewSum	完整坐标加权新和
+fullCoordinateNewHistory_winIndicator_eq	完整坐标新历史 获胜示性函数 =
+fullCoordinateWeightedOldSum	完整坐标加权旧和
+fullCoordinateOldHistory_weight	完整坐标旧历史 权
+fullCoordinateOldHistory_winIndicator_eq	完整坐标旧历史 获胜示性函数 =
+fullCoordinate_three_sum_rotate	完整坐标 三 和 旋转
+sourcePermutationAliceEntropyPotential_step	源置换 Alice 熵势 步
+fullHistoryAliceEntropyPotential_lower_bound	完整历史 Alice 熵势 下 界
+sourcePermutationAliceEntropyIncrement_sum_le	源置换 Alice 熵增量 和 ≤
+fullHistoryAliceEntropyPotential_nonpos	完整历史 Alice 熵势 非正
+fullHistoryAnswerCount_eq	完整历史答案计数 =
+fullHistoryAtomBornMass_sum	完整历史原子 Born 质量 和
+fullHistoryAtomCountingWeight_nonneg	完整历史原子计数权 非负
+fullHistoryAtomCountingWeight_sum_le	完整历史原子计数权 和 ≤
+fullHistoryRemaining_insert_conditioned	完整历史剩余 插入 条件化
+fullHistoryRemaining_insert_subset	完整历史剩余 插入 子集
+fullHistoryRemaining_prod_split	完整历史剩余 积 分裂
+fullHistoryWinIndicator_eq_question	完整历史获胜示性函数 = 问题
+fullHistoryWinIndicator_le_one	完整历史获胜示性函数 ≤ 一
+fullHistoryWinIndicator_nonneg	完整历史获胜示性函数 非负
+groupedMass_absolute_continuity	分组质量 绝对 连续性
+reweightedSeed_flagged_projection_relativeEntropy_le	重加权种子 带标记 投影 相对熵 ≤
+groupedMass_comp	分组质量 复合
+reweightedSeedPrefixNextJoint_as_actual_pushforward	重加权种子前缀下一个联合 作为 实际 前推
+reweightedSeedPrefixPrior_next_flagged_pushforward	重加权种子前缀先验 下一个 带标记 前推
+groupedMass_expectation	分组质量 期望
+groupedMass_first	分组质量 第一
+groupedMass_flagSeedOutcome_reassoc	分组质量 旗种子结果 重结合
+groupedMass_id	分组质量 恒等
+groupedMass_nonneg	分组质量 非负
+groupedMass_pos_of_supported_atom	分组质量 正 由 支撑 原子
+groupedMass_productCode_weighted_sum	分组质量 积码 加权 和
+groupedMass_product_injective_seed	分组质量 积 单射 种子
+jointConditional_product_context_seed	联合条件 积 上下文 种子
+groupedMass_product_stable_context_fiber	分组质量 积 稳定 上下文 纤维
+jointConditional_product_stable_context_seed	联合条件 积 稳定 上下文 种子
+groupedMass_sum	分组质量 和
+harmonicCoherentSharedResource_inverseAbsorption_distance	调和相干共享资源 逆吸收 距离
+harmonicNumber_eq_harmonic	调和数 = 调和
+harmonicNumber_log_lower	调和数 对数 下
+harmonicNumber_log_upper	调和数 对数 上
+harmonicNumber_mul_le_add	调和数 × ≤ +
+harmonicNumber_pos	调和数 正
+harmonicSchmidtFiber_count_sq_le	调和 Schmidt 纤维 计数 平方 ≤
+harmonicSchmidtThreshold_count_sq_le_one	调和 Schmidt 阈值 计数 平方 ≤ 一
+harmonicSchmidtThreshold_card_eq	调和 Schmidt 阈值 基数 =
+harmonicTargetLiftUnitary_apply	调和目标提升酉 作用于
+harmonicTargetLift_diagonal_action	调和目标提升 对角 作用
+harmonicTensorSchmidtAmplitude_sq_sum	调和张量 Schmidt 振幅 平方 和
+history_forward_telescope	历史 向前 裂项
+integral_spectralEntropyKernel_eq_cfc	积分 谱熵核 = cfc
+integral_spectralPurificationGram	积分 谱纯化 Gram
+integral_weightedSpectralEntropyJensen_eq_cfc	积分 加权谱熵 Jensen = cfc
+integral_spectralPurificationFilter_gram	积分 谱纯化滤子 gram
+unconditionalActualC485CleanDeviation_sq	无条件实际 C 485 干净偏差 平方
+jointAtom_eq_zero_of_firstMarginal_zero	联合原子 = 零 由 第一边缘 零
+nestedConditional_eq_flat	嵌套条件 = 平坦
+nestedFirstMarginal_mul_conditional	嵌套第一边缘 × 条件
+jointConditional_groupedMass_eq_of_fiber	联合条件 分组质量 = 由 纤维
+jointFirstMarginal_groupedContextNext	联合第一边缘 分组上下文下一个
+leftSpectralBornWeight_entropy	左谱 Born 权 熵
+leftSpectralBornWeight_negEntropy	左谱 Born 权 负熵
+leftSpectralBornWeight_moment	左谱 Born 权 矩
+leftSpectralBornWeight_sum	左谱 Born 权 和
+linearMap_exists_singularBases	线性映射 存在 奇异基
+localPermutationUnitaryAction_apply	局部置换酉作用 作用于
+localUnitaryAction_comp	局部酉作用 复合
+localUnitaryPureResidual_targetLocalInverse_reset	局部酉纯剩余 目标局部逆 重置
+localUnitaryAction_matrix_mem_unitary	局部酉作用 矩阵 ∈ 酉
+localUnitaryAction_norm	局部酉作用 范数
+universalDiagonalCatalyst_distance	泛对角催化剂 距离
+localUnitaryAction_sub	局部酉作用 −
+pdf_distributionUniformExponential_of_uniform_source_rounding	密度函数 分布一致指数 由 一致 源 舍入
+unconditionalSourcePhysicalRounding_smallRoundedLower	无条件源物理舍入 小舍入下
+matched_payoff_discard_le	已匹配 收益 丢弃 ≤
+matrixEffectCLM_complement_isPositive	矩阵效应 CLM 补 是正
+matrixEffectCLM_norm_le_one	矩阵效应 CLM 范数 ≤ 一
+matrixEffectCLM_isPositive	矩阵效应 CLM 是正
+unconditionalMatchedVerifierEffect_tensor_norm_le_one	无条件已匹配验证者效应 张量 范数 ≤ 一
+source_equation_nineteen_alice	源 方程 十九 alice
+source_equation_nineteen_bob	源 方程 十九 bob
+matrixLogEntropy_nonpos_of_contraction	矩阵对数熵 非正 由 收缩
+matrixQuadraticExpectation_expand	矩阵二次期望 展开
+residualIdentity_quadratic	剩余恒等式 二次
+unconditionalConjugatePureVector_transpose_quadratic	无条件共轭纯向量 转置 二次
+unconditionalMatchedVerifierEffect_tensor_quadratic	无条件已匹配验证者效应 张量 二次
+matrixVectorization_inner	矩阵向量化 内积
+schmidtVector_inner	schmidt 向量 内积
+targetReducedDensity_trace	目标约化密度 迹
+matrixVectorization_norm_sq	矩阵向量化 范数 平方
+sharedThresholdResourceRaw_block_action_norm_sq	共享阈值资源原始 块 作用 范数 平方
+matrix_memLp_two_mul_integrable	矩阵 ∈ Lp 二 × 可积
+spectralPurificationFilter_difference_gram_integrable	谱纯化滤子 差 gram 可积
+matrix_weighted_centered	矩阵 加权 中心化
+weighted_shifted_inverse_second_order	加权 平移 逆 第二 阶
+mean_scalarPurificationLp_mem_common	均值 标量纯化 Lp ∈ 公共
+mean_spectralPurificationFilterEntryLp_mem_common	均值 谱纯化滤子元素 Lp ∈ 公共
+mixtureBlockMatrix_trace_mul	混合块矩阵 迹 ×
+mixtureEmbedding_compress	混合嵌入 压缩
+mixtureEmbedding_trace_mul	混合嵌入 迹 ×
+mixtureEmbedding_isometry	混合嵌入 等距
+mixtureMatchedIndex_injective	混合已匹配指标 单射
+mul_spectralSupportInverse	× 谱支撑逆
+purificationRangeProjection_compression	纯化值域投影 压缩
+purifiedRefinementCore_compression	纯化加细核心 压缩
+mul_spectralSupportProjection	× 谱支撑投影
+posSemidef_mul_spectralSupportProjection	正半定 × 谱支撑投影
+negMulLog_rescale	负×对数 重缩放
+noncommutative_filtered_resolvent_identity	非交换 过滤 预解式 恒等式
+spectralPurificationFilter_sub_resolvent	谱纯化滤子 − 预解式
+noncommutative_resolvent_identity	非交换 预解式 恒等式
+noncommutative_resolvent_second_order	非交换 预解式 第二 阶
+noncommutative_weighted_resolvent_second_order	非交换 加权 预解式 第二 阶
+norm_le_of_operator_contraction	范数 ≤ 由 算子 收缩
+quadraticExpectation_sub_le	二次期望 − ≤
+normalizeOrDefault_norm	归一化或默认 范数
+normalizeOrDefault_sub_le	归一化或默认 − ≤
+orthonormalBasisUnitary_apply	标准正交基酉 作用于
+pdfActualMartingaleRate_lt_twelfth_power	密度函数实际鞅码率 < 十二分之一 幂
+pdfAlphabetEntropyFactor_le_one	密度函数字母表熵因子 ≤ 一
+pdfGapRate_entropy_le_twelfth_power	密度函数间隙码率 熵 ≤ 十二分之一 幂
+pdfAlphabetEntropy_nonneg	密度函数字母表熵 非负
+pdfCatalystAccuracy_bounds	密度函数催化剂精度 界
+pdfCatalystAccuracy_samplingLoss	密度函数催化剂精度 采样损失
+pdfFullQuantitativeSamplingLoss	密度函数完整定量采样损失
+pdfCatalystAccuracy_twelfth_root	密度函数催化剂精度 十二分之一 根
+pdfConditioningTolerance_bounds	密度函数条件化容差 界
+pdfQuantitativeEntropyRate_lt_twelfth_power	密度函数定量熵码率 < 十二分之一 幂
+pdfConstantStrategy_outcomeProbability	密度函数常数策略 结果概率
+pdfConstantStrategy_winProbability	密度函数常数策略 获胜概率
+pdfEntropyRoot_lt_gapBase	密度函数熵根 < 间隙基
+pdfEntropyRoundingLoss_lt_gapQuarter	密度函数熵舍入损失 < 间隙四分之一
+pdfFixedExponentialBound_of_sourceEquationTwentyNine	密度函数固定指数界 由 源方程二十九
+pdfGapBase_le_gap	密度函数间隙基 ≤ 间隙
+pdfGapBase_twelfth_le_gap	密度函数间隙基 十二分之一 ≤ 间隙
+pdfGapBase_twelfth_root	密度函数间隙基 十二分之一 根
+pdfGapBase_twelfth_le_one	密度函数间隙基 十二分之一 ≤ 一
+pdfGapRate_le_gap_div_eight	密度函数间隙码率 ≤ 间隙 ÷ 八
+pdfGapRate_entropy_factor	密度函数间隙码率 熵 因子
+pdfGapRate_eq_scaled_twelfth_power	密度函数间隙码率 = 缩放 十二分之一 幂
+pdfGapRate_le_half_conditioningTolerance	密度函数间隙码率 ≤ 一半 条件化容差
+pdfGapRate_pos	密度函数间隙码率 正
+pdfGreedyCard_lt_of_ceil	密度函数贪心基数 < 由 上取整
+pdfQuantitativeGreedyConditioning	密度函数定量贪心条件化
+pdfGreedyCeilingHorizon_le	密度函数贪心上取整视界 ≤
+pdfGreedyCeilingHorizon_pow_le_exp	密度函数贪心上取整视界 幂 ≤ 指数函数
+pdfPinskerRoot_le_twelfthRoot	密度函数 Pinsker 根 ≤ 十二分之一根
+pdfQuantitativeRoundingLoss	密度函数定量舍入损失
+pdfPredicate_not_accepted_of_entangledValue_eq_zero	密度函数谓词 非 被接受 由 纠缠值 = 零
+pdfQuantitativeEntropyRate_lt	密度函数定量熵码率 <
+pdfRoundingCoefficient_one_le	密度函数舍入系数 一 ≤
+pdfRoundingCoefficient_two_le	密度函数舍入系数 二 ≤
+pdfSqrtEight_le_twelfthRoot	密度函数平方根八 ≤ 十二分之一根
+pdfSqrt_le_twelfthRoot	密度函数平方根 ≤ 十二分之一根
+pdfUniversalErrorCeiling_pos	密度函数泛误差上取整 正
+pdfUniversalRate_pos	密度函数泛码率 正
+pdf_distributionUniformExponential_unconditional	密度函数 分布一致指数 无条件
+permutationMatrix_mem_unitary	置换矩阵 ∈ 酉
+permutationUnitary_val	置换酉 值
+posSemidef_blockDiagonal'	正半定 块对角
+posSemidef_hermitian_sandwich	正半定 厄米 夹逼
+weighted_spectralPurificationFilter_variance_le_inverse_jensen	加权 谱纯化滤子 方差 ≤ 逆 jensen
+posSemidef_kernel_of_sub_posSemidef	正半定 核 由 − 正半定
+spectralSupportProjection_mul_posSemidef	谱支撑投影 × 正半定
+positiveContraction_eigenvalue_le_one	正收缩 特征值 ≤ 一
+positiveDensity_eigenvalues_sum	正密度 特征值 和
+spectralAtomOverlap_schmidtMass_le_one	谱原子重叠 schmidt 质量 ≤ 一
+targetCanonicalSchmidtCoefficient_sq_sum	目标典范 Schmidt 系数 平方 和
+positiveMatrixSpectralAtom_posSemidef	正矩阵谱原子 正半定
+spectralAtomOverlap_nonneg	谱原子重叠 非负
+spectralPartitionPOVM_effect_eq_spectralDiagonal	谱划分 POVM 效应 = 谱对角
+spectralPartitionPOVM_projective	谱划分 POVM 射影
+spectralPartitionPOVM_trace_eq_atom_count	谱划分 POVM 迹 = 原子 计数
+spectralPartitionPOVM_trace_mul_eq_atom_overlap	谱划分 POVM 迹 × = 原子 重叠
+positiveMatrixSpectralAtom_sum	正矩阵谱原子 和
+rightSpectralBornWeight_sum	右谱 Born 权 和
+spectralAtomOverlap_sum_left	谱原子重叠 和 左
+spectralAtomOverlap_sum_right	谱原子重叠 和 右
+positiveMatrix_cfc_spectral_sum	正矩阵 cfc 谱 和
+rightSpectralBornWeight_entropy	右谱 Born 权 熵
+rightSpectralBornWeight_moment	右谱 Born 权 矩
+positive_complement_quadraticExpectation_le	正 补 二次期望 ≤
+unconditionalActualFairSourceVerifier_born_le_mass	无条件实际公平源验证者 born ≤ 质量
+positive_quadraticExpectation_nonneg	正 二次期望 非负
+unconditionalActualFairSourceVerifier_born_nonnegative	无条件实际公平源验证者 born 非负
+projectorProduct_hilbertSchmidt_trace	投影算子积 hilbert Schmidt 迹
+weightedProjectorProduct_hilbertSchmidt_trace	加权投影算子积 hilbert Schmidt 迹
+pureDensityMatrix_trace_mul	纯密度矩阵 迹 ×
+purificationJointEffect_submatrix	纯化联合效应 子矩阵
+purificationRangeProjection_complement_compression	纯化值域投影 补 压缩
+purifiedRefinedEffect_compression	纯化加细效应 压缩
+purificationRangeProjection_complement_posSemidef	纯化值域投影 补 正半定
+purifiedRefinedEffect_posSemidef	纯化加细效应 正半定
+purificationRangeProjection_idempotent	纯化值域投影 幂等
+purificationRangeProjection_isHermitian	纯化值域投影 是厄米
+purifiedRefinedEffect_complete	纯化加细效应 完备
+purifiedRefinedPOVM_compression	纯化加细 POVM 压缩
+purifiedRefinementCore_posSemidef	纯化加细核心 正半定
+purifiedRefinementCore_sum	纯化加细核心 和
+quadraticExpectation_normalizedPureVector	二次期望 归一化纯向量
+unconditionalMatchedVerifierAggregate_dependent_continuity	无条件已匹配验证者聚合 依赖 连续性
+rawEmbezzlementState_ne_zero	原始纠缠挪用状态 ≠ 零
+rawEmbezzlementState_norm_sq	原始纠缠挪用状态 范数 平方
+rectangularMatrix_norm_sq	矩形矩阵 范数 平方
+rectangular_matrix_mulVec_norm_sq	矩形 矩阵 ×向量 范数 平方
+unconditionalActualFairSelectedLocalAction_norm_sq	无条件实际公平选中局部作用 范数 平方
+unconditionalActualSelectedBranchLocalAction_norm	无条件实际选中分支局部作用 范数
+rectangular_matrix_quadratic_compression	矩形 矩阵 二次 压缩
+unconditionalActualFairSourceSelectedRetainedWinningBornGauge	无条件实际公平源选中保留必胜 Born 规范
+refinement_complement_posSemidef	加细 补 正半定
+reindexedMatrixQuadratic	重标指标矩阵二次
+remainingCoordinate_card_pos	剩余坐标 基数 正
+remainingCoordinates_card	剩余坐标 基数
+repeatedStrategy_exists_conditioning	重复策略 存在 条件化
+repeatedPostselectionMass_pos	重复后选择质量 正
+repeated_allWinMass_eq	重复 所有获胜质量 =
+reverseMarkedPartitionWeight_eq_forward	反转带标记划分权 = 向前
+reversePartitionWeight_empty	反转划分权 空
+reweightedSeedPosterior_eq_product	重加权种子后验 = 积
+rightSpectralBornWeight_negEntropy	右谱 Born 权 负熵
+scalarPurificationLp_coeFn	标量纯化 Lp 强制转换函数
+spectralPurificationFilterEntryLp_eq_eigen_sum	谱纯化滤子元素 Lp = 本征 和
+scalarResolventFilter_memLp_two	标量预解式滤子 ∈ Lp 二
+scalar_entropy_resolvent_integrable	标量 熵 预解式 可积
+spectralPurificationFilter_memLp_two	谱纯化滤子 ∈ Lp 二
+scalar_entropy_resolvent_integral	标量 熵 预解式 积分
+spectralEntropyKernel_integrable	谱熵核 可积
+scalar_resolvent_purification_integrable	标量 预解式 纯化 可积
+scalar_resolvent_purification_integrable_of_pos	标量 预解式 纯化 可积 由 正
+scalar_resolvent_purification_integral	标量 预解式 纯化 积分
+schmidtVector_apply	schmidt 向量 作用于
+schmidtVector_spectralEnergy_le	schmidt 向量 谱能量 ≤
+sharedThresholdDiagonal_eq_block	共享阈值对角 = 块
+sharedThresholdResourceRaw_block_action	共享阈值资源原始 块 作用
+sharedThresholdResource_block_action_norm_sq	共享阈值资源 块 作用 范数 平方
+sharedThresholdResourceRaw_eq_vec	共享阈值资源原始 = 向量
+sharedThresholdResourceRaw_local_action	共享阈值资源原始 局部 作用
+sharedThresholdResourceRaw_ne_zero	共享阈值资源原始 ≠ 零
+sharedThresholdResource_norm	共享阈值资源 范数
+sharedThresholdResourceRaw_norm_sq	共享阈值资源原始 范数 平方
+shifted_inverse_square_contraction	平移 逆 平方 收缩
+shifted_posSemidef_matrix_inverse_posSemidef	平移 正半定 矩阵 逆 正半定
+spectralPurificationFilter_sub_gram	谱纯化滤子 − gram
+shifted_posSemidef_matrix_posDef	平移 正半定 矩阵 正定义
+spectralPurificationFilter_eq_resolvent	谱纯化滤子 = 预解式
+sourceHistoryAcceptedMass_eq_remaining_average	源历史被接受质量 = 剩余 平均
+sourceHistoryAcceptedMass_gt_of_greedy	源历史被接受质量 > 由 贪心
+sourceHistoryFlag_sum	源历史旗 和
+sourceHistoryQuadraticExpectation_matrix_sum	源历史二次期望 矩阵 和
+sourceUniformPermutationAliceEntropyBudget	源一致置换 Alice 熵预算
+sourceRemainingPermutationCoordinate_not_mem	源剩余置换坐标 非 ∈
+sourceRemainingPermutationCoordinate_not_mem_prefix	源剩余置换坐标 非 ∈ 前缀
+sourceRemainingPermutationCoordinate_sum	源剩余置换坐标 和
+sourceRemainingPermutationPrefixSubtype_succ	源剩余置换前缀子类型 后继
+sourceRemainingPermutationPrefix_succ	源剩余置换前缀 后继
+sourceRemainingPermutationPrefix_last	源剩余置换前缀 最后
+sourceRemainingPermutationPrefix_subset	源剩余置换前缀 子集
+sourceRemainingPermutationPrefix_zero	源剩余置换前缀 零
+sourceRemainingPermutationRank_coordinate	源剩余置换秩 坐标
+sourceRemainingPermutation_card_pos	源剩余置换 基数 正
+sourceUniformPermutationAverage_le	源一致置换平均 ≤
+sourceRemaining_nonnegative_sum_le	源剩余 非负 和 ≤
+sourceUniformPermutationAverage_nonneg	源一致置换平均 非负
+source_equation_twenty_nine_contradiction	源 方程 二十 九 矛盾
+source_equation_twenty_one	源 方程 二十 一
+spectralPartitionPOVM_weighted_trace_deficit_eq_mismatch	谱划分 POVM 加权 迹 亏量 = 失配
+spectralAtomSum_mul_self	谱原子和 × 自身
+spectralAtom_mul	谱原子 ×
+spectralAtom_trace	谱原子 迹
+spectralConjugationCLM_apply	谱共轭 CLM 作用于
+spectralEntropyKernel_eq_scalar_sub_filter	谱熵核 = 标量 − 滤子
+targetSpectralAtom_apply	目标谱原子 作用于
+weightedSpectralEntropyJensen_eq_shifted_inverse	加权谱熵 Jensen = 平移 逆
+weightedSpectralEntropyJensen_integrable	加权谱熵 Jensen 可积
+spectralPurificationFilterEntryLp_coeFn	谱纯化滤子元素 Lp 强制转换函数
+weightedSpectralFilterVariance_integrable	加权谱滤子方差 可积
+spectralPurificationFilter_eq_one_sub_shifted_inverse	谱纯化滤子 = 一 − 平移 逆
+spectralPurificationFilter_gram	谱纯化滤子 gram
+spectralPurificationFilter_gram_integrable	谱纯化滤子 gram 可积
+spectralPurificationFilter_mul_shift	谱纯化滤子 × 平移
+spectralPurificationFilter_square_contraction	谱纯化滤子 平方 收缩
+spectralSupportFunctional_congr	谱支撑泛函 合同
+spectralSupportInverse_mul	谱支撑逆 ×
+spectralSupportInverse_penrose	谱支撑逆 penrose
+spectralSupportProjection_mul	谱支撑投影 ×
+spectralSupportSqrt_sq	谱支撑平方根 平方
+spectralSupportFunctional_id	谱支撑泛函 恒等
+spectralSupportFunctional_isHermitian	谱支撑泛函 是厄米
+spectralSupportInverse_isHermitian	谱支撑逆 是厄米
+spectralSupportProjection_isHermitian	谱支撑投影 是厄米
+spectralSupportFunctional_mul	谱支撑泛函 ×
+squared_state_triangle	平方 状态 三角形
+sum_positive_difference_eq_totalVariation	和 正 差 = 总变差
+targetCanonicalSchmidtCoefficient_nonneg	目标典范 Schmidt 系数 非负
+targetCatalystDoubleSum_reindex	目标催化剂双和 重标指标
+targetCoefficientMatrix_vec	目标系数矩阵 向量
+targetReducedDensity_posSemidef	目标约化密度 正半定
+targetSpectralAtomOverlap_eq_basis_norm_sq	目标谱原子重叠 = 基 范数 平方
+trace_mul_posSemidef_nonneg	迹 × 正半定 非负
+unconditionalActualC485CanonicalCorrectedIdeal_generic	无条件实际 C 485 典范已修正理想 一般
+unconditionalActualC485CanonicalVector_eq_correctedIdeal	无条件实际 C 485 典范向量 = 已修正理想
+unconditionalActualC485CleanDeviation_eq_hazard	无条件实际 C 485 干净偏差 = 风险
+unconditionalActualC485WeightedCleanDeviation_eq_hazard	无条件实际 C 485 加权干净偏差 = 风险
+unconditionalActualC485CompleteDecodedPhysicalBorn	无条件实际 C 485 完备已解码物理 Born
+unconditionalActualC485CompleteDecodedScalarBorn	无条件实际 C 485 完备已解码标量 Born
+unconditionalActualFairSourcePhysicalStopBornWitness	无条件实际公平源物理停止 Born 见证
+unconditionalActualC485FairSourceClipEnergy_le	无条件实际 C 485 公平源截断能量 ≤
+unconditionalActualC485FairSourceClipEnergy_le_budget	无条件实际 C 485 公平源截断能量 ≤ 预算
+unconditionalActualC485FullBilateralWorkRegroup	无条件实际 C 485 完整双边工作重组
+unconditionalActualPairedDecodedMatchedCleanedVector	无条件实际配对已解码已匹配已清理向量
+unconditionalActualC485GenericDecodedWinningBorn	无条件实际 C 485 一般已解码必胜 Born
+unconditionalActualC485SourceSelectedDecodedWinningBorn	无条件实际 C 485 源选中已解码必胜 Born
+unconditionalActualC485GenericSelectedWinningRegroupGauge	无条件实际 C 485 一般选中必胜重组规范
+unconditionalActualFairCanonicalRow_le_one	无条件实际公平典范行 ≤ 一
+unconditionalActualFixedSourceDecodedMatchedBranch	无条件实际固定源已解码已匹配分支
+unconditionalActualCleanedSelectedFiniteStageDecoder_succ	无条件实际已清理选中有限阶段解码器 后继
+unconditionalActualCleanedSelectedMatchedStoppingBranch	无条件实际已清理选中已匹配停止分支
+unconditionalActualFairWeightedCanonicalMass_le_one	无条件实际公平加权典范质量 ≤ 一
+unconditionalActualFairSourceCanonicalVector_norm_sq	无条件实际公平源典范向量 范数 平方
+unconditionalActualFairCleanedRow_eq_stoppedSuccess	无条件实际公平已清理行 = 停止成功
+unconditionalActualFairWeightedCleanedMass_le_one	无条件实际公平加权已清理质量 ≤ 一
+unconditionalActualFairSourceBaseSupportedBorn	无条件实际公平源基支撑 Born
+unconditionalActualFairSourceCanonicalVector_norm	无条件实际公平源典范向量 范数
+unconditionalActualFairSourceConjugateTensorEmbezzlementOne_inverse_reindex	无条件实际公平源共轭张量纠缠挪用一 逆 重标指标
+unconditionalActualFairSourceEmbezzlementOne_apply	无条件实际公平源纠缠挪用一 作用于
+unconditionalActualFairSourceTensorEmbezzlementOne_reindex	无条件实际公平源张量纠缠挪用一 重标指标
+unconditionalActualFairSourceMatchedHistoryGamma	无条件实际公平源已匹配历史Γ
+unconditionalActualFairSourceMatchedHistoryPhi	无条件实际公平源已匹配历史φ
+unconditionalActualFairSourcePhaseHarmonicStage_sourceProduct	无条件实际公平源相位调和阶段 源积
+unconditionalActualFairSourcePhysicalBranchWitness	无条件实际公平源物理分支见证
+unconditionalActualFairSourceRoundingData_exists_stoppedVerifier	无条件实际公平源舍入数据 存在 停止验证者
+unconditionalSourcePhysicalRounding_exists_small	无条件源物理舍入 存在 小
+unconditionalActualFairSourceSamplerData_of_positive	无条件实际公平源采样器数据 由 正
+unconditionalActualFairSourceSelectedRetainedWinningEffectGauge	无条件实际公平源选中保留必胜效应规范
+unconditionalActualFairSourceStoppingHazardData_of_positive	无条件实际公平源停止风险数据 由 正
+unconditionalActualFairSourceVerifier_historyBorn_bounds	无条件实际公平源验证者 历史 Born 界
+unconditionalActualFairSourceVerifier_historyBorn_bounded	无条件实际公平源验证者 历史 Born 有界
+unconditionalActualFairSourceVerifier_historyBorn_nonnegative	无条件实际公平源验证者 历史 Born 非负
+unconditionalActualOneScaleFixedSourceDecodedMatchedBranch	无条件实际一尺度固定源已解码已匹配分支
+unconditionalActualFixedSourceFullBilateralRegroup_eq	无条件实际固定源完整双边重组 =
+unconditionalActualFixedSourceFullPhysicalBilateralStageTransport	无条件实际固定源完整物理双边阶段输运
+unconditionalActualLocalPOVMWinningEffect_complement_posSemidef	无条件实际局部 POVM 必胜效应 补 正半定
+unconditionalActualMultiscalePhase_EPR_apply	无条件实际多尺度相位 EPR 作用于
+unconditionalActualOneScalePhysicalQuestionDecodedMatchedBranch	无条件实际一尺度物理问题已解码已匹配分支
+unconditionalActualOneScaleFlagControlledFiniteStageDecoder_eq	无条件实际一尺度旗受控有限阶段解码器 =
+unconditionalActualPhysicalMixedAcceptedSpectralGauge_apply	无条件实际物理混合被接受谱规范 作用于
+unconditionalActualPhysicalMixedAcceptedSpectralGauge_stage	无条件实际物理混合被接受谱规范 阶段
+unconditionalActualPhysicalMixedAcceptedSpectralGauge_sum	无条件实际物理混合被接受谱规范 和
+unconditionalActualRetainedPOVM_ext	无条件实际保留 POVM 外延
+unconditionalSelectedGaugeRetainedPOVMNaturality	无条件选中规范保留 POVM 自然性
+unconditionalActualSelectedBranchLocalAction_decidableEq_irrel	无条件实际选中分支局部作用 可判定= 无关
+unconditionalActualSelectedBranchLocalAction_sub	无条件实际选中分支局部作用 −
+unconditionalMixedConjugateCanonicalAcceptedTarget_sum	无条件混合共轭典范被接受目标 和
+unconditionalNormalizedCanonicalRetainedWork_norm_sq	无条件归一化典范保留工作 范数 平方
+unconditionalConjugateCanonicalRaw_eq_norm_smul_unit	无条件共轭典范原始 = 范数 数乘 单位
+unconditionalWeightedClippedConjugateUnitSource_distance_sq_le	无条件加权截断共轭单位源 距离 平方 ≤
+unconditionalCoherentPhaseConstantWork_sub	无条件相干相位常数工作 −
+unconditionalConjugateBobBasisOverlapCancellation	无条件共轭 Bob 基重叠消去
+unconditionalPhaseCanonicalRaw_eq_norm_smul_unit	无条件相位典范原始 = 范数 数乘 单位
+unconditionalConjugatePureVector_apply	无条件共轭纯向量 作用于
+unconditionalConjugatePureVector_norm_sq	无条件共轭纯向量 范数 平方
+unconditionalConjugatePureVector_norm	无条件共轭纯向量 范数
+unconditionalConjugatePureVector_sub_norm	无条件共轭纯向量 − 范数
+unconditionalConjugateSourceGlobalCatalystWinningEffect_quadratic	无条件共轭源整体催化剂必胜效应 二次
+unconditionalConjugateTranspose_eq_inverse	无条件共轭转置 = 逆
+unconditionalFairMatchedFlag_history_eq	无条件公平已匹配旗 历史 =
+unconditionalLiterature_sqrt_two_mul_sqrt_thirtytwo	无条件文献 平方根 二 × 平方根 三十二
+unconditionalLiterature_weightedAsynchronous_le	无条件文献 加权异步 ≤
+unconditionalLiterature_weightedNormMean_le_sqrtEnergy	无条件文献 加权范数均值 ≤ 平方根能量
+unconditionalMatchedTensor_real_smul_work	无条件已匹配张量 实 数乘 工作
+unconditionalPhaseCanonical_sourceScale_absorbed	无条件相位典范 源尺度 被吸收
+unconditionalMatchedVerifierAggregate_dependent_le	无条件已匹配验证者聚合 依赖 ≤
+unconditionalWeightedClippedMatchedVerifierAndMassLoss	无条件加权截断已匹配验证者且质量损失
+unconditionalMatchedVerifierEffect_tensor_complement	无条件已匹配验证者效应 张量 补
+unconditionalMatchedVerifierEffect_tensor_complement_posSemidef	无条件已匹配验证者效应 张量 补 正半定
+unconditionalMatchedVerifierEffect_tensor_posSemidef	无条件已匹配验证者效应 张量 正半定
+unconditionalMatchedVerifierTensor_norm	无条件已匹配验证者张量 范数
+unconditionalMatchedVerifierTensor_norm_sq	无条件已匹配验证者张量 范数 平方
+unconditionalStoppedPhaseHarmonicDistance_sum_le	无条件停止相位调和距离 和 ≤
+unconditionalMatchedVerifierTensor_sub_right	无条件已匹配验证者张量 − 右
+unconditionalMixedConjugateTargetCovariance	无条件混合共轭目标协方差
+unconditionalMixedConjugateSelectedBranch_tensorAction	无条件混合共轭选中分支 张量作用
+unconditionalMixedConjugateSelectedBranch_tensor_smul	无条件混合共轭选中分支 张量 数乘
+unconditionalMixedConjugateSigmaAtomLift_apply	无条件混合共轭σ原子提升 作用于
+unconditionalMixedConjugateSigmaLocalAction_apply	无条件混合共轭σ局部作用 作用于
+unconditionalPhysicalOneScaleOriginalFlagPOVM_succ_nested	无条件物理一尺度原始旗 POVM 后继 嵌套
+unconditionalPrefactorBucketCoefficient_nonneg	无条件前因子桶系数 非负
+unconditionalPrefactor_balancedHazard_sqrt_le	无条件前因子 平衡风险 平方根 ≤
+unconditionalPrefactor_smallHazard_twelfthRoot_le	无条件前因子 小风险 十二分之一根 ≤
+unconditionalPrefactor_fourthRoot_async_le	无条件前因子 第四根 异步 ≤
+unconditionalPrefactor_fourthRoot_async_le_twelfth	无条件前因子 第四根 异步 ≤ 十二分之一
+unconditionalPrefactor_fourthRoot_sq	无条件前因子 第四根 平方
+unconditionalPrefactor_largeVerifier_twelfthRoot_le	无条件前因子 大验证者 十二分之一根 ≤
+unconditionalSourcePhysicalRounding_largeVerifierBound	无条件源物理舍入 大验证者界
+unconditionalPrefactor_sixtyFour_fourthRoot_le	无条件前因子 六十四 第四根 ≤
+unconditionalPublicBucket_exp_sub_one_le	无条件公开桶 指数函数 − 一 ≤
+unconditionalRegroupedSelectedRetainedReindexAction	无条件重组选中保留重标指标作用
+unconditionalSelectedBranchLocalAction_mul	无条件选中分支局部作用 ×
+unconditionalSelectedCopyCleanedMatchedBranch_norm_sq	无条件选中副本已清理已匹配分支 范数 平方
+unconditionalSelectedCopyIdealMatchedBranch_norm_sq	无条件选中副本理想已匹配分支 范数 平方
+unconditionalSelectedCopyMatchedBranch_deviation_sq	无条件选中副本已匹配分支 偏差 平方
+unconditionalSelectedCopy_coherentPhaseConstantWork_norm_sq	无条件选中副本 相干相位常数工作 范数 平方
+unconditionalSelectedCopy_tensor_sub	无条件选中副本 张量 −
+unconditionalSelectedCopy_weightedAffine	无条件选中副本 加权仿射
+unconditionalSelectedMultiscalePhase_EPR_apply	无条件选中多尺度相位 EPR 作用于
+unconditionalSelectedMultiscalePhase_card	无条件选中多尺度相位 基数
+unconditionalSmallSourcePhysicalRoundedLower	无条件小源物理舍入下
+unconditionalSourceOneGameRounding_uniform	无条件源一博弈舍入 一致
+unconditionalSourceOneGameRounding_uniform_of_small	无条件源一博弈舍入 一致 由 小
+unconditionalSourcePhysicalCleanedStoppingFixedSource_branch_apply	无条件源物理已清理停止固定源 分支 作用于
+unconditionalSourcePhysicalCleanedStoppingLocalAction_reindex	无条件源物理已清理停止局部作用 重标指标
+unconditionalSourcePhysicalRoundingUniversalConstant_ge	无条件源物理舍入泛常数 ≥
+unconditionalSourcePhysicalRounding_smallRoundedLower_of_stoppedVerifier	无条件源物理舍入 小舍入下 由 停止验证者
+unconditionalSourcePhysicalStoppingBranch_sigmaContinuation	无条件源物理停止分支 σ延拓
+unconditionalWeightedStoppedPhaseHarmonicClippedUnit_le	无条件加权停止相位调和截断单位 ≤
+uniformFlagReference_conditional	一致旗参考 条件
+uniformRemainingFailure_lt_of_failure_sum	一致剩余失败 < 由 失败 和
+unitVector_distance_of_real_overlap	单位向量 距离 由 实 重叠
+unitaryBasisOverlap_apply	酉基重叠 作用于
+unitary_col_norm_sq_sum	酉 列 范数 平方 和
+unitary_row_norm_sq_sum	酉 行 范数 平方 和
+universalDiagonalCatalystOverlap_of_harmonic_ratio	泛对角催化剂重叠 由 调和 比
+weightedComplexOverlapVector_inner	加权复重叠向量 内积
+weightedComplexOverlapVector_norm_sq	加权复重叠向量 范数 平方
+weightedConditionalJoint_totalVariation	加权条件联合 总变差
+weightedSchmidtMatrixTrace	加权 Schmidt 矩阵迹
+weighted_positive_matrix_mean	加权 正 矩阵 均值
+weighted_real_cauchy	加权 实 cauchy
+weighted_rpow_mean_le	加权 实幂 均值 ≤

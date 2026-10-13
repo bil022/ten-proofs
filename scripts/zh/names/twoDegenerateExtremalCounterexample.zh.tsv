@@ -1,0 +1,309 @@
+CompactnessConjecture.extremalNumber_monotone_of_no_isolated	紧性猜想 · 极值数 单调 由 无 孤立
+twoDegenerateExtremalCounterexample	二退化极值反例
+CompactnessConjecture.free_map_of_no_isolated	紧性猜想 · 自由 映射 由 无 孤立
+eventually_expectedRetainedEdge_le_extremalNumber	最终 期望保留边 ≤ 极值数
+BinaryPairKernel.averageDisagreement_eq_four_outcomes	二元对核 · 平均不一致 = 四 结果
+BinaryPairKernel.conditionalEntropy_logsum_reduction	二元对核 · 条件熵 对数和 归约
+BinaryPairKernel.smoothed_averageDisagreement	二元对核 · 光滑化 平均不一致
+BinaryPairKernel.bitDisagreementProbability_mem_Icc	二元对核 · 位不一致概率 ∈ 闭区间
+empiricalAverageDisagreement_error	经验平均不一致 误差
+BinaryPairKernel.childMarginal_eq_four_outcomes	二元对核 · 子节点边缘 = 四 结果
+BinaryPairKernel.smoothed_childMarginal	二元对核 · 光滑化 子节点边缘
+BinaryPairKernel.childMarginal_le_one	二元对核 · 子节点边缘 ≤ 一
+BinaryPairKernel.conditionalEntropy_bound	二元对核 · 条件熵 界
+empiricalChildMarginal_entropy_error	经验子节点边缘 熵 误差
+BinaryPairKernel.childMarginal_nonneg	二元对核 · 子节点边缘 非负
+BinaryPairKernel.childProbability_le_one	二元对核 · 子节点概率 ≤ 一
+BinaryPairKernel.smoothed_conditionalEntropy	二元对核 · 光滑化 条件熵
+empiricalChildMarginal_error	经验子节点边缘 误差
+empiricalChildMarginal_mem_Icc	经验子节点边缘 ∈ 闭区间
+empiricalConditionalEntropy_error	经验条件熵 误差
+BinaryPairKernel.childProbability_nonneg	二元对核 · 子节点概率 非负
+empiricalConditionalEntropy_bound	经验条件熵 界
+BinaryPairKernel.conditionalEntropy_bound_of_marginal_interior	二元对核 · 条件熵 界 由 边缘 内部
+BinaryPairKernel.conditionalEntropy_mul_log_two	二元对核 · 条件熵 × 对数 二
+BinaryPairKernel.parentProbability_le_one	二元对核 · 父节点概率 ≤ 一
+BinaryPairKernel.parentProbability_nonneg	二元对核 · 父节点概率 非负
+BinaryPairKernel.smoothedConditionalEntropy_continuous	二元对核 · 光滑化条件熵 连续
+ParentSystem.graph_adj_iff	父节点系统 · 图 相邻 ⇔
+ParentSystem.graph_isBipartite	父节点系统 · 图 是二部
+ParentSystem.graph_isTwoDegenerate	父节点系统 · 图 是二退化
+pairBaseVertices_reachable	对基顶点 可达
+pairGraph_parent_child_adj	对图 父节点 子节点 相邻
+pairLayer_reaches_base	对层 到达 基
+pairGraph_isBipartite	对图 是二部
+pairGraph_isTwoDegenerate	对图 是二退化
+ParentSystem.parent_card	父节点系统 · 父节点 基数
+ParentSystem.parent_level	父节点系统 · 父节点 水平
+abs_binaryEntropy_sub_le_binaryEntropy_abs_sub	绝对值 二元熵 − ≤ 二元熵 绝对值 −
+badPairChildArrays_card_le	坏对子节点数组 基数 ≤
+badPairChildRetentionEvent_real_le	坏对子节点保留事件 实 ≤
+badPairLayerRetentionEvent_real_le	坏对层保留事件 实 ≤
+badPairLayerRetentionBound_eq_exp	坏对层保留界 = 指数函数
+badPairLayerRetentionEvent_real_lt_exp_neg	坏对层保留事件 实 < 指数函数 负
+badPairLayersRetentionEvent_real_le	坏对层保留事件 实 ≤
+manuscriptSamplingFailureEvent_real_le	手稿采样失败事件 实 ≤
+baseSize_le_pairVertex_card	基大小 ≤ 对顶点 基数
+pairGraphOverFin_forall_exists_adj	对图之上有限 任意 存在 相邻
+binaryCoinMass_nonneg	二元硬币质量 非负
+independentBinaryPairMass_nonneg	独立二元对质量 非负
+binaryConditionalLogPotential_le_kappa	二元条件对数势 ≤ kappa
+binaryConditionalLogPotential_tangent_bound	二元条件对数势 切 界
+binaryEntropy_continuous	二元熵 连续
+empiricalEntropyError_tendsto_zero	经验熵误差 趋于 零
+binaryEntropy_le_one	二元熵 ≤ 一
+pairGraphCopyLayerPotential_mem_Icc	对图副本层势 ∈ 闭区间
+binaryEntropy_mono_on_half	二元熵 单调 在…上 一半
+binaryEntropy_nonneg	二元熵 非负
+binaryEntropy_one_sub	二元熵 一 −
+binaryEntropy_scale_le	二元熵 尺度 ≤
+binaryEntropy_subadditive	二元熵 次可加
+binaryEntropy_tau_lt_one	二元熵 τ < 一
+entropyUpperEndpoint_lt_one	熵上端点 < 一
+binaryEntropy_zero	二元熵 零
+binaryPinskerGapDerivTwo_nonneg	二元 Pinsker 间隙导数二 非负
+binaryPinskerGap_convex	二元 Pinsker 间隙 凸
+binaryPinskerGapDeriv_half	二元 Pinsker 间隙导数 一半
+binary_pinsker	二元 pinsker
+binaryPinskerGapDeriv_hasDerivAt	二元 Pinsker 间隙导数 有导数在
+binaryPinskerGap_continuous	二元 Pinsker 间隙 连续
+binaryPinskerGap_half	二元 Pinsker 间隙 一半
+binaryPinskerGap_hasDerivAt	二元 Pinsker 间隙 有导数在
+binary_log_sum_bound	二元 对数 和 界
+binomialModeRatio_le_of_ge	二项式模式比 ≤ 由 ≥
+binomialProbabilityMass_succ_le_of_ge_mode	二项式概率质量 后继 ≤ 由 ≥ 模式
+binomialModeRatio_le_of_lt	二项式模式比 ≤ 由 <
+binomialProbabilityMass_le_succ_of_lt_mode	二项式概率质量 ≤ 后继 由 < 模式
+binomialProbabilityMass_le_mode	二项式概率质量 ≤ 模式
+binomialProbabilityMass_mode_ge_inverse	二项式概率质量 模式 ≥ 逆
+exp_binary_entropy_div_le_choose	指数函数 二元 熵 ÷ ≤ 组合数
+binomialProbabilityMass_mode_mul_exp_entropy	二项式概率质量 模式 × 指数函数 熵
+binomialProbabilityMass_nonneg	二项式概率质量 非负
+binomialProbabilityMass_succ_mul	二项式概率质量 后继 ×
+binomialProbabilityMass_sum_eq_one	二项式概率质量 和 = 一
+binomial_probability_term_le_one	二项式 概率 项 ≤ 一
+log_choose_le_binary_entropy	对数 组合数 ≤ 二元 熵
+bipartition_maximum_degree_gt_two_of_adj	二部划分 最大值 次数 > 二 由 相邻
+pairGraphOverFin_bipartition_maximum_degree_gt_two	对图之上有限 二部划分 最大值 次数 > 二
+booleanWordOnes_card_equiv	布尔字全一 基数 等价
+pairGraphCopy_childPotential_eq	对图副本 子节点势 =
+pairGraphCopy_parentPotential_eq	对图副本 父节点势 =
+booleanWordsOfWeight_card	布尔字由权 基数
+classifiedBooleanWords_card	已分类布尔字 基数
+boundedDifferenceSets_card	有界差集合 基数
+hammingBall_card	hamming 球 基数
+certificate_ratio_identity	证书 比 恒等式
+log_certificate_ratio_identity	对数 证书 比 恒等式
+certificate_ratio_one_lt	证书 比 一 <
+certifiedWindowWidth_pos	已认证窗口宽度 正
+entropySlack_pos	熵松弛 正
+entropyWindow_pos	熵窗口 正
+exists_entropy_exclusion_depth	存在 熵 排除 深度
+manuscriptEntropyGap_pos	手稿熵间隙 正
+choose_le_exp_binary_entropy	组合数 ≤ 指数函数 二元 熵
+choose_product_le_exp_binary_entropy	组合数 积 ≤ 指数函数 二元 熵
+pairChildGroup_choose_product_entropy_bound	对子节点群 组合数 积 熵 界
+pairChildArraysOfProfile_card	对子节点数组由轮廓 基数
+classifiedWordOnes_card	已分类字全一 基数
+degree_gt_two_of_three_neighbors	次数 > 二 由 三 邻居
+pairGraph_exists_adj_degree_gt_two	对图 存在 相邻 次数 > 二
+pairCoordinateConditionalEntropy_empirical_bound	对坐标条件熵 经验 界
+exists_empiricalEntropyError_base	存在 经验熵误差 基
+entropyLowerEndpoint_pos	熵下端点 正
+midpointBeta_pos	中点β 正
+entropyTangentCoefficient_norm	熵切系数 范数
+entropyTangentLog_constant	熵切对数 常数
+entropyTangentOneCoefficient_eq	熵切一系数 =
+entropyTangentRho_pos	熵切ρ 正
+entropyTangentSigma_pos	熵切σ 正
+entropyTangentZeroCoefficient_eq	熵切零系数 =
+midpointBeta_lt_one	中点β < 一
+entropyWindow_eq_certifiedWindowWidth	熵窗口 = 已认证窗口宽度
+entropy_potential_increment	熵 势 增量
+midpointBeta_gt_lower_unconditional	中点β > 下 无条件
+midpointBeta_lt_upper_unconditional	中点β < 上 无条件
+entropy_layer_exclusion	熵 层 排除
+pairGraph_free_of_layer_exclusion_and_disagreement	对图 自由 由 层 排除 且 不一致
+entropy_potential_layers_impossible	熵 势 层 不可能
+entropy_tau_identity	熵 τ 恒等式
+eventually_exists_pairGraph_free_dense_retainedHost	最终 存在 对图 自由 稠密 保留宿主
+eventually_manuscriptVertexCount_power_le_extremalNumber	最终 手稿顶点计数 幂 ≤ 极值数
+eventually_manuscriptEntropyGap_dominates_power_constant	最终 手稿熵间隙 控制 幂 常数
+eventually_manuscriptVertexCount_power_le_expectedRetainedEdge	最终 手稿顶点计数 幂 ≤ 期望保留边
+eventually_manuscriptExpectedRetainedEdge_entropy_lower	最终 手稿期望保留边 熵 下
+manuscriptExpectedRetainedEdgeCount_tendsto_atTop	手稿期望保留边计数 趋于 在⊤
+eventually_manuscriptHammingRadius_binEntropy_ge	最终 手稿 Hamming 半径 箱熵 ≥
+eventually_manuscriptVertexCount_le_four_wordMean	最终 手稿顶点计数 ≤ 四 字均值
+exists_actualPairLayer_exclusion_parameters	存在 实际对层 排除 参数
+exists_entropy_exclusion_base	存在 熵 排除 基
+exists_hammingRetention_outside_event	存在 hamming 保留 外部 事件
+exists_manuscriptVertexCount_bracket	存在 手稿顶点计数 括号
+manuscriptHammingBall_card_entropy_lower	手稿 Hamming 球 基数 熵 下
+exp_mul_div_nat_succ_tendsto_atTop	指数函数 × ÷ 自然数 后继 趋于 在⊤
+exp_neg_dimension_log_two	指数函数 负 维数 对数 二
+pairLayerExclusionProbability_tendsto_zero	对层排除概率 趋于 零
+exponentGain_pos	指数增益 正
+manuscriptExtremalPower_pos	手稿极值幂 正
+hammingBall_card_ge_boundary_binomial	hamming 球 基数 ≥ 边界 二项式
+hammingWordNeighbor_sum_const	hamming 字邻居 和 常数
+hammingDifferenceSet_flip	hamming 差集合 翻转
+hammingExpectedRetainedEdgeCount_eq	hamming 期望保留边计数 =
+hammingExpectedRetainedEdgeCount_pos	hamming 期望保留边计数 正
+hammingExpectedRetainedEdgeSquare_le	hamming 期望保留边平方 ≤
+hammingRetainedEdgeCount_lower_tail_probability_le	hamming 保留边计数 下 尾 概率 ≤
+hammingExpectedRetainedEdgeVariance_le	hamming 期望保留边方差 ≤
+hammingExpectedRetainedEdgeSquare_le_endpoint_decomposition	hamming 期望保留边平方 ≤ 端点 分解
+hammingRetainedEdgeCount_variance_le	hamming 保留边计数 方差 ≤
+hammingExpectedRetainedVertexCount_eq	hamming 期望保留顶点计数 =
+hammingExpectedRetainedVertexCount_pos	hamming 期望保留顶点计数 正
+hammingExpectedRetainedVertexCount_tendsto_atTop	hamming 期望保留顶点计数 趋于 在⊤
+hammingExpectedRetainedVertexVariance_eq	hamming 期望保留顶点方差 =
+hammingExpectedRetainedVertexCount_inv_tendsto_zero	hamming 期望保留顶点计数 逆 趋于 零
+manuscriptSamplingFailureBound_tendsto_zero	手稿采样失败界 趋于 零
+hammingRetainedVertexCount_upper_tail_probability_le	hamming 保留顶点计数 上 尾 概率 ≤
+hammingExpectedRetainedVertexSquare_eq	hamming 期望保留顶点平方 =
+hammingExpectedRetainedVertexVariance_le_mean	hamming 期望保留顶点方差 ≤ 均值
+hammingRetainedVertexCount_variance_le	hamming 保留顶点计数 方差 ≤
+hammingFlip_differenceSet	hamming 翻转 差集合
+hammingHost_adj_iff	hamming 宿主 相邻 ⇔
+pairGraphCopy_layer_side_eq	对图副本 层 侧 =
+pairGraphCopy_parent_child_hammingDist_le	对图副本 父节点 子节点 hamming 距离 ≤
+retainedHammingHost_edgeFinset_card	保留 Hamming 宿主 边有限集 基数
+hammingParentTuple_card	hamming 父节点元组 基数
+hammingRetainedEdgeCount_deviation_probability_le	hamming 保留边计数 偏差 概率 ≤
+hammingRetainedEdgeCount_eq_edgeFinset_card	hamming 保留边计数 = 边有限集 基数
+hammingRetainedEdgeCount_eq_wordEdges_card	hamming 保留边计数 = 字边 基数
+hammingRetainedEdgeCount_integral_eq	hamming 保留边计数 积分 =
+hammingRetainedEdgeCount_variance_eq	hamming 保留边计数 方差 =
+hammingRetainedEdgeCount_sq	hamming 保留边计数 平方
+hammingRetainedEdgeCount_sq_integral_eq	hamming 保留边计数 平方 积分 =
+hammingRetainedVertexCount_deviation_probability_le	hamming 保留顶点计数 偏差 概率 ≤
+hammingRetainedVertexCount_eq_card	hamming 保留顶点计数 = 基数
+retainedVertex_card_le_manuscriptVertexCount	保留顶点 基数 ≤ 手稿顶点计数
+hammingRetainedVertexCount_integral_eq	hamming 保留顶点计数 积分 =
+hammingRetainedVertexCount_variance_eq	hamming 保留顶点计数 方差 =
+hammingRetainedVertexCount_sq	hamming 保留顶点计数 平方
+hammingRetainedVertexCount_sq_integral_eq	hamming 保留顶点计数 平方 积分 =
+hammingRetentionMeasure_integrable	hamming 保留测度 可积
+hammingRetentionMeasure_integral_eq_sum	hamming 保留测度 积分 = 和
+hammingRetentionMeasure_memLp_two	hamming 保留测度 ∈ Lp 二
+hammingRetentionMeasure_integral_event_indicator	hamming 保留测度 积分 事件 示性函数
+hammingRetentionMeasure_isProbability	hamming 保留测度 是概率
+hammingRetentionMeasure_real_event_eq_sum	hamming 保留测度 实 事件 = 和
+hammingRetentionMeasure_real_deviation_le	hamming 保留测度 实 偏差 ≤
+hammingRetentionMeasure_real_contains_edgePair	hamming 保留测度 实 包含 边对
+hammingRetentionMeasure_real_contains_edgePair_le	hamming 保留测度 实 包含 边对 ≤
+hammingRetentionMeasure_real_contains_finset	hamming 保留测度 实 包含 有限集
+hammingRetentionMeasure_real_contains_pair	hamming 保留测度 实 包含 对
+hammingRetentionMeasure_real_contains_vertex	hamming 保留测度 实 包含 顶点
+hammingRetentionMeasure_real_pairChildren	hamming 保留测度 实 对子节点
+hammingRetentionMeasure_real_vertexPair	hamming 保留测度 实 顶点对
+hammingRetentionProbability_le_one	hamming 保留概率 ≤ 一
+hammingRetentionProbability_mul_wordCount_eq_exp	hamming 保留概率 × 字计数 = 指数函数
+hammingRetentionProbability_mul_wordCount_tendsto_atTop	hamming 保留概率 × 字计数 趋于 在⊤
+manuscriptVertexCount_succ_le_two_mul	手稿顶点计数 后继 ≤ 二 ×
+hammingRetentionProbability_mul_wordCount_inv_tendsto_zero	hamming 保留概率 × 字计数 逆 趋于 零
+manuscriptVertexCount_tendsto_atTop	手稿顶点计数 趋于 在⊤
+hammingRetentionProbability_pos	hamming 保留概率 正
+manuscriptVertexCount_le_four_wordMean	手稿顶点计数 ≤ 四 字均值
+hammingRetentionProbability_sq_mul_wordCount_eq_exp	hamming 保留概率 平方 × 字计数 = 指数函数
+hammingWordEdgePairIdentical_sum_const	hamming 字边对相同 和 常数
+hammingWordEdgePairSharedLeft_sum_const	hamming 字边对共享左 和 常数
+hammingWordEdgePairSharedRight_sum_const	hamming 字边对共享右 和 常数
+hammingWordEdgePair_sum_const	hamming 字边对 和 常数
+hammingWordEdge_sum_const	hamming 字边 和 常数
+independentBinaryPairMass_sum	独立二元对质量 和
+isBipartite_of_iso	是二部 由 同构
+pairGraphOverFin_isBipartite	对图之上有限 是二部
+isTwoDegenerate_of_iso	是二退化 由 同构
+pairGraphOverFin_isTwoDegenerate	对图之上有限 是二退化
+kappa_pos	kappa 正
+le_choose_two_of_four	≤ 组合数 二 由 四
+pairLayer_card_ge_base	对层 基数 ≥ 基
+logTwo_pairLayer_card_add_one_le	对数二 对层 基数 + 一 ≤
+logTwo_three_lt_two	对数二 三 < 二
+logTwo_three_pos	对数二 三 正
+log_entropyTangentRho	对数 熵切ρ
+log_entropyTangentSigma	对数 熵切σ
+log_four_thirds_lt_one_third	对数 四 三分之几 < 一 第三
+log_le_tangent	对数 ≤ 切
+log_three_eq_twice_log_sqrt_three	对数 三 = 两倍 对数 平方根 三
+log_two_pos	对数 二 正
+manuscriptExpectedRetainedEdgeCount_inv_tendsto_zero	手稿期望保留边计数 逆 趋于 零
+manuscriptHammingRadius_binEntropy_tendsto	手稿 Hamming 半径 箱熵 趋于
+manuscriptHammingRadius_le	手稿 Hamming 半径 ≤
+manuscriptHammingRadius_le_dimension	手稿 Hamming 半径 ≤ 维数
+pairGraphOverFin_free_of_manuscript_exclusion	对图之上有限 自由 由 手稿 排除
+manuscriptHammingRadius_ratio_tendsto	手稿 Hamming 半径 比 趋于
+midpointBeta_gt_lower	中点β > 下
+sampledHammingEdgeEntropyRate_eq_manuscriptExtremalPower	采样 Hamming 边熵码率 = 手稿极值幂
+sampledHammingEdgeEntropyRate_pos	采样 Hamming 边熵码率 正
+midpointBeta_lt_upper	中点β < 上
+normalized_binary_cauchy	归一化 二元 cauchy
+pairGraph_connected	对图 连通
+pairChildArrayAverageDisagreement_le_radius	对子节点数组平均不一致 ≤ 半径
+pairGraphCopy_averageDisagreement_le_radius	对图副本 平均不一致 ≤ 半径
+pairChildArrayEntropy_empirical_bound	对子节点数组熵 经验 界
+pairGraphCopy_layer_entropy_upper_of_disagreement	对图副本 层 熵 上 由 不一致
+pairChildArraysOfRealizedProfile_card_le	对子节点数组由实现轮廓 基数 ≤
+pairChildClassificationOnes_card	对子节点分类全一 基数
+pairChildVertexFinset_card	对子节点顶点有限集 基数
+pairCoordinateBitType_homogeneous_iff	对坐标位类型 齐次 ⇔
+pairCoordinatePairMismatchCount_homogeneous	对坐标对失配计数 齐次
+pairCoordinatePairMismatchCount_mixed	对坐标对失配计数 混合
+pairTypeGroup_homogeneous_card	对类型群 齐次 基数
+pairCoordinateClassificationFiber_card	对坐标分类纤维 基数
+pairCoordinateConditionalEntropy_log_mass	对坐标条件熵 对数 质量
+pairCoordinateConditionalEntropy_mass	对坐标条件熵 质量
+pairCoordinateKernel_childProbability	对坐标核 子节点概率
+pairCoordinateKernel_empiricalConditionalEntropy	对坐标核 经验条件熵
+pairCoordinateKernel_empiricalAverageDisagreement	对坐标核 经验平均不一致
+pairCoordinateKernel_empiricalAverageDisagreement_eq_mismatches	对坐标核 经验平均不一致 = 失配
+pairCoordinateKernel_empiricalChildMarginal	对坐标核 经验子节点边缘
+pairCoordinateKernel_parentProbability	对坐标核 父节点概率
+pairCoordinatePairMismatchCount_sum_false	对坐标对失配计数 和 假
+pairCoordinatePairMismatchCount_sum_true	对坐标对失配计数 和 真
+pairCoordinatePairMismatchCount_sum_mixed	对坐标对失配计数 和 混合
+sum_pairCoordinatePairMismatchCount	和 对坐标对失配计数
+pairGraphCopyChildWords_injective	对图副本子节点字 单射
+pairGraphCopy_entropy_lower_of_exclusion	对图副本 熵 下 由 排除
+pairGraphCopyChildWords_retained	对图副本子节点字 保留
+pairGraphCopy_averageDisagreement_le_tau	对图副本 平均不一致 ≤ τ
+pairGraphOverFin_free_of_layer_exclusion	对图之上有限 自由 由 层 排除
+pairGraphCopy_child_layer_side_eq	对图副本 子节点 层 侧 =
+pairGraphOverFin_connected	对图之上有限 连通
+pairGraphOverFin_exists_adj_degree_gt_two	对图之上有限 存在 相邻 次数 > 二
+pairGraphOverFin_free_of_layer_exclusion_and_disagreement	对图之上有限 自由 由 层 排除 且 不一致
+pairLayerPair_nonempty	对层对 非空
+pairLayer_card_succ	对层 基数 后继
+pairTypeGroup_card_le	对类型群 基数 ≤
+sum_pairTypeGroup_card	和 对类型群 基数
+pairLayer_card_zero	对层 基数 零
+pairParentCoordinateOneCount_le	对父节点坐标一计数 ≤
+pairTypeGroup_mixed_card	对类型群 混合 基数
+pairParentCoordinateSupport_card_add	对父节点坐标支撑 基数 +
+pairParentCoordinateSupport_false_card	对父节点坐标支撑 假 基数
+pairTypeGroup_false_card	对类型群 假 基数
+pairParentCoordinateSupport_true_card	对父节点坐标支撑 真 基数
+pairTypeGroup_true_card	对类型群 真 基数
+pairTypeCountProfile_card	对类型计数轮廓 基数
+pairTypeGroupChildOnes_card_le	对类型群子节点全一 基数 ≤
+pairTypeGroup_probability_mul_childRatio	对类型群 概率 × 子节点比
+withoutReplacementBinaryPairMass_eq_pairTypeGroup	不带替换二元对质量 = 对类型群
+pairTypeGroup_probability_mul_childComplement	对类型群 概率 × 子节点补
+sqrt_one_add_le	平方根 一 + ≤
+sqrt_three_mul_entropyTangentRho	平方根 三 × 熵切ρ
+sqrt_three_pos	平方根 三 正
+sum_pairCoordinatePairMismatchCount_eq_hammingDist	和 对坐标对失配计数 = hamming 距离
+sum_pairTypeGroupChildOnes_card	和 对类型群子节点全一 基数
+tau_complement	τ 补
+tau_reciprocal_identity	τ 倒数 恒等式
+tau_lt_one_half	τ < 一 一半
+tau_pos	τ 正
+twelve_sevenths_lt_sqrt_three	十二 七分之几 < 平方根 三
+withoutReplacementBinaryPairExpectation_error	不带替换二元对期望 误差
+withoutReplacementBinaryPairExpectation_le_one	不带替换二元对期望 ≤ 一
+withoutReplacementBinaryPairExpectation_nonneg	不带替换二元对期望 非负
+withoutReplacementBinaryPairExpectation_sub	不带替换二元对期望 −
+withoutReplacementBinaryPairMass_nonneg	不带替换二元对质量 非负
+withoutReplacementBinaryPairMass_sum	不带替换二元对质量 和

@@ -1,0 +1,4 @@
+'SoficGroups.SourceTopLevelCompressionFinal.exists_finitelyPresented_nonsofic_group' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+exit 0 after 169s

@@ -1,0 +1,1109 @@
+SoficGroups.AlmostCentralizerElement.defect_le	Sofic 群 · 几乎中心化子元素 · 亏量 ≤
+SoficGroups.KunActualSelectedCentralizerFiniteModel.nonempty_expandingCentralizerFiniteModel_of_selected_completed_sequence	Sofic 群 · Kun 实际选中中心化子有限模型 · 非空 扩张中心化子有限模型 由 选中 完成 序列
+SoficGroups.almostCentralizerGap_of_expansion	Sofic 群 · 几乎中心化子间隙 由 展开
+SoficGroups.AlmostCentralizerElement.ext	Sofic 群 · 几乎中心化子元素 · 外延
+SoficGroups.almostCentralizerElementFinite	Sofic 群 · 几乎中心化子元素有限
+SoficGroups.AlmostCentralizerGap.dichotomy	Sofic 群 · 几乎中心化子间隙 · 二分
+SoficGroups.almostCentralizerCluster_eq_iff	Sofic 群 · 几乎中心化子簇 = ⇔
+SoficGroups.correctedAlmostCentralizerProduct_assoc	Sofic 群 · 已修正几乎中心化子积 结合律
+SoficGroups.correctedAlmostCentralizerProduct_congr	Sofic 群 · 已修正几乎中心化子积 合同
+SoficGroups.AlmostCentralizerRepair.corrected_defect	Sofic 群 · 几乎中心化子修复 · 已修正 亏量
+SoficGroups.AlmostCentralizerRepair.corrected_distance	Sofic 群 · 几乎中心化子修复 · 已修正 距离
+SoficGroups.BinaryPrefixCode.prefix_free	Sofic 群 · 二元前缀码 · 前缀 自由
+SoficGroups.binaryPrefixCode_orthogonal	Sofic 群 · 二元前缀码 正交
+SoficGroups.CanonicalProductRadiusBadMatchedCapture.canonicalProductRadiusBad_density_tendsto_zero	Sofic 群 · 典范积半径坏已匹配捕获 · 典范积半径坏 密度 趋于 零
+SoficGroups.SourceGuardedCanonicalSelection.exists_source_guarded_canonical_selected_components_of_retained_matching	Sofic 群 · 源受守卫典范选择 · 存在 源 受守卫 典范 选中 分量 由 保留 匹配
+SoficGroups.CanonicalProductRadiusBadMatchedCapture.canonical_source_matched_component_cayley_ball_realization	Sofic 群 · 典范积半径坏已匹配捕获 · 典范 源 已匹配 分量 cayley 球 实现
+SoficGroups.CanonicalProductRadiusBadMatchedCapture.component_exit_mem_partitionWordCrossing	Sofic 群 · 典范积半径坏已匹配捕获 · 分量 退出 ∈ 划分字交叉
+SoficGroups.CanonicalProductRadiusBadMatchedCapture.sourceCompletionBad_subset_canonical_matchedRadiusBad	Sofic 群 · 典范积半径坏已匹配捕获 · 源完备化坏 子集 典范 已匹配半径坏
+SoficGroups.KunActualTwicePrunedFirstFactorRootBad.firstFactor_completed_mul_distance_le_canonical_matched	Sofic 群 · Kun 实际两倍已剪枝第一因子根坏 · 第一因子 完成 × 距离 ≤ 典范 已匹配
+SoficGroups.CanonicalProductRadiusBadMatchedCapture.composite_mem_sourceProductRadiusLabels	Sofic 群 · 典范积半径坏已匹配捕获 · 复合 ∈ 源积半径标号
+SoficGroups.CanonicalProductRadiusBadMatchedCapture.generator_mem_sourceProductRadiusLabels	Sofic 群 · 典范积半径坏已匹配捕获 · 生成元 ∈ 源积半径标号
+SoficGroups.CanonicalProductRadiusBadMatchedCapture.firstFactor_mem_sourceProductRadiusLabels	Sofic 群 · 典范积半径坏已匹配捕获 · 第一因子 ∈ 源积半径标号
+SoficGroups.CanonicalProductRadiusBadMatchedCapture.sourceWordTestBad_subset_finiteProductRootBad	Sofic 群 · 典范积半径坏已匹配捕获 · 源字检验坏 子集 有限积根坏
+SoficGroups.CanonicalProductRadiusBadMatchedCapture.secondFactor_mem_sourceProductRadiusLabels	Sofic 群 · 典范积半径坏已匹配捕获 · 第二因子 ∈ 源积半径标号
+SoficGroups.KunActualCanonicalPrunedSourceBadDensity.pruned_sourceCompletionBad_density_tendsto_zero_of_canonical_matched	Sofic 群 · Kun 实际典范已剪枝源坏密度 · 已剪枝 源完备化坏 密度 趋于 零 由 典范 已匹配
+SoficGroups.CheegerPoincare.card_mul_finiteVariance	Sofic 群 · Cheeger Poincare · 基数 × 有限方差
+SoficGroups.KunAdditiveMedianPoincare.additive_permutation_finiteVariance	Sofic 群 · Kun 加性中位数 Poincare · 加性 置换 有限方差
+SoficGroups.CheegerPoincare.exists_finite_real_median	Sofic 群 · Cheeger Poincare · 存在 有限 实 中位数
+SoficGroups.KunAdditiveMedianPoincare.exists_bounded_finite_real_median	Sofic 群 · Kun 加性中位数 Poincare · 存在 有界 有限 实 中位数
+SoficGroups.CheegerPoincare.finiteVariance_nonneg	Sofic 群 · Cheeger Poincare · 有限方差 非负
+SoficGroups.KunGlobalActualAdditiveMidrankVariance.weighted_component_midrankVariance_tendsto_zero_of_additive_expansion	Sofic 群 · Kun 整体实际加性中间秩方差 · 加权 分量 中间秩方差 趋于 零 由 加性 展开
+SoficGroups.CheegerPoincare.mem_lowerLevel	Sofic 群 · Cheeger Poincare · ∈ 下水平
+SoficGroups.CheegerPoincare.positiveSupport_max_sub_reverse	Sofic 群 · Cheeger Poincare · 正支撑 最大 − 反转
+SoficGroups.CheegerPoincare.mem_positiveSupport	Sofic 群 · Cheeger Poincare · ∈ 正支撑
+SoficGroups.CheegerPoincare.positiveSupport_max_sub	Sofic 群 · Cheeger Poincare · 正支撑 最大 −
+SoficGroups.KunAdditiveMedianPoincare.additive_permutation_small_support_coarea	Sofic 群 · Kun 加性中位数 Poincare · 加性 置换 小 支撑 余面积
+SoficGroups.CheegerPoincare.mem_upperLevel	Sofic 群 · Cheeger Poincare · ∈ 上水平
+SoficGroups.KunAdditiveMedianPoincare.additive_permutation_median_absolute_deviation	Sofic 群 · Kun 加性中位数 Poincare · 加性 置换 中位数 绝对 偏差
+SoficGroups.CheegerPoincare.positive_max_iff	Sofic 群 · Cheeger Poincare · 正 最大 ⇔
+SoficGroups.CheegerPoincare.sum_sq_sub_finiteMean_le	Sofic 群 · Cheeger Poincare · 和 平方 − 有限均值 ≤
+SoficGroups.KunAdditiveMedianPoincare.additive_permutation_median_variance	Sofic 群 · Kun 加性中位数 Poincare · 加性 置换 中位数 方差
+SoficGroups.CheegerPoincare.sum_sub_finiteMean_eq_zero	Sofic 群 · Cheeger Poincare · 和 − 有限均值 = 零
+SoficGroups.ChosenCayleyMatchedComponentRealization.sourceFirstFactorCayleyRadiusBad_density_tendsto_zero	Sofic 群 · 选定 Cayley 已匹配分量实现 · 源第一因子 Cayley 半径坏 密度 趋于 零
+SoficGroups.ChosenCayleyMatchedComponentRealization.sourceFirstFactor_injective_ball	Sofic 群 · 选定 Cayley 已匹配分量实现 · 源第一因子 单射 球
+SoficGroups.CompletedChosenWordLocalRoot.approximate_action_list_prod_tendsto	Sofic 群 · 完成选定字局部根 · 近似 作用 列表 积 趋于
+SoficGroups.CompletedChosenWordLocalRoot.chosenWordEvaluation_tendsto_action	Sofic 群 · 完成选定字局部根 · 选定字求值 趋于 作用
+SoficGroups.CompletedChosenWordLocalRoot.chosenWordEvaluation_multiplicative_tendsto	Sofic 群 · 完成选定字局部根 · 选定字求值 乘性 趋于
+SoficGroups.KunActualSelectedPrunedSourceFiniteModelBridge.nonempty_expandingCentralizerFiniteModel_of_actual_selected_pruned_source	Sofic 群 · Kun 实际选中已剪枝源有限模型桥接 · 非空 扩张中心化子有限模型 由 实际 选中 已剪枝 源
+SoficGroups.CompletedChosenWordLocalRoot.list_permutation_hamming_tendsto	Sofic 群 · 完成选定字局部根 · 列表 置换 hamming 趋于
+SoficGroups.CompletedChosenWordLocalRoot.normalizedHamming_mul_le	Sofic 群 · 完成选定字局部根 · 归一化 Hamming × ≤
+SoficGroups.CompletedPrescribedSpectralRadiusSchedule.fixedRadiusRootBad_density_tendsto_zero	Sofic 群 · 完成指定谱半径调度 · 固定半径根坏 密度 趋于 零
+SoficGroups.CompletedPrescribedSpectralRadiusSchedule.fixedRadiusRootBad_rooted	Sofic 群 · 完成指定谱半径调度 · 固定半径根坏 有根
+SoficGroups.CompletedPrescribedSpectralRadiusSchedule.mem_generator_pow_of_chosen_word_length	Sofic 群 · 完成指定谱半径调度 · ∈ 生成元 幂 由 选定 字 长度
+SoficGroups.CompletedSelectedCentralizerPairwiseSource.eventually_completed_sourceCentralizer_table_of_bad_density	Sofic 群 · 完成选中中心化子两两源 · 最终 完成 源中心化子 表 由 坏 密度
+SoficGroups.CompletedSelectedCentralizerPairwiseSource.eventually_five_mul_sourceCompletionBad_le_of_density	Sofic 群 · 完成选中中心化子两两源 · 最终 五 × 源完备化坏 ≤ 由 密度
+SoficGroups.CompletedSourceChosenWordRestrictionTransfer.completedGenerator_normalizedHamming_le_deleted	Sofic 群 · 完成源选定字限制转移 · 完成生成元 归一化 Hamming ≤ 已删除
+SoficGroups.CompletedSourceChosenWordRestrictionTransfer.completedGenerator_normalizedHamming_tendsto_zero	Sofic 群 · 完成源选定字限制转移 · 完成生成元 归一化 Hamming 趋于 零
+SoficGroups.CompletedSourceFinalGeneratorTransfer.twiceCompleted_sourceGenerator_normalizedHamming_tendsto_zero	Sofic 群 · 完成源最终生成元转移 · 两倍完成 源生成元 归一化 Hamming 趋于 零
+SoficGroups.CompletedSourceChosenWordRestrictionTransfer.completedGenerator_permutationDistance_le_deleted	Sofic 群 · 完成源选定字限制转移 · 完成生成元 置换距离 ≤ 已删除
+SoficGroups.CompletedSourceFinalGeneratorTransfer.deleted_density_relative_survivors	Sofic 群 · 完成源最终生成元转移 · 已删除 密度 相对 存活者
+SoficGroups.KunActualTwicePrunedFirstFactorRootBad.twiceCompleted_firstFactor_mul_normalizedHamming_tendsto_zero_of_canonical_matched	Sofic 群 · Kun 实际两倍已剪枝第一因子根坏 · 两倍完成 第一因子 × 归一化 Hamming 趋于 零 由 典范 已匹配
+SoficGroups.CompletedSourceFinalGeneratorTransfer.surviving_card_ratio_tendsto_one	Sofic 群 · 完成源最终生成元转移 · 存活 基数 比 趋于 一
+SoficGroups.KunActualTwicePrunedFirstFactorRootBad.density_relative_survivors	Sofic 群 · Kun 实际两倍已剪枝第一因子根坏 · 密度 相对 存活者
+SoficGroups.KunActualCanonicalSelectedFiniteModelComposition.nonempty_expandingCentralizerFiniteModel_of_canonical_selected_additive	Sofic 群 · Kun 实际典范选中有限模型复合 · 非空 扩张中心化子有限模型 由 典范 选中 加性
+SoficGroups.ComponentMidrankVariance.componentRankMassList_cube_sum	Sofic 群 · 分量中间秩方差 · 分量秩质量列表 立方 和
+SoficGroups.ComponentMidrankVariance.componentVertexMidrank_variance_eq	Sofic 群 · 分量中间秩方差 · 分量顶点中间秩 方差 =
+SoficGroups.ComponentMidrankVariance.componentVertexMidrank_eq_ordered_midpoint	Sofic 群 · 分量中间秩方差 · 分量顶点中间秩 = 有序 中点
+SoficGroups.ComponentMidrankVariance.sum_componentVertexMidrank_sq_eq	Sofic 群 · 分量中间秩方差 · 和 分量顶点中间秩 平方 =
+SoficGroups.ComponentMidrankVariance.componentVertexMidrank_finiteMean_eq_half	Sofic 群 · 分量中间秩方差 · 分量顶点中间秩 有限均值 = 一半
+SoficGroups.ComponentMidrankVariance.componentVertexMidrank_finiteVariance_eq	Sofic 群 · 分量中间秩方差 · 分量顶点中间秩 有限方差 =
+SoficGroups.KunGlobalActualAdditiveMidrankVariance.weighted_component_midrankVariance_additive_bound	Sofic 群 · Kun 整体实际加性中间秩方差 · 加权 分量 中间秩方差 加性 界
+SoficGroups.ComponentMidrankVariance.sum_componentVertexMidrank	Sofic 群 · 分量中间秩方差 · 和 分量顶点中间秩
+SoficGroups.ComponentMidrankVariance.sum_weighted_ordered_midpoints_sq	Sofic 群 · 分量中间秩方差 · 和 加权 有序 中点 平方
+SoficGroups.ComponentMidrankVariance.twice_lower_rank_pairs_add_equal_rank_pairs	Sofic 群 · 分量中间秩方差 · 两倍 下 秩 对 + 相等 秩 对
+SoficGroups.CompressionCriterion.mem_productTrackedTable	Sofic 群 · 压缩判别法 · ∈ 积跟踪表
+SoficGroups.KunActualSelectedCentralizerFiniteModel.trackedCompletedAlmostCentralizer_multiplicative	Sofic 群 · Kun 实际选中中心化子有限模型 · 跟踪完成几乎中心化子 乘性
+SoficGroups.KunActualSelectedCentralizerFiniteModel.trackedCompletedAlmostCentralizer_separated	Sofic 群 · Kun 实际选中中心化子有限模型 · 跟踪完成几乎中心化子 分离
+SoficGroups.MatchedComponentCompletion.completedRestriction_mul_of_not_mem_sourceCompletionBad	Sofic 群 · 已匹配分量完备化 · 完成限制 × 由 非 ∈ 源完备化坏
+SoficGroups.MatchedComponentCompletion.completedRestriction_ne_of_not_mem_sourceCompletionBad	Sofic 群 · 已匹配分量完备化 · 完成限制 ≠ 由 非 ∈ 源完备化坏
+SoficGroups.CompressionCriterion.mul_mem_productTrackedTable	Sofic 群 · 压缩判别法 · × ∈ 积跟踪表
+SoficGroups.CompressionCriterion.normalizedHamming_distinct_tendsto	Sofic 群 · 压缩判别法 · 归一化 Hamming 互异 趋于
+SoficGroups.KunActualSoficRootRadius.modelSeparationBad_density_tendsto_zero	Sofic 群 · Kun 实际 Sofic 根半径 · 模型分离坏 密度 趋于 零
+SoficGroups.CompressionCriterion.one_mem_productTrackedTable	Sofic 群 · 压缩判别法 · 一 ∈ 积跟踪表
+SoficGroups.KunActualSelectedCentralizerFiniteModel.trackedCompletedAlmostCentralizer_map_one	Sofic 群 · Kun 实际选中中心化子有限模型 · 跟踪完成几乎中心化子 映射 一
+SoficGroups.ErshovJaikinFiniteSpectral.finiteUnitarySubgroupAverage_fixed	Sofic 群 · Ershov Jaikin 有限谱 · 有限酉子群平均 固定
+SoficGroups.ErshovJaikinFiniteSpectral.hasPropertyT_of_three_finite_subgroups_friedrichs_angle	Sofic 群 · Ershov Jaikin 有限谱 · 有性质 T 由 三 有限 子群 friedrichs 角
+SoficGroups.ErshovJaikinFiniteSpectral.finiteUnitarySubgroupAverage_sub	Sofic 群 · Ershov Jaikin 有限谱 · 有限酉子群平均 −
+SoficGroups.ErshovJaikinFiniteSpectral.norm_finiteUnitarySubgroupAverage_sub_le	Sofic 群 · Ershov Jaikin 有限谱 · 范数 有限酉子群平均 − ≤
+SoficGroups.ErshovJaikinFiniteSpectral.hasPropertyT_of_geometric_finite_averaging	Sofic 群 · Ershov Jaikin 有限谱 · 有性质 T 由 几何 有限 平均
+SoficGroups.ErshovJaikinFiniteSpectral.hasPropertyT_of_three_finite_subgroups_geometric	Sofic 群 · Ershov Jaikin 有限谱 · 有性质 T 由 三 有限 子群 几何
+SoficGroups.hasPropertyT_of_finiteOuterBlockCyclicRootFamily_generate	Sofic 群 · 有性质 T 由 有限外块循环根族 生成
+SoficGroups.ErshovJaikinFiniteSpectral.inv_sqrt_eight_lt_one_half	Sofic 群 · Ershov Jaikin 有限谱 · 逆 平方根 八 < 一 一半
+SoficGroups.ErshovJaikinFiniteSpectral.inv_sqrt_eight_pos	Sofic 群 · Ershov Jaikin 有限谱 · 逆 平方根 八 正
+SoficGroups.ErshovJaikinFiniteSpectral.mem_threeFiniteSubgroupGenerators	Sofic 群 · Ershov Jaikin 有限谱 · ∈ 三有限子群生成元
+SoficGroups.ErshovJaikinFiniteSpectral.norm_inner_le_inv_sqrt_eight_of_sq	Sofic 群 · Ershov Jaikin 有限谱 · 范数 内积 ≤ 逆 平方根 八 由 平方
+SoficGroups.ErshovJaikinFiniteSpectral.norm_sub_starProjection_le_finiteUnitarySubgroupAverage	Sofic 群 · Ershov Jaikin 有限谱 · 范数 − 星投影 ≤ 有限酉子群平均
+SoficGroups.ExceptionalRankOffset.exists_common_log_rank_offset_except	Sofic 群 · 例外秩偏移 · 存在 公共 对数 秩 偏移 除了
+SoficGroups.ExceptionalRankOffset.exists_common_log_rank_offsets_tendsto_zero_except	Sofic 群 · 例外秩偏移 · 存在 公共 对数 秩 偏移 趋于 零 除了
+SoficGroups.SourceCommonOffsetMidrankEnergy.exists_common_component_log_rank_with_vanishing_drops	Sofic 群 · 源公共偏移中间秩能量 · 存在 公共 分量 对数 秩 带 消失 丢弃
+SoficGroups.ExceptionalRankOffset.rankDropCount_goodSubtype_eq	Sofic 群 · 例外秩偏移 · 秩丢弃计数 好子类型 =
+SoficGroups.ExceptionalRankOffset.rankDropCount_le_goodSubtype_add_exceptions	Sofic 群 · 例外秩偏移 · 秩丢弃计数 ≤ 好子类型 + 例外
+SoficGroups.ExpandingCentralizerFiniteModel.cheeger_positive	Sofic 群 · 扩张中心化子有限模型 · cheeger 正
+SoficGroups.exists_finite_group_embedding_of_expanding_centralizer	Sofic 群 · 存在 有限 群 嵌入 由 扩张 中心化子
+SoficGroups.ExpandingCentralizerFiniteModel.expansion	Sofic 群 · 扩张中心化子有限模型 · 展开
+SoficGroups.ExpandingCentralizerFiniteModel.map_one	Sofic 群 · 扩张中心化子有限模型 · 映射 一
+SoficGroups.ExpandingCentralizerFiniteModel.multiplicative	Sofic 群 · 扩张中心化子有限模型 · 乘性
+SoficGroups.ExpandingCentralizerFiniteModel.separated	Sofic 群 · 扩张中心化子有限模型 · 分离
+SoficGroups.ExpandingCentralizerFiniteModel.small	Sofic 群 · 扩张中心化子有限模型 · 小
+SoficGroups.GoodOn.mono	Sofic 群 · 好在…上 · 单调
+SoficGroups.exists_finite_obstruction	Sofic 群 · 存在 有限 障碍
+SoficGroups.GoodOn.multiplicative	Sofic 群 · 好在…上 · 乘性
+SoficGroups.goodOn_pullbackTableModel	Sofic 群 · 好在…上 拉回表模型
+SoficGroups.nonempty_soficApproximation_of_sofic	Sofic 群 · 非空 sofic 逼近 由 sofic
+SoficGroups.sofic_of_injective	Sofic 群 · sofic 由 单射
+SoficGroups.GoodOn.separated	Sofic 群 · 好在…上 · 分离
+SoficGroups.HasAlmostCentralizerImprovement.improve	Sofic 群 · 有几乎中心化子改进 · 改进
+SoficGroups.HasPropertyT.exists_kazhdanPair	Sofic 群 · 有性质 T · 存在 kazhdan 对
+SoficGroups.KunExactKazhdanGeneratorChange.exists_kazhdanPair_with_exact_symmetric_generators	Sofic 群 · Kun 精确 Kazhdan 生成元改变 · 存在 kazhdan 对 带 精确 对称 生成元
+SoficGroups.hasPropertyT_of_mulEquiv	Sofic 群 · 有性质 T 由 ×等价
+SoficGroups.KazhdanPair.invariant	Sofic 群 · Kazhdan 对 · 不变量
+SoficGroups.KunExactKazhdanGeneratorChange.kazhdanPairOnSymmetricGeneratingFinset_generators	Sofic 群 · Kun 精确 Kazhdan 生成元改变 · kazhdan 对在…上对称生成有限集 生成元
+SoficGroups.kazhdan_generator_displacement	Sofic 群 · kazhdan 生成元 位移
+SoficGroups.KazhdanPair.positive	Sofic 群 · Kazhdan 对 · 正
+SoficGroups.KunThomInvariantOrthogonal.kazhdanMarkovContractionFactor_lt_one	Sofic 群 · Kun Thom 不变量正交 · kazhdan Markov 收缩因子 < 一
+SoficGroups.KunThomInvariantOrthogonal.kazhdan_generator_sum_contraction	Sofic 群 · Kun Thom 不变量正交 · kazhdan 生成元 和 收缩
+SoficGroups.KunActualBothTransportedOverlapScales.exists_source_both_capped_overlap_scales	Sofic 群 · Kun 实际两者输运重叠尺度 · 存在 源 两者 封顶 重叠 尺度
+SoficGroups.KunActualSourceURetainedNoPremise.exists_actual_source_u_retained_matching	Sofic 群 · Kun 实际源 U 保留无前提 · 存在 实际 源 u 保留 匹配
+SoficGroups.KunActualBothTransportedOverlapScales.exists_source_both_common_slow_overlap_scales	Sofic 群 · Kun 实际两者输运重叠尺度 · 存在 源 两者 公共 慢 重叠 尺度
+SoficGroups.KunActualBothTransportedOverlapScales.source_both_transported_generator_boundary_density_tendsto_zero	Sofic 群 · Kun 实际两者输运重叠尺度 · 源 两者 输运 生成元 边界 密度 趋于 零
+SoficGroups.KunLiteralNineSourceFiniteModels.source_ambient_nonempty_expandingCentralizerFiniteModel	Sofic 群 · Kun 文字九源有限模型 · 源 环绕 非空 扩张中心化子有限模型
+SoficGroups.KunActualCanonicalSelectedPruning.exists_actual_uniformly_expanding_pruned_selected_components	Sofic 群 · Kun 实际典范选中剪枝 · 存在 实际 一致 扩张 已剪枝 选中 分量
+SoficGroups.KunActualCompressedSourceGroupFoundations.alphaZeroPrefixElementaryGroup_infinite	Sofic 群 · Kun 实际压缩源群基础 · alpha 零前缀初等群 无限
+SoficGroups.KunActualFinalRestrictedVariation.card_highSupport_le_three_card	Sofic 群 · Kun 实际最终限制变差 · 基数 高支撑 ≤ 三 基数
+SoficGroups.KunActualFinalRestrictedVariation.highSupport_variation_le_of_realMarkov_residual	Sofic 群 · Kun 实际最终限制变差 · 高支撑 变差 ≤ 由 实 Markov 剩余
+SoficGroups.KunActualFinalRestrictedVariation.filtered_variation_sq_le_card_mul_energy	Sofic 群 · Kun 实际最终限制变差 · 过滤 变差 平方 ≤ 基数 × 能量
+SoficGroups.KunActualFinalRestrictedVariation.highSupport_variation_sq_le_three_mul_reference_energy	Sofic 群 · Kun 实际最终限制变差 · 高支撑 变差 平方 ≤ 三 × 参考 能量
+SoficGroups.KunActualFinalRestrictedVariation.filtered_variation_sq_le_card_mul_filtered_energy	Sofic 群 · Kun 实际最终限制变差 · 过滤 变差 平方 ≤ 基数 × 过滤 能量
+SoficGroups.KunRootedWordPower.exists_rooted_word_radius_sparse_cut_of_boundary	Sofic 群 · Kun 有根字幂 · 存在 有根 字 半径 稀疏 割 由 边界
+SoficGroups.KunActualFinalRestrictedVariation.highSupport_variation_le_of_realMarkov_residual_and_highSupport	Sofic 群 · Kun 实际最终限制变差 · 高支撑 变差 ≤ 由 实 Markov 剩余 且 高支撑
+SoficGroups.KunActualFinalRestrictedVariation.high_variation_le_of_markov_square_bounds	Sofic 群 · Kun 实际最终限制变差 · 高 变差 ≤ 由 markov 平方 界
+SoficGroups.KunActualFinalRestrictedVariation.realMarkov_residual_pairing_le_sqrt_card_mul_residual	Sofic 群 · Kun 实际最终限制变差 · 实 Markov 剩余 配对 ≤ 平方根 基数 × 剩余
+SoficGroups.KunActualFinalRestrictedVariation.sum_sum_sq_displacement_le_twice_card_mul_sqrt_card_mul_residual	Sofic 群 · Kun 实际最终限制变差 · 和 和 平方 位移 ≤ 两倍 基数 × 平方根 基数 × 剩余
+SoficGroups.KunActualFinalRestrictedVariation.sum_permutation_mul_eq_sum_inverse_mul	Sofic 群 · Kun 实际最终限制变差 · 和 置换 × = 和 逆 ×
+SoficGroups.KunActualFinalRestrictedVariation.sum_sq_displacement_eq_twice_inverse_residual	Sofic 群 · Kun 实际最终限制变差 · 和 平方 位移 = 两倍 逆 剩余
+SoficGroups.KunActualFinalRestrictedVariation.sum_sum_sq_displacement_eq_twice_card_mul_realMarkov_residual	Sofic 群 · Kun 实际最终限制变差 · 和 和 平方 位移 = 两倍 基数 × 实 Markov 剩余
+SoficGroups.KunActualFinalRestrictedVariation.sum_sq_le_card_of_unit_interval_mass	Sofic 群 · Kun 实际最终限制变差 · 和 平方 ≤ 基数 由 单位 区间 质量
+SoficGroups.KunActualFirstStageReferenceExpansion.boundary_le_boundary_add_componentGeneratorDisagreement	Sofic 群 · Kun 实际第一阶段参考展开 · 边界 ≤ 边界 + 分量生成元不一致
+SoficGroups.KunActualFirstStageReferenceExpansion.completed_actual_component_additive_expansion_of_reference	Sofic 群 · Kun 实际第一阶段参考展开 · 完成 实际 分量 加性 展开 由 参考
+SoficGroups.KunActualFirstStageReferenceExpansion.completedRestriction_additive_expansion_of_reference	Sofic 群 · Kun 实际第一阶段参考展开 · 完成限制 加性 展开 由 参考
+SoficGroups.KunActualFirstStageReferenceExpansion.exists_vanishing_completedRestriction_additive_expansion_of_reference	Sofic 群 · Kun 实际第一阶段参考展开 · 存在 消失 完成限制 加性 展开 由 参考
+SoficGroups.KunActualFirstStageReferenceExpansion.componentGeneratorDisagreement_comm	Sofic 群 · Kun 实际第一阶段参考展开 · 分量生成元不一致 交换律
+SoficGroups.KunActualFirstStageReferenceExpansion.componentGeneratorDisagreement_density_tendsto_zero_of_component_bad	Sofic 群 · Kun 实际第一阶段参考展开 · 分量生成元不一致 密度 趋于 零 由 分量 坏
+SoficGroups.KunActualFirstStageReferenceExpansion.exists_vanishing_completedRestriction_additive_expansion_of_selected_bad	Sofic 群 · Kun 实际第一阶段参考展开 · 存在 消失 完成限制 加性 展开 由 选中 坏
+SoficGroups.KunActualFirstStageReferenceExpansion.componentGeneratorDisagreement_le_card_mul_component_bad	Sofic 群 · Kun 实际第一阶段参考展开 · 分量生成元不一致 ≤ 基数 × 分量 坏
+SoficGroups.KunActualSourceSelectedCompletedGeneratorExpansion.exists_vanishing_completed_first_factor_additive_expansion_of_selected_source	Sofic 群 · Kun 实际源选中完成生成元展开 · 存在 消失 完成 第一 因子 加性 展开 由 选中 源
+SoficGroups.KunActualFirstStageReferenceExpansion.normalizedReferenceCompletionError_tendsto_zero	Sofic 群 · Kun 实际第一阶段参考展开 · 归一化参考完备化误差 趋于 零
+SoficGroups.KunActualRootedModelBridge.sourceRootedIndicatorMarkovModel_isGenerated	Sofic 群 · Kun 实际有根模型桥接 · 源有根示性函数 Markov 模型 是生成
+SoficGroups.KunSourceUnconditionalFullDecomposition.exists_source_sparse_cut_at_radius	Sofic 群 · Kun 源无条件完整分解 · 存在 源 稀疏 割 在 半径
+SoficGroups.KunActualRootedModelBridge.sourceRootedIndicatorMarkovModel_isRootedAtRadius	Sofic 群 · Kun 实际有根模型桥接 · 源有根示性函数 Markov 模型 是有根在半径
+SoficGroups.KunActualSelectedCentralizerFiniteModel.trackedCompletedAlmostCentralizer_permutation_of_mem	Sofic 群 · Kun 实际选中中心化子有限模型 · 跟踪完成几乎中心化子 置换 由 ∈
+SoficGroups.KunActualSelectedPrunedSourceFiniteModelBridge.completed_generator_one_of_internal_agreement	Sofic 群 · Kun 实际选中已剪枝源有限模型桥接 · 完成 生成元 一 由 内部 一致
+SoficGroups.KunActualSoficRootRadius.action_list_prod_tendsto	Sofic 群 · Kun 实际 Sofic 根半径 · 作用 列表 积 趋于
+SoficGroups.KunActualSoficRootRadius.chosenWordEvaluation_tendsto_action	Sofic 群 · Kun 实际 Sofic 根半径 · 选定字求值 趋于 作用
+SoficGroups.KunActualSoficRootRadius.chosenCayleyRadiusBad_density_tendsto_zero	Sofic 群 · Kun 实际 Sofic 根半径 · 选定 Cayley 半径坏 密度 趋于 零
+SoficGroups.KunSourceUnconditionalFullDecomposition.exists_source_full_finpartition_sequence_of_kazhdan	Sofic 群 · Kun 源无条件完整分解 · 存在 源 完整 有限划分 序列 由 kazhdan
+SoficGroups.KunActualSoficRootRadius.chosenCayleyRadiusBad_injective_ball	Sofic 群 · Kun 实际 Sofic 根半径 · 选定 Cayley 半径坏 单射 球
+SoficGroups.KunActualSoficRootRadius.chosenCayleyRadiusBad_rooted	Sofic 群 · Kun 实际 Sofic 根半径 · 选定 Cayley 半径坏 有根
+SoficGroups.KunActualSoficRootRadius.chosenFiniteMultiplicationBad_density_tendsto_zero	Sofic 群 · Kun 实际 Sofic 根半径 · 选定有限乘法坏 密度 趋于 零
+SoficGroups.KunActualSoficRootRadius.chosenFiniteRootBad_density_tendsto_zero	Sofic 群 · Kun 实际 Sofic 根半径 · 选定有限根坏 密度 趋于 零
+SoficGroups.KunActualSoficRootRadius.chosenFiniteMultiplicationBad_rooted	Sofic 群 · Kun 实际 Sofic 根半径 · 选定有限乘法坏 有根
+SoficGroups.KunActualSoficRootRadius.chosenFiniteRootBad_injective_word_evaluation	Sofic 群 · Kun 实际 Sofic 根半径 · 选定有限根坏 单射 字 求值
+SoficGroups.KunActualSoficRootRadius.chosenWordEvaluation_multiplicative_tendsto	Sofic 群 · Kun 实际 Sofic 根半径 · 选定字求值 乘性 趋于
+SoficGroups.KunActualSoficRootRadius.chosenWordMultiplicationBad_density_tendsto_zero	Sofic 群 · Kun 实际 Sofic 根半径 · 选定字乘法坏 密度 趋于 零
+SoficGroups.KunActualSoficRootRadius.chosen_symmetric_wordEvaluation_generator	Sofic 群 · Kun 实际 Sofic 根半径 · 选定 对称 字求值 生成元
+SoficGroups.KunActualSoficRootRadius.chosen_symmetric_wordEvaluation_one	Sofic 群 · Kun 实际 Sofic 根半径 · 选定 对称 字求值 一
+SoficGroups.KunActualSoficRootRadius.exists_generator_word_of_symmetric_generates	Sofic 群 · Kun 实际 Sofic 根半径 · 存在 生成元 字 由 对称 生成
+SoficGroups.KunActualSoficRootRadius.symmetricGeneratorWord_generator	Sofic 群 · Kun 实际 Sofic 根半径 · 对称生成元字 生成元
+SoficGroups.KunActualSoficRootRadius.symmetricGeneratorWord_one	Sofic 群 · Kun 实际 Sofic 根半径 · 对称生成元字 一
+SoficGroups.KunActualSoficRootRadius.symmetricGeneratorWord_prod	Sofic 群 · Kun 实际 Sofic 根半径 · 对称生成元字 积
+SoficGroups.KunActualSoficRootRadius.finiteMultiplicationBad_density_tendsto_zero	Sofic 群 · Kun 实际 Sofic 根半径 · 有限乘法坏 密度 趋于 零
+SoficGroups.KunActualSoficRootRadius.finiteRootBad_density_tendsto_zero	Sofic 群 · Kun 实际 Sofic 根半径 · 有限根坏 密度 趋于 零
+SoficGroups.KunActualSoficRootRadius.finiteRootBad_injective_word_evaluation	Sofic 群 · Kun 实际 Sofic 根半径 · 有限根坏 单射 字 求值
+SoficGroups.KunActualSoficRootRadius.finiteRootBad_multiplicative	Sofic 群 · Kun 实际 Sofic 根半径 · 有限根坏 乘性
+SoficGroups.KunActualSoficRootRadius.finiteRootBad_separated	Sofic 群 · Kun 实际 Sofic 根半径 · 有限根坏 分离
+SoficGroups.KunActualSoficRootRadius.finiteSeparationBad_density_tendsto_zero	Sofic 群 · Kun 实际 Sofic 根半径 · 有限分离坏 密度 趋于 零
+SoficGroups.KunActualSoficRootRadius.generator_word_prod_mem_pow	Sofic 群 · Kun 实际 Sofic 根半径 · 生成元 字 积 ∈ 幂
+SoficGroups.KunActualSoficRootRadius.mem_generator_pow_of_chosen_word_length	Sofic 群 · Kun 实际 Sofic 根半径 · ∈ 生成元 幂 由 选定 字 长度
+SoficGroups.KunActualSoficRootRadius.mem_chosenWordMultiplicationBad	Sofic 群 · Kun 实际 Sofic 根半径 · ∈ 选定字乘法坏
+SoficGroups.KunActualSoficRootRadius.mem_modelMultiplicationBad	Sofic 群 · Kun 实际 Sofic 根半径 · ∈ 模型乘法坏
+SoficGroups.KunActualSoficRootRadius.mem_modelSeparationBad	Sofic 群 · Kun 实际 Sofic 根半径 · ∈ 模型分离坏
+SoficGroups.KunActualSoficRootRadius.modelMultiplicationBad_density_tendsto_zero	Sofic 群 · Kun 实际 Sofic 根半径 · 模型乘法坏 密度 趋于 零
+SoficGroups.KunActualSoficRootRadius.normalizedHamming_mul_le	Sofic 群 · Kun 实际 Sofic 根半径 · 归一化 Hamming × ≤
+SoficGroups.KunLiteralSourceSelectedComponents.exists_source_selected_components	Sofic 群 · Kun 文字源选中分量 · 存在 源 选中 分量
+SoficGroups.KunActualTwicePrunedFirstFactorRootBad.completedRestriction_mul_distance_le_failure_add_deleted	Sofic 群 · Kun 实际两倍已剪枝第一因子根坏 · 完成限制 × 距离 ≤ 失败 + 已删除
+SoficGroups.KunActualTwicePrunedFirstFactorRootBad.completedRestriction_mul_of_not_mem_restrictionMultiplicationBad	Sofic 群 · Kun 实际两倍已剪枝第一因子根坏 · 完成限制 × 由 非 ∈ 限制乘法坏
+SoficGroups.KunAdditiveMedianPoincare.permutationRealVariation_positive_negative	Sofic 群 · Kun 加性中位数 Poincare · 置换实变差 正 负
+SoficGroups.KunAdditiveMedianPoincare.permutationRealVariation_subtract_layer	Sofic 群 · Kun 加性中位数 Poincare · 置换实变差 减 层
+SoficGroups.KunAdditiveMedianPoincare.positive_negative_abs_eq	Sofic 群 · Kun 加性中位数 Poincare · 正 负 绝对值 =
+SoficGroups.KunAdditiveMedianPoincare.sum_indicator_real_eq_mul_card	Sofic 群 · Kun 加性中位数 Poincare · 和 示性函数 实 = × 基数
+SoficGroups.KunCombinedPrescribedRootSourceTolerance.eventually_scaled_tolerance_lt	Sofic 群 · Kun 合并指定根源容差 · 最终 缩放 容差 <
+SoficGroups.KunCombinedPrescribedRootSourceTolerance.exists_prescribed_radius_union_source_completed_tolerance	Sofic 群 · Kun 合并指定根源容差 · 存在 指定 半径 并 源 完成 容差
+SoficGroups.KunCommonRankArcInvariance.exists_common_rank_invariance_of_midrank_variance	Sofic 群 · Kun 公共秩弧不变性 · 存在 公共 秩 不变性 由 中间秩 方差
+SoficGroups.SourceRetainedActualMatching.retained_source_transport_matching_of_ambient_midrank_variance	Sofic 群 · 源保留实际匹配 · 保留 源 输运 匹配 由 环绕 中间秩 方差
+SoficGroups.KunCommonRankArcInvariance.exists_maximizing_partition_ranks	Sofic 群 · Kun 公共秩弧不变性 · 存在 最大化 划分 秩
+SoficGroups.KunCommonRankArcInvariance.maximizing_partition_rank_omitted_density_tendsto_zero	Sofic 群 · Kun 公共秩弧不变性 · 最大化 划分 秩 省略 密度 趋于 零
+SoficGroups.KunCommonRankArcInvariance.rankChangingArc_density_tendsto_zero_of_selected_support	Sofic 群 · Kun 公共秩弧不变性 · 秩改变弧 密度 趋于 零 由 选中 支撑
+SoficGroups.KunCommonRankArcInvariance.sofic_action_inverse_normalizedHamming_tendsto_zero	Sofic 群 · Kun 公共秩弧不变性 · sofic 作用 逆 归一化 Hamming 趋于 零
+SoficGroups.KunLiteralNineSourceCompletedCentralizerModels.sourceAmbientActualInverse_crossing_density_tendsto_zero	Sofic 群 · Kun 文字九源完成中心化子模型 · 源环绕实际逆 交叉 密度 趋于 零
+SoficGroups.KunCompletedComponentMidrankVariation.completed_component_real_variation_le	Sofic 群 · Kun 完成分量中间秩变差 · 完成 分量 实 变差 ≤
+SoficGroups.KunCompletedComponentMidrankVariation.sum_completed_component_real_variation_le	Sofic 群 · Kun 完成分量中间秩变差 · 和 完成 分量 实 变差 ≤
+SoficGroups.KunCompletedComponentMidrankVariation.normalized_permutationRealVariation_tendsto_zero_of_energy	Sofic 群 · Kun 完成分量中间秩变差 · 归一化 置换实变差 趋于 零 由 能量
+SoficGroups.KunCompletedComponentMidrankVariation.permutationRealVariation_sq_le_card_mul_energy	Sofic 群 · Kun 完成分量中间秩变差 · 置换实变差 平方 ≤ 基数 × 能量
+SoficGroups.KunCompletedComponentMidrankVariation.sum_partition_parts_eq	Sofic 群 · Kun 完成分量中间秩变差 · 和 划分 部分 =
+SoficGroups.KunCompletedProductDiagonalSparseCut.completedGoodPermutationGraphRootedModel_isGenerated	Sofic 群 · Kun 完成积对角稀疏割 · 完成好置换图有根模型 是生成
+SoficGroups.KunCompletedProductDiagonalSparseCut.exists_completed_goodPermutationGraph_sparse_cut	Sofic 群 · Kun 完成积对角稀疏割 · 存在 完成 好置换图 稀疏 割
+SoficGroups.KunCompletedProductDiagonalSparseCut.completedGoodPermutationGraphRootedModel_isRootedAtRadius	Sofic 群 · Kun 完成积对角稀疏割 · 完成好置换图有根模型 是有根在半径
+SoficGroups.KunUniformCompletedRootRadiusImprovement.exists_uniform_radius_hasAlmostCentralizerImprovement	Sofic 群 · Kun 一致完成根半径改进 · 存在 一致 半径 有几乎中心化子改进
+SoficGroups.KunCompletedPrunedComponent.boundary_complement	Sofic 群 · Kun 完成已剪枝分量 · 边界 补
+SoficGroups.KunCompletedPrunedComponent.boundary_expansion_of_half	Sofic 群 · Kun 完成已剪枝分量 · 边界 展开 由 一半
+SoficGroups.KunCompletedPrunedComponent.exists_completed_pruned_expander	Sofic 群 · Kun 完成已剪枝分量 · 存在 完成 已剪枝 扩张图
+SoficGroups.KunCompletedPrunedComponent.hasAlmostCentralizerImprovement_zero	Sofic 群 · Kun 完成已剪枝分量 · 有几乎中心化子改进 零
+SoficGroups.KunCompletedPrunedComponent.inducedBoundary_le_completed_boundary	Sofic 群 · Kun 完成已剪枝分量 · 诱导边界 ≤ 完成 边界
+SoficGroups.KunDiagonalGoodRootGraphLoss.boundary_goodPermutationGraph_le_commutationDefect_add	Sofic 群 · Kun 对角好根图损失 · 边界 好置换图 ≤ 对易亏量 +
+SoficGroups.KunDiagonalGoodRootGraphLoss.card_filter_permutationGraph_fst_mem	Sofic 群 · Kun 对角好根图损失 · 基数 滤子 置换图 第一分量 ∈
+SoficGroups.KunDiagonalGoodRootGraphLoss.card_permutationGraph_sdiff_goodPermutationGraph_le	Sofic 群 · Kun 对角好根图损失 · 基数 置换图 差集 好置换图 ≤
+SoficGroups.KunDiagonalGoodRootGraphLoss.card_filter_permutationGraph_snd_mem	Sofic 群 · Kun 对角好根图损失 · 基数 滤子 置换图 第二分量 ∈
+SoficGroups.KunDiagonalGoodRootGraphLoss.card_goodPermutationGraph_add_graph_loss	Sofic 群 · Kun 对角好根图损失 · 基数 好置换图 + 图 损失
+SoficGroups.KunDiagonalGoodRootGraphLoss.card_goodPermutationGraph_ge_card_sub_twice_bad	Sofic 群 · Kun 对角好根图损失 · 基数 好置换图 ≥ 基数 − 两倍 坏
+SoficGroups.KunDiagonalGoodRootGraphLoss.goodPermutationGraph_subset	Sofic 群 · Kun 对角好根图损失 · 好置换图 子集
+SoficGroups.KunDiagonalGoodRootGraphLoss.permutationGraph_sdiff_goodPermutationGraph_subset	Sofic 群 · Kun 对角好根图损失 · 置换图 差集 好置换图 子集
+SoficGroups.KunDirectedIndicatorJensen.realPermutationMarkov_indicator_defect_sq_le_boundary	Sofic 群 · Kun 有向示性函数 Jensen · 实置换 Markov 示性函数 亏量 平方 ≤ 边界
+SoficGroups.KunRootedWordPower.rooted_indicator_defect_sq_le_boundary	Sofic 群 · Kun 有根字幂 · 有根 示性函数 亏量 平方 ≤ 边界
+SoficGroups.KunDirectedIndicatorJensen.realPermutationMarkov_sub_sq_le_average_sq	Sofic 群 · Kun 有向示性函数 Jensen · 实置换 Markov − 平方 ≤ 平均 平方
+SoficGroups.KunDirectedIndicatorJensen.sq_realIndicator_displacement	Sofic 群 · Kun 有向示性函数 Jensen · 平方 实示性函数 位移
+SoficGroups.KunDirectedIndicatorJensen.sum_sq_realIndicator_displacement	Sofic 群 · Kun 有向示性函数 Jensen · 和 平方 实示性函数 位移
+SoficGroups.KunDirectedIndicatorJensen.sum_sq_realIndicator_inverse_displacement	Sofic 群 · Kun 有向示性函数 Jensen · 和 平方 实示性函数 逆 位移
+SoficGroups.KunDirectedIndicatorJensen.sum_sum_sq_realIndicator_inverse_displacement	Sofic 群 · Kun 有向示性函数 Jensen · 和 和 平方 实示性函数 逆 位移
+SoficGroups.KunExactActualSourceAmbientGenerators.exists_kazhdanPair_on_exact_sourceAmbientSymmetricGenerators	Sofic 群 · Kun 精确实际源环绕生成元 · 存在 kazhdan 对 在…上 精确 源环绕对称生成元
+SoficGroups.KunUnconditionalActualSourceGeneratorData.exists_unconditional_actual_source_generator_data	Sofic 群 · Kun 无条件实际源生成元数据 · 存在 无条件 实际 源 生成元 数据
+SoficGroups.KunExactActualSourceAmbientGenerators.one_mem_sourceAmbientSymmetricGenerators	Sofic 群 · Kun 精确实际源环绕生成元 · 一 ∈ 源环绕对称生成元
+SoficGroups.KunExactActualSourceAmbientGenerators.range_sourcePositiveGeneratorMap	Sofic 群 · Kun 精确实际源环绕生成元 · 值域 源正生成元映射
+SoficGroups.KunExactActualSourceAmbientGenerators.sourcePositiveGeneratorMap_range_generate	Sofic 群 · Kun 精确实际源环绕生成元 · 源正生成元映射 值域 生成
+SoficGroups.KunExactActualSourceAmbientGenerators.sourceAlphaInclusion_injective	Sofic 群 · Kun 精确实际源环绕生成元 · 源 Alpha 包含 单射
+SoficGroups.KunExactActualSourceAmbientGenerators.sourceAmbientSymmetricGenerators_generate	Sofic 群 · Kun 精确实际源环绕生成元 · 源环绕对称生成元 生成
+SoficGroups.KunExactActualSourceAmbientGenerators.sourcePositiveGenerators_generate	Sofic 群 · Kun 精确实际源环绕生成元 · 源正生成元 生成
+SoficGroups.KunExactActualSourceAmbientGenerators.sourceAmbientSymmetricGenerators_inv_mem	Sofic 群 · Kun 精确实际源环绕生成元 · 源环绕对称生成元 逆 ∈
+SoficGroups.SourceProductThroughAlpha.exists_sourceCompressedKazhdanPair_with_same_generators	Sofic 群 · 源积经过 Alpha · 存在 源压缩 Kazhdan 对 带 相同 生成元
+SoficGroups.KunExactKazhdanGeneratorChange.exists_word_of_symmetric_generating_finset	Sofic 群 · Kun 精确 Kazhdan 生成元改变 · 存在 字 由 对称 生成 有限集
+SoficGroups.KunExactKazhdanGeneratorChange.symmetricGeneratingWord_prod	Sofic 群 · Kun 精确 Kazhdan 生成元改变 · 对称生成字 积
+SoficGroups.KunExactKazhdanGeneratorChange.unitary_word_displacement_le	Sofic 群 · Kun 精确 Kazhdan 生成元改变 · 酉 字 位移 ≤
+SoficGroups.KunFinitePermutationMarkovMass.realPermutationMarkov_iterate_indicator_mem_unitInterval	Sofic 群 · Kun 有限置换 Markov 质量 · 实置换 Markov 迭代 示性函数 ∈ 单位区间
+SoficGroups.KunFinitePermutationMarkovMass.realPermutationMarkov_iterate_le_one	Sofic 群 · Kun 有限置换 Markov 质量 · 实置换 Markov 迭代 ≤ 一
+SoficGroups.KunFinitePermutationMarkovMass.realPermutationMarkov_iterate_nonneg	Sofic 群 · Kun 有限置换 Markov 质量 · 实置换 Markov 迭代 非负
+SoficGroups.KunFinitePermutationMarkovMass.realPermutationMarkov_le_one	Sofic 群 · Kun 有限置换 Markov 质量 · 实置换 Markov ≤ 一
+SoficGroups.KunFinitePermutationMarkovMass.realPermutationMarkov_nonneg	Sofic 群 · Kun 有限置换 Markov 质量 · 实置换 Markov 非负
+SoficGroups.KunFinitePermutationMarkovMass.sum_realIndicator	Sofic 群 · Kun 有限置换 Markov 质量 · 和 实示性函数
+SoficGroups.KunFinitePermutationMarkovMass.sum_realPermutationMarkov_iterate_indicator	Sofic 群 · Kun 有限置换 Markov 质量 · 和 实置换 Markov 迭代 示性函数
+SoficGroups.KunFinitePermutationMarkovMass.sum_realPermutationMarkov	Sofic 群 · Kun 有限置换 Markov 质量 · 和 实置换 Markov
+SoficGroups.KunFinitePermutationMarkovMass.sum_realPermutationMarkov_iterate	Sofic 群 · Kun 有限置换 Markov 质量 · 和 实置换 Markov 迭代
+SoficGroups.KunGlobalActualAdditiveMidrankVariance.weighted_component_midrankVariance_tendsto_zero_of_source_half_expansion	Sofic 群 · Kun 整体实际加性中间秩方差 · 加权 分量 中间秩方差 趋于 零 由 源 一半 展开
+SoficGroups.KunLiteralNineSourceCompletedCentralizerModels.exists_source_common_log_rank_with_ambient_midrank_variance	Sofic 群 · Kun 文字九源完成中心化子模型 · 存在 源 公共 对数 秩 带 环绕 中间秩 方差
+SoficGroups.KunGuardedCanonicalMatchedDensity.canonical_matched_density_of_guarded	Sofic 群 · Kun 受守卫典范已匹配密度 · 典范 已匹配 密度 由 受守卫
+SoficGroups.KunGuardedCanonicalMatchedDensity.matchedRadiusBad_mono_bad	Sofic 群 · Kun 受守卫典范已匹配密度 · 已匹配半径坏 单调 坏
+SoficGroups.KunLiteralNineSourceCompletedCentralizerModels.sourceAmbientFiniteFamily_crossing_density_tendsto_zero	Sofic 群 · Kun 文字九源完成中心化子模型 · 源环绕有限族 交叉 密度 趋于 零
+SoficGroups.KunLiteralNineSourceCompletedCentralizerModels.sourceAmbientGeneratedWord_crossing_density_tendsto_zero	Sofic 群 · Kun 文字九源完成中心化子模型 · 源环绕生成字 交叉 密度 趋于 零
+sourceLocalPrefixTranspositionGroup_lef_of_sofic	源局部前缀对换群 lef 由 sofic
+SoficGroups.KunLiteralSourceSelectedComponents.sourceConjugacyDisagreementBad_density_tendsto_zero	Sofic 群 · Kun 文字源选中分量 · 源共轭不一致坏 密度 趋于 零
+SoficGroups.KunLiteralSourceSelectedComponents.sourceGeneratorFamilyConjugacyBad_density_tendsto_zero	Sofic 群 · Kun 文字源选中分量 · 源生成元族共轭坏 密度 趋于 零
+SoficGroups.KunLiteralSourceSelectedComponents.sourceTransportedReferenceGenerator_disagreement_mem	Sofic 群 · Kun 文字源选中分量 · 源输运参考生成元 不一致 ∈
+SoficGroups.KunPositiveWordMidrankEnergy.action_energy_tendsto_zero_of_positive_generator_sum	Sofic 群 · Kun 正字中间秩能量 · 作用 能量 趋于 零 由 正 生成元 和
+SoficGroups.KunPositiveWordMidrankEnergy.sum_action_energy_tendsto_zero_of_positive_generator_sum	Sofic 群 · Kun 正字中间秩能量 · 和 作用 能量 趋于 零 由 正 生成元 和
+SoficGroups.KunPositiveWordMidrankEnergy.sofic_action_inverse_normalizedHamming_tendsto_zero	Sofic 群 · Kun 正字中间秩能量 · sofic 作用 逆 归一化 Hamming 趋于 零
+SoficGroups.KunPositiveWordMidrankEnergy.sofic_action_squared_energy_inv	Sofic 群 · Kun 正字中间秩能量 · sofic 作用 平方 能量 逆
+SoficGroups.KunPositiveWordMidrankEnergy.sofic_action_squared_energy_mul	Sofic 群 · Kun 正字中间秩能量 · sofic 作用 平方 能量 ×
+SoficGroups.KunPositiveWordMidrankEnergy.squaredPermutationEnergy_inv	Sofic 群 · Kun 正字中间秩能量 · 平方置换能量 逆
+SoficGroups.KunPositiveWordMidrankEnergy.squaredPermutationEnergy_le_add_hammingDist	Sofic 群 · Kun 正字中间秩能量 · 平方置换能量 ≤ + hamming 距离
+SoficGroups.KunPositiveWordMidrankEnergy.squaredPermutationEnergy_tendsto_of_normalizedHamming	Sofic 群 · Kun 正字中间秩能量 · 平方置换能量 趋于 由 归一化 Hamming
+SoficGroups.KunPositiveWordMidrankEnergy.squaredPermutationEnergy_mul_le	Sofic 群 · Kun 正字中间秩能量 · 平方置换能量 × ≤
+SoficGroups.KunPositiveWordMidrankEnergy.squaredPermutationEnergy_mul_tendsto_zero	Sofic 群 · Kun 正字中间秩能量 · 平方置换能量 × 趋于 零
+SoficGroups.KunPositiveWordMidrankEnergy.squaredPermutationEnergy_nonneg	Sofic 群 · Kun 正字中间秩能量 · 平方置换能量 非负
+SoficGroups.KunRealComplexMarkovBridge.indicatorVector_apply	Sofic 群 · Kun 实复 Markov 桥接 · 示性函数向量 作用于
+SoficGroups.KunRealComplexMarkovBridge.indicatorVector_realMarkov	Sofic 群 · Kun 实复 Markov 桥接 · 示性函数向量 实 Markov
+SoficGroups.KunRealComplexMarkovBridge.indicatorVector_iterate_realMarkov	Sofic 群 · Kun 实复 Markov 桥接 · 示性函数向量 迭代 实 Markov
+SoficGroups.KunRealComplexMarkovBridge.norm_iterate_permutationMarkov_indicator_sub_iterate_sq	Sofic 群 · Kun 实复 Markov 桥接 · 范数 迭代 置换 Markov 示性函数 − 迭代 平方
+SoficGroups.KunRealComplexMarkovBridge.norm_iterate_permutationMarkov_indicator_sub_sq	Sofic 群 · Kun 实复 Markov 桥接 · 范数 迭代 置换 Markov 示性函数 − 平方
+SoficGroups.KunRealComplexMarkovBridge.norm_permutationMarkov_indicator_sub_sq	Sofic 群 · Kun 实复 Markov 桥接 · 范数 置换 Markov 示性函数 − 平方
+SoficGroups.KunRealComplexMarkovBridge.norm_indicatorVector_sub_sq	Sofic 群 · Kun 实复 Markov 桥接 · 范数 示性函数向量 − 平方
+SoficGroups.KunRootedWordPower.rooted_real_markov_iterate_residual_sqrt_eq	Sofic 群 · Kun 有根字幂 · 有根 实 markov 迭代 剩余 平方根 =
+SoficGroups.KunRootedWordPower.rooted_markov_real_iterate_sq_error	Sofic 群 · Kun 有根字幂 · 有根 markov 实 迭代 平方 误差
+SoficGroups.KunRealComplexMarkovBridge.permutationMarkov_apply	Sofic 群 · Kun 实复 Markov 桥接 · 置换 Markov 作用于
+SoficGroups.KunResidualExpanderDecomposition.boundary_complement	Sofic 群 · Kun 剩余扩张图分解 · 边界 补
+SoficGroups.KunResidualExpanderDecomposition.completed_component_additive_expansion	Sofic 群 · Kun 剩余扩张图分解 · 完成 分量 加性 展开
+SoficGroups.KunResidualExpanderDecomposition.exists_expanding_clean_finpartition	Sofic 群 · Kun 剩余扩张图分解 · 存在 扩张 干净 有限划分
+SoficGroups.KunResidualExpanderDecomposition.boundary_eq_sum_entering_indicator	Sofic 群 · Kun 剩余扩张图分解 · 边界 = 和 进入 示性函数
+SoficGroups.KunResidualExpanderDecomposition.boundary_inter_add_boundary_sdiff_le	Sofic 群 · Kun 剩余扩张图分解 · 边界 交 + 边界 差集 ≤
+SoficGroups.KunResidualExpanderDecomposition.boundary_eq_sum_indicator	Sofic 群 · Kun 剩余扩张图分解 · 边界 = 和 示性函数
+SoficGroups.KunResidualExpanderDecomposition.exists_expanding_residual_finpartition	Sofic 群 · Kun 剩余扩张图分解 · 存在 扩张 剩余 有限划分
+SoficGroups.KunResidualExpanderDecomposition.boundary_le_degree_mul_card	Sofic 群 · Kun 剩余扩张图分解 · 边界 ≤ 次数 × 基数
+SoficGroups.KunResidualExpanderDecomposition.sum_singleton_bad_boundary_le	Sofic 群 · Kun 剩余扩张图分解 · 和 单点集 坏 边界 ≤
+SoficGroups.KunResidualExpanderDecomposition.close_residual_inter_properties	Sofic 群 · Kun 剩余扩张图分解 · 接近 剩余 交 性质
+SoficGroups.KunResidualExpanderDecomposition.minimum_sparse_cut_expands_close_residual_part	Sofic 群 · Kun 剩余扩张图分解 · 最小值 稀疏 割 展开 接近 剩余 部分
+SoficGroups.KunResidualExpanderDecomposition.completeCleanFinpartition_half_expansion	Sofic 群 · Kun 剩余扩张图分解 · 完备干净有限划分 一半 展开
+SoficGroups.KunResidualExpanderDecomposition.exists_expanding_full_finpartition	Sofic 群 · Kun 剩余扩张图分解 · 存在 扩张 完整 有限划分
+SoficGroups.KunResidualExpanderDecomposition.completeCleanFinpartition_parts	Sofic 群 · Kun 剩余扩张图分解 · 完备干净有限划分 部分
+SoficGroups.KunResidualExpanderDecomposition.disjoint_clean_parts_singleton_bad_parts	Sofic 群 · Kun 剩余扩张图分解 · 不相交 干净 部分 单点集 坏 部分
+SoficGroups.KunResidualExpanderDecomposition.exists_expanding_full_finpartition_sequence	Sofic 群 · Kun 剩余扩张图分解 · 存在 扩张 完整 有限划分 序列
+SoficGroups.KunResidualExpanderDecomposition.exists_minimum_sparse_residual_cut	Sofic 群 · Kun 剩余扩张图分解 · 存在 最小值 稀疏 剩余 割
+SoficGroups.KunResidualExpanderDecomposition.original_boundary_le_completed_add_component_boundary	Sofic 群 · Kun 剩余扩张图分解 · 原始 边界 ≤ 完成 + 分量 边界
+SoficGroups.KunResidualRetainedSelection.exists_matchedRetained_part_boundary_and_bad_density_le	Sofic 群 · Kun 剩余保留选择 · 存在 已匹配保留 部分 边界 且 坏 密度 ≤
+SoficGroups.KunResidualRetainedSelection.exists_matchedRetained_parts_with_vanishing_boundary_and_bad_density	Sofic 群 · Kun 剩余保留选择 · 存在 已匹配保留 部分 带 消失 边界 且 坏 密度
+SoficGroups.KunResidualRetainedSelection.exists_matched_slow_diagonal_large_components_with_vanishing_boundary	Sofic 群 · Kun 剩余保留选择 · 存在 已匹配 慢 对角 大 分量 带 消失 边界
+SoficGroups.KunResidualRetainedSelection.exists_matched_slow_diagonal_large_components_on_guarded_tail	Sofic 群 · Kun 剩余保留选择 · 存在 已匹配 慢 对角 大 分量 在…上 受守卫 尾
+SoficGroups.KunResidualRetainedSelection.exists_matched_slow_diagonal_large_components_on_source_scale_tail	Sofic 群 · Kun 剩余保留选择 · 存在 已匹配 慢 对角 大 分量 在…上 源 尺度 尾
+SoficGroups.KunResidualRetainedSelection.matchedRetained_boundary_density_tendsto_zero	Sofic 群 · Kun 剩余保留选择 · 已匹配保留 边界 密度 趋于 零
+SoficGroups.KunResidualRetainedSelection.matchedRetained_parts_eventually_nonempty_of_discard	Sofic 群 · Kun 剩余保留选择 · 已匹配保留 部分 最终 非空 由 丢弃
+SoficGroups.KunResidualRetainedSelection.source_compression_scale_guard_eventually	Sofic 群 · Kun 剩余保留选择 · 源 压缩 尺度 守卫 最终
+SoficGroups.KunRootedIndicatorCrossing.EquivariantHilbertKernelRealization.equivariant	Sofic 群 · Kun 有根示性函数交叉 · 等变 Hilbert 核实现 · 等变
+SoficGroups.KunRootedIndicatorCrossing.equivariantPairCocycle_mul	Sofic 群 · Kun 有根示性函数交叉 · 等变对上闭链 ×
+SoficGroups.KunRootedIndicatorCrossing.HilbertKernelRealization.complete	Sofic 群 · Kun 有根示性函数交叉 · Hilbert 核实现 · 完备
+SoficGroups.KunRootedIndicatorCrossing.hilbertKernelRealizationCompleteSpace	Sofic 群 · Kun 有根示性函数交叉 · hilbert 核实现完备空间
+SoficGroups.KunRootedIndicatorCrossing.HilbertKernelRealization.gram	Sofic 群 · Kun 有根示性函数交叉 · Hilbert 核实现 · gram
+SoficGroups.KunRootedIndicatorCrossing.hilbertKernelRealization_pair_vector_add	Sofic 群 · Kun 有根示性函数交叉 · hilbert 核实现 对 向量 +
+SoficGroups.KunRootedIndicatorCrossing.actionKernelTranslationMap_coe	Sofic 群 · Kun 有根示性函数交叉 · 作用核平移映射 强制转换
+SoficGroups.KunRootedIndicatorCrossing.actionKernelTranslationMap_mul_apply	Sofic 群 · Kun 有根示性函数交叉 · 作用核平移映射 × 作用于
+SoficGroups.KunRootedIndicatorCrossing.actionKernelTranslationMap_one_apply	Sofic 群 · Kun 有根示性函数交叉 · 作用核平移映射 一 作用于
+SoficGroups.KunRootedIndicatorCrossing.actionKernelTranslationMap_isometry	Sofic 群 · Kun 有根示性函数交叉 · 作用核平移映射 等距
+SoficGroups.KunRootedIndicatorCrossing.actionKernelUnitaryRepresentation_kerFun_one	Sofic 群 · Kun 有根示性函数交叉 · 作用核酉表示 核函数 一
+SoficGroups.KunRootedIndicatorCrossing.diagonalPairKernelUnitaryRepresentation_kerFun_one	Sofic 群 · Kun 有根示性函数交叉 · 对角对核酉表示 核函数 一
+SoficGroups.KunRootedIndicatorCrossing.actionPreKernelTranslation_inner	Sofic 群 · Kun 有根示性函数交叉 · 作用预核平移 内积
+SoficGroups.KunRootedIndicatorCrossing.actionPreKernelTranslation_mul_apply	Sofic 群 · Kun 有根示性函数交叉 · 作用预核平移 × 作用于
+SoficGroups.KunRootedIndicatorCrossing.actionPreKernelTranslation_one_apply	Sofic 群 · Kun 有根示性函数交叉 · 作用预核平移 一 作用于
+SoficGroups.KunRootedIndicatorCrossing.average_normalizedIndicatorDisplacement	Sofic 群 · Kun 有根示性函数交叉 · 平均 归一化示性函数位移
+SoficGroups.KunRootedIndicatorCrossing.norm_average_normalizedPairDisplacement_of_model	Sofic 群 · Kun 有根示性函数交叉 · 范数 平均 归一化对位移 由 模型
+SoficGroups.KunRootedWordPower.pairedDefectWordAverage_zero_eq_normalizedIndicatorDefect	Sofic 群 · Kun 有根字幂 · 配对亏量字平均 零 = 归一化示性函数亏量
+SoficGroups.KunRootedIndicatorCrossing.average_permutation_indicator_displacement	Sofic 群 · Kun 有根示性函数交叉 · 平均 置换 示性函数 位移
+SoficGroups.KunRootedIndicatorCrossing.exists_equivariantHilbertKernelRealization	Sofic 群 · Kun 有根示性函数交叉 · 存在 等变 Hilbert 核实现
+SoficGroups.KunRootedIndicatorCrossing.exists_equivariant_hilbert_normalized_rooted_pair_realization	Sofic 群 · Kun 有根示性函数交叉 · 存在 等变 hilbert 归一化 有根 对 实现
+SoficGroups.KunRootedWordPower.eventually_normalizedIndicatorDefect_markov_pow_lt_of_rooted	Sofic 群 · Kun 有根字幂 · 最终 归一化示性函数亏量 markov 幂 < 由 有根
+SoficGroups.KunRootedIndicatorCrossing.exists_hyperfilter_diagonal_positive_pair_kernel	Sofic 群 · Kun 有根示性函数交叉 · 存在 超滤子 对角 正 对 核
+SoficGroups.KunRootedIndicatorCrossing.exists_hyperfilter_diagonal_positive_pair_kernel_of_rooted_indicators	Sofic 群 · Kun 有根示性函数交叉 · 存在 超滤子 对角 正 对 核 由 有根 示性函数
+SoficGroups.KunRootedIndicatorCrossing.exists_hyperfilter_gram_limit_of_pointwise_bound	Sofic 群 · Kun 有根示性函数交叉 · 存在 超滤子 gram 极限 由 逐点 界
+SoficGroups.KunRootedIndicatorCrossing.exists_hyperfilter_positive_gram_kernel_of_pointwise_bound	Sofic 群 · Kun 有根示性函数交叉 · 存在 超滤子 正 gram 核 由 逐点 界
+SoficGroups.KunRootedIndicatorCrossing.gram_posSemidef_infinite	Sofic 群 · Kun 有根示性函数交叉 · gram 正半定 无限
+SoficGroups.KunRootedIndicatorCrossing.indicator_displacements_same_sign	Sofic 群 · Kun 有根示性函数交叉 · 示性函数 位移 相同 符号
+SoficGroups.KunRootedIndicatorCrossing.sum_indicator_displacement_sq_le	Sofic 群 · Kun 有根示性函数交叉 · 和 示性函数 位移 平方 ≤
+SoficGroups.KunRootedIndicatorCrossing.inner_smul_finset_sum_self	Sofic 群 · Kun 有根示性函数交叉 · 内积 数乘 有限集 和 自身
+SoficGroups.KunRootedIndicatorCrossing.tendsto_norm_sq_smul_finset_sum_of_gram	Sofic 群 · Kun 有根示性函数交叉 · 趋于 范数 平方 数乘 有限集 和 由 gram
+SoficGroups.KunRootedIndicatorCrossing.norm_normalizedIndicatorDefect	Sofic 群 · Kun 有根示性函数交叉 · 范数 归一化示性函数亏量
+SoficGroups.KunRootedIndicatorCrossing.norm_normalizedIndicatorDisplacement_generator_le	Sofic 群 · Kun 有根示性函数交叉 · 范数 归一化示性函数位移 生成元 ≤
+SoficGroups.KunRootedIndicatorCrossing.norm_normalizedIndicatorDisplacement_list_prod_le	Sofic 群 · Kun 有根示性函数交叉 · 范数 归一化示性函数位移 列表 积 ≤
+SoficGroups.KunRootedIndicatorCrossing.norm_normalizedPairDisplacement_le_of_words	Sofic 群 · Kun 有根示性函数交叉 · 范数 归一化对位移 ≤ 由 字
+SoficGroups.KunRootedIndicatorCrossing.norm_smul_finset_sum_eq_one_of_gram	Sofic 群 · Kun 有根示性函数交叉 · 范数 数乘 有限集 和 = 一 由 gram
+SoficGroups.KunRootedIndicatorCrossing.normalizedIndicatorDisplacement_cocycle_of_agree_on_support	Sofic 群 · Kun 有根示性函数交叉 · 归一化示性函数位移 上闭链 由 一致 在…上 支撑
+SoficGroups.KunRootedIndicatorCrossing.normalizedPairDisplacement_diagonal	Sofic 群 · Kun 有根示性函数交叉 · 归一化对位移 对角
+SoficGroups.KunRootedIndicatorCrossing.normalizedIndicatorDisplacement_mul	Sofic 群 · Kun 有根示性函数交叉 · 归一化示性函数位移 ×
+SoficGroups.KunRootedIndicatorCrossing.normalizedPairDisplacement_add	Sofic 群 · Kun 有根示性函数交叉 · 归一化对位移 +
+SoficGroups.KunRootedIndicatorCrossing.normalizedPairDisplacement_inner_diagonal	Sofic 群 · Kun 有根示性函数交叉 · 归一化对位移 内积 对角
+SoficGroups.KunRootedWordPower.permutationMarkov_pair_of_rooted	Sofic 群 · Kun 有根字幂 · 置换 Markov 对 由 有根
+SoficGroups.KunRootedIndicatorCrossing.normalizedPairDisplacement_generator_of_model	Sofic 群 · Kun 有根示性函数交叉 · 归一化对位移 生成元 由 模型
+SoficGroups.KunRootedIndicatorCrossing.ofKernel_kerFun_one_eq_coe_single	Sofic 群 · Kun 有根示性函数交叉 · 由核 核函数 一 = 强制转换 单个
+SoficGroups.KunRootedIndicatorCrossing.permutationMarkov_apply	Sofic 群 · Kun 有根示性函数交叉 · 置换 Markov 作用于
+SoficGroups.KunRootedIndicatorCrossing.permutation_indicator_markov_defect_norm_sq	Sofic 群 · Kun 有根示性函数交叉 · 置换 示性函数 markov 亏量 范数 平方
+SoficGroups.KunRootedIndicatorCrossing.permutationUnitary_eq_of_agree_on_support	Sofic 群 · Kun 有根示性函数交叉 · 置换酉 = 由 一致 在…上 支撑
+SoficGroups.KunRootedIndicatorCrossing.permutationUnitary_model_mul_of_agree_on_support	Sofic 群 · Kun 有根示性函数交叉 · 置换酉 模型 × 由 一致 在…上 支撑
+SoficGroups.KunRootedIndicatorCrossing.permutationUnitary_mul	Sofic 群 · Kun 有根示性函数交叉 · 置换酉 ×
+SoficGroups.KunRootedIndicatorCrossing.permutationUnitary_one	Sofic 群 · Kun 有根示性函数交叉 · 置换酉 一
+SoficGroups.KunRootedIndicatorCrossing.permutation_indicator_displacement_norm_le_card_mul_markov_defect	Sofic 群 · Kun 有根示性函数交叉 · 置换 示性函数 位移 范数 ≤ 基数 × markov 亏量
+SoficGroups.KunRootedIndicatorCrossing.permutation_indicator_displacement_norm_sq	Sofic 群 · Kun 有根示性函数交叉 · 置换 示性函数 位移 范数 平方
+SoficGroups.KunRootedIndicatorCrossing.sum_permutation_indicator_displacement_norm_sq_le	Sofic 群 · Kun 有根示性函数交叉 · 和 置换 示性函数 位移 范数 平方 ≤
+SoficGroups.KunRootedIndicatorCrossing.preKernel_inner_single	Sofic 群 · Kun 有根示性函数交叉 · 预核 内积 单个
+SoficGroups.KunRootedIndicatorCrossing.scalarOperatorKernel_posSemidef	Sofic 群 · Kun 有根示性函数交叉 · 标量算子核 正半定
+SoficGroups.KunRootedIndicatorCrossing.sum_sum_indicator_displacement_sq_le	Sofic 群 · Kun 有根示性函数交叉 · 和 和 示性函数 位移 平方 ≤
+SoficGroups.KunRootedIndicatorCrossing.sum_sq_le_sq_sum_of_same_sign	Sofic 群 · Kun 有根示性函数交叉 · 和 平方 ≤ 平方 和 由 相同 符号
+SoficGroups.KunRootedIndicatorCrossing.sum_sum_indicator_displacement_sq_le_card_sq_mul_markov_defect	Sofic 群 · Kun 有根示性函数交叉 · 和 和 示性函数 位移 平方 ≤ 基数 平方 × markov 亏量
+SoficGroups.KunRootedWordPower.tendsto_norm_pairedDefectWordAverage_of_gram	Sofic 群 · Kun 有根字幂 · 趋于 范数 配对亏量字平均 由 gram
+SoficGroups.KunRootedUniversalToleranceNumerics.rooted_graph_boundary_lt_of_slow_tolerance	Sofic 群 · Kun 有根泛容差数值 · 有根 图 边界 < 由 慢 容差
+SoficGroups.KunRootedUniversalToleranceNumerics.rooted_graph_coefficient_small	Sofic 群 · Kun 有根泛容差数值 · 有根 图 系数 小
+SoficGroups.KunRootedWordPower.RootedIndicatorMarkovModel.IsGenerated.generator_evaluation	Sofic 群 · Kun 有根字幂 · 有根示性函数 Markov 模型 · 是生成 · 生成元 求值
+SoficGroups.KunRootedWordPower.exists_rooted_word_radius_normalized_markov_contraction	Sofic 群 · Kun 有根字幂 · 存在 有根 字 半径 归一化 markov 收缩
+SoficGroups.KunRootedWordPower.RootedIndicatorMarkovModel.IsGenerated.identity_evaluation	Sofic 群 · Kun 有根字幂 · 有根示性函数 Markov 模型 · 是生成 · 恒等式 求值
+SoficGroups.KunRootedWordPower.RootedIndicatorMarkovModel.IsGenerated.indicator_mem	Sofic 群 · Kun 有根字幂 · 有根示性函数 Markov 模型 · 是生成 · 示性函数 ∈
+SoficGroups.KunRootedWordPower.RootedIndicatorMarkovModel.IsGenerated.word_evaluation	Sofic 群 · Kun 有根字幂 · 有根示性函数 Markov 模型 · 是生成 · 字 求值
+SoficGroups.KunRootedWordPower.RootedIndicatorMarkovModel.IsRootedAtRadius.mono	Sofic 群 · Kun 有根字幂 · 有根示性函数 Markov 模型 · 是有根在半径 · 单调
+SoficGroups.KunRootedWordPower.exists_rooted_word_radius_all_markov_iterate_contractions	Sofic 群 · Kun 有根字幂 · 存在 有根 字 半径 所有 markov 迭代 收缩
+SoficGroups.KunRootedWordPower.RootedIndicatorMarkovModel.IsRootedAtRadius.out	Sofic 群 · Kun 有根字幂 · 有根示性函数 Markov 模型 · 是有根在半径 · 出
+SoficGroups.KunRootedWordPower.eventually_rooted_of_growing_word_radius	Sofic 群 · Kun 有根字幂 · 最终 有根 由 增长 字 半径
+SoficGroups.KunRootedWordPower.eventually_linear_pairedDefectWordAverage_pow	Sofic 群 · Kun 有根字幂 · 最终 线性 配对亏量字平均 幂
+SoficGroups.KunRootedWordPower.tendsto_norm_normalizedIndicatorDefect_markov_pow	Sofic 群 · Kun 有根字幂 · 趋于 范数 归一化示性函数亏量 markov 幂
+SoficGroups.KunRootedWordPower.eventually_linear_pairedWordAverage_pow	Sofic 群 · Kun 有根字幂 · 最终 线性 配对字平均 幂
+SoficGroups.KunRootedWordPower.eventually_permutationMarkov_pair_of_rooted	Sofic 群 · Kun 有根字幂 · 最终 置换 Markov 对 由 有根
+SoficGroups.KunRootedWordPower.exists_rooted_word_radius_geometric_markov_displacement	Sofic 群 · Kun 有根字幂 · 存在 有根 字 半径 几何 markov 位移
+SoficGroups.KunRootedWordPower.exists_rooted_word_radius_real_markov_sq_error_le_boundary	Sofic 群 · Kun 有根字幂 · 存在 有根 字 半径 实 markov 平方 误差 ≤ 边界
+SoficGroups.KunRootedWordPower.exists_rooted_word_radius_markov_iterate_contraction	Sofic 群 · Kun 有根字幂 · 存在 有根 字 半径 markov 迭代 收缩
+SoficGroups.KunRootedWordPower.inner_smul_fintype_sum	Sofic 群 · Kun 有根字幂 · 内积 数乘 有限类型 和
+SoficGroups.KunRootedWordPower.tendsto_inner_pairedWordAverage_of_gram	Sofic 群 · Kun 有根字幂 · 趋于 内积 配对字平均 由 gram
+SoficGroups.KunRootedWordPower.linear_pairedWordAverage_pow	Sofic 群 · Kun 有根字幂 · 线性 配对字平均 幂
+SoficGroups.KunRootedWordPower.pairedDefectWordAverage_eq_unitaryFinsetMarkov_iterate	Sofic 群 · Kun 有根字幂 · 配对亏量字平均 = 酉有限集 Markov 迭代
+SoficGroups.KunRootedWordPower.norm_iterate_sub_le_sum_successive	Sofic 群 · Kun 有根字幂 · 范数 迭代 − ≤ 和 相继
+SoficGroups.KunRootedWordPower.norm_normalizedIndicatorDefect_markov_pow	Sofic 群 · Kun 有根字幂 · 范数 归一化示性函数亏量 markov 幂
+SoficGroups.KunRootedWordPower.permutationMarkovLinear_apply	Sofic 群 · Kun 有根字幂 · 置换 Markov 线性 作用于
+SoficGroups.KunRootedWordPower.permutationMarkovLinear_pow_apply	Sofic 群 · Kun 有根字幂 · 置换 Markov 线性 幂 作用于
+SoficGroups.KunRootedWordPower.permutationMarkov_iterate_difference	Sofic 群 · Kun 有根字幂 · 置换 Markov 迭代 差
+SoficGroups.KunRootedWordPower.representationFamilyMarkovLinear_pair_of_equivariant	Sofic 群 · Kun 有根字幂 · 表示族 Markov 线性 对 由 等变
+SoficGroups.KunRootedWordPower.representationFamilyMarkovLinear_subtype_apply	Sofic 群 · Kun 有根字幂 · 表示族 Markov 线性 子类型 作用于
+SoficGroups.KunRootedWordPower.representationFamilyMarkovLinear_subtype_pow_apply	Sofic 群 · Kun 有根字幂 · 表示族 Markov 线性 子类型 幂 作用于
+SoficGroups.KunRootedWordPower.rooted_final_realMarkov_eq_mass_realPermutationMarkov	Sofic 群 · Kun 有根字幂 · 有根 最终 实 Markov = 质量 实置换 Markov
+SoficGroups.KunRootedWordPower.rooted_realMarkov_eq_mass_realPermutationMarkov	Sofic 群 · Kun 有根字幂 · 有根 实 Markov = 质量 实置换 Markov
+SoficGroups.KunRootedWordPower.sum_geometric_budget_le	Sofic 群 · Kun 有根字幂 · 和 几何 预算 ≤
+SoficGroups.KunSharpThresholdCut.card_symmDiff_upperLevel_le_nine_sq_error	Sofic 群 · Kun 精确阈值割 · 基数 对称差 上水平 ≤ 九 平方 误差
+SoficGroups.KunSharpThresholdCut.exists_upperLevel_boundary_and_symmDiff_le	Sofic 群 · Kun 精确阈值割 · 存在 上水平 边界 且 对称差 ≤
+SoficGroups.KunSharpThresholdCut.highCrossingProfile_eq_boundary	Sofic 群 · Kun 精确阈值割 · 高交叉轮廓 = 边界
+SoficGroups.KunSharpThresholdCut.integrableOn_crossingIndicator	Sofic 群 · Kun 精确阈值割 · 可积在…上 交叉示性函数
+SoficGroups.KunSharpThresholdCut.integrableOn_highCrossingProfile	Sofic 群 · Kun 精确阈值割 · 可积在…上 高交叉轮廓
+SoficGroups.KunSharpThresholdCut.setIntegral_highCrossingProfile_le_variation	Sofic 群 · Kun 精确阈值割 · 集合积分 高交叉轮廓 ≤ 变差
+SoficGroups.KunSharpThresholdCut.setIntegral_crossingIndicator_le_abs	Sofic 群 · Kun 精确阈值割 · 集合积分 交叉示性函数 ≤ 绝对值
+SoficGroups.KunSourceUnconditionalFullDecomposition.exists_source_subgroup_and_ambient_full_finpartition_sequences	Sofic 群 · Kun 源无条件完整分解 · 存在 源 子群 且 环绕 完整 有限划分 序列
+SoficGroups.KunUnconditionalActualSourceDecomposition.exists_unconditional_actual_source_dual_finpartition_sequences	Sofic 群 · Kun 无条件实际源分解 · 存在 无条件 实际 源 对偶 有限划分 序列
+SoficGroups.KunThomFiberCoarea.boundary_le_boundary_add_sdiff	Sofic 群 · Kun Thom 纤维余面积 · 边界 ≤ 边界 + 差集
+SoficGroups.KunThomFiberCoarea.exists_boundary_controlled_permutation_repair	Sofic 群 · Kun Thom 纤维余面积 · 存在 边界 受控 置换 修复
+SoficGroups.KunThomFiberCoarea.card_entering_eq_card_exiting	Sofic 群 · Kun Thom 纤维余面积 · 基数 进入 = 基数 退出
+SoficGroups.KunThomFiberCoarea.permutationVariation_subtract_layer	Sofic 群 · Kun Thom 纤维余面积 · 置换变差 减 层
+SoficGroups.KunThomFiberCoarea.card_le_zero_singleton_excess	Sofic 群 · Kun Thom 纤维余面积 · 基数 ≤ 零 单点集 超出量
+SoficGroups.KunThomFiberCoarea.unmatched_vertices_le_zero_and_excess	Sofic 群 · Kun Thom 纤维余面积 · 未匹配 顶点 ≤ 零 且 超出量
+SoficGroups.KunThomFiberCoarea.card_nonSingletonFirstEdges_le_twice_excess	Sofic 群 · Kun Thom 纤维余面积 · 基数 非单点集第一边 ≤ 两倍 超出量
+SoficGroups.KunThomFiberCoarea.card_nonmatchedFiberEdges_le_twice_excess	Sofic 群 · Kun Thom 纤维余面积 · 基数 未匹配纤维边 ≤ 两倍 超出量
+SoficGroups.KunThomFiberCoarea.card_nonSingletonFirstMultiplicity_le_reference_difference	Sofic 群 · Kun Thom 纤维余面积 · 基数 非单点集第一重数 ≤ 参考 差
+SoficGroups.KunThomFiberCoarea.first_singleton_half_of_reference_difference	Sofic 群 · Kun Thom 纤维余面积 · 第一 单点集 一半 由 参考 差
+SoficGroups.KunThomFiberCoarea.card_nonSingletonMultiplicity_le_total_distance	Sofic 群 · Kun Thom 纤维余面积 · 基数 非单点集重数 ≤ 总 距离
+SoficGroups.KunThomFiberCoarea.card_nonSingletonSecondMultiplicity_le_reference_difference	Sofic 群 · Kun Thom 纤维余面积 · 基数 非单点集第二重数 ≤ 参考 差
+SoficGroups.KunThomFiberCoarea.card_nonSingletonSecondEdges_le_twice_excess	Sofic 群 · Kun Thom 纤维余面积 · 基数 非单点集第二边 ≤ 两倍 超出量
+SoficGroups.KunThomFiberCoarea.card_singletonSupport_le_matching_add_column_excess	Sofic 群 · Kun Thom 纤维余面积 · 基数 单点集支撑 ≤ 匹配 + 列 超出量
+SoficGroups.KunThomFiberCoarea.second_singleton_half_of_reference_difference	Sofic 群 · Kun Thom 纤维余面积 · 第二 单点集 一半 由 参考 差
+SoficGroups.KunThomFiberCoarea.matchedFiberEdges_relation_loss_bound	Sofic 群 · Kun Thom 纤维余面积 · 已匹配纤维边 关系 损失 界
+SoficGroups.KunThomFiberCoarea.card_singletonFirstEdges	Sofic 群 · Kun Thom 纤维余面积 · 基数 单点集第一边
+SoficGroups.KunThomFiberCoarea.diagonalImage_card	Sofic 群 · Kun Thom 纤维余面积 · 对角像 基数
+SoficGroups.KunThomFiberCoarea.diagonalImage_sdiff_cards	Sofic 群 · Kun Thom 纤维余面积 · 对角像 差集 基数
+SoficGroups.KunThomFiberCoarea.firstMultiplicity_diagonal_variation_le_twice_exit	Sofic 群 · Kun Thom 纤维余面积 · 第一重数 对角 变差 ≤ 两倍 退出
+SoficGroups.KunThomFiberCoarea.secondMultiplicity_diagonal_variation_le_twice_exit	Sofic 群 · Kun Thom 纤维余面积 · 第二重数 对角 变差 ≤ 两倍 退出
+SoficGroups.KunThomFiberCoarea.diagonalImage_sdiff_eq_image_exit	Sofic 群 · Kun Thom 纤维余面积 · 对角像 差集 = 像 退出
+SoficGroups.KunThomFiberCoarea.excess_mass_le_of_diagonal_variation	Sofic 群 · Kun Thom 纤维余面积 · 超出量 质量 ≤ 由 对角 变差
+SoficGroups.KunThomFiberCoarea.first_excess_mass_le_diagonalBoundary	Sofic 群 · Kun Thom 纤维余面积 · 第一 超出量 质量 ≤ 对角边界
+SoficGroups.KunThomFiberCoarea.second_excess_mass_le_diagonalBoundary	Sofic 群 · Kun Thom 纤维余面积 · 第二 超出量 质量 ≤ 对角边界
+SoficGroups.KunThomFiberCoarea.excess_support_card_le_half_of_singletons	Sofic 群 · Kun Thom 纤维余面积 · 超出量 支撑 基数 ≤ 一半 由 单点集
+SoficGroups.KunThomFiberCoarea.exists_boundary_controlled_permutation_repair_close_to_reference	Sofic 群 · Kun Thom 纤维余面积 · 存在 边界 受控 置换 修复 接近 到 参考
+SoficGroups.KunThomFiberCoarea.hasAlmostCentralizerImprovement_of_expanding_diagonal_cuts	Sofic 群 · Kun Thom 纤维余面积 · 有几乎中心化子改进 由 扩张 对角 割
+SoficGroups.KunThomFiberCoarea.exists_permutationGraph_containing_matchedFiberEdges	Sofic 群 · Kun Thom 纤维余面积 · 存在 置换图 包含 已匹配纤维边
+SoficGroups.KunThomFiberCoarea.exists_permutation_extending_matchedFiberEdges	Sofic 群 · Kun Thom 纤维余面积 · 存在 置换 延拓 已匹配纤维边
+SoficGroups.KunThomFiberCoarea.firstFiber_diagonalImage	Sofic 群 · Kun Thom 纤维余面积 · 第一纤维 对角像
+SoficGroups.KunThomFiberCoarea.firstMultiplicity_diagonalImage	Sofic 群 · Kun Thom 纤维余面积 · 第一重数 对角像
+SoficGroups.KunThomFiberCoarea.firstFiber_nonSingletonFirstEdges	Sofic 群 · Kun Thom 纤维余面积 · 第一纤维 非单点集第一边
+SoficGroups.KunThomFiberCoarea.firstFiber_sdiff	Sofic 群 · Kun Thom 纤维余面积 · 第一纤维 差集
+SoficGroups.KunThomFiberCoarea.firstMultiplicity_variation_le_relation_difference	Sofic 群 · Kun Thom 纤维余面积 · 第一重数 变差 ≤ 关系 差
+SoficGroups.KunThomFiberCoarea.firstFiber_singletonFirstEdges	Sofic 群 · Kun Thom 纤维余面积 · 第一纤维 单点集第一边
+SoficGroups.KunThomFiberCoarea.firstMultiplicity_totalVariation_le_twice_diagonalBoundary	Sofic 群 · Kun Thom 纤维余面积 · 第一重数 总变差 ≤ 两倍 对角边界
+SoficGroups.KunThomFiberCoarea.firstMultiplicity_permutationGraph	Sofic 群 · Kun Thom 纤维余面积 · 第一重数 置换图
+SoficGroups.KunThomFiberCoarea.first_zero_mass_le_diagonalBoundary	Sofic 群 · Kun Thom 纤维余面积 · 第一 零 质量 ≤ 对角边界
+SoficGroups.KunThomFiberCoarea.matchedFiberEdges_vertex_loss_bound	Sofic 群 · Kun Thom 纤维余面积 · 已匹配纤维边 顶点 损失 界
+SoficGroups.KunThomFiberCoarea.hasAlmostCentralizerImprovement_of_rooted_reference_cuts	Sofic 群 · Kun Thom 纤维余面积 · 有几乎中心化子改进 由 有根 参考 割
+SoficGroups.KunUniversalGoodRootReferenceCuts.hasAlmostCentralizerImprovement_of_universal_good_root_thresholds	Sofic 群 · Kun 泛好根参考割 · 有几乎中心化子改进 由 泛 好 根 阈值
+SoficGroups.KunThomFiberCoarea.mem_positiveNatSupport	Sofic 群 · Kun Thom 纤维余面积 · ∈ 正自然数支撑
+SoficGroups.KunThomFiberCoarea.permutation_small_support_coarea	Sofic 群 · Kun Thom 纤维余面积 · 置换 小 支撑 余面积
+SoficGroups.KunThomFiberCoarea.zero_support_card_le_half_of_singletons	Sofic 群 · Kun Thom 纤维余面积 · 零 支撑 基数 ≤ 一半 由 单点集
+SoficGroups.KunThomFiberCoarea.mem_singletonSupport	Sofic 群 · Kun Thom 纤维余面积 · ∈ 单点集支撑
+SoficGroups.KunThomFiberCoarea.natDist_card_le_sdiff	Sofic 群 · Kun Thom 纤维余面积 · 自然数距离 基数 ≤ 差集
+SoficGroups.KunThomFiberCoarea.secondMultiplicity_variation_le_relation_difference	Sofic 群 · Kun Thom 纤维余面积 · 第二重数 变差 ≤ 关系 差
+SoficGroups.KunThomFiberCoarea.natDist_sub_one_le	Sofic 群 · Kun Thom 纤维余面积 · 自然数距离 − 一 ≤
+SoficGroups.KunThomFiberCoarea.permutationVariation_sub_one_le	Sofic 群 · Kun Thom 纤维余面积 · 置换变差 − 一 ≤
+SoficGroups.KunThomFiberCoarea.natDist_zero_indicator_le	Sofic 群 · Kun Thom 纤维余面积 · 自然数距离 零 示性函数 ≤
+SoficGroups.KunThomFiberCoarea.permutationVariation_zero_indicator_le	Sofic 群 · Kun Thom 纤维余面积 · 置换变差 零 示性函数 ≤
+SoficGroups.KunThomFiberCoarea.nonmatchedFiberEdges_subset	Sofic 群 · Kun Thom 纤维余面积 · 未匹配纤维边 子集
+SoficGroups.KunThomFiberCoarea.permutationDistance_eq_card_permutationGraph_sdiff	Sofic 群 · Kun Thom 纤维余面积 · 置换距离 = 基数 置换图 差集
+SoficGroups.KunThomFiberCoarea.permutationDistance_le_matching_loss_add_reference	Sofic 群 · Kun Thom 纤维余面积 · 置换距离 ≤ 匹配 损失 + 参考
+SoficGroups.KunThomFiberCoarea.permutationGraph_card	Sofic 群 · Kun Thom 纤维余面积 · 置换图 基数
+SoficGroups.KunThomFiberCoarea.permutationGraph_sdiff_bounds_of_matchedFiberEdges	Sofic 群 · Kun Thom 纤维余面积 · 置换图 差集 界 由 已匹配纤维边
+SoficGroups.KunThomFiberCoarea.zero_mass_le_of_diagonal_variation	Sofic 群 · Kun Thom 纤维余面积 · 零 质量 ≤ 由 对角 变差
+SoficGroups.KunThomFiberCoarea.secondFiber_diagonalImage	Sofic 群 · Kun Thom 纤维余面积 · 第二纤维 对角像
+SoficGroups.KunThomFiberCoarea.secondMultiplicity_diagonalImage	Sofic 群 · Kun Thom 纤维余面积 · 第二重数 对角像
+SoficGroups.KunThomFiberCoarea.secondFiber_nonSingletonSecondEdges	Sofic 群 · Kun Thom 纤维余面积 · 第二纤维 非单点集第二边
+SoficGroups.KunThomFiberCoarea.secondFiber_sdiff	Sofic 群 · Kun Thom 纤维余面积 · 第二纤维 差集
+SoficGroups.KunThomFiberCoarea.secondMultiplicity_totalVariation_le_twice_diagonalBoundary	Sofic 群 · Kun Thom 纤维余面积 · 第二重数 总变差 ≤ 两倍 对角边界
+SoficGroups.KunThomFiberCoarea.secondMultiplicity_permutationGraph	Sofic 群 · Kun Thom 纤维余面积 · 第二重数 置换图
+SoficGroups.KunThomFiberCoarea.singletonFirstEdges_subset_matching_union	Sofic 群 · Kun Thom 纤维余面积 · 单点集第一边 子集 匹配 并
+SoficGroups.KunThomFiberCoarea.sum_firstFiber_card	Sofic 群 · Kun Thom 纤维余面积 · 和 第一纤维 基数
+SoficGroups.KunThomFiberCoarea.sum_indicator_nat_eq_mul_card	Sofic 群 · Kun Thom 纤维余面积 · 和 示性函数 自然数 = × 基数
+SoficGroups.KunThomFiberCoarea.sum_secondFiber_card	Sofic 群 · Kun Thom 纤维余面积 · 和 第二纤维 基数
+SoficGroups.KunThomInvariantOrthogonal.cocycle_one	Sofic 群 · Kun Thom 不变量正交 · 上闭链 一
+SoficGroups.KunThomInvariantOrthogonal.inner_cocycle_inv_of_invariant	Sofic 群 · Kun Thom 不变量正交 · 内积 上闭链 逆 由 不变量
+SoficGroups.KunThomInvariantOrthogonal.inner_cocycle_sum_eq_zero_of_invariant	Sofic 群 · Kun Thom 不变量正交 · 内积 上闭链 和 = 零 由 不变量
+SoficGroups.KunThomInvariantOrthogonal.inner_smul_cocycle_sum_eq_zero_of_invariant	Sofic 群 · Kun Thom 不变量正交 · 内积 数乘 上闭链 和 = 零 由 不变量
+SoficGroups.KunThomInvariantOrthogonal.kazhdanMarkovContractionFactor_nonneg	Sofic 群 · Kun Thom 不变量正交 · kazhdan Markov 收缩因子 非负
+SoficGroups.KunThomInvariantOrthogonal.unitaryFinsetMarkov_iterate_norm_le	Sofic 群 · Kun Thom 不变量正交 · 酉有限集 Markov 迭代 范数 ≤
+SoficGroups.KunThomInvariantOrthogonal.kazhdan_generator_displacement_of_orthogonal_invariants	Sofic 群 · Kun Thom 不变量正交 · kazhdan 生成元 位移 由 正交 不变量
+SoficGroups.KunThomInvariantOrthogonal.unitaryFinsetMarkov_norm_le	Sofic 群 · Kun Thom 不变量正交 · 酉有限集 Markov 范数 ≤
+SoficGroups.KunThomInvariantOrthogonal.map_mem_invariantSubmodule_orthogonal	Sofic 群 · Kun Thom 不变量正交 · 映射 ∈ 不变量子模 正交
+SoficGroups.KunThomInvariantOrthogonal.orthogonalRepresentation_no_fixed	Sofic 群 · Kun Thom 不变量正交 · 正交表示 无 固定
+SoficGroups.KunThomInvariantOrthogonal.unitaryFinsetMarkov_orthogonal_invariants	Sofic 群 · Kun Thom 不变量正交 · 酉有限集 Markov 正交 不变量
+SoficGroups.KunThomInvariantOrthogonal.norm_add_le_two_sub_sq_div_four	Sofic 群 · Kun Thom 不变量正交 · 范数 + ≤ 二 − 平方 ÷ 四
+SoficGroups.KunThomInvariantOrthogonal.norm_finset_sum_le_pair_add	Sofic 群 · Kun Thom 不变量正交 · 范数 有限集 和 ≤ 对 +
+SoficGroups.KunTransportedAmbientOverlap.boundary_conjugate_map	Sofic 群 · Kun 输运环绕重叠 · 边界 共轭 映射
+SoficGroups.KunTransportedAmbientOverlap.sum_boundary_transportedUnivFinpartition	Sofic 群 · Kun 输运环绕重叠 · 和 边界 输运全集有限划分
+SoficGroups.KunTransportedAmbientOverlap.transportedUnivFinpartition_half_expansion	Sofic 群 · Kun 输运环绕重叠 · 输运全集有限划分 一半 展开
+SoficGroups.KunTransportedAmbientOverlap.dominant_component_loss_density_tendsto_zero	Sofic 群 · Kun 输运环绕重叠 · 主导 分量 损失 密度 趋于 零
+SoficGroups.KunTransportedAmbientOverlap.exists_common_slow_overlap_scales_for_transported_partitions	Sofic 群 · Kun 输运环绕重叠 · 存在 公共 慢 重叠 尺度 对于 输运 划分
+SoficGroups.KunTransportedAmbientOverlap.dominant_component_loss_le_ambient_intersection_boundaries	Sofic 群 · Kun 输运环绕重叠 · 主导 分量 损失 ≤ 环绕 交 边界
+SoficGroups.KunTransportedAmbientOverlap.sum_dominant_component_losses_le_partition_boundaries	Sofic 群 · Kun 输运环绕重叠 · 和 主导 分量 损失 ≤ 划分 边界
+SoficGroups.KunTransportedAmbientOverlap.intersection_generator_exit_subset_union	Sofic 群 · Kun 输运环绕重叠 · 交 生成元 退出 子集 并
+SoficGroups.KunTransportedAmbientOverlap.sum_intersection_generator_exit_card_le	Sofic 群 · Kun 输运环绕重叠 · 和 交 生成元 退出 基数 ≤
+SoficGroups.KunTransportedAmbientOverlap.transported_partition_boundary_density_tendsto_zero	Sofic 群 · Kun 输运环绕重叠 · 输运 划分 边界 密度 趋于 零
+SoficGroups.KunTransportedAmbientOverlap.sum_intersection_boundary_le_partition_boundaries	Sofic 群 · Kun 输运环绕重叠 · 和 交 边界 ≤ 划分 边界
+SoficGroups.SourceProductThroughAlpha.source_u_transported_reference_half_expansion	Sofic 群 · 源积经过 Alpha · 源 u 输运 参考 一半 展开
+SoficGroups.SourceProductThroughAlpha.source_u_transported_reference_boundary_density_tendsto_zero	Sofic 群 · 源积经过 Alpha · 源 u 输运 参考 边界 密度 趋于 零
+SoficGroups.KunUnconditionalActualSourceGeneratorData.exists_actual_source_alpha_symmetric_generators	Sofic 群 · Kun 无条件实际源生成元数据 · 存在 实际 源 alpha 对称 生成元
+SoficGroups.KunUnconditionalActualSourceGeneratorData.exists_symmetric_generating_finset_of_finitelyGenerated	Sofic 群 · Kun 无条件实际源生成元数据 · 存在 对称 生成 有限集 由 有限生成
+SoficGroups.KunUniversalGoodRootReferenceCuts.reference_difference_le_of_good_root_threshold	Sofic 群 · Kun 泛好根参考割 · 参考 差 ≤ 由 好 根 阈值
+SoficGroups.KunUniversalGoodRootReferenceCuts.reference_difference_le_symmDiff_add_missing	Sofic 群 · Kun 泛好根参考割 · 参考 差 ≤ 对称差 + 缺失
+SoficGroups.LEF.approximate	Sofic 群 · LEF · 近似
+SoficGroups.ThompsonFTwoRelatorLEF.not_lef_of_thompsonF_two_relations	Sofic 群 · Thompson F 二关系子 LEF · 非 lef 由 thompson F 二 关系
+SoficGroups.LeavittElementaryMorita.alphaPrefixElementaryGroup_hasPropertyT_of_nine	Sofic 群 · Leavitt 初等 Morita · alpha 前缀初等群 有性质 T 由 九
+SoficGroups.alphaPrefixElementaryGroup_hasPropertyT_unconditional	Sofic 群 · alpha 前缀初等群 有性质 T 无条件
+SoficGroups.LeavittElementaryMorita.alphaZeroPrefixElementaryGroup_hasPropertyT_of_nine	Sofic 群 · Leavitt 初等 Morita · alpha 零前缀初等群 有性质 T 由 九
+SoficGroups.alphaZeroPrefixElementaryGroup_hasPropertyT_unconditional	Sofic 群 · alpha 零前缀初等群 有性质 T 无条件
+SoficGroups.LeavittElementaryMorita.binaryLeavittElementaryThree_hasPropertyT_of_nine	Sofic 群 · Leavitt 初等 Morita · 二元 Leavitt 初等三 有性质 T 由 九
+SoficGroups.LeavittElementaryMorita.elementaryBlockGroup_map	Sofic 群 · Leavitt 初等 Morita · 初等块群 映射
+SoficGroups.finiteOuterBlockCyclicRootFamily_iSup_eq_top	Sofic 群 · 有限外块循环根族 i 上确界 = ⊤
+SoficGroups.LeavittElementaryMorita.elementaryBlockUnitEquiv_elementaryUnit_mem	Sofic 群 · Leavitt 初等 Morita · 初等块单位等价 初等单位 ∈
+SoficGroups.LeavittElementaryMorita.elementaryBlockUnitEquiv_elementaryUnit_single	Sofic 群 · Leavitt 初等 Morita · 初等块单位等价 初等单位 单个
+SoficGroups.LeavittElementaryMorita.elementaryReindexGroup_map	Sofic 群 · Leavitt 初等 Morita · 初等重标指标群 映射
+SoficGroups.LeavittElementaryMorita.elementaryReindexUnitEquiv_elementaryUnit	Sofic 群 · Leavitt 初等 Morita · 初等重标指标单位等价 初等单位
+SoficGroups.LeavittElementaryMorita.ternaryLeavittPrefixCode_complete	Sofic 群 · Leavitt 初等 Morita · 三元 Leavitt 前缀码 完备
+SoficGroups.LocalMultiplicativeOn.map_inv_of_mem	Sofic 群 · 局部乘性在…上 · 映射 逆 由 ∈
+SoficGroups.exists_local_word_control	Sofic 群 · 存在 局部 字 控制
+SoficGroups.LocalMultiplicativeOn.map_mul	Sofic 群 · 局部乘性在…上 · 映射 ×
+SoficGroups.LocalMultiplicativeOn.mono	Sofic 群 · 局部乘性在…上 · 单调
+SoficGroups.LocalMultiplicativeOn.map_one	Sofic 群 · 局部乘性在…上 · 映射 一
+SoficGroups.MatchedComponentCompletion.card_lt_five_mul_permutationDistance_of_subtypeBad	Sofic 群 · 已匹配分量完备化 · 基数 < 五 × 置换距离 由 子类型坏
+SoficGroups.MatchedComponentCompletion.completedRestriction_separated_of_sourceCompletionBad	Sofic 群 · 已匹配分量完备化 · 完成限制 分离 由 源完备化坏
+SoficGroups.MatchedComponentCompletion.card_subtypeBad	Sofic 群 · 已匹配分量完备化 · 基数 子类型坏
+SoficGroups.MatchedComponentCompletion.card_subtype_sourceCompletionBad	Sofic 群 · 已匹配分量完备化 · 基数 子类型 源完备化坏
+SoficGroups.MatchedComponentCompletion.completedRestriction_commutationDefect_le_sourceCompletionBad	Sofic 群 · 已匹配分量完备化 · 完成限制 对易亏量 ≤ 源完备化坏
+SoficGroups.MatchedComponentCompletion.completedRestriction_mul_distance_le_sourceCompletionBad	Sofic 群 · 已匹配分量完备化 · 完成限制 × 距离 ≤ 源完备化坏
+SoficGroups.MatchedComponentCompletion.completedRestriction_apply_of_mem	Sofic 群 · 已匹配分量完备化 · 完成限制 作用于 由 ∈
+SoficGroups.MatchedComponentCompletion.completedRestriction_commute_of_not_mem_sourceCompletionBad	Sofic 群 · 已匹配分量完备化 · 完成限制 交换 由 非 ∈ 源完备化坏
+SoficGroups.MatchedComponentCompletion.completedRestriction_one	Sofic 群 · 已匹配分量完备化 · 完成限制 一
+SoficGroups.MatchedFirstStageWordRadiusTransfer.card_completed_sourceWordTestBad_le_sourceCompletionBad	Sofic 群 · 已匹配第一阶段字半径转移 · 基数 完成 源字检验坏 ≤ 源完备化坏
+SoficGroups.MatchedComponentCompletion.mem_subtypeBad	Sofic 群 · 已匹配分量完备化 · ∈ 子类型坏
+SoficGroups.MatchedComponentCompletion.permutationDistance_le_subtypeBad	Sofic 群 · 已匹配分量完备化 · 置换距离 ≤ 子类型坏
+SoficGroups.MatchedComponentCompletion.sourceCompletionBad_good	Sofic 群 · 已匹配分量完备化 · 源完备化坏 好
+SoficGroups.MatchedComponentCompletion.sourceCompletionBad_subset	Sofic 群 · 已匹配分量完备化 · 源完备化坏 子集
+SoficGroups.MatchedComponentExitBudget.card_biUnion_composite_exit_le	Sofic 群 · 已匹配分量退出预算 · 基数 双并 复合 退出 ≤
+SoficGroups.MatchedComponentExitBudget.card_sourceCompletionBad_le_deleted_add_wordBad	Sofic 群 · 已匹配分量退出预算 · 基数 源完备化坏 ≤ 已删除 + 字坏
+SoficGroups.MatchedComponentExitBudget.card_biUnion_permutation_exit_le	Sofic 群 · 已匹配分量退出预算 · 基数 双并 置换 退出 ≤
+SoficGroups.MatchedComponentExitBudget.card_composite_exit_le_deleted	Sofic 群 · 已匹配分量退出预算 · 基数 复合 退出 ≤ 已删除
+SoficGroups.MatchedComponentExitBudget.card_permutation_exit_le_deleted	Sofic 群 · 已匹配分量退出预算 · 基数 置换 退出 ≤ 已删除
+SoficGroups.MatchedComponentExitBudget.sourceCompletionBad_original_density_tendsto_zero	Sofic 群 · 已匹配分量退出预算 · 源完备化坏 原始 密度 趋于 零
+SoficGroups.MatchedComponentExitBudget.pruned_component_card_tendsto_atTop	Sofic 群 · 已匹配分量退出预算 · 已剪枝 分量 基数 趋于 在⊤
+SoficGroups.MatchedComponentExitBudget.sourceCompletionBad_surviving_density_tendsto_zero	Sofic 群 · 已匹配分量退出预算 · 源完备化坏 存活 密度 趋于 零
+SoficGroups.MatchedComponentExitBudget.sourceCompletionBad_subset_exit_union_wordBad	Sofic 群 · 已匹配分量退出预算 · 源完备化坏 子集 退出 并 字坏
+SoficGroups.MatchedComponentExitBudget.sourceCompletionBad_subset_survivors	Sofic 群 · 已匹配分量退出预算 · 源完备化坏 子集 存活者
+SoficGroups.MatchedFirstStageWordRadiusTransfer.pruned_sourceCompletionBad_density_tendsto_zero_of_matchedRadius	Sofic 群 · 已匹配第一阶段字半径转移 · 已剪枝 源完备化坏 密度 趋于 零 由 已匹配半径
+SoficGroups.MatchedFirstStageWordRadiusTransfer.completed_sourceWordTestBad_density_tendsto_zero	Sofic 群 · 已匹配第一阶段字半径转移 · 完成 源字检验坏 密度 趋于 零
+SoficGroups.MatchedFirstStageWordRadiusTransfer.completed_sourceWordTestBad_density_tendsto_zero_of_matchedRadius	Sofic 群 · 已匹配第一阶段字半径转移 · 完成 源字检验坏 密度 趋于 零 由 已匹配半径
+SoficGroups.MatrixCorner.codeIdempotent_isIdempotent	Sofic 群 · 矩阵角点 · 码幂等 是幂等
+SoficGroups.SourceTopLevelCompression.sourceLocalPrefixTranspositionGroup_lef_of_source_finite_models	Sofic 群 · 源⊤水平压缩 · 源局部前缀对换群 lef 由 源 有限 模型
+SoficGroups.ThompsonFLocalWitness.generatorB_eq_prefixInsertion	Sofic 群 · Thompson F 局部见证 · 生成元 B = 前缀插入
+SoficGroups.ThompsonPrefixInsertion.prefixInsertionHom_mem_cylinderCorner	Sofic 群 · Thompson 前缀插入 · 前缀插入同态 ∈ 柱角点
+SoficGroups.ThompsonPrefixInsertion.prefixInsertionHom_val	Sofic 群 · Thompson 前缀插入 · 前缀插入同态 值
+SoficGroups.prefixCornerUnitHom_elementaryUnit	Sofic 群 · 前缀角点单位同态 初等单位
+SoficGroups.prefixCornerUnitHom_injective	Sofic 群 · 前缀角点单位同态 单射
+SoficGroups.MatrixCorner.decode_encode	Sofic 群 · 矩阵角点 · 解码 编码
+SoficGroups.completePrefixUnitEquiv_elementaryUnit	Sofic 群 · 完备前缀单位等价 初等单位
+SoficGroups.MatrixCorner.encode_decode	Sofic 群 · 矩阵角点 · 编码 解码
+SoficGroups.MatrixCorner.encode_mul	Sofic 群 · 矩阵角点 · 编码 ×
+SoficGroups.MatrixCorner.encode_one	Sofic 群 · 矩阵角点 · 编码 一
+SoficGroups.MidrankPermutationEnergy.midpointDecreasing_subset_crossing_union_rankDecreasing	Sofic 群 · 中间秩置换能量 · 中点递减 子集 交叉 并 秩递减
+SoficGroups.MidrankPermutationEnergy.partitionVertexMidrank_permutation_energy_le	Sofic 群 · 中间秩置换能量 · 划分顶点中间秩 置换 能量 ≤
+SoficGroups.MidrankPermutationEnergy.sum_partitionVertexMidrank_permutation_energy_le	Sofic 群 · 中间秩置换能量 · 和 划分顶点中间秩 置换 能量 ≤
+SoficGroups.MidrankPermutationEnergy.partitionVertexMidrank_permutation_energy_tendsto_zero	Sofic 群 · 中间秩置换能量 · 划分顶点中间秩 置换 能量 趋于 零
+SoficGroups.SourceCommonOffsetMidrankEnergy.exists_common_component_log_rank_with_vanishing_midrank_energy	Sofic 群 · 源公共偏移中间秩能量 · 存在 公共 分量 对数 秩 带 消失 中间秩 能量
+SoficGroups.MidrankPermutationEnergy.rankDropCount_eq_sum_rankDecreasingVertices	Sofic 群 · 中间秩置换能量 · 秩丢弃计数 = 和 秩递减顶点
+SoficGroups.PermutationModel.map_one	Sofic 群 · 置换模型 · 映射 一
+SoficGroups.SourceCompressionTransportCrossing.tendsto_action_inverse	Sofic 群 · 源压缩输运交叉 · 趋于 作用 逆
+SoficGroups.SourceGeneratedWordCrossing.action_list_prod_tendsto	Sofic 群 · 源生成字交叉 · 作用 列表 积 趋于
+SoficGroups.SourceProductThroughAlpha.sourceCompressedLocalProductApproximation_model_size	Sofic 群 · 源积经过 Alpha · 源压缩局部积逼近 模型 大小
+SoficGroups.amplifyModel_multiplicative_distance	Sofic 群 · 放大模型 乘性 距离
+SoficGroups.amplifyModel_normalizedHamming	Sofic 群 · 放大模型 归一化 Hamming
+SoficGroups.pullbackTableModel_action_of_mem	Sofic 群 · 拉回表模型 作用 由 ∈
+SoficGroups.PermutationModel.size_pos	Sofic 群 · 置换模型 · 大小 正
+SoficGroups.SourceProductThroughAlpha.source_canonical_product_radius_crossing_density_tendsto_zero	Sofic 群 · 源积经过 Alpha · 源 典范 积 半径 交叉 密度 趋于 零
+SoficGroups.PrefixCompression.compressionTransitionCrossSwaps_prod_eq	Sofic 群 · 前缀压缩 · 压缩转移交叉交换 积 =
+SoficGroups.PrefixCompression.compressionTransition_mem	Sofic 群 · 前缀压缩 · 压缩转移 ∈
+SoficGroups.PrefixCompression.compressionTransitionCrossSwaps_prod_mem	Sofic 群 · 前缀压缩 · 压缩转移交叉交换 积 ∈
+SoficGroups.PrefixCompression.compressionTransitionCrossSwaps_prod_val	Sofic 群 · 前缀压缩 · 压缩转移交叉交换 积 值
+SoficGroups.PrefixCompression.compressionTransitionParentSwaps_eq_table	Sofic 群 · 前缀压缩 · 压缩转移父节点交换 = 表
+SoficGroups.PrefixCompression.compressionTransitionParentSwaps_mul_word	Sofic 群 · 前缀压缩 · 压缩转移父节点交换 × 字
+SoficGroups.PrefixCompression.compressionV_mem_of_compressionU	Sofic 群 · 前缀压缩 · 压缩 V ∈ 由 压缩 U
+SoficGroups.PrefixCompression.compressionV_eq_transition_mul	Sofic 群 · 前缀压缩 · 压缩 V = 转移 ×
+SoficGroups.compressionV_mem_ninePrefixElementaryGroup	Sofic 群 · 压缩 V ∈ 九前缀初等群
+SoficGroups.PrefixCompression.nineCrossRoot_mem	Sofic 群 · 前缀压缩 · 九交叉根 ∈
+SoficGroups.PrefixCompression.nineCrossSwap_mem	Sofic 群 · 前缀压缩 · 九交叉交换 ∈
+SoficGroups.PrefixCompression.nineCrossSwap_val	Sofic 群 · 前缀压缩 · 九交叉交换 值
+SoficGroups.PrefixCompression.nineRefinement_orthogonal	Sofic 群 · 前缀压缩 · 九加细 正交
+SoficGroups.PrefixCompression.prefixTable_compose	Sofic 群 · 前缀压缩 · 前缀表 复合
+SoficGroups.PrefixCompression.transpositionValue_mul_codeWord	Sofic 群 · 前缀压缩 · 对换值 × 码字
+SoficGroups.PrefixCompression.uSwap12_mul	Sofic 群 · 前缀压缩 · u 交换 12 ×
+SoficGroups.PrefixCompression.uSwap45_mul	Sofic 群 · 前缀压缩 · u 交换 45 ×
+SoficGroups.PrefixCompression.uSwap78_mul	Sofic 群 · 前缀压缩 · u 交换 78 ×
+SoficGroups.PrefixCompression.transpositionValue_refine	Sofic 群 · 前缀压缩 · 对换值 加细
+SoficGroups.PrefixCompression.wordSwapValue_refine	Sofic 群 · 前缀压缩 · 字交换值 加细
+SoficGroups.PrefixCompressionU.binaryWordCancellation.eq_def	Sofic 群 · 前缀压缩 U · 二元字消去 · = 定义
+SoficGroups.PrefixCompressionU.leavittWordT_mul_wordS_cancel	Sofic 群 · 前缀压缩 U · leavitt 字 T × 字 S 消去
+SoficGroups.PrefixCompressionU.refinedSourceWord_eq_parent_append	Sofic 群 · 前缀压缩 U · 加细源字 = 父节点 追加
+SoficGroups.PrefixCompressionU.sourceCrossRoot_mem	Sofic 群 · 前缀压缩 U · 源交叉根 ∈
+SoficGroups.PrefixCompressionU.sourceCrossRoot_val	Sofic 群 · 前缀压缩 U · 源交叉根 值
+SoficGroups.PrefixCompressionU.sourceRefinementOrthogonal	Sofic 群 · 前缀压缩 U · 源加细正交
+SoficGroups.SourceGeneration.nineWord_alphaBetaNineIndex	Sofic 群 · 源生成 · 九字 alpha β九指标
+SoficGroups.SourceGeneration.nineWord_alphaNuNineIndex	Sofic 群 · 源生成 · 九字 alpha ν九指标
+SoficGroups.SourceGeneration.nineWord_betaNineIndex	Sofic 群 · 源生成 · 九字 β九指标
+SoficGroups.SourceGeneration.nineWord_nuNineIndex	Sofic 群 · 源生成 · 九字 ν九指标
+SoficGroups.SourceGeneration.uWord_betaNineIndex	Sofic 群 · 源生成 · u 字 β九指标
+SoficGroups.SourceGeneration.vWord_nuNineIndex	Sofic 群 · 源生成 · v 字 ν九指标
+SoficGroups.ThompsonPrefixInsertion.sourceLocal_cylinderSwap_mem_alpha	Sofic 群 · Thompson 前缀插入 · 源局部 柱交换 ∈ alpha
+SoficGroups.ThompsonPrefixLocal.alphaZeroWord_incomparable_local	Sofic 群 · Thompson 前缀局部 · alpha 零字 不可比 局部
+SoficGroups.ThompsonPrefixLocal.localWord_incomparable_alphaZero	Sofic 群 · Thompson 前缀局部 · 局部字 不可比 alpha 零
+SoficGroups.alphaPrefixElementaryGroup_finitelyGenerated	Sofic 群 · alpha 前缀初等群 有限生成
+SoficGroups.alphaZero_prefixElementaryUnit_eq	Sofic 群 · alpha 零 前缀初等单位 =
+SoficGroups.alpha_cylinders	Sofic 群 · alpha 柱
+SoficGroups.beta_cylinders	Sofic 群 · β 柱
+SoficGroups.eta_cylinders	Sofic 群 · η 柱
+SoficGroups.nineWord_alphaNineIndex	Sofic 群 · 九字 alpha 九指标
+SoficGroups.nu_cylinders	Sofic 群 · ν 柱
+SoficGroups.uWord_alphaNineIndex	Sofic 群 · u 字 alpha 九指标
+SoficGroups.vWord_alphaNineIndex	Sofic 群 · v 字 alpha 九指标
+SoficGroups.PrefixCompressionU.completePrefixWord_ext	Sofic 群 · 前缀压缩 U · 完备前缀字 外延
+SoficGroups.PrefixCompressionU.elementaryCompressionU_eq_compressionU	Sofic 群 · 前缀压缩 U · 初等压缩 U = 压缩 U
+SoficGroups.PrefixCompressionU.compressionU_mem_ninePrefixElementaryGroup	Sofic 群 · 前缀压缩 U · 压缩 U ∈ 九前缀初等群
+SoficGroups.compressionU_mem_ninePrefixElementaryGroup	Sofic 群 · 压缩 U ∈ 九前缀初等群
+SoficGroups.PrefixCompressionU.compressionU_mul_nine_refinement	Sofic 群 · 前缀压缩 U · 压缩 U × 九 加细
+SoficGroups.PrefixCompressionU.compressionU_mul_refinedSourceWord	Sofic 群 · 前缀压缩 U · 压缩 U × 加细源字
+SoficGroups.PrefixCompressionU.elementaryCompressionU_mem	Sofic 群 · 前缀压缩 U · 初等压缩 U ∈
+SoficGroups.PrefixCompressionU.elementaryCompressionU_mul_refinedSourceWord	Sofic 群 · 前缀压缩 U · 初等压缩 U × 加细源字
+SoficGroups.PrefixCompressionU.leavittWordS_mul_wordS	Sofic 群 · 前缀压缩 U · leavitt 字 S × 字 S
+SoficGroups.PrefixCompressionU.sourceCrossSwap_mul_leavittWordS	Sofic 群 · 前缀压缩 U · 源交叉交换 × leavitt 字 S
+SoficGroups.PrefixCompressionU.prefixTable_mul_sourceWord	Sofic 群 · 前缀压缩 U · 前缀表 × 源字
+SoficGroups.PrefixCompressionU.refinedSourcePrefixCode_complete	Sofic 群 · 前缀压缩 U · 加细源前缀码 完备
+SoficGroups.PrefixCompressionU.sourceCrossSwap_mem	Sofic 群 · 前缀压缩 U · 源交叉交换 ∈
+SoficGroups.PrefixCompressionU.sourceCrossSwap_val	Sofic 群 · 前缀压缩 U · 源交叉交换 值
+SoficGroups.RankArcCharging.card_sdiff_selectedRankSupport	Sofic 群 · 秩弧计费 · 基数 差集 选中秩支撑
+SoficGroups.RankArcCharging.rankChangingArc_card_le_crossing_add_unselected	Sofic 群 · 秩弧计费 · 秩改变弧 基数 ≤ 交叉 + 未选中
+SoficGroups.RankArcCharging.rankChangingArc_density_tendsto_zero	Sofic 群 · 秩弧计费 · 秩改变弧 密度 趋于 零
+SoficGroups.RankArcCharging.rankChangingArc_subset_crossing_or_unselected	Sofic 群 · 秩弧计费 · 秩改变弧 子集 交叉 或 未选中
+SoficGroups.RankArcCharging.rankSupportPreimageBad_card_le	Sofic 群 · 秩弧计费 · 秩支撑原像坏 基数 ≤
+SoficGroups.RankArcCharging.selectedRankSupport_card	Sofic 群 · 秩弧计费 · 选中秩支撑 基数
+SoficGroups.RankArcCharging.selectedRankSupport_rank_eq	Sofic 群 · 秩弧计费 · 选中秩支撑 秩 =
+SoficGroups.RankArcCharging.selectedRankSupport_subset	Sofic 群 · 秩弧计费 · 选中秩支撑 子集
+SoficGroups.Sofic.approximation	Sofic 群 · Sofic · 逼近
+SoficGroups.tableGroup_not_sofic_of_obstruction	Sofic 群 · 表群 非 sofic 由 障碍
+SoficGroups.SoficApproximation.multiplicative	Sofic 群 · Sofic 逼近 · 乘性
+SoficGroups.amplifyApproximation_size_tendsto	Sofic 群 · 放大逼近 大小 趋于
+SoficGroups.SoficApproximation.separated	Sofic 群 · Sofic 逼近 · 分离
+SoficGroups.SourceBothCompressionNormalization.sourceCompressionTable_conjugates_alpha	Sofic 群 · 源两者压缩归一化 · 源压缩表 共轭 alpha
+SoficGroups.SourceBothCompressionNormalization.sourceCompressionUElement_conjugates_alpha	Sofic 群 · 源两者压缩归一化 · 源压缩 U 元素 共轭 alpha
+SoficGroups.SourceBothCompressionNormalization.sourceCompressionVElement_conjugates_alpha	Sofic 群 · 源两者压缩归一化 · 源压缩 V 元素 共轭 alpha
+SoficGroups.SourceCommonComponentComparisonBad.cast_card_sdiff_eq_sub_card_inter	Sofic 群 · 源公共分量比较坏 · 类型转换 基数 差集 = − 基数 交
+SoficGroups.SourceCommonComponentComparisonBad.transported_comparisonBad_density_tendsto_zero	Sofic 群 · 源公共分量比较坏 · 输运 比较坏 密度 趋于 零
+SoficGroups.SourceCommonComponentComparisonBad.combined_positive_comparisonBad_density_tendsto_zero	Sofic 群 · 源公共分量比较坏 · 合并 正 比较坏 密度 趋于 零
+SoficGroups.SourceCommonComponentRankNoBad.exists_common_positive_component_log_rank_with_vanishing_midrank_energy	Sofic 群 · 源公共分量秩无坏 · 存在 公共 正 分量 对数 秩 带 消失 中间秩 能量
+SoficGroups.SourceCommonComponentComparisonBad.comparisonBad_card_le_overlap_and_loss	Sofic 群 · 源公共分量比较坏 · 比较坏 基数 ≤ 重叠 且 损失
+SoficGroups.SourceCommonComponentComparisonBad.comparisonBad_subset_matchedWordPreimageBad	Sofic 群 · 源公共分量比较坏 · 比较坏 子集 已匹配字原像坏
+SoficGroups.SourceCommonComponentComparisonBad.comparisonBad_subset_partitionWordCrossing	Sofic 群 · 源公共分量比较坏 · 比较坏 子集 划分字交叉
+SoficGroups.SourceCommonComponentComparisonBad.subgroup_comparisonBad_density_tendsto_zero	Sofic 群 · 源公共分量比较坏 · 子群 比较坏 密度 趋于 零
+SoficGroups.SourceCommonComponentComparisonBad.familyComparisonBad_card	Sofic 群 · 源公共分量比较坏 · 族比较坏 基数
+SoficGroups.SourceCommonComponentComparisonBad.matchedCore_missing_card_le_overlap_and_loss	Sofic 群 · 源公共分量比较坏 · 已匹配核心 缺失 基数 ≤ 重叠 且 损失
+SoficGroups.SourceCommonOffsetMidrankEnergy.componentSizeComparison_of_not_mem	Sofic 群 · 源公共偏移中间秩能量 · 分量大小比较 由 非 ∈
+SoficGroups.SourceCompressionMatching.card_symmDiff_add_twice_inter	Sofic 群 · 源压缩匹配 · 基数 对称差 + 两倍 交
+SoficGroups.SourceCompressionMatching.symmDiff_card_lt_of_overlap_and_exp_card	Sofic 群 · 源压缩匹配 · 对称差 基数 < 由 重叠 且 指数函数 基数
+SoficGroups.SourceCompressionMatching.lt_exp_mul_of_equal_log_floor	Sofic 群 · 源压缩匹配 · < 指数函数 × 由 相等 对数 下取整
+SoficGroups.SourceCompressionMatching.transported_maximumOverlapPart_card_lt_exp_mul	Sofic 群 · 源压缩匹配 · 输运 最大值重叠部分 基数 < 指数函数 ×
+SoficGroups.SourceCompressionMatching.target_majority_of_overlap_and_exp_card	Sofic 群 · 源压缩匹配 · 目标 多数 由 重叠 且 指数函数 基数
+SoficGroups.SourceCompressionMatching.symmDiff_density_tendsto_zero_of_log_rank_bounds	Sofic 群 · 源压缩匹配 · 对称差 密度 趋于 零 由 对数 秩 界
+SoficGroups.SourceRetainedActualMatching.retained_transport_component_matching_bounds	Sofic 群 · 源保留实际匹配 · 保留 输运 分量 匹配 界
+SoficGroups.SourceCompressionRetainedDiscard.overlapBad_disjoint_witnesslessComponents	Sofic 群 · 源压缩保留丢弃 · 重叠坏 不相交 无见证分量
+SoficGroups.SourceCompressionRetainedDiscard.retained_missing_card_le_overlap_add_twice_rankChanging	Sofic 群 · 源压缩保留丢弃 · 保留 缺失 基数 ≤ 重叠 + 两倍 秩改变
+SoficGroups.SourceCompressionRetainedDiscard.retainedComponents_spec	Sofic 群 · 源压缩保留丢弃 · 保留分量 规范
+SoficGroups.SourceCompressionRetainedDiscard.retained_missing_density_tendsto_zero	Sofic 群 · 源压缩保留丢弃 · 保留 缺失 密度 趋于 零
+SoficGroups.SourceCompressionRetainedDiscard.witnesslessComponents_mass_le_twice_rankChanging	Sofic 群 · 源压缩保留丢弃 · 无见证分量 质量 ≤ 两倍 秩改变
+SoficGroups.SourceCompressionRetainedDiscard.witnesslessComponents_subset_parts	Sofic 群 · 源压缩保留丢弃 · 无见证分量 子集 部分
+SoficGroups.SourceCompressionRetainedDiscard.witnessless_component_card_le_twice_rankChanging	Sofic 群 · 源压缩保留丢弃 · 无见证 分量 基数 ≤ 两倍 秩改变
+SoficGroups.SourceCompressionTransportCrossing.card_partitionWordCrossing_le_add_distance	Sofic 群 · 源压缩输运交叉 · 基数 划分字交叉 ≤ + 距离
+SoficGroups.SourceCompressionTransportCrossing.conjugated_word_crossing_density_tendsto_zero	Sofic 群 · 源压缩输运交叉 · 共轭 字 交叉 密度 趋于 零
+SoficGroups.SourceCompressionTransportCrossing.mem_partitionWordCrossing_univ	Sofic 群 · 源压缩输运交叉 · ∈ 划分字交叉 全集
+SoficGroups.SourceCompressionTransportCrossing.tendsto_action_conjugate	Sofic 群 · 源压缩输运交叉 · 趋于 作用 共轭
+SoficGroups.SourceGeneratedWordCrossing.fixed_generated_word_crossing_density_tendsto_zero	Sofic 群 · 源生成字交叉 · 固定 生成 字 交叉 密度 趋于 零
+SoficGroups.SourceGeneratedWordCrossing.card_partitionWordCrossing_le_add_distance	Sofic 群 · 源生成字交叉 · 基数 划分字交叉 ≤ + 距离
+SoficGroups.SourceGeneratedWordCrossing.crossing_density_tendsto_zero_of_normalizedHamming	Sofic 群 · 源生成字交叉 · 交叉 密度 趋于 零 由 归一化 Hamming
+SoficGroups.SourceGeneratedWordCrossing.card_partitionWordCrossing_mul_le	Sofic 群 · 源生成字交叉 · 基数 划分字交叉 × ≤
+SoficGroups.SourceGeneratedWordCrossing.list_generator_crossing_density_tendsto_zero	Sofic 群 · 源生成字交叉 · 列表 生成元 交叉 密度 趋于 零
+SoficGroups.SourceGeneratedWordCrossing.exists_word_of_symmetric_generators	Sofic 群 · 源生成字交叉 · 存在 字 由 对称 生成元
+SoficGroups.SourceGeneratedWordCrossing.source_alpha_word_crossing_density_tendsto_zero	Sofic 群 · 源生成字交叉 · 源 alpha 字 交叉 密度 趋于 零
+SoficGroups.SourceGeneratedWordCrossing.generator_crossing_density_tendsto_zero	Sofic 群 · 源生成字交叉 · 生成元 交叉 密度 趋于 零
+SoficGroups.SourceGeneratedWordCrossing.mem_partitionWordCrossing_univ	Sofic 群 · 源生成字交叉 · ∈ 划分字交叉 全集
+SoficGroups.SourceProductThroughAlpha.source_compressed_local_product_word_crossing_density_tendsto_zero	Sofic 群 · 源积经过 Alpha · 源 压缩 局部 积 字 交叉 密度 趋于 零
+SoficGroups.SourceGeneratedWordCrossing.sum_generator_crossing_eq_sum_partition_boundary	Sofic 群 · 源生成字交叉 · 和 生成元 交叉 = 和 划分 边界
+SoficGroups.SourceGeneration.alphaBetaNineIndex_ne	Sofic 群 · 源生成 · alpha β九指标 ≠
+SoficGroups.SourceGeneration.alphaBetaRoot_mem_sourceGenerated	Sofic 群 · 源生成 · alpha β根 ∈ 源生成
+SoficGroups.SourceGeneration.nineRoot_from_alphaHub_mem_sourceGenerated	Sofic 群 · 源生成 · 九根 从 alpha 枢纽 ∈ 源生成
+SoficGroups.SourceGeneration.nineRoot_to_alphaHub_mem_sourceGenerated	Sofic 群 · 源生成 · 九根 到 alpha 枢纽 ∈ 源生成
+SoficGroups.SourceGeneration.alphaNineIndex_ne	Sofic 群 · 源生成 · alpha 九指标 ≠
+SoficGroups.SourceGeneration.alphaPrefixElementaryUnit_eq_nine	Sofic 群 · 源生成 · alpha 前缀初等单位 = 九
+SoficGroups.SourceGeneration.alphaNuNineIndex_ne	Sofic 群 · 源生成 · alpha ν九指标 ≠
+SoficGroups.SourceGeneration.alphaNuRoot_mem_sourceGenerated	Sofic 群 · 源生成 · alpha ν根 ∈ 源生成
+SoficGroups.SourceGeneration.alphaPrefixElementaryGroup_le_nine	Sofic 群 · 源生成 · alpha 前缀初等群 ≤ 九
+SoficGroups.SourceGeneration.sourceGeneratedGroup_le_nine_of_compressions	Sofic 群 · 源生成 · 源生成群 ≤ 九 由 压缩
+SoficGroups.ThompsonPrefixInsertion.sourceLocalPrefixTranspositionGroup_le_nine	Sofic 群 · Thompson 前缀插入 · 源局部前缀对换群 ≤ 九
+SoficGroups.SourceGeneration.alphaRoot_mem_sourceGenerated	Sofic 群 · 源生成 · alpha 根 ∈ 源生成
+SoficGroups.SourceGeneration.alphaWordT_mul_compressionU	Sofic 群 · 源生成 · alpha 字 T × 压缩 U
+SoficGroups.SourceGeneration.alphaWordT_mul_compressionV	Sofic 群 · 源生成 · alpha 字 T × 压缩 V
+SoficGroups.SourceGeneration.binaryBlockSandwich	Sofic 群 · 源生成 · 二元块夹逼
+SoficGroups.SourceGeneration.compressionU_inv_mul_alphaWordS	Sofic 群 · 源生成 · 压缩 U 逆 × alpha 字 S
+SoficGroups.SourceGeneration.compressionU_mem_sourceGenerated	Sofic 群 · 源生成 · 压缩 U ∈ 源生成
+SoficGroups.SourceGeneration.compressionV_inv_mul_alphaWordS	Sofic 群 · 源生成 · 压缩 V 逆 × alpha 字 S
+SoficGroups.SourceGeneration.compressionV_mem_sourceGenerated	Sofic 群 · 源生成 · 压缩 V ∈ 源生成
+SoficGroups.SourceGeneration.leavittWordS_split	Sofic 群 · 源生成 · leavitt 字 S 分裂
+SoficGroups.SourceGeneration.leavittWordT_split	Sofic 群 · 源生成 · leavitt 字 T 分裂
+SoficGroups.SourceGeneration.ninePrefixElementaryGroup_le_sourceGenerated	Sofic 群 · 源生成 · 九前缀初等群 ≤ 源生成
+SoficGroups.SourceGeneration.sourceGeneratedGroup_eq_nine_of_compressions	Sofic 群 · 源生成 · 源生成群 = 九 由 压缩
+SoficGroups.SourceGeneration.prefixElementaryEntry_mul	Sofic 群 · 源生成 · 前缀初等元素 ×
+SoficGroups.SourceGeneration.prefixElementaryUnit_commutator	Sofic 群 · 源生成 · 前缀初等单位 换位子
+SoficGroups.SourceGeneration.prefixElementaryGroup_le_of_hub	Sofic 群 · 源生成 · 前缀初等群 ≤ 由 枢纽
+SoficGroups.SourceGeneration.prefixElementaryUnit_mem_of_two_step	Sofic 群 · 源生成 · 前缀初等单位 ∈ 由 二 步
+SoficGroups.SourceGeneration.prefixTable_mul_wordS	Sofic 群 · 源生成 · 前缀表 × 字 S
+SoficGroups.sourceGeneratedGroup_eq_nine	Sofic 群 · 源生成群 = 九
+SoficGroups.SourceGeneration.wordT_mul_prefixTable	Sofic 群 · 源生成 · 字 T × 前缀表
+SoficGroups.SourceProductThroughAlpha.boundary_sourceCompressedGeneratorSubtypeEquiv	Sofic 群 · 源积经过 Alpha · 边界 源压缩生成元子类型等价
+SoficGroups.SourceProductThroughAlpha.sourceCompressedGeneratingFinset_closure	Sofic 群 · 源积经过 Alpha · 源压缩生成有限集 闭包
+SoficGroups.SourceProductThroughAlpha.sourceCompressedGeneratingFinset_inv_mem	Sofic 群 · 源积经过 Alpha · 源压缩生成有限集 逆 ∈
+SoficGroups.SourceProductThroughAlpha.sourceCompressedGeneratingFinset_one_mem	Sofic 群 · 源积经过 Alpha · 源压缩生成有限集 一 ∈
+SoficGroups.SourceProductThroughAlpha.sourceCompressedLocalProductEmbedding_factors_through_alpha	Sofic 群 · 源积经过 Alpha · 源压缩局部积嵌入 因子 经过 alpha
+SoficGroups.SourceProductThroughAlpha.source_compressed_local_product_ball_crossing_density_tendsto_zero	Sofic 群 · 源积经过 Alpha · 源 压缩 局部 积 球 交叉 密度 趋于 零
+SoficGroups.SourceProductThroughAlpha.source_u_conjugated_product_generator	Sofic 群 · 源积经过 Alpha · 源 u 共轭 积 生成元
+binaryLeavittElementaryGroup_not_sofic	二元 Leavitt 初等群 非 sofic
+exists_finitelyPresented_nonsofic_group	存在 有限表现 非sofic 群
+ninePrefixElementaryGroup_not_sofic	九前缀初等群 非 sofic
+SoficGroups.ThompsonFFiniteQuotient.conjugacy_relation_all	Sofic 群 · Thompson F 有限商 · 共轭 关系 所有
+SoficGroups.ThompsonFFiniteQuotient.finite_group_commute_of_thompsonF_two_relations	Sofic 群 · Thompson F 有限商 · 有限 群 交换 由 thompson F 二 关系
+SoficGroups.ThompsonFFiniteQuotient.conjugacy_relation_of_commute	Sofic 群 · Thompson F 有限商 · 共轭 关系 由 交换
+SoficGroups.ThompsonFFiniteQuotient.conjugacy_relation_shift	Sofic 群 · Thompson F 有限商 · 共轭 关系 平移
+SoficGroups.ThompsonFFiniteQuotient.conjugacy_relation_step	Sofic 群 · Thompson F 有限商 · 共轭 关系 步
+SoficGroups.ThompsonFFiniteQuotient.conjugateTerm_succ	Sofic 群 · Thompson F 有限商 · 共轭项 后继
+SoficGroups.ThompsonFFiniteQuotient.conjugation_shift	Sofic 群 · Thompson F 有限商 · 共轭 平移
+SoficGroups.sourceLocalPrefixTranspositionGroup_notLEF	Sofic 群 · 源局部前缀对换群 非 LEF
+SoficGroups.ThompsonFLocalWitness.commute_prefixInsertion_of_prefixWordAction_fixed	Sofic 群 · Thompson F 局部见证 · 交换 前缀插入 由 前缀字作用 固定
+SoficGroups.ThompsonFLocalWitness.relator_one	Sofic 群 · Thompson F 局部见证 · 关系子 一
+SoficGroups.ThompsonFLocalWitness.relator_two	Sofic 群 · Thompson F 局部见证 · 关系子 二
+SoficGroups.ThompsonFLocalWitness.cylinderSwap_mem_binaryPrefixTranspositionGroup	Sofic 群 · Thompson F 局部见证 · 柱交换 ∈ 二元前缀对换群
+SoficGroups.ThompsonFLocalWitness.rootRotation_mem_binaryPrefixTranspositionGroup	Sofic 群 · Thompson F 局部见证 · 根旋转 ∈ 二元前缀对换群
+SoficGroups.ThompsonFLocalWitness.generatorA_mem_binaryPrefixTranspositionGroup	Sofic 群 · Thompson F 局部见证 · 生成元 A ∈ 二元前缀对换群
+SoficGroups.ThompsonFLocalWitness.generatorB_mem_binaryPrefixTranspositionGroup	Sofic 群 · Thompson F 局部见证 · 生成元 B ∈ 二元前缀对换群
+SoficGroups.ThompsonFLocalWitness.generator_two_eq_prefixInsertion	Sofic 群 · Thompson F 局部见证 · 生成元 二 = 前缀插入
+SoficGroups.ThompsonFLocalWitness.source_generators_not_commute	Sofic 群 · Thompson F 局部见证 · 源 生成元 非 交换
+SoficGroups.ThompsonFLocalWitness.source_relator_one	Sofic 群 · Thompson F 局部见证 · 源 关系子 一
+SoficGroups.ThompsonFLocalWitness.source_relator_two	Sofic 群 · Thompson F 局部见证 · 源 关系子 二
+SoficGroups.ThompsonFLocalWitness.generator_difference_action_one_one	Sofic 群 · Thompson F 局部见证 · 生成元 差 作用 一 一
+SoficGroups.ThompsonFLocalWitness.generator_three_eq_prefixInsertion	Sofic 群 · Thompson F 局部见证 · 生成元 三 = 前缀插入
+SoficGroups.ThompsonFLocalWitness.generators_not_commute	Sofic 群 · Thompson F 局部见证 · 生成元 非 交换
+SoficGroups.ThompsonFLocalWitness.prefixWordAction_inv	Sofic 群 · Thompson F 局部见证 · 前缀字作用 逆
+SoficGroups.ThompsonFLocalWitness.prefixWordAction_prefixInsertion	Sofic 群 · Thompson F 局部见证 · 前缀字作用 前缀插入
+SoficGroups.ThompsonFLocalWitness.rootRotation_action_one	Sofic 群 · Thompson F 局部见证 · 根旋转 作用 一
+SoficGroups.ThompsonFLocalWitness.rootRotation_action_zero_one	Sofic 群 · Thompson F 局部见证 · 根旋转 作用 零 一
+SoficGroups.ThompsonFLocalWitness.rootRotation_action_zero_zero	Sofic 群 · Thompson F 局部见证 · 根旋转 作用 零 零
+SoficGroups.ThompsonFiniteGeneration.cylinderSwap_prefixWordAction_of_cases	Sofic 群 · Thompson 有限生成 · 柱交换 前缀字作用 由 情形
+SoficGroups.ThompsonPrefixInsertion.PrefixWordAction.deletion	Sofic 群 · Thompson 前缀插入 · 前缀字作用 · 删除
+SoficGroups.ThompsonPrefixInsertion.prefixInsertionHom_conjugate_of_prefixWordAction	Sofic 群 · Thompson 前缀插入 · 前缀插入同态 共轭 由 前缀字作用
+SoficGroups.ThompsonPrefixInsertion.prefixWordAction_append	Sofic 群 · Thompson 前缀插入 · 前缀字作用 追加
+SoficGroups.ThompsonPrefixInsertion.prefixWordAction_mul	Sofic 群 · Thompson 前缀插入 · 前缀字作用 ×
+SoficGroups.ThompsonPrefixInsertion.PrefixWordAction.prefixing	Sofic 群 · Thompson 前缀插入 · 前缀字作用 · 加前缀
+SoficGroups.ThompsonPrefixInsertion.alphaZero_inf_sourceLocalPrefixTranspositionGroup_eq_bot	Sofic 群 · Thompson 前缀插入 · alpha 零 下确界 源局部前缀对换群 = ⊥
+SoficGroups.ThompsonPrefixInsertion.sourceCompressedLocalProductHom_injective	Sofic 群 · Thompson 前缀插入 · 源压缩局部积同态 单射
+SoficGroups.ThompsonPrefixInsertion.append_not_prefix_append	Sofic 群 · Thompson 前缀插入 · 追加 非 前缀 追加
+SoficGroups.ThompsonPrefixInsertion.prefixCrossSwap_val	Sofic 群 · Thompson 前缀插入 · 前缀交叉交换 值
+SoficGroups.ThompsonPrefixInsertion.cylinderCornerGroup_eq_source	Sofic 群 · Thompson 前缀插入 · 柱角点群 = 源
+SoficGroups.ThompsonPrefixInsertion.localPrefixTranspositionGroup_le_sourceCylinderCorner	Sofic 群 · Thompson 前缀插入 · 局部前缀对换群 ≤ 源柱角点
+SoficGroups.ThompsonPrefixInsertion.cylinderSwap_mul_wordS_right	Sofic 群 · Thompson 前缀插入 · 柱交换 × 字 S 右
+SoficGroups.ThompsonPrefixInsertion.cylinderSwap_prefixWordAction_right	Sofic 群 · Thompson 前缀插入 · 柱交换 前缀字作用 右
+SoficGroups.ThompsonPrefixInsertion.cylinderSwap_prefixWordAction_fixed	Sofic 群 · Thompson 前缀插入 · 柱交换 前缀字作用 固定
+SoficGroups.ThompsonPrefixInsertion.cylinderSwap_prefixWordAction_left	Sofic 群 · Thompson 前缀插入 · 柱交换 前缀字作用 左
+SoficGroups.ThompsonPrefixInsertion.leavittCylinder_isIdempotent	Sofic 群 · Thompson 前缀插入 · leavitt 柱 是幂等
+SoficGroups.ThompsonPrefixInsertion.localPrefixTranspositionGroup_le_cylinderCorner	Sofic 群 · Thompson 前缀插入 · 局部前缀对换群 ≤ 柱角点
+SoficGroups.ThompsonPrefixInsertion.sourceLocalPrefixTranspositionGroup_le_centralizer_alphaZero	Sofic 群 · Thompson 前缀插入 · 源局部前缀对换群 ≤ 中心化子 alpha 零
+SoficGroups.ThompsonPrefixInsertion.prefixCrossRoot_mem	Sofic 群 · Thompson 前缀插入 · 前缀交叉根 ∈
+SoficGroups.ThompsonPrefixInsertion.prefixCrossSwap_mem	Sofic 群 · Thompson 前缀插入 · 前缀交叉交换 ∈
+SoficGroups.ThompsonPrefixInsertion.samePrefixCylinderSwap_mem	Sofic 群 · Thompson 前缀插入 · 相同前缀柱交换 ∈
+SoficGroups.ThompsonPrefixInsertion.prefixInsertionHom_cylinderSwap	Sofic 群 · Thompson 前缀插入 · 前缀插入同态 柱交换
+SoficGroups.ThompsonPrefixInsertion.prefixInsertionHom_mem_binaryPrefixTranspositionGroup	Sofic 群 · Thompson 前缀插入 · 前缀插入同态 ∈ 二元前缀对换群
+SoficGroups.ThompsonPrefixInsertion.prefixInsertionHom_injective	Sofic 群 · Thompson 前缀插入 · 前缀插入同态 单射
+SoficGroups.ThompsonPrefixInsertion.prepend_not_prefix_prepend	Sofic 群 · Thompson 前缀插入 · 前置 非 前缀 前置
+SoficGroups.ThompsonPrefixInsertion.singletonPrefixCode_codeIdempotent	Sofic 群 · Thompson 前缀插入 · 单点集前缀码 码幂等
+SoficGroups.ThompsonPrefixInsertion.sourceCompressedLocalProductEmbedding_injective	Sofic 群 · Thompson 前缀插入 · 源压缩局部积嵌入 单射
+SoficGroups.ThompsonPrefixInsertion.sourceCompressedLocalProductHom_range_le_nine	Sofic 群 · Thompson 前缀插入 · 源压缩局部积同态 值域 ≤ 九
+SoficGroups.ThompsonPrefixInsertion.sourceLocalPrefixTranspositionGroup_le_alpha	Sofic 群 · Thompson 前缀插入 · 源局部前缀对换群 ≤ alpha
+SoficGroups.ThompsonPrefixInsertion.sourceLocalPrefixTranspositionGroup_le_alpha_sourceWord	Sofic 群 · Thompson 前缀插入 · 源局部前缀对换群 ≤ alpha 源字
+SoficGroups.ThompsonPrefixInsertion.transpositionValue_braid	Sofic 群 · Thompson 前缀插入 · 对换值 辫
+SoficGroups.ThompsonPrefixInsertion.transpositionValue_mul_self	Sofic 群 · Thompson 前缀插入 · 对换值 × 自身
+SoficGroups.ThompsonPrefixLocal.alphaZeroCode_mul_localCylinder	Sofic 群 · Thompson 前缀局部 · alpha 零码 × 局部柱
+SoficGroups.ThompsonPrefixLocal.alphaZero_inf_localCylinderCorner_eq_bot	Sofic 群 · Thompson 前缀局部 · alpha 零 下确界 局部柱角点 = ⊥
+SoficGroups.ThompsonPrefixLocal.localCylinderCorner_le_centralizer_alphaZero	Sofic 群 · Thompson 前缀局部 · 局部柱角点 ≤ 中心化子 alpha 零
+SoficGroups.ThompsonPrefixLocal.localCylinder_mul_alphaZeroCode	Sofic 群 · Thompson 前缀局部 · 局部柱 × alpha 零码
+SoficGroups.ThompsonPrefixLocal.idempotentCornerGroup_inf_eq_bot	Sofic 群 · Thompson 前缀局部 · 幂等角点群 下确界 = ⊥
+SoficGroups.ThompsonPrefixLocal.idempotentCornerGroup_le_centralizer	Sofic 群 · Thompson 前缀局部 · 幂等角点群 ≤ 中心化子
+SoficGroups.ThompsonPrefixLocal.idempotentCornerUnitExtensions_commute	Sofic 群 · Thompson 前缀局部 · 幂等角点单位扩张 交换
+SoficGroups.ThompsonPrefixLocal.idempotentCornerUnitExtensions_eq_one	Sofic 群 · Thompson 前缀局部 · 幂等角点单位扩张 = 一
+SoficGroups.ThompsonPrefixLocal.leavittCylinder_isIdempotent	Sofic 群 · Thompson 前缀局部 · leavitt 柱 是幂等
+SoficGroups.ThompsonPrefixLocal.leavittCylinder_mul_eq_zero_of_incomparable	Sofic 群 · Thompson 前缀局部 · leavitt 柱 × = 零 由 不可比
+SoficGroups.ThompsonPrefixLocal.prefixElementaryGroup_le_corner	Sofic 群 · Thompson 前缀局部 · 前缀初等群 ≤ 角点
+SoficGroups.abs_log_one_sub_div_tendsto_zero	Sofic 群 · 绝对值 对数 一 − ÷ 趋于 零
+SoficGroups.abs_log_one_sub_le_two_mul	Sofic 群 · 绝对值 对数 一 − ≤ 二 ×
+SoficGroups.actual_weighted_midrank_dominant_mass_le	Sofic 群 · 实际 加权 中间秩 主导 质量 ≤
+SoficGroups.agreementSet_card_add_hammingDist	Sofic 群 · 一致集合 基数 + hamming 距离
+SoficGroups.hamming_dichotomy_of_expansion	Sofic 群 · hamming 二分 由 展开
+SoficGroups.alphaZero_prefixElementaryGroup_le	Sofic 群 · alpha 零 前缀初等群 ≤
+SoficGroups.ninePrefixCode_complete	Sofic 群 · 九前缀码 完备
+SoficGroups.uPrefixCode_complete	Sofic 群 · u 前缀码 完备
+SoficGroups.exists_soficApproximation_size_tendsto	Sofic 群 · 存在 sofic 逼近 大小 趋于
+SoficGroups.amplifyModel_separation_distance	Sofic 群 · 放大模型 分离 距离
+SoficGroups.bad_cut_card_bound	Sofic 群 · 坏 割 基数 界
+SoficGroups.exists_pruned_expander	Sofic 群 · 存在 已剪枝 扩张图
+SoficGroups.binaryLeavittCharP	Sofic 群 · 二元 Leavitt 特征 P
+SoficGroups.binaryLeavittCountable	Sofic 群 · 二元 Leavitt 可数
+SoficGroups.binaryLeavittMatrixUnitSubgroup_countable	Sofic 群 · 二元 Leavitt 矩阵单位子群 可数
+SoficGroups.binaryLeavittEL3_finitelyGenerated	Sofic 群 · 二元 Leavitt EL 3 有限生成
+SoficGroups.binaryLeavittEL3_infinite	Sofic 群 · 二元 Leavitt EL 3 无限
+SoficGroups.binaryLeavittElementaryGroupCountable	Sofic 群 · 二元 Leavitt 初等群可数
+SoficGroups.ninePrefixElementaryGroup_countable	Sofic 群 · 九前缀初等群 可数
+SoficGroups.binaryLeavittElementaryNine_hasPropertyT_unconditional	Sofic 群 · 二元 Leavitt 初等九 有性质 T 无条件
+SoficGroups.ninePrefixElementaryGroup_hasPropertyT_unconditional	Sofic 群 · 九前缀初等群 有性质 T 无条件
+SoficGroups.binaryLeavittFiniteType	Sofic 群 · 二元 Leavitt 有限类型
+SoficGroups.binaryLeavittInfinite	Sofic 群 · 二元 Leavitt 无限
+SoficGroups.binaryLeavittNontrivial	Sofic 群 · 二元 Leavitt 非平凡
+SoficGroups.prefixElementaryGroup_map_conj	Sofic 群 · 前缀初等群 映射 共轭
+SoficGroups.prefixTable_mul_reverse	Sofic 群 · 前缀表 × 反转
+SoficGroups.prefixTable_transport_root	Sofic 群 · 前缀表 输运 根
+SoficGroups.boundary_agreementSet_le_commutationDefect	Sofic 群 · 边界 一致集合 ≤ 对易亏量
+SoficGroups.boundary_le_induced_add_deleted	Sofic 群 · 边界 ≤ 诱导 + 已删除
+SoficGroups.prune_permutation_multigraph	Sofic 群 · 剪枝 置换 多重图
+SoficGroups.boundary_permutationGraph_eq_commutationDefect	Sofic 群 · 边界 置换图 = 对易亏量
+SoficGroups.boundary_union_le	Sofic 群 · 边界 并 ≤
+SoficGroups.maximal_bad_cut_induced_lower	Sofic 群 · 极大 坏 割 诱导 下
+SoficGroups.completePrefixElementaryGroup_map	Sofic 群 · 完备前缀初等群 映射
+SoficGroups.componentRankMassList_le_max	Sofic 群 · 分量秩质量列表 ≤ 最大
+SoficGroups.componentRankMassList_nonneg	Sofic 群 · 分量秩质量列表 非负
+SoficGroups.componentRankMassList_sum	Sofic 群 · 分量秩质量列表 和
+SoficGroups.componentRankMass_nonneg	Sofic 群 · 分量秩质量 非负
+SoficGroups.componentVertexMidrank_eq_sum_componentRankMass	Sofic 群 · 分量顶点中间秩 = 和 分量秩质量
+SoficGroups.componentVertexMidrank_le_one	Sofic 群 · 分量顶点中间秩 ≤ 一
+SoficGroups.componentVertexMidrank_mono	Sofic 群 · 分量顶点中间秩 单调
+SoficGroups.componentVertexMidrank_nonneg	Sofic 群 · 分量顶点中间秩 非负
+SoficGroups.component_lower_equal_disjoint	Sofic 群 · 分量 下 相等 不相交
+SoficGroups.component_omitted_rank_card_eq	Sofic 群 · 分量 省略 秩 基数 =
+SoficGroups.compressionU_conjugate_alpha_elementaryUnit	Sofic 群 · 压缩 U 共轭 alpha 初等单位
+SoficGroups.compressionU_map_alphaPrefixElementaryGroup	Sofic 群 · 压缩 U 映射 alpha 前缀初等群
+SoficGroups.compressionU_conjugate_alpha_root	Sofic 群 · 压缩 U 共轭 alpha 根
+SoficGroups.compressionU_conjugate_root	Sofic 群 · 压缩 U 共轭 根
+SoficGroups.compressionV_conjugate_alpha_elementaryUnit	Sofic 群 · 压缩 V 共轭 alpha 初等单位
+SoficGroups.compressionV_map_alphaPrefixElementaryGroup	Sofic 群 · 压缩 V 映射 alpha 前缀初等群
+SoficGroups.compressionV_conjugate_alpha_root	Sofic 群 · 压缩 V 共轭 alpha 根
+SoficGroups.compressionV_conjugate_root	Sofic 群 · 压缩 V 共轭 根
+SoficGroups.cubeSum_le_dominant_mul_sum	Sofic 群 · 立方和 ≤ 主导 × 和
+SoficGroups.cube_sum_le_dominant_mass	Sofic 群 · 立方 和 ≤ 主导 质量
+SoficGroups.midrankVariance_controls_dominant_mass	Sofic 群 · 中间秩方差 控制 主导 质量
+SoficGroups.cyclicFiniteBlockRootSubgroup_eq_elementaryGroup	Sofic 群 · 循环有限块根子群 = 初等群
+SoficGroups.cyclicFiniteBlockRootSubgroup_le_elementaryGroup	Sofic 群 · 循环有限块根子群 ≤ 初等群
+SoficGroups.cylinder_transposition_factorization	Sofic 群 · 柱 对换 分解
+SoficGroups.deletion_mul_prefix	Sofic 群 · 删除 × 前缀
+SoficGroups.leavittFreeRepresentation_respects	Sofic 群 · leavitt 自由表示 保持
+SoficGroups.diagonalRadius_error_tendsto_zero	Sofic 群 · 对角半径 误差 趋于 零
+SoficGroups.exists_diverging_radius_with_vanishing_diagonal_error	Sofic 群 · 存在 发散 半径 带 消失 对角 误差
+SoficGroups.diagonalRadius_eventually_error_lt	Sofic 群 · 对角半径 最终 误差 <
+SoficGroups.diagonalRadius_tendsto_atTop	Sofic 群 · 对角半径 趋于 在⊤
+SoficGroups.disjoint_dominant_intersections_false	Sofic 群 · 不相交 主导 交 假
+SoficGroups.finpartition_dominant_matching_injOn	Sofic 群 · 有限划分 主导 匹配 单射在…上
+SoficGroups.ejResidualProjection_apply	Sofic 群 · ej 剩余投影 作用于
+SoficGroups.ejThreeProjectionAverage_dist_sq	Sofic 群 · ej 三投影平均 距离 平方
+SoficGroups.ejThreeProjectionAverage_fixed_mem	Sofic 群 · ej 三投影平均 固定 ∈
+SoficGroups.ejThreeResidualMap_norm_sq_le	Sofic 群 · ej 三剩余映射 范数 平方 ≤
+SoficGroups.ejTwoResidual_spectral_gap_of_angle	Sofic 群 · ej 二剩余 谱 间隙 由 角
+SoficGroups.ejResidualProjection_average_norm_sq	Sofic 群 · ej 剩余投影 平均 范数 平方
+SoficGroups.ejThreeResidualEnergy_average	Sofic 群 · ej 三剩余能量 平均
+SoficGroups.ejResidualProjection_cross_inner	Sofic 群 · ej 剩余投影 交叉 内积
+SoficGroups.ejThreeResidual_cross_re_inner	Sofic 群 · ej 三剩余 交叉 实部 内积
+SoficGroups.ejResidualProjection_idempotent	Sofic 群 · ej 剩余投影 幂等
+SoficGroups.ejResidualProjection_re_inner	Sofic 群 · ej 剩余投影 实部 内积
+SoficGroups.ejResidualProjection_inner	Sofic 群 · ej 剩余投影 内积
+SoficGroups.ejResidualProjection_norm_le	Sofic 群 · ej 剩余投影 范数 ≤
+SoficGroups.ejThreeResidualEnergy_le_three_norm_sq	Sofic 群 · ej 三剩余能量 ≤ 三 范数 平方
+SoficGroups.ejThreeResidualEnergy_eq_re_inner	Sofic 群 · ej 三剩余能量 = 实部 内积
+SoficGroups.ejTwoResidual_sum_re_inner	Sofic 群 · ej 二剩余 和 实部 内积
+SoficGroups.ejStarProjection_mem_inf_orthogonal	Sofic 群 · ej 星投影 ∈ 下确界 正交
+SoficGroups.ejTwoProjection_norm_sq_sum_le_of_angle	Sofic 群 · ej 二投影 范数 平方 和 ≤ 由 角
+SoficGroups.ejStarProjection_re_inner	Sofic 群 · ej 星投影 实部 内积
+SoficGroups.ejThreeProjectionAverage_apply	Sofic 群 · ej 三投影平均 作用于
+SoficGroups.ejThreeProjectionAverage_fixed_iff_residualMap_eq_zero	Sofic 群 · ej 三投影平均 固定 ⇔ 剩余映射 = 零
+SoficGroups.ejThreeProjectionAverage_dist_sq_le	Sofic 群 · ej 三投影平均 距离 平方 ≤
+SoficGroups.ejThreeProjectionAverage_iterate_dist_le_geometric	Sofic 群 · ej 三投影平均 迭代 距离 ≤ 几何
+SoficGroups.ejThreeProjectionAverage_iterate_dist_le_of_pair_angles	Sofic 群 · ej 三投影平均 迭代 距离 ≤ 由 对 角
+SoficGroups.ejThreeResidualEnergy_average_le	Sofic 群 · ej 三剩余能量 平均 ≤
+SoficGroups.ejThreeResidualEnergy_iterate_le	Sofic 群 · ej 三剩余能量 迭代 ≤
+SoficGroups.ejThreeResidualEnergy_eq_zero_iff	Sofic 群 · ej 三剩余能量 = 零 ⇔
+SoficGroups.ejThreeResidualEnergy_nonneg	Sofic 群 · ej 三剩余能量 非负
+SoficGroups.ejThreeResidualEnergy_sqrt_div_three_le	Sofic 群 · ej 三剩余能量 平方根 ÷ 三 ≤
+SoficGroups.ejThreeResidualMap_apply	Sofic 群 · ej 三剩余映射 作用于
+SoficGroups.ejThreeResidualMap_spectral_gap	Sofic 群 · ej 三剩余映射 谱 间隙
+SoficGroups.ejThreeResidual_spectral_gap_of_pair_angles	Sofic 群 · ej 三剩余 谱 间隙 由 对 角
+SoficGroups.ejTwoResidualEnergy_ge_of_angle	Sofic 群 · ej 二剩余能量 ≥ 由 角
+SoficGroups.ejUnitaryFixedSubmodule_completeSpace	Sofic 群 · ej 酉固定子模 完备空间
+SoficGroups.ejUnitaryFixedSubmodule_inf_completeSpace	Sofic 群 · ej 酉固定子模 下确界 完备空间
+SoficGroups.ejUnitaryFixedSubmodule_inf_isClosed	Sofic 群 · ej 酉固定子模 下确界 是闭
+SoficGroups.ejUnitaryFixedSubmodule_isClosed	Sofic 群 · ej 酉固定子模 是闭
+SoficGroups.elementaryGroup_finitelyGenerated	Sofic 群 · 初等群 有限生成
+SoficGroups.elementaryGroup_three_finitelyGenerated	Sofic 群 · 初等群 三 有限生成
+SoficGroups.elementaryGroup_infinite	Sofic 群 · 初等群 无限
+SoficGroups.elementaryGroup_map_eq_of_surjective	Sofic 群 · 初等群 映射 = 由 满射
+SoficGroups.elementaryGroup_map_le	Sofic 群 · 初等群 映射 ≤
+SoficGroups.elementaryMatrixUnitMap_elementaryUnit	Sofic 群 · 初等矩阵单位映射 初等单位
+SoficGroups.elementaryUnit_commutator	Sofic 群 · 初等单位 换位子
+SoficGroups.elementaryUnit_mem_of_two_step	Sofic 群 · 初等单位 ∈ 由 二 步
+SoficGroups.finiteOuterElementaryRoot_commutator	Sofic 群 · 有限外初等根 换位子
+SoficGroups.elementaryUnit_injective	Sofic 群 · 初等单位 单射
+SoficGroups.elementaryUnit_mem	Sofic 群 · 初等单位 ∈
+SoficGroups.finiteBlockRootHom_single	Sofic 群 · 有限块根同态 单个
+SoficGroups.finiteOuterBlockGaloisConjugatorWithCoefficient_mem	Sofic 群 · 有限外块伽罗瓦共轭元带系数 ∈
+SoficGroups.finiteOuterBlockRootSubgroup_map_flatten	Sofic 群 · 有限外块根子群 映射 展平
+SoficGroups.finiteOuterElementaryRoot_commute_of_nonadjacent	Sofic 群 · 有限外初等根 交换 由 不相邻
+SoficGroups.finiteOuterElementaryRoot_commute_same	Sofic 群 · 有限外初等根 交换 相同
+SoficGroups.finite_finiteOuterBlockRootSubgroup	Sofic 群 · 有限 有限外块根子群
+SoficGroups.elementaryUnit_mem_cyclicFiniteBlockRootSubgroup	Sofic 群 · 初等单位 ∈ 循环有限块根子群
+SoficGroups.elementaryUnit_mem_cyclicFiniteBlockRootSubgroup_of_block_ne	Sofic 群 · 初等单位 ∈ 循环有限块根子群 由 块 ≠
+SoficGroups.elementaryUnit_mem_finiteBlockRootSubgroup	Sofic 群 · 初等单位 ∈ 有限块根子群
+SoficGroups.elementaryUnit_mul	Sofic 群 · 初等单位 ×
+SoficGroups.elementaryUnit_zero	Sofic 群 · 初等单位 零
+SoficGroups.exists_common_log_rank_offset	Sofic 群 · 存在 公共 对数 秩 偏移
+SoficGroups.exists_common_offset_below_average	Sofic 群 · 存在 公共 偏移 下方 平均
+SoficGroups.exists_common_rank_offset	Sofic 群 · 存在 公共 秩 偏移
+SoficGroups.exists_common_rank_offset_bound_sharp	Sofic 群 · 存在 公共 秩 偏移 界 精确
+SoficGroups.exists_common_rank_offset_one_sided_sharp	Sofic 群 · 存在 公共 秩 偏移 一 侧 精确
+SoficGroups.exists_completion_of_internal_permutation	Sofic 群 · 存在 完备化 由 内部 置换
+SoficGroups.exists_matched_slow_diagonal_word_errors	Sofic 群 · 存在 已匹配 慢 对角 字 误差
+SoficGroups.exists_permutation_embedding_of_expanding_centralizer	Sofic 群 · 存在 置换 嵌入 由 扩张 中心化子
+SoficGroups.exists_nonsofic_finite_table	Sofic 群 · 存在 非sofic 有限 表
+SoficGroups.exists_finitelyPresented_not_sofic_of_not_sofic	Sofic 群 · 存在 有限表现 非 sofic 由 非 sofic
+SoficGroups.exists_maximal_bad_cut	Sofic 群 · 存在 极大 坏 割
+SoficGroups.exists_maximal_componentRankMass	Sofic 群 · 存在 极大 分量秩质量
+SoficGroups.exists_maximum_overlap_component	Sofic 群 · 存在 最大值 重叠 分量
+SoficGroups.insufficientOverlapComponents_subset	Sofic 群 · 不足重叠分量 子集
+SoficGroups.maximumOverlapPart_maximal	Sofic 群 · 最大值重叠部分 极大
+SoficGroups.maximumOverlapPart_mem	Sofic 群 · 最大值重叠部分 ∈
+SoficGroups.maximumOverlapPart_overlap_of_not_mem_insufficient	Sofic 群 · 最大值重叠部分 重叠 由 非 ∈ 不足
+SoficGroups.lef_of_expanding_centralizer_models	Sofic 群 · lef 由 扩张 中心化子 模型
+SoficGroups.exists_positive_antitone_slow_overlap_scales	Sofic 群 · 存在 正 反单调 慢 重叠 尺度
+SoficGroups.exists_positive_antitone_slow_vanishing_threshold	Sofic 群 · 存在 正 反单调 慢 消失 阈值
+SoficGroups.finiteBlockCoefficientMatrixHom_galoisLeftProduct	Sofic 群 · 有限块系数矩阵同态 伽罗瓦左积
+SoficGroups.finiteBlockCoefficientMatrixHom_galoisRightInverse	Sofic 群 · 有限块系数矩阵同态 伽罗瓦右逆
+SoficGroups.finiteOuterBlockProductCentralRoot_le_galoisConjugates	Sofic 群 · 有限外块积中心根 ≤ 伽罗瓦共轭
+SoficGroups.finiteBlockCoefficientMatrix_binary_mul_mem	Sofic 群 · 有限块系数矩阵 二元 × ∈
+SoficGroups.finiteBlockCoefficientMatrix_galois_mul_mem	Sofic 群 · 有限块系数矩阵 伽罗瓦 × ∈
+SoficGroups.finiteBlockCoefficientMatrix_mul_binary_mem	Sofic 群 · 有限块系数矩阵 × 二元 ∈
+SoficGroups.finiteBlockCoefficientMatrix_mul_galois_mem	Sofic 群 · 有限块系数矩阵 × 伽罗瓦 ∈
+SoficGroups.finiteBlockCoefficientSpan_finite	Sofic 群 · 有限块系数张成 有限
+SoficGroups.finiteBlockGaloisField_natCard	Sofic 群 · 有限块伽罗瓦域 自然数基数
+SoficGroups.finiteOuterBlockProductCentral_centerComplement_inner_sq_le	Sofic 群 · 有限外块积中心 中心补 内积 平方 ≤
+SoficGroups.finiteBlockGalois_right_inverse_difference	Sofic 群 · 有限块伽罗瓦 右 逆 差
+SoficGroups.finiteBlockIndex_ne_of_ne	Sofic 群 · 有限块指标 ≠ 由 ≠
+SoficGroups.finiteBlockRootSubgroup_le_elementaryGroup	Sofic 群 · 有限块根子群 ≤ 初等群
+SoficGroups.finiteOuterBlockCyclicRootFamily_pair_inner_sq_le	Sofic 群 · 有限外块循环根族 对 内积 平方 ≤
+SoficGroups.finiteOuterBlockGaloisConjugateRootsWithCoefficient_commute	Sofic 群 · 有限外块伽罗瓦共轭根带系数 交换
+SoficGroups.finiteOuterBlockProductCentralRoot_commute_left	Sofic 群 · 有限外块积中心根 交换 左
+SoficGroups.finiteOuterBlockProductCentralRoot_pair_le_centralizer	Sofic 群 · 有限外块积中心根 对 ≤ 中心化子
+SoficGroups.finiteOuterBlockProductCentralRoot_commute_right	Sofic 群 · 有限外块积中心根 交换 右
+SoficGroups.finiteOuterBlockRootSubgroups_pair_inner_sq_le	Sofic 群 · 有限外块根子群 对 内积 平方 ≤
+SoficGroups.finiteOuterBlockProductCentralRoots_commute	Sofic 群 · 有限外块积中心根 交换
+SoficGroups.finiteOuterBlockRoot_commutator_exists_productCentral	Sofic 群 · 有限外块根 换位子 存在 积中心
+SoficGroups.finiteOuterBlockRoot_commutator_mem_productCentral	Sofic 群 · 有限外块根 换位子 ∈ 积中心
+SoficGroups.finiteOuterElementaryRootConjugates_commute	Sofic 群 · 有限外初等根共轭 交换
+SoficGroups.finiteOuterElementaryRoot_conjugate_by_successor	Sofic 群 · 有限外初等根 共轭 按 后继
+SoficGroups.finiteOuterElementaryUnit_commute_of_nonadjacent	Sofic 群 · 有限外初等单位 交换 由 不相邻
+SoficGroups.finiteUnitarySubgroupAverage_fixed	Sofic 群 · 有限酉子群平均 固定
+SoficGroups.inner_eq_zero_of_finite_subgroupAverage_pair_orthogonal	Sofic 群 · 内积 = 零 由 有限 子群平均 对 正交
+SoficGroups.finiteUnitarySubgroupAverage_fixed_of_orbit_fixed	Sofic 群 · 有限酉子群平均 固定 由 轨道 固定
+SoficGroups.finite_union_bad_density_tendsto_zero	Sofic 群 · 有限 并 坏 密度 趋于 零
+SoficGroups.hammingDist_prodCongr_refl_left	Sofic 群 · hamming 距离 积合同 自反 左
+SoficGroups.normalizedHamming_prodCongr_refl_left	Sofic 群 · 归一化 Hamming 积合同 自反 左
+SoficGroups.heisenbergFiniteFamily_centerComplement_inner_sq_le	Sofic 群 · heisenberg 有限族 中心补 内积 平方 ≤
+SoficGroups.idempotentCornerUnitExtension_injective	Sofic 群 · 幂等角点单位扩张 单射
+SoficGroups.inner_finiteUnitarySubgroupAverage_of_fixed_left	Sofic 群 · 内积 有限酉子群平均 由 固定 左
+SoficGroups.inner_sq_le_of_finite_orthogonal_sector_splitting	Sofic 群 · 内积 平方 ≤ 由 有限 正交 扇形 分裂
+SoficGroups.inner_sq_le_of_orthogonal_two_sector	Sofic 群 · 内积 平方 ≤ 由 正交 二 扇形
+SoficGroups.insufficientOverlapComponents_mass_le_loss	Sofic 群 · 不足重叠分量 质量 ≤ 损失
+SoficGroups.integrableOn_rankDropCount	Sofic 群 · 可积在…上 秩丢弃计数
+SoficGroups.integrable_rankDropIndicator	Sofic 群 · 可积 秩丢弃示性函数
+SoficGroups.rankDropCount_integral_eq	Sofic 群 · 秩丢弃计数 积分 =
+SoficGroups.large_cut_lower	Sofic 群 · 大 割 下
+SoficGroups.leavittCylinder_split	Sofic 群 · leavitt 柱 分裂
+SoficGroups.leavittFreeCountable	Sofic 群 · leavitt 自由可数
+SoficGroups.leavittRepresentation_S	Sofic 群 · leavitt 表示 S
+SoficGroups.leavittRepresentation_T	Sofic 群 · leavitt 表示 T
+SoficGroups.leavittS_mul_T_ne_one	Sofic 群 · leavitt S × T ≠ 一
+SoficGroups.leavittT_mul_S	Sofic 群 · leavitt T × S
+SoficGroups.leavittWordT_mul_wordS_of_incomparable	Sofic 群 · leavitt 字 T × 字 S 由 不可比
+SoficGroups.leavittWordT_mul_wordS_self	Sofic 群 · leavitt 字 T × 字 S 自身
+SoficGroups.leavittWordS_append	Sofic 群 · leavitt 字 S 追加
+SoficGroups.leavittWordT_append	Sofic 群 · leavitt 字 T 追加
+SoficGroups.leavitt_partition	Sofic 群 · leavitt 划分
+SoficGroups.log_one_sided_of_multiplicative	Sofic 群 · 对数 一 侧 由 乘性
+SoficGroups.matchedCore_card	Sofic 群 · 已匹配核心 基数
+SoficGroups.matchedCore_missing_card	Sofic 群 · 已匹配核心 缺失 基数
+SoficGroups.matchedCore_missing_card_le_symmDiff	Sofic 群 · 已匹配核心 缺失 基数 ≤ 对称差
+SoficGroups.matchedCore_missing_density_tendsto_zero	Sofic 群 · 已匹配核心 缺失 密度 趋于 零
+SoficGroups.matchedCore_subset	Sofic 群 · 已匹配核心 子集
+SoficGroups.matchedCore_subset_retainedSupport	Sofic 群 · 已匹配核心 子集 保留支撑
+SoficGroups.matchedRadiusBad_card_le	Sofic 群 · 已匹配半径坏 基数 ≤
+SoficGroups.matchedRetainedSupport_card	Sofic 群 · 已匹配保留支撑 基数
+SoficGroups.matchedRetainedSupport_cover_density_tendsto_one	Sofic 群 · 已匹配保留支撑 覆盖 密度 趋于 一
+SoficGroups.matchedRetained_bad_density_tendsto_zero	Sofic 群 · 已匹配保留 坏 密度 趋于 零
+SoficGroups.matchedRetainedSupport_nonempty	Sofic 群 · 已匹配保留支撑 非空
+SoficGroups.matchedRetainedSupport_subset	Sofic 群 · 已匹配保留支撑 子集
+SoficGroups.matchedWordPreimageBad_card_le	Sofic 群 · 已匹配字原像坏 基数 ≤
+SoficGroups.partitionWordCrossing_card_le_target_add_unmatched	Sofic 群 · 划分字交叉 基数 ≤ 目标 + 未匹配
+SoficGroups.matched_eventually_exists_good_vertex	Sofic 群 · 已匹配 最终 存在 好 顶点
+SoficGroups.matched_exists_le_weighted_average	Sofic 群 · 已匹配 存在 ≤ 加权 平均
+SoficGroups.matched_partition_part_eq_of_target_part_eq	Sofic 群 · 已匹配 划分 部分 = 由 目标 部分 =
+SoficGroups.partitionWordCrossing_subset_target_or_unmatched	Sofic 群 · 划分字交叉 子集 目标 或 未匹配
+SoficGroups.matched_sum_card_inter_partition	Sofic 群 · 已匹配 和 基数 交 划分
+SoficGroups.matrixUnitTransport_root	Sofic 群 · 矩阵单位输运 根
+SoficGroups.partitionComponentSize_transport_lower_of_retained	Sofic 群 · 划分分量大小 输运 下 由 保留
+SoficGroups.measurableSet_shifted_floor_drop	Sofic 群 · 可测集合 平移 下取整 丢弃
+SoficGroups.measurable_rankDropCount	Sofic 群 · 可测 秩丢弃计数
+SoficGroups.rankDrop_measureReal_bound_sharp	Sofic 群 · 秩丢弃 测度实 界 精确
+SoficGroups.mem_ejUnitaryFixedSubmodule	Sofic 群 · ∈ ej 酉固定子模
+SoficGroups.mem_finiteBlockCoefficientSpan_of_mem	Sofic 群 · ∈ 有限块系数张成 由 ∈
+SoficGroups.mem_finiteElementaryGenerators	Sofic 群 · ∈ 有限初等生成元
+SoficGroups.mem_multiplicationTable_of_mem	Sofic 群 · ∈ 乘法表 由 ∈
+SoficGroups.tableEvaluation_generator	Sofic 群 · 表求值 生成元
+SoficGroups.tableGenerator_mem_tableTestSet	Sofic 群 · 表生成元 ∈ 表检验集合
+SoficGroups.tableGenerator_mul	Sofic 群 · 表生成元 ×
+SoficGroups.tableGenerator_one	Sofic 群 · 表生成元 一
+SoficGroups.tableGroup_finitelyPresented	Sofic 群 · 表群 有限表现
+SoficGroups.mem_permutationGraph	Sofic 群 · ∈ 置换图
+SoficGroups.mem_unitaryFixedSubmodule	Sofic 群 · ∈ 酉固定子模
+SoficGroups.unitaryFixedSubmodule_isClosed	Sofic 群 · 酉固定子模 是闭
+SoficGroups.unitaryFixedSubmodule_map_of_centralizes	Sofic 群 · 酉固定子模 映射 由 中心化
+SoficGroups.unitaryFixedSubmodule_sup	Sofic 群 · 酉固定子模 上确界
+SoficGroups.midrankFirstMoment_eq	Sofic 群 · 中间秩第一矩 =
+SoficGroups.midrankVariance_eq	Sofic 群 · 中间秩方差 =
+SoficGroups.midrankSecondMoment_eq	Sofic 群 · 中间秩第二矩 =
+SoficGroups.weighted_midrank_dominant_mass_le	Sofic 群 · 加权 中间秩 主导 质量 ≤
+SoficGroups.mul_mem_multiplicationTable	Sofic 群 · × ∈ 乘法表
+SoficGroups.norm_add_three_sq_le_three_mul	Sofic 群 · 范数 + 三 平方 ≤ 三 ×
+SoficGroups.norm_finset_sum_sq_eq_of_pairwise_inner_zero	Sofic 群 · 范数 有限集 和 平方 = 由 两两 内积 零
+SoficGroups.unitaryImages_inner_sq_mul_card_le	Sofic 群 · 酉像 内积 平方 × 基数 ≤
+SoficGroups.norm_sub_one_third_smul_sq	Sofic 群 · 范数 − 一 第三 数乘 平方
+SoficGroups.normalizedHamming_comm	Sofic 群 · 归一化 Hamming 交换律
+SoficGroups.normalizedHamming_le_one	Sofic 群 · 归一化 Hamming ≤ 一
+SoficGroups.normalizedHamming_mul_left	Sofic 群 · 归一化 Hamming × 左
+SoficGroups.normalizedHamming_mul_right	Sofic 群 · 归一化 Hamming × 右
+SoficGroups.normalizedHamming_nonneg	Sofic 群 · 归一化 Hamming 非负
+SoficGroups.normalizedHamming_permCongr	Sofic 群 · 归一化 Hamming 置换合同
+SoficGroups.normalizedHamming_self	Sofic 群 · 归一化 Hamming 自身
+SoficGroups.normalizedHamming_triangle	Sofic 群 · 归一化 Hamming 三角形
+SoficGroups.one_mem_finiteBlockCoefficientSpan	Sofic 群 · 一 ∈ 有限块系数张成
+SoficGroups.partitionComponentSize_eq_card_of_mem	Sofic 群 · 划分分量大小 = 基数 由 ∈
+SoficGroups.partitionComponentSize_transport_lower_of_overlap	Sofic 群 · 划分分量大小 输运 下 由 重叠
+SoficGroups.partitionWordCrossing_indexed_sum_card_le_target_add_unmatched	Sofic 群 · 划分字交叉 带指标 和 基数 ≤ 目标 + 未匹配
+SoficGroups.permutationCommutationDefect_inv	Sofic 群 · 置换对易亏量 逆
+SoficGroups.permutationCommutationDefect_mul_le	Sofic 群 · 置换对易亏量 × ≤
+SoficGroups.permutationCommutationDefect_one	Sofic 群 · 置换对易亏量 一
+SoficGroups.permutationDistance_comm	Sofic 群 · 置换距离 交换律
+SoficGroups.permutationDistance_inv	Sofic 群 · 置换距离 逆
+SoficGroups.permutationDistance_mul_le	Sofic 群 · 置换距离 × ≤
+SoficGroups.permutationDistance_mul_left	Sofic 群 · 置换距离 × 左
+SoficGroups.permutationDistance_mul_right	Sofic 群 · 置换距离 × 右
+SoficGroups.permutationDistance_self	Sofic 群 · 置换距离 自身
+SoficGroups.permutationDistance_triangle	Sofic 群 · 置换距离 三角形
+SoficGroups.permutation_increment_sum_eq_zero	Sofic 群 · 置换 增量 和 = 零
+SoficGroups.permutation_squared_increment_le_twice_decreasing	Sofic 群 · 置换 平方 增量 ≤ 两倍 递减
+SoficGroups.prefixCornerElementaryGroup_map	Sofic 群 · 前缀角点初等群 映射
+SoficGroups.prefix_deletion_ne_one	Sofic 群 · 前缀 删除 ≠ 一
+SoficGroups.prefix_deletion_partition	Sofic 群 · 前缀 删除 划分
+SoficGroups.rankDropCount_average_eq	Sofic 群 · 秩丢弃计数 平均 =
+SoficGroups.rankDropCount_clamp_eq	Sofic 群 · 秩丢弃计数 钳位 =
+SoficGroups.rankDropCount_nonneg_and_le	Sofic 群 · 秩丢弃计数 非负 且 ≤
+SoficGroups.retained_bad_density_tendsto_zero	Sofic 群 · 保留 坏 密度 趋于 零
+SoficGroups.shifted_floor_drop_subset_two_intervals	Sofic 群 · 平移 下取整 丢弃 子集 二 区间
+SoficGroups.shifted_floor_drop_volume_bound_sharp	Sofic 群 · 平移 下取整 丢弃 体积 界 精确
+SoficGroups.single_mul_self_eq_zero	Sofic 群 · 单个 × 自身 = 零
+SoficGroups.sum_card_component_inter_partition	Sofic 群 · 和 基数 分量 交 划分
+SoficGroups.sum_card_inter_partition	Sofic 群 · 和 基数 交 划分
+SoficGroups.sum_componentRankMass	Sofic 群 · 和 分量秩质量
+SoficGroups.sum_map_sort_eq	Sofic 群 · 和 映射 排序 =
+SoficGroups.tableGenerator_ne_one	Sofic 群 · 表生成元 ≠ 一
+SoficGroups.target_majority_of_small_symmDiff	Sofic 群 · 目标 多数 由 小 对称差
+SoficGroups.three_pair_sum_norm_sq	Sofic 群 · 三 对 和 范数 平方
+SoficGroups.three_pairwise_residual_spectral_gap	Sofic 群 · 三 两两 剩余 谱 间隙
+SoficGroups.transportedFinpartition_parts	Sofic 群 · 输运有限划分 部分
+SoficGroups.transportedUnivFinpartition_parts	Sofic 群 · 输运全集有限划分 部分
+SoficGroups.vPrefixCode_complete	Sofic 群 · v 前缀码 完备
+SoficGroups.unitaryFixedSubmodule_completeSpace	Sofic 群 · 酉固定子模 完备空间
+SoficGroups.unitaryFixedSubmodule_starProjection_commute	Sofic 群 · 酉固定子模 星投影 交换
+SoficGroups.unitaryFixedSubmodule_orthogonal_map_of_centralizes	Sofic 群 · 酉固定子模 正交 映射 由 中心化
+SoficGroups.unitaryFixedSubmodule_starProjection_mem_of_commute	Sofic 群 · 酉固定子模 星投影 ∈ 由 交换
+SoficGroups.unitaryFixedSubmodule_starProjection_mem_orthogonal_of_commute	Sofic 群 · 酉固定子模 星投影 ∈ 正交 由 交换
+SoficGroups.unitaryFixedSubmodules_inner_eq_zero_of_commute_centerComplement	Sofic 群 · 酉固定子模 内积 = 零 由 交换 中心补

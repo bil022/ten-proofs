@@ -1,0 +1,3 @@
+'ErdosProblems.MulticolourTriangleRamsey.erdos_problem_183_explicit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
