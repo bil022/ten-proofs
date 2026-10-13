@@ -9,8 +9,11 @@ This repository contains Lean 4 formalizations of the results presented in
 > This is a copy of [openai/ten-proofs](https://github.com/openai/ten-proofs)
 > with one addition: a **dependency graph of every proof**, in the
 > [`scripts/`](scripts/) folder. The Lean files themselves are unchanged.
+>
+> 本仓库是 [openai/ten-proofs](https://github.com/openai/ten-proofs) 的副本，只多了一样东西：
+> **每个证明的依赖图**，放在 [`scripts/`](scripts/) 文件夹里。Lean 文件本身没有改动。
 
-## Proof dependency graphs
+## Proof dependency graphs · 证明依赖图
 
 The ten proofs are hard to read: each Lean file is between 3,000 and 130,000
 lines, a flat list of hundreds or thousands of lemmas. The graphs below show how
@@ -18,9 +21,14 @@ each proof is organised. Every box is a theorem, and an arrow from `A` to `B`
 means `B` uses `A`, so following the arrows leads from the basic lemmas on the
 left to the main theorem (orange) on the right.
 
+这十个证明很难读懂：每个 Lean 文件有 3,000 到 130,000 行，是几百到几千条引理的平铺罗列。
+下面的图展示了每个证明是怎么组织的。每个方框是一个定理，从 `A` 指向 `B` 的箭头表示 `B` 用到了
+`A`，所以顺着箭头看，就是从左边的基础引理走到右边的主定理（橙色）。
+
 [![Dependency graph of the multicolor Ramsey proof](scripts/en/svg/erdos_problem_183_explicit.svg)](scripts/en/svg/erdos_problem_183_explicit.svg)
 
 *The smallest graph: the 95 theorems behind the multicolor Ramsey bound. Click to enlarge.*
+*最小的一张图：多色 Ramsey 下界背后的 95 个定理。点击可放大。*
 
 | Result | Theorems | English | 中文 |
 |---|---:|---|---|
@@ -47,8 +55,17 @@ left to the main theorem (orange) on the right.
   word by word from a glossary.
 
 How to read the graphs, what else is in the folder, and how to regenerate
-everything: [scripts/README.md](scripts/README.md) ·
-[中文说明](scripts/README.zh.md).
+everything: [scripts/README.md](scripts/README.md).
+
+中文说明：
+
+- **实线箭头：** 证明里直接引用了那个定理。
+- **虚线箭头：** 依赖关系经过一个没有画出来的定义。
+- **大图：** 只有第 5、9、10 项结果的图小到可以轻松阅读。其余每张都有上千个定理，GitHub
+  可能无法预览；请下载 SVG 后用浏览器打开，再放大并按名字搜索。
+- **中文标签：** 第 9 项是手工翻译的；其余是按词表逐词对译的。
+
+怎么看图、文件夹里还有什么、如何重新生成：[scripts/README.zh.md](scripts/README.zh.md)。
 
 ## The results
 
