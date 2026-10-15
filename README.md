@@ -70,6 +70,17 @@ everything: [scripts/README.md](scripts/README.md).
 
 怎么看图、文件夹里还有什么、如何重新生成：[scripts/README.zh.md](scripts/README.zh.md)。
 
+### Explanations of the proofs · 证明讲解
+
+The Lean files have no comments, so these write-ups explain what each proof does.
+Lean 文件里没有注释，下面几份讲解说明每个证明在做什么。
+
+| | English | 中文 |
+|---|---|---|
+| How each proof works, based on OpenAI's paper · 按论文讲解证明思路 | [proofs.md](scripts/proofs.md) | [proofs.zh.md](scripts/proofs.zh.md) |
+| How each proof is organised, from the Lean code alone · 只看代码的总结 | [proofs-from-code.md](scripts/proofs-from-code.md) | [proofs-from-code.zh.md](scripts/proofs-from-code.zh.md) |
+| The simplest "leaf" theorem of each proof, at high-school level · 每个证明最简单的叶子定理，高中水平 | [leaves.md](scripts/leaves.md) | [leaves.zh.md](scripts/leaves.zh.md) |
+
 ## The results
 
 1. **High-dimensional sphere packing:** Improved asymptotic upper bounds on

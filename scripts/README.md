@@ -91,6 +91,9 @@ browser's search to find a theorem by name.
 | `zh/names` | The Chinese label of every theorem, one table per graph. |
 | `lean` | For each main theorem, a Lean file with only what it needs, plus the compile log. |
 | `modules` | The full dependency graph and source line numbers of each Lean file. |
+| `proofs.md`, `proofs-from-code.md`, `leaves.md` | Explanations of the proofs: from the paper, from the code alone, and the simplest leaf theorems (each with a `.zh.md` Chinese version). |
+| `duplicates.tsv` | Pairs of theorems with identical statements, identical definitions, and one-line corollaries (from `Duplicates.lean`). |
+| `library_use.tsv` | Which Mathlib constants each Lean file uses (from `LibraryUse.lean`). |
 
 The PNGs are at most 8,000 pixels on the longer side. That keeps the text
 legible in the four small graphs; the eight large ones are scaled down so far
@@ -145,4 +148,6 @@ A full run takes about an hour, most of it laying out the `GapCVP` graph.
 | `check.py` | Runs the extraction, compiles the result, retries if a lemma must be added back. |
 | `svg2png.sh` | Renders an SVG to PNG, at most 8,000 pixels on the longer side. |
 | `run_all.sh` | Runs all of the above for every main theorem. |
+| `Duplicates.lean` | Finds theorems with identical statements, identical definitions and one-line corollaries across the ten files. |
+| `LibraryUse.lean` | Counts which Mathlib constants each file uses. |
 | `zh_gloss.py`, `zh_labels.py`, `zh_all.sh` | Build the Chinese-labelled graphs. |

@@ -83,6 +83,9 @@ two_is_pos ─ ─ ─ ▶ myTwo_ne_zero    虚线（经过定义 myTwo）
 | `zh/names` | 每个定理的中文标签，每张图一个表。 |
 | `lean` | 每个主定理对应一个只包含它所需内容的 Lean 文件，以及编译日志。 |
 | `modules` | 每个 Lean 文件的完整依赖图和源码行号。 |
+| `proofs.zh.md`、`proofs-from-code.zh.md`、`leaves.zh.md` | 证明讲解：按论文讲、只看代码的总结、最简单的叶子定理（各有对应的英文 `.md` 版本）。 |
+| `duplicates.tsv` | 陈述相同的定理、相同的定义和一行推论（由 `Duplicates.lean` 生成）。 |
+| `library_use.tsv` | 每个 Lean 文件用到了哪些 Mathlib 常量（由 `LibraryUse.lean` 生成）。 |
 
 PNG 的长边最多 8,000 像素。四张小图在这个尺寸下文字清晰可读；八张大图被缩得很小，
 PNG 只能看出整体形状，要看内容请用 SVG。
@@ -133,4 +136,6 @@ conda create -n graphviz --override-channels -c conda-forge graphviz font-ttf-no
 | `check.py` | 执行提取并编译结果，如果有引理需要加回就重试。 |
 | `svg2png.sh` | 把 SVG 渲染成 PNG，长边最多 8,000 像素。 |
 | `run_all.sh` | 对每个主定理执行以上全部步骤。 |
+| `Duplicates.lean` | 在十个文件中找陈述相同的定理、相同的定义和一行推论。 |
+| `LibraryUse.lean` | 统计每个文件用到了哪些 Mathlib 常量。 |
 | `zh_gloss.py`、`zh_labels.py`、`zh_all.sh` | 生成带中文标签的图。 |
