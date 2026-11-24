@@ -98,10 +98,10 @@ self-contained blocks (sub-proofs together with the lemmas only they use).
 | Self-contained blocks · 独立块 | 194 blocks · 块 | [SVG](scripts/en/svg/riemannHypothesis_blocks.svg) · [PDF](scripts/en/pdf/riemannHypothesis_blocks.pdf) · [PNG](scripts/en/png/riemannHypothesis_blocks.png) | [SVG](scripts/zh/svg/riemannHypothesis_blocks.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis_blocks.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis_blocks.zh.png) |
 
 To go through the whole proof level by level, with the Lean code of every part,
-open the explorer website: **<https://bil022.github.io/ten-proofs/>**
+open the explorer website: **<https://bil022.github.io/riemann-explorer/>**
 (source in [`scripts/rh/site/`](scripts/rh/site/)).
 可以一层层点进去浏览整个证明、并查看每一部分 Lean 代码的网站：
-**<https://bil022.github.io/ten-proofs/>**（源码在 [`scripts/rh/site/`](scripts/rh/site/)）。
+**<https://bil022.github.io/riemann-explorer/>**（源码在 [`scripts/rh/site/`](scripts/rh/site/)）。
 
 What the boxes and colours mean, and how to regenerate: [scripts/rh/README.md](scripts/rh/README.md).
 方框和颜色的含义、如何重新生成：[scripts/rh/README.zh.md](scripts/rh/README.zh.md)。

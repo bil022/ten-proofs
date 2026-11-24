@@ -80,8 +80,9 @@
 
 [`site/`](site/) 是一个可以一层层浏览整个证明的小网站。它用的是和块图同一棵树，但不设大小门槛：
 凡是有内容属于它的声明，都有自己的一页，共 173,224 页。网址是
-<https://bil022.github.io/ten-proofs/>：`main` 分支上的 `site/` 一有改动，
-`.github/workflows/pages.yml` 就会重新发布。在本地运行：
+<https://bil022.github.io/riemann-explorer/>，由仓库
+[bil022/riemann-explorer](https://github.com/bil022/riemann-explorer) 发布；
+`publish_site.sh <它的本地克隆>` 会把 `site/` 复制过去。在本地运行：
 
 ```bash
 python3 -m http.server -d scripts/rh/site 8000
@@ -91,7 +92,12 @@ python3 -m http.server -d scripts/rh/site 8000
 `file://` 页面读取数据文件。）
 
 - **每一页**显示一个声明（橙色）和直接属于它的各部分。每个部分是一个方框，写着名字和包含的
-  声明数，蓝色越深越大。画出最大的 40 个部分，其余的合成一个虚线框；右边的表格列出全部。
+  声明数，蓝色越深越大。画出最大的 40 个部分，右边的表格列出全部。
+- **共用组。** 没画出来的部分大多是被几个画出来的部分共用的引理（所以它们不属于其中任何
+  一个）。它们按"被哪些画出来的部分用到"（直接或经过其他没画出的部分）分组，比如"A、B 共用"
+  "A、B 等 5 个分支共用"。最大的 10 组画成虚线框，箭头指向用到它们的部分；点击一组，表格里
+  就只列出这一组。例如在 `everyCharacter` 这一页，47,234 个部分分成 711 组，最大的一组是只被
+  它的两个主分支共用的 14,818 个部分。
 - **箭头**从一个部分指向用到它的部分，越粗引用越多。能由更长路径推出的箭头默认隐藏，勾选
   右下角的选项可以显示。
 - **点击**方框进入它的页面。橙色方框旁边的 **↑ 上一层** 按钮或顶部的路径可以返回上层。
@@ -102,7 +108,8 @@ python3 -m http.server -d scripts/rh/site 8000
   在文件里查找。
 - 界面有中文和英文。
 
-数据在 `site/data/`，共 54 MB，由 `rh_site.py` 生成。页面用
+数据在 `site/data/`，共 54 MB，由 `rh_site.py` 生成。本仓库不保存这些数据（见 `.gitignore`），
+只有 bil022/riemann-explorer 里有；运行 `rh_all.sh` 即可生成。页面用
 [Cytoscape.js](https://js.cytoscape.org/) 和 dagre 排版，已连同 MIT 许可证复制到
 `site/vendor/`，不联网也能用。
 
@@ -148,4 +155,5 @@ Graphviz 和 rsvg-convert。
 | `rh_blocks.py` | 生成块图和 `blocks.tsv`。 |
 | `rh_site.py` | 生成浏览网站的数据。 |
 | `site/` | 浏览网站：`index.html`、`app.js`、`style.css`。 |
+| `publish_site.sh` | 把 `site/` 复制到 bil022/riemann-explorer 的本地克隆。 |
 | `rh_all.sh` | 运行以上全部，再生成中英文的 SVG、PDF 和 PNG。 |

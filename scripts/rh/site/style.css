@@ -179,3 +179,6 @@ dialog p, dialog li { font-size: 13.5px; }
   .tk-k { color: #c3a6ff; } .tk-t { color: #86b6ef; } .tk-c { color: #8f8e88; } .tk-s { color: #6fd39a; }
 }
 #code[hidden], #upNode[hidden] { display: none; }
+.chip { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 12px; background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 4px 4px 4px 10px; }
+.chip button { padding: 2px 8px; font-size: 12px; }
+#groupChip[hidden] { display: none; }

@@ -99,9 +99,9 @@ cuts at blocks of at least `N` declarations instead of 2,000.
 [`site/`](site/) is a small website for going through the whole proof level by
 level, on the same tree as the block graph but without a size cut-off: every
 declaration with anything that belongs to it has its own page, 173,224 pages in
-all. It is published at <https://bil022.github.io/ten-proofs/> by
-`.github/workflows/pages.yml` whenever `site/` changes on `main`. To run it
-locally:
+all. It is published at <https://bil022.github.io/riemann-explorer/> from the
+repository [bil022/riemann-explorer](https://github.com/bil022/riemann-explorer);
+`publish_site.sh <clone of it>` copies `site/` there. To run it locally:
 
 ```bash
 python3 -m http.server -d scripts/rh/site 8000
@@ -112,8 +112,16 @@ not work: browsers do not let a page read data files from `file://`.)
 
 - **A page** shows one declaration (orange) and the parts that belong directly
   to it. Each part is a box with its name and the number of declarations in it;
-  darker blue means larger. The 40 largest parts are drawn; the rest are merged
-  into one dashed box, and all of them are listed in the table on the right.
+  darker blue means larger. The 40 largest parts are drawn, and all of them are
+  listed in the table on the right.
+- **Shared groups.** The parts not drawn are mostly lemmas shared by several of
+  the drawn parts (that is why they belong to no single one of them). They are
+  grouped by which drawn parts use them, directly or through other parts not
+  drawn: "shared by A and B", "shared by A, B and 3 more", and so on. The 10
+  largest groups are dashed boxes with arrows to the parts that use them; click
+  one to list only its members. On the page of `everyCharacter`, for instance,
+  47,234 parts fall into 711 groups, the largest being 14,818 parts shared by
+  just its two main branches.
 - **Arrows** point from a part to the part that uses it, thicker for more uses.
   Arrows implied by a longer path are hidden unless the box at the bottom right
   is ticked.
@@ -128,7 +136,9 @@ not work: browsers do not let a page read data files from `file://`.)
   declarations; the others are looked up by name in the file.
 - Interface in Chinese and English.
 
-The data, 54 MB in `site/data/`, is written by `rh_site.py`. The page uses
+The data, 54 MB in `site/data/`, is written by `rh_site.py`. It is not kept in
+this repository (see `.gitignore`), only in bil022/riemann-explorer: run
+`rh_all.sh` to make it. The page uses
 [Cytoscape.js](https://js.cytoscape.org/) with the dagre layout, copied into
 `site/vendor/` with their MIT licences, so it works offline.
 
@@ -179,4 +189,5 @@ batches, read in parallel. Graphviz and rsvg-convert are needed as for `../run_a
 | `rh_blocks.py` | Writes the block graph and `blocks.tsv`. |
 | `rh_site.py` | Writes the data of the explorer website. |
 | `site/` | The explorer website: `index.html`, `app.js`, `style.css`. |
+| `publish_site.sh` | Copies `site/` into a clone of bil022/riemann-explorer. |
 | `rh_all.sh` | Runs all of these, then renders the English and Chinese SVG, PDF and PNG. |
