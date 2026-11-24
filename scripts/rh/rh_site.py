@@ -53,6 +53,12 @@ for (x, a, b), w in uses.items():
 del uses
 
 
+# Declarations that use each one directly.
+uses_of = [0] * N
+for a in range(N):
+    for b in succ[a]:
+        uses_of[b] += 1
+
 rank = [0] * N
 for i, v in enumerate(t.rpo):
     rank[v] = i
@@ -135,9 +141,9 @@ for x in range(N):
         "name": t.label(x), "kind": t.kind(x), "module": t.module(x), "lines": t.span(x),
         "size": size[x] - (x == 0), "path": anc[::-1],  # the entry is not a declaration
         # node, name, kind, module, size, children of its own, first and last source
-        # line, group (for children not drawn, else -1)
+        # line, group (for children not drawn, else -1), declarations using it directly
         "kids": [[v, t.label(v), t.kind(v), t.module(v), size[v], len(kids[v]), *t.span(v),
-                  group_of.get(v, -1)] for v in ks],
+                  group_of.get(v, -1), uses_of[v]] for v in ks],
         # drawn children using the group (-1: the page's own node), parts, declarations
         "groups": groups,
         "shown": shown,

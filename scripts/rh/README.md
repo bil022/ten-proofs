@@ -118,8 +118,12 @@ not work: browsers do not let a page read data files from `file://`.)
   the drawn parts (that is why they belong to no single one of them). They are
   grouped by which drawn parts use them, directly or through other parts not
   drawn: "shared by A and B", "shared by A, B and 3 more", and so on. The 10
-  largest groups are dashed boxes with arrows to the parts that use them; click
-  one to list only its members. On the page of `everyCharacter`, for instance,
+  largest groups are dashed boxes with arrows to the parts that use them. Click
+  one for a summary (how many theorems and definitions, lines of code, its 10
+  most used and 10 largest members) and to list only its members.
+- **Table columns:** declarations in the part's subtree, children, how many
+  declarations use it directly ("Users"), and its lines of code. Sort by Users
+  to find the core notions. On the page of `everyCharacter`, for instance,
   47,234 parts fall into 711 groups, the largest being 14,818 parts shared by
   just its two main branches.
 - **Arrows** point from a part to the part that uses it, thicker for more uses.

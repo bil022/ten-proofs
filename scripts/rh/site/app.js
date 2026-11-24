@@ -26,6 +26,12 @@ const T = {
     shared: (names, more) => more ? `${names.join("、")} 等 ${(names.length + more)} 个分支共用` : `${names.join("、")} 共用`,
     sharedSize: (n, s) => `${n.toLocaleString()} 项 · ${s.toLocaleString()} 个声明`,
     groupFilter: "只看这一组", clear: "清除",
+    colUsers: "被用", colLines: "行数",
+    users: "被多少声明直接用到", lines: "代码行数",
+    gParts: "部分", gDecls: "声明", gKinds: "类型", gLines: "代码总行数",
+    gMostUsed: "被用得最多的 10 个（这组的核心概念）", gLargest: "最大的 10 个（自带专属内容最多）",
+    gUsersOf: "共用它们的分支",
+    kindsList: (c) => Object.entries(c).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${(T.zh.kind[k] ?? k)} ${n.toLocaleString()}`).join(" · "),
     groupHint: "共用组：没画出的部分按“被哪些分支用到”分组；箭头指向用到它们的分支。点击在表格里只看这一组。",
     uses: (w) => `${w.toLocaleString()} 处引用`,
     implied: "（被更长路径蕴含）",
@@ -63,6 +69,12 @@ const T = {
     shared: (names, more) => more ? `Shared by ${names.join(", ")} and ${more} more` : `Shared by ${names.join(" and ")}`,
     sharedSize: (n, s) => `${n.toLocaleString()} parts · ${s.toLocaleString()} declarations`,
     groupFilter: "Only this group", clear: "Clear",
+    colUsers: "Users", colLines: "Lines",
+    users: "Used directly by", lines: "Lines of code",
+    gParts: "Parts", gDecls: "Declarations", gKinds: "Kinds", gLines: "Lines of code",
+    gMostUsed: "10 most used (the core notions of the group)", gLargest: "10 largest (most declarations of their own)",
+    gUsersOf: "Shared by",
+    kindsList: (c) => Object.entries(c).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${(T.en.kind[k] ?? k)} ${n.toLocaleString()}`).join(" · "),
     groupHint: "Shared groups: parts not drawn, grouped by which branches use them; arrows point to those branches. Click one to list only that group.",
     uses: (w) => `${w.toLocaleString()} uses`,
     implied: " (implied by a longer path)",
@@ -169,6 +181,8 @@ function card(node, isPage) {
     <dl>
       <dt>${t().size}</dt><dd>${fmt(node.size)}</dd>
       <dt>${t().kids}</dt><dd>${fmt(node.nkids)}</dd>
+      ${!isPage && node.users !== undefined ? `<dt>${t().users}</dt><dd>${fmt(node.users)}</dd>` : ""}
+      ${!isPage && node.first ? `<dt>${t().lines}</dt><dd>${fmt(node.last - node.first + 1)}</dd>` : ""}
       ${share !== null ? `<dt>${t().share}</dt><dd>${(share * 100).toFixed(share < 0.01 ? 2 : 1)}%</dd>` : ""}
       <dt>${t().module}</dt><dd class="mono">${src ? `<a href="${src}" target="_blank" rel="noopener">${esc(node.module)}</a>` : esc(node.module)}</dd>
     </dl>
@@ -180,16 +194,48 @@ function card(node, isPage) {
 }
 
 function kidNode(k) {
-  const [id, name, kind, module, size, nkids, first, last, group] = k;
-  return { id, name, kind, module, size, nkids, first, last };
+  const [id, name, kind, module, size, nkids, first, last, group, users] = k;
+  return { id, name, kind, module, size, nkids, first, last, users };
 }
 
 function renderSide() {
   const p = current.page;
   $("page").innerHTML = card({ id: current.id, name: p.name, kind: p.kind, module: p.module, size: p.size, nkids: p.kids.length }, true);
   const k = selected !== null && p.kids.find((x) => x[0] === selected);
-  $("sel").innerHTML = k ? card(kidNode(k), false) : "";
+  $("sel").innerHTML = (groupFilter !== null ? groupCard(groupFilter) : "") + (k ? card(kidNode(k), false) : "");
   renderRows();
+}
+
+const inGroup = (k, g) => (g === "rest" ? k[8] >= GROUPS : k[8] === g);
+
+// Summary of one shared group: what it holds and which members matter most.
+function groupCard(g) {
+  const p = current.page;
+  const members = p.kids.filter((k) => inGroup(k, g));
+  const kinds = {};
+  let lines = 0, decls = 0;
+  for (const k of members) {
+    kinds[k[2]] = (kinds[k[2]] || 0) + 1;
+    decls += k[4];
+    if (k[6]) lines += k[7] - k[6] + 1;
+  }
+  const item = (k, value) => `<li><a href="#${current.id}:${k[0]}" title="${esc(k[1])}">${esc(shortName(k[1]))}</a><span>${fmt(value)}</span></li>`;
+  const mostUsed = [...members].sort((a, b) => b[9] - a[9]).slice(0, 10).map((k) => item(k, k[9])).join("");
+  const largest = [...members].sort((a, b) => b[4] - a[4]).slice(0, 10).map((k) => item(k, k[4])).join("");
+  const users = g === "rest" ? "" : p.groups[g][0].map((u) => (u === -1 ? esc(p.name) : esc(p.kids[u][1]))).join("<br>");
+  return `<div class="card selcard groupcard">
+    <div class="kind">${esc(t().legendOther)}</div>
+    <h2 style="font-family:var(--font)">${esc(groupLabel(g).split("\n")[0])}</h2>
+    <dl>
+      <dt>${t().gParts}</dt><dd>${fmt(members.length)}</dd>
+      <dt>${t().gDecls}</dt><dd>${fmt(decls)}</dd>
+      <dt>${t().gLines}</dt><dd>${fmt(lines)}</dd>
+      <dt>${t().gKinds}</dt><dd>${t().kindsList(kinds)}</dd>
+      ${users ? `<dt>${t().gUsersOf}</dt><dd class="mono">${users}</dd>` : ""}
+    </dl>
+    <h4>${t().gMostUsed}</h4><ol class="top">${mostUsed}</ol>
+    <h4>${t().gLargest}</h4><ol class="top">${largest}</ol>
+  </div>`;
 }
 
 function renderRows() {
@@ -197,16 +243,19 @@ function renderRows() {
   const f = $("filter").value.trim().toLowerCase();
   let rows = p.kids.map((k, i) => [k, i]);
   if (f) rows = rows.filter(([k]) => k[1].toLowerCase().includes(f));
-  if (groupFilter !== null) rows = rows.filter(([k]) => groupFilter === "rest" ? k[8] >= GROUPS : k[8] === groupFilter);
+  if (groupFilter !== null) rows = rows.filter(([k]) => inGroup(k, groupFilter));
   $("groupChip").hidden = groupFilter === null;
   if (groupFilter !== null) $("groupChipText").textContent = groupLabel(groupFilter).replace("\n", " · ");
   if (sortKey === "name") rows.sort((a, b) => a[0][1].localeCompare(b[0][1]));
   else if (sortKey === "kids") rows.sort((a, b) => b[0][5] - a[0][5]);
+  else if (sortKey === "users") rows.sort((a, b) => b[0][9] - a[0][9]);
+  else if (sortKey === "lines") rows.sort((a, b) => (b[0][6] ? b[0][7] - b[0][6] : -1) - (a[0][6] ? a[0][7] - a[0][6] : -1));
   document.querySelectorAll("th").forEach((th) => th.classList.toggle("on", th.dataset.sort === sortKey));
   const html = rows.slice(0, shownRows).map(([k, i]) =>
     `<tr data-id="${k[0]}" class="${i < p.shown ? "drawn" : ""}${k[0] === selected ? " on" : ""}">
       <td class="nm"><i style="background:${fill(k[4])}"></i>${esc(k[1])}</td>
-      <td class="num">${fmt(k[4])}</td><td class="num">${fmt(k[5])}</td></tr>`).join("");
+      <td class="num">${fmt(k[4])}</td><td class="num">${fmt(k[5])}</td>
+      <td class="num">${fmt(k[9])}</td><td class="num">${k[6] ? fmt(k[7] - k[6] + 1) : ""}</td></tr>`).join("");
   $("kidrows").innerHTML = html;
   const rest = rows.length - shownRows;
   $("more").hidden = rest <= 0;
@@ -555,7 +604,7 @@ function setupGraph() {
   cy.on("mouseout", "edge", (ev) => { ev.target.removeClass("hover"); tip.hidden = true; });
   cy.on("tap", "node", (ev) => {
     const d = ev.target.data();
-    if (d.group !== undefined) { groupFilter = d.group; shownRows = 300; renderRows(); return; }
+    if (d.group !== undefined) { groupFilter = d.group; selected = null; shownRows = 300; renderSide(); highlight(null); return; }
     if (d.page || d.rest) return;
     if (d.nkids > 0) location.hash = String(d.node);
     else location.hash = `${current.id}:${d.node}`;
@@ -569,7 +618,7 @@ async function main() {
   $("lang").onclick = () => { lang = lang === "zh" ? "en" : "zh"; localStorage.setItem("rh-lang", lang); applyLang(); };
   $("help").onclick = () => $("about").showModal();
   $("codeClose").onclick = hideCode;
-  $("groupChipClear").onclick = () => { groupFilter = null; renderRows(); };
+  $("groupChipClear").onclick = () => { groupFilter = null; renderSide(); };
   $("allEdges").onchange = drawGraph;
   $("filter").oninput = () => { shownRows = 300; renderRows(); };
   $("more").onclick = () => { shownRows += 300; renderRows(); };
