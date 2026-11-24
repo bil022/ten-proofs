@@ -15,6 +15,9 @@ This repository contains Lean 4 formalizations of the results presented in
 
 ## Proof dependency graphs · 证明依赖图
 
+*New: graphs of the Lean proof of the Riemann Hypothesis, [below](#the-riemann-hypothesis--黎曼猜想).*
+*新增：黎曼猜想 Lean 证明的依赖图，[见下文](#the-riemann-hypothesis--黎曼猜想)。*
+
 The ten proofs are hard to read: each Lean file is between 3,000 and 130,000
 lines, a flat list of hundreds or thousands of lemmas. The graphs below show how
 each proof is organised. Every box is a theorem, and an arrow from `A` to `B`
@@ -69,6 +72,39 @@ everything: [scripts/README.md](scripts/README.md).
 - **中文标签：** 第 9 项是手工翻译的；其余是按词表逐词对译的。
 
 怎么看图、文件夹里还有什么、如何重新生成：[scripts/README.zh.md](scripts/README.zh.md)。
+
+### The Riemann Hypothesis · 黎曼猜想
+
+The same kind of graph for
+[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis),
+the Lean formalization of the 2026 proof of the Riemann Hypothesis. That proof is
+far larger than the ten above, at 60,928 files and 568,159 theorems, so it is
+shown in three pictures: the 395 theorems nearest the main theorem, the whole
+proof with one box per source folder, and the whole proof cut into 194
+self-contained blocks (sub-proofs together with the lemmas only they use).
+
+同样的依赖图，画的是 2026 年黎曼猜想证明的 Lean 形式化
+[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)。
+它比上面十个证明大得多（60,928 个文件、568,159 个定理），所以分成三张图：离主定理最近的
+395 个定理；每个源码文件夹画成一个方框的整个证明；以及切成 194 个独立块的整个证明（每块是一个
+子证明加上只有它用到的引理）。
+
+[![The Riemann Hypothesis proof by folder](scripts/en/svg/riemannHypothesis_folders.svg)](scripts/en/svg/riemannHypothesis_folders.svg)
+
+| Graph · 图 | Boxes · 方框 | English | 中文 |
+|---|---:|---|---|
+| Top of the proof · 证明的顶层 | 395 theorems · 定理 | [SVG](scripts/en/svg/riemannHypothesis.svg) · [PDF](scripts/en/pdf/riemannHypothesis.pdf) · [PNG](scripts/en/png/riemannHypothesis.png) | [SVG](scripts/zh/svg/riemannHypothesis.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis.zh.png) |
+| By folder · 按文件夹 | 149 folders · 文件夹 | [SVG](scripts/en/svg/riemannHypothesis_folders.svg) · [PDF](scripts/en/pdf/riemannHypothesis_folders.pdf) · [PNG](scripts/en/png/riemannHypothesis_folders.png) | [SVG](scripts/zh/svg/riemannHypothesis_folders.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis_folders.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis_folders.zh.png) |
+| Self-contained blocks · 独立块 | 194 blocks · 块 | [SVG](scripts/en/svg/riemannHypothesis_blocks.svg) · [PDF](scripts/en/pdf/riemannHypothesis_blocks.pdf) · [PNG](scripts/en/png/riemannHypothesis_blocks.png) | [SVG](scripts/zh/svg/riemannHypothesis_blocks.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis_blocks.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis_blocks.zh.png) |
+
+To go through the whole proof level by level, with the Lean code of every part,
+open the explorer website: **<https://bil022.github.io/ten-proofs/>**
+(source in [`scripts/rh/site/`](scripts/rh/site/)).
+可以一层层点进去浏览整个证明、并查看每一部分 Lean 代码的网站：
+**<https://bil022.github.io/ten-proofs/>**（源码在 [`scripts/rh/site/`](scripts/rh/site/)）。
+
+What the boxes and colours mean, and how to regenerate: [scripts/rh/README.md](scripts/rh/README.md).
+方框和颜色的含义、如何重新生成：[scripts/rh/README.zh.md](scripts/rh/README.zh.md)。
 
 ### Explanations of the proofs · 证明讲解
 

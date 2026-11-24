@@ -1,0 +1,562 @@
+digraph G {
+	graph [nodesep=0.2,
+		rankdir=LR,
+		ranksep=1.2
+	];
+	node [fontname=Helvetica,
+		fontsize=11,
+		shape=box,
+		style="filled,rounded"
+	];
+	edge [arrowsize=0.6,
+		color="#8a8a8a"
+	];
+	"CompanionTheory.AutomorphicTheory"	[fillcolor="#d5f0f0",
+		label="CompanionTheory/\nAutomorphicTheory\n2,324 theorems"];
+	"CompanionTheory.HarishChandraModules"	[fillcolor="#d5f0f0",
+		label="CompanionTheory/\nHarishChandraModules\n966 theorems"];
+	"CompanionTheory.AutomorphicTheory" -> "CompanionTheory.HarishChandraModules";
+	"CompanionTheory.RealGroups"	[fillcolor="#d5f0f0",
+		label="CompanionTheory/\nRealGroups\n1,018 theorems"];
+	"CompanionTheory.HarishChandraModules" -> "CompanionTheory.RealGroups";
+	"CompanionTheory.SpectralGeometry"	[fillcolor="#d5f0f0",
+		label="CompanionTheory/\nSpectralGeometry\n3,767 theorems"];
+	"CompanionTheory.RealGroups" -> "CompanionTheory.SpectralGeometry";
+	"Development.AbelianVarietyTheory"	[fillcolor="#ffe0e0",
+		label="Development/\nAbelianVarietyTheory\n248,910 theorems"];
+	"CompanionTheory.SpectralGeometry" -> "Development.AbelianVarietyTheory";
+	"CompanionTheory.ThickeningEstimates"	[fillcolor="#d5f0f0",
+		label="CompanionTheory/\nThickeningEstimates\n165 theorems"];
+	"CompanionTheory.ThickeningEstimates" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.ArtinHasse"	[fillcolor="#cfe8ff",
+		label="Formalism/\nArtinHasse\n7 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.ArtinHasse";
+	"Formalism.CorankShare"	[fillcolor="#cfe8ff",
+		label="Formalism/\nCorankShare\n0 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.CorankShare";
+	"Formalism.DirichletDensity"	[fillcolor="#cfe8ff",
+		label="Formalism/\nDirichletDensity\n25 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.DirichletDensity";
+	"Formalism.FrobeniusContraction"	[fillcolor="#cfe8ff",
+		label="Formalism/\nFrobeniusContraction\n6 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.FrobeniusContraction";
+	"Formalism.GaussIdealIdentity"	[fillcolor="#cfe8ff",
+		label="Formalism/\nGaussIdealIdentity\n7 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.GaussIdealIdentity";
+	"Formalism.IncomingBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nIncomingBounds\n41 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.IncomingBounds";
+	"Formalism.JacquetSubsetSums"	[fillcolor="#cfe8ff",
+		label="Formalism/\nJacquetSubsetSums\n0 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.JacquetSubsetSums";
+	"Formalism.LatticeRigidity"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLatticeRigidity\n15 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.LatticeRigidity";
+	"Formalism.LogVandermondeBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLogVandermondeBounds\n22 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.LogVandermondeBounds";
+	"Formalism.ThickAverageLoss"	[fillcolor="#cfe8ff",
+		label="Formalism/\nThickAverageLoss\n6 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.ThickAverageLoss";
+	"Formalism.WindowSums"	[fillcolor="#cfe8ff",
+		label="Formalism/\nWindowSums\n20 theorems"];
+	"Development.AbelianVarietyTheory" -> "Formalism.WindowSums";
+	"ReciprocityTheory.EigenFrames"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nEigenFrames\n4 theorems"];
+	"Development.AbelianVarietyTheory" -> "ReciprocityTheory.EigenFrames";
+	"Development.AutomorphicArithmetic"	[fillcolor="#ffe0e0",
+		label="Development/\nAutomorphicArithmetic\n40,386 theorems"];
+	"Development.AutomorphicArithmetic" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.FormalGroupLog"	[fillcolor="#cfe8ff",
+		label="Formalism/\nFormalGroupLog\n20 theorems"];
+	"Development.AutomorphicArithmetic" -> "Formalism.FormalGroupLog";
+	"Formalism.ResultantValuation"	[fillcolor="#cfe8ff",
+		label="Formalism/\nResultantValuation\n18 theorems"];
+	"Development.AutomorphicArithmetic" -> "Formalism.ResultantValuation";
+	Main	[fillcolor="#ffd58a",
+		label="Main\n5 theorems"];
+	"Development.AutomorphicArithmetic" -> Main;
+	"Development.AutomorphicSpectrum"	[fillcolor="#ffe0e0",
+		label="Development/\nAutomorphicSpectrum\n39,190 theorems"];
+	"Development.AutomorphicSpectrum" -> "CompanionTheory.AutomorphicTheory";
+	"Development.DiscreteGroups"	[fillcolor="#ffe0e0",
+		label="Development/\nDiscreteGroups\n526 theorems"];
+	"Development.DiscreteGroups" -> "Development.AutomorphicArithmetic";
+	"Development.EtaleCohomology"	[fillcolor="#ffe0e0",
+		label="Development/\nEtaleCohomology\n5,353 theorems"];
+	"Development.EtaleCohomology" -> "CompanionTheory.AutomorphicTheory";
+	"Development.ResolutionOfSingularities"	[fillcolor="#ffe0e0",
+		label="Development/\nResolutionOfSingularities\n2,807 theorems"];
+	"Development.ResolutionOfSingularities" -> "CompanionTheory.AutomorphicTheory";
+	"Development.WeilBound"	[fillcolor="#ffe0e0",
+		label="Development/\nWeilBound\n42,656 theorems"];
+	"Development.WeilBound" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.AdicCompletionExports"	[fillcolor="#cfe8ff",
+		label="Formalism/\nAdicCompletionExports\n1 theorems"];
+	"Formalism.AdmissibleDesigns"	[fillcolor="#cfe8ff",
+		label="Formalism/\nAdmissibleDesigns\n954 theorems"];
+	"Formalism.AdicCompletionExports" -> "Formalism.AdmissibleDesigns";
+	"Formalism.AdmissibleDesigns" -> "Development.AbelianVarietyTheory";
+	"Formalism.AlgebraicWeights"	[fillcolor="#cfe8ff",
+		label="Formalism/\nAlgebraicWeights\n5 theorems"];
+	"Formalism.AlgebraicWeights" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.ArtinHasse" -> "Development.AbelianVarietyTheory";
+	"Formalism.BranchSandwichDivisors"	[fillcolor="#cfe8ff",
+		label="Formalism/\nBranchSandwichDivisors\n333 theorems"];
+	"Formalism.BranchSandwichDivisors" -> "Development.AbelianVarietyTheory";
+	"Formalism.CMTypeGalois"	[fillcolor="#cfe8ff",
+		label="Formalism/\nCMTypeGalois\n7 theorems"];
+	"Formalism.CMTypeGalois" -> "Formalism.DirichletDensity";
+	"Formalism.CharacterColumnKernels"	[fillcolor="#cfe8ff",
+		label="Formalism/\nCharacterColumnKernels\n121 theorems"];
+	"Formalism.CharacterColumnKernels" -> "Development.AbelianVarietyTheory";
+	"Formalism.CoboundaryTransfers"	[fillcolor="#cfe8ff",
+		label="Formalism/\nCoboundaryTransfers\n48 theorems"];
+	"Formalism.SharpRestriction"	[fillcolor="#cfe8ff",
+		label="Formalism/\nSharpRestriction\n26,428 theorems"];
+	"Formalism.CoboundaryTransfers" -> "Formalism.SharpRestriction";
+	"Formalism.ConjugateSelfDual"	[fillcolor="#cfe8ff",
+		label="Formalism/\nConjugateSelfDual\n0 theorems"];
+	"Formalism.ConjugateSelfDual" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.PrimeAboveExistence"	[fillcolor="#cfe8ff",
+		label="Formalism/\nPrimeAboveExistence\n1 theorems"];
+	"Formalism.ConjugateSelfDual" -> "Formalism.PrimeAboveExistence";
+	"Formalism.HarderNarasimhan"	[fillcolor="#cfe8ff",
+		label="Formalism/\nHarderNarasimhan\n304 theorems"];
+	"Formalism.CorankShare" -> "Formalism.HarderNarasimhan";
+	"Formalism.CyclotomicNorms"	[fillcolor="#cfe8ff",
+		label="Formalism/\nCyclotomicNorms\n50 theorems"];
+	"Formalism.CyclotomicNorms" -> "Development.AbelianVarietyTheory";
+	"Formalism.DefsOC"	[fillcolor="#cfe8ff",
+		label="Formalism/\nDefsOC\n0 theorems"];
+	"Formalism.ZetaNonvanishing"	[fillcolor="#cfe8ff",
+		label="Formalism/\nZetaNonvanishing\n13 theorems"];
+	"Formalism.DefsOC" -> "Formalism.ZetaNonvanishing";
+	"Formalism.DegreeFormula"	[fillcolor="#cfe8ff",
+		label="Formalism/\nDegreeFormula\n30 theorems"];
+	"Formalism.DegreeFormula" -> "Development.AbelianVarietyTheory";
+	"Formalism.DirichletDensity" -> "Development.AbelianVarietyTheory";
+	"Formalism.DistinguishedUnitIdeals"	[fillcolor="#cfe8ff",
+		label="Formalism/\nDistinguishedUnitIdeals\n807 theorems"];
+	"Formalism.DistinguishedUnitIdeals" -> "Formalism.SharpRestriction";
+	"Formalism.DivisorInequality"	[fillcolor="#cfe8ff",
+		label="Formalism/\nDivisorInequality\n3 theorems"];
+	"Formalism.LocalToGlobal"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLocalToGlobal\n38,738 theorems"];
+	"Formalism.DivisorInequality" -> "Formalism.LocalToGlobal";
+	"Formalism.DoubleCosetMeasures"	[fillcolor="#cfe8ff",
+		label="Formalism/\nDoubleCosetMeasures\n138 theorems"];
+	"Formalism.DoubleCosetMeasures" -> "CompanionTheory.SpectralGeometry";
+	"Formalism.DropLevelBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nDropLevelBounds\n0 theorems"];
+	"Formalism.DropLevelBounds" -> "Development.AbelianVarietyTheory";
+	"Formalism.EisensteinCokernelLengths"	[fillcolor="#cfe8ff",
+		label="Formalism/\nEisensteinCokernelLengths\n0 theorems"];
+	"Formalism.EisensteinCokernelLengths" -> "Formalism.DistinguishedUnitIdeals";
+	"Formalism.EllipticTorsion"	[fillcolor="#cfe8ff",
+		label="Formalism/\nEllipticTorsion\n275 theorems"];
+	"Formalism.EllipticTorsion" -> "Development.AbelianVarietyTheory";
+	"Formalism.FilteredPoleLength"	[fillcolor="#cfe8ff",
+		label="Formalism/\nFilteredPoleLength\n40 theorems"];
+	"Formalism.FilteredPoleLength" -> "Formalism.LocalToGlobal";
+	"Formalism.FlagUnipotentLattices"	[fillcolor="#cfe8ff",
+		label="Formalism/\nFlagUnipotentLattices\n448 theorems"];
+	"Formalism.FlagUnipotentLattices" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.FockGram"	[fillcolor="#cfe8ff",
+		label="Formalism/\nFockGram\n4 theorems"];
+	"Formalism.FockGram" -> "Development.AbelianVarietyTheory";
+	"Formalism.FormalDegreeBessel"	[fillcolor="#cfe8ff",
+		label="Formalism/\nFormalDegreeBessel\n243 theorems"];
+	"Formalism.FormalDegreeBessel" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.FormalGroupLog" -> "Formalism.EllipticTorsion";
+	"Formalism.TorsionNormIteration"	[fillcolor="#cfe8ff",
+		label="Formalism/\nTorsionNormIteration\n66 theorems"];
+	"Formalism.FormalGroupLog" -> "Formalism.TorsionNormIteration";
+	"Formalism.FormalGroupWitt"	[fillcolor="#cfe8ff",
+		label="Formalism/\nFormalGroupWitt\n85 theorems"];
+	"Formalism.FormalGroupWitt" -> "Development.AbelianVarietyTheory";
+	"Formalism.FrobeniusBaseCase"	[fillcolor="#cfe8ff",
+		label="Formalism/\nFrobeniusBaseCase\n21 theorems"];
+	"Formalism.FrobeniusBaseCase" -> "Development.AbelianVarietyTheory";
+	"Formalism.FrobeniusContraction" -> "Development.AbelianVarietyTheory";
+	"Formalism.FrobeniusOrbits"	[fillcolor="#cfe8ff",
+		label="Formalism/\nFrobeniusOrbits\n226 theorems"];
+	"Formalism.FrobeniusOrbits" -> "Development.AbelianVarietyTheory";
+	"Formalism.GL3MeanSquares"	[fillcolor="#cfe8ff",
+		label="Formalism/\nGL3MeanSquares\n1,957 theorems"];
+	"Formalism.GL3MeanSquares" -> "Development.AbelianVarietyTheory";
+	"Formalism.GaloisCohomology"	[fillcolor="#cfe8ff",
+		label="Formalism/\nGaloisCohomology\n10 theorems"];
+	"Formalism.GaloisCohomology" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.GaloisIrreducibility"	[fillcolor="#cfe8ff",
+		label="Formalism/\nGaloisIrreducibility\n42 theorems"];
+	"Formalism.GaloisIrreducibility" -> "Development.AutomorphicSpectrum";
+	"Formalism.GaussIdealIdentity" -> "Development.AbelianVarietyTheory";
+	"Formalism.GaussJetBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nGaussJetBounds\n276 theorems"];
+	"Formalism.GaussJetBounds" -> "Development.AbelianVarietyTheory";
+	"Formalism.GaussValuationBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nGaussValuationBounds\n6 theorems"];
+	"Formalism.GaussValuationBounds" -> "Formalism.DistinguishedUnitIdeals";
+	"Formalism.GelfandTransference"	[fillcolor="#cfe8ff",
+		label="Formalism/\nGelfandTransference\n0 theorems"];
+	"Formalism.GelfandTransference" -> "Development.AutomorphicSpectrum";
+	"Formalism.GradedWeylDivisibility"	[fillcolor="#cfe8ff",
+		label="Formalism/\nGradedWeylDivisibility\n371 theorems"];
+	"Formalism.GradedWeylDivisibility" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.GrowthSums"	[fillcolor="#cfe8ff",
+		label="Formalism/\nGrowthSums\n15 theorems"];
+	"Formalism.GrowthSums" -> "Development.AbelianVarietyTheory";
+	"Formalism.HarderNarasimhan" -> "Development.AbelianVarietyTheory";
+	"Formalism.HermitianCurvature"	[fillcolor="#cfe8ff",
+		label="Formalism/\nHermitianCurvature\n22,448 theorems"];
+	"Formalism.HermitianCurvature" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.HermitianLattices"	[fillcolor="#cfe8ff",
+		label="Formalism/\nHermitianLattices\n221 theorems"];
+	"Formalism.MonomialMeanResidues"	[fillcolor="#cfe8ff",
+		label="Formalism/\nMonomialMeanResidues\n0 theorems"];
+	"Formalism.HermitianLattices" -> "Formalism.MonomialMeanResidues";
+	"Formalism.ThetaLiftIndependence"	[fillcolor="#cfe8ff",
+		label="Formalism/\nThetaLiftIndependence\n10 theorems"];
+	"Formalism.HermitianLattices" -> "Formalism.ThetaLiftIndependence";
+	"Formalism.HyperbolicPlaceProducts"	[fillcolor="#cfe8ff",
+		label="Formalism/\nHyperbolicPlaceProducts\n34 theorems"];
+	"Formalism.HyperbolicPlaceProducts" -> "Development.AbelianVarietyTheory";
+	"Formalism.IncomingBounds" -> "Development.AbelianVarietyTheory";
+	"Formalism.JacquetSubsetSums" -> "Development.AbelianVarietyTheory";
+	"Formalism.JumpKernelCokernel"	[fillcolor="#cfe8ff",
+		label="Formalism/\nJumpKernelCokernel\n101 theorems"];
+	"Formalism.JumpKernelCokernel" -> "Formalism.SharpRestriction";
+	"Formalism.LFunctionBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLFunctionBounds\n28 theorems"];
+	"Formalism.LFunctionBounds" -> "Development.AbelianVarietyTheory";
+	"Formalism.LagrangeIdealLifts"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLagrangeIdealLifts\n69 theorems"];
+	"Formalism.LagrangeIdealLifts" -> "Formalism.CoboundaryTransfers";
+	"Formalism.LandauZeroFreeBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLandauZeroFreeBounds\n210 theorems"];
+	"Formalism.LandauZeroFreeBounds" -> "Development.AbelianVarietyTheory";
+	"Formalism.LatticeRigidity" -> "Development.AbelianVarietyTheory";
+	"Formalism.LatticeSlopes"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLatticeSlopes\n58 theorems"];
+	"Formalism.LatticeSlopes" -> "Development.AbelianVarietyTheory";
+	"Formalism.LatticeTheta"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLatticeTheta\n48 theorems"];
+	"Formalism.LatticeTheta" -> "Development.AbelianVarietyTheory";
+	"Formalism.LocalRingCardinality"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLocalRingCardinality\n1,579 theorems"];
+	"Formalism.LocalRingCardinality" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.LocalToGlobal" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.LocalToGlobal" -> "Formalism.GaloisIrreducibility";
+	"Formalism.LogFactorialBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLogFactorialBounds\n1 theorems"];
+	"Formalism.LogFactorialBounds" -> "Formalism.LocalToGlobal";
+	"Formalism.LogFactorialIndices"	[fillcolor="#cfe8ff",
+		label="Formalism/\nLogFactorialIndices\n20 theorems"];
+	"Formalism.LogFactorialIndices" -> "Development.AbelianVarietyTheory";
+	"Formalism.LogVandermondeBounds" -> "Development.AbelianVarietyTheory";
+	"Formalism.MahlerMeasure"	[fillcolor="#cfe8ff",
+		label="Formalism/\nMahlerMeasure\n936 theorems"];
+	"Formalism.PolynomialDimension"	[fillcolor="#cfe8ff",
+		label="Formalism/\nPolynomialDimension\n552 theorems"];
+	"Formalism.MahlerMeasure" -> "Formalism.PolynomialDimension";
+	"Formalism.MeanHeightDescent"	[fillcolor="#cfe8ff",
+		label="Formalism/\nMeanHeightDescent\n48 theorems"];
+	"Formalism.MeanHeightDescent" -> "Development.AbelianVarietyTheory";
+	"Formalism.MirabolicMackeyTheory"	[fillcolor="#cfe8ff",
+		label="Formalism/\nMirabolicMackeyTheory\n111 theorems"];
+	"Formalism.MirabolicMackeyTheory" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.MoebiusJetDuality"	[fillcolor="#cfe8ff",
+		label="Formalism/\nMoebiusJetDuality\n0 theorems"];
+	"Formalism.MoebiusJetDuality" -> "Development.AbelianVarietyTheory";
+	"Formalism.MonomialMeanResidues" -> "Formalism.LocalToGlobal";
+	"Formalism.NormUnitaryBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nNormUnitaryBounds\n3 theorems"];
+	"Formalism.NormUnitaryBounds" -> "Development.AutomorphicSpectrum";
+	"Formalism.PadicSubsetSums"	[fillcolor="#cfe8ff",
+		label="Formalism/\nPadicSubsetSums\n267 theorems"];
+	"Formalism.PadicSubsetSums" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.PairingDivisors"	[fillcolor="#cfe8ff",
+		label="Formalism/\nPairingDivisors\n8 theorems"];
+	"Formalism.PairingDivisors" -> "Development.AbelianVarietyTheory";
+	"Formalism.PeriodIntegrals"	[fillcolor="#cfe8ff",
+		label="Formalism/\nPeriodIntegrals\n15,220 theorems"];
+	"Formalism.PeriodIntegrals" -> "CompanionTheory.AutomorphicTheory";
+	"ReciprocityTheory.GeneralLinearIntegers"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nGeneralLinearIntegers\n4 theorems"];
+	"Formalism.PeriodIntegrals" -> "ReciprocityTheory.GeneralLinearIntegers";
+	"Formalism.PieriBlockIdeals"	[fillcolor="#cfe8ff",
+		label="Formalism/\nPieriBlockIdeals\n1,281 theorems"];
+	"Formalism.PieriBlockIdeals" -> "Development.AbelianVarietyTheory";
+	"Formalism.PolynomialDimension" -> "Development.AbelianVarietyTheory";
+	"Formalism.PrimeAboveExistence" -> "Development.AutomorphicArithmetic";
+	"Formalism.QuotientMetricDivisors"	[fillcolor="#cfe8ff",
+		label="Formalism/\nQuotientMetricDivisors\n418 theorems"];
+	"Formalism.QuotientMetricDivisors" -> "Formalism.DivisorInequality";
+	"Formalism.QuotientMetricDivisors" -> "Formalism.MeanHeightDescent";
+	"Formalism.QuotientMetricDivisors" -> "Formalism.PairingDivisors";
+	"Formalism.ThetaSupremumBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nThetaSupremumBounds\n27 theorems"];
+	"Formalism.QuotientMetricDivisors" -> "Formalism.ThetaSupremumBounds";
+	"Formalism.RankGapBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nRankGapBounds\n0 theorems"];
+	"Formalism.RankGapBounds" -> "Development.AbelianVarietyTheory";
+	"Formalism.RealPlaceAnalysis"	[fillcolor="#cfe8ff",
+		label="Formalism/\nRealPlaceAnalysis\n626 theorems"];
+	"Formalism.RealPlaceAnalysis" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.ResultantValuation" -> "Development.AbelianVarietyTheory";
+	"Formalism.SatakeDualWeyl"	[fillcolor="#cfe8ff",
+		label="Formalism/\nSatakeDualWeyl\n621 theorems"];
+	"Formalism.SatakeDualWeyl" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.SatakeDualWeyl" -> "Formalism.RankGapBounds";
+	"Formalism.SelfDualUnimodular"	[fillcolor="#cfe8ff",
+		label="Formalism/\nSelfDualUnimodular\n38 theorems"];
+	"Formalism.SatakeDualWeyl" -> "Formalism.SelfDualUnimodular";
+	"Formalism.SelfDualUnimodular" -> "Formalism.LocalToGlobal";
+	"Formalism.SharpRestriction" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.SharpRestriction" -> "Formalism.LogFactorialBounds";
+	"Formalism.ZeroFreeRegion"	[fillcolor="#cfe8ff",
+		label="Formalism/\nZeroFreeRegion\n102 theorems"];
+	"Formalism.SharpRestriction" -> "Formalism.ZeroFreeRegion";
+	"PositivityTheory.Representations"	[fillcolor="#fff3c4",
+		label="PositivityTheory/\nRepresentations\n1 theorems"];
+	"Formalism.SharpRestriction" -> "PositivityTheory.Representations";
+	"ReciprocityTheory.ResidueCardinality"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nResidueCardinality\n1 theorems"];
+	"Formalism.SharpRestriction" -> "ReciprocityTheory.ResidueCardinality";
+	"ReciprocityTheory.ThetaQuasiPeriods"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nThetaQuasiPeriods\n40 theorems"];
+	"Formalism.SharpRestriction" -> "ReciprocityTheory.ThetaQuasiPeriods";
+	"Formalism.SizeWindowBrackets"	[fillcolor="#cfe8ff",
+		label="Formalism/\nSizeWindowBrackets\n317 theorems"];
+	"Formalism.SizeWindowBrackets" -> "Development.AbelianVarietyTheory";
+	"Formalism.SmithDeterminants"	[fillcolor="#cfe8ff",
+		label="Formalism/\nSmithDeterminants\n1 theorems"];
+	"Formalism.SmithDeterminants" -> "Formalism.MahlerMeasure";
+	"Formalism.Statement"	[fillcolor="#cfe8ff",
+		label="Formalism/\nStatement\n1 theorems"];
+	"Formalism.Statement" -> "Development.AutomorphicArithmetic";
+	"Formalism.StatementOC"	[fillcolor="#cfe8ff",
+		label="Formalism/\nStatementOC\n0 theorems"];
+	"Formalism.StatementOC" -> "Development.AutomorphicArithmetic";
+	"Formalism.SubspaceCounting"	[fillcolor="#cfe8ff",
+		label="Formalism/\nSubspaceCounting\n63 theorems"];
+	"Formalism.SubspaceCounting" -> "Formalism.GrowthSums";
+	"Formalism.SuccessiveMinima"	[fillcolor="#cfe8ff",
+		label="Formalism/\nSuccessiveMinima\n7 theorems"];
+	"Formalism.SuccessiveMinima" -> "Formalism.HermitianLattices";
+	"Formalism.TameInertiaTowers"	[fillcolor="#cfe8ff",
+		label="Formalism/\nTameInertiaTowers\n70 theorems"];
+	"Formalism.TameInertiaTowers" -> "Development.AbelianVarietyTheory";
+	"Formalism.ThetaLiftIndependence" -> "Development.AbelianVarietyTheory";
+	"Formalism.ThetaLogCoordinates"	[fillcolor="#cfe8ff",
+		label="Formalism/\nThetaLogCoordinates\n1,991 theorems"];
+	"Formalism.ThetaLogCoordinates" -> "Development.AbelianVarietyTheory";
+	"Formalism.ThetaSupremumBounds" -> "Development.AbelianVarietyTheory";
+	"Formalism.ThickAverageLoss" -> "Development.AutomorphicArithmetic";
+	"Formalism.ThickAverageLoss" -> "Formalism.SizeWindowBrackets";
+	"Formalism.TorsionNormIteration" -> "Development.AbelianVarietyTheory";
+	"Formalism.TowerValuationBounds"	[fillcolor="#cfe8ff",
+		label="Formalism/\nTowerValuationBounds\n5 theorems"];
+	"Formalism.TowerValuationBounds" -> "Formalism.LocalToGlobal";
+	"Formalism.TruncatedSeriesCounting"	[fillcolor="#cfe8ff",
+		label="Formalism/\nTruncatedSeriesCounting\n56 theorems"];
+	"Formalism.TruncatedSeriesCounting" -> "Formalism.AdmissibleDesigns";
+	"Formalism.UnipotentAdelicQuotients"	[fillcolor="#cfe8ff",
+		label="Formalism/\nUnipotentAdelicQuotients\n35 theorems"];
+	"Formalism.UnipotentAdelicQuotients" -> "CompanionTheory.AutomorphicTheory";
+	"Formalism.WachLatticeTwists"	[fillcolor="#cfe8ff",
+		label="Formalism/\nWachLatticeTwists\n243 theorems"];
+	"Formalism.WachLatticeTwists" -> "Development.AbelianVarietyTheory";
+	"Formalism.WeaklyAdmissibleFiltrations"	[fillcolor="#cfe8ff",
+		label="Formalism/\nWeaklyAdmissibleFiltrations\n71 theorems"];
+	"Formalism.WeaklyAdmissibleFiltrations" -> "Development.AbelianVarietyTheory";
+	"Formalism.WindowSums" -> "Formalism.EisensteinCokernelLengths";
+	"Formalism.WindowSums" -> "Formalism.GaussValuationBounds";
+	"Formalism.WindowSums" -> "Formalism.LagrangeIdealLifts";
+	"Formalism.YangianSpanCharacter"	[fillcolor="#cfe8ff",
+		label="Formalism/\nYangianSpanCharacter\n21 theorems"];
+	"Formalism.YangianSpanCharacter" -> "Development.AbelianVarietyTheory";
+	"Formalism.ZeroFreeRegion" -> "Development.AbelianVarietyTheory";
+	"Formalism.ZetaNonvanishing" -> "Formalism.LandauZeroFreeBounds";
+	"GroundTheory.ArithmeticGeometry"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nArithmeticGeometry\n1,612 theorems"];
+	"GroundTheory.ArithmeticGeometry" -> "CompanionTheory.AutomorphicTheory";
+	"GroundTheory.AutomorphicForms"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nAutomorphicForms\n6,331 theorems"];
+	"GroundTheory.AutomorphicForms" -> "CompanionTheory.AutomorphicTheory";
+	"GroundTheory.AutomorphicForms" -> "Formalism.DoubleCosetMeasures";
+	"GroundTheory.PowerSubgroups"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nPowerSubgroups\n11 theorems"];
+	"GroundTheory.AutomorphicForms" -> "GroundTheory.PowerSubgroups";
+	"GroundTheory.Brauer"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nBrauer\n31 theorems"];
+	"GroundTheory.Brauer" -> "Development.AbelianVarietyTheory";
+	"GroundTheory.FunctionField"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nFunctionField\n146 theorems"];
+	"GroundTheory.FunctionField" -> "Development.AbelianVarietyTheory";
+	"GroundTheory.GlobalFields"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nGlobalFields\n3,967 theorems"];
+	"GroundTheory.GlobalFields" -> "CompanionTheory.AutomorphicTheory";
+	"GroundTheory.GlobalFields" -> "Formalism.SubspaceCounting";
+	"GroundTheory.IdeleRoots"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nIdeleRoots\n52 theorems"];
+	"GroundTheory.GlobalFields" -> "GroundTheory.IdeleRoots";
+	"ReciprocityTheory.Chebotarev"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nChebotarev\n9 theorems"];
+	"GroundTheory.GlobalFields" -> "ReciprocityTheory.Chebotarev";
+	"GroundTheory.HeightsAndTheta"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nHeightsAndTheta\n16,840 theorems"];
+	"GroundTheory.HeightsAndTheta" -> "Formalism.BranchSandwichDivisors";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.DropLevelBounds";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.FockGram";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.GaussJetBounds";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.LandauZeroFreeBounds";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.LatticeSlopes";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.MahlerMeasure";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.NormUnitaryBounds";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.SuccessiveMinima";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.TruncatedSeriesCounting";
+	"GroundTheory.HeightsAndTheta" -> "Formalism.UnipotentAdelicQuotients";
+	"ReciprocityTheory.AdicCompleteness"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nAdicCompleteness\n6 theorems"];
+	"GroundTheory.HeightsAndTheta" -> "ReciprocityTheory.AdicCompleteness";
+	"ReciprocityTheory.GaloisValuations"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nGaloisValuations\n75 theorems"];
+	"GroundTheory.HeightsAndTheta" -> "ReciprocityTheory.GaloisValuations";
+	"ReciprocityTheory.ReducedBases"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nReducedBases\n41 theorems"];
+	"GroundTheory.HeightsAndTheta" -> "ReciprocityTheory.ReducedBases";
+	"GroundTheory.IdeleRoots" -> "CompanionTheory.RealGroups";
+	"GroundTheory.LocalFields"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nLocalFields\n2,003 theorems"];
+	"GroundTheory.LocalFields" -> "CompanionTheory.AutomorphicTheory";
+	"GroundTheory.PAdicHodge"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nPAdicHodge\n1,469 theorems"];
+	"GroundTheory.PAdicHodge" -> "CompanionTheory.AutomorphicTheory";
+	"GroundTheory.PowerSubgroups" -> "Formalism.PeriodIntegrals";
+	"GroundTheory.ProfiniteCohomology"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nProfiniteCohomology\n4,050 theorems"];
+	"GroundTheory.ProfiniteCohomology" -> "CompanionTheory.AutomorphicTheory";
+	"GroundTheory.TateCohomology"	[fillcolor="#d9f2d0",
+		label="GroundTheory/\nTateCohomology\n427 theorems"];
+	"GroundTheory.ProfiniteCohomology" -> "GroundTheory.TateCohomology";
+	"GroundTheory.TateCohomology" -> "Development.AbelianVarietyTheory";
+	Lemmata	[fillcolor="#e3dcf5",
+		label="Lemmata\n145 theorems"];
+	Lemmata -> "CompanionTheory.HarishChandraModules";
+	Lemmata -> "Formalism.CyclotomicNorms";
+	Lemmata -> "Formalism.FormalGroupWitt";
+	Lemmata -> "Formalism.HyperbolicPlaceProducts";
+	Lemmata -> "Formalism.PadicSubsetSums";
+	Lemmata -> "Formalism.TameInertiaTowers";
+	Lemmata -> "Formalism.ThetaLogCoordinates";
+	Lemmata -> "GroundTheory.LocalFields";
+	"ReciprocityTheory.CommutativeAlgebra"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nCommutativeAlgebra\n74 theorems"];
+	Lemmata -> "ReciprocityTheory.CommutativeAlgebra";
+	"PositivityTheory.AutomorphicForms"	[fillcolor="#fff3c4",
+		label="PositivityTheory/\nAutomorphicForms\n2,174 theorems"];
+	"PositivityTheory.AutomorphicForms" -> "Development.AbelianVarietyTheory";
+	"PositivityTheory.Representations" -> "Development.WeilBound";
+	"ReciprocityTheory.AdeleApproximation"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nAdeleApproximation\n7 theorems"];
+	"ReciprocityTheory.AdeleApproximation" -> "Formalism.LocalToGlobal";
+	"ReciprocityTheory.AdicCompleteness" -> "Development.AbelianVarietyTheory";
+	"ReciprocityTheory.AnalyticForms"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nAnalyticForms\n1,102 theorems"];
+	"ReciprocityTheory.AnalyticForms" -> "Development.AbelianVarietyTheory";
+	"ReciprocityTheory.Automorphisms"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nAutomorphisms\n24 theorems"];
+	"ReciprocityTheory.Automorphisms" -> "CompanionTheory.AutomorphicTheory";
+	"ReciprocityTheory.BasicDefinitions"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nBasicDefinitions\n0 theorems"];
+	"ReciprocityTheory.BasicDefinitions" -> "Development.AbelianVarietyTheory";
+	"ReciprocityTheory.BurnsideSurjectivity"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nBurnsideSurjectivity\n1 theorems"];
+	"ReciprocityTheory.BurnsideSurjectivity" -> "Development.DiscreteGroups";
+	"ReciprocityTheory.Chebotarev" -> "CompanionTheory.SpectralGeometry";
+	"ReciprocityTheory.ClassFieldTheory"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nClassFieldTheory\n220 theorems"];
+	"ReciprocityTheory.ClassFieldTheory" -> "Development.AbelianVarietyTheory";
+	"ReciprocityTheory.CommutativeAlgebra" -> "CompanionTheory.AutomorphicTheory";
+	"ReciprocityTheory.DualLattices"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nDualLattices\n579 theorems"];
+	"ReciprocityTheory.DualLattices" -> "Development.ResolutionOfSingularities";
+	"ReciprocityTheory.EigenFrames" -> "Formalism.LocalToGlobal";
+	"ReciprocityTheory.GaloisValuations" -> "Formalism.AdicCompletionExports";
+	"ReciprocityTheory.GroupCohomology"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nGroupCohomology\n22 theorems"];
+	"ReciprocityTheory.GaloisValuations" -> "ReciprocityTheory.GroupCohomology";
+	"ReciprocityTheory.Hypotheses"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nHypotheses\n11 theorems"];
+	"ReciprocityTheory.GaloisValuations" -> "ReciprocityTheory.Hypotheses";
+	"ReciprocityTheory.GeneralLinearIntegers" -> "Development.AbelianVarietyTheory";
+	"ReciprocityTheory.GeometryOfNumbers"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nGeometryOfNumbers\n167 theorems"];
+	"ReciprocityTheory.GeometryOfNumbers" -> "Development.AbelianVarietyTheory";
+	"ReciprocityTheory.GroupCohomology" -> "Development.WeilBound";
+	"ReciprocityTheory.NeutralLocalFields"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nNeutralLocalFields\n119 theorems"];
+	"ReciprocityTheory.Hypotheses" -> "ReciprocityTheory.NeutralLocalFields";
+	"ReciprocityTheory.L2DbarEstimates"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nL2DbarEstimates\n617 theorems"];
+	"ReciprocityTheory.L2DbarEstimates" -> "CompanionTheory.HarishChandraModules";
+	"ReciprocityTheory.NeutralLocalFields" -> "Development.DiscreteGroups";
+	"ReciprocityTheory.NeutralLocalFields" -> "Formalism.ConjugateSelfDual";
+	"ReciprocityTheory.NeutralLocalFields" -> "Formalism.GaloisCohomology";
+	"ReciprocityTheory.ReducedBases" -> "Development.AbelianVarietyTheory";
+	"ReciprocityTheory.ReductiveGroups"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nReductiveGroups\n16,862 theorems"];
+	"ReciprocityTheory.ReductiveGroups" -> "CompanionTheory.ThickeningEstimates";
+	"ReciprocityTheory.ReductiveGroups" -> "Development.EtaleCohomology";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.AlgebraicWeights";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.CharacterColumnKernels";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.DegreeFormula";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.FilteredPoleLength";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.FormalDegreeBessel";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.FrobeniusOrbits";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.GradedWeylDivisibility";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.JumpKernelCokernel";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.LatticeTheta";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.LocalRingCardinality";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.LogFactorialIndices";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.MirabolicMackeyTheory";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.MoebiusJetDuality";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.QuotientMetricDivisors";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.RealPlaceAnalysis";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.SatakeDualWeyl";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.WachLatticeTwists";
+	"ReciprocityTheory.ReductiveGroups" -> "Formalism.WeaklyAdmissibleFiltrations";
+	"ReciprocityTheory.ReductiveGroups" -> "GroundTheory.ArithmeticGeometry";
+	"ReciprocityTheory.ReductiveGroups" -> "GroundTheory.FunctionField";
+	"ReciprocityTheory.ReductiveGroups" -> "GroundTheory.GlobalFields";
+	"ReciprocityTheory.ReductiveGroups" -> "GroundTheory.PAdicHodge";
+	"ReciprocityTheory.ReductiveGroups" -> "GroundTheory.ProfiniteCohomology";
+	"ReciprocityTheory.ReductiveGroups" -> "ReciprocityTheory.AdeleApproximation";
+	"ReciprocityTheory.ReductiveGroups" -> "ReciprocityTheory.Automorphisms";
+	"ReciprocityTheory.ReductiveGroups" -> "ReciprocityTheory.DualLattices";
+	"ReciprocityTheory.SemistableReduction"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nSemistableReduction\n601 theorems"];
+	"ReciprocityTheory.ReductiveGroups" -> "ReciprocityTheory.SemistableReduction";
+	"ReciprocityTheory.ThetaSummability"	[fillcolor="#f5dcef",
+		label="ReciprocityTheory/\nThetaSummability\n22 theorems"];
+	"ReciprocityTheory.ReductiveGroups" -> "ReciprocityTheory.ThetaSummability";
+	"ReciprocityTheory.ResidueCardinality" -> "ReciprocityTheory.ClassFieldTheory";
+	"ReciprocityTheory.SemistableReduction" -> "Formalism.FlagUnipotentLattices";
+	"ReciprocityTheory.SemistableReduction" -> "Formalism.GL3MeanSquares";
+	"ReciprocityTheory.SemistableReduction" -> "Formalism.HermitianCurvature";
+	"ReciprocityTheory.SemistableReduction" -> "Formalism.PieriBlockIdeals";
+	"ReciprocityTheory.SemistableReduction" -> "GroundTheory.AutomorphicForms";
+	"ReciprocityTheory.SemistableReduction" -> Lemmata;
+	"ReciprocityTheory.SemistableReduction" -> "PositivityTheory.AutomorphicForms";
+	"ReciprocityTheory.SemistableReduction" -> "ReciprocityTheory.AnalyticForms";
+	"ReciprocityTheory.SemistableReduction" -> "ReciprocityTheory.GeometryOfNumbers";
+	"ReciprocityTheory.SemistableReduction" -> "ReciprocityTheory.L2DbarEstimates";
+	"ReciprocityTheory.ThetaQuasiPeriods" -> "GroundTheory.HeightsAndTheta";
+	"ReciprocityTheory.ThetaQuasiPeriods" -> "ReciprocityTheory.ReductiveGroups";
+	"ReciprocityTheory.ThetaSummability" -> "CompanionTheory.SpectralGeometry";
+	Statements	[fillcolor="#eeeeee",
+		label="Statements\n0 theorems"];
+	Statements -> Main;
+}

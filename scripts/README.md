@@ -81,6 +81,17 @@ large pictures: their PDFs exceed the 14,400 pt page limit of Adobe Acrobat and
 may not open there. Open the SVG in a web browser instead, zoom in, and use the
 browser's search to find a theorem by name.
 
+## The Riemann Hypothesis
+
+[`rh/`](rh/) applies the same method to
+[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis),
+a proof of 60,928 Lean files and 568,159 theorems. It is too large for one
+theorem-level picture, so there are three: `riemannHypothesis` (the 395 theorems
+nearest the main theorem) and `riemannHypothesis_folders` (one box per source
+folder), plus `riemannHypothesis_blocks`, the proof cut into self-contained
+sub-proofs. All three are under `en/` and `zh/` like the others; see
+[rh/README.md](rh/README.md).
+
 ## What is in this folder
 
 | Folder | Contents |
@@ -94,6 +105,7 @@ browser's search to find a theorem by name.
 | `proofs.md`, `proofs-from-code.md`, `leaves.md` | Explanations of the proofs: from the paper, from the code alone, and the simplest leaf theorems (each with a `.zh.md` Chinese version). |
 | `duplicates.tsv` | Pairs of theorems with identical statements, identical definitions, and one-line corollaries (from `Duplicates.lean`). |
 | `library_use.tsv` | Which Mathlib constants each Lean file uses (from `LibraryUse.lean`). |
+| `rh` | Scripts, notes and explorer website for the Riemann Hypothesis graphs. |
 
 The PNGs are at most 8,000 pixels on the longer side. That keeps the text
 legible in the four small graphs; the eight large ones are scaled down so far

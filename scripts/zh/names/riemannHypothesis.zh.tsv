@@ -1,0 +1,395 @@
+Claim.LFunction_eq_zero_iff_primitiveCharacter	Claim · L 函数 = 零 ⇔ 本原特征标
+Claim.prim_zero	Claim · prim 零
+Claim.eulerFactors_ne_zero	Claim · 欧拉因子 ≠ 零
+Claim.gamma_ne_zero	Claim · Γ ≠ 零
+Claim.prim_reflect	Claim · prim reflect
+Claim.strip	Claim · 带形
+Claim.zeta	Claim · zeta
+LFunction_eq_zero_re	L 函数 = 零 实部
+riemannHypothesis	riemann Hypothesis
+DiscreteGroups.sglob.DzLc.isCuspidal_of_inflates	离散群 · sglob · Dz Lc · 是 Cuspidal 由 inflates
+UpperTheory.Zero.LLC.recTExists	上 Theory · 零 · LLC · rec T 存在
+Formalism.BasicNotions.GK_le	Formalism · Basic Notions · GK ≤
+GlobalTheory.Pst.mem_Dst_resTo	整体 Theory · Pst · ∈ Dst res 到
+SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt	自身交体积估计 · ⊤ Covol Slim 2 use 交错 交错
+Formalism.BasicNotions.Loc.OC_l_not_unit	Formalism · Basic Notions · Loc · OC l 非 单位
+Formalism.BasicNotions.Loc.factOC	Formalism · Basic Notions · Loc · fact OC
+UpperTheory.Gal.Int.Geo.geoOne_holds	上 Theory · Gal · Int · Geo · geo 一 holds
+UpperTheory.Gal.Int.galoisLocalGlobalStrong_of_geometry_lift	上 Theory · Gal · Int · 伽罗瓦局部整体强 由 geometry 提升
+UpperTheory.Lit.every_character_of_theta_integrals_local_matching	上 Theory · Lit · every 特征标 由 θ 积分 局部 匹配
+UpperTheory.LiteratureTheorems.ar_degree_of_literature	上 Theory · 文献 Theorems · ar 次数 由 文献
+UpperTheory.LiteratureTheorems.fargues_exact_of_literature	上 Theory · 文献 Theorems · fargues 精确 由 文献
+UpperTheory.LiteratureTheorems.grothendieck_deformation_of_literature	上 Theory · 文献 Theorems · grothendieck deformation 由 文献
+UpperTheory.LiteratureTheorems.local_langlands_gl_recT_exists_of_literature	上 Theory · 文献 Theorems · 局部 langlands gl rec T 存在 由 文献
+UpperTheory.LiteratureTheorems.nef_rr_of_literature	上 Theory · 文献 Theorems · nef rr 由 文献
+UpperTheory.LiteratureTheorems.poincare_lelong_inv_of_literature	上 Theory · 文献 Theorems · poincare lelong 逆 由 文献
+UpperTheory.LiteratureTheorems.point_separation_pair_of_literature	上 Theory · 文献 Theorems · 点 分离 对 由 文献
+UpperTheory.LiteratureTheorems.principalisation_char_zero_of_literature	上 Theory · 文献 Theorems · principalisation 特征 零 由 文献
+UpperTheory.LiteratureTheorems.published_results_arithmetic	上 Theory · 文献 Theorems · published results 算术
+UpperTheory.LiteratureTheorems.published_results_eigen	上 Theory · 文献 Theorems · published results 本征
+UpperTheory.LiteratureTheorems.published_results_first	上 Theory · 文献 Theorems · published results 第一
+UpperTheory.LiteratureTheorems.resolution_char_zero_of_literature	上 Theory · 文献 Theorems · 分解 特征 零 由 文献
+UpperTheory.LiteratureTheorems.semi_abelian_lie_seminegative_of_literature	上 Theory · 文献 Theorems · semi 交换 李 seminegative 由 文献
+UpperTheory.LiteratureTheorems.siegel_toroidal_integral_of_literature	上 Theory · 文献 Theorems · siegel toroidal 积分 由 文献
+UpperTheory.LiteratureTheorems.theta_integrals_agree_and_local_matching_of_literature	上 Theory · 文献 Theorems · θ 积分 一致 且 局部 匹配 由 文献
+UpperTheory.LiteratureTheorems.toroidal_for_fan_ks_of_literature	上 Theory · 文献 Theorems · toroidal 对于 fan ks 由 文献
+UpperTheory.LiteratureTheorems.zarhin_statement	上 Theory · 文献 Theorems · zarhin 陈述
+UpperTheory.One.Join.automorphic_window_of_inputs	上 Theory · 一 · Join · automorphic 窗口 由 inputs
+Formalism.BasicNotions.Loc.maxUnramifiedScalarTower	Formalism · Basic Notions · Loc · 最大 Unramified 标量 Tower
+Formalism.BasicNotions.LocPrime.PD_actB	Formalism · Basic Notions · Loc 素 · PD act B
+Formalism.BasicNotions.LocPrime.PD_χ	Formalism · Basic Notions · Loc 素 · PD χ
+Formalism.BasicNotions.LocPrime.period_datum_t_eq	Formalism · Basic Notions · Loc 素 · period 数据 t =
+Formalism.BasicNotions.LocPrime.ζQ_succ	Formalism · Basic Notions · Loc 素 · ζQ 后继
+Formalism.BasicNotions.LocPrime.χQ_cyc	Formalism · Basic Notions · Loc 素 · χQ cyc
+GlobalTheory.Pst.end_ext	整体 Theory · Pst · 末尾 外延
+GlobalTheory.Pst.stHom_C	整体 Theory · Pst · st 同态 C
+GlobalTheory.Pst.stHom_X	整体 Theory · Pst · st 同态 X
+GlobalTheory.Pst.stHom_ext	整体 Theory · Pst · st 同态 外延
+Formalism.BasicNotions.LocBridge.j_E	Formalism · Basic Notions · Loc 桥接 · j E
+GlobalTheory.Pst.localPrime_galoisAction_periodT	整体 Theory · Pst · 局部素 伽罗瓦作用 period T
+GlobalTheory.Pst.isPrimitiveRoot_zeta	整体 Theory · Pst · 是本原根 zeta
+GlobalTheory.Pst.kummer_mul	整体 Theory · Pst · kummer ×
+Formalism.BasicNotions.LocRings.tQdR	Formalism · Basic Notions · Loc Rings · t Qd R
+Formalism.BasicNotions.LocRings.tUB	Formalism · Basic Notions · Loc Rings · t UB
+Formalism.BasicNotions.maxUnramifiedCrisTower	Formalism · Basic Notions · 最大 Unramified Cris Tower
+Formalism.BasicNotions.factSqActMul	Formalism · Basic Notions · fact 平方 Act ×
+UpperTheory.BaseChangeIdentities.baseChangeN	上 Theory · 基改变恒等式 · 基改变 N
+UpperTheory.TP.tLift_of_tools_k	上 Theory · TP · t 提升 由 tools k
+Formalism.BasicNotions.factSqStable	Formalism · Basic Notions · fact 平方稳定
+Formalism.BasicNotions.maxUnramifiedDeRhamTower	Formalism · Basic Notions · 最大 Unramified De Rham Tower
+Formalism.GaloisCohomology.instDiscreteTopologyQZ	Formalism · 伽罗瓦 Cohomology · 实例离散拓扑 QZ
+Formalism.GaloisCohomology.instIsTopologicalAddGroupQZ	Formalism · 伽罗瓦 Cohomology · 实例是拓扑+群 QZ
+Formalism.L2.Host.exists_unif	Formalism · L 2 · 宿主 · 存在 unif
+Formalism.Per.instFactNotIsUnitOCCast	Formalism · Per · 实例 Fact 非是单位 OC 类型转换
+Formalism.Per.instIsAdicCompleteOCSpanSingletonSetCast	Formalism · Per · 实例是 Adic 完备 OC 张成单点集集合类型转换
+Formalism.UG.cT_mul	Formalism · UG · c T ×
+Formalism.UG.cT_one	Formalism · UG · c T 一
+Formalism.WeaklyAdmissibleFiltrations.PeriodData.t_act	Formalism · 弱容许 Filtrations · Period 数据 · t act
+GlobalTheory.AdSplit.exists_adele_equiv	整体 Theory · Ad 分裂 · 存在 adele 等价
+GlobalTheory.UnitaryHeckeBaseChange.bijective_toAdele	整体 Theory · 酉 Hecke 基改变 · 双射 到 Adele
+GlobalTheory.AdeleBaseChange.adMap_algebraMap	整体 Theory · Adele 基改变 · ad 映射 代数映射
+GlobalTheory.LFun.toFinAd_bijective	整体 Theory · L 函数 · 到有限 Ad 双射
+GlobalTheory.AdeleBaseChange.exists_locMap	整体 Theory · Adele 基改变 · 存在 loc 映射
+GlobalTheory.AdeleBaseChange.locMap_int	整体 Theory · Adele 基改变 · loc 映射 int
+GlobalTheory.UnitaryHeckeBaseChange.exists_finite	整体 Theory · 酉 Hecke 基改变 · 存在 有限
+GlobalTheory.AdelicU.af_ext	整体 Theory · Adelic U · af 外延
+GlobalTheory.ThK.Dbl.hgtEx_of_k	整体 Theory · Th K · Dbl · hgt Ex 由 k
+GlobalTheory.ThK.Dbl.stab2Cpt_k	整体 Theory · Th K · Dbl · stab 2 Cpt k
+GlobalTheory.AdelicU.algebraMap_mem_comap_splitInt	整体 Theory · Adelic U · 代数映射 ∈ 拉回映射 分裂 Int
+GlobalTheory.AdelicU.splitPrime_under	整体 Theory · Adelic U · 分裂素 之下
+GlobalTheory.AdelicU.apply_coe_mem	整体 Theory · Adelic U · 作用于 强制转换 ∈
+GlobalTheory.AdelicU.intLoc_induction	整体 Theory · Adelic U · int Loc 归纳
+UpperTheory.TP.tools_holds_k	上 Theory · TP · tools holds k
+GlobalTheory.AdelicU.splitProj_tmul	整体 Theory · Adelic U · 分裂 Proj 张量积
+GlobalTheory.AdelicU.splitVec_add	整体 Theory · Adelic U · 分裂向量 +
+GlobalTheory.AdelicU.splitVec_smul	整体 Theory · Adelic U · 分裂向量 数乘
+GlobalTheory.AdelicU.tmul_mem_intLoc	整体 Theory · Adelic U · 张量积 ∈ int Loc
+GlobalTheory.AdelicUnitaryTop.properSpace_adicCompletion	整体 Theory · Adelic 酉⊤ · 真空间 adic 完备化
+GlobalTheory.LocalData.isLocalField	整体 Theory · 局部数据 · 是局部域
+GlobalTheory.AdelicUnitaryTop.t2Space_infiniteAdeleRing_of_numberField_field	整体 Theory · Adelic 酉⊤ · t 2 空间 无限 Adele 环 由 数域 域
+GlobalTheory.CuspRep.CuspSub.Iso.hasInfChar	整体 Theory · Cusp Rep · Cusp 子 · 同构 · 有下确界特征
+GlobalTheory.CuspRep.CuspSub.cusp	整体 Theory · Cusp Rep · Cusp 子 · cusp
+GlobalTheory.CuspRep.CuspSub.irred	整体 Theory · Cusp Rep · Cusp 子 · irred
+GlobalTheory.CuspRep.CuspSub.iso_cap	整体 Theory · Cusp Rep · Cusp 子 · 同构 交
+GlobalTheory.CuspRep.CuspSub.ne_bot	整体 Theory · Cusp Rep · Cusp 子 · ≠ ⊥
+GlobalTheory.CuspRep.CuspSub.stable	整体 Theory · Cusp Rep · Cusp 子 · 稳定
+GlobalTheory.CuspRep.IsAutForm.mulChi	整体 Theory · Cusp Rep · 是自同构形式 · × Chi
+GlobalTheory.CuspRep.IsCuspForm.mulChi	整体 Theory · Cusp Rep · 是 Cusp 形式 · × Chi
+GlobalTheory.CuspRep.SmIrr.irred	整体 Theory · Cusp Rep · Sm Irr · irred
+GlobalTheory.CuspRep.SmIrr.smooth	整体 Theory · Cusp Rep · Sm Irr · 光滑
+GlobalTheory.CuspRep.act_mulChi	整体 Theory · Cusp Rep · act × Chi
+GlobalTheory.CuspRep.chart_lieD	整体 Theory · Cusp Rep · chart 李 D
+GlobalTheory.CuspRep.lieD_mem_Sm	整体 Theory · Cusp Rep · 李 D ∈ Sm
+GlobalTheory.CuspRep.chart_mul_chi	整体 Theory · Cusp Rep · chart × chi
+GlobalTheory.CuspRep.mul_chi_mem_Sm	整体 Theory · Cusp Rep · × chi ∈ Sm
+GlobalTheory.CuspRep.chart_rt_fin	整体 Theory · Cusp Rep · chart rt 有限
+GlobalTheory.CuspRep.rt_mem_Sm	整体 Theory · Cusp Rep · rt ∈ Sm
+GlobalTheory.CuspRep.chart_rt_inf	整体 Theory · Cusp Rep · chart rt 下确界
+GlobalTheory.CuspRep.conjLoc_spec	整体 Theory · Cusp Rep · 共轭 Loc 规范
+GlobalTheory.CuspRep.conjPl_conjSrc	整体 Theory · Cusp Rep · 共轭 Pl 共轭 Src
+GlobalTheory.CuspRep.conjSrc_injective	整体 Theory · Cusp Rep · 共轭 Src 单射
+GlobalTheory.CuspRep.contDiffAt_chart	整体 Theory · Cusp Rep · 连续差在 chart
+GlobalTheory.CuspRep.differentiableAt_chart	整体 Theory · Cusp Rep · 可微在 chart
+GlobalTheory.CuspRep.contDiffAt_chi_det	整体 Theory · Cusp Rep · 连续差在 chi 行列式
+GlobalTheory.CuspRep.det_unip	整体 Theory · Cusp Rep · 行列式 unip
+GlobalTheory.CuspRep.lie_mulChi	整体 Theory · Cusp Rep · 李 × Chi
+GlobalTheory.CuspRep.infGL_mul_finGL	整体 Theory · Cusp Rep · 下确界 GL × 有限 GL
+GlobalTheory.CuspRep.isOpen_invSet	整体 Theory · Cusp Rep · 是开 逆集合
+GlobalTheory.CuspRep.rt_mulChi	整体 Theory · Cusp Rep · rt × Chi
+GlobalTheory.CuspRep.nilM_mul_self	整体 Theory · Cusp Rep · 空表 M × 自身
+GlobalTheory.GalOfCusp.adeleNorm_algebraMap	整体 Theory · Gal 由 Cusp · adele 范数 代数映射
+GlobalTheory.GalOfCusp.continuous_adeleNorm	整体 Theory · Gal 由 Cusp · 连续 adele 范数
+GlobalTheory.GalOfCusp.isCMExt_real	整体 Theory · Gal 由 Cusp · 是 CM 外延 实
+GlobalTheory.HeckeTensorRead.exists_infinite_equiv	整体 Theory · Hecke 张量读 · 存在 无限 等价
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.IsCMExtension.isCMField	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · 是 CM 扩张 · 是 CM 域
+GlobalTheory.UnitaryHeckeBaseChange.isCMExt_iff	整体 Theory · 酉 Hecke 基改变 · 是 CM 外延 ⇔
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.IsCMExtension.quadratic	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · 是 CM 扩张 · 二次
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.IsCMExtension.totallyComplex	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · 是 CM 扩张 · totally 复
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.IsCMExtension.totallyReal	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · 是 CM 扩张 · totally 实
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.adeleMap_algebraMap	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · adele 映射 代数映射
+GlobalTheory.UnitaryHeckeBaseChange.toAdele_incA	整体 Theory · 酉 Hecke 基改变 · 到 Adele inc A
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.continuous_finiteCompletionMap	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · 连续 有限完备化映射
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.finiteCompletionMap_mapsTo	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · 有限完备化映射 映射到
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.finiteCompletionMap_coe	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · 有限完备化映射 强制转换
+GlobalTheory.UnitaryHeckeBaseChange.continuous_infiniteAdeleMap	整体 Theory · 酉 Hecke 基改变 · 连续 无限 Adele 映射
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.isCMExtension_maximalRealSubfield	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · 是 CM 扩张 极大实 Subfield
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.liesOver_comap	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · lies 之上 拉回映射
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.liesOver_under	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · lies 之上 之下
+GlobalTheory.IndefiniteRowSideFullHecke.UnitaryHeckeCharacterIdele.tendsto_under	整体 Theory · Indefinite 行侧完整 Hecke · 酉 Hecke 特征标 Idele · 趋于 之下
+GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.borelFv	整体 Theory · Indefinite 行侧完整 Hecke · Weil 张量模型 · 博雷尔 Fv
+GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.lcAdele	整体 Theory · Indefinite 行侧完整 Hecke · Weil 张量模型 · lc Adele
+GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.locField	整体 Theory · Indefinite 行侧完整 Hecke · Weil 张量模型 · loc 域
+GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.modTop	整体 Theory · Indefinite 行侧完整 Hecke · Weil 张量模型 · 模⊤
+GlobalTheory.LocGL.IrrGL.isCusp_of	整体 Theory · Loc GL · Irr GL · 是 Cusp 由
+GlobalTheory.LocGL.IrrGL.isCusp_ofChar	整体 Theory · Loc GL · Irr GL · 是 Cusp 由特征
+GlobalTheory.LocGL.isIrreducible_twist	整体 Theory · Loc GL · 是不可约 扭转
+GlobalTheory.LocLanglands.exists_isLExt	整体 Theory · Loc Langlands · 存在 是 L 外延
+UpperTheory.Zero.LLC.CuspT.irr	上 Theory · 零 · LLC · Cusp T · irr
+UpperTheory.Zero.LLC.CuspT.one	上 Theory · 零 · LLC · Cusp T · 一
+UpperTheory.Zero.LLC.CuspT.type	上 Theory · 零 · LLC · Cusp T · 类型
+UpperTheory.Zero.LLC.Pr.exh	上 Theory · 零 · LLC · Pr · exh
+UpperTheory.Zero.LLC.Pr.multi	上 Theory · 零 · LLC · Pr · 多
+UpperTheory.Zero.LLC.cuspEx	上 Theory · 零 · LLC · cusp Ex
+UpperTheory.Zero.LLC.extDim	上 Theory · 零 · LLC · 外延维数
+GlobalTheory.LocGL.isSmoothChar_absPow	整体 Theory · Loc GL · 是光滑特征 绝对值幂
+GlobalTheory.LocLanglands.IsLocalArtin.cont	整体 Theory · Loc Langlands · 是局部 Artin · 连续
+GlobalTheory.LocLanglands.IsLocalArtin.smooth	整体 Theory · Loc Langlands · 是局部 Artin · 光滑
+UpperTheory.Zero.LLC.extDual	上 Theory · 零 · LLC · 外延对偶
+UpperTheory.Zero.LLC.extTw	上 Theory · 零 · LLC · 外延 Tw
+UpperTheory.Zero.LLC.Ext.h'	上 Theory · 零 · LLC · 外延 · h
+UpperTheory.Zero.LLC.Ext.nE	上 Theory · 零 · LLC · 外延 · n E
+UpperTheory.Zero.LLC.Ext.tE	上 Theory · 零 · LLC · 外延 · t E
+UpperTheory.Zero.LLC.artEx	上 Theory · 零 · LLC · art Ex
+GlobalTheory.Mem.Chr.conjPl_iff_comap	整体 Theory · ∈ · Chr · 共轭 Pl ⇔ 拉回映射
+GlobalTheory.Mem.Chr.existsUnique_conjPl	整体 Theory · ∈ · Chr · 存在唯一 共轭 Pl
+GlobalTheory.Mem.Chr.conjPl_symm_iff	整体 Theory · ∈ · Chr · 共轭 Pl 对称 ⇔
+GlobalTheory.Mem.Chr.continuous_of_valued_eq	整体 Theory · ∈ · Chr · 连续 由 值 =
+GlobalTheory.Mem.Chr.exists_finCompl_map	整体 Theory · ∈ · Chr · 存在 有限补集 映射
+GlobalTheory.MemLoc.exists_frobenius_Kur	整体 Theory · ∈ Loc · 存在 frobenius Kur
+GlobalTheory.Pst.frobUr_bijective	整体 Theory · Pst · frob Ur 双射
+GlobalTheory.Pst.phiD_mulD	整体 Theory · Pst · φ D × D
+GlobalTheory.Pst.weilToGK_frobUr	整体 Theory · Pst · weil 到 GK frob Ur
+GlobalTheory.PRep.smoothPart_stable	整体 Theory · P Rep · 光滑部分 稳定
+GlobalTheory.Pst.IsKummer.unique	整体 Theory · Pst · 是 Kummer · 唯一
+GlobalTheory.Pst.kummer_eq_zero_iff	整体 Theory · Pst · kummer = 零 ⇔
+GlobalTheory.Pst.IsPst.finite	整体 Theory · Pst · 是 Pst · 有限
+GlobalTheory.Pst.IsPst.finiteDimensional	整体 Theory · Pst · 是 Pst · 有限维
+GlobalTheory.Pst.actD_mulD	整体 Theory · Pst · act D × D
+GlobalTheory.Pst.weilD_mulD	整体 Theory · Pst · weil D × D
+GlobalTheory.Pst.coe_phiU	整体 Theory · Pst · 强制转换 φ U
+GlobalTheory.Pst.commute_actD_phiU	整体 Theory · Pst · 交换 act D φ U
+GlobalTheory.Pst.weilD_apply	整体 Theory · Pst · weil D 作用于
+GlobalTheory.Pst.conj_mem_GK	整体 Theory · Pst · 共轭 ∈ GK
+GlobalTheory.Pst.stRep_mem_Dpst	整体 Theory · Pst · st Rep ∈ Dpst
+GlobalTheory.Pst.mem_Dst	整体 Theory · Pst · ∈ Dst
+GlobalTheory.Pst.monV_mulV	整体 Theory · Pst · mon V × V
+GlobalTheory.Pst.monV_stRep	整体 Theory · Pst · mon V st Rep
+GlobalTheory.Pst.phiV_stRep	整体 Theory · Pst · φ V st Rep
+GlobalTheory.Pst.stRep_mulV	整体 Theory · Pst · st Rep × V
+GlobalTheory.Pst.exists_isKummer	整体 Theory · Pst · 存在 是 Kummer
+GlobalTheory.Pst.isKummer_kummer	整体 Theory · Pst · 是 Kummer kummer
+GlobalTheory.Pst.finiteDimensional_letter	整体 Theory · Pst · 有限维 字母
+GlobalTheory.Pst.finiteDimensional_wdSpace	整体 Theory · Pst · 有限维 wd 空间
+GlobalTheory.Pst.phiD_bijective	整体 Theory · Pst · φ D 双射
+GlobalTheory.Pst.isNilpotent_monD	整体 Theory · Pst · 是 Nilpotent mon D
+GlobalTheory.Pst.isNilpotent_wdN	整体 Theory · Pst · 是 Nilpotent wd N
+GlobalTheory.Pst.zeta_pow_eq_iff	整体 Theory · Pst · zeta 幂 = ⇔
+GlobalTheory.Pst.isSmooth_wdRho	整体 Theory · Pst · 是光滑 wd ρ
+GlobalTheory.Pst.isSmooth_weilD	整体 Theory · Pst · 是光滑 weil D
+GlobalTheory.Pst.kummer_one	整体 Theory · Pst · kummer 一
+GlobalTheory.Pst.monSt_actSt	整体 Theory · Pst · mon St act St
+GlobalTheory.Pst.phiSt_actSt	整体 Theory · Pst · φ St act St
+GlobalTheory.Pst.lRoot_ne_zero	整体 Theory · Pst · l 根 ≠ 零
+GlobalTheory.Pst.lRoot_pow	整体 Theory · Pst · l 根 幂
+GlobalTheory.Pst.lRoot_succ	整体 Theory · Pst · l 根 后继
+GlobalTheory.Pst.mem_Dpst	整体 Theory · Pst · ∈ Dpst
+GlobalTheory.Pst.mem_Dpst_of_commute	整体 Theory · Pst · ∈ Dpst 由 交换
+GlobalTheory.Pst.mulV_mem_Dpst	整体 Theory · Pst · × V ∈ Dpst
+GlobalTheory.Pst.monD_mulD	整体 Theory · Pst · mon D × D
+GlobalTheory.Pst.phiD_actD	整体 Theory · Pst · φ D act D
+GlobalTheory.Pst.phiD_injective	整体 Theory · Pst · φ D 单射
+GlobalTheory.Pst.mem_GK	整体 Theory · Pst · ∈ GK
+GlobalTheory.Pst.mem_GK_botExt	整体 Theory · Pst · ∈ GK ⊥外延
+GlobalTheory.Pst.mem_adjExt	整体 Theory · Pst · ∈ 相邻外延
+GlobalTheory.Pst.wdN_mk	整体 Theory · Pst · wd N 构造
+GlobalTheory.Pst.wdRho_wdN	整体 Theory · Pst · wd ρ wd N
+GlobalTheory.Pst.weilD_monD	整体 Theory · Pst · weil D mon D
+GlobalTheory.Pst.span_wdMk	整体 Theory · Pst · 张成 wd 构造
+GlobalTheory.Pst.wdMk_smul	整体 Theory · Pst · wd 构造 数乘
+GlobalTheory.Pst.wdMk_zero	整体 Theory · Pst · wd 构造 零
+GlobalTheory.Pst.phiD_pow_mulD	整体 Theory · Pst · φ D 幂 × D
+GlobalTheory.Pst.wd_ext	整体 Theory · Pst · wd 外延
+GlobalTheory.QNorm.finite_places_over	整体 Theory · Q 范数 · 有限 位置 之上
+GlobalTheory.SmGL.IrrRep.irr	整体 Theory · Sm GL · Irr Rep · irr
+GlobalTheory.SmGL.IrrRep.smooth	整体 Theory · Sm GL · Irr Rep · 光滑
+GlobalTheory.SmGL.IsSmoothChar.comp	整体 Theory · Sm GL · 是光滑特征 · 复合
+GlobalTheory.SmGL.IsSmoothChar.detChar	整体 Theory · Sm GL · 是光滑特征 · 行列式特征
+GlobalTheory.SmGL.Segment.isCusp_first	整体 Theory · Sm GL · 线段 · 是 Cusp 第一
+UpperTheory.Zero.LLC.extInj	上 Theory · 零 · LLC · 外延单射
+GlobalTheory.SmGL.blk_apply	整体 Theory · Sm GL · blk 作用于
+GlobalTheory.SmGL.mem_parab_iff	整体 Theory · Sm GL · ∈ parab ⇔
+GlobalTheory.SmGL.continuous_glDet	整体 Theory · Sm GL · 连续 gl 行列式
+GlobalTheory.SmGL.isIrreducible_ofChar	整体 Theory · Sm GL · 是不可约 由特征
+GlobalTheory.SmGL.isSmoothChar_of_isUnram	整体 Theory · Sm GL · 是光滑特征 由 是 Unram
+GlobalTheory.SmGL.isSmooth_ofChar_iff	整体 Theory · Sm GL · 是光滑 由特征 ⇔
+GlobalTheory.SmGL.isSmooth_of_nhds	整体 Theory · Sm GL · 是光滑 由 邻域
+GlobalTheory.SmGL.isSmooth_twist	整体 Theory · Sm GL · 是光滑 扭转
+GlobalTheory.SmGL.isUnram_absPow	整体 Theory · Sm GL · 是 Unram 绝对值幂
+GlobalTheory.SmGL.mem_parab	整体 Theory · Sm GL · ∈ parab
+GlobalTheory.SmGL.nabs_mul'	整体 Theory · Sm GL · nabs ×
+GlobalTheory.SmGL.nabs_pos'	整体 Theory · Sm GL · nabs 正
+GlobalTheory.SmGL.ofChar_apply	整体 Theory · Sm GL · 由特征 作用于
+GlobalTheory.SplitFlip.borel_GL	整体 Theory · 分裂翻转 · 博雷尔 GL
+GlobalTheory.SplitFlip.exists_isUnif	整体 Theory · 分裂翻转 · 存在 是 Unif
+GlobalTheory.SplitFlip.finite_Res	整体 Theory · 分裂翻转 · 有限 Res
+GlobalTheory.SplitFlip.locallyCompact_GL	整体 Theory · 分裂翻转 · 局部紧 GL
+UpperTheory.TP.tLift_holds_k	上 Theory · TP · t 提升 holds k
+GlobalTheory.UnitaryHeckeBaseChange.continuous_adeleEquiv_symm	整体 Theory · 酉 Hecke 基改变 · 连续 adele 等价 对称
+GlobalTheory.WeilDeligne.ActsAs.inv	整体 Theory · Weil Deligne · Acts 作为 · 逆
+GlobalTheory.WeilDeligne.Ine_le_Weil	整体 Theory · Weil Deligne · Ine ≤ Weil
+GlobalTheory.WeilDeligne.Weil_le_Dec	整体 Theory · Weil Deligne · Weil ≤ Dec
+GlobalTheory.WeilDeligne.deg_eq	整体 Theory · Weil Deligne · deg =
+GlobalTheory.WeilDeligne.mem_Weil_of_isFrob	整体 Theory · Weil Deligne · ∈ Weil 由 是 Frob
+GlobalTheory.WeilDeligne.ActsAs.mul	整体 Theory · Weil Deligne · Acts 作为 · ×
+GlobalTheory.WeilDeligne.IsSmooth.of_open	整体 Theory · Weil Deligne · 是光滑 · 由 开
+GlobalTheory.WeilDeligne.WDRep.Iso.charpoly_eq	整体 Theory · Weil Deligne · WD Rep · 同构 · charpoly =
+GlobalTheory.WeilDeligne.WDRep.Iso.finrank_eq	整体 Theory · Weil Deligne · WD Rep · 同构 · 有限秩 =
+GlobalTheory.WeilDeligne.WDRep.Iso.mono0	整体 Theory · Weil Deligne · WD Rep · 同构 · 单调 0
+GlobalTheory.WeilDeligne.WDRep.Iso.refl	整体 Theory · Weil Deligne · WD Rep · 同构 · 自反
+GlobalTheory.WeilDeligne.WDRep.Iso.symm	整体 Theory · Weil Deligne · WD Rep · 同构 · 对称
+GlobalTheory.WeilDeligne.WDRep.Iso.trans	整体 Theory · Weil Deligne · WD Rep · 同构 · 传递
+GlobalTheory.WeilDeligne.WDRep.comm	整体 Theory · Weil Deligne · WD Rep · 交换律
+GlobalTheory.WeilDeligne.WDRep.nilpotent	整体 Theory · Weil Deligne · WD Rep · nilpotent
+GlobalTheory.WeilDeligne.WDRep.semisimple	整体 Theory · Weil Deligne · WD Rep · semisimple
+GlobalTheory.WeilDeligne.WDRep.smooth	整体 Theory · Weil Deligne · WD Rep · 光滑
+GlobalTheory.WeilDeligne.deg_ineIncl	整体 Theory · Weil Deligne · deg ine Incl
+GlobalTheory.WeilDeligne.exists_pow_eq_pow_of_deg_eq	整体 Theory · Weil Deligne · 存在 幂 = 幂 由 deg =
+GlobalTheory.WeilDeligne.IsSmooth.of_le	整体 Theory · Weil Deligne · 是光滑 · 由 ≤
+GlobalTheory.WeilDeligne.WD.mk_eq_mk	整体 Theory · Weil Deligne · WD · 构造 = 构造
+GlobalTheory.WeilDeligne.WDRep.Iso.dual	整体 Theory · Weil Deligne · WD Rep · 同构 · 对偶
+GlobalTheory.WeilDeligne.IsSmooth.of_le₂	整体 Theory · Weil Deligne · 是光滑 · 由 ≤ ₂
+GlobalTheory.WeilDeligne.WDRep.Iso.sum	整体 Theory · Weil Deligne · WD Rep · 同构 · 和
+GlobalTheory.WeilDeligne.WDRep.Iso.tensor	整体 Theory · Weil Deligne · WD Rep · 同构 · 张量
+GlobalTheory.WeilDeligne.WDRep.Iso.twist	整体 Theory · Weil Deligne · WD Rep · 同构 · 扭转
+GlobalTheory.WeilDeligne.IsSmooth.of_trivial	整体 Theory · Weil Deligne · 是光滑 · 由 平凡
+GlobalTheory.WeilDeligne.exists_frobenius_semisimplification	整体 Theory · Weil Deligne · 存在 frobenius semisimplification
+GlobalTheory.WeilDeligne.isSmooth_unrChar	整体 Theory · Weil Deligne · 是光滑 unr 特征
+GlobalTheory.WeilDeligne.WD.sound	整体 Theory · Weil Deligne · WD · 可靠
+UpperTheory.Zero.LLC.typeIff	上 Theory · 零 · LLC · 类型⇔
+GlobalTheory.WeilDeligne.WDRep.comm_apply	整体 Theory · Weil Deligne · WD Rep · 交换律 作用于
+GlobalTheory.WeilDeligne.WDRep.diag_ρ	整体 Theory · Weil Deligne · WD Rep · 对角 ρ
+GlobalTheory.WeilDeligne.actsAs_of_deg	整体 Theory · Weil Deligne · acts 作为 由 deg
+GlobalTheory.WeilDeligne.deg_eq_zero_iff	整体 Theory · Weil Deligne · deg = 零 ⇔
+GlobalTheory.WeilDeligne.actsAs_zero_iff	整体 Theory · Weil Deligne · acts 作为 零 ⇔
+GlobalTheory.WeilDeligne.aeval_dualMap	整体 Theory · Weil Deligne · 代数求值 对偶映射
+GlobalTheory.WeilDeligne.isSemisimple_dualMap	整体 Theory · Weil Deligne · 是 Semisimple 对偶映射
+GlobalTheory.WeilDeligne.coe_qPow_one	整体 Theory · Weil Deligne · 强制转换 q 幂 一
+GlobalTheory.WeilDeligne.commute_of_commute_pow	整体 Theory · Weil Deligne · 交换 由 交换 幂
+GlobalTheory.WeilDeligne.cong_pow	整体 Theory · Weil Deligne · cong 幂
+GlobalTheory.WeilDeligne.cong_symm	整体 Theory · Weil Deligne · cong 对称
+GlobalTheory.WeilDeligne.cong_trans	整体 Theory · Weil Deligne · cong 传递
+GlobalTheory.WeilDeligne.deg_mul	整体 Theory · Weil Deligne · deg ×
+GlobalTheory.WeilDeligne.deg_frob	整体 Theory · Weil Deligne · deg frob
+GlobalTheory.WeilDeligne.deg_inv	整体 Theory · Weil Deligne · deg 逆
+GlobalTheory.WeilDeligne.deg_one	整体 Theory · Weil Deligne · deg 一
+GlobalTheory.WeilDeligne.deg_zpow	整体 Theory · Weil Deligne · deg 整数幂
+GlobalTheory.WeilDeligne.isSemisimple_of_isSemisimple_frob	整体 Theory · Weil Deligne · 是 Semisimple 由 是 Semisimple frob
+GlobalTheory.WeilDeligne.isNilpotent_pow_sub_one	整体 Theory · Weil Deligne · 是 Nilpotent 幂 − 一
+GlobalTheory.WeilDeligne.isNilpotent_shiftEnd	整体 Theory · Weil Deligne · 是 Nilpotent 平移末尾
+GlobalTheory.WeilDeligne.isSemisimple_diagEnd	整体 Theory · Weil Deligne · 是 Semisimple 对角末尾
+GlobalTheory.WeilDeligne.isSemisimple_map	整体 Theory · Weil Deligne · 是 Semisimple 映射
+GlobalTheory.WeilDeligne.isSemisimple_tensorMap	整体 Theory · Weil Deligne · 是 Semisimple 张量映射
+GlobalTheory.WeilDeligne.isSemisimple_of_iSup_eigenspace	整体 Theory · Weil Deligne · 是 Semisimple 由 i 上确界 本征空间
+GlobalTheory.WeilDeligne.isSemisimple_prodMap	整体 Theory · Weil Deligne · 是 Semisimple 积映射
+GlobalTheory.WeilDeligne.one_lt_normV	整体 Theory · Weil Deligne · 一 < 范数 V
+GlobalTheory.WeilDeligne.qPow_add	整体 Theory · Weil Deligne · q 幂 +
+GlobalTheory.WeilDeligne.semisimplePart_mul_eq	整体 Theory · Weil Deligne · semisimple 部分 × =
+GlobalTheory.WeilDeligne.shiftEnd_pow_apply	整体 Theory · Weil Deligne · 平移末尾 幂 作用于
+GlobalTheory.WeilDeligne.val_apply_le_one	整体 Theory · Weil Deligne · 值 作用于 ≤ 一
+GlobalTheory.WeilDeligne.val_pow_le_one	整体 Theory · Weil Deligne · 值 幂 ≤ 一
+LFunction_eq_zero_re_of_isPrimitive	L 函数 = 零 实部 由 是本原
+LFunction_ne_zero_of_half_lt_re	L 函数 ≠ 零 由 一半 < 实部
+PositivityTheory.Pf1.HilbertSamuelMoriwaki.hsUse_outright	正性 Theory · Pf 1 · Hilbert Samuel Moriwaki · hs Use outright
+UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin	上 Theory · 文献 Theorems · every 特征标 由 文献 由 v 获胜
+PositivityTheory.Pf1.HilbertSamuelMoriwaki.moriwakiBig_outright	正性 Theory · Pf 1 · Hilbert Samuel Moriwaki · moriwaki 大 outright
+ReciprocityTheory.Gal.apply_mem_iff_of_mem_Dec	Reciprocity Theory · Gal · 作用于 ∈ ⇔ 由 ∈ Dec
+ReciprocityTheory.Gal.valuation_apply_lt_one_iff	Reciprocity Theory · Gal · 赋值 作用于 < 一 ⇔
+ReciprocityTheory.Gal.continuousConstSMul_of_discrete	Reciprocity Theory · Gal · 连续常数 S × 由 离散
+ReciprocityTheory.Gal.continuous_locFam	Reciprocity Theory · Gal · 连续 loc Fam
+ReciprocityTheory.Gal.exists_isFrob	Reciprocity Theory · Gal · 存在 是 Frob
+ReciprocityTheory.Gal.mem_Dec	Reciprocity Theory · Gal · ∈ Dec
+ReciprocityTheory.Gal.mem_coboundaries1	Reciprocity Theory · Gal · ∈ coboundaries 1
+ReciprocityTheory.Gal.mul_inv_apply	Reciprocity Theory · Gal · × 逆 作用于
+ReciprocityTheory.Gal.normal_NS	Reciprocity Theory · Gal · 正规 NS
+ReciprocityTheory.Gal.valuation_lt_one_iff'	Reciprocity Theory · Gal · 赋值 < 一 ⇔
+Reformulated.AutPerF.Acris.extend_log	Reformulated · 自同构 Per F · Acris · 延拓 对数
+Reformulated.AutPerF.Acris.frob_logTeich	Reformulated · 自同构 Per F · Acris · frob 对数 Teich
+Reformulated.AutPerF.Acris.map_logTeich	Reformulated · 自同构 Per F · Acris · 映射 对数 Teich
+Reformulated.AutPerF.Acris.logPartial_sub_mem	Reformulated · 自同构 Per F · Acris · 对数偏 − ∈
+Reformulated.AutPerF.Acris.logTeich_pow	Reformulated · 自同构 Per F · Acris · 对数 Teich 幂
+Reformulated.AutPerF.Bcris.instIsLocalizationBcrisPlusPeriods	Reformulated · 自同构 Per F · Bcris · 实例是局部化 Bcris 加 Periods
+Reformulated.AutPerF.Bcris.isUnit_p	Reformulated · 自同构 Per F · Bcris · 是单位 p
+Reformulated.AutPerF.AcrisZero.extend_mem	Reformulated · 自同构 Per F · Acris 零 · 延拓 ∈
+Reformulated.AutPerF.AcrisZero.frob_algebraMap	Reformulated · 自同构 Per F · Acris 零 · frob 代数映射
+Reformulated.AutPerF.AcrisZero.map_algebraMap	Reformulated · 自同构 Per F · Acris 零 · 映射 代数映射
+Reformulated.AutPerF.BcrisPlus.frob_algebraMap	Reformulated · 自同构 Per F · Bcris 加 · frob 代数映射
+Reformulated.AutPerF.BcrisPlus.map_algebraMap	Reformulated · 自同构 Per F · Bcris 加 · 映射 代数映射
+Reformulated.AutPerF.AcrisZero.gamma_frob_mem	Reformulated · 自同构 Per F · Acris 零 · Γ frob ∈
+Reformulated.AutPerF.AcrisZero.gamma_map_mem	Reformulated · 自同构 Per F · Acris 零 · Γ 映射 ∈
+Reformulated.AutPerF.AcrisZero.gamma_p_mul_mem	Reformulated · 自同构 Per F · Acris 零 · Γ p × ∈
+Reformulated.AutPerF.AcrisZero.p_dvd_frob	Reformulated · 自同构 Per F · Acris 零 · p 整除 frob
+Reformulated.AutPerF.Ainf.frob_teich	Reformulated · 自同构 Per F · Ainf · frob teich
+Reformulated.AutPerF.Ainf.map_teich	Reformulated · 自同构 Per F · Ainf · 映射 teich
+Reformulated.AutPerF.Ainf.theta_map	Reformulated · 自同构 Per F · Ainf · θ 映射
+Reformulated.AutPerF.AinfInv.theta_map	Reformulated · 自同构 Per F · Ainf 逆 · θ 映射
+Reformulated.AutPerF.Ainf.theta_teich	Reformulated · 自同构 Per F · Ainf · θ teich
+Reformulated.AutPerF.AinfInv.extend_algebraMap	Reformulated · 自同构 Per F · Ainf 逆 · 延拓 代数映射
+Reformulated.AutPerF.AinfInv.isUnit_p	Reformulated · 自同构 Per F · Ainf 逆 · 是单位 p
+Reformulated.AutPerF.AinfInv.map_gamma	Reformulated · 自同构 Per F · Ainf 逆 · 映射 Γ
+Reformulated.AutPerF.AinfInv.map_id	Reformulated · 自同构 Per F · Ainf 逆 · 映射 恒等
+Reformulated.AutPerF.AinfInv.map_map	Reformulated · 自同构 Per F · Ainf 逆 · 映射 映射
+Reformulated.AutPerF.BcrisPlus.instAwayAcrisCast	Reformulated · 自同构 Per F · Bcris 加 · 实例远离 Acris 类型转换
+Reformulated.AutPerF.AinfInv.kerTheta_le_comap	Reformulated · 自同构 Per F · Ainf 逆 · 核θ ≤ 拉回映射
+Reformulated.AutPerF.BdRPlus.map_id	Reformulated · 自同构 Per F · Bd R 加 · 映射 恒等
+Reformulated.AutPerF.BdRPlus.map_map	Reformulated · 自同构 Per F · Bd R 加 · 映射 映射
+Reformulated.AutPerF.Bcris.isUnit_logTeich	Reformulated · 自同构 Per F · Bcris · 是单位 对数 Teich
+Reformulated.AutPerF.BcrisPlus.isUnit_p	Reformulated · 自同构 Per F · Bcris 加 · 是单位 p
+Reformulated.AutPerF.BcrisPlus.lift_algebraMap	Reformulated · 自同构 Per F · Bcris 加 · 提升 代数映射
+Reformulated.AutPerF.BdR.hom_ext	Reformulated · 自同构 Per F · Bd R · 同态 外延
+Reformulated.AutPerF.BdR.map_map	Reformulated · 自同构 Per F · Bd R · 映射 映射
+Reformulated.AutPerF.BdR.map_refl	Reformulated · 自同构 Per F · Bd R · 映射 自反
+Reformulated.AutPerF.BdR.instIsFractionRingBdRPlus	Reformulated · 自同构 Per F · Bd R · 实例是分数环 Bd R 加
+Reformulated.AutPerF.BdR.map_algebraMap	Reformulated · 自同构 Per F · Bd R · 映射 代数映射
+Reformulated.AutPerF.BdRPlus.theta_eq_one_iff	Reformulated · 自同构 Per F · Bd R 加 · θ = 一 ⇔
+Reformulated.AutPerF.IsPrimitive.map	Reformulated · 自同构 Per F · 是本原 · 映射
+Reformulated.AutPerF.IsUnitBall.instAwaySubtypeMemValuationSubringCastOfCharZeroOfNeZeroNat	Reformulated · 自同构 Per F · 是单位球 · 实例远离子类型∈赋值子环类型转换由特征零由≠零自然数
+Reformulated.AutPerF.IsUnitBall.instFactNotIsUnitSubtypeMemValuationSubringCast	Reformulated · 自同构 Per F · 是单位球 · 实例 Fact 非是单位子类型∈赋值子环类型转换
+Reformulated.AutPerF.IsUnitBall.instIsAdicCompleteSubtypeMemValuationSubringSpanSingletonSetCastOfCompleteSpace	Reformulated · 自同构 Per F · 是单位球 · 实例是 Adic 完备子类型∈赋值子环张成单点集集合类型转换由完备空间
+Reformulated.AutPerF.IsUnitBall.isUnit_iff_norm_eq_one	Reformulated · 自同构 Per F · 是单位球 · 是单位 ⇔ 范数 = 一
+Reformulated.AutPerF.IsUnitBall.mem_iff	Reformulated · 自同构 Per F · 是单位球 · ∈ ⇔
+Reformulated.AutPerF.IsUnitBall.norm_le_one	Reformulated · 自同构 Per F · 是单位球 · 范数 ≤ 一
+Reformulated.AutPerF.IsUnitBall.mem_span_pow_iff	Reformulated · 自同构 Per F · 是单位球 · ∈ 张成 幂 ⇔
+Reformulated.AutPerF.IsUnitBall.norm_smul_eq	Reformulated · 自同构 Per F · 是单位球 · 范数 数乘 =
+Reformulated.AutPerF.Tilt.coeff_map	Reformulated · 自同构 Per F · 倾斜 · 系数 映射
+Reformulated.AutPerF.Tilt.untilt_map	Reformulated · 自同构 Per F · 倾斜 · untilt 映射
+Reformulated.AutPerF.tateModule.coe_map	Reformulated · 自同构 Per F · tate 模 · 强制转换 映射
+Reformulated.AutPerF.adicMap_adicMap	Reformulated · 自同构 Per F · adic 映射 adic 映射
+Reformulated.AutPerF.adicMap_eq_id	Reformulated · 自同构 Per F · adic 映射 = 恒等
+Reformulated.AutPerF.completionIsIsometricSMul	Reformulated · 自同构 Per F · 完备化是等距 S ×
+Reformulated.AutPerF.evalₐ_pow_eq_zero	Reformulated · 自同构 Per F · 求值 ₐ 幂 = 零
+Reformulated.AutPerF.factorPow_evalₐ	Reformulated · 自同构 Per F · 因子幂 求值 ₐ
+Reformulated.AutPerF.instFactLtRealNormPadicComplexCastOfNat_development	Reformulated · 自同构 Per F · 实例 Fact <实范数 Padic 复类型转换由自然数 development
+Reformulated.AutPerF.instIsIsometricSMulAlgEquivPadicAlgClOfIsScalarTowerPadic_development	Reformulated · 自同构 Per F · 实例是等距 S × Alg 等价 Padic Alg Cl 由是标量 Tower Padic development
+Reformulated.AutPerF.instIsUnitBallPadicComplexPadicComplexInt	Reformulated · 自同构 Per F · 实例是单位球 Padic 复 Padic 复 Int
+Reformulated.AutPerF.map_truncLog	Reformulated · 自同构 Per F · 映射 trunc 对数
+Reformulated.AutPerF.pow_le_comap_pow	Reformulated · 自同构 Per F · 幂 ≤ 拉回映射 幂
+Reformulated.AutPerF.span_natCast_le_comap	Reformulated · 自同构 Per F · 张成 自然数类型转换 ≤ 拉回映射
+Reformulated.AutPerF.truncLog_eq_of_pow_eq_zero	Reformulated · 自同构 Per F · trunc 对数 = 由 幂 = 零
+Reformulated.AutPerF.uniformContinuousConstSMul_of_isIsometricSMul	Reformulated · 自同构 Per F · 一致连续常数 S × 由 是等距 S ×
+UpperTheory.One.vwin_of_row	上 Theory · 一 · vwin 由 行
+UpperTheory.FinalTheorems.everyCharacter	上 Theory · 最终 Theorems · every 特征标
+UpperTheory.FinalTheorems.everyCharacter_of_row	上 Theory · 最终 Theorems · every 特征标 由 行
+UpperTheory.Gal.Int.galoisRepresentations_of_thetaLift	上 Theory · Gal · Int · 伽罗瓦 Representations 由 θ提升
+UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter	上 Theory · Gal · Int · 伽罗瓦局部整体强 rec 参数
+UpperTheory.Zero.LLC.extDepth	上 Theory · 零 · LLC · 外延深度
+riemannZeta_eq_zero_re	riemann Zeta = 零 实部

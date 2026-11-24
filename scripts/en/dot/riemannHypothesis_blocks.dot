@@ -1,0 +1,595 @@
+digraph G {
+	graph [nodesep=0.25,
+		rankdir=LR,
+		ranksep=0.8
+	];
+	node [fontname=Helvetica,
+		fontsize=11,
+		shape=box,
+		style="filled,rounded"
+	];
+	edge [arrowsize=0.6,
+		color="#8a8a8a"
+	];
+	"Formalism.L2.G.linkG_concrete5"	[fillcolor="#cfe8ff",
+		label="Formalism.L2.G.linkG_concrete5\n1,919 declarations"];
+	"UpperTheory.Top.shape_closed_link_n_of_green"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Top.shape_closed_link_n_of_green\n6,029 declarations"];
+	"Formalism.L2.G.linkG_concrete5" -> "UpperTheory.Top.shape_closed_link_n_of_green";
+	"Formalism.L2.G.linkG_concrete_noKer"	[fillcolor="#cfe8ff",
+		label="Formalism.L2.G.linkG_concrete_noKer\n45 declarations"];
+	"Formalism.L2.G.linkG_concrete_noKer" -> "Formalism.L2.G.linkG_concrete5";
+	"Formalism.L2.G.link_of_local_closed"	[fillcolor="#cfe8ff",
+		label="Formalism.L2.G.link_of_local_closed\n2,089 declarations"];
+	"Formalism.L2.G.link_of_local_closed" -> "Formalism.L2.G.linkG_concrete_noKer";
+	"Formalism.L2.G.loc_proved"	[fillcolor="#cfe8ff",
+		label="Formalism.L2.G.loc_proved\n3 declarations"];
+	"Formalism.L2.G.loc_proved" -> "Formalism.L2.G.linkG_concrete5";
+	"Formalism.L2.SG.Pf.Coef.cutAt_of_deep"	[fillcolor="#cfe8ff",
+		label="Formalism.L2.SG.Pf.Coef.cutAt_of_deep\n2,403 declarations"];
+	"Formalism.L2.SG.Pf.Coef.rowsDatumP_of_deep"	[fillcolor="#cfe8ff",
+		label="Formalism.L2.SG.Pf.Coef.rowsDatumP_of_deep\n62 declarations"];
+	"Formalism.L2.SG.Pf.Coef.cutAt_of_deep" -> "Formalism.L2.SG.Pf.Coef.rowsDatumP_of_deep";
+	"GlobalTheory.CarrierGap.theoremS_leaves_of_carrierG"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CarrierGap.theoremS_leaves_of_carrierG\n3,496 declarations"];
+	"Formalism.L2.SG.Pf.Coef.rowsDatumP_of_deep" -> "GlobalTheory.CarrierGap.theoremS_leaves_of_carrierG";
+	"Formalism.L2.SG.Pf.NcAllC.ncTieC_of_closed"	[fillcolor="#cfe8ff",
+		label="Formalism.L2.SG.Pf.NcAllC.ncTieC_of_closed\n3,014 declarations"];
+	"UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound\n119,498 declarations"];
+	"Formalism.L2.SG.Pf.NcAllC.ncTieC_of_closed" -> "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound";
+	"Formalism.MainNotions.G.GramWindowAlt.theorem_A_closed_form_holds"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.GramWindowAlt.theorem_A_closed_form_holds\n329 declarations"];
+	"UpperTheory.Lit.every_character_of_theta_integrals_local_matching"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Lit.every_character_of_theta_integrals_local_matching\n35,400 declarations"];
+	"Formalism.MainNotions.G.GramWindowAlt.theorem_A_closed_form_holds" -> "UpperTheory.Lit.every_character_of_theta_integrals_local_matching";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_coefficient_function"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_coefficient_function\n8 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_windows"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_windows\n14 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_coefficient_function" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_windows";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_minimal_vector"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_minimal_vector\n9 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_minimal_vector" -> "Formalism.MainNotions.G.GramWindowAlt.theorem_A_closed_form_holds";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_base_dims"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_base_dims\n13 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_eight_open_bounds"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_eight_open_bounds\n17 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_base_dims" -> "Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_eight_open_bounds";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_dimensions"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_dimensions\n9 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_dimensions" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_base_dims";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_directions"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_directions\n139 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_positive"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_positive\n43 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_directions" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_positive";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_positive" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_dimensions";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_basis"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_basis\n6 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.integralityFromMetric_of_orthBasisLat"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.integralityFromMetric_of_orthBasisLat\n37 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_basis" -> "Formalism.MainNotions.G.SymmetricFormBlocks.integralityFromMetric_of_orthBasisLat";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_lattice"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_lattice\n18 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_lattice" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_basis";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_splitting"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_splitting\n7 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_splitting_matrix"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_splitting_matrix\n5 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_splitting" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_splitting_matrix";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_splitting_matrix" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_minimal_vector";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_dims"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_dims\n108 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_dims" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_lattice";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_finite"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_finite\n10 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_finite" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_coefficient_function";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_windows" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_dims";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.integralityFromMetric_of_orthBasisLat" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_splitting";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.integrality_from_metric_of_orthogonality_window"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.integrality_from_metric_of_orthogonality_window\n6 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.integrality_from_metric_of_orthogonality_window" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_finite";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.openE_of_open4"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.openE_of_open4\n2,113 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.openE_of_open4" -> "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_directions";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_nine_open_bounds"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_nine_open_bounds\n49 declarations"];
+	"Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_eight_open_bounds" -> "Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_nine_open_bounds";
+	"Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_nine_open_bounds" -> "Formalism.MainNotions.G.SymmetricFormBlocks.integrality_from_metric_of_orthogonality_window";
+	"Formalism.MainNotions.N.Ln03.corollary_local_exists_constant"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.N.Ln03.corollary_local_exists_constant\n80 declarations"];
+	"GlobalTheory.ThmECorA.closing"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.ThmECorA.closing\n44 declarations"];
+	"Formalism.MainNotions.N.Ln03.corollary_local_exists_constant" -> "GlobalTheory.ThmECorA.closing";
+	"Formalism.MainNotions.N.Ln03.local_theorem_of_inputs"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.N.Ln03.local_theorem_of_inputs\n2,020 declarations"];
+	"Formalism.MainNotions.N.Ln03.local_theorem_of_inputs" -> "Formalism.MainNotions.N.Ln03.corollary_local_exists_constant";
+	"Formalism.MainNotions.TraceSpectra.stmtE"	[fillcolor="#cfe8ff",
+		label="Formalism.MainNotions.TraceSpectra.stmtE\n2,075 declarations"];
+	"Formalism.MainNotions.TraceSpectra.stmtE" -> "Formalism.L2.G.loc_proved";
+	"GlobalTheory.Asc.ascent_of_depFixed"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Asc.ascent_of_depFixed\n2,158 declarations"];
+	"GlobalTheory.T.bessel_period_nonvanishing_ascent_of_depth_data"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.bessel_period_nonvanishing_ascent_of_depth_data\n1 declarations"];
+	"GlobalTheory.Asc.ascent_of_depFixed" -> "GlobalTheory.T.bessel_period_nonvanishing_ascent_of_depth_data";
+	"GlobalTheory.BigOn.exponent_bound_of_unitaryThetaStandardTheorems_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.BigOn.exponent_bound_of_unitaryThetaStandardTheorems_alt\n4,092 declarations"];
+	"GlobalTheory.BigOn.ontoX_of_hypotheses_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.BigOn.ontoX_of_hypotheses_alt_alt\n5,308 declarations"];
+	"GlobalTheory.BigOn.exponent_bound_of_unitaryThetaStandardTheorems_alt" -> "GlobalTheory.BigOn.ontoX_of_hypotheses_alt_alt";
+	"GlobalTheory.BigOn.geoSt_of_pageSt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.BigOn.geoSt_of_pageSt_alt\n290 declarations"];
+	"GlobalTheory.BigOn.geoSt_of_pageSt_alt" -> "GlobalTheory.BigOn.ontoX_of_hypotheses_alt_alt";
+	"GlobalTheory.BigOn.leafDepth_all_record"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.BigOn.leafDepth_all_record\n1 declarations"];
+	"GlobalTheory.BigOn.leafDepth_all_record" -> "GlobalTheory.BigOn.geoSt_of_pageSt_alt";
+	"GlobalTheory.Fc.S0.ontoX_and_lamLow_of_unitaryGroupHypotheses'"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fc.S0.ontoX_and_lamLow_of_unitaryGroupHypotheses'\n346 declarations"];
+	"GlobalTheory.BigOn.ontoX_of_hypotheses_alt_alt" -> "GlobalTheory.Fc.S0.ontoX_and_lamLow_of_unitaryGroupHypotheses'";
+	"GlobalTheory.BigTop.Fun.Close.fittedFunction_at_zero_close_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.BigTop.Fun.Close.fittedFunction_at_zero_close_alt\n1,469 declarations"];
+	"GlobalTheory.BigTop.Fun.Close.fourier_coefficient_fit_of_join_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.BigTop.Fun.Close.fourier_coefficient_fit_of_join_alt\n1 declarations"];
+	"GlobalTheory.BigTop.Fun.Close.fittedFunction_at_zero_close_alt" -> "GlobalTheory.BigTop.Fun.Close.fourier_coefficient_fit_of_join_alt";
+	"GlobalTheory.BigTop.Fun.Close.fourier_coefficient_fit_of_join_alt" -> "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound";
+	"GlobalTheory.CarrierGap.carrierP"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CarrierGap.carrierP\n2,120 declarations"];
+	"GlobalTheory.CarrierGap.offDiag"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CarrierGap.offDiag\n3,311 declarations"];
+	"GlobalTheory.CarrierGap.carrierP" -> "GlobalTheory.CarrierGap.offDiag";
+	"GlobalTheory.LocalRows.at_choice_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.LocalRows.at_choice_alt\n590 declarations"];
+	"GlobalTheory.CarrierGap.offDiag" -> "GlobalTheory.LocalRows.at_choice_alt";
+	"GlobalTheory.CarrierGap.theoremS_leaves_of_carrierG" -> "GlobalTheory.CarrierGap.offDiag";
+	"GlobalTheory.ClosingLocalInputs.main_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.ClosingLocalInputs.main_alt_alt\n191 declarations"];
+	"GlobalTheory.NormFromFacts.main_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.NormFromFacts.main_alt_alt\n1 declarations"];
+	"GlobalTheory.ClosingLocalInputs.main_alt_alt" -> "GlobalTheory.NormFromFacts.main_alt_alt";
+	"GlobalTheory.CompanionTheory.Ar.Cusp.volumeTheoremX_of_inputs"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CompanionTheory.Ar.Cusp.volumeTheoremX_of_inputs\n8,410 declarations"];
+	"GlobalTheory.T.good_tower_volume_theorem"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.good_tower_volume_theorem\n6,411 declarations"];
+	"GlobalTheory.CompanionTheory.Ar.Cusp.volumeTheoremX_of_inputs" -> "GlobalTheory.T.good_tower_volume_theorem";
+	"GlobalTheory.CompanionTheory.Ar.Link.good_tower_volume_theorem_bis"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CompanionTheory.Ar.Link.good_tower_volume_theorem_bis\n4 declarations"];
+	"GlobalTheory.CompanionTheory.Ar.Plug.deepStR_of_use"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CompanionTheory.Ar.Plug.deepStR_of_use\n9,058 declarations"];
+	"GlobalTheory.CompanionTheory.Ar.Link.good_tower_volume_theorem_bis" -> "GlobalTheory.CompanionTheory.Ar.Plug.deepStR_of_use";
+	"GlobalTheory.CompanionTheory.Ar.Num.HodgeModel.model_on_hodge_of_family_pos"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CompanionTheory.Ar.Num.HodgeModel.model_on_hodge_of_family_pos\n285 declarations"];
+	"GlobalTheory.CompanionTheory.Ar.Num.HodgeModel.model_on_hodge_of_family_pos" -> "GlobalTheory.T.good_tower_volume_theorem";
+	"GlobalTheory.CompanionTheory.Ar.Num.TopRel.relations"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CompanionTheory.Ar.Num.TopRel.relations\n2,178 declarations"];
+	"GlobalTheory.CompanionTheory.Ar.Num.TopRel.relations" -> "GlobalTheory.CompanionTheory.Ar.Num.HodgeModel.model_on_hodge_of_family_pos";
+	"PositivityTheory.HtPt.Ah.deep_slim_use"	[fillcolor="#ffe0e0",
+		label="PositivityTheory.HtPt.Ah.deep_slim_use\n396 declarations"];
+	"GlobalTheory.CompanionTheory.Ar.Plug.deepStR_of_use" -> "PositivityTheory.HtPt.Ah.deep_slim_use";
+	"GlobalTheory.CompanionTheory.Ar.Top.goodTower_volume_of_reduced"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CompanionTheory.Ar.Top.goodTower_volume_of_reduced\n2,919 declarations"];
+	"GlobalTheory.CompanionTheory.Ar.Top.goodTower_volume_of_reduced" -> "GlobalTheory.CompanionTheory.Ar.Link.good_tower_volume_theorem_bis";
+	"GlobalTheory.Core.Rk.Exh.Top.downNe_k_of_hypotheses'"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Core.Rk.Exh.Top.downNe_k_of_hypotheses'\n197 declarations"];
+	"GlobalTheory.T.downNe_of_eulerRight_doubling"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.downNe_of_eulerRight_doubling\n1 declarations"];
+	"GlobalTheory.Core.Rk.Exh.Top.downNe_k_of_hypotheses'" -> "GlobalTheory.T.downNe_of_eulerRight_doubling";
+	"GlobalTheory.Core.Rk.LiftOnto.liftInj_nonVan_typeNZ_of_hypotheses_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Core.Rk.LiftOnto.liftInj_nonVan_typeNZ_of_hypotheses_alt\n91 declarations"];
+	"GlobalTheory.Fc.S0.StageU.hypotheses_nonempty_of_unramified_exponents_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fc.S0.StageU.hypotheses_nonempty_of_unramified_exponents_alt\n16,190 declarations"];
+	"GlobalTheory.Core.Rk.LiftOnto.liftInj_nonVan_typeNZ_of_hypotheses_alt" -> "GlobalTheory.Fc.S0.StageU.hypotheses_nonempty_of_unramified_exponents_alt";
+	"GlobalTheory.CountRow.row_counts_of_ties_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CountRow.row_counts_of_ties_alt\n2,128 declarations"];
+	"GlobalTheory.CountRowByName.row_counts_of_labels_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.CountRowByName.row_counts_of_labels_alt\n1 declarations"];
+	"GlobalTheory.CountRow.row_counts_of_ties_alt" -> "GlobalTheory.CountRowByName.row_counts_of_labels_alt";
+	"GlobalTheory.Fc.AllAtMemberStage0.allRows_of_open0_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fc.AllAtMemberStage0.allRows_of_open0_alt\n3,349 declarations"];
+	"GlobalTheory.CountRowByName.row_counts_of_labels_alt" -> "GlobalTheory.Fc.AllAtMemberStage0.allRows_of_open0_alt";
+	"GlobalTheory.ExportClose.exportAt_of_bundles_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.ExportClose.exportAt_of_bundles_alt\n2,050 declarations"];
+	"GlobalTheory.T.realization_of_published_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.realization_of_published_alt\n1 declarations"];
+	"GlobalTheory.ExportClose.exportAt_of_bundles_alt" -> "GlobalTheory.T.realization_of_published_alt";
+	"GlobalTheory.ExportClose0.exportAt_bundles_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.ExportClose0.exportAt_bundles_alt\n1 declarations"];
+	"GlobalTheory.ExportFirst.exportF_isBuiltE_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.ExportFirst.exportF_isBuiltE_alt_alt\n75 declarations"];
+	"GlobalTheory.ExportClose0.exportAt_bundles_alt" -> "GlobalTheory.ExportFirst.exportF_isBuiltE_alt_alt";
+	"GlobalTheory.Mem.Top.ExportTrue.exportF_prmR_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Mem.Top.ExportTrue.exportF_prmR_alt_alt\n14 declarations"];
+	"GlobalTheory.ExportFirst.exportF_isBuiltE_alt_alt" -> "GlobalTheory.Mem.Top.ExportTrue.exportF_prmR_alt_alt";
+	"GlobalTheory.ExtraFromFacts.main_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.ExtraFromFacts.main_alt_alt\n435 declarations"];
+	"UpperTheory.GalC.linkN_of_twGood_galoisPreconditions"	[fillcolor="#ffe0e0",
+		label="UpperTheory.GalC.linkN_of_twGood_galoisPreconditions\n728 declarations"];
+	"GlobalTheory.ExtraFromFacts.main_alt_alt" -> "UpperTheory.GalC.linkN_of_twGood_galoisPreconditions";
+	"GlobalTheory.Fam.colSide_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fam.colSide_alt\n3,232 declarations"];
+	"GlobalTheory.MiTop.famAllQ_of_allTrue_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.MiTop.famAllQ_of_allTrue_alt\n4,160 declarations"];
+	"GlobalTheory.Fam.colSide_alt" -> "GlobalTheory.MiTop.famAllQ_of_allTrue_alt";
+	"GlobalTheory.Fam.lawsLinks_of_geo_rows_cols_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fam.lawsLinks_of_geo_rows_cols_alt\n2,601 declarations"];
+	"GlobalTheory.Fam.lawsLinks_of_geo_rows_cols_alt" -> "GlobalTheory.MiTop.famAllQ_of_allTrue_alt";
+	"GlobalTheory.Fam.miAt_of_truePack_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fam.miAt_of_truePack_alt_alt\n2 declarations"];
+	"GlobalTheory.Fam.miStar_row_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fam.miStar_row_alt_alt\n255 declarations"];
+	"GlobalTheory.Fam.miAt_of_truePack_alt_alt" -> "GlobalTheory.Fam.miStar_row_alt_alt";
+	"GlobalTheory.Fam.miStar2_of_allTrue_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fam.miStar2_of_allTrue_alt_alt\n676 declarations"];
+	"GlobalTheory.Fam.miStar2_of_allTrue_alt_alt" -> "GlobalTheory.Fam.miAt_of_truePack_alt_alt";
+	"GlobalTheory.miStarRowClosing_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.miStarRowClosing_alt_alt\n239 declarations"];
+	"GlobalTheory.Fam.miStar_row_alt_alt" -> "GlobalTheory.miStarRowClosing_alt_alt";
+	"GlobalTheory.Fc.AllAtMemberStage0.allRows_of_open0_alt" -> "GlobalTheory.Fc.S0.StageU.hypotheses_nonempty_of_unramified_exponents_alt";
+	"GlobalTheory.Fc.Cv.row_level_valuations"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fc.Cv.row_level_valuations\n1 declarations"];
+	"GlobalTheory.T.levelPrimeColumnValuations_bundlePoints_overColumns"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.levelPrimeColumnValuations_bundlePoints_overColumns\n1 declarations"];
+	"GlobalTheory.Fc.Cv.row_level_valuations" -> "GlobalTheory.T.levelPrimeColumnValuations_bundlePoints_overColumns";
+	"GlobalTheory.Fc.S0.Open0ProofU.open_orbit_of_unramified_exponents_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fc.S0.Open0ProofU.open_orbit_of_unramified_exponents_alt\n1,606 declarations"];
+	"GlobalTheory.Fc.S0.Open0ProofU.open_orbit_of_unramified_exponents_alt" -> "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound";
+	"GlobalTheory.Fc.S0.StageU.hypotheses_nonempty_of_unramified_exponents_alt" -> "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound";
+	"GlobalTheory.Fc.S0.ontoX_and_lamLow_of_unitaryGroupHypotheses'" -> "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound";
+	"GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt\n6,651 declarations"];
+	"GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt" -> "GlobalTheory.Fc.S0.StageU.hypotheses_nonempty_of_unramified_exponents_alt";
+	"GlobalTheory.Fc.six_rows_at_member_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Fc.six_rows_at_member_alt\n962 declarations"];
+	"GlobalTheory.Fc.six_rows_at_member_alt" -> "GlobalTheory.Fc.AllAtMemberStage0.allRows_of_open0_alt";
+	"GlobalTheory.FinalJoin.runHolds_of_parOK"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.FinalJoin.runHolds_of_parOK\n1,114 declarations"];
+	"GlobalTheory.FinalJoin.runHolds_of_parOK" -> "GlobalTheory.BigOn.ontoX_of_hypotheses_alt_alt";
+	"GlobalTheory.HeightCounting.Up.all_stages_of_specializations_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.HeightCounting.Up.all_stages_of_specializations_alt\n2,508 declarations"];
+	"GlobalTheory.T.all_stages_at_member_of_specializations_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.all_stages_at_member_of_specializations_alt\n1 declarations"];
+	"GlobalTheory.HeightCounting.Up.all_stages_of_specializations_alt" -> "GlobalTheory.T.all_stages_at_member_of_specializations_alt";
+	"GlobalTheory.InertiaEigenvalues.theoremT_all_records"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.InertiaEigenvalues.theoremT_all_records\n59 declarations"];
+	"GlobalTheory.InertiaEigenvalues.theoremT_all_records" -> "GlobalTheory.ClosingLocalInputs.main_alt_alt";
+	"GlobalTheory.InputsAtRecord.inputsNet_recPlus"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.InputsAtRecord.inputsNet_recPlus\n3,011 declarations"];
+	"GlobalTheory.InputsAtRecord.inputsNet_recPlus" -> "GlobalTheory.FinalJoin.runHolds_of_parOK";
+	"GlobalTheory.JSW.Rigid.vanish"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.JSW.Rigid.vanish\n2,155 declarations"];
+	"GlobalTheory.JSW.jacquetShalikaRigidity_holds"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.JSW.jacquetShalikaRigidity_holds\n8 declarations"];
+	"GlobalTheory.JSW.Rigid.vanish" -> "GlobalTheory.JSW.jacquetShalikaRigidity_holds";
+	"UpperTheory.V.Z.Int.slopeAllOf"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.Z.Int.slopeAllOf\n3 declarations"];
+	"GlobalTheory.JSW.jacquetShalikaRigidity_holds" -> "UpperTheory.V.Z.Int.slopeAllOf";
+	"GlobalTheory.LocalRows.sLp_sO_hTF_of_siegelWeil"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.LocalRows.sLp_sO_hTF_of_siegelWeil\n1 declarations"];
+	"GlobalTheory.LocalRows.at_choice_alt" -> "GlobalTheory.LocalRows.sLp_sO_hTF_of_siegelWeil";
+	"GlobalTheory.LocalRows.lg1_sLp_sO_hTF"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.LocalRows.lg1_sLp_sO_hTF\n1 declarations"];
+	"GlobalTheory.LocalRows.lg1_sLp_sO_hTF" -> "GlobalTheory.Fc.AllAtMemberStage0.allRows_of_open0_alt";
+	"GlobalTheory.LocalRows.sLp_sO_hTF_of_siegelWeil" -> "GlobalTheory.LocalRows.lg1_sLp_sO_hTF";
+	"GlobalTheory.LogKSAssembly.hasLogKS"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.LogKSAssembly.hasLogKS\n2,052 declarations"];
+	"GlobalTheory.T.logKodairaSpencer_iso_smooth_snc_toroidalModel"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.logKodairaSpencer_iso_smooth_snc_toroidalModel\n1 declarations"];
+	"GlobalTheory.LogKSAssembly.hasLogKS" -> "GlobalTheory.T.logKodairaSpencer_iso_smooth_snc_toroidalModel";
+	"GlobalTheory.LvT.Built.TrueCols.closing_true_cols"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.LvT.Built.TrueCols.closing_true_cols\n1 declarations"];
+	"GlobalTheory.LvT.Built.TrueCols.closing_true_cols" -> "GlobalTheory.Fc.Cv.row_level_valuations";
+	"GlobalTheory.LvT.Built.TrueCols.row_true"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.LvT.Built.TrueCols.row_true\n63 declarations"];
+	"GlobalTheory.LvT.Built.TrueCols.row_true" -> "GlobalTheory.LvT.Built.TrueCols.closing_true_cols";
+	"GlobalTheory.LvT.Built.TrueCols.trueColumns_chain_last_step_sharp_bound"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.LvT.Built.TrueCols.trueColumns_chain_last_step_sharp_bound\n2,350 declarations"];
+	"GlobalTheory.LvT.Built.TrueCols.trueColumns_chain_last_step_sharp_bound" -> "GlobalTheory.LvT.Built.TrueCols.row_true";
+	"GlobalTheory.Mem.SRe.UpS.has4_of_has3_of_sExt_none"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Mem.SRe.UpS.has4_of_has3_of_sExt_none\n2,378 declarations"];
+	"GlobalTheory.T.has4_of_has3_of_lv3Mv"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.has4_of_has3_of_lv3Mv\n1 declarations"];
+	"GlobalTheory.Mem.SRe.UpS.has4_of_has3_of_sExt_none" -> "GlobalTheory.T.has4_of_has3_of_lv3Mv";
+	"GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_pair_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_pair_alt\n37 declarations"];
+	"GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt\n4,099 declarations"];
+	"GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_pair_alt" -> "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt";
+	"GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt" -> "GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt";
+	"GlobalTheory.Mem.Top.Closing.memberE_closing_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Mem.Top.Closing.memberE_closing_alt_alt\n3,239 declarations"];
+	"GlobalTheory.Mem.Top.Closing.memberE_closing_alt_alt" -> "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_pair_alt";
+	"GlobalTheory.Mem.Top.ExportTrue.exportF_prmR_alt_alt" -> "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_pair_alt";
+	"GlobalTheory.MiTop.famAllQ_of_allTrue_alt" -> "GlobalTheory.Fam.miStar2_of_allTrue_alt_alt";
+	"GlobalTheory.MultEqFinal.twisted_multiplicity_eq"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.MultEqFinal.twisted_multiplicity_eq\n1 declarations"];
+	"GlobalTheory.MultEqFinal.twisted_multiplicity_eq" -> "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound";
+	"GlobalTheory.Mum.has_of_base"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Mum.has_of_base\n3,455 declarations"];
+	"UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"	[fillcolor="#ffe0e0",
+		label="UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin\n108,272 declarations"];
+	"GlobalTheory.Mum.has_of_base" -> "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin";
+	"GlobalTheory.NLink.InertStep.main_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.NLink.InertStep.main_alt_alt\n3,429 declarations"];
+	"GlobalTheory.NLink.rowsAD_in_setting_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.NLink.rowsAD_in_setting_alt\n39 declarations"];
+	"GlobalTheory.NLink.InertStep.main_alt_alt" -> "GlobalTheory.NLink.rowsAD_in_setting_alt";
+	"GlobalTheory.NLinkClose.main_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.NLinkClose.main_alt_alt\n2,536 declarations"];
+	"GlobalTheory.NLink.rowsAD_in_setting_alt" -> "GlobalTheory.NLinkClose.main_alt_alt";
+	"GlobalTheory.T.conclF_of_family_facts_and_bound_at_two_three"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.conclF_of_family_facts_and_bound_at_two_three\n1 declarations"];
+	"GlobalTheory.NLinkClose.main_alt_alt" -> "GlobalTheory.T.conclF_of_family_facts_and_bound_at_two_three";
+	"GlobalTheory.NLinkE.main_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.NLinkE.main_alt_alt\n2,090 declarations"];
+	"GlobalTheory.T.eventually_congBound_of_facts"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.eventually_congBound_of_facts\n1 declarations"];
+	"GlobalTheory.NLinkE.main_alt_alt" -> "GlobalTheory.T.eventually_congBound_of_facts";
+	"GlobalTheory.NormFromFacts.main_alt_alt" -> "GlobalTheory.ExtraFromFacts.main_alt_alt";
+	"GlobalTheory.Pdv.rowAt_of_stdTie"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Pdv.rowAt_of_stdTie\n20 declarations"];
+	"GlobalTheory.Svd.servH_row"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Svd.servH_row\n1,917 declarations"];
+	"GlobalTheory.Pdv.rowAt_of_stdTie" -> "GlobalTheory.Svd.servH_row";
+	"GlobalTheory.PdvClose.at_of_true_columns"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.PdvClose.at_of_true_columns\n2,104 declarations"];
+	"GlobalTheory.PdvTie.at_of_stdTie"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.PdvTie.at_of_stdTie\n13 declarations"];
+	"GlobalTheory.PdvClose.at_of_true_columns" -> "GlobalTheory.PdvTie.at_of_stdTie";
+	"GlobalTheory.PdvTie.at_of_stdTie" -> "GlobalTheory.Pdv.rowAt_of_stdTie";
+	"GlobalTheory.RigChart.rigidForFan_holds"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.RigChart.rigidForFan_holds\n2,712 declarations"];
+	"GlobalTheory.T.rigidBoundaryChartsForFan_unitaryDatum"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.rigidBoundaryChartsForFan_unitaryDatum\n1 declarations"];
+	"GlobalTheory.RigChart.rigidForFan_holds" -> "GlobalTheory.T.rigidBoundaryChartsForFan_unitaryDatum";
+	"GlobalTheory.RigChart.toroidalForFanKS_of_rigidForFan"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.RigChart.toroidalForFanKS_of_rigidForFan\n1 declarations"];
+	"GlobalTheory.T.toroidalFanKodairaSpencer_of_rigidBoundaryCharts"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.toroidalFanKodairaSpencer_of_rigidBoundaryCharts\n1 declarations"];
+	"GlobalTheory.RigChart.toroidalForFanKS_of_rigidForFan" -> "GlobalTheory.T.toroidalFanKodairaSpencer_of_rigidBoundaryCharts";
+	"GlobalTheory.RowClaim.Join.thetaLift_row_properties_conj"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.RowClaim.Join.thetaLift_row_properties_conj\n4,831 declarations"];
+	"GlobalTheory.RowClaim.Join.thetaLift_row_properties_conj" -> "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound";
+	"GlobalTheory.RunDepth.leafDepth_all_run"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.RunDepth.leafDepth_all_run\n174 declarations"];
+	"GlobalTheory.RunDepth.leafDepth_all_run" -> "GlobalTheory.BigOn.leafDepth_all_record";
+	"GlobalTheory.RunPrimeData.exists_primeData_heights"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.RunPrimeData.exists_primeData_heights\n2,363 declarations"];
+	"GlobalTheory.RunPrimeData.exists_primeData_heights" -> "GlobalTheory.InputsAtRecord.inputsNet_recPlus";
+	"GlobalTheory.SelmerBoundAtPoint.main"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.SelmerBoundAtPoint.main\n2,355 declarations"];
+	"GlobalTheory.SelmerBoundAtPoint.main" -> "UpperTheory.Lit.every_character_of_theta_integrals_local_matching";
+	"GlobalTheory.SiegJoin.chartSt5_holds"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.SiegJoin.chartSt5_holds\n2,145 declarations"];
+	"GlobalTheory.SiegJoin.siegelToroidalPolCharts"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.SiegJoin.siegelToroidalPolCharts\n1,223 declarations"];
+	"GlobalTheory.SiegJoin.chartSt5_holds" -> "GlobalTheory.SiegJoin.siegelToroidalPolCharts";
+	"GlobalTheory.T.siegelToroidalCompactification_polarisedCharts"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.T.siegelToroidalCompactification_polarisedCharts\n1 declarations"];
+	"GlobalTheory.SiegJoin.siegelToroidalPolCharts" -> "GlobalTheory.T.siegelToroidalCompactification_polarisedCharts";
+	"GlobalTheory.SqTop.square_top_term_joined_estimates"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.SqTop.square_top_term_joined_estimates\n2,261 declarations"];
+	"GlobalTheory.SqTop.square_top_term_joined_estimates" -> "GlobalTheory.BigTop.Fun.Close.fittedFunction_at_zero_close_alt";
+	"GlobalTheory.Svd.servH_row_of_artin"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Svd.servH_row_of_artin\n4,591 declarations"];
+	"GlobalTheory.Svd.servH_row" -> "GlobalTheory.Svd.servH_row_of_artin";
+	"GlobalTheory.Svd.servH_row_linkR_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.Svd.servH_row_linkR_alt\n7 declarations"];
+	"GlobalTheory.row_hServ_of_link_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.row_hServ_of_link_alt\n8 declarations"];
+	"GlobalTheory.Svd.servH_row_linkR_alt" -> "GlobalTheory.row_hServ_of_link_alt";
+	"GlobalTheory.Svd.servH_row_of_artin" -> "GlobalTheory.Svd.servH_row_linkR_alt";
+	"GlobalTheory.T.all_stages_at_member_of_specializations_alt" -> "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt";
+	"UpperTheory.Lit.real_functionals_separate_of_hypothesis"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Lit.real_functionals_separate_of_hypothesis\n1,362 declarations"];
+	"GlobalTheory.T.bessel_period_nonvanishing_ascent_of_depth_data" -> "UpperTheory.Lit.real_functionals_separate_of_hypothesis";
+	"GlobalTheory.T.conclF_of_family_facts_and_bound_at_two_three" -> "UpperTheory.GalC.linkN_of_twGood_galoisPreconditions";
+	"GlobalTheory.T.downNe_of_eulerRight_doubling" -> "GlobalTheory.Core.Rk.LiftOnto.liftInj_nonVan_typeNZ_of_hypotheses_alt";
+	"GlobalTheory.T.eventually_congBound_of_facts" -> "GlobalTheory.NLinkClose.main_alt_alt";
+	"GlobalTheory.T.good_tower_volume_theorem" -> "GlobalTheory.CompanionTheory.Ar.Top.goodTower_volume_of_reduced";
+	"GlobalTheory.T.has4_of_has3_of_lv3Mv" -> "GlobalTheory.Mem.Top.Closing.memberE_closing_alt_alt";
+	"GlobalTheory.T.levelPrimeColumnValuations_bundlePoints_overColumns" -> "GlobalTheory.Fc.six_rows_at_member_alt";
+	"GlobalTheory.T.logKodairaSpencer_iso_smooth_snc_toroidalModel" -> "GlobalTheory.RigChart.toroidalForFanKS_of_rigidForFan";
+	"GlobalTheory.T.realization_of_published_alt" -> "GlobalTheory.ExportClose0.exportAt_bundles_alt";
+	"GlobalTheory.TorKSField.toroidalForFanKS"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.TorKSField.toroidalForFanKS\n40 declarations"];
+	"GlobalTheory.T.rigidBoundaryChartsForFan_unitaryDatum" -> "GlobalTheory.TorKSField.toroidalForFanKS";
+	"GlobalTheory.siegelToroidalIntegral_holds"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.siegelToroidalIntegral_holds\n123 declarations"];
+	"GlobalTheory.T.siegelToroidalCompactification_polarisedCharts" -> "GlobalTheory.siegelToroidalIntegral_holds";
+	"GlobalTheory.T.toroidalFanKodairaSpencer_of_rigidBoundaryCharts" -> "GlobalTheory.TorKSField.toroidalForFanKS";
+	"GlobalTheory.TheoremT.liftF_of_isGood"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.TheoremT.liftF_of_isGood\n2,851 declarations"];
+	"GlobalTheory.TheoremTClosing.main"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.TheoremTClosing.main\n180 declarations"];
+	"GlobalTheory.TheoremT.liftF_of_isGood" -> "GlobalTheory.TheoremTClosing.main";
+	"GlobalTheory.TheoremTClosing.main" -> "GlobalTheory.InertiaEigenvalues.theoremT_all_records";
+	"GlobalTheory.ThmECorA.closing" -> "GlobalTheory.NLinkClose.main_alt_alt";
+	"GlobalTheory.TorKSField.toroidalForFanKS" -> "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin";
+	"GlobalTheory.TypeAsm.TopGap.typeBound_of_gap"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.TypeAsm.TopGap.typeBound_of_gap\n2,245 declarations"];
+	"GlobalTheory.rowsPos_typeP"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.rowsPos_typeP\n1 declarations"];
+	"GlobalTheory.TypeAsm.TopGap.typeBound_of_gap" -> "GlobalTheory.rowsPos_typeP";
+	"GlobalTheory.UPel.HT.model_nonempty"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.UPel.HT.model_nonempty\n2,287 declarations"];
+	"UpperTheory.Gal.Int.Geo.kodaira_spencer_of_weight_one"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Int.Geo.kodaira_spencer_of_weight_one\n7,115 declarations"];
+	"GlobalTheory.UPel.HT.model_nonempty" -> "UpperTheory.Gal.Int.Geo.kodaira_spencer_of_weight_one";
+	"GlobalTheory.carrierNeedsFromD"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.carrierNeedsFromD\n2,887 declarations"];
+	"GlobalTheory.carrierNeedsFromD" -> "GlobalTheory.CarrierGap.carrierP";
+	"GlobalTheory.leafDepthGood_of_chartForm"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.leafDepthGood_of_chartForm\n2,929 declarations"];
+	"GlobalTheory.leafDepthGood_of_chartForm" -> "GlobalTheory.RunDepth.leafDepth_all_run";
+	"GlobalTheory.miStarRow_alt_alt"	[fillcolor="#ffe0e0",
+		label="GlobalTheory.miStarRow_alt_alt\n192 declarations"];
+	"GlobalTheory.miStarRowClosing_alt_alt" -> "GlobalTheory.miStarRow_alt_alt";
+	"GlobalTheory.miStarRow_alt_alt" -> "GlobalTheory.Fc.S0.Open0ProofU.open_orbit_of_unramified_exponents_alt";
+	"GlobalTheory.row_hServ_of_link_alt" -> "GlobalTheory.Fc.AllAtMemberStage0.allRows_of_open0_alt";
+	"GlobalTheory.rowsPos_typeP" -> "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound";
+	"UpperTheory.LiteratureTheorems.siegel_toroidal_integral_of_literature"	[fillcolor="#ffe0e0",
+		label="UpperTheory.LiteratureTheorems.siegel_toroidal_integral_of_literature\n1 declarations"];
+	"GlobalTheory.siegelToroidalIntegral_holds" -> "UpperTheory.LiteratureTheorems.siegel_toroidal_integral_of_literature";
+	LFunction_ne_zero_of_half_lt_re	[fillcolor="#ffd58a",
+		label="LFunction_ne_zero_of_half_lt_re\n2 declarations"];
+	"Main.lean"	[fillcolor="#ffd58a",
+		label="Main.lean\n18 declarations"];
+	LFunction_ne_zero_of_half_lt_re -> "Main.lean";
+	"SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt"	[fillcolor="#ffe0e0",
+		label="SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt\n9,605 declarations"];
+	"PositivityTheory.HtPt.Ah.deep_slim_use" -> "SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt";
+	"PositivityTheory.Pf1.HilbertSamuelMoriwaki.hsChain"	[fillcolor="#ffe0e0",
+		label="PositivityTheory.Pf1.HilbertSamuelMoriwaki.hsChain\n3,797 declarations"];
+	"PositivityTheory.Pf1.HilbertSamuelMoriwaki.hsChain" -> "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin";
+	"PositivityTheory.Rg.BcB.Plug2B.bci_of"	[fillcolor="#ffe0e0",
+		label="PositivityTheory.Rg.BcB.Plug2B.bci_of\n2,303 declarations"];
+	"UpperTheory.FinalTheorems.everyCharacter"	[fillcolor="#ffe0e0",
+		label="UpperTheory.FinalTheorems.everyCharacter\n121,250 declarations"];
+	"PositivityTheory.Rg.BcB.Plug2B.bci_of" -> "UpperTheory.FinalTheorems.everyCharacter";
+	"PositivityTheory.Rg.Rsw.resCore"	[fillcolor="#ffe0e0",
+		label="PositivityTheory.Rg.Rsw.resCore\n3,931 declarations"];
+	"PositivityTheory.Rg.Rsw.resCore" -> "GlobalTheory.Core.Rk.Exh.Top.downNe_k_of_hypotheses'";
+	"PositivityTheory.Sph.Tr.closeSph"	[fillcolor="#ffe0e0",
+		label="PositivityTheory.Sph.Tr.closeSph\n5,231 declarations"];
+	"PositivityTheory.ThKR.theoremK_head2_of_mod"	[fillcolor="#ffe0e0",
+		label="PositivityTheory.ThKR.theoremK_head2_of_mod\n1,997 declarations"];
+	"PositivityTheory.Sph.Tr.closeSph" -> "PositivityTheory.ThKR.theoremK_head2_of_mod";
+	"PositivityTheory.ThKR.theoremK_head2"	[fillcolor="#ffe0e0",
+		label="PositivityTheory.ThKR.theoremK_head2\n170 declarations"];
+	"UpperTheory.LiteratureTheorems.theta_integrals_agree_and_local_matching_of_literature"	[fillcolor="#ffe0e0",
+		label="UpperTheory.LiteratureTheorems.theta_integrals_agree_and_local_matching_of_literature\n1,928 declarations"];
+	"PositivityTheory.ThKR.theoremK_head2" -> "UpperTheory.LiteratureTheorems.theta_integrals_agree_and_local_matching_of_literature";
+	"PositivityTheory.ThKR.theoremK_head2_of_mod" -> "PositivityTheory.ThKR.theoremK_head2";
+	"SelfIntersectionVolumeEstimates.topCovolG_alt_alt"	[fillcolor="#ffe0e0",
+		label="SelfIntersectionVolumeEstimates.topCovolG_alt_alt\n11,936 declarations"];
+	"SelfIntersectionVolumeEstimates.topCovolG_alt_alt" -> "SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt";
+	"SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt" -> "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin";
+	"UpperTheory.FinalTheorems.everyCharacter" -> LFunction_ne_zero_of_half_lt_re;
+	"UpperTheory.FinalTheorems.everyCharacter_of_row"	[fillcolor="#ffe0e0",
+		label="UpperTheory.FinalTheorems.everyCharacter_of_row\n14,941 declarations"];
+	"UpperTheory.FinalTheorems.everyCharacter_of_row" -> "UpperTheory.FinalTheorems.everyCharacter";
+	"UpperTheory.Gal.Int.Geo.geoOne_holds"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Int.Geo.geoOne_holds\n79 declarations"];
+	"UpperTheory.Gal.Int.galoisRepresentations_of_thetaLift"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Int.galoisRepresentations_of_thetaLift\n129 declarations"];
+	"UpperTheory.Gal.Int.Geo.geoOne_holds" -> "UpperTheory.Gal.Int.galoisRepresentations_of_thetaLift";
+	"UpperTheory.Gal.Int.Geo.geometric_realization_of_weight_one"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Int.Geo.geometric_realization_of_weight_one\n2,425 declarations"];
+	"UpperTheory.Gal.Int.Geo.geometric_realization_of_weight_one" -> "UpperTheory.Gal.Int.Geo.geoOne_holds";
+	"UpperTheory.Gal.Int.Geo.jumpStep_holds"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Int.Geo.jumpStep_holds\n285 declarations"];
+	"UpperTheory.Gal.Int.Geo.steps_holds"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Int.Geo.steps_holds\n21,337 declarations"];
+	"UpperTheory.Gal.Int.Geo.jumpStep_holds" -> "UpperTheory.Gal.Int.Geo.steps_holds";
+	"UpperTheory.Gal.Int.Geo.kodaira_spencer_of_weight_one" -> "UpperTheory.Gal.Int.Geo.geometric_realization_of_weight_one";
+	"UpperTheory.Gal.Int.Geo.steps_holds" -> "UpperTheory.Gal.Int.Geo.geometric_realization_of_weight_one";
+	"UpperTheory.Gal.Int.galoisLocalGlobalStrong_of_geometry_lift"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Int.galoisLocalGlobalStrong_of_geometry_lift\n21 declarations"];
+	"UpperTheory.Gal.Int.galoisLocalGlobalStrong_of_geometry_lift" -> "UpperTheory.Gal.Int.galoisRepresentations_of_thetaLift";
+	"UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter\n9 declarations"];
+	"UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter" -> "UpperTheory.FinalTheorems.everyCharacter";
+	"UpperTheory.Gal.Int.galoisLocalGlobal_of_geometry_lift"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Int.galoisLocalGlobal_of_geometry_lift\n4,346 declarations"];
+	"UpperTheory.Gal.Int.galoisLocalGlobal_of_geometry_lift" -> "UpperTheory.Gal.Int.galoisLocalGlobalStrong_of_geometry_lift";
+	"UpperTheory.Gal.Int.galoisRepresentations_of_thetaLift" -> "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter";
+	"UpperTheory.Gal.KunnethLefschetz.Core.inputs"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.KunnethLefschetz.Core.inputs\n2,501 declarations"];
+	"UpperTheory.Gal.KunnethLefschetz.Core.inputs" -> "UpperTheory.Gal.Int.Geo.steps_holds";
+	"UpperTheory.Gal.Seam.HT.htBij"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Seam.HT.htBij\n2,233 declarations"];
+	"UpperTheory.Gal.Seam.HT.htSpecGood"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Gal.Seam.HT.htSpecGood\n544 declarations"];
+	"UpperTheory.Gal.Seam.HT.htBij" -> "UpperTheory.Gal.Seam.HT.htSpecGood";
+	"UpperTheory.Gal.Seam.HT.htSpecGood" -> "UpperTheory.Gal.Int.Geo.jumpStep_holds";
+	"UpperTheory.GalC.final_alt_alt"	[fillcolor="#ffe0e0",
+		label="UpperTheory.GalC.final_alt_alt\n765 declarations"];
+	"UpperTheory.GalC.final_alt_alt" -> "GlobalTheory.Fc.S0.StageU.hypotheses_nonempty_of_unramified_exponents_alt";
+	"UpperTheory.GalC.final_of_alt"	[fillcolor="#ffe0e0",
+		label="UpperTheory.GalC.final_of_alt\n569 declarations"];
+	"UpperTheory.GalC.final_of_alt" -> "UpperTheory.GalC.final_alt_alt";
+	"UpperTheory.GalC.linkN_of_boundAtTwoThree_slot"	[fillcolor="#ffe0e0",
+		label="UpperTheory.GalC.linkN_of_boundAtTwoThree_slot\n1 declarations"];
+	"UpperTheory.GalC.linkedAt_linkN_of_boundAtTwoThree"	[fillcolor="#ffe0e0",
+		label="UpperTheory.GalC.linkedAt_linkN_of_boundAtTwoThree\n1 declarations"];
+	"UpperTheory.GalC.linkN_of_boundAtTwoThree_slot" -> "UpperTheory.GalC.linkedAt_linkN_of_boundAtTwoThree";
+	"UpperTheory.GalC.linkN_of_twGood_galoisPreconditions" -> "UpperTheory.GalC.linkN_of_boundAtTwoThree_slot";
+	"UpperTheory.GalC.linkedAt_linkN_of_boundAtTwoThree" -> "UpperTheory.GalC.final_of_alt";
+	"UpperTheory.Lit.I5.unitary_theory_of_harishChandra_langlands_alt"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Lit.I5.unitary_theory_of_harishChandra_langlands_alt\n3,448 declarations"];
+	"UpperTheory.Lit.I5.unitary_theory_of_harishChandra_langlands_alt" -> "GlobalTheory.MultEqFinal.twisted_multiplicity_eq";
+	"UpperTheory.Lit.every_character_of_theta_integrals_local_matching" -> "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin";
+	"UpperTheory.Lit.functionalsSeparate_of_howeUnram_of_siegelWeil"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Lit.functionalsSeparate_of_howeUnram_of_siegelWeil\n999 declarations"];
+	"UpperTheory.Lit.functionalsSeparate_of_howeUnram_of_siegelWeil" -> "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound";
+	"UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound" -> "UpperTheory.Lit.every_character_of_theta_integrals_local_matching";
+	"UpperTheory.Lit.real_functionals_separate_of_hypothesis" -> "UpperTheory.Lit.functionalsSeparate_of_howeUnram_of_siegelWeil";
+	"UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin" -> "UpperTheory.FinalTheorems.everyCharacter_of_row";
+	"UpperTheory.LiteratureTheorems.published_results_arithmetic"	[fillcolor="#ffe0e0",
+		label="UpperTheory.LiteratureTheorems.published_results_arithmetic\n3,004 declarations"];
+	"UpperTheory.LiteratureTheorems.published_results_arithmetic" -> "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin";
+	"UpperTheory.LiteratureTheorems.published_results_eigen"	[fillcolor="#ffe0e0",
+		label="UpperTheory.LiteratureTheorems.published_results_eigen\n2,582 declarations"];
+	"UpperTheory.LiteratureTheorems.published_results_eigen" -> "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin";
+	"UpperTheory.LiteratureTheorems.siegel_toroidal_integral_of_literature" -> "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin";
+	"UpperTheory.LiteratureTheorems.theta_integrals_agree_and_local_matching_of_literature" -> "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin";
+	"UpperTheory.One.Join.automorphic_window_of_inputs"	[fillcolor="#ffe0e0",
+		label="UpperTheory.One.Join.automorphic_window_of_inputs\n632 declarations"];
+	"UpperTheory.One.vwin_of_row"	[fillcolor="#ffe0e0",
+		label="UpperTheory.One.vwin_of_row\n2 declarations"];
+	"UpperTheory.One.Join.automorphic_window_of_inputs" -> "UpperTheory.One.vwin_of_row";
+	"UpperTheory.One.Join.v_window_of_depth_zero_residual_bc_cm"	[fillcolor="#ffe0e0",
+		label="UpperTheory.One.Join.v_window_of_depth_zero_residual_bc_cm\n57 declarations"];
+	"UpperTheory.One.Join.v_window_of_depth_zero_residual_bc_cm" -> "UpperTheory.One.Join.automorphic_window_of_inputs";
+	"UpperTheory.One.vwin_of_row" -> "UpperTheory.FinalTheorems.everyCharacter_of_row";
+	"UpperTheory.TP.tLift_holds_k"	[fillcolor="#ffe0e0",
+		label="UpperTheory.TP.tLift_holds_k\n267 declarations"];
+	"UpperTheory.TP.tLift_holds_k" -> "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter";
+	"UpperTheory.TP.tools_holds_k"	[fillcolor="#ffe0e0",
+		label="UpperTheory.TP.tools_holds_k\n2,242 declarations"];
+	"UpperTheory.TP.tools_holds_k" -> "UpperTheory.TP.tLift_holds_k";
+	"UpperTheory.Top.every_character_of_green_v_win"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Top.every_character_of_green_v_win\n6 declarations"];
+	"UpperTheory.Top.every_character_of_green_v_win" -> "UpperTheory.Lit.every_character_of_theta_integrals_local_matching";
+	"UpperTheory.Top.zero_free_all_of_green_v_win"	[fillcolor="#ffe0e0",
+		label="UpperTheory.Top.zero_free_all_of_green_v_win\n2,080 declarations"];
+	"UpperTheory.Top.shape_closed_link_n_of_green" -> "UpperTheory.Top.zero_free_all_of_green_v_win";
+	"UpperTheory.Top.zero_free_all_of_green_v_win" -> "UpperTheory.Top.every_character_of_green_v_win";
+	"UpperTheory.V.HV.DescentVanishingReductions.sp4In0_alt"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.HV.DescentVanishingReductions.sp4In0_alt\n2,001 declarations"];
+	"UpperTheory.V.HV.DescentVanishingReductions.vwin_of_hypotheses_H_E_alt"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.HV.DescentVanishingReductions.vwin_of_hypotheses_H_E_alt\n11,253 declarations"];
+	"UpperTheory.V.HV.DescentVanishingReductions.sp4In0_alt" -> "UpperTheory.V.HV.DescentVanishingReductions.vwin_of_hypotheses_H_E_alt";
+	"UpperTheory.V.HV.DescentVanishingReductions.v_window_of_automorphy_csd_ss_mono_odd"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.HV.DescentVanishingReductions.v_window_of_automorphy_csd_ss_mono_odd\n3,495 declarations"];
+	"UpperTheory.V.HV.DescentVanishingReductions.v_window_of_automorphy_csd_ss_mono_odd" -> "UpperTheory.One.Join.v_window_of_depth_zero_residual_bc_cm";
+	"UpperTheory.V.HV.DescentVanishingReductions.vwin_of_hypotheses_H_E_alt" -> "UpperTheory.V.HV.DescentVanishingReductions.v_window_of_automorphy_csd_ss_mono_odd";
+	"UpperTheory.V.Z.Bc.seedIIs_alt"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.Z.Bc.seedIIs_alt\n3,124 declarations"];
+	"UpperTheory.V.Z.Bc.seedIIs_alt" -> "UpperTheory.V.HV.DescentVanishingReductions.sp4In0_alt";
+	"UpperTheory.V.Z.GSp4Splitting.coreG"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.Z.GSp4Splitting.coreG\n2,081 declarations"];
+	"UpperTheory.V.Z.GSp4Splitting.coreG" -> "UpperTheory.FinalTheorems.everyCharacter";
+	"UpperTheory.V.Z.Int.slopeAll"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.Z.Int.slopeAll\n23 declarations"];
+	"UpperTheory.V.Z.Int.slopeAll" -> "UpperTheory.V.HV.DescentVanishingReductions.vwin_of_hypotheses_H_E_alt";
+	"UpperTheory.V.Z.Int.slopeAllOf" -> "UpperTheory.V.Z.Int.slopeAll";
+	"UpperTheory.V.Z.Kato.Final.zetaUr"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.Z.Kato.Final.zetaUr\n3,703 declarations"];
+	"UpperTheory.V.Z.Kato.WeilSphericalRecords.twoS"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.Z.Kato.WeilSphericalRecords.twoS\n863 declarations"];
+	"UpperTheory.V.Z.Kato.Final.zetaUr" -> "UpperTheory.V.Z.Kato.WeilSphericalRecords.twoS";
+	"UpperTheory.V.Z.Kato.Joint.kato_global_unit_law_of_smoothed_classes"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.Z.Kato.Joint.kato_global_unit_law_of_smoothed_classes\n2,084 declarations"];
+	"UpperTheory.V.Z.Kato.Joint.kato_global_unit_law_of_smoothed_classes" -> "UpperTheory.V.Z.Kato.Final.zetaUr";
+	"UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH\n1 declarations"];
+	"UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH" -> "UpperTheory.V.HV.DescentVanishingReductions.vwin_of_hypotheses_H_E_alt";
+	"UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH_of_rT_of_quadBC2"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH_of_rT_of_quadBC2\n211 declarations"];
+	"UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH_of_rT_of_quadBC2" -> "UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH";
+	"UpperTheory.V.Z.Kato.WeilSphericalRecords.twoS" -> "UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH_of_rT_of_quadBC2";
+	"UpperTheory.V.ZK.lemmaK_litN_alt"	[fillcolor="#ffe0e0",
+		label="UpperTheory.V.ZK.lemmaK_litN_alt\n2,402 declarations"];
+	"UpperTheory.V.ZK.lemmaK_litN_alt" -> "UpperTheory.V.HV.DescentVanishingReductions.vwin_of_hypotheses_H_E_alt";
+}

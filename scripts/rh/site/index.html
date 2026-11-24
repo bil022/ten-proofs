@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riemann Hypothesis proof explorer · 黎曼猜想证明浏览器</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="title">
+    <h1 data-t="title"></h1>
+    <p class="sub" id="sub"></p>
+  </div>
+  <div class="tools">
+    <div class="search">
+      <input id="q" type="search" autocomplete="off" spellcheck="false">
+      <ol id="hits" hidden></ol>
+    </div>
+    <button id="lang" type="button"></button>
+    <button id="help" type="button" data-t="help"></button>
+  </div>
+</header>
+<nav id="crumbs" aria-label="path"></nav>
+<main>
+  <section id="graphpane">
+    <div id="graph" role="img"></div>
+    <div id="tip" hidden></div>
+    <div class="legend" id="legend"></div>
+    <label class="toggle"><input type="checkbox" id="allEdges"> <span data-t="allEdges"></span></label>
+    <div id="loading" data-t="loading" hidden></div>
+    <a id="upNode" class="up" hidden></a>
+    <section id="code" hidden>
+      <div class="codeHead">
+        <div class="codeTitle"><b id="codeName"></b><a id="codeLink" target="_blank" rel="noopener"></a><span id="codeNote"></span></div>
+        <button id="codeClose" type="button" aria-label="close">×</button>
+      </div>
+      <div class="codeBody"><pre class="gutter" id="codeGutter"></pre><pre class="src"><code id="codeSrc"></code></pre></div>
+    </section>
+  </section>
+  <aside>
+    <div id="page"></div>
+    <div id="sel"></div>
+    <div class="kids">
+      <div class="kidsHead">
+        <h3 data-t="parts"></h3>
+        <input id="filter" type="search" autocomplete="off" spellcheck="false">
+      </div>
+      <table>
+        <thead><tr>
+          <th data-sort="name" data-t="colName"></th>
+          <th data-sort="size" class="num" data-t="colSize"></th>
+          <th data-sort="kids" class="num" data-t="colKids"></th>
+        </tr></thead>
+        <tbody id="kidrows"></tbody>
+      </table>
+      <button id="more" type="button" hidden></button>
+    </div>
+  </aside>
+</main>
+<dialog id="about">
+  <div id="aboutText"></div>
+  <form method="dialog"><button data-t="close"></button></form>
+</dialog>
+<script src="vendor/cytoscape.min.js"></script>
+<script src="vendor/cytoscape-dagre.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

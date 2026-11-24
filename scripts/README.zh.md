@@ -73,6 +73,14 @@ two_is_pos ─ ─ ─ ▶ myTwo_ne_zero    虚线（经过定义 myTwo）
 每边 14,400 pt 的页面上限，在 Acrobat 里可能打不开。这时请用浏览器打开 SVG，放大
 查看，并用浏览器的搜索功能按名字找定理。
 
+## 黎曼猜想
+
+[`rh/`](rh/) 用同样的方法处理
+[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)，
+这个证明有 60,928 个 Lean 文件、568,159 个定理，一张定理级的图画不下，所以分成三张：
+`riemannHypothesis`（离主定理最近的 395 个定理）、`riemannHypothesis_folders`（每个源码
+文件夹一个方框），以及 `riemannHypothesis_blocks`（切成独立子证明的整个证明）。三张图和其他图一样放在 `en/` 和 `zh/` 下；详见 [rh/README.zh.md](rh/README.zh.md)。
+
 ## 文件夹里有什么
 
 | 文件夹 | 内容 |
@@ -86,6 +94,7 @@ two_is_pos ─ ─ ─ ▶ myTwo_ne_zero    虚线（经过定义 myTwo）
 | `proofs.zh.md`、`proofs-from-code.zh.md`、`leaves.zh.md` | 证明讲解：按论文讲、只看代码的总结、最简单的叶子定理（各有对应的英文 `.md` 版本）。 |
 | `duplicates.tsv` | 陈述相同的定理、相同的定义和一行推论（由 `Duplicates.lean` 生成）。 |
 | `library_use.tsv` | 每个 Lean 文件用到了哪些 Mathlib 常量（由 `LibraryUse.lean` 生成）。 |
+| `rh` | 黎曼猜想依赖图的脚本、说明和浏览网站。 |
 
 PNG 的长边最多 8,000 像素。四张小图在这个尺寸下文字清晰可读；八张大图被缩得很小，
 PNG 只能看出整体形状，要看内容请用 SVG。
