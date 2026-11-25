@@ -9,14 +9,18 @@ This repository contains Lean 4 formalizations of the results presented in
 > This is a copy of [openai/ten-proofs](https://github.com/openai/ten-proofs)
 > with one addition: a **dependency graph of every proof**, in the
 > [`scripts/`](scripts/) folder. The Lean files themselves are unchanged.
+> The same folder also maps the Lean proof of the Riemann Hypothesis, which you
+> can browse in the **[Riemann Hypothesis proof explorer](https://bil022.github.io/riemann-explorer/)**.
 >
 > 本仓库是 [openai/ten-proofs](https://github.com/openai/ten-proofs) 的副本，只多了一样东西：
 > **每个证明的依赖图**，放在 [`scripts/`](scripts/) 文件夹里。Lean 文件本身没有改动。
+> 同一个文件夹里还有黎曼猜想 Lean 证明的依赖图，可以在
+> **[黎曼猜想证明浏览器](https://bil022.github.io/riemann-explorer/)** 里一层层浏览。
 
 ## Proof dependency graphs · 证明依赖图
 
-*New: graphs of the Lean proof of the Riemann Hypothesis, [below](#the-riemann-hypothesis--黎曼猜想).*
-*新增：黎曼猜想 Lean 证明的依赖图，[见下文](#the-riemann-hypothesis--黎曼猜想)。*
+*New: graphs of the Lean proof of the Riemann Hypothesis, [below](#the-riemann-hypothesis--黎曼猜想), and an [explorer website](https://bil022.github.io/riemann-explorer/) to click through it.*
+*新增：黎曼猜想 Lean 证明的依赖图，[见下文](#the-riemann-hypothesis--黎曼猜想)；还有一个可以点进去浏览的[网站](https://bil022.github.io/riemann-explorer/)。*
 
 The ten proofs are hard to read: each Lean file is between 3,000 and 130,000
 lines, a flat list of hundreds or thousands of lemmas. The graphs below show how

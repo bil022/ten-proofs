@@ -89,7 +89,8 @@ a proof of 60,928 Lean files and 568,159 theorems. It is too large for one
 theorem-level picture, so there are three: `riemannHypothesis` (the 395 theorems
 nearest the main theorem) and `riemannHypothesis_folders` (one box per source
 folder), plus `riemannHypothesis_blocks`, the proof cut into self-contained
-sub-proofs. All three are under `en/` and `zh/` like the others; see
+sub-proofs. To click through the whole proof, use the
+[explorer website](https://bil022.github.io/riemann-explorer/). All three graphs are under `en/` and `zh/` like the others; see
 [rh/README.md](rh/README.md).
 
 ## What is in this folder
