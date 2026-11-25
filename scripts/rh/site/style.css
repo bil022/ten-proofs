@@ -79,7 +79,7 @@ a.up {
 a.up:hover { border-color: var(--ink-3); }
 .card a.up { margin: 0; padding: 4px 10px; font-size: 13px; }
 main { flex: 1; display: flex; min-height: 0; }
-#graphpane { flex: 1; position: relative; min-width: 0; }
+#graphpane { flex: 1; position: relative; min-width: 0; overflow: hidden; }
 #graph { position: absolute; inset: 0; }
 #loading {
   position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
@@ -147,9 +147,20 @@ dialog { max-width: 640px; border: 1px solid var(--line); border-radius: 10px; b
 dialog h2 { margin-top: 0; font-size: 16px; }
 dialog p, dialog li { font-size: 13.5px; }
 @media (max-width: 900px) {
+  body { height: 100dvh; }
+  header { flex-wrap: wrap; gap: 8px; padding: 8px 12px; }
+  .tools { flex: 1 1 100%; }
+  .search { flex: 1; min-width: 0; }
+  #q { width: 100%; }
+  #hits { width: min(520px, calc(100vw - 24px)); }
   main { flex-direction: column; }
-  aside { width: auto; border-left: 0; border-top: 1px solid var(--line); max-height: 45vh; }
-  #q { width: 200px; }
+  #graphpane { min-height: 50vh; }
+  aside { width: auto; flex: 1 1 auto; min-height: 0; border-left: 0; border-top: 1px solid var(--line); padding: 10px 12px; }
+  .legend { left: 6px; bottom: 6px; padding: 4px 6px; font-size: 10px; }
+  .legend .sw i { width: 26px; }
+  .legend .cap { display: none; }
+  .toggle { right: 6px; bottom: auto; top: 6px; padding: 3px 8px; }
+  #tip { max-width: calc(100vw - 24px); }
 }
 
 #upNode { position: absolute; z-index: 4; margin: 0; box-shadow: 0 1px 4px rgba(0,0,0,.12); }

@@ -314,6 +314,7 @@ function drawGraph() {
   }
   cy.elements().remove();
   cy.add(els);
+  cy.resize();  // the pane may have changed size since the last draw (on phones the side panel is below it)
   cy.layout({ name: "dagre", rankDir: "LR", nodeSep: 14, rankSep: 70, edgeSep: 6, animate: false }).run();
   cy.fit(undefined, 30);
   if (cy.zoom() > 1.3) { cy.zoom(1.3); cy.center(); }  // keep small pages at a readable size
@@ -568,6 +569,16 @@ function setupGraph() {
     ],
   });
   cy.on("viewport resize", placeUp);
+  // Cytoscape only measures its container on window resize; follow layout changes too.
+  if (window.ResizeObserver) {
+    let last = "";
+    new ResizeObserver(() => {
+      const r = $("graph").getBoundingClientRect(), k = `${Math.round(r.width)}x${Math.round(r.height)}`;
+      if (k === last) return;
+      last = k; cy.resize();
+      if (current) { cy.fit(undefined, 30); if (cy.zoom() > 1.3) { cy.zoom(1.3); cy.center(); } }
+    }).observe($("graph"));
+  }
   const tip = $("tip");
   const showTip = (html, ev) => {
     tip.innerHTML = html; tip.hidden = false;
