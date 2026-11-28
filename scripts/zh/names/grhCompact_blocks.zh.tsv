@@ -1,0 +1,75 @@
+BaseLevel.exists_diagOp_mem_ellIntegralForms	基水平 · 存在 对角 Op ∈ ell 积分 Forms
+denominatorLe_rowBudget	分母≤ 行预算
+Columns.hasType_markOperator	列 · 有类型 mark 算子
+Data.IsMarked.hasType_markOperator	数据 · 是带标记 · 有类型 mark 算子
+ComparedTheory.isGood_standard_etale	Compared Theory · 是好 标准 etale
+ComparedTheory.mem_of_isClosedClass_of_isCharting	Compared Theory · ∈ 由 是闭类 由 是 Charting
+Model.exists_galois_rep	模型 · 存在 伽罗瓦 rep
+Data.IsMarked.hasType_prod_markOperator_pow	数据 · 是带标记 · 有类型 积 mark 算子 幂
+Data.exists_indexDvd_Bmu_divisible	数据 · 存在 指标整除 Bmu divisible
+Data.crude_rows	数据 · crude 行
+Data.heightLe_volume_rows	数据 · 高度≤ 体积 行
+Data.eq_zero_of_integral_fNatural_tableTheta	数据 · = 零 由 积分 f 自然 表θ
+exists_comparison_forms	存在 比较 forms
+Data.exists_besselSystem	数据 · 存在 bessel 系统
+star_inequality	星 不等式
+Data.exists_family_covolumeSq_le	数据 · 存在 族 covolume 平方 ≤
+Data.short_forms	数据 · 短 forms
+Data.exists_isAdmissibleComb_unfolding	数据 · 存在 是容许 Comb 展开
+Data.seesaw	数据 · seesaw
+Data.exists_isTidy_integral_eq_gridPeriod	数据 · 存在 是 Tidy 积分 = 网格 Period
+Data.exists_stage_cut	数据 · 存在 阶段 割
+Data.gaugeLe_Bmu_at_N	数据 · 规范≤ Bmu 在 N
+Data.heightLe_inv_heckeValueProd_div	数据 · 高度≤ 逆 hecke 值积 ÷
+Data.heightLe_liftVolume_ratio	数据 · 高度≤ 提升体积 比
+Data.heightLe_inv_ratio	数据 · 高度≤ 逆 比
+Data.heightLe_volume_ratio_sq	数据 · 高度≤ 体积 比 平方
+Data.integral_forms_long	数据 · 积分 forms long
+Data.ramifiedColumns_fill_rows	数据 · ramified 列 fill 行
+Filling.Fits.exists_translate_finrank_comap_le	Filling · 适合 · 存在 平移 有限秩 拉回映射 ≤
+Filling.energy_fixingSet_le	Filling · 能量 fixing 集合 ≤
+Filling.sum_le_of_positive_type	Filling · 和 ≤ 由 正 类型
+Filling.energy_le_of_level_pairs	Filling · 能量 ≤ 由 水平 对
+Filling.energy_le_of_linkEnergy_le	Filling · 能量 ≤ 由 link 能量 ≤
+Filling.enorm_amplitudeSum_le_classSize	Filling · enorm 振幅和 ≤ 类大小
+Filling.sieve	Filling · sieve
+IsEquivariantLift.apply_stdColDatum_eq_zero	是等变提升 · 作用于 std 列数据 = 零
+stdExchange_of_periods	std 交换 由 periods
+IsProperOver.proper_base_change	是真之上 · 真 基 改变
+IsTwoFactor.laplace_method	是二因子 · laplace method
+Lift.KummerChart.PairingSide.SidePairing.scaledCupBounds_of_points_at_cuts	提升 · Kummer Chart · 配对侧 · 侧配对 · 缩放 Cup 界 由 点 在 割
+block_defect_le_at_place	块 亏量 ≤ 在 位置
+Main.lean	Main · lean
+exists_rep_of_cuspidal_type	存在 rep 由 cuspidal 类型
+New.grh	新 · grh
+Orbital.harish_chandra_degree_and_orbital	Orbital · harish chandra 次数 且 orbital
+ThetaTorus.hasGoodReduction_and_val_card_eq_one	θ环面 · 有好归约 且 值 基数 = 一
+nonempty_universalFamily	非空 泛族
+TwistingData.hasType_twisted_hecke	Twisting 数据 · 有类型 扭 hecke
+sum_blockLoss_le	和 块损失 ≤
+crystalline_defect_le	crystalline 亏量 ≤
+exists_isFitFamily	存在 是拟合族
+ellAdicCohom.isCrystalline_and_linearFrob_rel	ell Adic Cohom · 是 Crystalline 且 线性 Frob rel
+ellAdicCohom.woods_hole	ell Adic Cohom · woods 洞
+eventually_primeError_le_rpow	最终 素误差 ≤ 实幂
+exchange_theorem	交换 定理
+exists_anticyclotomic_twist	存在 anticyclotomic 扭转
+exists_mFoldTwist_selmerLengthLe	存在 m 折叠扭转 selmer 长度≤
+exists_isWeakBaseChange_of_matching	存在 是弱基改变 由 匹配
+exists_length_shaOdd_le	存在 长度 sha 奇 ≤
+exists_model	存在 模型
+exists_occursInWeight	存在 occurs 在…中权
+sphericalCompat_of_split	球面 Compat 由 分裂
+exists_thetaFamily_of_points	存在 θ族 由 点
+hasBandLimits_of_isCutBessel	有 Band 极限 由 是割 Bessel
+hasCrysComparison_chart	有 Crys 比较 chart
+span_range_crysComparison_pull_eq_top	张成 值域 crys 比较 pull = ⊤
+hasMultiplicativeNorm_of_expanding	有乘性范数 由 扩张
+isAcyclicAt_almostCoeff	是无环在 几乎系数
+isAcyclicAt_perfectTilt	是无环在 完美倾斜
+isEdge_of_isJointHarmonic	是边 由 是联合调和
+isHalfEdge_of_oscillatorPair	是一半边 由 oscillator 对
+linearIndepOn_hodgeTateMap_pointClass	线性 Indep 在…上 hodge Tate 映射 点类
+ribet_columns	ribet 列
+sphericalCompat_of_odd	球面 Compat 由 奇
+tangent_bound	切 界

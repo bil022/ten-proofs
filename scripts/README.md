@@ -83,15 +83,18 @@ browser's search to find a theorem by name.
 
 ## The Riemann Hypothesis
 
-[`rh/`](rh/) applies the same method to
-[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis),
-a proof of 60,928 Lean files and 568,159 theorems. It is too large for one
-theorem-level picture, so there are three: `riemannHypothesis` (the 395 theorems
-nearest the main theorem) and `riemannHypothesis_folders` (one box per source
-folder), plus `riemannHypothesis_blocks`, the proof cut into self-contained
-sub-proofs. To click through the whole proof, use the
-[explorer website](https://bil022.github.io/riemann-explorer/). All three graphs are under `en/` and `zh/` like the others; see
-[rh/README.md](rh/README.md).
+[`rh/`](rh/) applies the same method to three Lean proofs of the Riemann
+Hypothesis: the first one,
+[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)
+(60,928 Lean files, 568,159 theorems), and the readable and compact rewrites in
+[lsernau/grh-lean](https://github.com/lsernau/grh-lean) (17,156 and 8,802
+theorems). They are too large for one theorem-level picture, so each has three:
+`<proof>` (the theorems nearest the main theorem), `<proof>_folders` (one box per
+source folder) and `<proof>_blocks` (the proof cut into self-contained
+sub-proofs), where `<proof>` is `riemannHypothesis`, `grh` or `grhCompact`. To
+click through a whole proof, use the
+[explorer website](https://bil022.github.io/riemann-explorer/). All the graphs
+are under `en/` and `zh/` like the others; see [rh/README.md](rh/README.md).
 
 ## What is in this folder
 

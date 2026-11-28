@@ -1,14 +1,11 @@
-"""Dominator tree of the riemann-hypothesis proof, shared by rh_blocks.py and rh_site.py.
+"""Dominator tree of a Riemann Hypothesis proof, shared by rh_blocks.py and rh_site.py.
 
 A declaration D belongs to theorem X when every chain of dependencies from the
 five theorems of Main.lean down to D passes through X (X dominates D). Computed
 with the iterative algorithm of Cooper, Harvey and Kennedy, "A Simple, Fast
 Dominance Algorithm" (2001).
 """
-import collections, glob, os
-
-ROOTS = ["riemannHypothesis", "riemannZeta_eq_zero_re", "LFunction_ne_zero_of_half_lt_re",
-         "LFunction_eq_zero_re", "LFunction_eq_zero_re_of_isPrimitive"]
+from projects import ROOTS, load
 
 
 class Tree:
@@ -25,16 +22,7 @@ class Tree:
     """
 
     def __init__(self, src):
-        self.lines = {}  # name -> (first, last) line in its source file, when known
-        info, used = {}, collections.defaultdict(set)
-        for f in sorted(glob.glob(os.path.join(src, "b.*.tsv"))):
-            for line in open(f):
-                name, user, kind, mod, us, first, last = line.rstrip("\n").split("\t")
-                if name not in info or info[name][1] == "?":
-                    info[name] = (user, kind, mod)
-                if first != "0":
-                    self.lines[name] = (int(first), int(last))
-                used[name].update(us.split())
+        info, used, self.lines = load(src)
         deps = {n: [u for u in us if u in info and u != n] for n, us in used.items()}
         del used
 

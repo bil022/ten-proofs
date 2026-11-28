@@ -1,0 +1,208 @@
+DenseRange.eq	稠密值域 · =
+New.Cohomology.upsilon_atUniformizer_eq_neg_one	新 · Cohomology · upsilon 在素元 = 负 一
+New.Gf.finIdeleAbs_det	新 · Gf · 有限 Idele 绝对值 行列式
+New.Parameters.v_neg_inv_sqrtNegDInE_mul_alpha_mul_star	新 · 参数 · v 负 逆 平方根负 D 在…中 E × alpha × 星
+New.Space.instCompactSpaceQuotientForall𝔸AddSubgroupRatVectors	新 · 空间 · 实例紧空间商任意 𝔸AddSubgroupRatVectors
+New.WeilData.im_pos	新 · Weil 数据 · 虚部 正
+New.WeilData.star_j	新 · Weil 数据 · 星 j
+New.WeilData.toHasPrimitiveRoot5040	新 · Weil 数据 · 到有本原根 5040
+New.conjTranspose_stdForm	新 · 共轭转置 std 形式
+New.finMultiplier_eq_one_of_mem	新 · 有限乘子 = 一 由 ∈
+New.finMultiplier_inv	新 · 有限乘子 逆
+New.glMultiplier_mul_of_mem	新 · gl 乘子 × 由 ∈
+New.instBorelSpaceGf	新 · 实例博雷尔空间 Gf
+New.instContinuousSMulGForall𝔸	新 · 实例连续 S × G 任意 𝔸
+New.instContinuousSMulGfForall𝔸f	新 · 实例连续 S × Gf 任意 𝔸f
+New.instContinuousStar𝔸f	新 · 实例连续星 𝔸f
+New.instIsTopologicalGroupGf	新 · 实例是拓扑群 Gf
+New.instSecondCountableTopologyGf	新 · 实例第二可数拓扑 Gf
+New.isOpen_stdLevel	新 · 是开 std 水平
+New.nonempty_splittingChar	新 · 非空 分裂特征
+New.star_algebraMap_finAdele	新 · 星 代数映射 有限 Adele
+New.star_mem_Ô	新 · 星 ∈ Ô
+New.stdAddChar_inv_two_mul_add_star	新 · std +特征 逆 二 × + 星
+New.stdLattice.continuous_selfDualAddChar	新 · std 格 · 连续 自身对偶+特征
+New.stdLattice.norm_selfDualAddChar	新 · std 格 · 范数 自身对偶+特征
+New.stdLattice.selfDualAddChar_congr	新 · std 格 · 自身对偶+特征 合同
+New.stdLattice.star_mulVec_dotProduct_mulVec	新 · std 格 · 星 ×向量 点积积 ×向量
+LFunction_eq_zero_re	L 函数 = 零 实部
+LFunction_eq_zero_re_of_isPrimitive	L 函数 = 零 实部 由 是本原
+LFunction_ne_zero_of_half_lt_re	L 函数 ≠ 零 由 一半 < 实部
+New.CMType.toIsCMField	新 · CM 类型 · 到是 CM 域
+New.Parameters.exists_unit_prod_phi_eq_one_and_mul_star_eq	新 · 参数 · 存在 单位 积 φ = 一 且 × 星 =
+New.Parameters.instHasPrimitiveRoot5040E	新 · 参数 · 实例有本原根 5040 E
+New.CMType.toNumberField	新 · CM 类型 · 到数域
+New.stdLattice.isCompact_stdLattice	新 · std 格 · 是紧 std 格
+New.stdLattice.mem_stdLattice	新 · std 格 · ∈ std 格
+New.Parameters.exists_mul_vacElem_integral_bounded	新 · 参数 · 存在 × vac 元素 积分 有界
+New.Data.HasLogBound.pos	新 · 数据 · 有对数界 · 正
+New.Data.primeRemainder_le	新 · 数据 · 素余项 ≤
+New.Data.instHasLogBoundLogBLog	新 · 数据 · 实例有对数界对数 B 对数
+New.eventually_primeRemainder_natCast_le	新 · 最终 素余项 自然数类型转换 ≤
+New.Fock.blockMatrix_preserves_signMatrix	新 · Fock · 块矩阵 保持 符号矩阵
+New.Fock.realMultiplier_blockU	新 · Fock · 实乘子 块 U
+New.adeleMatrix_mulVec_adelicSum	新 · adele 矩阵 ×向量 adelic 和
+New.Fock.instIsAddHaarMeasureForallComplexNormalizedVolume	新 · Fock · 实例是+哈尔测度任意复归一化体积
+New.Fock.realMultiplier_mul_integral_eq_one	新 · Fock · 实乘子 × 积分 = 一
+New.instIsAddHaarMeasureForall𝔸VacuumMeasure	新 · 实例是+哈尔测度任意 𝔸VacuumMeasure
+New.isVacuum_vacuumFn	新 · 是真空 真空函数
+New.Fock.isVacuum_realVac	新 · Fock · 是真空 实 Vac
+New.Fock.map_mulVec_addHaar_eq_smul	新 · Fock · 映射 ×向量 +哈尔 = 数乘
+New.Space.isThetaFunctional_rawTheta	新 · 空间 · 是θ泛函 原始θ
+New.stdLattice.mem_cocycleRadical	新 · std 格 · ∈ 上闭链根式
+New.Heisenberg.IsVacuum.apply_zero	新 · Heisenberg · 是真空 · 作用于 零
+New.Heisenberg.IsVacuum.weilOp_one	新 · Heisenberg · 是真空 · weil Op 一
+New.Space.IsThetaFunctional.injective_apply_heisenbergOp	新 · 空间 · 是θ泛函 · 单射 作用于 heisenberg Op
+New.Space.exists_isThetaFunctional	新 · 空间 · 存在 是θ泛函
+New.Heisenberg.IsVacuum.continuous	新 · Heisenberg · 是真空 · 连续
+New.Heisenberg.IsVacuum.ext	新 · Heisenberg · 是真空 · 外延
+New.Heisenberg.IsVacuum.ext_iff	新 · Heisenberg · 是真空 · 外延 ⇔
+New.Heisenberg.IsVacuum.integrable	新 · Heisenberg · 是真空 · 可积
+New.Heisenberg.IsVacuum.integrable_mul_kernel	新 · Heisenberg · 是真空 · 可积 × 核
+New.Heisenberg.IsVacuum.norm_eq_integral_norm	新 · Heisenberg · 是真空 · 范数 = 积分 范数
+New.Heisenberg.IsVacuum.twisted_conv	新 · Heisenberg · 是真空 · 扭 conv
+New.Heisenberg.IsVacuum.weilOp_mul	新 · Heisenberg · 是真空 · weil Op ×
+New.Heisenberg.MultiplierAction.beta_smul	新 · Heisenberg · 乘子作用 · β 数乘
+New.Heisenberg.MultiplierAction.cocycle	新 · Heisenberg · 乘子作用 · 上闭链
+New.Heisenberg.MultiplierAction.continuous_delta	新 · Heisenberg · 乘子作用 · 连续 δ
+New.Heisenberg.MultiplierAction.measurePreserving	新 · Heisenberg · 乘子作用 · 测度保持
+New.Heisenberg.MultiplierAction.Δ_inv	新 · Heisenberg · 乘子作用 · Δ 逆
+New.Heisenberg.MultiplierAction.Δ_one	新 · Heisenberg · 乘子作用 · Δ 一
+New.Heisenberg.OrthogonalSum.beta_equiv	新 · Heisenberg · 正交和 · β 等价
+New.Heisenberg.OrthogonalSum.integral_eq_integral_prod	新 · Heisenberg · 正交和 · 积分 = 积分 积
+New.Heisenberg.OrthogonalSum.vac_equiv	新 · Heisenberg · 正交和 · vac 等价
+New.Heisenberg.Rep.cont	新 · Heisenberg · Rep · 连续
+New.Heisenberg.Rep.mul	新 · Heisenberg · Rep · ×
+New.Heisenberg.Rep.norm_map	新 · Heisenberg · Rep · 范数 映射
+New.Heisenberg.add_left	新 · Heisenberg · + 左
+New.stdLattice.isVacuum_finVac	新 · std 格 · 是真空 有限 Vac
+New.Heisenberg.add_right	新 · Heisenberg · + 右
+New.Heisenberg.beta_neg_right	新 · Heisenberg · β 负 右
+New.Heisenberg.beta_zero_right	新 · Heisenberg · β 零 右
+New.Heisenberg.cont	新 · Heisenberg · 连续
+New.Heisenberg.mk.congr_simp	新 · Heisenberg · 构造 · 合同 simp
+New.Heisenberg.norm_eq_one	新 · Heisenberg · 范数 = 一
+New.Heisenberg.self_eq_one	新 · Heisenberg · 自身 = 一
+New.IsHermitianInvolution.isUnit	新 · 是厄米对合 · 是单位
+New.IsPolar.landau	新 · 是极 · landau
+New.LFunction_ne_zero_of_primeRemainder_le	新 · L 函数 ≠ 零 由 素余项 ≤
+New.IsSaturating.exists_isSaturating	新 · 是 Saturating · 存在 是 Saturating
+New.grh	新 · grh
+New.Parameters.algHom_eq_of_mk_eq	新 · 参数 · alg 同态 = 由 构造 =
+New.Parameters.phi_algebraMap	新 · 参数 · φ 代数映射
+New.Parameters.coe_sqrtNegDInE	新 · 参数 · 强制转换 平方根负 D 在…中 E
+New.Parameters.d_prime	新 · 参数 · d 素
+New.Parameters.instPrimeSevenModEight	新 · 参数 · 实例素七模八
+New.eventually_exists_data_scales	新 · 最终 存在 数据 尺度
+New.Parameters.instIsAbelianGaloisRatE	新 · 参数 · 实例是交换伽罗瓦有理数 E
+New.Parameters.instIsAbelianGaloisSubtypeComplexMemIntermediateFieldRatKE	新 · 参数 · 实例是交换伽罗瓦子类型复∈中间域有理数 KE
+New.Parameters.instIsCyclotomicExtensionSingletonNatSetQ₁SubtypeComplexMemIntermediateFieldRatKE	新 · 参数 · 实例是 Cyclotomic 扩张单点集自然数集合 Q ₁SubtypeComplexMemIntermediateFieldRatKE
+New.Parameters.isPrimitiveRoot_zeta	新 · 参数 · 是本原根 zeta
+New.Parameters.instIsTotallyComplexE	新 · 参数 · 实例是 Totally 复 E
+New.Parameters.instNeZeroNatQ₀	新 · 参数 · 实例≠零自然数 Q ₀
+New.Parameters.irreducible_cyclotomic	新 · 参数 · 不可约 cyclotomic
+New.eventually_abs_primeRemainder_exp_le	新 · 最终 绝对值 素余项 指数函数 ≤
+New.Parameters.instNeZeroNatTowerDeg	新 · 参数 · 实例≠零自然数 Tower Deg
+New.Parameters.instNumberFieldE	新 · 参数 · 实例数域 E
+New.Parameters.relDifferentGen_ne_zero	新 · 参数 · rel Different Gen ≠ 零
+New.PrimeSevenModEight.toFact	新 · 素七模八 · 到 Fact
+New.QuadField.finrank_eq_two	新 · Quad 域 · 有限秩 = 二
+New.QuadField.instFactEqNatHModOfNatOfPrimeSevenModEight	新 · Quad 域 · 实例 Fact =自然数 H 模由自然数由素七模八
+New.QuadField.instIsCMFieldSubtypeComplexMemIntermediateFieldRat	新 · Quad 域 · 实例是 CM 域子类型复∈中间域有理数
+New.QuadField.star_sqrtNegD	新 · Quad 域 · 星 平方根负 D
+New.QuadField.instIsTotallyComplexSubtypeComplexMemIntermediateFieldRat	新 · Quad 域 · 实例是 Totally 复子类型复∈中间域有理数
+New.QuadField.instNeZeroNat	新 · Quad 域 · 实例≠零自然数
+New.QuadField.instNumberFieldSubtypeComplexMemIntermediateFieldRat	新 · Quad 域 · 实例数域子类型复∈中间域有理数
+New.QuadField.sqrtNegD_coe	新 · Quad 域 · 平方根负 D 强制转换
+New.QuadField.sqrtNegD_sq	新 · Quad 域 · 平方根负 D 平方
+New.exists_isThetaFunctional_signedSpace	新 · 存在 是θ泛函 带符号空间
+New.U.form_mulVec_mulVec	新 · U · 形式 ×向量 ×向量
+New.U.norm_det	新 · U · 范数 行列式
+New.U.principalMinor_coe_inv	新 · U · principal 子式 强制转换 逆
+New.ValuativeArc.toIsDomain	新 · Valuative 弧 · 到是定义域
+New.Variety.IsAbsIntegrallyClosedLocal.toIsDomain	新 · Variety · 是绝对值 Integrally 闭局部 · 到是定义域
+New.Variety.instIsAbsIntegrallyClosedLocal	新 · Variety · 实例是绝对值 Integrally 闭局部
+New.WeilData.conj_scaleIdele_mul	新 · Weil 数据 · 共轭 尺度 Idele ×
+New.WeilData.val_scaleIdele_snd	新 · Weil 数据 · 值 尺度 Idele 第二分量
+New.stdLattice.traceOneAdele_add_star	新 · std 格 · 迹一 Adele + 星
+New.abs_primeRemainder_exp_le	新 · 绝对值 素余项 指数函数 ≤
+New.isPolar_primeRemainder	新 · 是极 素余项
+New.abs_primeRemainder_sub_le	新 · 绝对值 素余项 − ≤
+New.primeRemainder_sub_primeRemainder_floor_le	新 · 素余项 − 素余项 下取整 ≤
+New.adeleMap_algebraMap	新 · adele 映射 代数映射
+New.algebraMap_mem_Ô	新 · 代数映射 ∈ Ô
+New.continuous_stdAddChar	新 · 连续 std +特征
+New.analyticAt_entireL	新 · 解析在 entire L
+New.analyticAt_logDerivMean_of_one_le_re	新 · 解析在 对数导数均值 由 一 ≤ 实部
+New.analyticOrderAt_entireL_ne_top	新 · 解析阶在 entire L ≠ ⊤
+New.ofReal_re_logDerivMean_one	新 · 由实 实部 对数导数均值 一
+New.analyticOrderNatAt_entireL_eq_zero_iff	新 · 解析阶自然数在 entire L = 零 ⇔
+New.continuous_adeleMap	新 · 连续 adele 映射
+New.continuous_principalMinor	新 · 连续 principal 子式
+New.denseRange_algebraMap_finAdele	新 · 稠密值域 代数映射 有限 Adele
+New.instPolishSpace𝔸f	新 · 实例 Polish 空间 𝔸f
+New.dvd_two_mul_succ_and_not_dvd_succ	新 · 整除 二 × 后继 且 非 整除 后继
+New.eventually_primeRemainder_le_rpow	新 · 最终 素余项 ≤ 实幂
+New.entireL_ne_zero	新 · entire L ≠ 零
+New.evalInf_apply	新 · 求值下确界 作用于
+New.eventuallyEq_of_eq_far_right	新 · 最终= 由 = 远 右
+New.exists_Ioi_subset_integrableExpSet	新 · 存在 左开无穷区间 子集 可积指数函数集合
+New.exists_entireL_quadTwist_ne_zero	新 · 存在 entire L quad 扭转 ≠ 零
+New.exists_isPrimitive_changeLevel_eq	新 · 存在 是本原 改变水平 =
+New.gammaFactor_eq_zero_or_LFunction_one_sub_eq_zero	新 · Γ因子 = 零 或 L 函数 一 − = 零
+New.zero_density_quadTwist	新 · 零 密度 quad 扭转
+New.exists_measure_laplace_eq	新 · 存在 测度 laplace =
+New.exists_unit_star_mul_self_eq	新 · 存在 单位 星 × 自身 =
+New.star_normNegOne_mul_self	新 · 星 范数负一 × 自身
+New.finite_setOf_valued_val_ne_one	新 · 有限 集合由 值 值 ≠ 一
+New.map_mulVec_haar_finAdele	新 · 映射 ×向量 哈尔 有限 Adele
+New.finrank_eq_two_mul_card_infinitePlace	新 · 有限秩 = 二 × 基数 无限位置
+New.fourierChar_trace_eq_one	新 · 傅里叶特征 迹 = 一
+New.gammaFactor_changeLevel	新 · Γ因子 改变水平
+New.zeros_on_line	新 · zeros 在…上 直线
+New.gram_inv_of_gram_eq	新 · gram 逆 由 gram =
+New.mem_U	新 · ∈ U
+New.gram_mul_of_gram_eq	新 · gram × 由 gram =
+riemannHypothesis	riemann Hypothesis
+New.idem_mul_self	新 · idem × 自身
+New.instBorelSpaceMatrixOfCountableOfSecondCountableTopology_lib	新 · 实例博雷尔空间矩阵由可数由第二可数拓扑 lib
+New.instBorelSpaceQuotientAddSubgroup_lib	新 · 实例博雷尔空间商+子群 lib
+New.instBorelSpaceUnits_lib	新 · 实例博雷尔空间单位 lib
+New.instBorelSpace𝔸	新 · 实例博雷尔空间 𝔸
+New.instBorelSpace𝔸f	新 · 实例博雷尔空间 𝔸f
+New.stdLattice.instIsAddHaarMeasureForall𝔸fLatticeMeasure	新 · std 格 · 实例是+哈尔测度任意 𝔸fLatticeMeasure
+New.instContinuousSMulGeneralLinearGroupForall_lib	新 · 实例连续 S ×一般线性群任意 lib
+New.instFactPrimeValNat_lib	新 · 实例 Fact 素值自然数 lib
+New.instIsHermitianInvolutionSignMatrix	新 · 实例是厄米对合符号矩阵
+New.instLocallyCompactSpace𝔸	新 · 实例局部紧空间 𝔸
+New.instLocallyCompactSpace𝔸f	新 · 实例局部紧空间 𝔸f
+New.instPolishSpaceMatrixOfCountable_lib	新 · 实例 Polish 空间矩阵由可数 lib
+New.instPolishSpaceUnits_lib	新 · 实例 Polish 空间单位 lib
+New.instSecondCountableTopology𝔸f	新 · 实例第二可数拓扑 𝔸f
+New.instSecondCountableTopologySubtypeMem_lib	新 · 实例第二可数拓扑子类型∈ lib
+New.instSecondCountableTopology𝔸	新 · 实例第二可数拓扑 𝔸
+New.instT0Space𝔸f	新 · 实例 T 0 空间 𝔸f
+New.integral_primeRemainder	新 · 积分 素余项
+New.isIntegral_rat	新 · 是积分 有理数
+New.map_star_complex	新 · 映射 星 复
+New.isLocallyConstant_of_eventually_mul	新 · 是局部常数 由 最终 ×
+New.map_conjTranspose_mul_mul	新 · 映射 共轭转置 × ×
+New.map_star_CM	新 · 映射 星 CM
+New.star_toAdele	新 · 星 到 Adele
+New.matrix_ext_𝔸	新 · 矩阵 外延 𝔸
+New.mem_LocInt	新 · ∈ Loc Int
+New.mk_algebraMap_surjective	新 · 构造 代数映射 满射
+New.natFloor_rpow_le_two_mul_rpow	新 · 自然数下取整 实幂 ≤ 二 × 实幂
+New.principalMinor.congr_simp	新 · principal 子式 · 合同 simp
+New.principalMinor_one	新 · principal 子式 一
+New.prod_euler_factor_ne_zero	新 · 积 欧拉 因子 ≠ 零
+New.quadTwist_ne_one	新 · quad 扭转 ≠ 一
+New.stdLattice.isOpen_stdLattice	新 · std 格 · 是开 std 格
+New.tendsto_logDerivMean_residue	新 · 趋于 对数导数均值 留数
+New.tendsto_place_comap_cofinite	新 · 趋于 位置 拉回映射 cofinite
+New.tendsto_sub_mul_of_continuousAt	新 · 趋于 − × 由 连续在
+New.toAdele_apply_fst	新 · 到 Adele 作用于 第一分量
+New.toAdele_apply_snd	新 · 到 Adele 作用于 第二分量
+New.zeta_zeros_on_line	新 · zeta zeros 在…上 直线
+riemannZeta_eq_zero_re	riemann Zeta = 零 实部
+star_mulVec_dotProduct	星 ×向量 点积积

@@ -1,0 +1,660 @@
+AlgHom.mk.hcongr_10	Alg 同态 · 构造 · hcongr 10
+Parameters.algHom_eq_of_mk_eq	参数 · alg 同态 = 由 构造 =
+AutChar.HasWeight.one	自同构特征 · 有权 · 一
+AutChar.HasWeight.zpow	自同构特征 · 有权 · 整数幂
+Data.algFormRep_iota	数据 · alg 形式 Rep iota
+BlockIndex.card	块指标 · 基数
+Data.exists_spaceY	数据 · 存在 空间 Y
+Data.isHCParam_Y	数据 · 是 HC Param Y
+CMLattice.a₁_sq	CM 格 · a ₁ 平方
+CMLattice.disc_eq	CM 格 · disc =
+CMLattice.exists_galConjugate	CM 格 · 存在 gal 共轭
+CMLattice.norm_disc_eq_one	CM 格 · 范数 disc = 一
+CMLattice.chowla_selberg	CM 格 · chowla selberg
+Parameters.exists_isJetConjugate_generator	参数 · 存在 是射流共轭 生成元
+CMLattice.complex_multiplication_theta	CM 格 · 复 乘法 θ
+CMLattice.exists_latticeModule_eq_scaledIdeal	CM 格 · 存在 格模 = 缩放理想
+CMLattice.exists_latticeModule_eq_scaledIdeal_mul	CM 格 · 存在 格模 = 缩放理想 ×
+CMLattice.g₂_eq	CM 格 · g ₂ =
+CMLattice.g₃_eq	CM 格 · g ₃ =
+CMLattice.isAppellHumbert_multiplier	CM 格 · 是 Appell Humbert 乘子
+conj_isogeny_mem_lattice	共轭 isogeny ∈ 格
+CMLattice.monomialSection_mem	CM 格 · 单项式截面 ∈
+Parameters.exists_finitePart_of_isTightFrame	参数 · 存在 有限部分 由 是 Tight Frame
+CMLattice.mul_mem_of_quadInt	CM 格 · × ∈ 由 quad Int
+QuadField.area_eq_of_eq_scaledIdeal	Quad 域 · 面积 = 由 = 缩放理想
+QuadField.exists_latticeModule_eq_scaledIdeal	Quad 域 · 存在 格模 = 缩放理想
+CMLattice.norm_a₁_le_one	CM 格 · 范数 a ₁ ≤ 一
+CMLattice.norm_le_one_of_isogeny	CM 格 · 范数 ≤ 一 由 isogeny
+CMLattice.quadGen_mem_quadInt	CM 格 · quad Gen ∈ quad Int
+CMLattice.θ_zero	CM 格 · θ 零
+CMType.toIsCMField	CM 类型 · 到是 CM 域
+IsTightFrame.repeat_vectors	是 Tight Frame · 重复 向量
+Parameters.instStablyUnramE	参数 · 实例 Stably Unram E
+Parameters.star_sqrtNegDInE	参数 · 星 平方根负 D 在…中 E
+Parameters.star_ζ	参数 · 星 ζ
+Sat.glMultiplier_eq	可满足 · gl 乘子 =
+Space.IsStd.std_induction	空间 · 是 Std · std 归纳
+Space.gram_point	空间 · gram 点
+Space.mem_ratVectors_iff	空间 · ∈ 有理数向量 ⇔
+SplittingChar.υ_star	分裂特征 · υ 星
+WeilData.im_pos	Weil 数据 · 虚部 正
+WeilData.star_j	Weil 数据 · 星 j
+WeilData.toStablyUnram	Weil 数据 · 到 Stably Unram
+WeilData.υ_inert	Weil 数据 · υ inert
+bijective_cmType_restrict	双射 cm 类型 限制
+denseRange_finiteImage	稠密值域 有限像
+finMultiplier_ne_zero	有限乘子 ≠ 零
+finVec_zero	有限向量 零
+glMultiplier_eq_pow_of_local	gl 乘子 = 幂 由 局部
+glMultiplier_mul	gl 乘子 ×
+stdAddChar_half	std +特征 一半
+stdForm_conjTranspose	std 形式 共轭转置
+stdLattice.continuous_psi₀	std 格 · 连续 ψ ₀
+stdLattice.norm_psi₀	std 格 · 范数 ψ ₀
+stdLattice.psi₀_eq_one_of_mem	std 格 · ψ ₀ = 一 由 ∈
+stdLattice.star_mulVec_dot_mulVec	std 格 · 星 ×向量 点积 ×向量
+upsilon_eq_atUnif_zpow	upsilon = 在 Unif 整数幂
+upsilon_toAdele	upsilon 到 Adele
+vacuumFn_eq_prod	真空函数 = 积
+weylGauge_smul	weyl 规范 数乘
+CMType.toNumberField	CM 类型 · 到数域
+stdLattice.isCompact_stdLattice	std 格 · 是紧 std 格
+stdLattice.mem_stdLattice	std 格 · ∈ std 格
+stdLattice.two_mul_half	std 格 · 二 × 一半
+Continuous.of_at	连续 · 由 在
+Heisenberg.IsVacuum.heisOp.congr_simp	Heisenberg · 是真空 · heis Op · 合同 simp
+Heisenberg.IsVacuum.heisOp_apply	Heisenberg · 是真空 · heis Op 作用于
+Heisenberg.IsVacuum.hom_ext	Heisenberg · 是真空 · 同态 外延
+Heisenberg.IsVacuum.integrated_vacElem	Heisenberg · 是真空 · 已积分 vac 元素
+Heisenberg.IsVacuum.modelInner_heisOp_vacElem	Heisenberg · 是真空 · 模型内积 heis Op vac 元素
+Heisenberg.IsVacuum.weilOp.congr_simp	Heisenberg · 是真空 · weil Op · 合同 simp
+Heisenberg.Rep.integrated_heisOp	Heisenberg · Rep · 已积分 heis Op
+Space.IsRatInvariant.quotMean_eq	空间 · 是有理数不变量 · quot 均值 =
+Space.heisRep_right_rho	空间 · heis Rep 右 ρ
+Space.projReal_of_mem_finitePart	空间 · proj 实 由 ∈ 有限部分
+Space.rho_finVec_mem_finitePart	空间 · ρ 有限向量 ∈ 有限部分
+differentiableAt_superposition	可微在 superposition
+ContinuousAddEquiv.mk.congr_simp	连续+等价 · 构造 · 合同 simp
+Space.isThetaFunctional_rawTheta	空间 · 是θ泛函 原始θ
+continuous_pairWeil	连续 对 Weil
+Data.HasLogBound.of_mem_Icc	数据 · 有对数界 · 由 ∈ 闭区间
+Data.instHasLogBoundCastRealMHAddHDivLogXOfNatIteEqBoolTrue	数据 · 实例有对数界类型转换实 MH + H ÷对数 X 由自然数条件式=布尔真
+Data.HasLogBound.pos	数据 · 有对数界 · 正
+Data.logLevelTarget_mem_Icc	数据 · 对数水平目标 ∈ 闭区间
+Data.roundUp_mem_Icc	数据 · round 上 ∈ 闭区间
+Data.IsChosen.not_star	数据 · 是选定 · 非 星
+Data.TameChar.coprime	数据 · Tame 特征 · 互素
+Data.levelNorm_mem_and_notMem_of_mem_Q	数据 · 水平范数 ∈ 且 非∈ 由 ∈ Q
+Data.TameChar.hasWeight	数据 · Tame 特征 · 有权
+Data.TameChar.star_notMem	数据 · Tame 特征 · 星 非∈
+Data.TameChar.ψ_eq_one	数据 · Tame 特征 · ψ = 一
+Data.abs_mainHeight_add_remainder_le	数据 · 绝对值 main 高度 + 余项 ≤
+star_inequality	星 不等式
+Data.exists_family_covolumeSq_le	数据 · 存在 族 covolume 平方 ≤
+Data.integral_forms_long	数据 · 积分 forms long
+Data.c_ge	数据 · c ≥
+Data.hundred_mul_m_le_k	数据 · 百 × m ≤ k
+Data.instHasLogBoundLogBLog	数据 · 实例有对数界对数 B 对数
+Data.instHasLogUpperCastRealSLogLogX₁	数据 · 实例有对数上类型转换实 S 对数对数 X ₁
+Data.k_pos	数据 · k 正
+exists_data	存在 数据
+Data.card_rowIndex	数据 · 基数 行指标
+Data.hasGap_signsY_paramW	数据 · 有间隙 符号 Y param W
+Data.instFiniteComplexSubmoduleElemFormERowIndexTypeKernelParamWPrincipalForms	数据 · 实例有限复子模元素形式 E 行指标类型核 Param W Principal Forms
+Data.dvd_g_sub_one	数据 · 整除 g − 一
+Data.exists_residue_char_of_order	数据 · 存在 留数 特征 由 阶
+Data.exists_char_hasWeight	数据 · 存在 特征 有权
+Data.exists_pi_mul_star	数据 · 存在 π × 星
+Data.exists_prime_window	数据 · 存在 素 窗口
+Data.finrank_rows_ne_zero	数据 · 有限秩 行 ≠ 零
+Data.isStd_spaceY	数据 · 是 Std 空间 Y
+Data.finite_isChosen	数据 · 有限 是选定
+Data.g_injective	数据 · g 单射
+Data.isConjApart_chosen	数据 · 是共轭 Apart 选定
+Data.g_mem	数据 · g ∈
+Data.g_modEq_one	数据 · g 模= 一
+Data.g_prime	数据 · g 素
+Data.hasLogBound_add	数据 · 有对数界 +
+Data.instHasLogBoundCastRealTowerDegSHAddHMulOfNatLogXIteEqBoolTrueHDivLogLogB	数据 · 实例有对数界类型转换实 Tower Deg SH + H ×由自然数对数 X 条件式=布尔真 H ÷对数对数 B
+Data.instHasLogUpperLogHAddRealMaxOfNatLogBHSubNegHMul	数据 · 实例有对数上对数 H +实最大由自然数对数 BH 子负 H ×
+Data.hasLogBound_f	数据 · 有对数界 f
+Data.hasLogBound_mul	数据 · 有对数界 ×
+Data.instHasLogBoundHDivRealHAddOfInv	数据 · 实例有对数界 H ÷实 H +由逆
+Data.hasLogBound_natCast	数据 · 有对数界 自然数类型转换
+Data.instHasLogBoundOfNatRealIteEqBoolTrue	数据 · 实例有对数界由自然数实条件式=布尔真
+Data.hasLogLower_of_le	数据 · 有对数下 由 ≤
+eventually_primeError_le_rpow	最终 素误差 ≤ 实幂
+Data.hasLogUpper_of_le	数据 · 有对数上 由 ≤
+Data.instCharZeroE	数据 · 实例特征零 E
+Data.instIsCMFieldE	数据 · 实例是 CM 域 E
+Data.instHasLogBoundCastRealAHAddLogBLogXIteEqBoolTrueOfNat	数据 · 实例有对数界类型转换实 AH +对数 B 对数 X 条件式=布尔真由自然数
+Data.remainder_eq	数据 · 余项 =
+Data.instHasLogBoundCastRealHAddNat	数据 · 实例有对数界类型转换实 H +自然数
+Data.instHasLogBoundCastRealHMulNat	数据 · 实例有对数界类型转换实 H ×自然数
+Data.instHasLogBoundCastRealHPowNat	数据 · 实例有对数界类型转换实 H 幂自然数
+Data.instHasLogBoundExp	数据 · 实例有对数界指数函数
+Data.instHasLogBoundHPowRealNatHMulCast	数据 · 实例有对数界 H 幂实自然数 H ×类型转换
+Data.instHasLogBoundHPowRealNatOfNatS	数据 · 实例有对数界 H 幂实自然数由自然数 S
+Data.instHasLogBoundOfNatReal	数据 · 实例有对数界由自然数实
+Data.instHasLogLowerInvRealNegOfHasLogUpper	数据 · 实例有对数下逆实负由有对数上
+Data.instHasLogUpperInvRealNegOfHasLogLower	数据 · 实例有对数上逆实负由有对数下
+Data.instNumberFieldE	数据 · 实例数域 E
+Data.k_even	数据 · k 偶
+Data.le_of_hasLogBound	数据 · ≤ 由 有对数界
+Data.lt_of_hasLogBound	数据 · < 由 有对数界
+Data.m_eq_two_mul_varrho_add_two	数据 · m = 二 × varrho + 二
+Data.m_mem	数据 · m ∈
+Data.m_pow	数据 · m 幂
+Data.norm_piG	数据 · 范数 π G
+Data.placeClass_of_thick	数据 · 位置类 由 thick
+Data.r_add_six_le_t	数据 · r + 六 ≤ t
+Data.r_mem	数据 · r ∈
+Data.r_pow	数据 · r 幂
+Data.s_le	数据 · s ≤
+Data.scale	数据 · 尺度
+Data.thick_eq_neg_one_mod	数据 · thick = 负 一 模
+Data.three_term	数据 · 三 项
+DenseRange.eq	稠密值域 · =
+G.continuous_mat	G · 连续 mat
+Gf.exists_supportedOn_mul_trivialOn	Gf · 存在 支撑在…上 × 平凡在…上
+Gf.mem_supportedOn	Gf · ∈ 支撑在…上
+Parameters.v_alpha_mul_relDifferentGen	参数 · v alpha × rel Different Gen
+adeleMap_id	adele 映射 恒等
+evalAt_star_locGL	求值在 星 loc GL
+exists_placeOfEmb_extension	存在 位置由 Emb 扩张
+instBorelSpaceGf	实例博雷尔空间 Gf
+instContinuousSMulGfForall𝔸f	实例连续 S × Gf 任意 𝔸f
+instContinuousStar𝔸f	实例连续星 𝔸f
+instIsTopologicalGroupGf	实例是拓扑群 Gf
+isOpen_Kf	是开 Kf
+levelOf_le_Kf	水平由 ≤ Kf
+mem_levelOf	∈ 水平由
+star_algebraMap_finAdele	星 代数映射 有限 Adele
+star_mem_Ô	星 ∈ Ô
+v_star_apply	v 星 作用于
+EmbeddedNumberField.toNumberField	嵌入数域 · 到数域
+IsPlaceOver.artinAt_trivial_iff_decompGroup_le	是位置之上 · artin 在 平凡 ⇔ decomp 群 ≤
+IsPlaceOver.split_completely	是位置之上 · 分裂 completely
+abelianLift_artinMap_adeleNorm	交换提升 artin 映射 adele 范数
+artinMap_locIdele	artin 映射 loc Idele
+char_artinMap_principalIdele_eq_one_iff	特征 artin 映射 principal Idele = 一 ⇔
+exists_char_of_isCyclic	存在 特征 由 是循环
+index_ker_char_artinMap	指标 核 特征 artin 映射
+FinPlace.exists_gal_comap_eq	有限位置 · 存在 gal 拉回映射 =
+FinPlace.exists_natCast_mem	有限位置 · 存在 自然数类型转换 ∈
+QuadField.eulerProd_one_eq_zeta_mul	Quad 域 · 欧拉积 一 = zeta ×
+FinPlace.isPlaceOver_placeOver	有限位置 · 是位置之上 位置之上
+exists_eq_principalIdele_mul_norm	存在 = principal Idele × 范数
+instContinuousSMulGForall𝔸	实例连续 S × G 任意 𝔸
+GL_ext_evalAt	GL 外延 求值在
+atPlace_atSplit	在位置 在分裂
+atSplit_mem_supportedOn	在分裂 ∈ 支撑在…上
+exists_reduceFamily_eq	存在 约化族 =
+finMultiplier_eq_of_supportedOn	有限乘子 = 由 支撑在…上
+Gf.atPlace_eq_one_or	Gf · 在位置 = 一 或
+Gf.mem_of_Kf_le_of_supportedOn_le	Gf · ∈ 由 Kf ≤ 由 支撑在…上 ≤
+Gf.commute_supportedOn_trivialOn	Gf · 交换 支撑在…上 平凡在…上
+stdLattice.mem_cocycleRadical	std 格 · ∈ 上闭链根式
+Hall.ext	Hall · 外延
+Hall.mul_simClassOf	Hall · × sim 类由
+HasCompactSupport.integrable	有紧支撑 · 可积
+integrable_of_compactSpace	可积 由 紧空间
+stdLattice.isVacuum_finVac	std 格 · 是真空 有限 Vac
+HasDerivAt.map_clm	有导数在 · 映射 clm
+exists_hasDerivAt_realHeisOp	存在 有导数在 实 Heis Op
+Heisenberg.IsVacuum.apply_zero	Heisenberg · 是真空 · 作用于 零
+Space.isLocallyConstant_rho_finVec	空间 · 是局部常数 ρ 有限向量
+Heisenberg.IsVacuum.continuous	Heisenberg · 是真空 · 连续
+Heisenberg.IsVacuum.eq_zero_of_modelInner_self	Heisenberg · 是真空 · = 零 由 模型内积 自身
+Heisenberg.Rep.integrated_apply	Heisenberg · Rep · 已积分 作用于
+Space.IsThetaFunctional.injective_apply_heisOp	空间 · 是θ泛函 · 单射 作用于 heis Op
+Heisenberg.IsVacuum.ext	Heisenberg · 是真空 · 外延
+Heisenberg.IsVacuum.ext_iff	Heisenberg · 是真空 · 外延 ⇔
+Space.IsThetaFunctional.comp	空间 · 是θ泛函 · 复合
+Space.summable_modelInner	空间 · 可和 模型内积
+Heisenberg.IsVacuum.integrated_eq_smul	Heisenberg · 是真空 · 已积分 = 数乘
+Heisenberg.IsVacuum.integrable	Heisenberg · 是真空 · 可积
+Heisenberg.IsVacuum.integrable_mul_kernel	Heisenberg · 是真空 · 可积 × 核
+Heisenberg.IsVacuum.norm_eq	Heisenberg · 是真空 · 范数 =
+Heisenberg.IsVacuum.weilOp_one	Heisenberg · 是真空 · weil Op 一
+Heisenberg.IsVacuum.weilOp_triple	Heisenberg · 是真空 · weil Op 三元组
+Heisenberg.IsVacuum.modelInner_vacElem	Heisenberg · 是真空 · 模型内积 vac 元素
+Heisenberg.IsVacuum.modelInner_weilOp	Heisenberg · 是真空 · 模型内积 weil Op
+Space.dataInner_rho_of_vacElem	空间 · 数据内积 ρ 由 vac 元素
+Space.dataInner_vacElem_vacElem	空间 · 数据内积 vac 元素 vac 元素
+Space.exists_isThetaFunctional	空间 · 存在 是θ泛函
+Heisenberg.IsVacuum.modelInner_weilRep	Heisenberg · 是真空 · 模型内积 weil Rep
+Heisenberg.IsVacuum.norm_apply_le	Heisenberg · 是真空 · 范数 作用于 ≤
+Heisenberg.instCompleteSpaceModel	Heisenberg · 实例完备空间模型
+Heisenberg.IsVacuum.norm_le_one	Heisenberg · 是真空 · 范数 ≤ 一
+Heisenberg.IsVacuum.twisted_conv	Heisenberg · 是真空 · 扭 conv
+Heisenberg.IsVacuum.weilOp_mul	Heisenberg · 是真空 · weil Op ×
+Heisenberg.IsVacuum.weilRep_heisOp	Heisenberg · 是真空 · weil Rep heis Op
+Heisenberg.MultiplierAction.beta_smul	Heisenberg · 乘子作用 · β 数乘
+Heisenberg.Rep.moveBy_one	Heisenberg · Rep · move 按 一
+Heisenberg.MultiplierAction.cocycle	Heisenberg · 乘子作用 · 上闭链
+Heisenberg.MultiplierAction.continuous_delta	Heisenberg · 乘子作用 · 连续 δ
+Heisenberg.MultiplierAction.measurePreserving	Heisenberg · 乘子作用 · 测度保持
+Heisenberg.MultiplierAction.Δ_inv	Heisenberg · 乘子作用 · Δ 逆
+Heisenberg.MultiplierAction.Δ_one	Heisenberg · 乘子作用 · Δ 一
+Heisenberg.OrthogonalSum.beta_equiv	Heisenberg · 正交和 · β 等价
+Heisenberg.OrthogonalSum.integral_eq_integral_prod	Heisenberg · 正交和 · 积分 = 积分 积
+Heisenberg.OrthogonalSum.isVacuum	Heisenberg · 正交和 · 是真空
+Heisenberg.OrthogonalSum.measurePreserving_equiv	Heisenberg · 正交和 · 测度保持 等价
+isVacuum_vacuumFn	是真空 真空函数
+Heisenberg.OrthogonalSum.mk.congr_simp	Heisenberg · 正交和 · 构造 · 合同 simp
+Heisenberg.OrthogonalSum.vac_equiv	Heisenberg · 正交和 · vac 等价
+Heisenberg.Rep.cont	Heisenberg · Rep · 连续
+Heisenberg.Rep.mul	Heisenberg · Rep · ×
+Heisenberg.Rep.rho_zero_apply	Heisenberg · Rep · ρ 零 作用于
+Heisenberg.Rep.norm_map	Heisenberg · Rep · 范数 映射
+Space.IsRatInvariant.hasSum_modelInner	空间 · 是有理数不变量 · 有和 模型内积
+Heisenberg.add_left	Heisenberg · + 左
+Heisenberg.β_mul_β	Heisenberg · β × β
+Heisenberg.β_zero_left	Heisenberg · β 零 左
+Space.isDualFamily_beta_sq	空间 · 是对偶族 β 平方
+Heisenberg.add_right	Heisenberg · + 右
+Heisenberg.β_zero_right	Heisenberg · β 零 右
+Heisenberg.cont	Heisenberg · 连续
+instCompleteSpace𝒮	实例完备空间 𝒮
+Heisenberg.mk.congr_simp	Heisenberg · 构造 · 合同 simp
+adelicHeis_beta_eq_prod	adelic Heis β = 积
+beta_mul_realVac	β × 实 Vac
+isVacuum_realVac	是真空 实 Vac
+Heisenberg.norm_eq_one	Heisenberg · 范数 = 一
+Heisenberg.self_eq_one	Heisenberg · 自身 = 一
+Heisenberg.β_neg_left	Heisenberg · β 负 左
+Heisenberg.β_neg_right	Heisenberg · β 负 右
+stdLattice.semichar_mul_self	std 格 · semichar × 自身
+IsAppellHumbert.isCompact_range_norm_thetaShift	是 Appell Humbert · 是紧 值域 范数 θ平移
+IsAppellHumbert.nsmul	是 Appell Humbert · 自然数倍
+PeriodPair.exists_weierstrassP_eq_of_cubic	Period 对 · 存在 weierstrass P = 由 三次
+IsBoundedMeasurable.integrable_mul_comp	是有界可测 · 可积 × 复合
+IsComplexConj.false_of_isTotallyComplex	是复共轭 · 假 由 是 Totally 复
+IsConjApart.injective	是共轭 Apart · 单射
+IsConjApart.star_ne	是共轭 Apart · 星 ≠
+IsCovolOneLattice.toCompactSpace	是 Covol 一格 · 到紧空间
+Space.instCompactSpaceQuotientForall𝔸AddSubgroupRatVectors	空间 · 实例紧空间商任意 𝔸AddSubgroupRatVectors
+IsDualFamily.tsum_coeff_eq_quotMean	是对偶族 · tsum 系数 = quot 均值
+IsFrob.mul_iff	是 Frob · × ⇔
+IsHCParam.gramForm_conjWeylRep_eq_dsCoeff	是 HC Param · gram 形式 共轭 Weyl Rep = ds 系数
+IsHCParam.prod_formalDegree	是 HC Param · 积 formal 次数
+Space.isForm_ofAlgForm	空间 · 是形式 由 Alg 形式
+IsHermInvolution.det_ne_zero	是 Herm 对合 · 行列式 ≠ 零
+U.norm_det	U · 范数 行列式
+IsHermInvolution.isHermitian	是 Herm 对合 · 是厄米
+Space.IsForm.bounded	空间 · 是形式 · 有界
+Space.IsForm.realConv_eq	空间 · 是形式 · 实 Conv =
+Space.IsForm.toIsAutomorphic	空间 · 是形式 · 到是 Automorphic
+ThetaKernel.integrable_theta_mul	θ核 · 可积 θ ×
+continuous_dsKernel	连续 ds 核
+highestVector_cyclic	最高向量 循环
+instIsHaarMeasureSubtypeGeneralLinearGroupComplexMemSubgroupUVolume	实例是哈尔测度子类型一般线性群复∈子群 U 体积
+IsHermInvolution.isUnit	是 Herm 对合 · 是单位
+val_blockU_apply_coe	值 块 U 作用于 强制转换
+IsHermInvolution.mul_self	是 Herm 对合 · × 自身
+IsPolar.eventually_moment_le	是极 · 最终 矩 ≤
+IsPolar.exists_window_sub_mul_le	是极 · 存在 窗口 − × ≤
+IsPolar.landau	是极 · landau
+entireL_ne_zero_of_primeError_le	entire L ≠ 零 由 素误差 ≤
+IsProGalois.toIsGalois	是 Pro 伽罗瓦 · 到是伽罗瓦
+IsProGalois.toIsGaloisGroup	是 Pro 伽罗瓦 · 到是伽罗瓦群
+instIsCyclotomicExtensionSingletonNatSetRatSubtypeΩMemIntermediateFieldCycloField	实例是 Cyclotomic 扩张单点集自然数集合有理数子类型 ΩMemIntermediateFieldCycloField
+instNumberFieldSubtypeMemIntermediateFieldFixedFieldOf	实例数域子类型∈中间域固定域由
+IsProGalois.toIsTopologicalGroup	是 Pro 伽罗瓦 · 到是拓扑群
+isOpen_ker_cycCharMod	是开 核 cyc 特征模
+IsTameAtLevel.exists_norm	是 Tame 在水平 · 存在 范数
+exists_norm_eq_Ô	存在 范数 = Ô
+IsTameAtLevel.of_skew	是 Tame 在水平 · 由 斜
+IsValuationPair.exists_isPrimitiveMatrix_mul	是赋值对 · 存在 是本原矩阵 ×
+Sat.exists_saturating	可满足 · 存在 saturating
+LFunction_eq_zero_re	L 函数 = 零 实部
+LFunction_eq_zero_re_of_isPrimitive	L 函数 = 零 实部 由 是本原
+LFunction_ne_zero_of_half_lt_re	L 函数 ≠ 零 由 一半 < 实部
+LFunction_one_sub_eq_zero	L 函数 一 − = 零
+New.zeros_on_line	新 · zeros 在…上 直线
+LSeriesHasSum_mul_vonMangoldt	L 级数有和 × von Mangoldt
+exists_prime_modEq_one_log_mem	存在 素 模= 一 对数 ∈
+isPolar_primeError	是极 素误差
+LevelPlaces.apart	水平位置 · apart
+Matrix.IsAccretive.det_ne_zero	矩阵 · 是 Accretive · 行列式 ≠ 零
+Matrix.PosDef.isAccretive	矩阵 · 正定义 · 是 Accretive
+Modulus.ne_bot	模 · ≠ ⊥
+New.grh	新 · grh
+riemannHypothesis	riemann Hypothesis
+New.zeta_zeros_on_line	新 · zeta zeros 在…上 直线
+Parameters.N₁_mul_d_dvd_M_omega	参数 · N ₁ × d 整除 M omega
+Parameters.card_infinitePlace_E	参数 · 基数 无限位置 E
+Parameters.exists_zeta_pow_eq	参数 · 存在 zeta 幂 =
+Parameters.phi_algebraMap	参数 · φ 代数映射
+Parameters.placeClass_placeOfInt	参数 · 位置类 位置由 Int
+Parameters.card_placeClass_eq	参数 · 基数 位置类 =
+Parameters.chiK_eq_one_of_dvd	参数 · chi K = 一 由 整除
+Parameters.coprime_N₁_d	参数 · 互素 N ₁ d
+Parameters.chiK_eq_one_of_modEq_one	参数 · chi K = 一 由 模= 一
+Parameters.coe_sqrtNegDInE	参数 · 强制转换 平方根负 D 在…中 E
+Parameters.coe_trace_eq_sum	参数 · 强制转换 迹 = 和
+Parameters.irreducible_cyclotomic	参数 · 不可约 cyclotomic
+Parameters.relDifferent_spec	参数 · rel Different 规范
+Parameters.c₀InE_mul_one_sub	参数 · c ₀InE × 一 −
+Parameters.d_prime	参数 · d 素
+Parameters.instHeegD	参数 · 实例 Heeg D
+Parameters.different_eq_span_relDifferentGen_mul	参数 · different = 张成 rel Different Gen ×
+Parameters.isTightFrame_zeta_pow	参数 · 是 Tight Frame zeta 幂
+Parameters.norm_gal_vacuumRoot	参数 · 范数 gal 真空根
+Parameters.norm_map_psi₀	参数 · 范数 映射 ψ ₀
+Parameters.dvd_N₀	参数 · 整除 N ₀
+Parameters.dvd_norm_c₀	参数 · 整除 范数 c ₀
+Parameters.instIsAbelianGaloisRatE	参数 · 实例是交换伽罗瓦有理数 E
+Parameters.instIsTotallyComplexE	参数 · 实例是 Totally 复 E
+Parameters.latticeModule_cmCurve	参数 · 格模 cm Curve
+Parameters.instIsAbelianGaloisSubtypeComplexMemIntermediateFieldRatKE	参数 · 实例是交换伽罗瓦子类型复∈中间域有理数 KE
+Parameters.instIsCyclotomicExtensionSingletonNatSetN₁SubtypeComplexMemIntermediateFieldRatKE	参数 · 实例是 Cyclotomic 扩张单点集自然数集合 N ₁SubtypeComplexMemIntermediateFieldRatKE
+Parameters.isPrimitiveRoot_zeta	参数 · 是本原根 zeta
+Parameters.instNeZeroNatN₀	参数 · 实例≠零自然数 N ₀
+Parameters.instNeZeroNatTowerDeg	参数 · 实例≠零自然数 Tower Deg
+Parameters.instNumberFieldE	参数 · 实例数域 E
+Parameters.isPrimitiveRoot_zetaInt	参数 · 是本原根 zeta Int
+Parameters.relDifferentGen_dvd_N₁	参数 · rel Different Gen 整除 N ₁
+Parameters.valuation_map_relDifferentGen	参数 · 赋值 映射 rel Different Gen
+Parameters.omega₀_mem_cmCurve_lattice	参数 · omega ₀ ∈ cm Curve 格
+Parameters.lt_d	参数 · < d
+Parameters.placePerm_spec	参数 · 位置置换 规范
+Parameters.prod_phi_eq_norm	参数 · 积 φ = 范数
+Parameters.relDifferentGen_ne_zero	参数 · rel Different Gen ≠ 零
+Parameters.star_c₀InE	参数 · 星 c ₀InE
+Parameters.star_zetaInt_pow_mul	参数 · 星 zeta Int 幂 ×
+Parameters.two_pow_dvd_N₁	参数 · 二 幂 整除 N ₁
+PlaceEmbedding.mk_Φ	位置嵌入 · 构造 Φ
+Φ_eq_or	Φ = 或
+PrimeSevenModEight.mod_eight	素七模八 · 模 八
+PrimeSevenModEight.toFact	素七模八 · 到 Fact
+QuadField.q_eq_iff_legendreSym_ne_neg_one	Quad 域 · q = ⇔ legendre Sym ≠ 负 一
+QZ.cast_carry	QZ · 类型转换 进位
+QZChar.instFactIsOpenKerMultiplicativeQZToHom	QZ 特征 · 实例 Fact 是开核乘性 QZ 到同态
+QuadField.absNorm_span_eq_mul_star	Quad 域 · 绝对值范数 张成 = × 星
+QuadField.classGroup_sq_bijective	Quad 域 · 类群 平方 双射
+QuadField.prime_inert_or_eq_mul	Quad 域 · 素 inert 或 = ×
+QuadField.abs_norm_eq_norm_sq	Quad 域 · 绝对值 范数 = 范数 平方
+QuadField.coe_star_eq_conj	Quad 域 · 强制转换 星 = 共轭
+QuadField.star_sqrtNegD	Quad 域 · 星 平方根负 D
+QuadField.finrank_K	Quad 域 · 有限秩 K
+QuadField.instIsQuadraticExtensionRatSubtypeComplexMemIntermediateField	Quad 域 · 实例是二次扩张有理数子类型复∈中间域
+QuadField.instFactEqNatHModOfNatOfPrimeSevenModEight	Quad 域 · 实例 Fact =自然数 H 模由自然数由素七模八
+conj_mem_quadInt	共轭 ∈ quad Int
+QuadField.instIsCMFieldSubtypeComplexMemIntermediateFieldRat	Quad 域 · 实例是 CM 域子类型复∈中间域有理数
+QuadField.instIsTotallyComplexSubtypeComplexMemIntermediateFieldRat	Quad 域 · 实例是 Totally 复子类型复∈中间域有理数
+QuadField.instNeZeroNat	Quad 域 · 实例≠零自然数
+QuadField.minpoly_sqrtNegD	Quad 域 · minpoly 平方根负 D
+QuadField.instNumberFieldSubtypeComplexMemIntermediateFieldRat	Quad 域 · 实例数域子类型复∈中间域有理数
+QuadField.isIntegral_sqrtNegD	Quad 域 · 是积分 平方根负 D
+QuadField.mem_scaledIdeal	Quad 域 · ∈ 缩放理想
+QuadField.sqrtNegD_coe	Quad 域 · 平方根负 D 强制转换
+QuadField.sqrtNegD_sq	Quad 域 · 平方根负 D 平方
+glMultiplier_star	gl 乘子 星
+finMultiplier_eq_one_of_mem	有限乘子 = 一 由 ∈
+glMultiplier_inv	gl 乘子 逆
+Sat.map_evalAt	可满足 · 映射 求值在
+Sat.of_mem	可满足 · 由 ∈
+glMultiplier_mul_of_mem	gl 乘子 × 由 ∈
+Space.IsAutomorphic.comp_mul_right	空间 · 是 Automorphic · 复合 × 右
+Space.IsForm.comp_mul_right	空间 · 是形式 · 复合 × 右
+Space.IsAutomorphic.map₂	空间 · 是 Automorphic · 映射 ₂
+Space.IsForm.isBoundedMeasurable	空间 · 是形式 · 是有界可测
+Space.IsRapid.comp_mul_right	空间 · 是速降 · 复合 × 右
+Space.constantCoeff_jetSeries	空间 · 常数系数 射流级数
+Space.smul_apply	空间 · 数乘 作用于
+Space.ϱ_apply	空间 · ϱ 作用于
+Space.beta_vecAtPoint_eq_one	空间 · β 向量在点 = 一
+exists_isThetaFunctional_signedSpace	存在 是θ泛函 带符号空间
+Space.isAutomorphic_const	空间 · 是 Automorphic 常数
+Space.map_J_inv	空间 · 映射 J 逆
+Space.rho_finVec	空间 · ρ 有限向量
+exists_finiteImage_approx	存在 有限像 近似
+Space.θ_ϱ	空间 · θ ϱ
+pairWeil_of_mem_Gamma	对 Weil 由 ∈ Γ
+upsilon_atUnif_mul_star	upsilon 在 Unif × 星
+StableSubspace.sum_comap	稳定子空间 · 和 拉回映射
+StablyUnram.exists_i_c₀	Stably Unram · 存在 i c ₀
+StablyUnram.exists_sq_eq_q_of_inert	Stably Unram · 存在 平方 = q 由 inert
+U.borelSpace	U · 博雷尔空间
+instBorelSpaceG	实例博雷尔空间 G
+U.coe_inv	U · 强制转换 逆
+U.principalMinor_coe_inv	U · principal 子式 强制转换 逆
+U.form_mulVec_mulVec	U · 形式 ×向量 ×向量
+U.inv_val_eq_conjTranspose	U · 逆 值 = 共轭转置
+finMultiplier_inv	有限乘子 逆
+mem_Kf	∈ Kf
+ValuativeArc.toIsDomain	Valuative 弧 · 到是定义域
+WeilData.conj_scaleIdele_mul	Weil 数据 · 共轭 尺度 Idele ×
+instIsAddHaarMeasureForall𝔸VacuumMeasure	实例是+哈尔测度任意 𝔸VacuumMeasure
+mat_mulVec_adelicSum	mat ×向量 adelic 和
+WeilData.val_scaleIdele_fst	Weil 数据 · 值 尺度 Idele 第一分量
+WeilData.val_scaleIdele_snd	Weil 数据 · 值 尺度 Idele 第二分量
+stdLattice.psi₀_star	std 格 · ψ ₀ 星
+stdLattice.traceOneAdele_add_star	std 格 · 迹一 Adele + 星
+char_artinMap_eq_one_iff	特征 artin 映射 = 一 ⇔
+abs_lambdaSum_exp_le	绝对值 λ和 指数函数 ≤
+adeleMap_algebraMap	adele 映射 代数映射
+mem_range_finAdeleIncl_iff	∈ 值域 有限 Adele Incl ⇔
+adeleMap_apply	adele 映射 作用于
+adeleMap_injective	adele 映射 单射
+algebraMap_mem_Ô	代数映射 ∈ Ô
+nonempty_splittingChar	非空 分裂特征
+algebraMap_ringOfIntegers_mem	代数映射 环由 Integers ∈
+analyticAt_entireL	解析在 entire L
+tendsto_sub_mul_logDeriv_entireL	趋于 − × 对数导数 entire L
+apply_liftResidue_eq	作用于 提升留数 =
+canonical_commutation	典范 对易
+chiK_eq_legendreSym	chi K = legendre Sym
+coe_idelesUnitOff_empty	强制转换 ideles 单位非 空
+isOpen_idelesUnitOff	是开 ideles 单位非
+coe_mem_Ô	强制转换 ∈ Ô
+dense_Ô	稠密 Ô
+exists_reduction_and_idele_generator	存在 归约 且 idele 生成元
+coe_star_ringOfIntegers	强制转换 星 环由 Integers
+coeff_groupAlgElem	系数 群 Alg 元素
+compactSpace_LocInt	紧空间 Loc Int
+instLocallyCompactSpace𝔸f	实例局部紧空间 𝔸f
+isCompact_Ô	是紧 Ô
+conjTranspose_skewOfReal	共轭转置 斜由实
+constantCoeff_linearSeries	常数系数 线性级数
+continuous_adeleMap	连续 adele 映射
+continuous_conjWeylRep	连续 共轭 Weyl Rep
+continuous_locMap	连续 loc 映射
+continuous_principalMinor	连续 principal 子式
+continuous_stdAddChar	连续 std +特征
+continuous_ψf	连续 ψf
+denseRange_algebraMap_finAdele	稠密值域 代数映射 有限 Adele
+exists_sub_mem_Ô	存在 − ∈ Ô
+instPolishSpace𝔸f	实例 Polish 空间 𝔸f
+denseRange_Φ	稠密值域 Φ
+derivWeierstrassP_eq_zero_iff	导数 Weierstrass P = 零 ⇔
+det_fromBlocks_one₁₁'	行列式 从块 一 ₁₁
+det_fromBlocks_one₂₂'	行列式 从块 一 ₂₂
+det_fromBlocks_zero₁₂'	行列式 从块 零 ₁₂
+diagonal_classical	对角 经典
+dim_simClassOf	维数 sim 类由
+distribHaarChar_GL_eq_det	distrib 哈尔特征 GL = 行列式
+map_mulVec_haar_finAdele	映射 ×向量 哈尔 有限 Adele
+entireL_ne_zero	entire L ≠ 零
+zero_density_quadTwist	零 密度 quad 扭转
+entrywise	逐元素
+val_mkAdelicGL_apply	值 构造 Adelic GL 作用于
+eq_one_of_orbits	= 一 由 轨道
+evalAt_locGL	求值在 loc GL
+evalAt_locGL_of_ne	求值在 loc GL 由 ≠
+evalInf_apply	求值下确界 作用于
+matrix_ext_𝔸	矩阵 外延 𝔸
+exists_entireL_quadTwist_ne_zero	存在 entire L quad 扭转 ≠ 零
+exists_forall_mul_mem_Ô	存在 任意 × ∈ Ô
+exists_generalized_inverse	存在 generalized 逆
+exists_isIsogeny_of_mul_mem_lattice	存在 是 Isogeny 由 × ∈ 格
+exists_isPrimitive_changeLevel_eq	存在 是本原 改变水平 =
+exists_isUnit_sub_star_Ohat	存在 是单位 − 星 Ohat
+exists_lattice_of_g₂_g₃	存在 格 由 g ₂ g ₃
+exists_monoidHom_extend	存在 幺半群同态 延拓
+exists_mul_principal	存在 × principal
+star_normNegOne_mul_self	星 范数负一 × 自身
+liftResidue.congr_simp	提升留数 · 合同 simp
+reduceFamily_liftResidue	约化族 提升留数
+exists_sigma	存在 σ
+isOfFinOrder_ψf	是由有限阶 ψf
+ψf_half	ψf 一半
+exists_three_term_free	存在 三 项 自由
+finAdeleIncl_adeleNorm_eq_mul_star	有限 Adele Incl adele 范数 = × 星
+stdLattice.exists_gauss_sum_finProjAction	std 格 · 存在 gauss 和 有限 Proj 作用
+finite_idele_val_ne_one	有限 idele 值 ≠ 一
+genIndex_eq_inv_finIdeleAbs	gen 指标 = 逆 有限 Idele 绝对值
+finrank_eq_two_mul_card_infinitePlace	有限秩 = 二 × 基数 无限位置
+fourierChar_eq_one	傅里叶特征 = 一
+gram_inv_of_gram_eq	gram 逆 由 gram =
+instCompactSpaceSubtypeGeneralLinearGroupComplexMemSubgroupUSignMatrixMaxCompactU	实例紧空间子类型一般线性群复∈子群 U 符号矩阵最大紧 U
+instCompactSpaceSubtypeGeneralLinearGroupComplexMemSubgroupUSignMatrixOfNatForallUnitsInt	实例紧空间子类型一般线性群复∈子群 U 符号矩阵由自然数任意单位 Int
+instSigmaCompactSpaceSubtypeGeneralLinearGroupComplexMemSubgroupU	实例σ紧空间子类型一般线性群复∈子群 U
+isCompact_Kf	是紧 Kf
+mem_U	∈ U
+gram_mul	gram ×
+gram_mul_of_gram_eq	gram × 由 gram =
+groupAlgElem.congr_simp	群 Alg 元素 · 合同 simp
+hasFDerivAt_mvPolynomial_eval	有 F 导数在 多元多项式 求值
+hasSum_eulerProd	有和 欧拉积
+hasSum_ideal_classes	有和 理想 classes
+holCoord_eq	hol 坐标 =
+idem_mem_Ô	idem ∈ Ô
+isValuationPair_Ohat	是赋值对 Ohat
+idem_mul_mem_Ô	idem × ∈ Ô
+idem_mul_self	idem × 自身
+idem_of_mem	idem 由 ∈
+idem_of_notMem	idem 由 非∈
+instBorelSpaceMatrixOfCountableOfSecondCountableTopology_lib	实例博雷尔空间矩阵由可数由第二可数拓扑 lib
+instBorelSpaceQuotientAddSubgroup_lib	实例博雷尔空间商+子群 lib
+quotMean.congr_simp	quot 均值 · 合同 simp
+quotMean_const	quot 均值 常数
+quotMean_const_mul	quot 均值 常数 ×
+instBorelSpaceUnits_lib	实例博雷尔空间单位 lib
+instBorelSpace𝔸	实例博雷尔空间 𝔸
+isCovolOneLattice_ratVectors	是 Covol 一格 有理数向量
+instBorelSpace𝔸f	实例博雷尔空间 𝔸f
+stdLattice.instIsAddHaarMeasureForall𝔸fLatticeMeasure	std 格 · 实例是+哈尔测度任意 𝔸fLatticeMeasure
+instCharZeroLocField	实例特征零 Loc 域
+instCharZeroΩ	实例特征零 Ω
+instIsAlgClosureΩOfCharZero	实例是 Alg 闭包 ΩOfCharZero
+instContinuousAddComplex_lib	实例连续+复 lib
+kronecker_limit	kronecker 极限
+thetaShift_zero	θ平移 零
+instContinuousConstSMulGeneralLinearGroupForall_lib	实例连续常数 S ×一般线性群任意 lib
+instContinuousConstSMul_lib	实例连续常数 S × lib
+instContinuousSMulGeneralLinearGroupForall_lib	实例连续 S ×一般线性群任意 lib
+stdLattice.finVac_add	std 格 · 有限 Vac +
+instCountableFinPlace	实例可数有限位置
+instCountable_lib	实例可数 lib
+instDiscreteTopologyDiscreteUnits	实例离散拓扑离散单位
+instDiscreteTopologyQZ	实例离散拓扑 QZ
+instFactForallIsOpenAdicCompletionRingOfIntegersCarrierLocInt	实例 Fact 任意是开 Adic 完备化环由 Integers 载体 Loc Int
+isOpen_Ô	是开 Ô
+instFactPrimeValNat_lib	实例 Fact 素值自然数 lib
+instFiniteResField	实例有限 Res 域
+instFree𝔸f	实例自由 𝔸f
+instIsAddHaarMeasureForallComplexRealMeasure	实例是+哈尔测度任意复实测度
+integral_gauss	积分 gauss
+instIsAlgClosedΩ	实例是 Alg 闭 Ω
+instIsHermInvolutionOfNatMatrixComplex	实例是 Herm 对合由自然数矩阵复
+instIsHermInvolutionSignMatrix	实例是 Herm 对合符号矩阵
+instIsLocalRingSubtypeAdicCompletionRingOfIntegersMemValuationSubringLocInt	实例是局部环子类型 Adic 完备化环由 Integers ∈赋值子环 Loc Int
+instIsProGaloisAlgEquivOfIsGalois	实例是 Pro 伽罗瓦 Alg 等价由是伽罗瓦
+instIsTopologicalRing𝔸	实例是拓扑环 𝔸
+instLocallyCompactSpace𝔸	实例局部紧空间 𝔸
+instNonemptyWeylIndex	实例非空 Weyl 指标
+instNontrivial𝔸f	实例非平凡 𝔸f
+instPolishSpaceMatrixOfCountable_lib	实例 Polish 空间矩阵由可数 lib
+instPolishSpaceUnits_lib	实例 Polish 空间单位 lib
+instSecondCountableTopology𝔸f	实例第二可数拓扑 𝔸f
+isProfiniteRing_intAdeles	是 Profinite 环 int Adeles
+instSMulCommClassComplexReal_lib	实例 S ×交换律类复实 lib
+instSecondCountableTopologyComplex_lib	实例第二可数拓扑复 lib
+instSecondCountableTopologyForallComplexOfFintype_lib	实例第二可数拓扑任意复由有限类型 lib
+map_mulVec_haar	映射 ×向量 哈尔
+instSecondCountableTopology𝔸	实例第二可数拓扑 𝔸
+integrable_exp_mul_realVac	可积 指数函数 × 实 Vac
+instSecondCountableTopologySubtypeMem_new	实例第二可数拓扑子类型∈ 新
+instT2Space𝔸f	实例 T 2 空间 𝔸f
+instT0Space𝔸f	实例 T 0 空间 𝔸f
+integrableOn_laplace_of_abs_le	可积在…上 laplace 由 绝对值 ≤
+integral_psi₀_stdLattice	积分 ψ ₀ std 格
+isAlgebraic_of_padic	是代数 由 padic
+isLocallyConstant_of_eventually_mul	是局部常数 由 最终 ×
+isOpen_intGL	是开 int GL
+isOpen_intVectors	是开 int 向量
+stdLattice.isOpen_stdLattice	std 格 · 是开 std 格
+isUnit_stdForm	是单位 std 形式
+isUnit_Ô	是单位 Ô
+lambdaClass_nonneg_and_abs_le	λ类 非负 且 绝对值 ≤
+laplace_pow	laplace 幂
+levelSpace_levelOf_apply	水平空间 水平由 作用于
+locIdele_of_ne	loc Idele 由 ≠
+locMap_algebraMap	loc 映射 代数映射
+valuation_star	赋值 星
+map_conjTranspose_mul_mul	映射 共轭转置 × ×
+map_eq_self_of_mem_quadInt	映射 = 自身 由 ∈ quad Int
+map_kronecker	映射 kronecker
+map_smul_eq_inv_distribHaarChar_smul	映射 数乘 = 逆 distrib 哈尔特征 数乘
+map_star_CM	映射 星 CM
+map_star_complex	映射 星 复
+star_toAdele	星 到 Adele
+mem_LocInt	∈ Loc Int
+mem_idelesUnitOff	∈ ideles 单位非
+mem_intGL	∈ int GL
+mem_levelSpace	∈ 水平空间
+mem_maximalRealSubfield_iff_star_eq	∈ 极大实 Subfield ⇔ 星 =
+mem_Ô	∈ Ô
+ne_zero_of_differentIdeal_eq_span	≠ 零 由 different 理想 = 张成
+norm_p_lt_one	范数 p < 一
+one_classical	一 经典
+stdForm_mul_self	std 形式 × 自身
+val_transposeGL	值 转置 GL
+ostrowski_taussky	ostrowski taussky
+pair_complexConj_eq_univ	对 复共轭 = 全集
+trace_maximalReal_eq_add_star	迹 极大实 = + 星
+primeError_eq_sum	素误差 = 和
+principalMinor.congr_simp	principal 子式 · 合同 simp
+realMultiplier_blockU	实乘子 块 U
+principalMinor_blockDiagonal	principal 子式 块对角
+principalMinor_conjTranspose	principal 子式 共轭转置
+principalMinor_eq_det	principal 子式 = 行列式
+principalMinor_one	principal 子式 一
+principalMinor_sign_eq_det	principal 子式 符号 = 行列式
+principalMinor_mul	principal 子式 ×
+prod_euler_factor_ne_zero	积 欧拉 因子 ≠ 零
+prod_places_le_iff	积 位置 ≤ ⇔
+quadTwist_apply	quad 扭转 作用于
+quadTwist_ne_one	quad 扭转 ≠ 一
+re_logDerivMean_one	实部 对数导数均值 一
+reindex_equiv	重标指标 等价
+riemannZeta_eq_zero_re	riemann Zeta = 零 实部
+rightRegular_apply_apply	右正则 作用于 作用于
+schur_one	schur 一
+signMatrix_eq_posProj_sub	符号矩阵 = 正 Proj −
+signMatrix_mul_self	符号矩阵 × 自身
+simClassOf_endOnQuot	sim 类由 末尾在…上 Quot
+simClassOf_endOnQuot_comap	sim 类由 末尾在…上 Quot 拉回映射
+simClassOf_endOnSub	sim 类由 末尾在…上子
+simClassOf_endOnSub_comap	sim 类由 末尾在…上子 拉回映射
+simClassOf_eq_dualMap	sim 类由 = 对偶映射
+star_dot_self_eq_sum	星 点积 自身 = 和
+star_mulVec_dotProduct	星 ×向量 点积积
+stdForm_homSigns	std 形式 同态符号
+stdLattice.finProjAction_cocycle_eq_one_of_mem	std 格 · 有限 Proj 作用 上闭链 = 一 由 ∈
+stdLattice.psi₀_congr	std 格 · ψ ₀ 合同
+summable_taylor_of_removable	可和 taylor 由 可去
+tendsto_place_comap_cofinite	趋于 位置 拉回映射 cofinite
+toAdele_apply_fst	到 Adele 作用于 第一分量
+toAdele_apply_snd	到 Adele 作用于 第二分量
+totient_mul_totient_le_finrank	totient × totient ≤ 有限秩
+two_pow_le_of_pow_eq_one	二 幂 ≤ 由 幂 = 一
+v_algebraMap_eq_intValuation	v 代数映射 = int 赋值
+v_algebraMap_eq_one	v 代数映射 = 一
+v_algebraMap_eq_valuation	v 代数映射 = 赋值
+v_conjLoc	v 共轭 Loc
+weierstrass_disc_ne_zero	weierstrass disc ≠ 零

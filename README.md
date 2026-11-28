@@ -9,18 +9,19 @@ This repository contains Lean 4 formalizations of the results presented in
 > This is a copy of [openai/ten-proofs](https://github.com/openai/ten-proofs)
 > with one addition: a **dependency graph of every proof**, in the
 > [`scripts/`](scripts/) folder. The Lean files themselves are unchanged.
-> The same folder also maps the Lean proof of the Riemann Hypothesis, which you
-> can browse in the **[Riemann Hypothesis proof explorer](https://bil022.github.io/riemann-explorer/)**.
+> The same folder also maps the three Lean proofs of the Riemann Hypothesis (the
+> first one and its two short rewrites), which you can browse in the
+> **[Riemann Hypothesis proof explorer](https://bil022.github.io/riemann-explorer/)**.
 >
 > 本仓库是 [openai/ten-proofs](https://github.com/openai/ten-proofs) 的副本，只多了一样东西：
 > **每个证明的依赖图**，放在 [`scripts/`](scripts/) 文件夹里。Lean 文件本身没有改动。
-> 同一个文件夹里还有黎曼猜想 Lean 证明的依赖图，可以在
+> 同一个文件夹里还有黎曼猜想三个 Lean 证明（最早的证明和它的两个短重写版）的依赖图，可以在
 > **[黎曼猜想证明浏览器](https://bil022.github.io/riemann-explorer/)** 里一层层浏览。
 
 ## Proof dependency graphs · 证明依赖图
 
-*New: graphs of the Lean proof of the Riemann Hypothesis, [below](#the-riemann-hypothesis--黎曼猜想), and an [explorer website](https://bil022.github.io/riemann-explorer/) to click through it.*
-*新增：黎曼猜想 Lean 证明的依赖图，[见下文](#the-riemann-hypothesis--黎曼猜想)；还有一个可以点进去浏览的[网站](https://bil022.github.io/riemann-explorer/)。*
+*New: graphs of the three Lean proofs of the Riemann Hypothesis, including the 150-times shorter rewrite of 25 November 2026, [below](#the-riemann-hypothesis--黎曼猜想), and an [explorer website](https://bil022.github.io/riemann-explorer/) to click through them.*
+*新增：黎曼猜想三个 Lean 证明的依赖图，包括 2026 年 11 月 25 日短了 150 倍的重写版，[见下文](#the-riemann-hypothesis--黎曼猜想)；还有一个可以点进去浏览的[网站](https://bil022.github.io/riemann-explorer/)。*
 
 The ten proofs are hard to read: each Lean file is between 3,000 and 130,000
 lines, a flat list of hundreds or thousands of lemmas. The graphs below show how
@@ -79,32 +80,51 @@ everything: [scripts/README.md](scripts/README.md).
 
 ### The Riemann Hypothesis · 黎曼猜想
 
-The same kind of graph for
+The same kind of graph for the three Lean proofs of the Riemann Hypothesis (and
+of GRH for Dirichlet L-functions). The first,
 [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis),
-the Lean formalization of the 2026 proof of the Riemann Hypothesis. That proof is
-far larger than the ten above, at 60,928 files and 568,159 theorems, so it is
-shown in three pictures: the 395 theorems nearest the main theorem, the whole
-proof with one box per source folder, and the whole proof cut into 194
+formalizes the 2026 proof. [lsernau/grh-lean](https://github.com/lsernau/grh-lean)
+rewrites it far shorter, in a readable edition (`grh`) and a compact one
+(`grh-compact`). All three prove the same five theorems from the same three
+axioms; we built both rewrites and checked this. They are too large for one
+picture, so each is shown three ways: the theorems nearest the main theorem,
+the whole proof with one box per source folder, and the whole proof cut into
 self-contained blocks (sub-proofs together with the lemmas only they use).
 
-同样的依赖图，画的是 2026 年黎曼猜想证明的 Lean 形式化
-[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)。
-它比上面十个证明大得多（60,928 个文件、568,159 个定理），所以分成三张图：离主定理最近的
-395 个定理；每个源码文件夹画成一个方框的整个证明；以及切成 194 个独立块的整个证明（每块是一个
-子证明加上只有它用到的引理）。
+同样的依赖图，画的是黎曼猜想（以及 Dirichlet L 函数的广义黎曼猜想）的三个 Lean 证明。
+最早的 [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)
+是 2026 年证明的形式化；[lsernau/grh-lean](https://github.com/lsernau/grh-lean)
+把它重写得短得多，分易读版（`grh`）和紧凑版（`grh-compact`）。三者用同样三个公理证明同样五个
+定理；两个重写版我们都编译并核对过。它们一张图都画不下，所以每个分成三张：离主定理最近的定理；
+每个源码文件夹画成一个方框的整个证明；以及切成独立块的整个证明（每块是一个子证明加上只有它
+用到的引理）。
 
-[![The Riemann Hypothesis proof by folder](scripts/en/svg/riemannHypothesis_folders.svg)](scripts/en/svg/riemannHypothesis_folders.svg)
+| · | First proof · 最早的证明 | Readable · 易读版 `grh` | Compact · 紧凑版 `grh-compact` |
+|---|---:|---:|---:|
+| Lean files · 文件 | 60,928 | 805 | 796 |
+| Lines · 行数 | 16.9M | 477,151 | 112,854 |
+| Theorems used · 用到的定理 | 568,159 | 17,156 | 8,802 |
+
+[![The compact proof in self-contained blocks](scripts/en/svg/grhCompact_blocks.svg)](scripts/en/svg/grhCompact_blocks.svg)
+
+*The compact edition cut into self-contained blocks. 紧凑版切成的独立块。*
 
 | Graph · 图 | Boxes · 方框 | English | 中文 |
 |---|---:|---|---|
-| Top of the proof · 证明的顶层 | 395 theorems · 定理 | [SVG](scripts/en/svg/riemannHypothesis.svg) · [PDF](scripts/en/pdf/riemannHypothesis.pdf) · [PNG](scripts/en/png/riemannHypothesis.png) | [SVG](scripts/zh/svg/riemannHypothesis.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis.zh.png) |
-| By folder · 按文件夹 | 149 folders · 文件夹 | [SVG](scripts/en/svg/riemannHypothesis_folders.svg) · [PDF](scripts/en/pdf/riemannHypothesis_folders.pdf) · [PNG](scripts/en/png/riemannHypothesis_folders.png) | [SVG](scripts/zh/svg/riemannHypothesis_folders.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis_folders.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis_folders.zh.png) |
-| Self-contained blocks · 独立块 | 194 blocks · 块 | [SVG](scripts/en/svg/riemannHypothesis_blocks.svg) · [PDF](scripts/en/pdf/riemannHypothesis_blocks.pdf) · [PNG](scripts/en/png/riemannHypothesis_blocks.png) | [SVG](scripts/zh/svg/riemannHypothesis_blocks.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis_blocks.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis_blocks.zh.png) |
+| First proof, top · 最早的证明，顶层 | 395 theorems · 定理 | [SVG](scripts/en/svg/riemannHypothesis.svg) · [PDF](scripts/en/pdf/riemannHypothesis.pdf) · [PNG](scripts/en/png/riemannHypothesis.png) | [SVG](scripts/zh/svg/riemannHypothesis.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis.zh.png) |
+| First proof, by folder · 按文件夹 | 149 folders · 文件夹 | [SVG](scripts/en/svg/riemannHypothesis_folders.svg) · [PDF](scripts/en/pdf/riemannHypothesis_folders.pdf) · [PNG](scripts/en/png/riemannHypothesis_folders.png) | [SVG](scripts/zh/svg/riemannHypothesis_folders.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis_folders.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis_folders.zh.png) |
+| First proof, blocks · 独立块 | 194 blocks · 块 | [SVG](scripts/en/svg/riemannHypothesis_blocks.svg) · [PDF](scripts/en/pdf/riemannHypothesis_blocks.pdf) · [PNG](scripts/en/png/riemannHypothesis_blocks.png) | [SVG](scripts/zh/svg/riemannHypothesis_blocks.zh.svg) · [PDF](scripts/zh/pdf/riemannHypothesis_blocks.zh.pdf) · [PNG](scripts/zh/png/riemannHypothesis_blocks.zh.png) |
+| `grh`, top · 顶层 | 208 theorems · 定理 | [SVG](scripts/en/svg/grh.svg) · [PDF](scripts/en/pdf/grh.pdf) · [PNG](scripts/en/png/grh.png) | [SVG](scripts/zh/svg/grh.zh.svg) · [PDF](scripts/zh/pdf/grh.zh.pdf) · [PNG](scripts/zh/png/grh.zh.png) |
+| `grh`, by folder · 按文件夹 | 125 folders · 文件夹 | [SVG](scripts/en/svg/grh_folders.svg) · [PDF](scripts/en/pdf/grh_folders.pdf) · [PNG](scripts/en/png/grh_folders.png) | [SVG](scripts/zh/svg/grh_folders.zh.svg) · [PDF](scripts/zh/pdf/grh_folders.zh.pdf) · [PNG](scripts/zh/png/grh_folders.zh.png) |
+| `grh`, blocks · 独立块 | 124 blocks · 块 | [SVG](scripts/en/svg/grh_blocks.svg) · [PDF](scripts/en/pdf/grh_blocks.pdf) · [PNG](scripts/en/png/grh_blocks.png) | [SVG](scripts/zh/svg/grh_blocks.zh.svg) · [PDF](scripts/zh/pdf/grh_blocks.zh.pdf) · [PNG](scripts/zh/png/grh_blocks.zh.png) |
+| `grh-compact`, top · 顶层 | 660 theorems · 定理 | [SVG](scripts/en/svg/grhCompact.svg) · [PDF](scripts/en/pdf/grhCompact.pdf) · [PNG](scripts/en/png/grhCompact.png) | [SVG](scripts/zh/svg/grhCompact.zh.svg) · [PDF](scripts/zh/pdf/grhCompact.zh.pdf) · [PNG](scripts/zh/png/grhCompact.zh.png) |
+| `grh-compact`, by folder · 按文件夹 | 155 folders · 文件夹 | [SVG](scripts/en/svg/grhCompact_folders.svg) · [PDF](scripts/en/pdf/grhCompact_folders.pdf) · [PNG](scripts/en/png/grhCompact_folders.png) | [SVG](scripts/zh/svg/grhCompact_folders.zh.svg) · [PDF](scripts/zh/pdf/grhCompact_folders.zh.pdf) · [PNG](scripts/zh/png/grhCompact_folders.zh.png) |
+| `grh-compact`, blocks · 独立块 | 75 blocks · 块 | [SVG](scripts/en/svg/grhCompact_blocks.svg) · [PDF](scripts/en/pdf/grhCompact_blocks.pdf) · [PNG](scripts/en/png/grhCompact_blocks.png) | [SVG](scripts/zh/svg/grhCompact_blocks.zh.svg) · [PDF](scripts/zh/pdf/grhCompact_blocks.zh.pdf) · [PNG](scripts/zh/png/grhCompact_blocks.zh.png) |
 
-To go through the whole proof level by level, with the Lean code of every part,
-open the explorer website: **<https://bil022.github.io/riemann-explorer/>**
+To go through any of the three proofs level by level, with the Lean code of every part,
+open the explorer website (switch proofs in the menu at the top left): **<https://bil022.github.io/riemann-explorer/>**
 (source in [`scripts/rh/site/`](scripts/rh/site/)).
-可以一层层点进去浏览整个证明、并查看每一部分 Lean 代码的网站：
+可以一层层点进去浏览三个证明中的任何一个、并查看每一部分 Lean 代码的网站（左上角菜单切换证明）：
 **<https://bil022.github.io/riemann-explorer/>**（源码在 [`scripts/rh/site/`](scripts/rh/site/)）。
 
 What the boxes and colours mean, and how to regenerate: [scripts/rh/README.md](scripts/rh/README.md).

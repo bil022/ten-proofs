@@ -1,0 +1,450 @@
+digraph G {
+	graph [nodesep=0.2,
+		rankdir=LR,
+		ranksep=1.2
+	];
+	node [fontname=Helvetica,
+		fontsize=11,
+		shape=box,
+		style="filled,rounded"
+	];
+	edge [arrowsize=0.6,
+		color="#8a8a8a"
+	];
+	Lib	[fillcolor="#cfe8ff",
+		label="Lib\nLib\n1 theorems"];
+	"Lib.Adelic.Reduction"	[fillcolor="#cfe8ff",
+		label="Lib · Adelic · 归约\nLib/\nAdelic/Reduction\n113 theorems"];
+	Lib -> "Lib.Adelic.Reduction";
+	"Lib.Adelic"	[fillcolor="#cfe8ff",
+		label="Lib · Adelic\nLib/\nAdelic\n11 theorems"];
+	"Lib.Adelic" -> "Lib.Adelic.Reduction";
+	"Lib.Adelic.Adeles"	[fillcolor="#cfe8ff",
+		label="Lib · Adelic · Adeles\nLib/\nAdelic/Adeles\n315 theorems"];
+	"Lib.Adelic.Adeles" -> "Lib.Adelic";
+	"Lib.Adelic.AutomorphicForms"	[fillcolor="#cfe8ff",
+		label="Lib · Adelic · Automorphic Forms\nLib/\nAdelic/AutomorphicForms\n253 theorems"];
+	"Lib.ClassField.Avatar"	[fillcolor="#cfe8ff",
+		label="Lib · 类域 · Avatar\nLib/\nClassField/Avatar\n14 theorems"];
+	"Lib.Adelic.AutomorphicForms" -> "Lib.ClassField.Avatar";
+	"Lib.Adelic.Hecke"	[fillcolor="#cfe8ff",
+		label="Lib · Adelic · Hecke\nLib/\nAdelic/Hecke\n76 theorems"];
+	"Lib.Adelic.Hecke" -> "Lib.Adelic.Adeles";
+	"Lib.Adelic.QuotientMeasure"	[fillcolor="#cfe8ff",
+		label="Lib · Adelic · 商测度\nLib/\nAdelic/QuotientMeasure\n97 theorems"];
+	"Lib.Adelic.QuotientMeasure" -> "Lib.Adelic.Hecke";
+	"Lib.Adelic.Reduction" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.Adelic.TraceFormula"	[fillcolor="#cfe8ff",
+		label="Lib · Adelic · 迹公式\nLib/\nAdelic/TraceFormula\n391 theorems"];
+	"New.Determinant.AuxiliaryForms"	[fillcolor="#ffe0e0",
+		label="新 · 行列式 · 辅助 Forms\nNew/\nDeterminant/AuxiliaryForms\n304 theorems"];
+	"Lib.Adelic.TraceFormula" -> "New.Determinant.AuxiliaryForms";
+	"Lib.Adelic.Unitary"	[fillcolor="#cfe8ff",
+		label="Lib · Adelic · 酉\nLib/\nAdelic/Unitary\n192 theorems"];
+	"Lib.Adelic.Unitary" -> "Lib.Adelic";
+	"Lib.Adelic.Witt"	[fillcolor="#cfe8ff",
+		label="Lib · Adelic · Witt\nLib/\nAdelic/Witt\n59 theorems"];
+	"Lib.Adelic.Witt" -> "Lib.Adelic";
+	"Lib.Analytic"	[fillcolor="#cfe8ff",
+		label="Lib · 解析\nLib/\nAnalytic\n109 theorems"];
+	"Lib.CM"	[fillcolor="#cfe8ff",
+		label="Lib · CM\nLib/\nCM\n119 theorems"];
+	"Lib.Analytic" -> "Lib.CM";
+	New	[fillcolor="#ffe0e0",
+		label="新\nNew\n2 theorems"];
+	"Lib.Analytic" -> New;
+	"Lib.Analytic.PrimeNumberTheorem"	[fillcolor="#cfe8ff",
+		label="Lib · 解析 · 素数定理\nLib/\nAnalytic/PrimeNumberTheorem\n34 theorems"];
+	"Lib.Analytic.PrimeNumberTheorem" -> "Lib.Analytic";
+	"Lib.CM.Integrality"	[fillcolor="#cfe8ff",
+		label="Lib · CM · Integrality\nLib/\nCM/Integrality\n152 theorems"];
+	"Lib.CM" -> "Lib.CM.Integrality";
+	"Lib.CM.FormalGroup"	[fillcolor="#cfe8ff",
+		label="Lib · CM · Formal 群\nLib/\nCM/FormalGroup\n130 theorems"];
+	"Lib.General.Algebra"	[fillcolor="#cfe8ff",
+		label="Lib · 一般 · 代数\nLib/\nGeneral/Algebra\n232 theorems"];
+	"Lib.CM.FormalGroup" -> "Lib.General.Algebra";
+	"Lib.CM.Integrality" -> "Lib.CM.FormalGroup";
+	"Lib.CM.Sigma"	[fillcolor="#cfe8ff",
+		label="Lib · CM · σ\nLib/\nCM/Sigma\n141 theorems"];
+	"Lib.CM.Sigma" -> "Lib.CM";
+	"Lib.ClassField"	[fillcolor="#cfe8ff",
+		label="Lib · 类域\nLib/\nClassField\n22 theorems"];
+	"Lib.ClassField" -> "Lib.ClassField.Avatar";
+	"Lib.GaloisRep.Main"	[fillcolor="#cfe8ff",
+		label="Lib · 伽罗瓦 Rep · Main\nLib/\nGaloisRep/Main\n137 theorems"];
+	"Lib.ClassField.Avatar" -> "Lib.GaloisRep.Main";
+	"Lib.ClassField.GaloisCohomology"	[fillcolor="#cfe8ff",
+		label="Lib · 类域 · 伽罗瓦 Cohomology\nLib/\nClassField/GaloisCohomology\n80 theorems"];
+	"Lib.General.Groups"	[fillcolor="#cfe8ff",
+		label="Lib · 一般 · 群\nLib/\nGeneral/Groups\n156 theorems"];
+	"Lib.ClassField.GaloisCohomology" -> "Lib.General.Groups";
+	"Lib.ClassField.Global"	[fillcolor="#cfe8ff",
+		label="Lib · 类域 · 整体\nLib/\nClassField/Global\n111 theorems"];
+	"Lib.ClassField.Global" -> "Lib.Adelic";
+	"Lib.ClassField.GreenbergWiles"	[fillcolor="#cfe8ff",
+		label="Lib · 类域 · Greenberg Wiles\nLib/\nClassField/GreenbergWiles\n105 theorems"];
+	"Lib.Cyclotomic.Kolyvagin"	[fillcolor="#cfe8ff",
+		label="Lib · Cyclotomic · Kolyvagin\nLib/\nCyclotomic/Kolyvagin\n29 theorems"];
+	"Lib.ClassField.GreenbergWiles" -> "Lib.Cyclotomic.Kolyvagin";
+	"Lib.ClassField.HeckeCharacter"	[fillcolor="#cfe8ff",
+		label="Lib · 类域 · Hecke 特征标\nLib/\nClassField/HeckeCharacter\n108 theorems"];
+	"Lib.ClassField.HeckeCharacter" -> "Lib.Adelic.Adeles";
+	"Lib.ClassField.HeckeL"	[fillcolor="#cfe8ff",
+		label="Lib · 类域 · Hecke L\nLib/\nClassField/HeckeL\n61 theorems"];
+	"Lib.ClassField.HeckeL" -> "Lib.CM";
+	"Lib.ClassField.Local"	[fillcolor="#cfe8ff",
+		label="Lib · 类域 · 局部\nLib/\nClassField/Local\n42 theorems"];
+	"Lib.ClassField.Local" -> "Lib.ClassField";
+	"Lib.ClassField.LocalDuality"	[fillcolor="#cfe8ff",
+		label="Lib · 类域 · 局部 Duality\nLib/\nClassField/LocalDuality\n50 theorems"];
+	"Lib.ClassField.LocalDuality" -> "Lib.ClassField.Global";
+	"Lib.ClassField.Places"	[fillcolor="#cfe8ff",
+		label="Lib · 类域 · 位置\nLib/\nClassField/Places\n249 theorems"];
+	"Lib.ClassField.Places" -> "Lib.Adelic";
+	"Lib.Cohomology.Etale"	[fillcolor="#cfe8ff",
+		label="Lib · Cohomology · Etale\nLib/\nCohomology/Etale\n8 theorems"];
+	"Lib.Cohomology.Etale" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.Cyclotomic"	[fillcolor="#cfe8ff",
+		label="Lib · Cyclotomic\nLib/\nCyclotomic\n42 theorems"];
+	"Lib.Cyclotomic" -> "Lib.GaloisRep.Main";
+	"Lib.Cyclotomic.Kolyvagin" -> "Lib.Cyclotomic";
+	"Lib.DiscreteSeries"	[fillcolor="#cfe8ff",
+		label="Lib · 离散级数\nLib/\nDiscreteSeries\n14 theorems"];
+	"Lib.DiscreteSeries" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.DiscreteSeries.Bessel"	[fillcolor="#cfe8ff",
+		label="Lib · 离散级数 · Bessel\nLib/\nDiscreteSeries/Bessel\n134 theorems"];
+	"Lib.DiscreteSeries.Bruhat"	[fillcolor="#cfe8ff",
+		label="Lib · 离散级数 · Bruhat\nLib/\nDiscreteSeries/Bruhat\n245 theorems"];
+	"Lib.DiscreteSeries.Bessel" -> "Lib.DiscreteSeries.Bruhat";
+	"Lib.DiscreteSeries.Bruhat" -> "Lib.DiscreteSeries.Bessel";
+	"Lib.SiegelWeil.OneVector"	[fillcolor="#cfe8ff",
+		label="Lib · Siegel Weil · 一向量\nLib/\nSiegelWeil/OneVector\n80 theorems"];
+	"Lib.DiscreteSeries.Bruhat" -> "Lib.SiegelWeil.OneVector";
+	"Lib.DiscreteSeries.Character"	[fillcolor="#cfe8ff",
+		label="Lib · 离散级数 · 特征标\nLib/\nDiscreteSeries/Character\n118 theorems"];
+	"Lib.DiscreteSeries.Character" -> "Lib.Adelic.TraceFormula";
+	"Lib.DiscreteSeries.FlenstedJensen"	[fillcolor="#cfe8ff",
+		label="Lib · 离散级数 · Flensted Jensen\nLib/\nDiscreteSeries/FlenstedJensen\n176 theorems"];
+	"Lib.DiscreteSeries.FlenstedJensen" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.DiscreteSeries.Haar"	[fillcolor="#cfe8ff",
+		label="Lib · 离散级数 · 哈尔\nLib/\nDiscreteSeries/Haar\n128 theorems"];
+	"Lib.DiscreteSeries.Haar" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.DiscreteSeries.Holomorphic"	[fillcolor="#cfe8ff",
+		label="Lib · 离散级数 · 全纯\nLib/\nDiscreteSeries/Holomorphic\n106 theorems"];
+	"Lib.DiscreteSeries.Holomorphic" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.DiscreteSeries.Rigidity"	[fillcolor="#cfe8ff",
+		label="Lib · 离散级数 · 刚性\nLib/\nDiscreteSeries/Rigidity\n75 theorems"];
+	"Lib.DiscreteSeries.Rigidity" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.DiscreteSeries.Theta"	[fillcolor="#cfe8ff",
+		label="Lib · 离散级数 · θ\nLib/\nDiscreteSeries/Theta\n147 theorems"];
+	"Lib.SiegelWeil"	[fillcolor="#cfe8ff",
+		label="Lib · Siegel Weil\nLib/\nSiegelWeil\n62 theorems"];
+	"Lib.DiscreteSeries.Theta" -> "Lib.SiegelWeil";
+	"Lib.GLn"	[fillcolor="#cfe8ff",
+		label="Lib · G Ln\nLib/\nGLn\n49 theorems"];
+	"Lib.GLn" -> "New.Determinant.AuxiliaryForms";
+	"Lib.GLn.Branching"	[fillcolor="#cfe8ff",
+		label="Lib · G Ln · 分支\nLib/\nGLn/Branching\n27 theorems"];
+	"Lib.GLn.Branching" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.GLn.SchurModule"	[fillcolor="#cfe8ff",
+		label="Lib · G Ln · Schur 模\nLib/\nGLn/SchurModule\n244 theorems"];
+	"Lib.GLn.SchurModule" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.GaloisRep"	[fillcolor="#cfe8ff",
+		label="Lib · 伽罗瓦 Rep\nLib/\nGaloisRep\n37 theorems"];
+	"Lib.GaloisRep" -> "Lib.GaloisRep.Main";
+	"Lib.GaloisRep.BaseChange"	[fillcolor="#cfe8ff",
+		label="Lib · 伽罗瓦 Rep · 基改变\nLib/\nGaloisRep/BaseChange\n68 theorems"];
+	"Lib.GaloisRep.BaseChange" -> "Lib.ClassField";
+	"Lib.GaloisRep.Hilbert90"	[fillcolor="#cfe8ff",
+		label="Lib · 伽罗瓦 Rep · Hilbert 90\nLib/\nGaloisRep/Hilbert90\n36 theorems"];
+	"Lib.GaloisRep.Hilbert90" -> "Lib.Adelic.Witt";
+	"Lib.GaloisRep.LocalGlobal"	[fillcolor="#cfe8ff",
+		label="Lib · 伽罗瓦 Rep · 局部整体\nLib/\nGaloisRep/LocalGlobal\n36 theorems"];
+	"Lib.GaloisRep.LocalGlobal" -> "Lib.GaloisRep";
+	"Lib.GaloisRep.Main" -> "Lib.ClassField.GaloisCohomology";
+	"Lib.GaloisRep.Pseudocharacter"	[fillcolor="#cfe8ff",
+		label="Lib · 伽罗瓦 Rep · Pseudocharacter\nLib/\nGaloisRep/Pseudocharacter\n26 theorems"];
+	"Lib.GaloisRep.Pseudocharacter" -> "Lib.GaloisRep";
+	"Lib.General"	[fillcolor="#cfe8ff",
+		label="Lib · 一般\nLib/\nGeneral\n13 theorems"];
+	"Lib.General" -> "Lib.Adelic.Adeles";
+	"Lib.General.Algebra" -> "Lib.Cohomology.Etale";
+	"Lib.PadicHodge.PeriodRings"	[fillcolor="#cfe8ff",
+		label="Lib · Padic Hodge · Period Rings\nLib/\nPadicHodge/PeriodRings\n216 theorems"];
+	"Lib.General.Algebra" -> "Lib.PadicHodge.PeriodRings";
+	"Lib.General.Analysis"	[fillcolor="#cfe8ff",
+		label="Lib · 一般 · Analysis\nLib/\nGeneral/Analysis\n102 theorems"];
+	"Lib.General.Analysis" -> "Lib.Adelic.Adeles";
+	"Lib.Shimura.ComplexTheta"	[fillcolor="#cfe8ff",
+		label="Lib · Shimura · 复θ\nLib/\nShimura/ComplexTheta\n69 theorems"];
+	"Lib.General.Analysis" -> "Lib.Shimura.ComplexTheta";
+	"Lib.General.Geometry"	[fillcolor="#cfe8ff",
+		label="Lib · 一般 · Geometry\nLib/\nGeneral/Geometry\n3 theorems"];
+	"Lib.General.Geometry" -> "Lib.GaloisRep.LocalGlobal";
+	"Lib.General.Groups" -> "Lib.CM.Sigma";
+	"Lib.General.LinearAlgebra"	[fillcolor="#cfe8ff",
+		label="Lib · 一般 · 线性代数\nLib/\nGeneral/LinearAlgebra\n294 theorems"];
+	"Lib.General.LinearAlgebra" -> "Lib.Adelic.Unitary";
+	"Lib.General.LinearAlgebra" -> "Lib.GLn";
+	"Lib.General.LinearAlgebra" -> "Lib.GaloisRep.Hilbert90";
+	"Lib.General.Measure"	[fillcolor="#cfe8ff",
+		label="Lib · 一般 · 测度\nLib/\nGeneral/Measure\n154 theorems"];
+	"Lib.General.LinearAlgebra" -> "Lib.General.Measure";
+	"Lib.General.Measure" -> "Lib.Adelic.QuotientMeasure";
+	"Lib.General.Measure" -> "Lib.ClassField.HeckeL";
+	"Lib.General.Measure" -> "Lib.DiscreteSeries.Bessel";
+	"Lib.General.Measure" -> "Lib.DiscreteSeries.Haar";
+	"Lib.General.Measure" -> "Lib.General.Analysis";
+	"Lib.General.NumberTheory"	[fillcolor="#cfe8ff",
+		label="Lib · 一般 · 数 Theory\nLib/\nGeneral/NumberTheory\n227 theorems"];
+	"Lib.General.NumberTheory" -> "Lib.Analytic.PrimeNumberTheorem";
+	"Lib.General.NumberTheory" -> "Lib.ClassField.GreenbergWiles";
+	"Lib.LocalGL.Green"	[fillcolor="#cfe8ff",
+		label="Lib · 局部 GL · Green\nLib/\nLocalGL/Green\n111 theorems"];
+	"Lib.General.NumberTheory" -> "Lib.LocalGL.Green";
+	"New.Reduction.Zeros"	[fillcolor="#ffe0e0",
+		label="新 · 归约 · Zeros\nNew/\nReduction/Zeros\n31 theorems"];
+	"Lib.General.NumberTheory" -> "New.Reduction.Zeros";
+	"Lib.LocalGL"	[fillcolor="#cfe8ff",
+		label="Lib · 局部 GL\nLib/\nLocalGL\n12 theorems"];
+	"New.Congruences.FirstOrder"	[fillcolor="#ffe0e0",
+		label="新 · Congruences · 第一阶\nNew/\nCongruences/FirstOrder\n377 theorems"];
+	"Lib.LocalGL" -> "New.Congruences.FirstOrder";
+	"Lib.LocalGL.Iwahori"	[fillcolor="#cfe8ff",
+		label="Lib · 局部 GL · Iwahori\nLib/\nLocalGL/Iwahori\n81 theorems"];
+	"Lib.LocalGL.Green" -> "Lib.LocalGL.Iwahori";
+	"Lib.Weil.Unramified"	[fillcolor="#cfe8ff",
+		label="Lib · Weil · Unramified\nLib/\nWeil/Unramified\n85 theorems"];
+	"Lib.LocalGL.Iwahori" -> "Lib.Weil.Unramified";
+	"Lib.LocalGL.Shintani"	[fillcolor="#cfe8ff",
+		label="Lib · 局部 GL · Shintani\nLib/\nLocalGL/Shintani\n45 theorems"];
+	"Lib.LocalGL.Shintani" -> "Lib.GaloisRep.BaseChange";
+	"Lib.PadicComparison"	[fillcolor="#cfe8ff",
+		label="Lib · Padic 比较\nLib/\nPadicComparison\n1 theorems"];
+	"Lib.PadicComparison" -> "Lib.GaloisRep.Main";
+	"Lib.PadicComparison.Descent"	[fillcolor="#cfe8ff",
+		label="Lib · Padic 比较 · 下降\nLib/\nPadicComparison/Descent\n1 theorems"];
+	"Lib.PadicComparison.Descent" -> "Lib.Adelic.AutomorphicForms";
+	"Lib.PadicHodge"	[fillcolor="#cfe8ff",
+		label="Lib · Padic Hodge\nLib/\nPadicHodge\n110 theorems"];
+	"Lib.PadicHodge" -> "Lib.ClassField.Avatar";
+	"Lib.PadicHodge.Crystalline"	[fillcolor="#cfe8ff",
+		label="Lib · Padic Hodge · Crystalline\nLib/\nPadicHodge/Crystalline\n106 theorems"];
+	"Lib.PadicHodge.Crystalline" -> "Lib.ClassField.LocalDuality";
+	"Lib.PadicHodge.Kisin"	[fillcolor="#cfe8ff",
+		label="Lib · Padic Hodge · Kisin\nLib/\nPadicHodge/Kisin\n250 theorems"];
+	"Lib.PadicHodge.Kisin" -> "Lib.PadicHodge";
+	"Lib.PadicHodge.Limit"	[fillcolor="#cfe8ff",
+		label="Lib · Padic Hodge · 极限\nLib/\nPadicHodge/Limit\n43 theorems"];
+	"Lib.PadicHodge.Limit" -> "Lib.GaloisRep.Main";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.ClassField.Local";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.ClassField.Places";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.GaloisRep.Pseudocharacter";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.General.NumberTheory";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.PadicHodge.Crystalline";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.PadicHodge.Kisin";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.PadicHodge.Limit";
+	"New.Congruences.Lifting"	[fillcolor="#ffe0e0",
+		label="新 · Congruences · Lifting\nNew/\nCongruences/Lifting\n366 theorems"];
+	"Lib.PadicHodge.PeriodRings" -> "New.Congruences.Lifting";
+	"New.Reduction.Lattices"	[fillcolor="#ffe0e0",
+		label="新 · 归约 · Lattices\nNew/\nReduction/Lattices\n48 theorems"];
+	"Lib.PadicHodge.PeriodRings" -> "New.Reduction.Lattices";
+	"Lib.Shimura.ComplexTheta" -> "Lib.Adelic";
+	"Lib.Shimura.ComplexTheta" -> "Lib.DiscreteSeries";
+	"Lib.Shimura.ComplexTheta" -> "Lib.DiscreteSeries.Character";
+	"Lib.Shimura.ComplexTheta" -> "Lib.DiscreteSeries.FlenstedJensen";
+	"Lib.Shimura.ComplexTheta" -> "Lib.DiscreteSeries.Rigidity";
+	"Lib.Shimura.ComplexTheta" -> "Lib.GLn.Branching";
+	"Lib.Shimura.ComplexTheta" -> "Lib.LocalGL.Shintani";
+	"Lib.Shimura.Uniformisation"	[fillcolor="#cfe8ff",
+		label="Lib · Shimura · Uniformisation\nLib/\nShimura/Uniformisation\n15 theorems"];
+	"Lib.Shimura.ComplexTheta" -> "Lib.Shimura.Uniformisation";
+	"Lib.Shimura.HeckeTower"	[fillcolor="#cfe8ff",
+		label="Lib · Shimura · Hecke Tower\nLib/\nShimura/HeckeTower\n9 theorems"];
+	"Lib.Shimura.HeckeTower" -> "Lib.ClassField.Avatar";
+	"Lib.Shimura.HeckeTower" -> "Lib.GLn.SchurModule";
+	"Lib.Shimura.Uniformisation" -> "Lib.CM.Integrality";
+	"Lib.Shimura.Uniformisation" -> "Lib.General.Geometry";
+	"Lib.Shimura.Uniformisation" -> "Lib.Shimura.HeckeTower";
+	"Lib.SiegelWeil.Tower"	[fillcolor="#cfe8ff",
+		label="Lib · Siegel Weil · Tower\nLib/\nSiegelWeil/Tower\n169 theorems"];
+	"Lib.Shimura.Uniformisation" -> "Lib.SiegelWeil.Tower";
+	"New.Appendix.DiscreteSeries"	[fillcolor="#ffe0e0",
+		label="新 · Appendix · 离散级数\nNew/\nAppendix/DiscreteSeries\n261 theorems"];
+	"Lib.Shimura.Uniformisation" -> "New.Appendix.DiscreteSeries";
+	"Lib.SiegelWeil" -> "Lib.Adelic.Adeles";
+	"Lib.SiegelWeil.Formula"	[fillcolor="#cfe8ff",
+		label="Lib · Siegel Weil · 公式\nLib/\nSiegelWeil/Formula\n50 theorems"];
+	"Lib.SiegelWeil.RallisInner"	[fillcolor="#cfe8ff",
+		label="Lib · Siegel Weil · Rallis 内积\nLib/\nSiegelWeil/RallisInner\n65 theorems"];
+	"Lib.SiegelWeil.Formula" -> "Lib.SiegelWeil.RallisInner";
+	"New.Spanning.Frames"	[fillcolor="#ffe0e0",
+		label="新 · Spanning · Frames\nNew/\nSpanning/Frames\n613 theorems"];
+	"Lib.SiegelWeil.OneVector" -> "New.Spanning.Frames";
+	"Lib.SiegelWeil.RallisInner" -> "Lib.SiegelWeil";
+	"Lib.SiegelWeil.SingularForms"	[fillcolor="#cfe8ff",
+		label="Lib · Siegel Weil · 奇异 Forms\nLib/\nSiegelWeil/SingularForms\n90 theorems"];
+	"Lib.SiegelWeil.SingularForms" -> "Lib.ClassField.HeckeCharacter";
+	"Lib.Weil.MixedModel"	[fillcolor="#cfe8ff",
+		label="Lib · Weil · 混合模型\nLib/\nWeil/MixedModel\n259 theorems"];
+	"Lib.SiegelWeil.Tower" -> "Lib.Weil.MixedModel";
+	"Lib.SiegelWeil.UnramifiedSeries"	[fillcolor="#cfe8ff",
+		label="Lib · Siegel Weil · Unramified 级数\nLib/\nSiegelWeil/UnramifiedSeries\n65 theorems"];
+	"Lib.SiegelWeil.UnramifiedSeries" -> "Lib.SiegelWeil.RallisInner";
+	"Lib.Weil"	[fillcolor="#cfe8ff",
+		label="Lib · Weil\nLib/\nWeil\n85 theorems"];
+	"Lib.Weil" -> "Lib.SiegelWeil";
+	"Lib.Weil.CompactLift"	[fillcolor="#cfe8ff",
+		label="Lib · Weil · 紧提升\nLib/\nWeil/CompactLift\n26 theorems"];
+	"Lib.Weil.DualPair"	[fillcolor="#cfe8ff",
+		label="Lib · Weil · 对偶对\nLib/\nWeil/DualPair\n290 theorems"];
+	"Lib.Weil.CompactLift" -> "Lib.Weil.DualPair";
+	"Lib.Weil.Construction"	[fillcolor="#cfe8ff",
+		label="Lib · Weil · 构造\nLib/\nWeil/Construction\n449 theorems"];
+	"Lib.Weil.Construction" -> "Lib.Adelic.Adeles";
+	"Lib.Weil.DualPair" -> "Lib.Adelic.Adeles";
+	"Lib.Weil.DualPair" -> "Lib.SiegelWeil.UnramifiedSeries";
+	"Lib.Weil.Fock"	[fillcolor="#cfe8ff",
+		label="Lib · Weil · Fock\nLib/\nWeil/Fock\n79 theorems"];
+	"Lib.Weil.DualPair" -> "Lib.Weil.Fock";
+	"Lib.Weil.Fock" -> "Lib.ClassField.HeckeCharacter";
+	"Lib.Weil.Fock" -> "Lib.DiscreteSeries.Theta";
+	"Lib.Weil.Fock" -> "Lib.Weil.CompactLift";
+	"Lib.Weil.MixedModel" -> "Lib.Adelic.Witt";
+	"Lib.Weil.MixedModel" -> "Lib.DiscreteSeries.Holomorphic";
+	"Lib.Weil.MixedModel" -> "Lib.SiegelWeil.SingularForms";
+	"Lib.Weil.MixedModel" -> "Lib.Weil";
+	"Lib.Weil.MixedModel" -> "Lib.Weil.Construction";
+	"Lib.Weil.Periods"	[fillcolor="#cfe8ff",
+		label="Lib · Weil · Periods\nLib/\nWeil/Periods\n278 theorems"];
+	"Lib.Weil.MixedModel" -> "Lib.Weil.Periods";
+	"Lib.Weil.Periods" -> "Lib.Weil.DualPair";
+	"Lib.Weil.Unramified" -> "Lib.General.LinearAlgebra";
+	"Lib.Weil.Unramified" -> "Lib.LocalGL";
+	"Lib.Weil.Unramified" -> "Lib.SiegelWeil.Formula";
+	Main	[fillcolor="#ffd58a",
+		label="Main\nMain\n5 theorems"];
+	New -> Main;
+	"New.Appendix.DiscreteSeries" -> "New.Determinant.AuxiliaryForms";
+	"New.Congruences"	[fillcolor="#ffe0e0",
+		label="新 · Congruences\nNew/\nCongruences\n19 theorems"];
+	"New.Determinant.Twist"	[fillcolor="#ffe0e0",
+		label="新 · 行列式 · 扭转\nNew/\nDeterminant/Twist\n29 theorems"];
+	"New.Congruences" -> "New.Determinant.Twist";
+	"New.Congruences.FirstOrder" -> "New.Congruences";
+	"New.Congruences.GaloisRepresentations"	[fillcolor="#ffe0e0",
+		label="新 · Congruences · 伽罗瓦 Representations\nNew/\nCongruences/GaloisRepresentations\n132 theorems"];
+	"New.Congruences.GaloisRepresentations" -> "New.Congruences";
+	"New.Congruences.Lifting" -> "New.Congruences.FirstOrder";
+	"New.Congruences.LocalLoss"	[fillcolor="#ffe0e0",
+		label="新 · Congruences · 局部损失\nNew/\nCongruences/LocalLoss\n81 theorems"];
+	"New.Congruences.LocalLoss" -> "New.Congruences";
+	"New.Congruences.Selmer"	[fillcolor="#ffe0e0",
+		label="新 · Congruences · Selmer\nNew/\nCongruences/Selmer\n362 theorems"];
+	"New.Congruences.Selmer" -> "New.Congruences";
+	"New.Derivatives.Divisibility"	[fillcolor="#ffe0e0",
+		label="新 · 导数 · 整除性\nNew/\nDerivatives/Divisibility\n65 theorems"];
+	"New.Derivatives.FormalGroup"	[fillcolor="#ffe0e0",
+		label="新 · 导数 · Formal 群\nNew/\nDerivatives/FormalGroup\n82 theorems"];
+	"New.Derivatives.Divisibility" -> "New.Derivatives.FormalGroup";
+	"New.Derivatives.Field"	[fillcolor="#ffe0e0",
+		label="新 · 导数 · 域\nNew/\nDerivatives/Field\n128 theorems"];
+	"New.Derivatives.Field" -> "New.Congruences";
+	"New.Derivatives.Sharpness"	[fillcolor="#ffe0e0",
+		label="新 · 导数 · Sharpness\nNew/\nDerivatives/Sharpness\n161 theorems"];
+	"New.Derivatives.FormalGroup" -> "New.Derivatives.Sharpness";
+	"New.OneLift.HeckeValues"	[fillcolor="#ffe0e0",
+		label="新 · 一提升 · Hecke 值\nNew/\nOneLift/HeckeValues\n143 theorems"];
+	"New.Derivatives.Sharpness" -> "New.OneLift.HeckeValues";
+	"New.Derivatives.Vacuum"	[fillcolor="#ffe0e0",
+		label="新 · 导数 · 真空\nNew/\nDerivatives/Vacuum\n163 theorems"];
+	"New.Reduction.Data"	[fillcolor="#ffe0e0",
+		label="新 · 归约 · 数据\nNew/\nReduction/Data\n276 theorems"];
+	"New.Derivatives.Vacuum" -> "New.Reduction.Data";
+	"New.Determinant.AuxiliaryForms" -> "New.Congruences.GaloisRepresentations";
+	"New.Determinant.Chain"	[fillcolor="#ffe0e0",
+		label="新 · 行列式 · 链\nNew/\nDeterminant/Chain\n145 theorems"];
+	"New.Determinant.Chain" -> "New.Congruences";
+	"New.Determinant.Exchange"	[fillcolor="#ffe0e0",
+		label="新 · 行列式 · 交换\nNew/\nDeterminant/Exchange\n264 theorems"];
+	"New.Determinant.Exchange" -> "New.Determinant.AuxiliaryForms";
+	"New.Determinant.Norms"	[fillcolor="#ffe0e0",
+		label="新 · 行列式 · Norms\nNew/\nDeterminant/Norms\n54 theorems"];
+	"New.Determinant.Norms" -> "New.Congruences";
+	"New.OneLift"	[fillcolor="#ffe0e0",
+		label="新 · 一提升\nNew/\nOneLift\n54 theorems"];
+	"New.Determinant.Twist" -> "New.OneLift";
+	"New.OneLift.ComparisonOperator"	[fillcolor="#ffe0e0",
+		label="新 · 一提升 · 比较算子\nNew/\nOneLift/ComparisonOperator\n273 theorems"];
+	"New.OneLift" -> "New.OneLift.ComparisonOperator";
+	"New.OneLift.ComparisonOperator" -> "New.Determinant.Exchange";
+	"New.UpperBound.Kernels"	[fillcolor="#ffe0e0",
+		label="新 · 上界 · Kernels\nNew/\nUpperBound/Kernels\n66 theorems"];
+	"New.OneLift.ComparisonOperator" -> "New.UpperBound.Kernels";
+	"New.OneLift.FalseLifts"	[fillcolor="#ffe0e0",
+		label="新 · 一提升 · 假提升\nNew/\nOneLift/FalseLifts\n113 theorems"];
+	"New.OneLift.FalseLifts" -> "New.Congruences.GaloisRepresentations";
+	"New.OneLift.HeckeValues" -> "New.Congruences";
+	"New.Reduction"	[fillcolor="#ffe0e0",
+		label="新 · 归约\nNew/\nReduction\n55 theorems"];
+	"New.Reduction" -> Main;
+	"New.Reduction" -> "New.Determinant.Twist";
+	"New.Reduction.Data" -> "New.Congruences.LocalLoss";
+	"New.Reduction.Data" -> "New.Derivatives.Divisibility";
+	"New.Reduction.Data" -> "New.Derivatives.Field";
+	"New.Reduction.Lattices" -> "New.Congruences";
+	"New.UpperBound.ElementaryDivisors"	[fillcolor="#ffe0e0",
+		label="新 · 上界 · 初等 Divisors\nNew/\nUpperBound/ElementaryDivisors\n356 theorems"];
+	"New.Reduction.Lattices" -> "New.UpperBound.ElementaryDivisors";
+	"New.Reduction.Zeros" -> "New.Reduction";
+	"New.Spanning.Bessel"	[fillcolor="#ffe0e0",
+		label="新 · Spanning · Bessel\nNew/\nSpanning/Bessel\n311 theorems"];
+	"New.Spanning.Bessel" -> "New.Reduction";
+	"New.Spanning.Frames" -> "New.Spanning.Bessel";
+	"New.Spanning.MainTerm"	[fillcolor="#ffe0e0",
+		label="新 · Spanning · Main 项\nNew/\nSpanning/MainTerm\n205 theorems"];
+	"New.Spanning.MainTerm" -> "New.Spanning.Bessel";
+	"New.Spanning.Multiplicities"	[fillcolor="#ffe0e0",
+		label="新 · Spanning · Multiplicities\nNew/\nSpanning/Multiplicities\n49 theorems"];
+	"New.Spanning.Multiplicities" -> "New.Congruences";
+	"New.Spanning.RemainingTerms"	[fillcolor="#ffe0e0",
+		label="新 · Spanning · 剩余项\nNew/\nSpanning/RemainingTerms\n453 theorems"];
+	"New.Spanning.RemainingTerms" -> "New.Spanning.MainTerm";
+	"New.Spanning.SecondMoment"	[fillcolor="#ffe0e0",
+		label="新 · Spanning · 第二矩\nNew/\nSpanning/SecondMoment\n54 theorems"];
+	"New.Spanning.SecondMoment" -> "New.Congruences.GaloisRepresentations";
+	"New.Spanning.Unfolding"	[fillcolor="#ffe0e0",
+		label="新 · Spanning · 展开\nNew/\nSpanning/Unfolding\n703 theorems"];
+	"New.Spanning.Unfolding" -> "New.Determinant.Twist";
+	"New.Spanning.Unfolding" -> "New.Spanning.Frames";
+	"New.Spanning.Unfolding" -> "New.Spanning.RemainingTerms";
+	"New.UpperBound.Divisibility"	[fillcolor="#ffe0e0",
+		label="新 · 上界 · 整除性\nNew/\nUpperBound/Divisibility\n219 theorems"];
+	"New.UpperBound.Divisibility" -> "New.OneLift.HeckeValues";
+	"New.UpperBound.ElementaryDivisors" -> "New.UpperBound.Divisibility";
+	"New.UpperBound.Size"	[fillcolor="#ffe0e0",
+		label="新 · 上界 · 大小\nNew/\nUpperBound/Size\n79 theorems"];
+	"New.UpperBound.Kernels" -> "New.UpperBound.Size";
+	"New.UpperBound.Objects"	[fillcolor="#ffe0e0",
+		label="新 · 上界 · Objects\nNew/\nUpperBound/Objects\n393 theorems"];
+	"New.UpperBound.Objects" -> "New.Congruences.FirstOrder";
+	"New.UpperBound.Objects" -> "New.Determinant.Chain";
+	"New.UpperBound.Objects" -> "New.Determinant.Norms";
+	"New.UpperBound.Objects" -> "New.OneLift.FalseLifts";
+	"New.UpperBound.Objects" -> "New.Spanning.Multiplicities";
+	"New.UpperBound.Seesaw"	[fillcolor="#ffe0e0",
+		label="新 · 上界 · Seesaw\nNew/\nUpperBound/Seesaw\n363 theorems"];
+	"New.UpperBound.Seesaw" -> "New.Congruences.Selmer";
+	"New.UpperBound.Seesaw" -> "New.Derivatives.Vacuum";
+	"New.UpperBound.Seesaw" -> "New.Spanning.SecondMoment";
+	"New.UpperBound.Size" -> "New.Spanning.Unfolding";
+	"New.UpperBound.Size" -> "New.UpperBound.Divisibility";
+	"New.UpperBound.Size" -> "New.UpperBound.Objects";
+	"New.UpperBound.Size" -> "New.UpperBound.Seesaw";
+	Statements	[fillcolor="#eeeeee",
+		label="Statements\nStatements\n0 theorems"];
+	Statements -> New;
+	Statements -> "New.Reduction";
+}

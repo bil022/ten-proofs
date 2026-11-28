@@ -1,0 +1,124 @@
+Main.lean	Main · lean
+New.BesselSystem.enorm_integral_pairKernel_cut_le	新 · Bessel 系统 · enorm 积分 对核 割 ≤
+New.Filling.enorm_integral_besselKernel_le	新 · Filling · enorm 积分 bessel 核 ≤
+New.BesselSystem.exists_isCompact_enorm_integral_piKernel_le	新 · Bessel 系统 · 存在 是紧 enorm 积分 π核 ≤
+New.BesselSystem.hasCompactSupport_and_enorm_integral_piKernel_le	新 · Bessel 系统 · 有紧支撑 且 enorm 积分 π核 ≤
+New.BesselSystem.exists_isKernelBound_gramSection	新 · Bessel 系统 · 存在 是核界 gram 截面
+New.BesselSystem.exists_isOpenCellBound	新 · Bessel 系统 · 存在 是开胞腔界
+New.BesselSystem.isL2Contraction_gramSection	新 · Bessel 系统 · 是 L 2 收缩 gram 截面
+New.Columns.isOntoUpToColength_scaledHeckeOperator_of_frobeniusCycle	新 · 列 · 是 Onto 上到 Colength 缩放 Hecke 算子 由 frobenius 圈
+New.Data.IsMarked.isOntoUpToColength_scaledHeckeOperator	新 · 数据 · 是带标记 · 是 Onto 上到 Colength 缩放 Hecke 算子
+New.Data.IsMarked.isOntoUpToColength_prod_scaledHeckeOperator_pow	新 · 数据 · 是带标记 · 是 Onto 上到 Colength 积 缩放 Hecke 算子 幂
+New.Data.exists_colengthDvd_gaugeLe_compositeLift	新 · 数据 · 存在 colength 整除 规范≤ 复合提升
+New.Data.enough_forms	新 · 数据 · enough forms
+New.star_inequality	新 · 星 不等式
+New.Data.eq_zero_of_integral_choiceFn_thetaKernelPairing	新 · 数据 · = 零 由 积分 choice 函数 θ核配对
+New.Rows.periodLift_injective	新 · 行 · period 提升 单射
+New.Data.exists_besselSystem	新 · 数据 · 存在 bessel 系统
+New.Data.exists_err_gaugeLe_compositeLift	新 · 数据 · 存在 err 规范≤ 复合提升
+New.Data.exists_dualPairing_eq_mul_lastPathPeriod	新 · 数据 · 存在 对偶配对 = × 最后路径 Period
+New.Data.exists_lowerChain_integral_and_weylNormSq_le	新 · 数据 · 存在 下链 积分 且 weyl 范数平方 ≤
+New.Data.exists_hasSmallRatios_heightLe_liftDeterminant_div	新 · 数据 · 存在 有小比 高度≤ 提升行列式 ÷
+New.Data.integral_forms_long	新 · 数据 · 积分 forms long
+New.Data.exists_integral_lowerChainUpTo_eq_lastPathPeriod	新 · 数据 · 存在 积分 下链上到 = 最后路径 Period
+New.Data.exists_integral_mul_lowerChainUpTo_eq_cutSum	新 · 数据 · 存在 积分 × 下链上到 = 割和
+New.Data.exists_lowerChainUpTo_poincareAt_eq	新 · 数据 · 存在 下链上到 poincare 在 =
+New.Data.exists_isAdmissibleCombination_evaluatedDatum	新 · 数据 · 存在 是容许组合 已求值数据
+New.Data.exists_isAdmissibleCombination_gluedVacuum	新 · 数据 · 存在 是容许组合 粘合真空
+New.Data.exists_isAdmissibleCombination_seesawDatum	新 · 数据 · 存在 是容许组合 seesaw 数据
+New.Data.seesaw_identity	新 · 数据 · seesaw 恒等式
+New.Data.exists_isPathDatum_first	新 · 数据 · 存在 是路径数据 第一
+New.Data.exists_isTestForm_le_norm_inner_trivialLift	新 · 数据 · 存在 是检验形式 ≤ 范数 内积 平凡提升
+New.Data.heightLe_inv_ratio	新 · 数据 · 高度≤ 逆 比
+New.Data.exists_le_finrank_iSup_range_normalizedPoincare	新 · 数据 · 存在 ≤ 有限秩 i 上确界 值域 归一化 Poincare
+New.Data.exists_span_short_lifts_eq_top	新 · 数据 · 存在 张成 短 提升 = ⊤
+New.Data.exists_rpow_neg_localPrimeSumTotal_le_norm_coeff	新 · 数据 · 存在 实幂 负 局部素和总 ≤ 范数 系数
+New.Data.exists_span_isAuxiliaryForm_eq_top	新 · 数据 · 存在 张成 是辅助形式 = ⊤
+New.Data.exists_transfersPeriods_first_last	新 · 数据 · 存在 transfers Periods 第一 最后
+New.Data.exists_transfersPeriods_of_turn	新 · 数据 · 存在 transfers Periods 由 turn
+New.Data.hasLatticeBounds_of_unfoldStage_ne_zero	新 · 数据 · 有格界 由 unfold 阶段 ≠ 零
+New.Data.heightLe_inv_heckeValueProd_div	新 · 数据 · 高度≤ 逆 hecke 值积 ÷
+New.Data.heightLe_liftDeterminant_ratio	新 · 数据 · 高度≤ 提升行列式 比
+New.Data.isAdmissibleEval_doubleLiftEvalY	新 · 数据 · 是容许求值 双提升求值 Y
+New.Data.isComparisonOperator_comparisonOp	新 · 数据 · 是比较算子 比较 Op
+New.Data.isSpread_goodPoincare	新 · 数据 · 是 Spread 好 Poincare
+New.Data.leastValLE_twelve	新 · 数据 · 最小值≤ 十二
+New.Data.primeRemainder_le	新 · 数据 · 素余项 ≤
+New.eventually_primeRemainder_natCast_le	新 · 最终 素余项 自然数类型转换 ≤
+New.Data.sum_hilbertSchmidtNorm_scaledPoincare_sq_le	新 · 数据 · 和 hilbert Schmidt 范数 缩放 Poincare 平方 ≤
+New.Data.targetDim_mul_sum_hilbertSchmidtNorm_sq_le	新 · 数据 · 目标维数 × 和 hilbert Schmidt 范数 平方 ≤
+New.Data.trace_heckeOnGood_eq	新 · 数据 · 迹 hecke 在…上好 =
+New.Data.trace_mul_tupleIdem_eq	新 · 数据 · 迹 × 元组 Idem =
+New.DiscreteSeries.IsLaplaceDatum.laplace_method	新 · 离散级数 · 是 Laplace 数据 · laplace method
+New.DiscreteSeries.IsStationary.integrable_periodIntegrand_and_measure_le	新 · 离散级数 · 是驻点 · 可积 period 被积函数 且 测度 ≤
+New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add	新 · 离散级数 · 是 Laplace 数据 · 范数 laplace 被积函数 ≤ × 实部 +
+New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add_mul_pow	新 · 离散级数 · 是 Laplace 数据 · 范数 laplace 被积函数 ≤ 二 × 实部 + × 幂
+New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add_of_near	新 · 离散级数 · 是 Laplace 数据 · 范数 laplace 被积函数 ≤ × 实部 + 由 附近
+New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add	新 · 离散级数 · 是 Laplace 数据 · 范数 laplace 被积函数 ≤ 二 × 实部 +
+New.DiscreteSeries.IsStationary.period_lower_bound_of_surjective	新 · 离散级数 · 是驻点 · period 下 界 由 满射
+New.DiscreteSeries.exists_norm_dsCoeff_div_cexp_sub_le	新 · 离散级数 · 存在 范数 ds 系数 ÷ cexp − ≤
+New.Exchange.IsEquivariantLift.apply_eq_zero_of_areMatched	新 · 交换 · 是等变提升 · 作用于 = 零 由 are 已匹配
+New.Exchange.exists_thetaLarge_eq_smul_of_isPeriodIdentity	新 · 交换 · 存在 θ大 = 数乘 由 是 Period 恒等式
+New.Exchange.exchange_identity	新 · 交换 · 交换 恒等式
+New.Exchange.exchange_theorem	新 · 交换 · 交换 定理
+New.Exchange.exists_zetaIntegral	新 · 交换 · 存在 zeta 积分
+New.Filling.HasAmplitudeBlocks.sum_hilbertSchmidtNorm_sq_le	新 · Filling · 有振幅块 · 和 hilbert Schmidt 范数 平方 ≤
+New.Filling.enorm_amplitudeSum_le_of_termDiscNorm_le	新 · Filling · enorm 振幅和 ≤ 由 项 Disc 范数 ≤
+New.Filling.enorm_amplitudeSum_le_orbitBound	新 · Filling · enorm 振幅和 ≤ 轨道界
+New.Filling.enorm_amplitudeSum_le_tsum_termSize	新 · Filling · enorm 振幅和 ≤ tsum 项大小
+New.Filling.enorm_amplitudeSum_le_orbitBound_top	新 · Filling · enorm 振幅和 ≤ 轨道界 ⊤
+New.Filling.enorm_amplitudeSum_mul_le	新 · Filling · enorm 振幅和 × ≤
+New.Filling.linkSecondMoment_isOpenElement_le	新 · Filling · link 第二矩 是开元素 ≤
+New.Filling.secondMoment_fixer_isOpenElement_le	新 · Filling · 第二矩 fixer 是开元素 ≤
+New.Filling.sum_secondMoment_le	新 · Filling · 和 第二矩 ≤
+New.Filling.sieve	新 · Filling · sieve
+New.Filling.sum_norm_sum_cosetAmplitude_sq_le	新 · Filling · 和 范数 和 陪集振幅 平方 ≤
+New.Filling.sq_tsum_amplitudeMajorant_doubleCoset_le	新 · Filling · 平方 tsum 振幅控制函数 双陪集 ≤
+New.Filling.tsum_amplitudeMajorant_orbit_le	新 · Filling · tsum 振幅控制函数 轨道 ≤
+New.Filling.sum_termSize_mul_le	新 · Filling · 和 项大小 × ≤
+New.Filling.tsum_schurIntegral_le	新 · Filling · tsum schur 积分 ≤
+New.Floors.exists_hasLocalBounds_of_isCutBessel	新 · Floors · 存在 有局部界 由 是割 Bessel
+New.FrobeniusCycle.elementary_divisors	新 · Frobenius 圈 · 初等 divisors
+New.FrobeniusCycle.exists_average_mem_defectConditions_and_dvd_sub	新 · Frobenius 圈 · 存在 平均 ∈ 亏量 Conditions 且 整除 −
+New.FrobeniusCycle.exists_isEdgeCondition	新 · Frobenius 圈 · 存在 是边条件
+New.FrobeniusCycle.exists_colengthDvd_range_pairingMap_mul_edgeRestriction	新 · Frobenius 圈 · 存在 colength 整除 值域 配对映射 × 边限制
+New.Orbital.harish_chandra_degree_and_orbital	新 · Orbital · harish chandra 次数 且 orbital
+New.Parameters.exists_hasNormalForm	新 · 参数 · 存在 有正规形式
+New.Patching.BaseLevel.exists_deformed_norm_family	新 · Patching · 基水平 · 存在 deformed 范数 族
+New.Patching.BaseLevel.smul_top_coeff_mem_ellIntegralForms	新 · Patching · 基水平 · 数乘 ⊤ 系数 ∈ ell 积分 Forms
+New.Patching.BaseLevel.exists_diagOp_mem_ellIntegralForms	新 · Patching · 基水平 · 存在 对角 Op ∈ ell 积分 Forms
+New.Selmer.exists_ellVal_le_and_diagOp_mem_ellIntegralForms	新 · Selmer · 存在 ell 值 ≤ 且 对角 Op ∈ ell 积分 Forms
+New.Rows.descentsVanish_hyperbolicSum	新 · 行 · descents Vanish 双曲和
+New.Rows.integral_conj_pairTheta_mul_algFormCoeff_eq_zero	新 · 行 · 积分 共轭 对θ × alg 形式系数 = 零
+New.Rows.stdClassSum_gramForm_eq_zero	新 · 行 · std 类和 gram 形式 = 零
+New.Rows.stdClassSum_gramForm_kernelVector_eq_zero	新 · 行 · std 类和 gram 形式 核向量 = 零
+New.Seesaw.isAdmissibleEval_finEval	新 · Seesaw · 是容许求值 有限求值
+New.Selmer.denominatorLe_clearingBound	新 · Selmer · 分母≤ clearing 界
+New.Selmer.exists_mFoldTwist_hasDenominatorsLe	新 · Selmer · 存在 m 折叠扭转 有分母≤
+New.Selmer.eventually_exists_inClass_sum_dualDefect_le	新 · Selmer · 最终 存在 在…中类 和 对偶亏量 ≤
+New.Selmer.ribet_columns	新 · Selmer · ribet 列
+New.Selmer.exists_anticyclotomic_twist	新 · Selmer · 存在 anticyclotomic 扭转
+New.Selmer.exists_mFoldTwist_hasDivisibleSelmerLengthLe	新 · Selmer · 存在 m 折叠扭转 有 Divisible Selmer 长度≤
+New.Selmer.exists_linearMap_eq_smul_mem_integralForms	新 · Selmer · 存在 线性映射 = 数乘 ∈ 积分 Forms
+New.Selmer.exists_isCommonRibetElement_addVal_le	新 · Selmer · 存在 是公共 Ribet 元素 +值 ≤
+New.Selmer.exists_isCommonRibetElement_ellVal_le	新 · Selmer · 存在 是公共 Ribet 元素 ell 值 ≤
+New.Selmer.exists_isPrimeTriangle	新 · Selmer · 存在 是素三角形
+New.Selmer.exists_taylorWilesPlaces_hasRootChain	新 · Selmer · 存在 taylor Wiles 位置 有根链
+New.Selmer.exists_isTiedPrimes_card_le_and_length_le	新 · Selmer · 存在 是 Tied 素数 基数 ≤ 且 长度 ≤
+New.Selmer.exists_twistPolynomials	新 · Selmer · 存在 扭转多项式
+New.Selmer.exists_isTiedPrimes_length_tiedSelmer_le	新 · Selmer · 存在 是 Tied 素数 长度 tied Selmer ≤
+New.Selmer.exists_operator_ellVal_le_liftValuationBound	新 · Selmer · 存在 算子 ell 值 ≤ 提升赋值界
+New.exists_isRegularFamily	新 · 存在 是正则族
+New.Selmer.exists_mFoldTwist_selmerLengthLe_inv_ratio_le	新 · Selmer · 存在 m 折叠扭转 selmer 长度≤ 逆 比 ≤
+New.Selmer.exists_operator_det_clearingBound	新 · Selmer · 存在 算子 行列式 clearing 界
+New.Selmer.nonempty_twistPolynomials_of_isTiedPrimes	新 · Selmer · 非空 扭转多项式 由 是 Tied 素数
+New.Selmer.normLength_dualDefect_le_of_crystallineSizes	新 · Selmer · 范数长度 对偶亏量 ≤ 由 crystalline Sizes
+New.Selmer.normLength_dualDefect_le_of_isSummandClass	新 · Selmer · 范数长度 对偶亏量 ≤ 由 是被加项类
+New.Selmer.summand_defect_le_at_place	新 · Selmer · 被加项 亏量 ≤ 在 位置
+New.Space.geometricSide_singleton_eq_zero	新 · 空间 · 几何侧 单点集 = 零
+New.trace_comparison	新 · 迹 比较
+New.eq_zero_of_coprime_factors	新 · = 零 由 互素 因子
+New.eventually_primeRemainder_le_rpow	新 · 最终 素余项 ≤ 实幂
+New.grh	新 · grh
+New.trace_eq_of_isCuspidalAt	新 · 迹 = 由 是 Cuspidal 在
+New.trace_eq_of_trace_cutLevel_eq	新 · 迹 = 由 迹 割水平 =

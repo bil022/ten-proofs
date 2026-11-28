@@ -1,0 +1,238 @@
+digraph G {
+	graph [nodesep=0.25,
+		rankdir=LR,
+		ranksep=0.8
+	];
+	node [fontname=Helvetica,
+		fontsize=11,
+		shape=box,
+		style="filled,rounded"
+	];
+	edge [arrowsize=0.6,
+		color="#8a8a8a"
+	];
+	"BaseLevel.exists_diagOp_mem_ellIntegralForms"	[fillcolor="#ffe0e0",
+		label="基水平 · 存在 对角 Op ∈ ell 积分 Forms\nBaseLevel.exists_diagOp_mem_ellIntegralForms\n32 declarations"];
+	denominatorLe_rowBudget	[fillcolor="#ffe0e0",
+		label="分母≤ 行预算\ndenominatorLe_rowBudget\n95 declarations"];
+	"BaseLevel.exists_diagOp_mem_ellIntegralForms" -> denominatorLe_rowBudget;
+	"Columns.hasType_markOperator"	[fillcolor="#ffe0e0",
+		label="列 · 有类型 mark 算子\nColumns.hasType_markOperator\n15 declarations"];
+	"Data.IsMarked.hasType_markOperator"	[fillcolor="#ffe0e0",
+		label="数据 · 是带标记 · 有类型 mark 算子\nData.IsMarked.hasType_markOperator\n7 declarations"];
+	"Columns.hasType_markOperator" -> "Data.IsMarked.hasType_markOperator";
+	"ComparedTheory.isGood_standard_etale"	[fillcolor="#cfe8ff",
+		label="Compared Theory · 是好 标准 etale\nComparedTheory.isGood_standard_etale\n47 declarations"];
+	"ComparedTheory.mem_of_isClosedClass_of_isCharting"	[fillcolor="#cfe8ff",
+		label="Compared Theory · ∈ 由 是闭类 由 是 Charting\nComparedTheory.mem_of_isClosedClass_of_isCharting\n6 declarations"];
+	"ComparedTheory.isGood_standard_etale" -> "ComparedTheory.mem_of_isClosedClass_of_isCharting";
+	"Model.exists_galois_rep"	[fillcolor="#cfe8ff",
+		label="模型 · 存在 伽罗瓦 rep\nModel.exists_galois_rep\n965 declarations"];
+	"ComparedTheory.mem_of_isClosedClass_of_isCharting" -> "Model.exists_galois_rep";
+	"Data.IsMarked.hasType_prod_markOperator_pow"	[fillcolor="#ffe0e0",
+		label="数据 · 是带标记 · 有类型 积 mark 算子 幂\nData.IsMarked.hasType_prod_markOperator_pow\n5 declarations"];
+	"Data.IsMarked.hasType_markOperator" -> "Data.IsMarked.hasType_prod_markOperator_pow";
+	"Data.exists_indexDvd_Bmu_divisible"	[fillcolor="#ffe0e0",
+		label="数据 · 存在 指标整除 Bmu divisible\nData.exists_indexDvd_Bmu_divisible\n108 declarations"];
+	"Data.IsMarked.hasType_prod_markOperator_pow" -> "Data.exists_indexDvd_Bmu_divisible";
+	"Data.crude_rows"	[fillcolor="#ffe0e0",
+		label="数据 · crude 行\nData.crude_rows\n98 declarations"];
+	"Data.heightLe_volume_rows"	[fillcolor="#ffe0e0",
+		label="数据 · 高度≤ 体积 行\nData.heightLe_volume_rows\n5 declarations"];
+	"Data.crude_rows" -> "Data.heightLe_volume_rows";
+	"Data.eq_zero_of_integral_fNatural_tableTheta"	[fillcolor="#ffe0e0",
+		label="数据 · = 零 由 积分 f 自然 表θ\nData.eq_zero_of_integral_fNatural_tableTheta\n42 declarations"];
+	exists_comparison_forms	[fillcolor="#ffe0e0",
+		label="存在 比较 forms\nexists_comparison_forms\n145 declarations"];
+	"Data.eq_zero_of_integral_fNatural_tableTheta" -> exists_comparison_forms;
+	"Data.exists_besselSystem"	[fillcolor="#ffe0e0",
+		label="数据 · 存在 bessel 系统\nData.exists_besselSystem\n38 declarations"];
+	star_inequality	[fillcolor="#ffe0e0",
+		label="星 不等式\nstar_inequality\n5,258 declarations"];
+	"Data.exists_besselSystem" -> star_inequality;
+	"Data.exists_family_covolumeSq_le"	[fillcolor="#ffe0e0",
+		label="数据 · 存在 族 covolume 平方 ≤\nData.exists_family_covolumeSq_le\n49 declarations"];
+	"Data.exists_family_covolumeSq_le" -> star_inequality;
+	"Data.short_forms"	[fillcolor="#ffe0e0",
+		label="数据 · 短 forms\nData.short_forms\n27 declarations"];
+	"Data.exists_indexDvd_Bmu_divisible" -> "Data.short_forms";
+	"Data.exists_isAdmissibleComb_unfolding"	[fillcolor="#ffe0e0",
+		label="数据 · 存在 是容许 Comb 展开\nData.exists_isAdmissibleComb_unfolding\n21 declarations"];
+	"Data.seesaw"	[fillcolor="#ffe0e0",
+		label="数据 · seesaw\nData.seesaw\n198 declarations"];
+	"Data.exists_isAdmissibleComb_unfolding" -> "Data.seesaw";
+	"Data.exists_isTidy_integral_eq_gridPeriod"	[fillcolor="#ffe0e0",
+		label="数据 · 存在 是 Tidy 积分 = 网格 Period\nData.exists_isTidy_integral_eq_gridPeriod\n30 declarations"];
+	"Data.exists_isTidy_integral_eq_gridPeriod" -> "Data.crude_rows";
+	"Data.exists_stage_cut"	[fillcolor="#ffe0e0",
+		label="数据 · 存在 阶段 割\nData.exists_stage_cut\n28 declarations"];
+	"Data.exists_stage_cut" -> "Data.exists_isAdmissibleComb_unfolding";
+	"Data.gaugeLe_Bmu_at_N"	[fillcolor="#ffe0e0",
+		label="数据 · 规范≤ Bmu 在 N\nData.gaugeLe_Bmu_at_N\n27 declarations"];
+	"Data.gaugeLe_Bmu_at_N" -> "Data.exists_indexDvd_Bmu_divisible";
+	"Data.heightLe_inv_heckeValueProd_div"	[fillcolor="#ffe0e0",
+		label="数据 · 高度≤ 逆 hecke 值积 ÷\nData.heightLe_inv_heckeValueProd_div\n1 declarations"];
+	"Data.heightLe_liftVolume_ratio"	[fillcolor="#ffe0e0",
+		label="数据 · 高度≤ 提升体积 比\nData.heightLe_liftVolume_ratio\n61 declarations"];
+	"Data.heightLe_inv_heckeValueProd_div" -> "Data.heightLe_liftVolume_ratio";
+	"Data.heightLe_inv_ratio"	[fillcolor="#ffe0e0",
+		label="数据 · 高度≤ 逆 比\nData.heightLe_inv_ratio\n49 declarations"];
+	"Data.heightLe_inv_ratio" -> "Data.heightLe_inv_heckeValueProd_div";
+	"Data.heightLe_volume_ratio_sq"	[fillcolor="#ffe0e0",
+		label="数据 · 高度≤ 体积 比 平方\nData.heightLe_volume_ratio_sq\n1 declarations"];
+	"Data.heightLe_liftVolume_ratio" -> "Data.heightLe_volume_ratio_sq";
+	"Data.integral_forms_long"	[fillcolor="#ffe0e0",
+		label="数据 · 积分 forms long\nData.integral_forms_long\n127 declarations"];
+	"Data.heightLe_volume_ratio_sq" -> "Data.integral_forms_long";
+	"Data.heightLe_volume_rows" -> "Data.integral_forms_long";
+	"Data.integral_forms_long" -> star_inequality;
+	"Data.ramifiedColumns_fill_rows"	[fillcolor="#ffe0e0",
+		label="数据 · ramified 列 fill 行\nData.ramifiedColumns_fill_rows\n12 declarations"];
+	"Data.ramifiedColumns_fill_rows" -> star_inequality;
+	"Data.seesaw" -> "Data.exists_family_covolumeSq_le";
+	"Data.short_forms" -> "Data.exists_family_covolumeSq_le";
+	"Filling.Fits.exists_translate_finrank_comap_le"	[fillcolor="#ffe0e0",
+		label="Filling · 适合 · 存在 平移 有限秩 拉回映射 ≤\nFilling.Fits.exists_translate_finrank_comap_le\n116 declarations"];
+	"Filling.Fits.exists_translate_finrank_comap_le" -> "Data.ramifiedColumns_fill_rows";
+	"Filling.energy_fixingSet_le"	[fillcolor="#ffe0e0",
+		label="Filling · 能量 fixing 集合 ≤\nFilling.energy_fixingSet_le\n48 declarations"];
+	"Filling.sum_le_of_positive_type"	[fillcolor="#ffe0e0",
+		label="Filling · 和 ≤ 由 正 类型\nFilling.sum_le_of_positive_type\n3 declarations"];
+	"Filling.energy_fixingSet_le" -> "Filling.sum_le_of_positive_type";
+	"Filling.energy_le_of_level_pairs"	[fillcolor="#ffe0e0",
+		label="Filling · 能量 ≤ 由 水平 对\nFilling.energy_le_of_level_pairs\n88 declarations"];
+	"Filling.energy_le_of_linkEnergy_le"	[fillcolor="#ffe0e0",
+		label="Filling · 能量 ≤ 由 link 能量 ≤\nFilling.energy_le_of_linkEnergy_le\n28 declarations"];
+	"Filling.energy_le_of_level_pairs" -> "Filling.energy_le_of_linkEnergy_le";
+	"Filling.energy_le_of_linkEnergy_le" -> "Filling.Fits.exists_translate_finrank_comap_le";
+	"Filling.enorm_amplitudeSum_le_classSize"	[fillcolor="#ffe0e0",
+		label="Filling · enorm 振幅和 ≤ 类大小\nFilling.enorm_amplitudeSum_le_classSize\n49 declarations"];
+	"Filling.enorm_amplitudeSum_le_classSize" -> "Filling.energy_le_of_level_pairs";
+	"Filling.sieve"	[fillcolor="#ffe0e0",
+		label="Filling · sieve\nFilling.sieve\n20 declarations"];
+	"Filling.sieve" -> "Filling.energy_fixingSet_le";
+	"Filling.sum_le_of_positive_type" -> "Filling.Fits.exists_translate_finrank_comap_le";
+	"IsEquivariantLift.apply_stdColDatum_eq_zero"	[fillcolor="#ffe0e0",
+		label="是等变提升 · 作用于 std 列数据 = 零\nIsEquivariantLift.apply_stdColDatum_eq_zero\n29 declarations"];
+	stdExchange_of_periods	[fillcolor="#ffe0e0",
+		label="std 交换 由 periods\nstdExchange_of_periods\n10 declarations"];
+	"IsEquivariantLift.apply_stdColDatum_eq_zero" -> stdExchange_of_periods;
+	"IsProperOver.proper_base_change"	[fillcolor="#cfe8ff",
+		label="是真之上 · 真 基 改变\nIsProperOver.proper_base_change\n54 declarations"];
+	"IsProperOver.proper_base_change" -> "Model.exists_galois_rep";
+	"IsTwoFactor.laplace_method"	[fillcolor="#ffe0e0",
+		label="是二因子 · laplace method\nIsTwoFactor.laplace_method\n36 declarations"];
+	"IsTwoFactor.laplace_method" -> star_inequality;
+	"Lift.KummerChart.PairingSide.SidePairing.scaledCupBounds_of_points_at_cuts"	[fillcolor="#ffe0e0",
+		label="提升 · Kummer Chart · 配对侧 · 侧配对 · 缩放 Cup 界 由 点 在 割\nLift.KummerChart.PairingSide.SidePairing.scaledCupBounds_of_points_at_cuts\n31 declarations"];
+	block_defect_le_at_place	[fillcolor="#ffe0e0",
+		label="块 亏量 ≤ 在 位置\nblock_defect_le_at_place\n304 declarations"];
+	"Lift.KummerChart.PairingSide.SidePairing.scaledCupBounds_of_points_at_cuts" -> block_defect_le_at_place;
+	"Main.lean"	[fillcolor="#ffd58a",
+		label="Main · lean\nMain.lean\n18 declarations"];
+	exists_rep_of_cuspidal_type	[fillcolor="#cfe8ff",
+		label="存在 rep 由 cuspidal 类型\nexists_rep_of_cuspidal_type\n707 declarations"];
+	"Model.exists_galois_rep" -> exists_rep_of_cuspidal_type;
+	"New.grh"	[fillcolor="#ffe0e0",
+		label="新 · grh\nNew.grh\n67 declarations"];
+	"New.grh" -> "Main.lean";
+	"Orbital.harish_chandra_degree_and_orbital"	[fillcolor="#cfe8ff",
+		label="Orbital · harish chandra 次数 且 orbital\nOrbital.harish_chandra_degree_and_orbital\n46 declarations"];
+	"Orbital.harish_chandra_degree_and_orbital" -> star_inequality;
+	"ThetaTorus.hasGoodReduction_and_val_card_eq_one"	[fillcolor="#cfe8ff",
+		label="θ环面 · 有好归约 且 值 基数 = 一\nThetaTorus.hasGoodReduction_and_val_card_eq_one\n3 declarations"];
+	nonempty_universalFamily	[fillcolor="#cfe8ff",
+		label="非空 泛族\nnonempty_universalFamily\n91 declarations"];
+	"ThetaTorus.hasGoodReduction_and_val_card_eq_one" -> nonempty_universalFamily;
+	"TwistingData.hasType_twisted_hecke"	[fillcolor="#ffe0e0",
+		label="Twisting 数据 · 有类型 扭 hecke\nTwistingData.hasType_twisted_hecke\n86 declarations"];
+	"TwistingData.hasType_twisted_hecke" -> "Columns.hasType_markOperator";
+	sum_blockLoss_le	[fillcolor="#ffe0e0",
+		label="和 块损失 ≤\nsum_blockLoss_le\n46 declarations"];
+	block_defect_le_at_place -> sum_blockLoss_le;
+	crystalline_defect_le	[fillcolor="#ffe0e0",
+		label="crystalline 亏量 ≤\ncrystalline_defect_le\n23 declarations"];
+	crystalline_defect_le -> block_defect_le_at_place;
+	exists_isFitFamily	[fillcolor="#ffe0e0",
+		label="存在 是拟合族\nexists_isFitFamily\n304 declarations"];
+	denominatorLe_rowBudget -> exists_isFitFamily;
+	"ellAdicCohom.isCrystalline_and_linearFrob_rel"	[fillcolor="#cfe8ff",
+		label="ell Adic Cohom · 是 Crystalline 且 线性 Frob rel\nellAdicCohom.isCrystalline_and_linearFrob_rel\n29 declarations"];
+	"ellAdicCohom.isCrystalline_and_linearFrob_rel" -> "Model.exists_galois_rep";
+	"ellAdicCohom.woods_hole"	[fillcolor="#cfe8ff",
+		label="ell Adic Cohom · woods 洞\nellAdicCohom.woods_hole\n102 declarations"];
+	"ellAdicCohom.woods_hole" -> "Model.exists_galois_rep";
+	eventually_primeError_le_rpow	[fillcolor="#ffe0e0",
+		label="最终 素误差 ≤ 实幂\neventually_primeError_le_rpow\n1,853 declarations"];
+	eventually_primeError_le_rpow -> "New.grh";
+	exchange_theorem	[fillcolor="#ffe0e0",
+		label="交换 定理\nexchange_theorem\n214 declarations"];
+	exchange_theorem -> star_inequality;
+	exists_anticyclotomic_twist	[fillcolor="#ffe0e0",
+		label="存在 anticyclotomic 扭转\nexists_anticyclotomic_twist\n58 declarations"];
+	exists_mFoldTwist_selmerLengthLe	[fillcolor="#ffe0e0",
+		label="存在 m 折叠扭转 selmer 长度≤\nexists_mFoldTwist_selmerLengthLe\n25 declarations"];
+	exists_anticyclotomic_twist -> exists_mFoldTwist_selmerLengthLe;
+	exists_comparison_forms -> "Data.heightLe_liftVolume_ratio";
+	exists_isFitFamily -> "Data.integral_forms_long";
+	exists_isWeakBaseChange_of_matching	[fillcolor="#cfe8ff",
+		label="存在 是弱基改变 由 匹配\nexists_isWeakBaseChange_of_matching\n35 declarations"];
+	exists_isWeakBaseChange_of_matching -> star_inequality;
+	exists_length_shaOdd_le	[fillcolor="#cfe8ff",
+		label="存在 长度 sha 奇 ≤\nexists_length_shaOdd_le\n40 declarations"];
+	exists_length_shaOdd_le -> exists_isFitFamily;
+	exists_mFoldTwist_selmerLengthLe -> exists_isFitFamily;
+	exists_model	[fillcolor="#cfe8ff",
+		label="存在 模型\nexists_model\n54 declarations"];
+	exists_model -> exists_rep_of_cuspidal_type;
+	exists_occursInWeight	[fillcolor="#cfe8ff",
+		label="存在 occurs 在…中权\nexists_occursInWeight\n26 declarations"];
+	exists_occursInWeight -> exists_rep_of_cuspidal_type;
+	sphericalCompat_of_split	[fillcolor="#cfe8ff",
+		label="球面 Compat 由 分裂\nsphericalCompat_of_split\n27 declarations"];
+	exists_rep_of_cuspidal_type -> sphericalCompat_of_split;
+	exists_thetaFamily_of_points	[fillcolor="#cfe8ff",
+		label="存在 θ族 由 点\nexists_thetaFamily_of_points\n26 declarations"];
+	exists_thetaFamily_of_points -> nonempty_universalFamily;
+	hasBandLimits_of_isCutBessel	[fillcolor="#ffe0e0",
+		label="有 Band 极限 由 是割 Bessel\nhasBandLimits_of_isCutBessel\n60 declarations"];
+	hasBandLimits_of_isCutBessel -> "Data.exists_besselSystem";
+	hasCrysComparison_chart	[fillcolor="#cfe8ff",
+		label="有 Crys 比较 chart\nhasCrysComparison_chart\n37 declarations"];
+	span_range_crysComparison_pull_eq_top	[fillcolor="#cfe8ff",
+		label="张成 值域 crys 比较 pull = ⊤\nspan_range_crysComparison_pull_eq_top\n11 declarations"];
+	hasCrysComparison_chart -> span_range_crysComparison_pull_eq_top;
+	hasMultiplicativeNorm_of_expanding	[fillcolor="#cfe8ff",
+		label="有乘性范数 由 扩张\nhasMultiplicativeNorm_of_expanding\n51 declarations"];
+	hasMultiplicativeNorm_of_expanding -> "ThetaTorus.hasGoodReduction_and_val_card_eq_one";
+	isAcyclicAt_almostCoeff	[fillcolor="#cfe8ff",
+		label="是无环在 几乎系数\nisAcyclicAt_almostCoeff\n2 declarations"];
+	isAcyclicAt_almostCoeff -> "Model.exists_galois_rep";
+	isAcyclicAt_perfectTilt	[fillcolor="#cfe8ff",
+		label="是无环在 完美倾斜\nisAcyclicAt_perfectTilt\n22 declarations"];
+	isAcyclicAt_perfectTilt -> isAcyclicAt_almostCoeff;
+	isEdge_of_isJointHarmonic	[fillcolor="#cfe8ff",
+		label="是边 由 是联合调和\nisEdge_of_isJointHarmonic\n3 declarations"];
+	isEdge_of_isJointHarmonic -> star_inequality;
+	isHalfEdge_of_oscillatorPair	[fillcolor="#cfe8ff",
+		label="是一半边 由 oscillator 对\nisHalfEdge_of_oscillatorPair\n34 declarations"];
+	isHalfEdge_of_oscillatorPair -> isEdge_of_isJointHarmonic;
+	linearIndepOn_hodgeTateMap_pointClass	[fillcolor="#cfe8ff",
+		label="线性 Indep 在…上 hodge Tate 映射 点类\nlinearIndepOn_hodgeTateMap_pointClass\n61 declarations"];
+	linearIndepOn_hodgeTateMap_pointClass -> "ellAdicCohom.woods_hole";
+	nonempty_universalFamily -> exists_rep_of_cuspidal_type;
+	ribet_columns	[fillcolor="#ffe0e0",
+		label="ribet 列\nribet_columns\n37 declarations"];
+	ribet_columns -> denominatorLe_rowBudget;
+	span_range_crysComparison_pull_eq_top -> "ellAdicCohom.isCrystalline_and_linearFrob_rel";
+	sphericalCompat_of_odd	[fillcolor="#cfe8ff",
+		label="球面 Compat 由 奇\nsphericalCompat_of_odd\n2 declarations"];
+	sphericalCompat_of_odd -> star_inequality;
+	sphericalCompat_of_split -> sphericalCompat_of_odd;
+	star_inequality -> eventually_primeError_le_rpow;
+	stdExchange_of_periods -> exchange_theorem;
+	sum_blockLoss_le -> ribet_columns;
+	tangent_bound	[fillcolor="#cfe8ff",
+		label="切 界\ntangent_bound\n20 declarations"];
+	tangent_bound -> nonempty_universalFamily;
+}

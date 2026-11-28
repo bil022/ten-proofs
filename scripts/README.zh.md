@@ -75,12 +75,14 @@ two_is_pos ─ ─ ─ ▶ myTwo_ne_zero    虚线（经过定义 myTwo）
 
 ## 黎曼猜想
 
-[`rh/`](rh/) 用同样的方法处理
-[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)，
-这个证明有 60,928 个 Lean 文件、568,159 个定理，一张定理级的图画不下，所以分成三张：
-`riemannHypothesis`（离主定理最近的 395 个定理）、`riemannHypothesis_folders`（每个源码
-文件夹一个方框），以及 `riemannHypothesis_blocks`（切成独立子证明的整个证明）。要一层层浏览整个证明，请用
-[浏览网站](https://bil022.github.io/riemann-explorer/)。三张图和其他图一样放在 `en/` 和 `zh/` 下；详见 [rh/README.zh.md](rh/README.zh.md)。
+[`rh/`](rh/) 用同样的方法处理黎曼猜想的三个 Lean 证明：最早的
+[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)
+（60,928 个 Lean 文件、568,159 个定理），以及 [lsernau/grh-lean](https://github.com/lsernau/grh-lean)
+里的易读版和紧凑版重写（17,156 和 8,802 个定理）。它们一张定理级的图都画不下，所以每个分成三张：
+`<proof>`（离主定理最近的定理）、`<proof>_folders`（每个源码文件夹一个方框）和
+`<proof>_blocks`（切成独立子证明的整个证明），其中 `<proof>` 是 `riemannHypothesis`、`grh`
+或 `grhCompact`。要一层层浏览整个证明，请用 [浏览网站](https://bil022.github.io/riemann-explorer/)。
+所有图和其他图一样放在 `en/` 和 `zh/` 下；详见 [rh/README.zh.md](rh/README.zh.md)。
 
 ## 文件夹里有什么
 

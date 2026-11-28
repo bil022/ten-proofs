@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Write the data of the riemann-hypothesis explorer (scripts/rh/site/).
+"""Write the data of the explorer website (scripts/rh/site/) for one proof.
 
-Usage: rh_site.py <dir with b.*.tsv> <site dir> <riemann-hypothesis commit>
+Usage: rh_site.py <project> <dir with b.*.tsv> <site dir> <commit of the project>
+
+<project> is a key of projects.PROJECTS; its data goes to <site>/data/<project>/.
 
 The site walks the dominator tree of domtree.py: the page of a declaration X
 shows the declarations that belong directly to X (its children in the tree),
@@ -12,10 +14,10 @@ everything that uses b lies under X (that is what "b belongs to X" means), so a
 is X itself or under one of X's children. The page of X therefore draws an arrow
 from b to that child, or to X.
 
-Writes
-  <site>/data/meta.json        commit, totals, number of shards
-  <site>/data/v/<k>.json.gz    the pages of every node v with v % SHARDS == k
-  <site>/data/names.tsv.gz     name, node, parent, size: for the search box
+Writes, with D = <site>/data/<project>:
+  D/meta.json        repository, source folder, commit, totals, number of shards
+  D/v/<k>.json.gz    the pages of every node v with v % SHARDS == k
+  D/names.tsv.gz     name, node, parent, size: for the search box
 
 The children of a page that are not drawn are grouped by which drawn children
 use them (see sharing()), so the page shows, for instance, "used by A and B"
@@ -24,13 +26,16 @@ instead of one box for everything else.
 import collections, gzip, json, os, sys
 
 import domtree
+from projects import PROJECTS
 
 SHARDS = 512
 SHOWN = 40  # children drawn on a page; the others are grouped, see sharing()
 
-src, site, commit = sys.argv[1], sys.argv[2], sys.argv[3]
+key, src, site, commit = sys.argv[1:5]
+P = PROJECTS[key]
 t = domtree.Tree(src)
 N = len(t.names)
+SHARDS = min(SHARDS, max(1, N // 500))  # a small proof needs fewer files
 idom, kids, size, depth, succ = t.idom, t.kids, t.size, t.depth, t.succ
 print(f"tree: {N - 1} declarations", file=sys.stderr)
 
@@ -151,16 +156,19 @@ for x in range(N):
         "edges": [[a, b, w, int((a, b) in redundant)] for (a, b), w in sorted(agg.items())],
     }
 
-os.makedirs(os.path.join(site, "data", "v"), exist_ok=True)
+data = os.path.join(site, "data", key)
+os.makedirs(os.path.join(data, "v"), exist_ok=True)
+for f in os.listdir(os.path.join(data, "v")):  # shards of an earlier run
+    os.remove(os.path.join(data, "v", f))
 for k, pages in enumerate(shards):
-    with gzip.open(os.path.join(site, "data", "v", f"{k}.json.gz"), "wt", compresslevel=9) as f:
+    with gzip.open(os.path.join(data, "v", f"{k}.json.gz"), "wt", compresslevel=9) as f:
         json.dump(pages, f, separators=(",", ":"), ensure_ascii=False)
-with gzip.open(os.path.join(site, "data", "names.tsv.gz"), "wt", compresslevel=9) as f:
+with gzip.open(os.path.join(data, "names.tsv.gz"), "wt", compresslevel=9) as f:
     for v in range(1, N):
         f.write(f"{t.label(v)}\t{v}\t{idom[v]}\t{size[v]}\t{len(kids[v])}\n")
 kinds = collections.Counter(t.kind(v) for v in range(1, N))
 print(f"source lines known for {sum(1 for v in range(1, N) if t.span(v)[0])} of {N - 1}", file=sys.stderr)
-with open(os.path.join(site, "data", "meta.json"), "w") as f:
-    json.dump({"commit": commit, "declarations": N - 1, "theorems": kinds["theorem"],
+with open(os.path.join(data, "meta.json"), "w") as f:
+    json.dump({"repo": P["repo"], "src": P["src"], "commit": commit, "declarations": N - 1, "theorems": kinds["theorem"],
                "pages": sum(len(s) for s in shards), "shards": SHARDS, "shown": SHOWN}, f)
 print(f"{sum(len(s) for s in shards)} pages in {SHARDS} shards", file=sys.stderr)

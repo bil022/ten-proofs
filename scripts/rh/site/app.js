@@ -1,15 +1,17 @@
-// Explorer for the dominator tree of the riemann-hypothesis proof.
+// Explorer for the dominator trees of the Lean proofs of the Riemann Hypothesis.
 // Data is written by ../rh_site.py; see ../README.md.
 "use strict";
 
 const T = {
   zh: {
     title: "黎曼猜想证明浏览器",
-    sub: (m) => `${m.declarations.toLocaleString()} 个声明，其中 ${m.theorems.toLocaleString()} 个定理 · leanprover-community/riemann-hypothesis @ ${m.commit.slice(0, 7)}`,
+    sub: (m) => `${m.declarations.toLocaleString()} 个声明，其中 ${m.theorems.toLocaleString()} 个定理 · ${repoLabel(m)} @ ${m.commit.slice(0, 7)}`,
+    proof: "证明",
+    proofs: { riemannHypothesis: "原始证明（leanprover-community）", grh: "易读版（grh-lean/grh）", grhCompact: "紧凑版（grh-lean/grh-compact）" },
     search: "搜索定理名（至少 3 个字符）",
     filter: "筛选",
     help: "说明", close: "关闭", lang: "English",
-    loading: "加载中…", loadingNames: "正在载入全部名称（约 15 MB）…", noHits: "没有找到",
+    loading: "加载中…", loadingNames: "正在载入全部名称…", noHits: "没有找到",
     allEdges: "显示被更长路径蕴含的箭头",
     parts: "组成部分", colName: "名称", colSize: "声明数", colKids: "直接下级",
     more: (n) => `再显示 ${n} 行`,
@@ -36,7 +38,7 @@ const T = {
     uses: (w) => `${w.toLocaleString()} 处引用`,
     implied: "（被更长路径蕴含）",
     about: `<h2>这是什么</h2>
-<p>黎曼猜想 Lean 证明的全景图，可以一层层点进去看细节。</p>
+<p>黎曼猜想 Lean 证明的全景图，可以一层层点进去看细节。左上角可以在三个证明之间切换：最早的 leanprover-community/riemann-hypothesis，以及 lsernau/grh-lean 里重写的易读版和紧凑版。三者证明的是同样五个定理。</p>
 <p><b>结构：</b>如果从主定理往下到声明 D 的每一条依赖链都经过定理 X，就说 D <b>属于</b> X：D 只在 X 的证明里用到，删掉 X 就没人需要 D。（图论里叫 X 支配 D。）这样整个证明构成一棵树，每页显示一个节点和直接属于它的各部分。</p>
 <ul>
 <li><b>方框</b>是一个部分：一个定理（或定义）加上所有只为它服务的内容。</li>
@@ -48,11 +50,13 @@ const T = {
   },
   en: {
     title: "Riemann Hypothesis proof explorer",
-    sub: (m) => `${m.declarations.toLocaleString()} declarations, ${m.theorems.toLocaleString()} of them theorems · leanprover-community/riemann-hypothesis @ ${m.commit.slice(0, 7)}`,
+    sub: (m) => `${m.declarations.toLocaleString()} declarations, ${m.theorems.toLocaleString()} of them theorems · ${repoLabel(m)} @ ${m.commit.slice(0, 7)}`,
+    proof: "Proof",
+    proofs: { riemannHypothesis: "First proof (leanprover-community)", grh: "Readable edition (grh-lean/grh)", grhCompact: "Compact edition (grh-lean/grh-compact)" },
     search: "Search a theorem name (3+ characters)",
     filter: "Filter",
     help: "About", close: "Close", lang: "中文",
-    loading: "Loading…", loadingNames: "Loading all names (about 15 MB)…", noHits: "Nothing found",
+    loading: "Loading…", loadingNames: "Loading all names…", noHits: "Nothing found",
     allEdges: "Show arrows implied by longer paths",
     parts: "Parts", colName: "Name", colSize: "Declarations", colKids: "Children",
     more: (n) => `Show ${n} more`,
@@ -79,7 +83,7 @@ const T = {
     uses: (w) => `${w.toLocaleString()} uses`,
     implied: " (implied by a longer path)",
     about: `<h2>What this is</h2>
-<p>A map of the Lean proof of the Riemann Hypothesis that you can open level by level.</p>
+<p>A map of the Lean proof of the Riemann Hypothesis that you can open level by level. The menu at the top switches between three proofs: the first one, leanprover-community/riemann-hypothesis, and the readable and compact rewrites in lsernau/grh-lean. All three prove the same five theorems.</p>
 <p><b>Structure:</b> a declaration D <b>belongs to</b> theorem X when every chain of dependencies from the main theorems down to D passes through X: D is used only inside the proof of X, and deleting X leaves nothing that needs D. (X dominates D.) The whole proof becomes a tree; each page shows one node and the parts that belong directly to it.</p>
 <ul>
 <li>A <b>box</b> is a part: a theorem (or definition) and everything used only by it.</li>
@@ -100,9 +104,16 @@ const fill = (n) => RAMP[binOf(n)];
 const textOn = (n) => (binOf(n) >= 4 ? "#ffffff" : "#1a1a19");
 const LEGEND = ["1", "2–9", "10–99", "100–999", "1k–9.9k", "10k–99k", "≥100k"];
 
+// The proofs, in menu order. The first is shown when the address names none, so
+// links made before the others were added still work.
+const PROOFS = ["riemannHypothesis", "grh", "grhCompact"];
+let proof = PROOFS[0];
 let META = null;
 const shardCache = new Map();
 let names = null;
+const repoLabel = (m) => m.src === "src" ? m.repo : `${m.repo}/${m.src.replace(/\/src$/, "")}`;
+// The address of a page (and of a part selected on it) in the current proof.
+const hashOf = (id, sel = null) => "#" + (proof === PROOFS[0] ? "" : proof + "/") + id + (sel !== null ? ":" + sel : "");
 let current = null;   // { id, page }
 let selected = null;  // node id
 let sortKey = "size", shownRows = 300;
@@ -125,7 +136,7 @@ async function gunzipText(url) {
 
 async function getPage(id) {
   const k = id % META.shards;
-  if (!shardCache.has(k)) shardCache.set(k, gunzipText(`data/v/${k}.json.gz`).then(JSON.parse));
+  if (!shardCache.has(k)) shardCache.set(k, gunzipText(`data/${proof}/v/${k}.json.gz`).then(JSON.parse));
   return (await shardCache.get(k))[id];
 }
 
@@ -137,7 +148,7 @@ function shortName(name) {
 
 function sourceUrl(module) {
   if (!module || module === "?") return null;
-  return `https://github.com/leanprover-community/riemann-hypothesis/blob/${META.commit}/src/${module.replace(/\./g, "/")}.lean`;
+  return `https://github.com/${META.repo}/blob/${META.commit}/${META.src}/${module.replace(/\./g, "/")}.lean`;
 }
 
 // ---------------------------------------------------------------- rendering
@@ -150,6 +161,8 @@ function applyLang() {
   $("filter").placeholder = t().filter;
   $("aboutText").innerHTML = t().about;
   if (META) $("sub").textContent = t().sub(META);
+  $("proof").innerHTML = PROOFS.map((k) => `<option value="${k}"${k === proof ? " selected" : ""}>${esc(t().proofs[k])}</option>`).join("");
+  $("proof").setAttribute("aria-label", t().proof);
   $("legend").innerHTML = `<span class="cap">${t().legendCap}</span>` +
     RAMP.map((c, i) => `<span class="sw"><i style="background:${c}"></i><span>${LEGEND[i]}</span></span>`).join("") +
     `<span class="pg"><i></i>${t().legendPage}</span><span class="ot"><i></i>${t().legendOther}</span>`;
@@ -161,12 +174,12 @@ function upLink() {
   const p = current.page;
   if (!p.path.length) return "";
   const [id, name] = p.path[p.path.length - 1];
-  return `<a class="up" href="#${id}:${current.id}" title="${esc(t().upTo(name))}">${t().up}</a>`;
+  return `<a class="up" href="${hashOf(id, current.id)}" title="${esc(t().upTo(name))}">${t().up}</a>`;
 }
 
 function renderCrumbs() {
   const p = current.page;
-  const items = p.path.map(([id, name]) => `<a href="#${id}" title="${esc(name)}">${esc(shortName(name))}</a>`);
+  const items = p.path.map(([id, name]) => `<a href="${hashOf(id)}" title="${esc(name)}">${esc(shortName(name))}</a>`);
   items.push(`<span class="here" title="${esc(p.name)}">${esc(shortName(p.name))}</span>`);
   $("crumbs").innerHTML = upLink() + items.join('<span class="gap">›</span>');
 }
@@ -189,7 +202,7 @@ function card(node, isPage) {
     ${share !== null ? `<div class="bar"><i style="width:${Math.max(share * 100, 0.5)}%"></i></div>` : ""}
     ${isPage ? `<div class="acts">${upLink()}${node.module !== "Main" ? `<button type="button" onclick="showCode(${node.id})">${t().code}</button>` : ""}</div>` : ""}
     ${isPage ? `<p class="hint" style="margin-top:8px">${node.nkids ? t().pageHint : t().leafHint}</p>` : ""}
-    ${!isPage ? `<div class="acts">${node.nkids ? `<button type="button" onclick="location.hash='${node.id}'">${t().open} →</button>` : ""}<button type="button" onclick="showCode(${node.id})">${t().code}</button></div>` : ""}
+    ${!isPage ? `<div class="acts">${node.nkids ? `<button type="button" onclick="location.hash='${hashOf(node.id)}'">${t().open} →</button>` : ""}<button type="button" onclick="showCode(${node.id})">${t().code}</button></div>` : ""}
   </div>`;
 }
 
@@ -351,7 +364,7 @@ async function go(id, sel = null) {
     if (!page) {
       // A node without children has no page: open its parent and select it.
       const parent = names ? names.parent.get(id) : null;
-      if (parent !== undefined && parent !== null) { location.replace("#" + parent + ":" + id); return; }
+      if (parent !== undefined && parent !== null) { location.replace(hashOf(parent, id)); return; }
       id = 0; page = await getPage(0);
     }
     current = { id, page };
@@ -371,8 +384,28 @@ async function go(id, sel = null) {
   }
 }
 
-function route() {
-  const [a, b] = (location.hash.slice(1) || "0").split(":");
+// "#grh/12:34" is page 12 of grh with part 34 selected; "#12" is page 12 of the first proof.
+function proofOfHash() {
+  const h = location.hash.slice(1), i = h.indexOf("/");
+  return i > 0 && PROOFS.includes(h.slice(0, i)) ? h.slice(0, i) : PROOFS[0];
+}
+
+// Switch to another proof: its pages, names and totals replace the current ones.
+async function useProof(key) {
+  if (META && key === proof) return;
+  const meta = await (await fetch(`data/${key}/meta.json`)).json();
+  proof = key; META = meta;
+  shardCache.clear(); names = null; current = null; selected = null;
+  $("q").value = ""; $("hits").hidden = true;
+  $("sub").textContent = t().sub(META);
+  $("proof").value = key;
+}
+
+async function route() {
+  const key = proofOfHash();
+  if (key !== proof) await useProof(key);
+  const h = location.hash.slice(1);
+  const [a, b] = (h.slice(h.indexOf("/") + 1) || "0").split(":");
   const id = parseInt(a, 10) || 0;
   const sel = b !== undefined ? parseInt(b, 10) : null;
   if (current && current.id === id) { select(sel); return; }
@@ -405,7 +438,7 @@ function highlightLean(src) {
 }
 
 function rawUrl(module) {
-  return `https://raw.githubusercontent.com/leanprover-community/riemann-hypothesis/${META.commit}/src/${module.replace(/\./g, "/")}.lean`;
+  return `https://raw.githubusercontent.com/${META.repo}/${META.commit}/${META.src}/${module.replace(/\./g, "/")}.lean`;
 }
 
 const DECL = /^(?:@\[|\/--|\/-!|theorem\b|lemma\b|def\b|abbrev\b|instance\b|structure\b|inductive\b|class\b|opaque\b|axiom\b|private\b|protected\b|noncomputable\b|public\b|nonrec\b|partial\b|unsafe\b|meta\b|namespace\b|end\b|section\b|open\b|variable\b|set_option\b|attribute\b|universe\b|example\b|macro\b|syntax\b|elab\b|scoped\b|local\b|omit\b|include\b|#)/;
@@ -496,7 +529,7 @@ async function showCode(id) {
 // ---------------------------------------------------------------- search
 async function loadNames() {
   if (names) return names;
-  const text = await gunzipText("data/names.tsv.gz");
+  const text = await gunzipText(`data/${proof}/names.tsv.gz`);
   const list = [], parent = new Map();
   for (const line of text.split("\n")) {
     if (!line) continue;
@@ -530,7 +563,7 @@ async function search() {
 
 function openHit(r) {
   $("hits").hidden = true;
-  location.hash = r.nk ? String(r.id) : `${r.par}:${r.id}`;
+  location.hash = r.nk ? hashOf(r.id) : hashOf(r.par, r.id);
 }
 
 // ---------------------------------------------------------------- setup
@@ -617,17 +650,18 @@ function setupGraph() {
     const d = ev.target.data();
     if (d.group !== undefined) { groupFilter = d.group; selected = null; shownRows = 300; renderSide(); highlight(null); return; }
     if (d.page || d.rest) return;
-    if (d.nkids > 0) location.hash = String(d.node);
-    else location.hash = `${current.id}:${d.node}`;
+    if (d.nkids > 0) location.hash = hashOf(d.node);
+    else location.hash = hashOf(current.id, d.node);
   });
 }
 
 async function main() {
-  META = await (await fetch("data/meta.json")).json();
+  await useProof(proofOfHash());
   applyLang();
   setupGraph();
   $("lang").onclick = () => { lang = lang === "zh" ? "en" : "zh"; localStorage.setItem("rh-lang", lang); applyLang(); };
   $("help").onclick = () => $("about").showModal();
+  $("proof").onchange = () => { const k = $("proof").value; location.hash = k === PROOFS[0] ? "#0" : `#${k}/0`; };
   $("codeClose").onclick = hideCode;
   $("groupChipClear").onclick = () => { groupFilter = null; renderSide(); };
   $("allEdges").onchange = drawGraph;
@@ -636,12 +670,12 @@ async function main() {
   document.querySelectorAll("th").forEach((th) => { th.onclick = () => { sortKey = th.dataset.sort; renderRows(); }; });
   $("kidrows").onclick = (ev) => {
     const tr = ev.target.closest("tr");
-    if (tr) location.hash = `${current.id}:${tr.dataset.id}`;
+    if (tr) location.hash = hashOf(current.id, +tr.dataset.id);
   };
   $("kidrows").ondblclick = (ev) => {
     const tr = ev.target.closest("tr");
     const k = tr && current.page.kids.find((x) => x[0] === +tr.dataset.id);
-    if (k && k[5]) location.hash = String(k[0]);
+    if (k && k[5]) location.hash = hashOf(k[0]);
   };
   $("q").oninput = () => { clearTimeout(searchTimer); searchTimer = setTimeout(search, 200); };
   $("q").onkeydown = (ev) => {

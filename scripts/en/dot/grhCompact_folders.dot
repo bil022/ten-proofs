@@ -1,0 +1,560 @@
+digraph G {
+	graph [nodesep=0.2,
+		rankdir=LR,
+		ranksep=1.2
+	];
+	node [fontname=Helvetica,
+		fontsize=11,
+		shape=box,
+		style="filled,rounded"
+	];
+	edge [arrowsize=0.6,
+		color="#8a8a8a"
+	];
+	"Lib.Adelic.Adeles"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/Adeles\n317 theorems"];
+	"Lib.Adelic.CuspForms"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/CuspForms\n146 theorems"];
+	"Lib.Adelic.Adeles" -> "Lib.Adelic.CuspForms";
+	"Lib.Adelic.Cartan"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/Cartan\n7 theorems"];
+	"Lib.ClassField.GreenbergWiles"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/GreenbergWiles\n39 theorems"];
+	"Lib.Adelic.Cartan" -> "Lib.ClassField.GreenbergWiles";
+	"Lib.Adelic.Hecke"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/Hecke\n35 theorems"];
+	"Lib.Adelic.CuspForms" -> "Lib.Adelic.Hecke";
+	"Lib.Adelic.Transference"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/Transference\n16 theorems"];
+	"Lib.Adelic.Hecke" -> "Lib.Adelic.Transference";
+	"Lib.Adelic.Landherr"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/Landherr\n9 theorems"];
+	"Lib.Adelic.Landherr" -> "Lib.Adelic.CuspForms";
+	"Lib.Adelic.Poincare"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/Poincare\n14 theorems"];
+	"Lib.DiscreteSeries.Bessel"	[fillcolor="#cfe8ff",
+		label="Lib/\nDiscreteSeries/Bessel\n46 theorems"];
+	"Lib.Adelic.Poincare" -> "Lib.DiscreteSeries.Bessel";
+	"Lib.Adelic.QuotientMeasure"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/QuotientMeasure\n75 theorems"];
+	"Lib.Adelic.QuotientMeasure" -> "Lib.Adelic.Adeles";
+	"Lib.Adelic.Reduction"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/Reduction\n61 theorems"];
+	"Lib.Adelic.Reduction" -> "Lib.Adelic.CuspForms";
+	"Lib.GaloisRep.BaseChange"	[fillcolor="#cfe8ff",
+		label="Lib/\nGaloisRep/BaseChange\n75 theorems"];
+	"Lib.Adelic.Transference" -> "Lib.GaloisRep.BaseChange";
+	"Lib.Adelic.Unitary"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/Unitary\n133 theorems"];
+	"Lib.Adelic.Unitary" -> "Lib.Adelic.Adeles";
+	"Lib.Adelic.Witt"	[fillcolor="#cfe8ff",
+		label="Lib/\nAdelic/Witt\n48 theorems"];
+	"Lib.Adelic.Witt" -> "Lib.Adelic.Adeles";
+	"Lib.Analytic.DirichletTheta"	[fillcolor="#cfe8ff",
+		label="Lib/\nAnalytic/DirichletTheta\n14 theorems"];
+	"Lib.Analytic.Primes"	[fillcolor="#cfe8ff",
+		label="Lib/\nAnalytic/Primes\n5 theorems"];
+	"Lib.Analytic.DirichletTheta" -> "Lib.Analytic.Primes";
+	"Lib.Analytic.QuadraticTwist"	[fillcolor="#cfe8ff",
+		label="Lib/\nAnalytic/QuadraticTwist\n7 theorems"];
+	"Lib.Analytic.DirichletTheta" -> "Lib.Analytic.QuadraticTwist";
+	"Lib.Analytic.Landau"	[fillcolor="#cfe8ff",
+		label="Lib/\nAnalytic/Landau\n11 theorems"];
+	"Lib.SiegelWeil.OneVector"	[fillcolor="#cfe8ff",
+		label="Lib/\nSiegelWeil/OneVector\n2 theorems"];
+	"Lib.Analytic.Landau" -> "Lib.SiegelWeil.OneVector";
+	"Lib.Analytic.PolyaVinogradov"	[fillcolor="#cfe8ff",
+		label="Lib/\nAnalytic/PolyaVinogradov\n2 theorems"];
+	"Lib.Analytic.PolyaVinogradov" -> "Lib.Analytic.DirichletTheta";
+	"New.Data"	[fillcolor="#ffe0e0",
+		label="New/\nData\n200 theorems"];
+	"Lib.Analytic.Primes" -> "New.Data";
+	"New.Endgame"	[fillcolor="#ffe0e0",
+		label="New/\nEndgame\n18 theorems"];
+	"Lib.Analytic.QuadraticTwist" -> "New.Endgame";
+	"Lib.CM.FormalGroup"	[fillcolor="#cfe8ff",
+		label="Lib/\nCM/FormalGroup\n5 theorems"];
+	"New.Curve"	[fillcolor="#ffe0e0",
+		label="New/\nCurve\n56 theorems"];
+	"Lib.CM.FormalGroup" -> "New.Curve";
+	"Lib.CM.Genus"	[fillcolor="#cfe8ff",
+		label="Lib/\nCM/Genus\n4 theorems"];
+	"Lib.CM.Genus" -> "Lib.CM.FormalGroup";
+	"New.Heights"	[fillcolor="#ffe0e0",
+		label="New/\nHeights\n16 theorems"];
+	"Lib.CM.Genus" -> "New.Heights";
+	"Lib.CM.KroneckerLimit"	[fillcolor="#cfe8ff",
+		label="Lib/\nCM/KroneckerLimit\n7 theorems"];
+	"Lib.CM.KroneckerLimit" -> "Lib.CM.FormalGroup";
+	"Lib.CM.LocalHeight"	[fillcolor="#cfe8ff",
+		label="Lib/\nCM/LocalHeight\n49 theorems"];
+	"Lib.CM.LocalHeight" -> "Lib.CM.KroneckerLimit";
+	"Lib.CM.MainTheorem"	[fillcolor="#cfe8ff",
+		label="Lib/\nCM/MainTheorem\n5 theorems"];
+	"Lib.CM.LocalHeight" -> "Lib.CM.MainTheorem";
+	"Lib.CM.MainTheorem" -> "Lib.CM.FormalGroup";
+	"Lib.CM.Reciprocity"	[fillcolor="#cfe8ff",
+		label="Lib/\nCM/Reciprocity\n3 theorems"];
+	"Lib.CM.Reciprocity" -> "New.Curve";
+	"Lib.CM.Sigma"	[fillcolor="#cfe8ff",
+		label="Lib/\nCM/Sigma\n101 theorems"];
+	"Lib.General.Algebra"	[fillcolor="#cfe8ff",
+		label="Lib/\nGeneral/Algebra\n177 theorems"];
+	"Lib.CM.Sigma" -> "Lib.General.Algebra";
+	"Lib.ClassField.Chebotarev"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/Chebotarev\n10 theorems"];
+	"Lib.ClassField.Chebotarev" -> "Lib.Adelic.CuspForms";
+	"Lib.ClassField.GaloisCohomology"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/GaloisCohomology\n54 theorems"];
+	"Lib.ClassField.GaloisCohomology" -> "Lib.Adelic.Cartan";
+	"Lib.ClassField.Global"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/Global\n50 theorems"];
+	"Lib.ClassField.Global" -> "Lib.Adelic.Landherr";
+	"Lib.ClassField.GreenbergWiles" -> "Lib.ClassField.Global";
+	"Lib.ClassField.Grunwald"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/Grunwald\n2 theorems"];
+	"Lib.GaloisRep.LocalGlobal"	[fillcolor="#cfe8ff",
+		label="Lib/\nGaloisRep/LocalGlobal\n20 theorems"];
+	"Lib.ClassField.Grunwald" -> "Lib.GaloisRep.LocalGlobal";
+	"Lib.ClassField.HeckeCharacter"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/HeckeCharacter\n84 theorems"];
+	"Lib.ClassField.HeckeCharacter" -> "Lib.Adelic.Unitary";
+	"Lib.ClassField.HeckeL"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/HeckeL\n59 theorems"];
+	"Lib.ClassField.HeckeL" -> "Lib.Adelic.Adeles";
+	"Lib.ClassField.Local"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/Local\n16 theorems"];
+	"Lib.ClassField.Local" -> "Lib.ClassField.Chebotarev";
+	"Lib.ClassField.LocalDuality"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/LocalDuality\n26 theorems"];
+	"Lib.ClassField.LocalDuality" -> "Lib.ClassField.Global";
+	"Lib.ClassField.Places"	[fillcolor="#cfe8ff",
+		label="Lib/\nClassField/Places\n231 theorems"];
+	"Lib.ClassField.Places" -> "Lib.Adelic.Adeles";
+	"Lib.Cohomology.Duality"	[fillcolor="#cfe8ff",
+		label="Lib/\nCohomology/Duality\n45 theorems"];
+	"Lib.Cohomology.Hodge"	[fillcolor="#cfe8ff",
+		label="Lib/\nCohomology/Hodge\n99 theorems"];
+	"Lib.Cohomology.Duality" -> "Lib.Cohomology.Hodge";
+	"Lib.Cohomology.Etale"	[fillcolor="#cfe8ff",
+		label="Lib/\nCohomology/Etale\n173 theorems"];
+	"Lib.Cohomology.Etale" -> "Lib.Adelic.CuspForms";
+	"Lib.Cohomology.Hodge" -> "Lib.Cohomology.Etale";
+	"Lib.Cohomology.Kunneth"	[fillcolor="#cfe8ff",
+		label="Lib/\nCohomology/Kunneth\n5 theorems"];
+	"Lib.Cohomology.ProjectiveLine"	[fillcolor="#cfe8ff",
+		label="Lib/\nCohomology/ProjectiveLine\n61 theorems"];
+	"Lib.Cohomology.Kunneth" -> "Lib.Cohomology.ProjectiveLine";
+	"Lib.Cohomology.PointClass"	[fillcolor="#cfe8ff",
+		label="Lib/\nCohomology/PointClass\n41 theorems"];
+	"Lib.Cohomology.PointClass" -> "Lib.Cohomology.Hodge";
+	"Lib.Cohomology.ProjectiveLine" -> "Lib.Cohomology.Hodge";
+	"Lib.Cohomology.ProperBaseChange"	[fillcolor="#cfe8ff",
+		label="Lib/\nCohomology/ProperBaseChange\n60 theorems"];
+	"Lib.Cohomology.ProperBaseChange" -> "Lib.Cohomology.Etale";
+	"Lib.Cohomology.SmoothBaseChange"	[fillcolor="#cfe8ff",
+		label="Lib/\nCohomology/SmoothBaseChange\n3 theorems"];
+	"Lib.PadicComparison.CrystallineFrobenius"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicComparison/CrystallineFrobenius\n12 theorems"];
+	"Lib.Cohomology.SmoothBaseChange" -> "Lib.PadicComparison.CrystallineFrobenius";
+	"Lib.Cohomology.WoodsHole"	[fillcolor="#cfe8ff",
+		label="Lib/\nCohomology/WoodsHole\n3 theorems"];
+	"Lib.Cohomology.WoodsHole" -> "Lib.Cohomology.Hodge";
+	"Lib.Cyclotomic.Kolyvagin"	[fillcolor="#cfe8ff",
+		label="Lib/\nCyclotomic/Kolyvagin\n17 theorems"];
+	"Lib.Cyclotomic.OddSha"	[fillcolor="#cfe8ff",
+		label="Lib/\nCyclotomic/OddSha\n2 theorems"];
+	"Lib.Cyclotomic.Kolyvagin" -> "Lib.Cyclotomic.OddSha";
+	"New.Selmer"	[fillcolor="#ffe0e0",
+		label="New/\nSelmer\n189 theorems"];
+	"Lib.Cyclotomic.OddSha" -> "New.Selmer";
+	"Lib.Cyclotomic.Stickelberger"	[fillcolor="#cfe8ff",
+		label="Lib/\nCyclotomic/Stickelberger\n6 theorems"];
+	"Lib.Cyclotomic.Stickelberger" -> "Lib.Cyclotomic.Kolyvagin";
+	"Lib.Cyclotomic.Voronoi"	[fillcolor="#cfe8ff",
+		label="Lib/\nCyclotomic/Voronoi\n5 theorems"];
+	"Lib.Cyclotomic.Voronoi" -> "Lib.ClassField.Places";
+	"Lib.DiscreteSeries.Bruhat"	[fillcolor="#cfe8ff",
+		label="Lib/\nDiscreteSeries/Bruhat\n152 theorems"];
+	"Lib.DiscreteSeries.Bessel" -> "Lib.DiscreteSeries.Bruhat";
+	"Lib.DiscreteSeries.Bruhat" -> "Lib.Adelic.Adeles";
+	"Lib.DiscreteSeries.Character"	[fillcolor="#cfe8ff",
+		label="Lib/\nDiscreteSeries/Character\n36 theorems"];
+	"Lib.LocalGL.TraceFormula"	[fillcolor="#cfe8ff",
+		label="Lib/\nLocalGL/TraceFormula\n15 theorems"];
+	"Lib.DiscreteSeries.Character" -> "Lib.LocalGL.TraceFormula";
+	"Lib.DiscreteSeries.CuspKernel"	[fillcolor="#cfe8ff",
+		label="Lib/\nDiscreteSeries/CuspKernel\n52 theorems"];
+	"Lib.DiscreteSeries.CuspKernel" -> "Lib.Adelic.Adeles";
+	"Lib.DiscreteSeries.FlenstedJensen"	[fillcolor="#cfe8ff",
+		label="Lib/\nDiscreteSeries/FlenstedJensen\n54 theorems"];
+	"Lib.DiscreteSeries.FlenstedJensen" -> "Lib.Adelic.CuspForms";
+	"Lib.DiscreteSeries.Haar"	[fillcolor="#cfe8ff",
+		label="Lib/\nDiscreteSeries/Haar\n60 theorems"];
+	"Lib.DiscreteSeries.Haar" -> "Lib.Adelic.Adeles";
+	"Lib.DiscreteSeries.Holomorphic"	[fillcolor="#cfe8ff",
+		label="Lib/\nDiscreteSeries/Holomorphic\n29 theorems"];
+	"Lib.DiscreteSeries.Holomorphic" -> "Lib.DiscreteSeries.Character";
+	"Lib.DiscreteSeries.Rigidity"	[fillcolor="#cfe8ff",
+		label="Lib/\nDiscreteSeries/Rigidity\n59 theorems"];
+	"Lib.DiscreteSeries.Rigidity" -> "Lib.Adelic.CuspForms";
+	"Lib.DiscreteSeries.Theta"	[fillcolor="#cfe8ff",
+		label="Lib/\nDiscreteSeries/Theta\n42 theorems"];
+	"Lib.DiscreteSeries.Theta" -> "Lib.DiscreteSeries.FlenstedJensen";
+	"Lib.GLn.Branching"	[fillcolor="#cfe8ff",
+		label="Lib/\nGLn/Branching\n24 theorems"];
+	"Lib.GLn.Branching" -> "Lib.Adelic.CuspForms";
+	"Lib.GLn.Dual"	[fillcolor="#cfe8ff",
+		label="Lib/\nGLn/Dual\n21 theorems"];
+	"Lib.GLn.Dual" -> "Lib.Adelic.CuspForms";
+	"Lib.GLn.SchurModule"	[fillcolor="#cfe8ff",
+		label="Lib/\nGLn/SchurModule\n117 theorems"];
+	"Lib.GLn.SchurModule" -> "Lib.Adelic.CuspForms";
+	"Lib.GaloisRep.BaseChange" -> "Lib.GaloisRep.LocalGlobal";
+	"Lib.GaloisRep.Division"	[fillcolor="#cfe8ff",
+		label="Lib/\nGaloisRep/Division\n7 theorems"];
+	"Lib.GaloisRep.Main"	[fillcolor="#cfe8ff",
+		label="Lib/\nGaloisRep/Main\n30 theorems"];
+	"Lib.GaloisRep.Division" -> "Lib.GaloisRep.Main";
+	"Lib.GaloisRep.EvenRank"	[fillcolor="#cfe8ff",
+		label="Lib/\nGaloisRep/EvenRank\n1 theorems"];
+	"Lib.GaloisRep.EvenRank" -> "Lib.GaloisRep.Main";
+	"Lib.GaloisRep.Hilbert90"	[fillcolor="#cfe8ff",
+		label="Lib/\nGaloisRep/Hilbert90\n20 theorems"];
+	"Lib.GaloisRep.Hilbert90" -> "Lib.Adelic.Adeles";
+	"Lib.GaloisRep.HodgeTateCocharacter"	[fillcolor="#cfe8ff",
+		label="Lib/\nGaloisRep/HodgeTateCocharacter\n1 theorems"];
+	"Lib.GaloisRep.HodgeTateCocharacter" -> "Lib.GaloisRep.Main";
+	"Lib.GaloisRep.LocalGlobal" -> "Lib.GaloisRep.EvenRank";
+	"Lib.PadicHodge.Crystalline"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/Crystalline\n88 theorems"];
+	"Lib.GaloisRep.Main" -> "Lib.PadicHodge.Crystalline";
+	"Lib.GaloisRep.Pseudocharacter"	[fillcolor="#cfe8ff",
+		label="Lib/\nGaloisRep/Pseudocharacter\n27 theorems"];
+	"Lib.GaloisRep.Pseudocharacter" -> "Lib.GaloisRep.Division";
+	"Lib.GaloisRep.WeightCongruence"	[fillcolor="#cfe8ff",
+		label="Lib/\nGaloisRep/WeightCongruence\n14 theorems"];
+	"Lib.GaloisRep.WeightCongruence" -> "Lib.GaloisRep.Main";
+	"Lib.General.Algebra" -> "Lib.Adelic.Adeles";
+	"Lib.General.Analysis"	[fillcolor="#cfe8ff",
+		label="Lib/\nGeneral/Analysis\n52 theorems"];
+	"Lib.General.Analysis" -> "Lib.Adelic.Adeles";
+	"Lib.General.Combinatorics"	[fillcolor="#cfe8ff",
+		label="Lib/\nGeneral/Combinatorics\n12 theorems"];
+	"Lib.General.Combinatorics" -> "Lib.GaloisRep.BaseChange";
+	"Lib.General.Geometry"	[fillcolor="#cfe8ff",
+		label="Lib/\nGeneral/Geometry\n190 theorems"];
+	"Lib.General.Geometry" -> "Lib.Cohomology.Duality";
+	"Lib.General.Geometry" -> "Lib.Cohomology.WoodsHole";
+	"Lib.General.Groups"	[fillcolor="#cfe8ff",
+		label="Lib/\nGeneral/Groups\n145 theorems"];
+	"Lib.General.Groups" -> "Lib.Adelic.Adeles";
+	"Lib.General.LinearAlgebra"	[fillcolor="#cfe8ff",
+		label="Lib/\nGeneral/LinearAlgebra\n274 theorems"];
+	"Lib.General.LinearAlgebra" -> "Lib.Adelic.Witt";
+	"Lib.General.LinearAlgebra" -> "Lib.ClassField.Grunwald";
+	"Lib.General.LinearAlgebra" -> "Lib.Cohomology.Kunneth";
+	"Lib.General.LinearAlgebra" -> "Lib.Cyclotomic.Stickelberger";
+	"Lib.General.LinearAlgebra" -> "Lib.DiscreteSeries.Haar";
+	"Lib.General.LinearAlgebra" -> "Lib.DiscreteSeries.Rigidity";
+	"Lib.General.LinearAlgebra" -> "Lib.GLn.Branching";
+	"Lib.General.LinearAlgebra" -> "Lib.GLn.Dual";
+	"Lib.General.LinearAlgebra" -> "Lib.GaloisRep.Hilbert90";
+	"Lib.General.LinearAlgebra" -> "Lib.GaloisRep.Pseudocharacter";
+	"Lib.General.LinearAlgebra" -> "Lib.General.Combinatorics";
+	"Lib.General.Measure"	[fillcolor="#cfe8ff",
+		label="Lib/\nGeneral/Measure\n64 theorems"];
+	"Lib.General.LinearAlgebra" -> "Lib.General.Measure";
+	"Lib.LocalGL.Green"	[fillcolor="#cfe8ff",
+		label="Lib/\nLocalGL/Green\n86 theorems"];
+	"Lib.General.LinearAlgebra" -> "Lib.LocalGL.Green";
+	"Lib.General.Measure" -> "Lib.Adelic.Poincare";
+	"Lib.General.Measure" -> "Lib.Adelic.QuotientMeasure";
+	"Lib.General.Measure" -> "Lib.Adelic.Reduction";
+	"Lib.General.Measure" -> "Lib.DiscreteSeries.CuspKernel";
+	"Lib.General.Measure" -> "Lib.General.Analysis";
+	"Lib.Weil.GaussSum"	[fillcolor="#cfe8ff",
+		label="Lib/\nWeil/GaussSum\n31 theorems"];
+	"Lib.General.Measure" -> "Lib.Weil.GaussSum";
+	"Lib.General.NumberTheory"	[fillcolor="#cfe8ff",
+		label="Lib/\nGeneral/NumberTheory\n104 theorems"];
+	"Lib.General.NumberTheory" -> "Lib.Adelic.Adeles";
+	"Lib.General.NumberTheory" -> "Lib.Analytic.Landau";
+	"Lib.General.NumberTheory" -> "Lib.Analytic.PolyaVinogradov";
+	"Lib.General.NumberTheory" -> "Lib.Cyclotomic.Voronoi";
+	"Lib.General.Topology"	[fillcolor="#cfe8ff",
+		label="Lib/\nGeneral/Topology\n18 theorems"];
+	"Lib.General.Topology" -> "Lib.Adelic.Adeles";
+	"Lib.LocalGL.Shintani"	[fillcolor="#cfe8ff",
+		label="Lib/\nLocalGL/Shintani\n54 theorems"];
+	"Lib.LocalGL.Green" -> "Lib.LocalGL.Shintani";
+	"Lib.LocalGL.Iwahori"	[fillcolor="#cfe8ff",
+		label="Lib/\nLocalGL/Iwahori\n36 theorems"];
+	"Lib.LocalGL.Iwahori" -> "Lib.GaloisRep.BaseChange";
+	"Lib.LocalGL.Shintani" -> "Lib.GaloisRep.BaseChange";
+	"Lib.LocalGL.Tadic"	[fillcolor="#cfe8ff",
+		label="Lib/\nLocalGL/Tadic\n3 theorems"];
+	"Lib.LocalGL.Tadic" -> "Lib.GaloisRep.LocalGlobal";
+	"Lib.LocalGL.TaylorWiles"	[fillcolor="#cfe8ff",
+		label="Lib/\nLocalGL/TaylorWiles\n13 theorems"];
+	"New.Patching"	[fillcolor="#ffe0e0",
+		label="New/\nPatching\n9 theorems"];
+	"Lib.LocalGL.TaylorWiles" -> "New.Patching";
+	"Lib.Shimura.ThetaModuli"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/ThetaModuli\n64 theorems"];
+	"Lib.LocalGL.TraceFormula" -> "Lib.Shimura.ThetaModuli";
+	"Lib.PadicComparison.Completion"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicComparison/Completion\n26 theorems"];
+	"Lib.PadicComparison.Completion" -> "Lib.Cohomology.Etale";
+	"Lib.PadicComparison.Crystalline"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicComparison/Crystalline\n33 theorems"];
+	"Lib.PadicComparison.Crystalline" -> "Lib.Cohomology.Etale";
+	"Lib.PadicComparison.CrystallineFrobenius" -> "Lib.Cohomology.PointClass";
+	"Lib.PadicComparison.Descent"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicComparison/Descent\n49 theorems"];
+	"Lib.PadicComparison.Descent" -> "Lib.Adelic.CuspForms";
+	"Lib.PadicComparison.Duality"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicComparison/Duality\n18 theorems"];
+	"Lib.PadicComparison.Descent" -> "Lib.PadicComparison.Duality";
+	"Lib.PadicComparison.Duality" -> "Lib.Cohomology.ProjectiveLine";
+	"Lib.PadicComparison.HodgeTate"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicComparison/HodgeTate\n39 theorems"];
+	"Lib.PadicComparison.HodgeTate" -> "Lib.Cohomology.PointClass";
+	"Lib.PadicComparison.Primitive"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicComparison/Primitive\n4 theorems"];
+	"Lib.PadicComparison.Primitive" -> "Lib.Cohomology.ProjectiveLine";
+	"Lib.PadicComparison.ToricTower"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicComparison/ToricTower\n7 theorems"];
+	"Lib.PadicComparison.ToricTower" -> "Lib.GaloisRep.Main";
+	"Lib.PadicHodge.BlochKato"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/BlochKato\n11 theorems"];
+	"Lib.PadicHodge.BlochKato" -> "Lib.ClassField.LocalDuality";
+	"Lib.PadicHodge.Characters"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/Characters\n11 theorems"];
+	"Lib.PadicHodge.Characters" -> "Lib.GaloisRep.Division";
+	"Lib.PadicHodge.Comparison"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/Comparison\n8 theorems"];
+	"Lib.PadicHodge.Limit"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/Limit\n9 theorems"];
+	"Lib.PadicHodge.Comparison" -> "Lib.PadicHodge.Limit";
+	"Lib.PadicHodge.Crystalline" -> "Lib.ClassField.GaloisCohomology";
+	"Lib.PadicHodge.Crystalline" -> "Lib.ClassField.HeckeL";
+	"Lib.PadicHodge.Crystalline" -> "Lib.General.Groups";
+	"Lib.PadicHodge.TateSen"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/TateSen\n21 theorems"];
+	"Lib.PadicHodge.Crystalline" -> "Lib.PadicHodge.TateSen";
+	"Lib.PadicHodge.Herr"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/Herr\n9 theorems"];
+	"Lib.PadicHodge.Herr" -> "Lib.ClassField.LocalDuality";
+	"Lib.PadicHodge.Limit" -> "Lib.ClassField.LocalDuality";
+	"Lib.PadicHodge.PeriodRings"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/PeriodRings\n212 theorems"];
+	"Lib.PadicHodge.PeriodRings" -> "Lib.CM.Genus";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.ClassField.Local";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.Cohomology.ProperBaseChange";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.Cohomology.SmoothBaseChange";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.General.NumberTheory";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.PadicComparison.Completion";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.PadicComparison.Crystalline";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.PadicComparison.Descent";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.PadicComparison.Primitive";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.PadicComparison.ToricTower";
+	"Lib.PadicHodge.PeriodRings" -> "Lib.PadicHodge.Herr";
+	"Lib.PadicHodge.TateSen" -> "Lib.GaloisRep.HodgeTateCocharacter";
+	"Lib.PadicHodge.TateSen" -> "Lib.PadicHodge.PeriodRings";
+	"Lib.PadicHodge.WachGamma"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/WachGamma\n58 theorems"];
+	"Lib.PadicHodge.TateSen" -> "Lib.PadicHodge.WachGamma";
+	"Lib.PadicHodge.WachKisin"	[fillcolor="#cfe8ff",
+		label="Lib/\nPadicHodge/WachKisin\n142 theorems"];
+	"Lib.PadicHodge.WachGamma" -> "Lib.PadicHodge.WachKisin";
+	"Lib.PadicHodge.WachKisin" -> "Lib.PadicHodge.BlochKato";
+	"Lib.PadicHodge.WachKisin" -> "Lib.PadicHodge.Characters";
+	"Lib.PadicHodge.WachKisin" -> "Lib.PadicHodge.Comparison";
+	"Lib.Shimura.Eigenspace"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/Eigenspace\n4 theorems"];
+	"Lib.PadicHodge.WachKisin" -> "Lib.Shimura.Eigenspace";
+	"New.Lift"	[fillcolor="#ffe0e0",
+		label="New/\nLift\n105 theorems"];
+	"Lib.PadicHodge.WachKisin" -> "New.Lift";
+	"Lib.Shimura.AbelianScheme"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/AbelianScheme\n83 theorems"];
+	"Lib.Shimura.AbelianScheme" -> "Lib.PadicComparison.HodgeTate";
+	"Lib.Shimura.ComplexTheta"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/ComplexTheta\n26 theorems"];
+	"Lib.Shimura.ComplexTheta" -> "Lib.CM.Sigma";
+	"Lib.Shimura.CongruenceRelation"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/CongruenceRelation\n9 theorems"];
+	"Lib.Shimura.Deformation"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/Deformation\n16 theorems"];
+	"Lib.Shimura.CongruenceRelation" -> "Lib.Shimura.Deformation";
+	"Lib.Shimura.IntegralModel"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/IntegralModel\n73 theorems"];
+	"Lib.Shimura.Deformation" -> "Lib.Shimura.IntegralModel";
+	"Lib.Shimura.Eigenspace" -> "Lib.Cohomology.PointClass";
+	"Lib.Shimura.Extension"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/Extension\n2 theorems"];
+	"Lib.Shimura.Uniformisation"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/Uniformisation\n200 theorems"];
+	"Lib.Shimura.Extension" -> "Lib.Shimura.Uniformisation";
+	"Lib.Shimura.GoodReduction"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/GoodReduction\n67 theorems"];
+	"Lib.Shimura.ThetaGroup"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/ThetaGroup\n42 theorems"];
+	"Lib.Shimura.GoodReduction" -> "Lib.Shimura.ThetaGroup";
+	"Lib.Shimura.HeckeTower"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/HeckeTower\n25 theorems"];
+	"Lib.Shimura.HeckeTower" -> "Lib.Cohomology.PointClass";
+	"Lib.Shimura.IntegralModel" -> "Lib.Cohomology.PointClass";
+	"Lib.Shimura.ThetaGroup" -> "Lib.General.Geometry";
+	"Lib.Shimura.ThetaModuli" -> "Lib.GaloisRep.Main";
+	"Lib.Shimura.ThetaNormality"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/ThetaNormality\n23 theorems"];
+	"Lib.Shimura.ThetaNormality" -> "Lib.General.Geometry";
+	"Lib.Shimura.TraceFormula"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/TraceFormula\n4 theorems"];
+	"Lib.Shimura.TraceFormula" -> "Lib.GaloisRep.BaseChange";
+	"Lib.Shimura.Transfer"	[fillcolor="#cfe8ff",
+		label="Lib/\nShimura/Transfer\n19 theorems"];
+	"Lib.Shimura.Transfer" -> "Lib.GaloisRep.Main";
+	"Lib.Shimura.Uniformisation" -> "Lib.Adelic.CuspForms";
+	"Lib.Shimura.Uniformisation" -> "Lib.CM.LocalHeight";
+	"Lib.Shimura.Uniformisation" -> "Lib.Shimura.AbelianScheme";
+	"Lib.Shimura.Uniformisation" -> "Lib.Shimura.Extension";
+	"Lib.Shimura.Uniformisation" -> "Lib.Shimura.GoodReduction";
+	"Lib.Shimura.Uniformisation" -> "Lib.Shimura.ThetaNormality";
+	"Lib.Shimura.Uniformisation" -> "Lib.Shimura.TraceFormula";
+	"Lib.SiegelWeil.Formula"	[fillcolor="#cfe8ff",
+		label="Lib/\nSiegelWeil/Formula\n20 theorems"];
+	"Lib.SiegelWeil.Formula" -> "Lib.SiegelWeil.OneVector";
+	"Lib.SiegelWeil.Mass"	[fillcolor="#cfe8ff",
+		label="Lib/\nSiegelWeil/Mass\n12 theorems"];
+	"Lib.Weil.MixedModel"	[fillcolor="#cfe8ff",
+		label="Lib/\nWeil/MixedModel\n190 theorems"];
+	"Lib.SiegelWeil.Mass" -> "Lib.Weil.MixedModel";
+	"Lib.SiegelWeil.OneVector" -> "Lib.SiegelWeil.Mass";
+	"Lib.SiegelWeil.RallisInner"	[fillcolor="#cfe8ff",
+		label="Lib/\nSiegelWeil/RallisInner\n29 theorems"];
+	"Lib.SiegelWeil.RallisInner" -> "Lib.GaloisRep.EvenRank";
+	"Lib.SiegelWeil.SingularForms"	[fillcolor="#cfe8ff",
+		label="Lib/\nSiegelWeil/SingularForms\n37 theorems"];
+	"Lib.SiegelWeil.SingularForms" -> "Lib.ClassField.HeckeCharacter";
+	"Lib.SiegelWeil.StrongApproximation"	[fillcolor="#cfe8ff",
+		label="Lib/\nSiegelWeil/StrongApproximation\n1 theorems"];
+	"New.Exchange"	[fillcolor="#ffe0e0",
+		label="New/\nExchange\n234 theorems"];
+	"Lib.SiegelWeil.StrongApproximation" -> "New.Exchange";
+	"Lib.SiegelWeil.Tower"	[fillcolor="#cfe8ff",
+		label="Lib/\nSiegelWeil/Tower\n15 theorems"];
+	"Lib.SiegelWeil.Tower" -> "New.Exchange";
+	"Lib.Weil.CompactLift"	[fillcolor="#cfe8ff",
+		label="Lib/\nWeil/CompactLift\n26 theorems"];
+	"Lib.Weil.CompactLift" -> "Lib.GaloisRep.EvenRank";
+	"Lib.Weil.Construction"	[fillcolor="#cfe8ff",
+		label="Lib/\nWeil/Construction\n245 theorems"];
+	"Lib.Weil.Construction" -> "Lib.Adelic.Adeles";
+	"Lib.Weil.Construction" -> "Lib.GLn.SchurModule";
+	"Lib.Weil.DualPair"	[fillcolor="#cfe8ff",
+		label="Lib/\nWeil/DualPair\n172 theorems"];
+	"Lib.Weil.DualPair" -> "Lib.Adelic.Adeles";
+	"Lib.Weil.Fock"	[fillcolor="#cfe8ff",
+		label="Lib/\nWeil/Fock\n80 theorems"];
+	"Lib.Weil.Fock" -> "Lib.ClassField.HeckeCharacter";
+	"Lib.Weil.Fock" -> "Lib.DiscreteSeries.Theta";
+	"New.Weil"	[fillcolor="#ffe0e0",
+		label="New/\nWeil\n1 theorems"];
+	"Lib.Weil.Fock" -> "New.Weil";
+	"Lib.Weil.GaussSum" -> "Lib.Adelic.Unitary";
+	"Lib.Weil.GaussSum" -> "Lib.General.Topology";
+	"Lib.Weil.Lift"	[fillcolor="#cfe8ff",
+		label="Lib/\nWeil/Lift\n32 theorems"];
+	"Lib.Weil.Lift" -> "Lib.DiscreteSeries.Holomorphic";
+	"Lib.Weil.MixedModel" -> "Lib.CM.Reciprocity";
+	"Lib.Weil.MixedModel" -> "Lib.Shimura.ComplexTheta";
+	"Lib.Weil.MixedModel" -> "Lib.SiegelWeil.SingularForms";
+	"Lib.Weil.MixedModel" -> "Lib.SiegelWeil.StrongApproximation";
+	"Lib.Weil.MixedModel" -> "Lib.SiegelWeil.Tower";
+	"Lib.Weil.MixedModel" -> "Lib.Weil.Construction";
+	"Lib.Weil.MixedModel" -> "Lib.Weil.Fock";
+	"Lib.Weil.Periods"	[fillcolor="#cfe8ff",
+		label="Lib/\nWeil/Periods\n70 theorems"];
+	"Lib.Weil.MixedModel" -> "Lib.Weil.Periods";
+	"Lib.Weil.Unramified"	[fillcolor="#cfe8ff",
+		label="Lib/\nWeil/Unramified\n65 theorems"];
+	"Lib.Weil.MixedModel" -> "Lib.Weil.Unramified";
+	"Lib.Weil.Periods" -> "Lib.Cohomology.Duality";
+	"Lib.Weil.Periods" -> "Lib.Weil.CompactLift";
+	"Lib.Weil.Periods" -> "Lib.Weil.DualPair";
+	"Lib.Weil.Unramified" -> "Lib.GaloisRep.WeightCongruence";
+	"Lib.Weil.Unramified" -> "Lib.General.LinearAlgebra";
+	"Lib.Weil.Unramified" -> "Lib.LocalGL.Iwahori";
+	"Lib.Weil.Unramified" -> "Lib.LocalGL.Tadic";
+	"Lib.Weil.Unramified" -> "Lib.LocalGL.TaylorWiles";
+	"Lib.Weil.Unramified" -> "Lib.Shimura.CongruenceRelation";
+	"Lib.Weil.Unramified" -> "Lib.Shimura.HeckeTower";
+	"Lib.Weil.Unramified" -> "Lib.Shimura.Transfer";
+	"Lib.Weil.Unramified" -> "Lib.Shimura.Uniformisation";
+	"Lib.Weil.Unramified" -> "Lib.SiegelWeil.Formula";
+	"Lib.Weil.Unramified" -> "Lib.SiegelWeil.RallisInner";
+	"Lib.Weil.Unramified" -> "Lib.Weil.Lift";
+	Main	[fillcolor="#ffd58a",
+		label="Main\n5 theorems"];
+	New	[fillcolor="#ffe0e0",
+		label="New\n5 theorems"];
+	New -> Main;
+	"New.Columns"	[fillcolor="#ffe0e0",
+		label="New/\nColumns\n85 theorems"];
+	"New.Columns" -> "New.Endgame";
+	"New.Core"	[fillcolor="#ffe0e0",
+		label="New/\nCore\n8 theorems"];
+	"New.TwistedHecke"	[fillcolor="#ffe0e0",
+		label="New/\nTwistedHecke\n66 theorems"];
+	"New.Core" -> "New.TwistedHecke";
+	"New.Curve" -> "New.Columns";
+	"New.Data" -> "New.Exchange";
+	"New.DiscreteSeries"	[fillcolor="#ffe0e0",
+		label="New/\nDiscreteSeries\n43 theorems"];
+	"New.DiscreteSeries" -> "New.Exchange";
+	"New.Endgame" -> "New.Data";
+	"New.Filling"	[fillcolor="#ffe0e0",
+		label="New/\nFilling\n407 theorems"];
+	"New.Exchange" -> "New.Filling";
+	"New.Filling" -> "New.Core";
+	"New.RealPlace"	[fillcolor="#ffe0e0",
+		label="New/\nRealPlace\n231 theorems"];
+	"New.Filling" -> "New.RealPlace";
+	"New.Rows"	[fillcolor="#ffe0e0",
+		label="New/\nRows\n124 theorems"];
+	"New.Filling" -> "New.Rows";
+	"New.Forms"	[fillcolor="#ffe0e0",
+		label="New/\nForms\n14 theorems"];
+	"New.Forms" -> "New.Exchange";
+	"New.GaloisRep"	[fillcolor="#ffe0e0",
+		label="New/\nGaloisRep\n2 theorems"];
+	"New.GaloisRep" -> "New.Selmer";
+	"New.Heights" -> "New.Endgame";
+	"New.Lift" -> "New.Selmer";
+	"New.Patching" -> "New.Selmer";
+	"New.RealPlace" -> "New.DiscreteSeries";
+	"New.Rows" -> "New.Forms";
+	"New.Seesaw"	[fillcolor="#ffe0e0",
+		label="New/\nSeesaw\n212 theorems"];
+	"New.Rows" -> "New.Seesaw";
+	"New.SiegelWeil"	[fillcolor="#ffe0e0",
+		label="New/\nSiegelWeil\n8 theorems"];
+	"New.Rows" -> "New.SiegelWeil";
+	"New.Seesaw" -> "New.Curve";
+	"New.Selmer" -> "New.Endgame";
+	"New.Selmer" -> "New.Patching";
+	"New.Trace"	[fillcolor="#ffe0e0",
+		label="New/\nTrace\n28 theorems"];
+	"New.SiegelWeil" -> "New.Trace";
+	"New.Trace" -> New;
+	"New.Trace" -> "New.Columns";
+	"New.Trace" -> "New.GaloisRep";
+	"New.TwistedHecke" -> "New.Columns";
+	"New.Weil" -> "New.Rows";
+	Statements	[fillcolor="#eeeeee",
+		label="Statements\n0 theorems"];
+	Statements -> New;
+}

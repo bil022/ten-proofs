@@ -1,0 +1,385 @@
+digraph G {
+	graph [nodesep=0.25,
+		rankdir=LR,
+		ranksep=0.8
+	];
+	node [fontname=Helvetica,
+		fontsize=11,
+		shape=box,
+		style="filled,rounded"
+	];
+	edge [arrowsize=0.6,
+		color="#8a8a8a"
+	];
+	"Main.lean"	[fillcolor="#ffd58a",
+		label="Main · lean\nMain.lean\n15 declarations"];
+	"New.BesselSystem.enorm_integral_pairKernel_cut_le"	[fillcolor="#ffe0e0",
+		label="新 · Bessel 系统 · enorm 积分 对核 割 ≤\nNew.BesselSystem.enorm_integral_pairKernel_cut_le\n3 declarations"];
+	"New.Filling.enorm_integral_besselKernel_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · enorm 积分 bessel 核 ≤\nNew.Filling.enorm_integral_besselKernel_le\n2 declarations"];
+	"New.BesselSystem.enorm_integral_pairKernel_cut_le" -> "New.Filling.enorm_integral_besselKernel_le";
+	"New.BesselSystem.exists_isCompact_enorm_integral_piKernel_le"	[fillcolor="#ffe0e0",
+		label="新 · Bessel 系统 · 存在 是紧 enorm 积分 π核 ≤\nNew.BesselSystem.exists_isCompact_enorm_integral_piKernel_le\n17 declarations"];
+	"New.BesselSystem.hasCompactSupport_and_enorm_integral_piKernel_le"	[fillcolor="#ffe0e0",
+		label="新 · Bessel 系统 · 有紧支撑 且 enorm 积分 π核 ≤\nNew.BesselSystem.hasCompactSupport_and_enorm_integral_piKernel_le\n6 declarations"];
+	"New.BesselSystem.exists_isCompact_enorm_integral_piKernel_le" -> "New.BesselSystem.hasCompactSupport_and_enorm_integral_piKernel_le";
+	"New.BesselSystem.exists_isKernelBound_gramSection"	[fillcolor="#ffe0e0",
+		label="新 · Bessel 系统 · 存在 是核界 gram 截面\nNew.BesselSystem.exists_isKernelBound_gramSection\n59 declarations"];
+	"New.BesselSystem.exists_isOpenCellBound"	[fillcolor="#ffe0e0",
+		label="新 · Bessel 系统 · 存在 是开胞腔界\nNew.BesselSystem.exists_isOpenCellBound\n46 declarations"];
+	"New.BesselSystem.exists_isKernelBound_gramSection" -> "New.BesselSystem.exists_isOpenCellBound";
+	"New.BesselSystem.exists_isOpenCellBound" -> "New.BesselSystem.exists_isCompact_enorm_integral_piKernel_le";
+	"New.BesselSystem.hasCompactSupport_and_enorm_integral_piKernel_le" -> "New.BesselSystem.enorm_integral_pairKernel_cut_le";
+	"New.BesselSystem.isL2Contraction_gramSection"	[fillcolor="#ffe0e0",
+		label="新 · Bessel 系统 · 是 L 2 收缩 gram 截面\nNew.BesselSystem.isL2Contraction_gramSection\n101 declarations"];
+	"New.BesselSystem.isL2Contraction_gramSection" -> "New.BesselSystem.exists_isKernelBound_gramSection";
+	"New.Columns.isOntoUpToColength_scaledHeckeOperator_of_frobeniusCycle"	[fillcolor="#ffe0e0",
+		label="新 · 列 · 是 Onto 上到 Colength 缩放 Hecke 算子 由 frobenius 圈\nNew.Columns.isOntoUpToColength_scaledHeckeOperator_of_frobeniusCycle\n74 declarations"];
+	"New.Data.IsMarked.isOntoUpToColength_scaledHeckeOperator"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 是带标记 · 是 Onto 上到 Colength 缩放 Hecke 算子\nNew.Data.IsMarked.isOntoUpToColength_scaledHeckeOperator\n36 declarations"];
+	"New.Columns.isOntoUpToColength_scaledHeckeOperator_of_frobeniusCycle" -> "New.Data.IsMarked.isOntoUpToColength_scaledHeckeOperator";
+	"New.Data.IsMarked.isOntoUpToColength_prod_scaledHeckeOperator_pow"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 是带标记 · 是 Onto 上到 Colength 积 缩放 Hecke 算子 幂\nNew.Data.IsMarked.isOntoUpToColength_prod_scaledHeckeOperator_pow\n4 declarations"];
+	"New.Data.exists_colengthDvd_gaugeLe_compositeLift"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 colength 整除 规范≤ 复合提升\nNew.Data.exists_colengthDvd_gaugeLe_compositeLift\n371 declarations"];
+	"New.Data.IsMarked.isOntoUpToColength_prod_scaledHeckeOperator_pow" -> "New.Data.exists_colengthDvd_gaugeLe_compositeLift";
+	"New.Data.IsMarked.isOntoUpToColength_scaledHeckeOperator" -> "New.Data.IsMarked.isOntoUpToColength_prod_scaledHeckeOperator_pow";
+	"New.Data.enough_forms"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · enough forms\nNew.Data.enough_forms\n2 declarations"];
+	"New.star_inequality"	[fillcolor="#ffe0e0",
+		label="新 · 星 不等式\nNew.star_inequality\n7,491 declarations"];
+	"New.Data.enough_forms" -> "New.star_inequality";
+	"New.Data.eq_zero_of_integral_choiceFn_thetaKernelPairing"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · = 零 由 积分 choice 函数 θ核配对\nNew.Data.eq_zero_of_integral_choiceFn_thetaKernelPairing\n165 declarations"];
+	"New.Rows.periodLift_injective"	[fillcolor="#ffe0e0",
+		label="新 · 行 · period 提升 单射\nNew.Rows.periodLift_injective\n3 declarations"];
+	"New.Data.eq_zero_of_integral_choiceFn_thetaKernelPairing" -> "New.Rows.periodLift_injective";
+	"New.Data.exists_besselSystem"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 bessel 系统\nNew.Data.exists_besselSystem\n120 declarations"];
+	"New.Data.exists_besselSystem" -> "New.star_inequality";
+	"New.Data.exists_err_gaugeLe_compositeLift"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 err 规范≤ 复合提升\nNew.Data.exists_err_gaugeLe_compositeLift\n7 declarations"];
+	"New.Data.exists_colengthDvd_gaugeLe_compositeLift" -> "New.Data.exists_err_gaugeLe_compositeLift";
+	"New.Data.exists_dualPairing_eq_mul_lastPathPeriod"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 对偶配对 = × 最后路径 Period\nNew.Data.exists_dualPairing_eq_mul_lastPathPeriod\n2 declarations"];
+	"New.Data.exists_lowerChain_integral_and_weylNormSq_le"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 下链 积分 且 weyl 范数平方 ≤\nNew.Data.exists_lowerChain_integral_and_weylNormSq_le\n133 declarations"];
+	"New.Data.exists_dualPairing_eq_mul_lastPathPeriod" -> "New.Data.exists_lowerChain_integral_and_weylNormSq_le";
+	"New.Data.exists_err_gaugeLe_compositeLift" -> "New.star_inequality";
+	"New.Data.exists_hasSmallRatios_heightLe_liftDeterminant_div"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 有小比 高度≤ 提升行列式 ÷\nNew.Data.exists_hasSmallRatios_heightLe_liftDeterminant_div\n333 declarations"];
+	"New.Data.integral_forms_long"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 积分 forms long\nNew.Data.integral_forms_long\n1,001 declarations"];
+	"New.Data.exists_hasSmallRatios_heightLe_liftDeterminant_div" -> "New.Data.integral_forms_long";
+	"New.Data.exists_integral_lowerChainUpTo_eq_lastPathPeriod"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 积分 下链上到 = 最后路径 Period\nNew.Data.exists_integral_lowerChainUpTo_eq_lastPathPeriod\n37 declarations"];
+	"New.Data.exists_integral_lowerChainUpTo_eq_lastPathPeriod" -> "New.Data.exists_dualPairing_eq_mul_lastPathPeriod";
+	"New.Data.exists_integral_mul_lowerChainUpTo_eq_cutSum"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 积分 × 下链上到 = 割和\nNew.Data.exists_integral_mul_lowerChainUpTo_eq_cutSum\n93 declarations"];
+	"New.Data.exists_lowerChainUpTo_poincareAt_eq"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 下链上到 poincare 在 =\nNew.Data.exists_lowerChainUpTo_poincareAt_eq\n85 declarations"];
+	"New.Data.exists_integral_mul_lowerChainUpTo_eq_cutSum" -> "New.Data.exists_lowerChainUpTo_poincareAt_eq";
+	"New.Data.exists_isAdmissibleCombination_evaluatedDatum"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 是容许组合 已求值数据\nNew.Data.exists_isAdmissibleCombination_evaluatedDatum\n17 declarations"];
+	"New.Data.exists_isAdmissibleCombination_gluedVacuum"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 是容许组合 粘合真空\nNew.Data.exists_isAdmissibleCombination_gluedVacuum\n6 declarations"];
+	"New.Data.exists_isAdmissibleCombination_evaluatedDatum" -> "New.Data.exists_isAdmissibleCombination_gluedVacuum";
+	"New.Data.exists_isAdmissibleCombination_seesawDatum"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 是容许组合 seesaw 数据\nNew.Data.exists_isAdmissibleCombination_seesawDatum\n9 declarations"];
+	"New.Data.exists_isAdmissibleCombination_gluedVacuum" -> "New.Data.exists_isAdmissibleCombination_seesawDatum";
+	"New.Data.seesaw_identity"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · seesaw 恒等式\nNew.Data.seesaw_identity\n168 declarations"];
+	"New.Data.exists_isAdmissibleCombination_seesawDatum" -> "New.Data.seesaw_identity";
+	"New.Data.exists_isPathDatum_first"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 是路径数据 第一\nNew.Data.exists_isPathDatum_first\n142 declarations"];
+	"New.Data.exists_isPathDatum_first" -> "New.Data.exists_integral_lowerChainUpTo_eq_lastPathPeriod";
+	"New.Data.exists_isTestForm_le_norm_inner_trivialLift"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 是检验形式 ≤ 范数 内积 平凡提升\nNew.Data.exists_isTestForm_le_norm_inner_trivialLift\n46 declarations"];
+	"New.Data.heightLe_inv_ratio"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 高度≤ 逆 比\nNew.Data.heightLe_inv_ratio\n35 declarations"];
+	"New.Data.exists_isTestForm_le_norm_inner_trivialLift" -> "New.Data.heightLe_inv_ratio";
+	"New.Data.exists_le_finrank_iSup_range_normalizedPoincare"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 ≤ 有限秩 i 上确界 值域 归一化 Poincare\nNew.Data.exists_le_finrank_iSup_range_normalizedPoincare\n10 declarations"];
+	"New.Data.exists_le_finrank_iSup_range_normalizedPoincare" -> "New.Data.enough_forms";
+	"New.Data.exists_lowerChainUpTo_poincareAt_eq" -> "New.Data.seesaw_identity";
+	"New.Data.exists_span_short_lifts_eq_top"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 张成 短 提升 = ⊤\nNew.Data.exists_span_short_lifts_eq_top\n24 declarations"];
+	"New.Data.exists_lowerChain_integral_and_weylNormSq_le" -> "New.Data.exists_span_short_lifts_eq_top";
+	"New.Data.exists_rpow_neg_localPrimeSumTotal_le_norm_coeff"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 实幂 负 局部素和总 ≤ 范数 系数\nNew.Data.exists_rpow_neg_localPrimeSumTotal_le_norm_coeff\n39 declarations"];
+	"New.Data.exists_rpow_neg_localPrimeSumTotal_le_norm_coeff" -> "New.Data.exists_isTestForm_le_norm_inner_trivialLift";
+	"New.Data.exists_span_isAuxiliaryForm_eq_top"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 张成 是辅助形式 = ⊤\nNew.Data.exists_span_isAuxiliaryForm_eq_top\n1 declarations"];
+	"New.Data.exists_span_isAuxiliaryForm_eq_top" -> "New.Data.integral_forms_long";
+	"New.Data.exists_span_short_lifts_eq_top" -> "New.Data.exists_span_isAuxiliaryForm_eq_top";
+	"New.Data.exists_transfersPeriods_first_last"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 transfers Periods 第一 最后\nNew.Data.exists_transfersPeriods_first_last\n23 declarations"];
+	"New.Data.exists_transfersPeriods_first_last" -> "New.Data.exists_integral_lowerChainUpTo_eq_lastPathPeriod";
+	"New.Data.exists_transfersPeriods_of_turn"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 存在 transfers Periods 由 turn\nNew.Data.exists_transfersPeriods_of_turn\n132 declarations"];
+	"New.Data.exists_transfersPeriods_of_turn" -> "New.Data.exists_transfersPeriods_first_last";
+	"New.Data.hasLatticeBounds_of_unfoldStage_ne_zero"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 有格界 由 unfold 阶段 ≠ 零\nNew.Data.hasLatticeBounds_of_unfoldStage_ne_zero\n102 declarations"];
+	"New.Data.hasLatticeBounds_of_unfoldStage_ne_zero" -> "New.Data.exists_integral_mul_lowerChainUpTo_eq_cutSum";
+	"New.Data.heightLe_inv_heckeValueProd_div"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 高度≤ 逆 hecke 值积 ÷\nNew.Data.heightLe_inv_heckeValueProd_div\n6 declarations"];
+	"New.Data.heightLe_liftDeterminant_ratio"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 高度≤ 提升行列式 比\nNew.Data.heightLe_liftDeterminant_ratio\n228 declarations"];
+	"New.Data.heightLe_inv_heckeValueProd_div" -> "New.Data.heightLe_liftDeterminant_ratio";
+	"New.Data.heightLe_inv_ratio" -> "New.Data.heightLe_inv_heckeValueProd_div";
+	"New.Data.heightLe_liftDeterminant_ratio" -> "New.Data.exists_hasSmallRatios_heightLe_liftDeterminant_div";
+	"New.Data.integral_forms_long" -> "New.star_inequality";
+	"New.Data.isAdmissibleEval_doubleLiftEvalY"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 是容许求值 双提升求值 Y\nNew.Data.isAdmissibleEval_doubleLiftEvalY\n38 declarations"];
+	"New.Data.isAdmissibleEval_doubleLiftEvalY" -> "New.Data.exists_isAdmissibleCombination_evaluatedDatum";
+	"New.Data.isComparisonOperator_comparisonOp"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 是比较算子 比较 Op\nNew.Data.isComparisonOperator_comparisonOp\n179 declarations"];
+	"New.Data.isComparisonOperator_comparisonOp" -> "New.Data.heightLe_liftDeterminant_ratio";
+	"New.Data.isSpread_goodPoincare"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 是 Spread 好 Poincare\nNew.Data.isSpread_goodPoincare\n7 declarations"];
+	"New.Data.isSpread_goodPoincare" -> "New.Data.exists_le_finrank_iSup_range_normalizedPoincare";
+	"New.Data.leastValLE_twelve"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 最小值≤ 十二\nNew.Data.leastValLE_twelve\n188 declarations"];
+	"New.Data.leastValLE_twelve" -> "New.Data.exists_rpow_neg_localPrimeSumTotal_le_norm_coeff";
+	"New.Data.primeRemainder_le"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 素余项 ≤\nNew.Data.primeRemainder_le\n68 declarations"];
+	"New.eventually_primeRemainder_natCast_le"	[fillcolor="#ffe0e0",
+		label="新 · 最终 素余项 自然数类型转换 ≤\nNew.eventually_primeRemainder_natCast_le\n2,392 declarations"];
+	"New.Data.primeRemainder_le" -> "New.eventually_primeRemainder_natCast_le";
+	"New.Data.seesaw_identity" -> "New.star_inequality";
+	"New.Data.sum_hilbertSchmidtNorm_scaledPoincare_sq_le"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 和 hilbert Schmidt 范数 缩放 Poincare 平方 ≤\nNew.Data.sum_hilbertSchmidtNorm_scaledPoincare_sq_le\n1 declarations"];
+	"New.Data.targetDim_mul_sum_hilbertSchmidtNorm_sq_le"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 目标维数 × 和 hilbert Schmidt 范数 平方 ≤\nNew.Data.targetDim_mul_sum_hilbertSchmidtNorm_sq_le\n3 declarations"];
+	"New.Data.sum_hilbertSchmidtNorm_scaledPoincare_sq_le" -> "New.Data.targetDim_mul_sum_hilbertSchmidtNorm_sq_le";
+	"New.Data.targetDim_mul_sum_hilbertSchmidtNorm_sq_le" -> "New.Data.isSpread_goodPoincare";
+	"New.Data.trace_heckeOnGood_eq"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 迹 hecke 在…上好 =\nNew.Data.trace_heckeOnGood_eq\n2 declarations"];
+	"New.Data.trace_heckeOnGood_eq" -> "New.star_inequality";
+	"New.Data.trace_mul_tupleIdem_eq"	[fillcolor="#ffe0e0",
+		label="新 · 数据 · 迹 × 元组 Idem =\nNew.Data.trace_mul_tupleIdem_eq\n32 declarations"];
+	"New.Data.trace_mul_tupleIdem_eq" -> "New.Data.trace_heckeOnGood_eq";
+	"New.DiscreteSeries.IsLaplaceDatum.laplace_method"	[fillcolor="#ffe0e0",
+		label="新 · 离散级数 · 是 Laplace 数据 · laplace method\nNew.DiscreteSeries.IsLaplaceDatum.laplace_method\n12 declarations"];
+	"New.DiscreteSeries.IsStationary.integrable_periodIntegrand_and_measure_le"	[fillcolor="#ffe0e0",
+		label="新 · 离散级数 · 是驻点 · 可积 period 被积函数 且 测度 ≤\nNew.DiscreteSeries.IsStationary.integrable_periodIntegrand_and_measure_le\n19 declarations"];
+	"New.DiscreteSeries.IsLaplaceDatum.laplace_method" -> "New.DiscreteSeries.IsStationary.integrable_periodIntegrand_and_measure_le";
+	"New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add"	[fillcolor="#ffe0e0",
+		label="新 · 离散级数 · 是 Laplace 数据 · 范数 laplace 被积函数 ≤ × 实部 +\nNew.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add\n44 declarations"];
+	"New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add_mul_pow"	[fillcolor="#ffe0e0",
+		label="新 · 离散级数 · 是 Laplace 数据 · 范数 laplace 被积函数 ≤ 二 × 实部 + × 幂\nNew.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add_mul_pow\n2 declarations"];
+	"New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add" -> "New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add_mul_pow";
+	"New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add_of_near"	[fillcolor="#ffe0e0",
+		label="新 · 离散级数 · 是 Laplace 数据 · 范数 laplace 被积函数 ≤ × 实部 + 由 附近\nNew.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add_of_near\n15 declarations"];
+	"New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add_of_near" -> "New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add";
+	"New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add"	[fillcolor="#ffe0e0",
+		label="新 · 离散级数 · 是 Laplace 数据 · 范数 laplace 被积函数 ≤ 二 × 实部 +\nNew.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add\n3 declarations"];
+	"New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add" -> "New.DiscreteSeries.IsLaplaceDatum.laplace_method";
+	"New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add_mul_pow" -> "New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_two_mul_re_add";
+	"New.DiscreteSeries.IsStationary.period_lower_bound_of_surjective"	[fillcolor="#ffe0e0",
+		label="新 · 离散级数 · 是驻点 · period 下 界 由 满射\nNew.DiscreteSeries.IsStationary.period_lower_bound_of_surjective\n4 declarations"];
+	"New.DiscreteSeries.IsStationary.integrable_periodIntegrand_and_measure_le" -> "New.DiscreteSeries.IsStationary.period_lower_bound_of_surjective";
+	"New.DiscreteSeries.IsStationary.period_lower_bound_of_surjective" -> "New.star_inequality";
+	"New.DiscreteSeries.exists_norm_dsCoeff_div_cexp_sub_le"	[fillcolor="#ffe0e0",
+		label="新 · 离散级数 · 存在 范数 ds 系数 ÷ cexp − ≤\nNew.DiscreteSeries.exists_norm_dsCoeff_div_cexp_sub_le\n113 declarations"];
+	"New.DiscreteSeries.exists_norm_dsCoeff_div_cexp_sub_le" -> "New.DiscreteSeries.IsLaplaceDatum.norm_laplaceIntegrand_le_mul_re_add_of_near";
+	"New.Exchange.IsEquivariantLift.apply_eq_zero_of_areMatched"	[fillcolor="#ffe0e0",
+		label="新 · 交换 · 是等变提升 · 作用于 = 零 由 are 已匹配\nNew.Exchange.IsEquivariantLift.apply_eq_zero_of_areMatched\n118 declarations"];
+	"New.Exchange.exists_thetaLarge_eq_smul_of_isPeriodIdentity"	[fillcolor="#ffe0e0",
+		label="新 · 交换 · 存在 θ大 = 数乘 由 是 Period 恒等式\nNew.Exchange.exists_thetaLarge_eq_smul_of_isPeriodIdentity\n63 declarations"];
+	"New.Exchange.IsEquivariantLift.apply_eq_zero_of_areMatched" -> "New.Exchange.exists_thetaLarge_eq_smul_of_isPeriodIdentity";
+	"New.Exchange.exchange_identity"	[fillcolor="#ffe0e0",
+		label="新 · 交换 · 交换 恒等式\nNew.Exchange.exchange_identity\n1 declarations"];
+	"New.Exchange.exchange_identity" -> "New.Data.integral_forms_long";
+	"New.Exchange.exchange_theorem"	[fillcolor="#ffe0e0",
+		label="新 · 交换 · 交换 定理\nNew.Exchange.exchange_theorem\n463 declarations"];
+	"New.Exchange.exchange_theorem" -> "New.Exchange.exchange_identity";
+	"New.Exchange.exists_thetaLarge_eq_smul_of_isPeriodIdentity" -> "New.Exchange.exchange_theorem";
+	"New.Exchange.exists_zetaIntegral"	[fillcolor="#cfe8ff",
+		label="新 · 交换 · 存在 zeta 积分\nNew.Exchange.exists_zetaIntegral\n110 declarations"];
+	"New.Exchange.exists_zetaIntegral" -> "New.Exchange.exchange_theorem";
+	"New.Filling.HasAmplitudeBlocks.sum_hilbertSchmidtNorm_sq_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · 有振幅块 · 和 hilbert Schmidt 范数 平方 ≤\nNew.Filling.HasAmplitudeBlocks.sum_hilbertSchmidtNorm_sq_le\n3 declarations"];
+	"New.Filling.HasAmplitudeBlocks.sum_hilbertSchmidtNorm_sq_le" -> "New.Data.sum_hilbertSchmidtNorm_scaledPoincare_sq_le";
+	"New.Filling.enorm_amplitudeSum_le_of_termDiscNorm_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · enorm 振幅和 ≤ 由 项 Disc 范数 ≤\nNew.Filling.enorm_amplitudeSum_le_of_termDiscNorm_le\n20 declarations"];
+	"New.Filling.enorm_amplitudeSum_le_orbitBound"	[fillcolor="#ffe0e0",
+		label="新 · Filling · enorm 振幅和 ≤ 轨道界\nNew.Filling.enorm_amplitudeSum_le_orbitBound\n10 declarations"];
+	"New.Filling.enorm_amplitudeSum_le_of_termDiscNorm_le" -> "New.Filling.enorm_amplitudeSum_le_orbitBound";
+	"New.Filling.enorm_amplitudeSum_le_tsum_termSize"	[fillcolor="#ffe0e0",
+		label="新 · Filling · enorm 振幅和 ≤ tsum 项大小\nNew.Filling.enorm_amplitudeSum_le_tsum_termSize\n6 declarations"];
+	"New.Filling.enorm_amplitudeSum_le_orbitBound" -> "New.Filling.enorm_amplitudeSum_le_tsum_termSize";
+	"New.Filling.enorm_amplitudeSum_le_orbitBound_top"	[fillcolor="#ffe0e0",
+		label="新 · Filling · enorm 振幅和 ≤ 轨道界 ⊤\nNew.Filling.enorm_amplitudeSum_le_orbitBound_top\n20 declarations"];
+	"New.Filling.enorm_amplitudeSum_le_orbitBound_top" -> "New.Filling.enorm_amplitudeSum_le_orbitBound";
+	"New.Filling.enorm_amplitudeSum_mul_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · enorm 振幅和 × ≤\nNew.Filling.enorm_amplitudeSum_mul_le\n1 declarations"];
+	"New.Filling.enorm_amplitudeSum_le_tsum_termSize" -> "New.Filling.enorm_amplitudeSum_mul_le";
+	"New.Filling.enorm_amplitudeSum_mul_le" -> "New.star_inequality";
+	"New.Filling.enorm_integral_besselKernel_le" -> "New.Filling.enorm_amplitudeSum_le_orbitBound_top";
+	"New.Filling.linkSecondMoment_isOpenElement_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · link 第二矩 是开元素 ≤\nNew.Filling.linkSecondMoment_isOpenElement_le\n56 declarations"];
+	"New.Filling.secondMoment_fixer_isOpenElement_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · 第二矩 fixer 是开元素 ≤\nNew.Filling.secondMoment_fixer_isOpenElement_le\n3 declarations"];
+	"New.Filling.linkSecondMoment_isOpenElement_le" -> "New.Filling.secondMoment_fixer_isOpenElement_le";
+	"New.Filling.sum_secondMoment_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · 和 第二矩 ≤\nNew.Filling.sum_secondMoment_le\n34 declarations"];
+	"New.Filling.secondMoment_fixer_isOpenElement_le" -> "New.Filling.sum_secondMoment_le";
+	"New.Filling.sieve"	[fillcolor="#ffe0e0",
+		label="新 · Filling · sieve\nNew.Filling.sieve\n101 declarations"];
+	"New.Filling.sum_norm_sum_cosetAmplitude_sq_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · 和 范数 和 陪集振幅 平方 ≤\nNew.Filling.sum_norm_sum_cosetAmplitude_sq_le\n218 declarations"];
+	"New.Filling.sieve" -> "New.Filling.sum_norm_sum_cosetAmplitude_sq_le";
+	"New.Filling.sq_tsum_amplitudeMajorant_doubleCoset_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · 平方 tsum 振幅控制函数 双陪集 ≤\nNew.Filling.sq_tsum_amplitudeMajorant_doubleCoset_le\n3 declarations"];
+	"New.Filling.tsum_amplitudeMajorant_orbit_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · tsum 振幅控制函数 轨道 ≤\nNew.Filling.tsum_amplitudeMajorant_orbit_le\n3 declarations"];
+	"New.Filling.sq_tsum_amplitudeMajorant_doubleCoset_le" -> "New.Filling.tsum_amplitudeMajorant_orbit_le";
+	"New.Filling.sum_norm_sum_cosetAmplitude_sq_le" -> "New.Filling.linkSecondMoment_isOpenElement_le";
+	"New.Filling.sum_secondMoment_le" -> "New.Filling.HasAmplitudeBlocks.sum_hilbertSchmidtNorm_sq_le";
+	"New.Filling.sum_termSize_mul_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · 和 项大小 × ≤\nNew.Filling.sum_termSize_mul_le\n106 declarations"];
+	"New.Filling.sum_termSize_mul_le" -> "New.star_inequality";
+	"New.Filling.tsum_amplitudeMajorant_orbit_le" -> "New.Filling.enorm_amplitudeSum_le_of_termDiscNorm_le";
+	"New.Filling.tsum_schurIntegral_le"	[fillcolor="#ffe0e0",
+		label="新 · Filling · tsum schur 积分 ≤\nNew.Filling.tsum_schurIntegral_le\n130 declarations"];
+	"New.Filling.tsum_schurIntegral_le" -> "New.Filling.sq_tsum_amplitudeMajorant_doubleCoset_le";
+	"New.Floors.exists_hasLocalBounds_of_isCutBessel"	[fillcolor="#ffe0e0",
+		label="新 · Floors · 存在 有局部界 由 是割 Bessel\nNew.Floors.exists_hasLocalBounds_of_isCutBessel\n195 declarations"];
+	"New.Floors.exists_hasLocalBounds_of_isCutBessel" -> "New.Data.exists_besselSystem";
+	"New.FrobeniusCycle.elementary_divisors"	[fillcolor="#ffe0e0",
+		label="新 · Frobenius 圈 · 初等 divisors\nNew.FrobeniusCycle.elementary_divisors\n41 declarations"];
+	"New.FrobeniusCycle.elementary_divisors" -> "New.Columns.isOntoUpToColength_scaledHeckeOperator_of_frobeniusCycle";
+	"New.FrobeniusCycle.exists_average_mem_defectConditions_and_dvd_sub"	[fillcolor="#ffe0e0",
+		label="新 · Frobenius 圈 · 存在 平均 ∈ 亏量 Conditions 且 整除 −\nNew.FrobeniusCycle.exists_average_mem_defectConditions_and_dvd_sub\n134 declarations"];
+	"New.FrobeniusCycle.exists_isEdgeCondition"	[fillcolor="#ffe0e0",
+		label="新 · Frobenius 圈 · 存在 是边条件\nNew.FrobeniusCycle.exists_isEdgeCondition\n169 declarations"];
+	"New.FrobeniusCycle.exists_average_mem_defectConditions_and_dvd_sub" -> "New.FrobeniusCycle.exists_isEdgeCondition";
+	"New.FrobeniusCycle.exists_colengthDvd_range_pairingMap_mul_edgeRestriction"	[fillcolor="#ffe0e0",
+		label="新 · Frobenius 圈 · 存在 colength 整除 值域 配对映射 × 边限制\nNew.FrobeniusCycle.exists_colengthDvd_range_pairingMap_mul_edgeRestriction\n109 declarations"];
+	"New.FrobeniusCycle.exists_colengthDvd_range_pairingMap_mul_edgeRestriction" -> "New.FrobeniusCycle.elementary_divisors";
+	"New.FrobeniusCycle.exists_isEdgeCondition" -> "New.FrobeniusCycle.exists_colengthDvd_range_pairingMap_mul_edgeRestriction";
+	"New.Orbital.harish_chandra_degree_and_orbital"	[fillcolor="#cfe8ff",
+		label="新 · Orbital · harish chandra 次数 且 orbital\nNew.Orbital.harish_chandra_degree_and_orbital\n141 declarations"];
+	"New.Orbital.harish_chandra_degree_and_orbital" -> "New.star_inequality";
+	"New.Parameters.exists_hasNormalForm"	[fillcolor="#ffe0e0",
+		label="新 · 参数 · 存在 有正规形式\nNew.Parameters.exists_hasNormalForm\n113 declarations"];
+	"New.Parameters.exists_hasNormalForm" -> "New.star_inequality";
+	"New.Patching.BaseLevel.exists_deformed_norm_family"	[fillcolor="#ffe0e0",
+		label="新 · Patching · 基水平 · 存在 deformed 范数 族\nNew.Patching.BaseLevel.exists_deformed_norm_family\n104 declarations"];
+	"New.Patching.BaseLevel.smul_top_coeff_mem_ellIntegralForms"	[fillcolor="#ffe0e0",
+		label="新 · Patching · 基水平 · 数乘 ⊤ 系数 ∈ ell 积分 Forms\nNew.Patching.BaseLevel.smul_top_coeff_mem_ellIntegralForms\n23 declarations"];
+	"New.Patching.BaseLevel.exists_deformed_norm_family" -> "New.Patching.BaseLevel.smul_top_coeff_mem_ellIntegralForms";
+	"New.Patching.BaseLevel.exists_diagOp_mem_ellIntegralForms"	[fillcolor="#ffe0e0",
+		label="新 · Patching · 基水平 · 存在 对角 Op ∈ ell 积分 Forms\nNew.Patching.BaseLevel.exists_diagOp_mem_ellIntegralForms\n26 declarations"];
+	"New.Selmer.exists_ellVal_le_and_diagOp_mem_ellIntegralForms"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 ell 值 ≤ 且 对角 Op ∈ ell 积分 Forms\nNew.Selmer.exists_ellVal_le_and_diagOp_mem_ellIntegralForms\n30 declarations"];
+	"New.Patching.BaseLevel.exists_diagOp_mem_ellIntegralForms" -> "New.Selmer.exists_ellVal_le_and_diagOp_mem_ellIntegralForms";
+	"New.Patching.BaseLevel.smul_top_coeff_mem_ellIntegralForms" -> "New.Patching.BaseLevel.exists_diagOp_mem_ellIntegralForms";
+	"New.Rows.descentsVanish_hyperbolicSum"	[fillcolor="#ffe0e0",
+		label="新 · 行 · descents Vanish 双曲和\nNew.Rows.descentsVanish_hyperbolicSum\n119 declarations"];
+	"New.Rows.integral_conj_pairTheta_mul_algFormCoeff_eq_zero"	[fillcolor="#ffe0e0",
+		label="新 · 行 · 积分 共轭 对θ × alg 形式系数 = 零\nNew.Rows.integral_conj_pairTheta_mul_algFormCoeff_eq_zero\n42 declarations"];
+	"New.Rows.descentsVanish_hyperbolicSum" -> "New.Rows.integral_conj_pairTheta_mul_algFormCoeff_eq_zero";
+	"New.Rows.stdClassSum_gramForm_eq_zero"	[fillcolor="#ffe0e0",
+		label="新 · 行 · std 类和 gram 形式 = 零\nNew.Rows.stdClassSum_gramForm_eq_zero\n1 declarations"];
+	"New.Rows.integral_conj_pairTheta_mul_algFormCoeff_eq_zero" -> "New.Rows.stdClassSum_gramForm_eq_zero";
+	"New.Rows.periodLift_injective" -> "New.Data.isComparisonOperator_comparisonOp";
+	"New.Rows.stdClassSum_gramForm_kernelVector_eq_zero"	[fillcolor="#ffe0e0",
+		label="新 · 行 · std 类和 gram 形式 核向量 = 零\nNew.Rows.stdClassSum_gramForm_kernelVector_eq_zero\n1 declarations"];
+	"New.Rows.stdClassSum_gramForm_eq_zero" -> "New.Rows.stdClassSum_gramForm_kernelVector_eq_zero";
+	"New.Rows.stdClassSum_gramForm_kernelVector_eq_zero" -> "New.Data.heightLe_liftDeterminant_ratio";
+	"New.Seesaw.isAdmissibleEval_finEval"	[fillcolor="#ffe0e0",
+		label="新 · Seesaw · 是容许求值 有限求值\nNew.Seesaw.isAdmissibleEval_finEval\n131 declarations"];
+	"New.Seesaw.isAdmissibleEval_finEval" -> "New.Data.isAdmissibleEval_doubleLiftEvalY";
+	"New.Selmer.denominatorLe_clearingBound"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 分母≤ clearing 界\nNew.Selmer.denominatorLe_clearingBound\n1 declarations"];
+	"New.Selmer.exists_mFoldTwist_hasDenominatorsLe"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 m 折叠扭转 有分母≤\nNew.Selmer.exists_mFoldTwist_hasDenominatorsLe\n1,758 declarations"];
+	"New.Selmer.denominatorLe_clearingBound" -> "New.Selmer.exists_mFoldTwist_hasDenominatorsLe";
+	"New.Selmer.eventually_exists_inClass_sum_dualDefect_le"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 最终 存在 在…中类 和 对偶亏量 ≤\nNew.Selmer.eventually_exists_inClass_sum_dualDefect_le\n10 declarations"];
+	"New.Selmer.ribet_columns"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · ribet 列\nNew.Selmer.ribet_columns\n154 declarations"];
+	"New.Selmer.eventually_exists_inClass_sum_dualDefect_le" -> "New.Selmer.ribet_columns";
+	"New.Selmer.exists_anticyclotomic_twist"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 anticyclotomic 扭转\nNew.Selmer.exists_anticyclotomic_twist\n114 declarations"];
+	"New.Selmer.exists_mFoldTwist_hasDivisibleSelmerLengthLe"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 m 折叠扭转 有 Divisible Selmer 长度≤\nNew.Selmer.exists_mFoldTwist_hasDivisibleSelmerLengthLe\n173 declarations"];
+	"New.Selmer.exists_anticyclotomic_twist" -> "New.Selmer.exists_mFoldTwist_hasDivisibleSelmerLengthLe";
+	"New.Selmer.exists_linearMap_eq_smul_mem_integralForms"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 线性映射 = 数乘 ∈ 积分 Forms\nNew.Selmer.exists_linearMap_eq_smul_mem_integralForms\n113 declarations"];
+	"New.Selmer.exists_ellVal_le_and_diagOp_mem_ellIntegralForms" -> "New.Selmer.exists_linearMap_eq_smul_mem_integralForms";
+	"New.Selmer.exists_isCommonRibetElement_addVal_le"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 是公共 Ribet 元素 +值 ≤\nNew.Selmer.exists_isCommonRibetElement_addVal_le\n130 declarations"];
+	"New.Selmer.exists_isCommonRibetElement_addVal_le" -> "New.Selmer.ribet_columns";
+	"New.Selmer.exists_isCommonRibetElement_ellVal_le"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 是公共 Ribet 元素 ell 值 ≤\nNew.Selmer.exists_isCommonRibetElement_ellVal_le\n1 declarations"];
+	"New.Selmer.exists_isCommonRibetElement_ellVal_le" -> "New.Selmer.exists_ellVal_le_and_diagOp_mem_ellIntegralForms";
+	"New.Selmer.exists_isPrimeTriangle"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 是素三角形\nNew.Selmer.exists_isPrimeTriangle\n139 declarations"];
+	"New.Selmer.exists_taylorWilesPlaces_hasRootChain"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 taylor Wiles 位置 有根链\nNew.Selmer.exists_taylorWilesPlaces_hasRootChain\n12 declarations"];
+	"New.Selmer.exists_isPrimeTriangle" -> "New.Selmer.exists_taylorWilesPlaces_hasRootChain";
+	"New.Selmer.exists_isTiedPrimes_card_le_and_length_le"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 是 Tied 素数 基数 ≤ 且 长度 ≤\nNew.Selmer.exists_isTiedPrimes_card_le_and_length_le\n17 declarations"];
+	"New.Selmer.exists_twistPolynomials"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 扭转多项式\nNew.Selmer.exists_twistPolynomials\n31 declarations"];
+	"New.Selmer.exists_isTiedPrimes_card_le_and_length_le" -> "New.Selmer.exists_twistPolynomials";
+	"New.Selmer.exists_isTiedPrimes_length_tiedSelmer_le"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 是 Tied 素数 长度 tied Selmer ≤\nNew.Selmer.exists_isTiedPrimes_length_tiedSelmer_le\n119 declarations"];
+	"New.Selmer.exists_isTiedPrimes_length_tiedSelmer_le" -> "New.Selmer.exists_isTiedPrimes_card_le_and_length_le";
+	"New.Selmer.exists_operator_ellVal_le_liftValuationBound"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 算子 ell 值 ≤ 提升赋值界\nNew.Selmer.exists_operator_ellVal_le_liftValuationBound\n9 declarations"];
+	"New.Selmer.exists_linearMap_eq_smul_mem_integralForms" -> "New.Selmer.exists_operator_ellVal_le_liftValuationBound";
+	"New.exists_isRegularFamily"	[fillcolor="#ffe0e0",
+		label="新 · 存在 是正则族\nNew.exists_isRegularFamily\n225 declarations"];
+	"New.Selmer.exists_mFoldTwist_hasDenominatorsLe" -> "New.exists_isRegularFamily";
+	"New.Selmer.exists_mFoldTwist_selmerLengthLe_inv_ratio_le"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 m 折叠扭转 selmer 长度≤ 逆 比 ≤\nNew.Selmer.exists_mFoldTwist_selmerLengthLe_inv_ratio_le\n2 declarations"];
+	"New.Selmer.exists_mFoldTwist_hasDivisibleSelmerLengthLe" -> "New.Selmer.exists_mFoldTwist_selmerLengthLe_inv_ratio_le";
+	"New.Selmer.exists_mFoldTwist_selmerLengthLe_inv_ratio_le" -> "New.Selmer.exists_mFoldTwist_hasDenominatorsLe";
+	"New.Selmer.exists_operator_det_clearingBound"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 存在 算子 行列式 clearing 界\nNew.Selmer.exists_operator_det_clearingBound\n9 declarations"];
+	"New.Selmer.exists_operator_det_clearingBound" -> "New.Selmer.denominatorLe_clearingBound";
+	"New.Selmer.exists_operator_ellVal_le_liftValuationBound" -> "New.Selmer.exists_operator_det_clearingBound";
+	"New.Selmer.exists_taylorWilesPlaces_hasRootChain" -> "New.Selmer.exists_ellVal_le_and_diagOp_mem_ellIntegralForms";
+	"New.Selmer.exists_twistPolynomials" -> "New.Selmer.exists_anticyclotomic_twist";
+	"New.Selmer.nonempty_twistPolynomials_of_isTiedPrimes"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 非空 扭转多项式 由 是 Tied 素数\nNew.Selmer.nonempty_twistPolynomials_of_isTiedPrimes\n118 declarations"];
+	"New.Selmer.nonempty_twistPolynomials_of_isTiedPrimes" -> "New.Selmer.exists_twistPolynomials";
+	"New.Selmer.normLength_dualDefect_le_of_crystallineSizes"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 范数长度 对偶亏量 ≤ 由 crystalline Sizes\nNew.Selmer.normLength_dualDefect_le_of_crystallineSizes\n164 declarations"];
+	"New.Selmer.normLength_dualDefect_le_of_isSummandClass"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 范数长度 对偶亏量 ≤ 由 是被加项类\nNew.Selmer.normLength_dualDefect_le_of_isSummandClass\n565 declarations"];
+	"New.Selmer.normLength_dualDefect_le_of_crystallineSizes" -> "New.Selmer.normLength_dualDefect_le_of_isSummandClass";
+	"New.Selmer.summand_defect_le_at_place"	[fillcolor="#ffe0e0",
+		label="新 · Selmer · 被加项 亏量 ≤ 在 位置\nNew.Selmer.summand_defect_le_at_place\n2 declarations"];
+	"New.Selmer.normLength_dualDefect_le_of_isSummandClass" -> "New.Selmer.summand_defect_le_at_place";
+	"New.Selmer.ribet_columns" -> "New.Selmer.exists_isCommonRibetElement_ellVal_le";
+	"New.Selmer.summand_defect_le_at_place" -> "New.Selmer.eventually_exists_inClass_sum_dualDefect_le";
+	"New.Space.geometricSide_singleton_eq_zero"	[fillcolor="#cfe8ff",
+		label="新 · 空间 · 几何侧 单点集 = 零\nNew.Space.geometricSide_singleton_eq_zero\n8 declarations"];
+	"New.trace_comparison"	[fillcolor="#cfe8ff",
+		label="新 · 迹 比较\nNew.trace_comparison\n134 declarations"];
+	"New.Space.geometricSide_singleton_eq_zero" -> "New.trace_comparison";
+	"New.eq_zero_of_coprime_factors"	[fillcolor="#cfe8ff",
+		label="新 · = 零 由 互素 因子\nNew.eq_zero_of_coprime_factors\n109 declarations"];
+	"New.eq_zero_of_coprime_factors" -> "New.Space.geometricSide_singleton_eq_zero";
+	"New.eventually_primeRemainder_le_rpow"	[fillcolor="#ffe0e0",
+		label="新 · 最终 素余项 ≤ 实幂\nNew.eventually_primeRemainder_le_rpow\n19 declarations"];
+	"New.grh"	[fillcolor="#ffe0e0",
+		label="新 · grh\nNew.grh\n123 declarations"];
+	"New.eventually_primeRemainder_le_rpow" -> "New.grh";
+	"New.eventually_primeRemainder_natCast_le" -> "New.eventually_primeRemainder_le_rpow";
+	"New.exists_isRegularFamily" -> "New.Data.exists_hasSmallRatios_heightLe_liftDeterminant_div";
+	"New.grh" -> "Main.lean";
+	"New.star_inequality" -> "New.Data.primeRemainder_le";
+	"New.trace_eq_of_isCuspidalAt"	[fillcolor="#cfe8ff",
+		label="新 · 迹 = 由 是 Cuspidal 在\nNew.trace_eq_of_isCuspidalAt\n50 declarations"];
+	"New.trace_comparison" -> "New.trace_eq_of_isCuspidalAt";
+	"New.trace_eq_of_isCuspidalAt" -> "New.Data.trace_mul_tupleIdem_eq";
+	"New.trace_eq_of_trace_cutLevel_eq"	[fillcolor="#cfe8ff",
+		label="新 · 迹 = 由 迹 割水平 =\nNew.trace_eq_of_trace_cutLevel_eq\n124 declarations"];
+	"New.trace_eq_of_trace_cutLevel_eq" -> "New.trace_eq_of_isCuspidalAt";
+}

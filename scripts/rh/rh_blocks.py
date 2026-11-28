@@ -1,29 +1,32 @@
 #!/usr/bin/env python3
-"""Cut the riemann-hypothesis proof into self-contained blocks.
+"""Cut a Riemann Hypothesis proof into self-contained blocks.
 
-Usage: rh_blocks.py <dir with b.*.tsv> <out dir> [<min block size>]
+Usage: rh_blocks.py <project> <dir with b.*.tsv> <out dir> [<min block size>]
 
 A declaration D belongs to theorem X when every chain of dependencies from the
 five theorems of Main.lean down to D passes through X: D is then used only in
 the proof of X, directly or indirectly (X dominates D). These relations form a
 tree, the dominator tree. A block is a declaration whose subtree has at least
-<min block size> declarations (default 2,000), together with every
+<min block size> declarations (default: the project's min_block in
+projects.py, 2,000 for riemannHypothesis), together with every
 declaration in its subtree that belongs to no smaller block.
 
 Writes
-  <out>/riemannHypothesis_blocks.dot  one box per block, with an arrow from each
-                                      block to the block whose proof it is part of
-  <out>/blocks.tsv                    block, parent block, declarations of its own,
-                                      declarations in its subtree, module
+  <out>/<project>_blocks.dot  one box per block, with an arrow from each
+                              block to the block whose proof it is part of
+  <out>/blocks.tsv            block, parent block, declarations of its own,
+                              declarations in its subtree, module
 
 The dominator tree is computed by domtree.py.
 """
 import collections, os, sys
 
 import domtree
+from projects import PROJECTS
 
-MIN = int(sys.argv[3]) if len(sys.argv) > 3 else 2000
-src, out = sys.argv[1], sys.argv[2]
+key, src, out = sys.argv[1], sys.argv[2], sys.argv[3]
+P = PROJECTS[key]
+MIN = int(sys.argv[4]) if len(sys.argv) > 4 else P["min_block"]
 t = domtree.Tree(src)
 names, idom, kids, size = t.names, t.idom, t.kids, t.size
 N = len(names)
@@ -51,10 +54,8 @@ with open(os.path.join(out, "blocks.tsv"), "w") as t:
         parent = "" if v == 0 else label(block[idom[v]])
         t.write(f"{label(v)}\t{parent}\t{own[v] - (v == 0)}\t{size[v] - (v == 0)}\t{module(v)}\n")
 
-COLOR = {"GroundTheory": "#d9f2d0", "Formalism": "#cfe8ff", "Lemmata": "#e3dcf5",
-         "Development": "#ffe0e0", "CompanionTheory": "#d5f0f0", "PositivityTheory": "#fff3c4",
-         "ReciprocityTheory": "#f5dcef", "Statements": "#eeeeee", "Main": "#ffd58a"}
-with open(os.path.join(out, "riemannHypothesis_blocks.dot"), "w") as g:
+COLOR = P["color"]
+with open(os.path.join(out, f"{key}_blocks.dot"), "w") as g:
     g.write("digraph G {\n  rankdir=LR;\n  ranksep=0.8; nodesep=0.25;\n")
     g.write('  node [fontname=Helvetica, fontsize=11, style="filled,rounded", shape=box];\n')
     g.write('  edge [color="#8a8a8a", arrowsize=0.6];\n')

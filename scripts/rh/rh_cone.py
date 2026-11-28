@@ -1,38 +1,31 @@
 #!/usr/bin/env python3
-"""Build the riemann-hypothesis graphs from the RHRead.lean batches.
+"""Build the top-of-proof and folder graphs of a Riemann Hypothesis proof from
+the RHRead.lean batches.
 
-Usage: rh_cone.py <dir with b.*.tsv> <out dir>
+Usage: rh_cone.py <project> <dir with b.*.tsv> <out dir>
 
-The proof is far too large for one theorem-level picture (over half a million
-theorems), so this writes two graphs and a table:
+<project> is a key of projects.PROJECTS (riemannHypothesis, grh, grhCompact),
+used as the prefix of the output files. Writes two graphs and a table:
 
-  <out>/riemannHypothesis.dot          theorems within DEPTH steps of the five
-                                       theorems of Main.lean, in the style of
-                                       ../cone.py (solid and dashed arrows)
-  <out>/riemannHypothesis_folders.dot  one box per source folder (first two
-                                       levels of the path; Lemmata/ as one box),
-                                       with an arrow when a declaration in one
-                                       uses one in another
-  <out>/folders.tsv                    folder, theorems, definitions, modules
+  <out>/<project>.dot          theorems within DEPTH steps of the five
+                               theorems of Main.lean, in the style of
+                               ../cone.py (solid and dashed arrows)
+  <out>/<project>_folders.dot  one box per source folder (see the project's
+                               folder()), with an arrow when a declaration in
+                               one uses one in another
+  <out>/folders.tsv            folder, theorems, definitions, modules
 
 Pipe each .dot through `tred` to remove arrows implied by longer paths.
 """
-import collections, glob, os, sys
+import collections, os, sys
 
-DEPTH = 4
-ROOTS = ["riemannHypothesis", "riemannZeta_eq_zero_re", "LFunction_ne_zero_of_half_lt_re",
-         "LFunction_eq_zero_re", "LFunction_eq_zero_re_of_isPrimitive"]
-src, out = sys.argv[1], sys.argv[2]
+from projects import PROJECTS, ROOTS, load
 
-# A name folded from a helper in another module (`foo.match_1` next to `foo`)
-# appears in more than one batch line: merge them.
-info, used = {}, collections.defaultdict(set)
-for f in sorted(glob.glob(os.path.join(src, "b.*.tsv"))):
-    for line in open(f):
-        name, user, kind, mod, us = line.rstrip("\n").split("\t")[:5]
-        if name not in info or info[name][1] == "?":
-            info[name] = (user, kind, mod)
-        used[name].update(us.split())
+key, src, out = sys.argv[1], sys.argv[2], sys.argv[3]
+P = PROJECTS[key]
+DEPTH = P["depth"]
+
+info, used, _ = load(src)
 pred = {n: {u for u in us if u in info and u != n} for n, us in used.items()}
 
 cone, todo = set(), list(ROOTS)
@@ -76,7 +69,7 @@ for n in layer:
 frontier = {n for n in top if (tp[n][0] | tp[n][1]) - top}
 
 label = lambda n: info[n][0]
-with open(os.path.join(out, "riemannHypothesis.dot"), "w") as g:
+with open(os.path.join(out, f"{key}.dot"), "w") as g:
     g.write("digraph G {\n  rankdir=LR;\n  ranksep=0.6; nodesep=0.25;\n")
     g.write('  node [fontname=Helvetica, fontsize=11, style="filled,rounded", shape=box];\n')
     g.write('  edge [color="#8a8a8a", arrowsize=0.7];\n')
@@ -93,10 +86,7 @@ with open(os.path.join(out, "riemannHypothesis.dot"), "w") as g:
 print(f"top of the proof: {len(top)} theorems, {len(frontier)} on the frontier", file=sys.stderr)
 
 # --- folder graph --------------------------------------------------------------
-# Lemmata/ holds about 150 folders of one theorem each: draw it as one box.
-def folder(n):
-    parts = info[n][2].split(".")
-    return parts[0] if parts[0] == "Lemmata" else ".".join(parts[:2])
+folder = lambda n: P["folder"](info[n][2])
 stats = collections.defaultdict(lambda: [0, 0, set()])
 for n in cone:
     s = stats[folder(n)]
@@ -105,20 +95,18 @@ for n in cone:
 links = {(folder(a), folder(n)) for n in cone for a in pred[n]}
 links = {(a, b) for a, b in links if a != b}
 
-COLOR = {"GroundTheory": "#d9f2d0", "Formalism": "#cfe8ff", "Lemmata": "#e3dcf5",
-         "Development": "#ffe0e0", "CompanionTheory": "#d5f0f0", "PositivityTheory": "#fff3c4",
-         "ReciprocityTheory": "#f5dcef", "Statements": "#eeeeee", "Main": "#ffd58a"}
+COLOR = P["color"]
 with open(os.path.join(out, "folders.tsv"), "w") as t:
     t.write("folder\ttheorems\tdefinitions\tmodules\n")
     for f in sorted(stats):
         t.write(f"{f}\t{stats[f][0]}\t{stats[f][1]}\t{len(stats[f][2])}\n")
-with open(os.path.join(out, "riemannHypothesis_folders.dot"), "w") as g:
+with open(os.path.join(out, f"{key}_folders.dot"), "w") as g:
     g.write("digraph G {\n  rankdir=LR;\n  ranksep=1.2; nodesep=0.2;\n")
     g.write('  node [fontname=Helvetica, fontsize=11, style="filled,rounded", shape=box];\n')
     g.write('  edge [color="#8a8a8a", arrowsize=0.6];\n')
     for f in sorted(stats):
         top_dir, _, rest = f.partition(".")
-        text = (f"{top_dir}/\\n{rest}" if rest else top_dir) + f"\\n{stats[f][0]:,} theorems"
+        text = (f"{top_dir}/\\n{rest.replace('.', '/')}" if rest else top_dir) + f"\\n{stats[f][0]:,} theorems"
         g.write(f'  "{f}" [fillcolor="{COLOR.get(top_dir, "#ffffff")}", label="{text}"];\n')
     for a, b in sorted(links):
         g.write(f'  "{a}" -> "{b}";\n')

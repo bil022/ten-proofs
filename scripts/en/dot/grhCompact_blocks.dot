@@ -1,0 +1,238 @@
+digraph G {
+	graph [nodesep=0.25,
+		rankdir=LR,
+		ranksep=0.8
+	];
+	node [fontname=Helvetica,
+		fontsize=11,
+		shape=box,
+		style="filled,rounded"
+	];
+	edge [arrowsize=0.6,
+		color="#8a8a8a"
+	];
+	"BaseLevel.exists_diagOp_mem_ellIntegralForms"	[fillcolor="#ffe0e0",
+		label="BaseLevel.exists_diagOp_mem_ellIntegralForms\n32 declarations"];
+	denominatorLe_rowBudget	[fillcolor="#ffe0e0",
+		label="denominatorLe_rowBudget\n95 declarations"];
+	"BaseLevel.exists_diagOp_mem_ellIntegralForms" -> denominatorLe_rowBudget;
+	"Columns.hasType_markOperator"	[fillcolor="#ffe0e0",
+		label="Columns.hasType_markOperator\n15 declarations"];
+	"Data.IsMarked.hasType_markOperator"	[fillcolor="#ffe0e0",
+		label="Data.IsMarked.hasType_markOperator\n7 declarations"];
+	"Columns.hasType_markOperator" -> "Data.IsMarked.hasType_markOperator";
+	"ComparedTheory.isGood_standard_etale"	[fillcolor="#cfe8ff",
+		label="ComparedTheory.isGood_standard_etale\n47 declarations"];
+	"ComparedTheory.mem_of_isClosedClass_of_isCharting"	[fillcolor="#cfe8ff",
+		label="ComparedTheory.mem_of_isClosedClass_of_isCharting\n6 declarations"];
+	"ComparedTheory.isGood_standard_etale" -> "ComparedTheory.mem_of_isClosedClass_of_isCharting";
+	"Model.exists_galois_rep"	[fillcolor="#cfe8ff",
+		label="Model.exists_galois_rep\n965 declarations"];
+	"ComparedTheory.mem_of_isClosedClass_of_isCharting" -> "Model.exists_galois_rep";
+	"Data.IsMarked.hasType_prod_markOperator_pow"	[fillcolor="#ffe0e0",
+		label="Data.IsMarked.hasType_prod_markOperator_pow\n5 declarations"];
+	"Data.IsMarked.hasType_markOperator" -> "Data.IsMarked.hasType_prod_markOperator_pow";
+	"Data.exists_indexDvd_Bmu_divisible"	[fillcolor="#ffe0e0",
+		label="Data.exists_indexDvd_Bmu_divisible\n108 declarations"];
+	"Data.IsMarked.hasType_prod_markOperator_pow" -> "Data.exists_indexDvd_Bmu_divisible";
+	"Data.crude_rows"	[fillcolor="#ffe0e0",
+		label="Data.crude_rows\n98 declarations"];
+	"Data.heightLe_volume_rows"	[fillcolor="#ffe0e0",
+		label="Data.heightLe_volume_rows\n5 declarations"];
+	"Data.crude_rows" -> "Data.heightLe_volume_rows";
+	"Data.eq_zero_of_integral_fNatural_tableTheta"	[fillcolor="#ffe0e0",
+		label="Data.eq_zero_of_integral_fNatural_tableTheta\n42 declarations"];
+	exists_comparison_forms	[fillcolor="#ffe0e0",
+		label="exists_comparison_forms\n145 declarations"];
+	"Data.eq_zero_of_integral_fNatural_tableTheta" -> exists_comparison_forms;
+	"Data.exists_besselSystem"	[fillcolor="#ffe0e0",
+		label="Data.exists_besselSystem\n38 declarations"];
+	star_inequality	[fillcolor="#ffe0e0",
+		label="star_inequality\n5,258 declarations"];
+	"Data.exists_besselSystem" -> star_inequality;
+	"Data.exists_family_covolumeSq_le"	[fillcolor="#ffe0e0",
+		label="Data.exists_family_covolumeSq_le\n49 declarations"];
+	"Data.exists_family_covolumeSq_le" -> star_inequality;
+	"Data.short_forms"	[fillcolor="#ffe0e0",
+		label="Data.short_forms\n27 declarations"];
+	"Data.exists_indexDvd_Bmu_divisible" -> "Data.short_forms";
+	"Data.exists_isAdmissibleComb_unfolding"	[fillcolor="#ffe0e0",
+		label="Data.exists_isAdmissibleComb_unfolding\n21 declarations"];
+	"Data.seesaw"	[fillcolor="#ffe0e0",
+		label="Data.seesaw\n198 declarations"];
+	"Data.exists_isAdmissibleComb_unfolding" -> "Data.seesaw";
+	"Data.exists_isTidy_integral_eq_gridPeriod"	[fillcolor="#ffe0e0",
+		label="Data.exists_isTidy_integral_eq_gridPeriod\n30 declarations"];
+	"Data.exists_isTidy_integral_eq_gridPeriod" -> "Data.crude_rows";
+	"Data.exists_stage_cut"	[fillcolor="#ffe0e0",
+		label="Data.exists_stage_cut\n28 declarations"];
+	"Data.exists_stage_cut" -> "Data.exists_isAdmissibleComb_unfolding";
+	"Data.gaugeLe_Bmu_at_N"	[fillcolor="#ffe0e0",
+		label="Data.gaugeLe_Bmu_at_N\n27 declarations"];
+	"Data.gaugeLe_Bmu_at_N" -> "Data.exists_indexDvd_Bmu_divisible";
+	"Data.heightLe_inv_heckeValueProd_div"	[fillcolor="#ffe0e0",
+		label="Data.heightLe_inv_heckeValueProd_div\n1 declarations"];
+	"Data.heightLe_liftVolume_ratio"	[fillcolor="#ffe0e0",
+		label="Data.heightLe_liftVolume_ratio\n61 declarations"];
+	"Data.heightLe_inv_heckeValueProd_div" -> "Data.heightLe_liftVolume_ratio";
+	"Data.heightLe_inv_ratio"	[fillcolor="#ffe0e0",
+		label="Data.heightLe_inv_ratio\n49 declarations"];
+	"Data.heightLe_inv_ratio" -> "Data.heightLe_inv_heckeValueProd_div";
+	"Data.heightLe_volume_ratio_sq"	[fillcolor="#ffe0e0",
+		label="Data.heightLe_volume_ratio_sq\n1 declarations"];
+	"Data.heightLe_liftVolume_ratio" -> "Data.heightLe_volume_ratio_sq";
+	"Data.integral_forms_long"	[fillcolor="#ffe0e0",
+		label="Data.integral_forms_long\n127 declarations"];
+	"Data.heightLe_volume_ratio_sq" -> "Data.integral_forms_long";
+	"Data.heightLe_volume_rows" -> "Data.integral_forms_long";
+	"Data.integral_forms_long" -> star_inequality;
+	"Data.ramifiedColumns_fill_rows"	[fillcolor="#ffe0e0",
+		label="Data.ramifiedColumns_fill_rows\n12 declarations"];
+	"Data.ramifiedColumns_fill_rows" -> star_inequality;
+	"Data.seesaw" -> "Data.exists_family_covolumeSq_le";
+	"Data.short_forms" -> "Data.exists_family_covolumeSq_le";
+	"Filling.Fits.exists_translate_finrank_comap_le"	[fillcolor="#ffe0e0",
+		label="Filling.Fits.exists_translate_finrank_comap_le\n116 declarations"];
+	"Filling.Fits.exists_translate_finrank_comap_le" -> "Data.ramifiedColumns_fill_rows";
+	"Filling.energy_fixingSet_le"	[fillcolor="#ffe0e0",
+		label="Filling.energy_fixingSet_le\n48 declarations"];
+	"Filling.sum_le_of_positive_type"	[fillcolor="#ffe0e0",
+		label="Filling.sum_le_of_positive_type\n3 declarations"];
+	"Filling.energy_fixingSet_le" -> "Filling.sum_le_of_positive_type";
+	"Filling.energy_le_of_level_pairs"	[fillcolor="#ffe0e0",
+		label="Filling.energy_le_of_level_pairs\n88 declarations"];
+	"Filling.energy_le_of_linkEnergy_le"	[fillcolor="#ffe0e0",
+		label="Filling.energy_le_of_linkEnergy_le\n28 declarations"];
+	"Filling.energy_le_of_level_pairs" -> "Filling.energy_le_of_linkEnergy_le";
+	"Filling.energy_le_of_linkEnergy_le" -> "Filling.Fits.exists_translate_finrank_comap_le";
+	"Filling.enorm_amplitudeSum_le_classSize"	[fillcolor="#ffe0e0",
+		label="Filling.enorm_amplitudeSum_le_classSize\n49 declarations"];
+	"Filling.enorm_amplitudeSum_le_classSize" -> "Filling.energy_le_of_level_pairs";
+	"Filling.sieve"	[fillcolor="#ffe0e0",
+		label="Filling.sieve\n20 declarations"];
+	"Filling.sieve" -> "Filling.energy_fixingSet_le";
+	"Filling.sum_le_of_positive_type" -> "Filling.Fits.exists_translate_finrank_comap_le";
+	"IsEquivariantLift.apply_stdColDatum_eq_zero"	[fillcolor="#ffe0e0",
+		label="IsEquivariantLift.apply_stdColDatum_eq_zero\n29 declarations"];
+	stdExchange_of_periods	[fillcolor="#ffe0e0",
+		label="stdExchange_of_periods\n10 declarations"];
+	"IsEquivariantLift.apply_stdColDatum_eq_zero" -> stdExchange_of_periods;
+	"IsProperOver.proper_base_change"	[fillcolor="#cfe8ff",
+		label="IsProperOver.proper_base_change\n54 declarations"];
+	"IsProperOver.proper_base_change" -> "Model.exists_galois_rep";
+	"IsTwoFactor.laplace_method"	[fillcolor="#ffe0e0",
+		label="IsTwoFactor.laplace_method\n36 declarations"];
+	"IsTwoFactor.laplace_method" -> star_inequality;
+	"Lift.KummerChart.PairingSide.SidePairing.scaledCupBounds_of_points_at_cuts"	[fillcolor="#ffe0e0",
+		label="Lift.KummerChart.PairingSide.SidePairing.scaledCupBounds_of_points_at_cuts\n31 declarations"];
+	block_defect_le_at_place	[fillcolor="#ffe0e0",
+		label="block_defect_le_at_place\n304 declarations"];
+	"Lift.KummerChart.PairingSide.SidePairing.scaledCupBounds_of_points_at_cuts" -> block_defect_le_at_place;
+	"Main.lean"	[fillcolor="#ffd58a",
+		label="Main.lean\n18 declarations"];
+	exists_rep_of_cuspidal_type	[fillcolor="#cfe8ff",
+		label="exists_rep_of_cuspidal_type\n707 declarations"];
+	"Model.exists_galois_rep" -> exists_rep_of_cuspidal_type;
+	"New.grh"	[fillcolor="#ffe0e0",
+		label="New.grh\n67 declarations"];
+	"New.grh" -> "Main.lean";
+	"Orbital.harish_chandra_degree_and_orbital"	[fillcolor="#cfe8ff",
+		label="Orbital.harish_chandra_degree_and_orbital\n46 declarations"];
+	"Orbital.harish_chandra_degree_and_orbital" -> star_inequality;
+	"ThetaTorus.hasGoodReduction_and_val_card_eq_one"	[fillcolor="#cfe8ff",
+		label="ThetaTorus.hasGoodReduction_and_val_card_eq_one\n3 declarations"];
+	nonempty_universalFamily	[fillcolor="#cfe8ff",
+		label="nonempty_universalFamily\n91 declarations"];
+	"ThetaTorus.hasGoodReduction_and_val_card_eq_one" -> nonempty_universalFamily;
+	"TwistingData.hasType_twisted_hecke"	[fillcolor="#ffe0e0",
+		label="TwistingData.hasType_twisted_hecke\n86 declarations"];
+	"TwistingData.hasType_twisted_hecke" -> "Columns.hasType_markOperator";
+	sum_blockLoss_le	[fillcolor="#ffe0e0",
+		label="sum_blockLoss_le\n46 declarations"];
+	block_defect_le_at_place -> sum_blockLoss_le;
+	crystalline_defect_le	[fillcolor="#ffe0e0",
+		label="crystalline_defect_le\n23 declarations"];
+	crystalline_defect_le -> block_defect_le_at_place;
+	exists_isFitFamily	[fillcolor="#ffe0e0",
+		label="exists_isFitFamily\n304 declarations"];
+	denominatorLe_rowBudget -> exists_isFitFamily;
+	"ellAdicCohom.isCrystalline_and_linearFrob_rel"	[fillcolor="#cfe8ff",
+		label="ellAdicCohom.isCrystalline_and_linearFrob_rel\n29 declarations"];
+	"ellAdicCohom.isCrystalline_and_linearFrob_rel" -> "Model.exists_galois_rep";
+	"ellAdicCohom.woods_hole"	[fillcolor="#cfe8ff",
+		label="ellAdicCohom.woods_hole\n102 declarations"];
+	"ellAdicCohom.woods_hole" -> "Model.exists_galois_rep";
+	eventually_primeError_le_rpow	[fillcolor="#ffe0e0",
+		label="eventually_primeError_le_rpow\n1,853 declarations"];
+	eventually_primeError_le_rpow -> "New.grh";
+	exchange_theorem	[fillcolor="#ffe0e0",
+		label="exchange_theorem\n214 declarations"];
+	exchange_theorem -> star_inequality;
+	exists_anticyclotomic_twist	[fillcolor="#ffe0e0",
+		label="exists_anticyclotomic_twist\n58 declarations"];
+	exists_mFoldTwist_selmerLengthLe	[fillcolor="#ffe0e0",
+		label="exists_mFoldTwist_selmerLengthLe\n25 declarations"];
+	exists_anticyclotomic_twist -> exists_mFoldTwist_selmerLengthLe;
+	exists_comparison_forms -> "Data.heightLe_liftVolume_ratio";
+	exists_isFitFamily -> "Data.integral_forms_long";
+	exists_isWeakBaseChange_of_matching	[fillcolor="#cfe8ff",
+		label="exists_isWeakBaseChange_of_matching\n35 declarations"];
+	exists_isWeakBaseChange_of_matching -> star_inequality;
+	exists_length_shaOdd_le	[fillcolor="#cfe8ff",
+		label="exists_length_shaOdd_le\n40 declarations"];
+	exists_length_shaOdd_le -> exists_isFitFamily;
+	exists_mFoldTwist_selmerLengthLe -> exists_isFitFamily;
+	exists_model	[fillcolor="#cfe8ff",
+		label="exists_model\n54 declarations"];
+	exists_model -> exists_rep_of_cuspidal_type;
+	exists_occursInWeight	[fillcolor="#cfe8ff",
+		label="exists_occursInWeight\n26 declarations"];
+	exists_occursInWeight -> exists_rep_of_cuspidal_type;
+	sphericalCompat_of_split	[fillcolor="#cfe8ff",
+		label="sphericalCompat_of_split\n27 declarations"];
+	exists_rep_of_cuspidal_type -> sphericalCompat_of_split;
+	exists_thetaFamily_of_points	[fillcolor="#cfe8ff",
+		label="exists_thetaFamily_of_points\n26 declarations"];
+	exists_thetaFamily_of_points -> nonempty_universalFamily;
+	hasBandLimits_of_isCutBessel	[fillcolor="#ffe0e0",
+		label="hasBandLimits_of_isCutBessel\n60 declarations"];
+	hasBandLimits_of_isCutBessel -> "Data.exists_besselSystem";
+	hasCrysComparison_chart	[fillcolor="#cfe8ff",
+		label="hasCrysComparison_chart\n37 declarations"];
+	span_range_crysComparison_pull_eq_top	[fillcolor="#cfe8ff",
+		label="span_range_crysComparison_pull_eq_top\n11 declarations"];
+	hasCrysComparison_chart -> span_range_crysComparison_pull_eq_top;
+	hasMultiplicativeNorm_of_expanding	[fillcolor="#cfe8ff",
+		label="hasMultiplicativeNorm_of_expanding\n51 declarations"];
+	hasMultiplicativeNorm_of_expanding -> "ThetaTorus.hasGoodReduction_and_val_card_eq_one";
+	isAcyclicAt_almostCoeff	[fillcolor="#cfe8ff",
+		label="isAcyclicAt_almostCoeff\n2 declarations"];
+	isAcyclicAt_almostCoeff -> "Model.exists_galois_rep";
+	isAcyclicAt_perfectTilt	[fillcolor="#cfe8ff",
+		label="isAcyclicAt_perfectTilt\n22 declarations"];
+	isAcyclicAt_perfectTilt -> isAcyclicAt_almostCoeff;
+	isEdge_of_isJointHarmonic	[fillcolor="#cfe8ff",
+		label="isEdge_of_isJointHarmonic\n3 declarations"];
+	isEdge_of_isJointHarmonic -> star_inequality;
+	isHalfEdge_of_oscillatorPair	[fillcolor="#cfe8ff",
+		label="isHalfEdge_of_oscillatorPair\n34 declarations"];
+	isHalfEdge_of_oscillatorPair -> isEdge_of_isJointHarmonic;
+	linearIndepOn_hodgeTateMap_pointClass	[fillcolor="#cfe8ff",
+		label="linearIndepOn_hodgeTateMap_pointClass\n61 declarations"];
+	linearIndepOn_hodgeTateMap_pointClass -> "ellAdicCohom.woods_hole";
+	nonempty_universalFamily -> exists_rep_of_cuspidal_type;
+	ribet_columns	[fillcolor="#ffe0e0",
+		label="ribet_columns\n37 declarations"];
+	ribet_columns -> denominatorLe_rowBudget;
+	span_range_crysComparison_pull_eq_top -> "ellAdicCohom.isCrystalline_and_linearFrob_rel";
+	sphericalCompat_of_odd	[fillcolor="#cfe8ff",
+		label="sphericalCompat_of_odd\n2 declarations"];
+	sphericalCompat_of_odd -> star_inequality;
+	sphericalCompat_of_split -> sphericalCompat_of_odd;
+	star_inequality -> eventually_primeError_le_rpow;
+	stdExchange_of_periods -> exchange_theorem;
+	sum_blockLoss_le -> ribet_columns;
+	tangent_bound	[fillcolor="#cfe8ff",
+		label="tangent_bound\n20 declarations"];
+	tangent_bound -> nonempty_universalFamily;
+}
