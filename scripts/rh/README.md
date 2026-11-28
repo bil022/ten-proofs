@@ -34,6 +34,51 @@ using only the axioms `propext`, `Classical.choice` and `Quot.sound`:
 The compact edition is about 150 times shorter than the first proof, and its
 proof needs 58 times fewer declarations.
 
+## About the proof
+
+What is known about how the proof works and how it was found comes from a
+four-page note by Levent Alpöge, <https://alpo.ge/remark.pdf>. It is not a
+paper. In summary:
+
+- **The claim.** "I believe I have, working with Claude, discovered a proof of
+  the Riemann Hypothesis." The method also gives GRH, and he expects it to
+  reach the Extended Riemann Hypothesis. The argument is formalized in Lean
+  "without assumptions"; the first proof above is that formalization.
+- **The idea, in outline.** The proof descends from Stepanov's method, which
+  proves the Riemann Hypothesis over function fields with an auxiliary divisor
+  of high multiplicity. Over the integers multiplicity is hard to find
+  ("something like differentiating whole numbers"). Here it is imitated by a
+  chain of theta lifts, each lift adding one to the multiplicity. For a von
+  Mangoldt sum of length X the chain has length √X, a choice he credits to
+  Claude.
+- **A timeline of 20 steps**, from 6 October 2026 (the "Stepanov determinant")
+  to 16 November 2026 (GRH), names the main ingredients: the Guinand–Weil
+  explicit formula, CM curves, iterated theta lifts between totally definite
+  unitary groups, Chowla–Selberg and the Siegel mass formula, the seesaw
+  identity, the Bost slope inequality, an Iwasawa tower, a relative trace
+  formula, a weak form of Vandiver's conjecture, and Behrend's construction.
+  The timeline was written by Claude and is very compressed. Where Claude was
+  the expert, he says, he is paraphrasing its summary, which "might make zero
+  sense".
+- **Who did what.** He combined two ideas from a toy setting and led the work
+  to the analogous situation for the integers; after that Claude "far
+  outpaced me near the finish line", with "tens" of steps like the √X one. He
+  says he has little mastery of automorphic forms on higher rank groups. The
+  note does not say which tools, models or workflow were used.
+- **Why only Lean.** Claude also wrote a human-readable version of more than
+  250,000 pages. He judged it unreadable and published only the Lean code. He
+  writes that he has not yet mastered the mathematics around the argument,
+  expects it to be greatly simplified soon, and intends to write it up
+  properly.
+- **Checking.** The note mentions no referee and no mathematician who has read
+  the argument through; the few mathematicians he consulted advised on how to
+  announce it.
+
+So the result is public and machine-checked, the mathematical route is known
+only in outline, and how it was found is described only in general terms. The
+two rewrites in lsernau/grh-lean came later, made by people at Anthropic with
+Claude; their README does not say how either.
+
 ## Why three small graphs instead of one big one
 
 Each of the ten proofs in this repository is one Lean file. Even the compact

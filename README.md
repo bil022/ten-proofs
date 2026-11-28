@@ -130,6 +130,10 @@ open the explorer website (it opens on the compact edition; switch proofs in the
 What the boxes and colours mean, and how to regenerate: [scripts/rh/README.md](scripts/rh/README.md).
 方框和颜色的含义、如何重新生成：[scripts/rh/README.zh.md](scripts/rh/README.zh.md)。
 
+What is known about how the proof works and how it was found, from Levent Alpöge's note:
+[About the proof](scripts/rh/README.md#about-the-proof).
+证明的思路和它是怎么找到的（根据 Levent Alpöge 的说明）：[关于这个证明](scripts/rh/README.zh.md#关于这个证明)。
+
 ### Explanations of the proofs · 证明讲解
 
 The Lean files have no comments, so these write-ups explain what each proof does.
