@@ -104,16 +104,18 @@ const fill = (n) => RAMP[binOf(n)];
 const textOn = (n) => (binOf(n) >= 4 ? "#ffffff" : "#1a1a19");
 const LEGEND = ["1", "2–9", "10–99", "100–999", "1k–9.9k", "10k–99k", "≥100k"];
 
-// The proofs, in menu order. The first is shown when the address names none, so
-// links made before the others were added still work.
-const PROOFS = ["riemannHypothesis", "grh", "grhCompact"];
-let proof = PROOFS[0];
+// The proofs, in menu order. The site opens on the compact edition. Addresses of
+// the first proof carry no proof name (#123), as before the others were added,
+// so links made then still work; the others start with their name (#grh/123).
+const PROOFS = ["grhCompact", "grh", "riemannHypothesis"];
+const DEFAULT = "grhCompact", UNNAMED = "riemannHypothesis";
+let proof = DEFAULT;
 let META = null;
 const shardCache = new Map();
 let names = null;
 const repoLabel = (m) => m.src === "src" ? m.repo : `${m.repo}/${m.src.replace(/\/src$/, "")}`;
 // The address of a page (and of a part selected on it) in the current proof.
-const hashOf = (id, sel = null) => "#" + (proof === PROOFS[0] ? "" : proof + "/") + id + (sel !== null ? ":" + sel : "");
+const hashOf = (id, sel = null) => "#" + (proof === UNNAMED ? "" : proof + "/") + id + (sel !== null ? ":" + sel : "");
 let current = null;   // { id, page }
 let selected = null;  // node id
 let sortKey = "size", shownRows = 300;
@@ -384,10 +386,12 @@ async function go(id, sel = null) {
   }
 }
 
-// "#grh/12:34" is page 12 of grh with part 34 selected; "#12" is page 12 of the first proof.
+// "#grh/12:34" is page 12 of grh with part 34 selected; "#12" is page 12 of the
+// first proof; no address at all is the top of the compact edition.
 function proofOfHash() {
   const h = location.hash.slice(1), i = h.indexOf("/");
-  return i > 0 && PROOFS.includes(h.slice(0, i)) ? h.slice(0, i) : PROOFS[0];
+  if (!h) return DEFAULT;
+  return i > 0 && PROOFS.includes(h.slice(0, i)) ? h.slice(0, i) : UNNAMED;
 }
 
 // Switch to another proof: its pages, names and totals replace the current ones.
@@ -661,7 +665,7 @@ async function main() {
   setupGraph();
   $("lang").onclick = () => { lang = lang === "zh" ? "en" : "zh"; localStorage.setItem("rh-lang", lang); applyLang(); };
   $("help").onclick = () => $("about").showModal();
-  $("proof").onchange = () => { const k = $("proof").value; location.hash = k === PROOFS[0] ? "#0" : `#${k}/0`; };
+  $("proof").onchange = () => { const k = $("proof").value; location.hash = k === UNNAMED ? "#0" : `#${k}/0`; };
   $("codeClose").onclick = hideCode;
   $("groupChipClear").onclick = () => { groupFilter = null; renderSide(); };
   $("allEdges").onchange = drawGraph;

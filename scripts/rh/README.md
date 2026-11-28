@@ -153,8 +153,9 @@ at blocks of at least `N` declarations instead.
 [`site/`](site/) is a small website for going through a whole proof level by
 level, on the same tree as the block graph but without a size cut-off: every
 declaration with anything that belongs to it has its own page (173,224 pages
-for the first proof, 3,936 for `grh`, 772 for `grh-compact`). The menu at the
-top left switches between the three proofs. Addresses without a proof name
+for the first proof, 3,936 for `grh`, 772 for `grh-compact`). It opens on the
+compact edition; the menu at the top left switches between the three proofs.
+Addresses without a proof name
 (`#123`) are pages of the first proof, so earlier links still work; the others
 start with the proof's name (`#grhCompact/123`). It is published at <https://bil022.github.io/riemann-explorer/> from the
 repository [bil022/riemann-explorer](https://github.com/bil022/riemann-explorer);

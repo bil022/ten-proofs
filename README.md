@@ -122,9 +122,9 @@ self-contained blocks (sub-proofs together with the lemmas only they use).
 | `grh-compact`, blocks · 独立块 | 75 blocks · 块 | [SVG](scripts/en/svg/grhCompact_blocks.svg) · [PDF](scripts/en/pdf/grhCompact_blocks.pdf) · [PNG](scripts/en/png/grhCompact_blocks.png) | [SVG](scripts/zh/svg/grhCompact_blocks.zh.svg) · [PDF](scripts/zh/pdf/grhCompact_blocks.zh.pdf) · [PNG](scripts/zh/png/grhCompact_blocks.zh.png) |
 
 To go through any of the three proofs level by level, with the Lean code of every part,
-open the explorer website (switch proofs in the menu at the top left): **<https://bil022.github.io/riemann-explorer/>**
+open the explorer website (it opens on the compact edition; switch proofs in the menu at the top left): **<https://bil022.github.io/riemann-explorer/>**
 (source in [`scripts/rh/site/`](scripts/rh/site/)).
-可以一层层点进去浏览三个证明中的任何一个、并查看每一部分 Lean 代码的网站（左上角菜单切换证明）：
+可以一层层点进去浏览三个证明中的任何一个、并查看每一部分 Lean 代码的网站（默认打开紧凑版，左上角菜单切换证明）：
 **<https://bil022.github.io/riemann-explorer/>**（源码在 [`scripts/rh/site/`](scripts/rh/site/)）。
 
 What the boxes and colours mean, and how to regenerate: [scripts/rh/README.md](scripts/rh/README.md).
